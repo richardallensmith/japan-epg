@@ -81,23 +81,23 @@ tests/                  offline unit tests
 .github/workflows/      prepared six-hour refresh workflow
 ```
 
-## GitHub Pages (prepared, not enabled)
+## Published GitHub Pages feed
 
-`.github/workflows/update-epg.yml` runs tests and rebuilds the feed every six hours once this project is pushed to a repository. Its deploy job is additionally gated by the repository variable:
+The player-ready feed is published at:
+
+```text
+https://richardallensmith.github.io/japan-epg/epg.xml
+```
+
+Repository: <https://github.com/richardallensmith/japan-epg>
+
+`.github/workflows/update-epg.yml` runs tests, fetches current listings, validates the XML, and republishes the feed every six hours. GitHub Pages uses enforced HTTPS. The deploy job remains gated by the repository variable below so publication can be paused without deleting the workflow:
 
 ```text
 ENABLE_PAGES_PUBLISH=true
 ```
 
-Until that variable is explicitly set, the workflow can build an artifact but cannot deploy GitHub Pages. No repository has been created, pushed, or published by this project setup.
-
-After an owner/repository is chosen and Pages deployment is explicitly enabled, the player-ready URL will be:
-
-```text
-https://OWNER.github.io/REPOSITORY/epg.xml
-```
-
-Use that URL directly as an EPG source in TiviMate or Sparkle.
+Use the published `epg.xml` URL directly as an EPG source in TiviMate or Sparkle.
 
 ## Expansion
 
