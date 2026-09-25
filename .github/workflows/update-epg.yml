@@ -28,9 +28,9 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: cache/translations.json
-          key: translations-${{ runner.os }}-${{ github.run_id }}
+          key: translations-${{ runner.os }}-${{ hashFiles('cache/translations.json') }}-${{ github.run_id }}
           restore-keys: |
-            translations-${{ runner.os }}-
+            translations-${{ runner.os }}-${{ hashFiles('cache/translations.json') }}-
       - name: Run tests
         run: python -m unittest discover -v
       - name: Build and validate feed
@@ -41,7 +41,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: cache/translations.json
-          key: translations-${{ runner.os }}-${{ github.run_id }}
+          key: translations-${{ runner.os }}-${{ hashFiles('cache/translations.json') }}-${{ github.run_id }}
       - name: Prepare Pages artifact
         run: |
           mkdir -p _site
