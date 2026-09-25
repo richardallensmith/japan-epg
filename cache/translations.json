@@ -1,0 +1,1385 @@
+{
+  "version": 1,
+  "entries": {
+    "7dea397b720d073df0b8576b78b3e32254f7ca9cd2f6f87b254e2cf55eb95013": {
+      "kind": "title",
+      "source": "病院ラジオ　埼玉県立がんセンター編▼サンドウィッチマン",
+      "translation": "Hospital Radio Saitama Prefectural Cancer Center▼ Sandwich Man",
+      "provider": "MyMemory"
+    },
+    "610f7af1528a00a1a58555c6d0c2857edad85076f8425c1be4aa7ab20e44ba18": {
+      "kind": "description-excerpt",
+      "source": "サンドウィッチマンが訪れるのは埼玉県立がんセンター。",
+      "translation": "The Sandwich Man visits the Saitama Prefectural Cancer Center.",
+      "provider": "MyMemory"
+    },
+    "57b7f65aa3b1d3b2aec0881e78b32933fd7048f23890421b516bd698caed52bc": {
+      "kind": "description",
+      "source": "サンドウィッチマンが訪れるのは埼玉県立がんセンター。がん先進医療の拠点で患者さんや家族の日ごろ言えない思いに触れる▼乳がんになって実感した女の友情▼抗がん剤の治療でおしっこ大会？▼治療の副作用で外見はボロボロ…それでも感じる心の豊かさ▼子宮を全摘し患者の気持ちを痛感した看護師▼謎の高熱で白血病が判明▼小笠原に波照間島…治療も旅行も全力で▼残りの日々を夫と穏やかに過ごしたい…ほか",
+      "translation": "The Sandwich Man visits the Saitama Prefectural Cancer Center.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "cfb130fb4f99003bbb3cfa59caecb278d905a181691137b3cbd56b970e0c8cb2": {
+      "kind": "genre",
+      "source": "ドキュメンタリー/教養",
+      "translation": "Documentary/Liberal Arts",
+      "provider": "MyMemory"
+    },
+    "895d032e71b3322550f1d58ed04a2ef7ffe125d75ca3ccf8547f3a29d8a5cf37": {
+      "kind": "genre",
+      "source": "ドキュメンタリー全般",
+      "translation": "General Documentary",
+      "provider": "MyMemory"
+    },
+    "51ea7b10c77e6a4447e5177a82ff6de33461877084f415346be5473378649ad8": {
+      "kind": "genre",
+      "source": "宇宙・科学・医学",
+      "translation": "Space/Science/Medicine",
+      "provider": "MyMemory"
+    },
+    "a83bec0dfdb85bdc0e61746dcb92185a829aaf1a9701fea310a0a05ba8b55a66": {
+      "kind": "genre",
+      "source": "インタビュー・討論",
+      "translation": "Interview/Discussion",
+      "provider": "MyMemory"
+    },
+    "e6f62cd30e5d981f532721414af6f8be38227f2f660452d307a30a243b1bf94d": {
+      "kind": "title-fragment",
+      "source": "ＰＲ　病への挑戦　第２集　うつ病　克服へのカギ",
+      "translation": "The Challenge of PR Disease Episode 2: The Key to Overcoming Depression",
+      "provider": "MyMemory"
+    },
+    "d70cc1ccfc03e16bf7fa1ed49a83498627c01fe3232dbc7fc5b9ae6c790cd394": {
+      "kind": "title",
+      "source": "ＮＨＫスペシャルＰＲ　病への挑戦　第２集　うつ病　克服へのカギ",
+      "translation": "NHK Special: The Challenge of PR Disease Episode 2: The Key to Overcoming Depression",
+      "provider": "mapping+MyMemory"
+    },
+    "8ecdd8e5e2ba2864624bf373b473ace3d0a0f0edcac4fa3f0d15177149ed780b": {
+      "kind": "description-excerpt",
+      "source": "ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。",
+      "translation": "A PR program that summarizes the highlights of the NHK Special.",
+      "provider": "MyMemory"
+    },
+    "eff7d77862950c082fc7ba0dea6d199bfeaf5036afe91b13267eb60f86de93c4": {
+      "kind": "description",
+      "source": "ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。今回は９月２７日放送の『病への挑戦　第２集　うつ病　克服へのカギ』。",
+      "translation": "A PR program that summarizes the highlights of the NHK Special.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "cf5928b3c9f77ee156acddd15a67935d4992d5a9d1427c69aae236c29aef90f5": {
+      "kind": "genre",
+      "source": "その他",
+      "translation": "Other",
+      "provider": "MyMemory"
+    },
+    "5f2b502a4eedde3f59df39b0beff38a31338d23ac705fd0be917ae50d67a607f": {
+      "kind": "title-fragment",
+      "source": "「ブラッサム」ＰＲ",
+      "translation": "Blatham PR",
+      "provider": "MyMemory"
+    },
+    "5dd8058987da826f67aae0bbd606b8e55cd975c97e115b8c827e6c1463025f64": {
+      "kind": "title",
+      "source": "連続テレビ小説「ブラッサム」ＰＲ",
+      "translation": "Serial TV Novel: Blatham PR",
+      "provider": "mapping+MyMemory"
+    },
+    "930819c7017d38ec6a9f406636a629c5bb532c9efbab87cb20c79e35376eb4a8": {
+      "kind": "description-excerpt",
+      "source": "２８日に新しく始まる朝ドラ「ブラッサム」の見どころをひと足早くお届け。",
+      "translation": "Quickly deliver the highlights of the new morning drama \"Blatham\" that will begin on the 28th.",
+      "provider": "MyMemory"
+    },
+    "5a7112dac15d950aba12fb024480d87f10d644c57cc9d02eb90129ed0393d653": {
+      "kind": "description",
+      "source": "２８日に新しく始まる朝ドラ「ブラッサム」の見どころをひと足早くお届け。主演の石橋静河さんをはじめ、キャスト陣の熱い思いに迫る特別番組。「ちゅらさん」以来、２５年ぶりの朝ドラ出演となる国仲涼子さんに、朝ドラ初出演の渡部篤郎さんといった、魅力的な登場人物たちのドラマ初公開映像が盛りだくさん。",
+      "translation": "Quickly deliver the highlights of the new morning drama \"Blatham\" that will begin on the 28th.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "94519e88d0b1f18b54ecb670fc82671c54d6e9d900504ae57a50af41b26f2532": {
+      "kind": "genre",
+      "source": "情報/ワイドショー",
+      "translation": "Info/Wideshow",
+      "provider": "MyMemory"
+    },
+    "594a2fa18667b6dba77de1b1f2a1036fa6d77d5ed218763df7585e8e0c575c07": {
+      "kind": "genre",
+      "source": "番組紹介・お知らせ",
+      "translation": "Shows & Announcements",
+      "provider": "MyMemory"
+    },
+    "58e6dbbda84e7d1eb8d7e336850cb9d2f9fa440bf6e218a10f769a00514bd7d5": {
+      "kind": "genre",
+      "source": "国内ドラマ",
+      "translation": "Domestic Drama",
+      "provider": "MyMemory"
+    },
+    "dbedc556828eea940618c3b3f7aa0b9ef2319d7bd3fcdc1eb1c3b3d07c371f17": {
+      "kind": "title",
+      "source": "ＳＬタイムマシン　１分ＰＲ",
+      "translation": "SL time machine 1 minute PR",
+      "provider": "MyMemory"
+    },
+    "1cad19631bf0c42b4087c10ae08e45e8762af9c6e58cc2e2b0b8ece40ac5f20a": {
+      "kind": "description-excerpt",
+      "source": "総合テレビで１０月１２日（月・祝）夜７時半から放送の「ＳＬタイムマシン」の１分ＰＲ版。",
+      "translation": "1-minute PR version of \"SL Time Machine\" broadcast on General TV from 7:30 pm on Monday, October 12.",
+      "provider": "MyMemory"
+    },
+    "fc681e17cc3a0c44edb6b1eb15ee6e707a3b3236138abf4e7ea225d9471a0927": {
+      "kind": "description",
+      "source": "総合テレビで１０月１２日（月・祝）夜７時半から放送の「ＳＬタイムマシン」の１分ＰＲ版。今、ＳＬの人気が高まっている。美しい日本の風景を眺めながら、レトロなＳＬの旅をゆったりと楽しめる。その人気の原点を求めて、“ＳＬタイムマシン”で時空をひとっ飛び！すると、１９６０年代後半～７５年頃のＳＬ大ブームを発見！ＳＬはなぜ、人々の心を惹きつけ続けるのか？時空を超える旅へ、ようこそ！",
+      "translation": "1-minute PR version of \"SL Time Machine\" broadcast on General TV from 7:30 pm on Monday, October 12.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "ada94fea19220d01dca61ea15b90c06cb17801c006f60be8da1653b4e5035ff7": {
+      "kind": "genre",
+      "source": "歴史・紀行",
+      "translation": "History & Journeys",
+      "provider": "MyMemory"
+    },
+    "06d79dd9b5007713cf2ae49f664765c34d7f81e99fa05ccd0114d86a5eb7cc0e": {
+      "kind": "title",
+      "source": "ヨーロッパ　トラムの旅「セルビア　ベオグラード」",
+      "translation": "Belgrade, Serbia - European Tram Tour",
+      "provider": "MyMemory"
+    },
+    "dfd8b6b700f12498321408cc5e212732097723d716278fe2d12e854a57e3ae1f": {
+      "kind": "description-excerpt",
+      "source": "欧州各地の都市を走る路面電車・トラム。どこか懐かしくレトロなたたずまいは、旅人をひきつけて止まな…",
+      "translation": "Trams and trams run through cities across Europe. A nostalgic and retro look can't stop attracting travelers...",
+      "provider": "MyMemory"
+    },
+    "a303dfaeee51d3cad021fb826d3de922163a9a3b33d29a1195bad8b1a9ae6352": {
+      "kind": "description",
+      "source": "欧州各地の都市を走る路面電車・トラム。どこか懐かしくレトロなたたずまいは、旅人をひきつけて止まない。街の中心部を走るので、名所巡りも車窓から楽しめる。トラムを乗りこなせれば街の観光は楽々。ヨーロッパにはトラムで巡りたくなる素敵（すてき）な街があふれている。あたかもトラムに乗っているかのような感覚で、車窓を楽しむリアル・トラム体験。今回は、セルビア・ベオグラードを旅する。",
+      "translation": "Trams and trams run through cities across Europe. A nostalgic and retro look can't stop attracting travelers...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "feda6b1324d484cb45b1370de34f92bdbffe5ffc9da639a64516927f211e2b79": {
+      "kind": "genre",
+      "source": "趣味/教育",
+      "translation": "Hobbies/Education",
+      "provider": "MyMemory"
+    },
+    "af091847c19ff3b0fb3402f31e45401ec3055dcdc312059856e34080ea47fd69": {
+      "kind": "genre",
+      "source": "旅・釣り・アウトドア",
+      "translation": "Travel, Fishing, Outdoors",
+      "provider": "MyMemory"
+    },
+    "e441003cd5eae9130d77bc992140cb1f845764e91a436af084aa59737e6c33ef": {
+      "kind": "title",
+      "source": "魂のタキ火「特別編　癒やしの炎」",
+      "translation": "Soul Taki Fire \"Special Healing Flame\"",
+      "provider": "MyMemory"
+    },
+    "a940855d532a444ee7eb20cc0dd98baf9cc11a99568d70d3d95aba43fce8d130": {
+      "kind": "description-excerpt",
+      "source": "炎に照らし出されたゲストたちの素顔のトークとともにお送りする「魂のタキ火」。",
+      "translation": "\"Taki fire of the soul\" is sent with a talk of the guests' faces illuminated by the flames.",
+      "provider": "MyMemory"
+    },
+    "1a7d03a9432923a066fa0e6c99534eddc70b69cc32a0e1f58944b518eaf9864f": {
+      "kind": "description",
+      "source": "炎に照らし出されたゲストたちの素顔のトークとともにお送りする「魂のタキ火」。時に都会の片隅で、時に自然の中で。今までの放送の中から、美しい炎の映像を中心にお送りします。どうぞ、心を開放する、穏やかなひとときを。",
+      "translation": "\"Taki fire of the soul\" is sent with a talk of the guests' faces illuminated by the flames.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "d0d7520fc760e6ceb0bdfecf76bb4f4048fd3790e3a792fe8f149b8a58fd6df6": {
+      "kind": "title-fragment",
+      "source": "（２０２６年）　幕内の全取組　秋場所　十三日目",
+      "translation": "(2026) All Initiatives in the Shogunate Autumn Place Day 13",
+      "provider": "MyMemory"
+    },
+    "76953aeaa89747ec21d673dd7a591393ae047cdd8abc6aa3a31956612c686cdb": {
+      "kind": "title",
+      "source": "大相撲（２０２６年）　幕内の全取組　秋場所　十三日目",
+      "translation": "Grand Sumo: (2026) All Initiatives in the Shogunate Autumn Place Day 13",
+      "provider": "mapping+MyMemory"
+    },
+    "311027ef32f05a0d25bcc6851612fa2f6d66f32b5ad2378eaebaa4e7d58b64d6": {
+      "kind": "genre",
+      "source": "相撲・格闘技",
+      "translation": "Sumo and martial arts",
+      "provider": "MyMemory"
+    },
+    "d8c8c043de8f5dcc07b8c68765812b5f120917c2d9a8d72b3d9f1e10472bbcb8": {
+      "kind": "genre",
+      "source": "スポーツニュース",
+      "translation": "Sports News",
+      "provider": "MyMemory"
+    },
+    "58370da71663e18b679c0996bf4aecf33e214a1c02b7745271aaf375c059edbb": {
+      "kind": "genre",
+      "source": "カルチャー・伝統文化",
+      "translation": "Culture & Traditional Culture",
+      "provider": "MyMemory"
+    },
+    "ff9e24958b205f16f6e00b9e918c6ab9286a8b8b4b933229e6cd24fc1162370f": {
+      "kind": "title",
+      "source": "ハロー！ＮＨＫワールドＪＡＰＡＮ",
+      "translation": "Hello! NHK World Japan",
+      "provider": "MyMemory"
+    },
+    "eb82171a3cd1a290e1af8c363af4d560101ba640b4ace12dc4817a123883338e": {
+      "kind": "description-excerpt",
+      "source": "１０月２日から１２月末まで　国際放送の人気定時番組Ｄｅｓｉｇｎ×Ｓｔｏｒｉｅｓの日本語版がＥテレ…",
+      "translation": "From October 2 to the end of December, the Japanese version of the popular international broadcast regular program \"Design x Stories\" will be broadcast on E-Tele...",
+      "provider": "MyMemory"
+    },
+    "017b507fe6508f0db3c142d4b6bd26febe87ef35d6bf0f60975d5aacb8011001": {
+      "kind": "description",
+      "source": "１０月２日から１２月末まで　国際放送の人気定時番組Ｄｅｓｉｇｎ×Ｓｔｏｒｉｅｓの日本語版がＥテレで放送される。その放送内容を紹介するとともに、国内でも放送されて好評を得ている国際放送発の番組「ＲＡＭＥＮ　ＪＡＰＡＮ（ラーメン・ジャパン）」や「ＪＡＰＡＮ　ＤＥＬＩＳＨ（ジャパン・デリッシュ）」も紹介する。　",
+      "translation": "From October 2 to the end of December, the Japanese version of the popular international broadcast regular program \"Design x Stories\" will be broadcast on E-Tele...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "7090a21b24e47b0b5f96a2de8d1a990592fb1e21e8816609b767e76cc87f05ae": {
+      "kind": "title-fragment",
+      "source": "「ヨルガオ」／「ＯＫ食堂」",
+      "translation": "\"Yorgao\"/\"OK Shokudo\"",
+      "provider": "MyMemory"
+    },
+    "be713740f16ac8efcf7dd3273de6c026354f1be5e3203381abb6b9de1954a704": {
+      "kind": "title",
+      "source": "みんなのうた「ヨルガオ」／「ＯＫ食堂」",
+      "translation": "Minna no Uta: \"Yorgao\"/\"OK Shokudo\"",
+      "provider": "mapping+MyMemory"
+    },
+    "709aa8b8c10057bcc47622c0f650e2fb097d4bbfe5df9b6c9b061092f1a86325": {
+      "kind": "description-excerpt",
+      "source": "「ヨルガオ」（２０１９年）作詞：きみコ、作曲：佐々木淳、編曲：ｎａｎｏ．ＲＩＰＥ・兼松衆、うた：…",
+      "translation": "\"Yorgao\" (2019) Lyrics: Kimiko, Composer: Atsushi Sasaki, Arrangement: nano. Ripe, Kanematsu Shu, Uta: ...",
+      "provider": "MyMemory"
+    },
+    "4612a60bfcf11612ddbb9c18c144e1a0a4cae5e63770e51470a44461312fea9f": {
+      "kind": "description",
+      "source": "「ヨルガオ」（２０１９年）作詞：きみコ、作曲：佐々木淳、編曲：ｎａｎｏ．ＲＩＰＥ・兼松衆、うた：ｎａｎｏ．ＲＩＰＥ、アニメ：外山光男／「ＯＫ食堂」（２０１５年）作詞：もりちよこ、作曲：佐瀬寿一、うた：ガッツ石松＆ポカスカジャン、アニメ：青木純",
+      "translation": "\"Yorgao\" (2019) Lyrics: Kimiko, Composer: Atsushi Sasaki, Arrangement: nano. Ripe, Kanematsu Shu, Uta: ...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "8027846eb98690440720de2f4dc940853a1446f83db5ab1cee3a6e1da31922f7": {
+      "kind": "genre",
+      "source": "国内ロック・ポップス",
+      "translation": "Domestic Rock Pop",
+      "provider": "MyMemory"
+    },
+    "4d0f87e26ed425e6f277e9b13bbb4cc762650d26b22a706a54d6735676a359e8": {
+      "kind": "genre",
+      "source": "童謡・キッズ",
+      "translation": "Nursery rhymes and kids",
+      "provider": "MyMemory"
+    },
+    "1692e5bf9dbd94ac53bc103c8845ef5a915550e579ee895633fc734c31c3018c": {
+      "kind": "genre",
+      "source": "音楽バラエティ",
+      "translation": "Music Variety",
+      "provider": "MyMemory"
+    },
+    "bf01e6e3bd4f8107830831dffeb283ad5e822cbf756415c2219d99905583c940": {
+      "kind": "title",
+      "source": "ピタゴラスイッチ　ミニ▽新しい生物▽パタトクカシー",
+      "translation": "Pythagorean Switch Mini▽ New Bio▽ Patatoxy",
+      "provider": "MyMemory"
+    },
+    "90c49874a0298e9ab085abd51964d3a786587dede9e1b48039abfed1ab97aa7f": {
+      "kind": "description-excerpt",
+      "source": "私たちがふだん暮らしている中には、さまざまな不思議な構造、面白い考え方、法則が隠れている。",
+      "translation": "There are various mysterious structures, interesting ideas, and laws hidden in our daily lives.",
+      "provider": "MyMemory"
+    },
+    "4ec4a93dc1e8036f1edeb62ff8a3f93b2a672263a9ccbda809a4e486ea7133fe": {
+      "kind": "description",
+      "source": "私たちがふだん暮らしている中には、さまざまな不思議な構造、面白い考え方、法則が隠れている。番組では、「子どもにとっての“なるほど！”」を、アニメ、歌、体操、ピタゴラ装置など、多彩なコーナーで紹介します。",
+      "translation": "There are various mysterious structures, interesting ideas, and laws hidden in our daily lives.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "15302bc10aba1b75492d4ed386d9341487a3637327fcac2771a1918f228577b9": {
+      "kind": "genre",
+      "source": "幼児・小学生",
+      "translation": "Infants and elementary school students",
+      "provider": "MyMemory"
+    },
+    "53d536fdf835d506dff14b5b242a6a47c2f690cf7698597b3e86796f4432e706": {
+      "kind": "title-fragment",
+      "source": "２０２６　エボラ出血熱の感染急拡大　現場で何が",
+      "translation": "2026 What happened at the site of the rapid spread of Ebola?",
+      "provider": "MyMemory"
+    },
+    "4848ec6d5429aef075cc5aa5144bd3e7f316de675f1f0ce596371fce65e2329f": {
+      "kind": "title",
+      "source": "国際報道２０２６　エボラ出血熱の感染急拡大　現場で何が",
+      "translation": "International News Report: 2026 What happened at the site of the rapid spread of Ebola?",
+      "provider": "mapping+MyMemory"
+    },
+    "a48b89b61040f9fc96dc8054d173426230200655faa506cd30fab47a82b7277d": {
+      "kind": "description-excerpt",
+      "source": "コンゴ民主共和国でエボラ出血熱の感染が急拡大している。",
+      "translation": "Ebola is spreading rapidly in the Democratic Republic of the Congo.",
+      "provider": "MyMemory"
+    },
+    "900a35ed5c862d6a6763cb9bb6ae597dbed40ebcd6875eada6dc725528c9314b": {
+      "kind": "description",
+      "source": "コンゴ民主共和国でエボラ出血熱の感染が急拡大している。特に懸念されているのが、その拡大のスピードだ。ことし５月に公式に感染が確認されて以降、感染者数は９月中旬現在で７０００人を超え、死者の数も３３００人に達している。感染の中心地となっているコンゴ東部イトゥリ州にカメラが入り、ぜい弱な医療体制や風習、それに地元経済と治安情勢など、急激な感染拡大の背景に何があるのか解き明かす。",
+      "translation": "Ebola is spreading rapidly in the Democratic Republic of the Congo.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "382a5f0640fb6cadefcb66a270d3dc44c774f5acf0d733d3e4bb0dd025af5e0f": {
+      "kind": "genre",
+      "source": "ニュース/報道",
+      "translation": "News/Press",
+      "provider": "MyMemory"
+    },
+    "0ef88f9a7e61a07153eaa6da8c24174f79233384248ce918039f62c7a9c2776a": {
+      "kind": "genre",
+      "source": "海外・国際",
+      "translation": "Overseas/International",
+      "provider": "MyMemory"
+    },
+    "d36e2260ffe0a29d6ab703a6ddadefe67fce4b713089a41e27a471dc0a72f807": {
+      "kind": "genre",
+      "source": "特集・ドキュメント",
+      "translation": "Featured/Documentation",
+      "provider": "MyMemory"
+    },
+    "2bf3451ff344b274a69c793e2869917ec4a4546bb00152300bf81dd0ea2f12a9": {
+      "kind": "genre",
+      "source": "解説",
+      "translation": "Explanation",
+      "provider": "MyMemory"
+    },
+    "ae463d4daae091f2ff1edb0992d70c63c78b07538dfcbea659cada46497ccf02": {
+      "kind": "genre",
+      "source": "定時・総合",
+      "translation": "On-time/Overall",
+      "provider": "MyMemory"
+    },
+    "f42f230a9cfbc72d9273f7548930f433f08795cbae948ccbc6796f18f44eaf77": {
+      "kind": "genre",
+      "source": "天気",
+      "translation": "The weather",
+      "provider": "MyMemory"
+    },
+    "9ee58d29ff756f016a4980115e106d030a01f737a03df3228e92d203142ace98": {
+      "kind": "title",
+      "source": "うまいッ！　ひと粒に願いをこめて　ごまの王様　金ごま",
+      "translation": "Delicious! The king of sesame seeds, golden sesame seeds with a wish on a single grain",
+      "provider": "MyMemory"
+    },
+    "b669c838ae234ca451238e6e632629a06d51fa2f29f0fe3c3f036b23cd95d660": {
+      "kind": "description-excerpt",
+      "source": "今回は若手生産者応援企画！ＡＫＢ４８の元メンバー・武藤十夢さんが、埼玉県で金ごま作りに奮闘する女…",
+      "translation": "This time, we are planning to support young producers! Jume Muto, a former member of AKB48, is a woman struggling to make gold sesame in Saitama Prefecture...",
+      "provider": "MyMemory"
+    },
+    "7f45c7401bbd19e9a3bb4efbf85353212a9536aebfb818f1ad7f013ca6c9f30a": {
+      "kind": "description",
+      "source": "今回は若手生産者応援企画！ＡＫＢ４８の元メンバー・武藤十夢さんが、埼玉県で金ごま作りに奮闘する女性を訪ねます。ごまのほぼ１００パーセントを輸入に頼る日本。国産ごまを増やしたいと、農業経験ゼロから栽培を始めた女性の思いとは？初めて見るごま畑に武藤さんも大興奮。収穫作業にも挑戦します。いると濃厚な香りが広がる「ごまの王様」、金ごま。その魅力と、金ごまを使った埼玉県の絶品郷土料理をご紹介します。",
+      "translation": "This time, we are planning to support young producers! Jume Muto, a former member of AKB48, is a woman struggling to make gold sesame in Saitama Prefecture...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "b9020e4b4ec6e86c23435ab23e25adc759dec63fb0892ca1d30fde3541cc7367": {
+      "kind": "genre",
+      "source": "グルメ・料理",
+      "translation": "Food & Drink",
+      "provider": "MyMemory"
+    },
+    "e40f937ace48a0a737193a0810e812a0c81ec4abe999b3550de85547631457b8": {
+      "kind": "genre",
+      "source": "料理バラエティ",
+      "translation": "Culinary Variety",
+      "provider": "MyMemory"
+    },
+    "a5ae53b268e1334c777e1d0291cfa0d405639d53832b9304c57069755f664e35": {
+      "kind": "title",
+      "source": "ワンポイント手話（１４）趣味※字幕スーパー",
+      "translation": "One Point Sign Language (14) Hobby * Subtitle Supermarket",
+      "provider": "MyMemory"
+    },
+    "701fecf29fcf6b011407363c27ac2dd48acb7a36c8f0434e2862fd6053488132": {
+      "kind": "description-excerpt",
+      "source": "日常生活に欠かせない初歩的な手話の単語や会話を２５回に分けて紹介します。",
+      "translation": "We will introduce 25 basic sign language words and conversations that are indispensable for daily life.",
+      "provider": "MyMemory"
+    },
+    "2be118620223560da3c68e54ab933a1f4b1fe988f3737f7b23988b624eff5c48": {
+      "kind": "description",
+      "source": "日常生活に欠かせない初歩的な手話の単語や会話を２５回に分けて紹介します。通しでごらんいただき、最終的には手話で簡単な自己紹介ができるようになるのが目標です。講師の河合優子さん、サブ講師の所智子さん、生徒役石川寛和さんはいずれも、中途失聴および難聴の当事者です。読書、俳句など、趣味を表す手話を学習します",
+      "translation": "We will introduce 25 basic sign language words and conversations that are indispensable for daily life.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "7c3556b323f453c594846377a39b42fe3a51d37a411953d0c01c64ffd922da75": {
+      "kind": "genre",
+      "source": "手話",
+      "translation": "Sign language",
+      "provider": "MyMemory"
+    },
+    "5db62390d7850481230beb7dcb90437a42f6688316c9bd09744800a910d5b486": {
+      "kind": "title",
+      "source": "ＮＨＫ映像ファイル　あの人に会いたい　成田真由美（パラ競泳選手）",
+      "translation": "NHK video file Mayumi Narita (Para swimmer) who wants to meet that person",
+      "provider": "MyMemory"
+    },
+    "49761bba297e840fad623526eb247422becf51f96a2e720c28133765a585d59c": {
+      "kind": "description-excerpt",
+      "source": "成田さんは昭和４５年、神奈川県川崎市生まれ。スポーツが大好きで活発な少女だった。",
+      "translation": "Narita was born in Kawasaki City, Kanagawa Prefecture in 1970. She was an active girl who loved sports.",
+      "provider": "MyMemory"
+    },
+    "cc521742bed06529d5c57918a7b5154ac6b3c0a843bcfacc8e1ddea40a95f1d9": {
+      "kind": "description",
+      "source": "成田さんは昭和４５年、神奈川県川崎市生まれ。スポーツが大好きで活発な少女だった。しかし、中学生の時に横断性脊髄炎を発症して、両足がまひ。車いす生活となった。２３歳の時、友人に誘われたのをきっかけに、競泳の世界へ。持ち前の負けず嫌いの性格から猛練習を重ね、パラリンピックで数多くのメダルを獲得した。障害者への理解を広げる活動にも尽力。東京パラリンピックでは組織委員会の理事も務めた。",
+      "translation": "Narita was born in Kawasaki City, Kanagawa Prefecture in 1970. She was an active girl who loved sports.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "b77a057c45521c09db2421eb6ca07d448bd1380759528495816744dafe324bee": {
+      "kind": "genre",
+      "source": "芸能・ワイドショー",
+      "translation": "Performing Arts/Wide Show",
+      "provider": "MyMemory"
+    },
+    "de34d04b89f12e55db103a938bbe6053b42b745bf5e1f60d4f7ad2b018487453": {
+      "kind": "title-fragment",
+      "source": "台風２６号　今後の見通しは",
+      "translation": "What is the future outlook for Typhoon 26?",
+      "provider": "MyMemory"
+    },
+    "84ea305538d1647887df038436bd294df2d0636c3c4e3842403f34489a1cc1ad": {
+      "kind": "title",
+      "source": "ＮＨＫニュース　おはよう日本　台風２６号　今後の見通しは",
+      "translation": "NHK News: Good Morning Japan: What is the future outlook for Typhoon 26?",
+      "provider": "mapping+MyMemory"
+    },
+    "d00fe3119ec2e673869a26fdb631d2a186b07451c62582f5698ac3442daa2c6a": {
+      "kind": "description-excerpt",
+      "source": "▼台風２６号　今後の見通しは　▼静岡竜巻１年　祭りにこめる思い",
+      "translation": "The future prospects of ▼Typhoon No. 26 can be seen in the annual festival of the ▼Shizuoka tornado.",
+      "provider": "MyMemory"
+    },
+    "9d524d5b6fa851d4230d1407ccefd32c8893491b52a1203d90d78796fd418385": {
+      "kind": "description",
+      "source": "▼台風２６号　今後の見通しは　▼静岡竜巻１年　祭りにこめる思い",
+      "translation": "The future prospects of ▼Typhoon No. 26 can be seen in the annual festival of the ▼Shizuoka tornado.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "ad9c3e0d13d5e12f2c443e1bbdad7db0b5d44ada90dbfef6d41cf22e7a0fe91d": {
+      "kind": "description-excerpt",
+      "source": "▼台風２６号　今後の見通しは　▼臨時国会　５日召集へ　▼土石流から１か月　ネパールはいま　▼特集…",
+      "translation": "▼Typhoon 26 The outlook for the future is to convene the ▼extraordinary Diet on the 5th Nepal is now ▼featured one month from the ▼debris flow...",
+      "provider": "MyMemory"
+    },
+    "a7c07dd32c314c072503d0daa1a5498cf792c164fcbf250971e16be7fe5c5731": {
+      "kind": "description",
+      "source": "▼台風２６号　今後の見通しは　▼臨時国会　５日召集へ　▼土石流から１か月　ネパールはいま　▼特集　ＡＩ時代の働き方",
+      "translation": "▼Typhoon 26 The outlook for the future is to convene the ▼extraordinary Diet on the 5th Nepal is now ▼featured one month from the ▼debris flow...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "ccbe3fcf07366ba7434bfa7a8d7911d5ff28804fb69616e84e533331c35deefd": {
+      "kind": "description-excerpt",
+      "source": "国内外の最新ニュースをわかりやすくコンパクトに。気になる現場からの生中継やニュースの深層に迫る特…",
+      "translation": "The latest news from Japan and abroad is easy to understand and compact. Special features that approach the deeper depths of live broadcasts and news from the scene that I am curious about...",
+      "provider": "MyMemory"
+    },
+    "68dca40fd1f0e9dd6f272f658e6f7ff7e79772e7459bbd2dc608a07c63c1d767": {
+      "kind": "description",
+      "source": "国内外の最新ニュースをわかりやすくコンパクトに。気になる現場からの生中継やニュースの深層に迫る特集も。スポーツ情報、きょうの気象情報も詳しくお伝えします。",
+      "translation": "The latest news from Japan and abroad is easy to understand and compact. Special features that approach the deeper depths of live broadcasts and news from the scene that I am curious about...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "28b7c503546f2f368acd6358cb86af4a204ee25b450d8b00f0d1a2b222f8df43": {
+      "kind": "title-fragment",
+      "source": "（関東甲信越）",
+      "translation": "Kanto Koshinetsu",
+      "provider": "MyMemory"
+    },
+    "7a90f73bba60ba7bfb9f6db5de69a42b0f2b323de32eba08dd1c079ee706eea5": {
+      "kind": "title",
+      "source": "ＮＨＫニュース　おはよう首都圏（関東甲信越）",
+      "translation": "NHK News: Good Morning Shutoken: Kanto Koshinetsu",
+      "provider": "mapping+MyMemory"
+    },
+    "33f757eb5dbc0228e3e0b39c79188034a5cf9c29714b015874ef834c3866eaba": {
+      "kind": "description-excerpt",
+      "source": "▽東京ジェラートの旅▽隠れ味覚障害に注意！味覚を守る方法とは？",
+      "translation": "Beware of ▽Tokyo Gelato's▽ hidden taste disorder! How do you protect your taste buds?",
+      "provider": "MyMemory"
+    },
+    "0176993bf6ad0a41d546425b7cdd0f3daa04624b9dc46da84821384e028e4401": {
+      "kind": "description",
+      "source": "▽東京ジェラートの旅▽隠れ味覚障害に注意！味覚を守る方法とは？",
+      "translation": "Beware of ▽Tokyo Gelato's▽ hidden taste disorder! How do you protect your taste buds?",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "02d487e48c99e4db02fdc1e08af434d4dfeefa9251b59d07735b1b925bbdc3d0": {
+      "kind": "genre",
+      "source": "ローカル・地域",
+      "translation": "Local",
+      "provider": "MyMemory"
+    },
+    "e74b29a56ce3bd00127da5d037b2ecc064b9fe8ffee018f28cd417d44fb03259": {
+      "kind": "genre",
+      "source": "交通",
+      "translation": "Transit",
+      "provider": "MyMemory"
+    },
+    "6c7d4958eb8c0bda0a09a8ed5485f5d2c1c4266ef02199407a6c36c945f8b7a6": {
+      "kind": "title-fragment",
+      "source": "風、薫る　🈡土曜ダイジェスト版　第２６週",
+      "translation": "Breezy 終Saturday Digest Edition Week 26",
+      "provider": "MyMemory"
+    },
+    "78dd7c2a5e4c7f0e6edb2daa296995c9c1131fd0d67bcba7449d6166cdd6ee81": {
+      "kind": "title",
+      "source": "【連続テレビ小説】風、薫る　🈡土曜ダイジェスト版　第２６週",
+      "translation": "Serial TV Novel: Breezy 終Saturday Digest Edition Week 26",
+      "provider": "mapping+MyMemory"
+    },
+    "1b27e85365445dbfd91cabf74bac72dc1c5a2307883af7e4fd72c71480491098": {
+      "kind": "description-excerpt",
+      "source": "看護婦試験が近づく中、りん（見上愛）と直美（上坂樹里）は恵風看護婦会に特別講師として今井（古川雄…",
+      "translation": "As the nursing exam was approaching, Rin (Ai Kami) and Naomi (Juri Kamisaka) joined the Eifu Nursing Association as special lecturers Imai (Yu Furukawa...",
+      "provider": "MyMemory"
+    },
+    "e431f411bc4a38c8d464fc70c746fa7ba0a1cc1af122fdec9fac55398a60a4b8": {
+      "kind": "description",
+      "source": "看護婦試験が近づく中、りん（見上愛）と直美（上坂樹里）は恵風看護婦会に特別講師として今井（古川雄大）を迎える。そして試験当日、緊張の面持ちのツヤ（東野絢香）とセツ（村上穂乃佳）らをりんと直美は温かく送り出すのだった。そんな中、りんはシマケン（佐野晶哉）より、看護の実用書を書いてはどうかと提案される。後に続く看護婦たちに看護の知識を伝えるため、りんは悩みながらも本づくりに邁進していく。",
+      "translation": "As the nursing exam was approaching, Rin (Ai Kami) and Naomi (Juri Kamisaka) joined the Eifu Nursing Association as special lecturers Imai (Yu Furukawa...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "d48d8e95cf9e1a9b10f5a8a97f4942e444d53a47c2773119d02f8a27518cdfed": {
+      "kind": "title-fragment",
+      "source": "▽月の不思議▽佐藤さんの謎▽なぜ還暦に赤い服",
+      "translation": "The Mystery of the ▽Moon▽ Sato-san's Mystery▽ Why the Red Clothes on the Calendar",
+      "provider": "MyMemory"
+    },
+    "dc22ae18ca74a5bb3aa31ec50d076ae975bb8fb5cc46aa8d321431e924085e6b": {
+      "kind": "title",
+      "source": "チコちゃんに叱られる！▽月の不思議▽佐藤さんの謎▽なぜ還暦に赤い服",
+      "translation": "Chico Will Scold You!: The Mystery of the ▽Moon▽ Sato-san's Mystery▽ Why the Red Clothes on the Calendar",
+      "provider": "mapping+MyMemory"
+    },
+    "c676f09a9f7a7d2a3ebc86e608c56f41a89b894c47014572fb47419540f053f3": {
+      "kind": "description-excerpt",
+      "source": "なぜ月はクレーターだらけで凸凹しているの？…地球との大きな違いは何か！",
+      "translation": "Why is the moon uneven and full of craters?... what's the big difference from Earth!",
+      "provider": "MyMemory"
+    },
+    "ee2e2d55fca542f3c600ca383e3a9d797fe5ee03c96fb08b6eaf2752d761fdab": {
+      "kind": "description",
+      "source": "なぜ月はクレーターだらけで凸凹しているの？…地球との大きな違いは何か！？壮大でロマンあふれる宇宙の物語！なぜ日本で佐藤さんが一番多いの？…佐藤さんが最も多い名字に上り詰めたまさかの理由とは！？なぜ還暦に赤い服を着るの？…還暦を過ぎてさらに輝く驚きの６０代が続々登場！まさかのあの人のお父さん！？びっくりしたとき“ウソでしょ！”というのはなぜ？ゲストは松嶋尚美さんと金子大地さん！",
+      "translation": "Why is the moon uneven and full of craters?... what's the big difference from Earth!",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "380eb5e1f143d7ca93e0cdab1fe3edaac05faee941df616daab6bb0f2031198c": {
+      "kind": "genre",
+      "source": "クイズ",
+      "translation": "QUESTION TIME",
+      "provider": "MyMemory"
+    },
+    "2c1263433090fd1035b1d8db4a2e7f2e35b13c1f52f5324bca3fdb3a0cfd0ab6": {
+      "kind": "title-fragment",
+      "source": "「びわ湖の宝石　ビワマス大追跡！」",
+      "translation": "\"Lake Biwa Gem Biwamas Great Pursuit!\"",
+      "provider": "MyMemory"
+    },
+    "eccba57c0b27ff30c5a7a15af99feba3663aa8b4e0f0aa73d50e64d807eaafb4": {
+      "kind": "title",
+      "source": "ダーウィンが来た！「びわ湖の宝石　ビワマス大追跡！」",
+      "translation": "Darwin's Amazing Animals: \"Lake Biwa Gem Biwamas Great Pursuit!\"",
+      "provider": "mapping+MyMemory"
+    },
+    "d44c00ff30ee6e55e4725638e419c0696312e8d42de09f17f1b178f12009dd29": {
+      "kind": "description-excerpt",
+      "source": "びわ湖の宝石・ビワマス。全長６０ｃｍになるサケ科の魚で、いにしえから地域で愛されてきたが、２０２…",
+      "translation": "Biwamasu, a jewel of Lake Biwa. It is a salmonid fish with a total length of 60 cm, which has been loved in the region since ancient times, but 202...",
+      "provider": "MyMemory"
+    },
+    "414824758991a262bb7e977a9930b4b5bd83e2f22771bf27d7cdaa62e11aae7c": {
+      "kind": "description",
+      "source": "びわ湖の宝石・ビワマス。全長６０ｃｍになるサケ科の魚で、いにしえから地域で愛されてきたが、２０２５年ようやく新種として発表されるなど、まだ謎多き魚だ。広く深いびわ湖で過ごすため、泳ぐ姿さえ湖ではほとんど目撃されていない。今回、徹底調査で水深６０ｍの湖底で撮影に成功！見えてきたのは、「湖の深さ」を巧みに利用し生き抜く姿。びわ湖４００万年の歴史が育む世界で唯一ここにしかいないビワマスの生態に迫る。",
+      "translation": "Biwamasu, a jewel of Lake Biwa. It is a salmonid fish with a total length of 60 cm, which has been loved in the region since ancient times, but 202...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "d6d21d0c59bd1923b651d018a8cbbee9f4e1b29e7722e48ab0548120765ac35e": {
+      "kind": "genre",
+      "source": "自然・動物・環境",
+      "translation": "Nature, Animals, Environment",
+      "provider": "MyMemory"
+    },
+    "a5580a52e723d80697fdfdbce949ce7776b5357d2dd65adce2d41a39370378b4": {
+      "kind": "title-fragment",
+      "source": "青森・ねぶた祭　“幻のキャンプ場”で",
+      "translation": "At the Aomori Nebuta Festival \"Phantom Campground\"",
+      "provider": "MyMemory"
+    },
+    "c2fb4b99536213ac034278bd32646954fbfde2c81eed7c4b957cacdff853225e": {
+      "kind": "title",
+      "source": "ドキュメント７２時間　青森・ねぶた祭　“幻のキャンプ場”で",
+      "translation": "Document 72 Hours: At the Aomori Nebuta Festival \"Phantom Campground\"",
+      "provider": "mapping+MyMemory"
+    },
+    "0e57ea6dc7fc2a057a16a4569040802baf5900ffb9076ffbbd085414de29fc3a": {
+      "kind": "description-excerpt",
+      "source": "毎年８月上旬に行われる青森ねぶた祭。その会場近くに、祭りの間だけオープンする“幻のキャンプ場”が…",
+      "translation": "The Aomori Nebuta Festival is held every year in early August. Near the venue, there is a \"phantom campground\" that only opens during the festival...",
+      "provider": "MyMemory"
+    },
+    "624b712b26bed91e21794563f134650a4877b4a2980c79e628a3281744a46d40": {
+      "kind": "description",
+      "source": "毎年８月上旬に行われる青森ねぶた祭。その会場近くに、祭りの間だけオープンする“幻のキャンプ場”がある。予約も料金も不要。宿泊の条件はただひとつ「ねぶた祭に参加すること」。２０年以上通い詰める会社員。ここで出会って結婚した夫婦。日中は思い思いに過ごし、夜は祭りでラッセラーと跳ね回る。年齢も性別も肩書きも誰も気にしない。年に１度、かげろうのように現れては消えるキャンプ場で、旅人たちとともに過ごした。",
+      "translation": "The Aomori Nebuta Festival is held every year in early August. Near the venue, there is a \"phantom campground\" that only opens during the festival...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "29c1341ee280ce09aa885cb18993017c5f05557344de9debc9b5688c8543b5da": {
+      "kind": "genre",
+      "source": "社会・時事",
+      "translation": "Society/Current Events",
+      "provider": "MyMemory"
+    },
+    "efa91a0ba735c9bd341e6b44540c8dfbbb715f271897a8f51cd4b34a9216ec60": {
+      "kind": "genre",
+      "source": "暮らし・住まい",
+      "translation": "Lifestyle/Housing",
+      "provider": "MyMemory"
+    },
+    "56de1b101f7085e3afe67d988c930d5c7f38b407894b1451a689bec593cebc47": {
+      "kind": "title",
+      "source": "首都圏情報ネタドリ！　自宅や実家の“家じまい”　最新事情を徹底取材！",
+      "translation": "Metropolitan area information spoilers! In-depth coverage of the latest developments in \"housekeeping\" at home and at home!",
+      "provider": "MyMemory"
+    },
+    "8cbca9d68f3d504cca4830e5c05cd9e7d1d53b1773f0aac3f96075a16018859d": {
+      "kind": "description-excerpt",
+      "source": "家が突然「負の動産へ」。自宅や実家を整理・処分する“家じまい”の難しさに直面する人が増えている。",
+      "translation": "The house suddenly \"turned into a negative chattel\". More and more people are facing the difficulty of \"housekeeping\" to organize and dispose of their homes and parents' homes.",
+      "provider": "MyMemory"
+    },
+    "31d4252e8c089d5430d33ebe2c094ff0a89aa0ba27f2ce1af6582e9dddf75586": {
+      "kind": "description",
+      "source": "家が突然「負の動産へ」。自宅や実家を整理・処分する“家じまい”の難しさに直面する人が増えている。実家の家じまいを考えた男性は、思うように売却ができず更地にすることを検討。解体費が２００万円以上かかると判明し衝撃を受けた。また、思い出の品をなかなか片付けられないという女性も。マンションではさらに深刻な実態が。番組では気を付けるポイントを徹底取材。家じまいの準備に役立つ自治体の最新事情も紹介する。",
+      "translation": "The house suddenly \"turned into a negative chattel\". More and more people are facing the difficulty of \"housekeeping\" to organize and dispose of their homes and parents' homes.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "fc465bed538c3fe834d70252edb4ab135f068fe7d6eb94e0f839a0d64be907ad": {
+      "kind": "title",
+      "source": "有吉のお金発見　突撃！カネオくん　驚き！生活に欠かせない「鏡」のヒミツ",
+      "translation": "Ariyoshi's Money Discovery Assault! Kaneo-kun surprises! Mirror secrets that are indispensable to life",
+      "provider": "MyMemory"
+    },
+    "b8dc082747d7d2b1eeac3f32caf9b243c79b8b58c3f4fbaa10ee6b16a2383534": {
+      "kind": "description-excerpt",
+      "source": "私たちの生活に欠かせない鏡のヒミツに迫る！意外と知らない鏡の製造工場へ潜入。",
+      "translation": "We are approaching the mirror secrets that are indispensable to our lives! Infiltrate a factory that manufactures mirrors that you don't know about.",
+      "provider": "MyMemory"
+    },
+    "8488b8465ea341ec7bc085f9a48af4197d12e915210e203435620e1088aef130": {
+      "kind": "description",
+      "source": "私たちの生活に欠かせない鏡のヒミツに迫る！意外と知らない鏡の製造工場へ潜入。倒れても割れない鏡！そのヒミツは？さらにＳＮＳで大バズりの“映しすぎる鏡”や、利用者の声から生まれた“見えすぎない鏡”も登場！動画を見ながら作業ができる！最新の鏡事情に、華やかレトロなミラーボールの製造工場に潜入。手作業で鏡を貼り付けていく職人技も！北欧ノルウェーの山間部に現れた巨大な鏡！スタジオ騒然の使用方法とは！？",
+      "translation": "We are approaching the mirror secrets that are indispensable to our lives! Infiltrate a factory that manufactures mirrors that you don't know about.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "14432a5b4bf78ab2e913cdfedfc05b42d1d9ee1cb2f543503bf0e7886bb95d42": {
+      "kind": "genre",
+      "source": "トークバラエティ",
+      "translation": "Talk Variety",
+      "provider": "MyMemory"
+    },
+    "46af30f57c11e28260f98bca84772c8c10b669d230b8634d4574eb0a688d59fa": {
+      "kind": "title",
+      "source": "Ｎコン２０２６　関東甲信越ブロックハイライト　小学校の部",
+      "translation": "Ncon 2026 Kanto Koshinetsu Block Highlight Elementary School Section",
+      "provider": "MyMemory"
+    },
+    "325f8e0a7596a06e94c772a925277ae79c5ba3358cffa359a60eaf79fb724ebc": {
+      "kind": "description-excerpt",
+      "source": "さいたま・ソニックシティ大ホールで開催された関東甲信越ブロックコンクール小学校の部には地区コンク…",
+      "translation": "The elementary school section of the Kanto Koshinetsu Block Competition held at Saitama Sonic City Main Hall has a district competition...",
+      "provider": "MyMemory"
+    },
+    "50834e524a300095defa3d63f2a052aa70be31e12207dc83a8e66cde2d260981": {
+      "kind": "description",
+      "source": "さいたま・ソニックシティ大ホールで開催された関東甲信越ブロックコンクール小学校の部には地区コンクールを勝ち進んだ１３校が出場。すべての出場校の自由曲の演奏と、金賞を受賞した学校の課題曲の演奏をハイライトでお届けします。課題曲「どっきん　せみさん」はＥテレのワンワンが制作。参加者みんなで歌う全員合唱もお楽しみに！ナレーション：瀬戸光アナウンサー",
+      "translation": "The elementary school section of the Kanto Koshinetsu Block Competition held at Saitama Sonic City Main Hall has a district competition...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "a37b4f0677a6de0d17d93f8d9d32890b68130e3b30cf1efec47e3138a415a126": {
+      "kind": "genre",
+      "source": "音楽・美術・工芸",
+      "translation": "Music, Arts & Crafts",
+      "provider": "MyMemory"
+    },
+    "a01faaa19bf10c6dc04c4a70873222a6cf103de54db2bf55d33304ad6bde1515": {
+      "kind": "description-excerpt",
+      "source": "　【キャスター】利根川真也",
+      "translation": "[Caster] Shinya Tonegawa",
+      "provider": "MyMemory"
+    },
+    "a2713ed72e6b44d60b6065f263df057d7a2d3245a52d2e43a4a63e9a95ef95dd": {
+      "kind": "description",
+      "source": "　【キャスター】利根川真也",
+      "translation": "[Caster] Shinya Tonegawa",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "4d0300146b4211bd371ee319a9efbb8037523bebfda21f520427ef492358a516": {
+      "kind": "title",
+      "source": "ニュース（関東甲信越）",
+      "translation": "News (Kanto Koshinetsu)",
+      "provider": "MyMemory"
+    },
+    "ac60e006caeba8d8596fd0cde2539ddd8acc03729baa662b367a75d45fdd1497": {
+      "kind": "title",
+      "source": "探検ファクトリー　貼るだけで雰囲気がガラッと変わる！壁紙工場",
+      "translation": "Just pasting the exploration factory will change the atmosphere! Wallpaper factory",
+      "provider": "MyMemory"
+    },
+    "0ba29bb2d13f047c5e62500a20a26ae99e834238d2957c2ea46a451cd62d65a7": {
+      "kind": "description-excerpt",
+      "source": "貼るだけで暮らしをおしゃれに彩る壁紙の工場。一般的な白いものから奇抜なデザインまで。",
+      "translation": "A wallpaper factory where you can stylishly color your life just by pasting it. From the common white stuff to the quirky design.",
+      "provider": "MyMemory"
+    },
+    "d9ec8635c35f4216dd5ab1c80cf049a03495002b2b7aaebecee96ba725ebbcbf": {
+      "kind": "description",
+      "source": "貼るだけで暮らしをおしゃれに彩る壁紙の工場。一般的な白いものから奇抜なデザインまで。気分に合わせて手軽にＤＩＹで貼ることが出来る壁紙には独自の工夫が。／中川家、すっちーが全国の魅力あふれる工場を「探検」する工場見学バラエティー。ふだんは見ることのできない最新の技術やたくみの技を紹介し、世界に誇る日本のモノづくりのすばらしさ、それを支える情熱、次の世代に継承していくことの大切さを伝えます。",
+      "translation": "A wallpaper factory where you can stylishly color your life just by pasting it. From the common white stuff to the quirky design.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "b2e445cabeabc79cbcc39bf6debac4f15cd9cbfc9ac5e8a750f2bdb66e1858e5": {
+      "kind": "genre",
+      "source": "旅バラエティ",
+      "translation": "Travel Variety",
+      "provider": "MyMemory"
+    },
+    "204f8f36a4422c1eb4192d0900f2def7df928fb174ba4475aa5b896e00e3deba": {
+      "kind": "title",
+      "source": "週末のＮスペは…　病への挑戦　第２集　うつ病　克服へのカギ",
+      "translation": "Weekend N-Space... The Challenge of Sickness Episode 2: The Key to Overcoming Depression",
+      "provider": "MyMemory"
+    },
+    "d979bcf9f050455f62a1254a9777861bd1f58014acd0241b805c54319482ea99": {
+      "kind": "title",
+      "source": "豊臣兄弟！（３６）姫若子と鬼若子",
+      "translation": "The Toyotomi brothers! (36) Princess Wakako and Oni Wakako",
+      "provider": "MyMemory"
+    },
+    "3ea63a43615b2db4a22e791dc0ddec328be995501f07c0d200b7b1db69e2fba3": {
+      "kind": "description-excerpt",
+      "source": "信雄（山脇辰哉）と和睦したことで、秀吉（池松壮亮）と家康（松下洸平）の戦はいったん収束。",
+      "translation": "By making peace with Nobukatsu (Tatsuya Yamawaki), the battle between Hideyoshi (Masaru Ikematsu) and Ieyasu (Shinpei Matsushita) was once over.",
+      "provider": "MyMemory"
+    },
+    "b4fb053c830363e8d93b8c7c0c2c0ec2e2aa14aa201373cba843499666aa24e3": {
+      "kind": "description",
+      "source": "信雄（山脇辰哉）と和睦したことで、秀吉（池松壮亮）と家康（松下洸平）の戦はいったん収束。だが四国では、四国一統を悲願とする長宗我部元親（磯部寛之）が反旗を翻す。秀吉は、四国攻めの総大将に秀長（仲野太賀）を指名。秀長は、世に秀吉の力を誇示するため、天然の要害・四国を圧倒的な力で攻め落とす大規模作戦を実行する。そのころ秀吉は、ある重要な目的のため京を訪れていた。",
+      "translation": "By making peace with Nobukatsu (Tatsuya Yamawaki), the battle between Hideyoshi (Masaru Ikematsu) and Ieyasu (Shinpei Matsushita) was once over.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "97181f3bed75b92a73fedbd2418af4d62740688fe74d45628ee0faecd571ff98": {
+      "kind": "genre",
+      "source": "時代劇",
+      "translation": "Jidaigeki",
+      "provider": "MyMemory"
+    },
+    "b0f9adcd765fc4caf6b3c82395635031bc0588de6a8eca21e9a558103912e9f9": {
+      "kind": "title",
+      "source": "土スタ「豊臣兄弟！ファン感謝祭」",
+      "translation": "Dusta \"Brother Toyotomi! Fan Thanksgiving\"",
+      "provider": "MyMemory"
+    },
+    "a5c15fa070d77800a3a66bdae7e5ae5e0f18e50b862f887f2ff2d15d84017d83": {
+      "kind": "description-excerpt",
+      "source": "今週は、和歌山城ホールから公開生放送！「ファン感謝祭」をお届けします。",
+      "translation": "Live broadcast from Wakayama Castle Hall this week! Fan Thanksgiving is here.",
+      "provider": "MyMemory"
+    },
+    "d50b03beddc283189e23032a58f178523385adc59b5387ed31db3e7a3036925b": {
+      "kind": "description",
+      "source": "今週は、和歌山城ホールから公開生放送！「ファン感謝祭」をお届けします。ゲストは、義昭役・尾上右近さん、光秀役・要潤さん、高虎役・佳久創さん。視聴者が選んだ“もう一度見たい名場面”を一挙に振り返り。兄弟の絆、義昭・光秀の濃密な関係、本能寺の変、そして天下人へ変貌する秀吉＿＿笑いと笑いと切なさが交錯する物語の舞台裏に迫る６０分！池松壮亮さん、松下洸平さん、仲野太賀さんのお気に入りシーンも！",
+      "translation": "Live broadcast from Wakayama Castle Hall this week! Fan Thanksgiving is here.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "d41bb705fb0620bad2b85525f9bb40a64faee5ccb8dcfe2c7c3946342f1b24cf": {
+      "kind": "title-fragment",
+      "source": "美しく青きドナウ　ヨハン・シュトラウス作曲",
+      "translation": "Composed by beautiful blue Danube Johann Strauss",
+      "provider": "MyMemory"
+    },
+    "e3a31db928612f7870a5989308f7a70828fed3176e0a6e38db10a7db279512b3": {
+      "kind": "title",
+      "source": "名曲アルバム　美しく青きドナウ　ヨハン・シュトラウス作曲",
+      "translation": "Masterpiece Album: Composed by beautiful blue Danube Johann Strauss",
+      "provider": "mapping+MyMemory"
+    },
+    "8dacdeb5f04a64ff9ada9aeb6f63c362db5b33d65ebf0b189fc9ba4337a20dd8": {
+      "kind": "description-excerpt",
+      "source": "ウィーン・フィルのニューイヤーコンサートでも恒例のアンコール曲として演奏される屈指のワルツ。",
+      "translation": "One of the best waltzes to be played as an annual encore at the Vienna Philharmonic New Year's Concert.",
+      "provider": "MyMemory"
+    },
+    "e63721dec0cfc3ee159327d94c87e1922df4b6c1cb4b7a62ff31aa254cd3a784": {
+      "kind": "description",
+      "source": "ウィーン・フィルのニューイヤーコンサートでも恒例のアンコール曲として演奏される屈指のワルツ。生涯のほとんどをワルツとポルカの作曲に捧げたヨハン・シュトラウスがこの名曲を作曲した家を訪ねながら、ドナウ川随一の景勝地ヴァッハウ渓谷の遊覧クルーズ、そして夏のドナウの恵みである杏子の収穫祭をご紹介する。",
+      "translation": "One of the best waltzes to be played as an annual encore at the Vienna Philharmonic New Year's Concert.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "77ec45d39e9471983c44a4ecb2a204d0991984b060eb4d0ad0469be07eeb938b": {
+      "kind": "genre",
+      "source": "クラシック・オペラ",
+      "translation": "Classical Opera",
+      "provider": "MyMemory"
+    },
+    "6af43c2bae70845da89d5ce76de0276216e722cc300309e2b32ace2fd70f471b": {
+      "kind": "title-fragment",
+      "source": "「Ｕｍｍ」／「あっ！」",
+      "translation": "\"Umm\"/\"Ah!\"",
+      "provider": "MyMemory"
+    },
+    "b886a83cac68c50f5bce6ea406ae7b067159de8bc83e10579e2d5d43967806cd": {
+      "kind": "title",
+      "source": "みんなのうた「Ｕｍｍ」／「あっ！」",
+      "translation": "Minna no Uta: \"Umm\"/\"Ah!\"",
+      "provider": "mapping+MyMemory"
+    },
+    "e8f5bc46d928663433ba7d0d9c0e5de9820b919ac45103822fe7c5c6aa02b4fa": {
+      "kind": "description-excerpt",
+      "source": "「Ｕｍｍ」うた：ｓｕｍｉｋａ。誰もが経験する迷う気持ちを「Ｕｍｍ（うーん）」という言葉とファンキ…",
+      "translation": "\"Umm\" song: Sumika. Everyone experiences the confusion of the word \"Umm\" and Funki...",
+      "provider": "MyMemory"
+    },
+    "1a8353009a38ef155cb127d6161f89727ea9a32e569d6527ea8f2ba8b0838e73": {
+      "kind": "description",
+      "source": "「Ｕｍｍ」うた：ｓｕｍｉｋａ。誰もが経験する迷う気持ちを「Ｕｍｍ（うーん）」という言葉とファンキーなメロディーで歌い上げる。冒険活劇として映像化するのは、かずきおえかき／「あっ！」うた：ＹＯＮＡ　ＹＯＮＡ　ＷＥＥＫＥＮＤＥＲＳ。遊びに夢中で、時間が「あっ！」という間に過ぎていた。そんな「あっ！」を繰り返し子供は「あっ！」という間に大人へなっていく。目に見えない時間を映像化するのは、いよりさき。",
+      "translation": "\"Umm\" song: Sumika. Everyone experiences the confusion of the word \"Umm\" and Funki...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "22f2e59e9b3793c243a1d118475698b51f1d77bd5077b29c879e4ab044b039f1": {
+      "kind": "title-fragment",
+      "source": "（２０２６年）秋場所　十四日目",
+      "translation": "(2026) Autumn Place Day 14",
+      "provider": "MyMemory"
+    },
+    "700f2ff3832c786060731c21b564bc73186486b88b8c8861fd92ea1dc9685b52": {
+      "kind": "title",
+      "source": "大相撲（２０２６年）秋場所　十四日目",
+      "translation": "Grand Sumo: (2026) Autumn Place Day 14",
+      "provider": "mapping+MyMemory"
+    },
+    "10bfa1fe628aabf292f96f94a225c7a2fe62e2818fd665937cc651bad7e24a88": {
+      "kind": "title-fragment",
+      "source": "（２０２６年）秋場所　十四日目　優勝争いの行方は",
+      "translation": "(2026) On the 14th day of the fall, the fight for the championship is over.",
+      "provider": "MyMemory"
+    },
+    "f3b3bcde696cb1b74314231c4cb0cef3045ff71d97842319dd8bc85df152bd06": {
+      "kind": "title",
+      "source": "大相撲（２０２６年）秋場所　十四日目　優勝争いの行方は",
+      "translation": "Grand Sumo: (2026) On the 14th day of the fall, the fight for the championship is over.",
+      "provider": "mapping+MyMemory"
+    },
+    "38f8ec64e0981c9a1cf43978c7c760ca4098e9c958add7da44dd534314cb50f9": {
+      "kind": "description-excerpt",
+      "source": "【解説】正面（幕内）…春日野（元栃乃和歌），向正面（幕内）…大山（元北勝富士），【アナウンサー】…",
+      "translation": "[Explanation] Front (Inside the Shogunate) ... Kasugano (Former Tochino Waka), Mukai Front (Inside the Shogunate) ... Oyama (Former Kitakatsufuji), [Announcer] ...",
+      "provider": "MyMemory"
+    },
+    "57a1fb0f52e5ff8ca15d8bd5a8659a5b755f5f3c0c461eaf2670575b1f27cc76": {
+      "kind": "description",
+      "source": "【解説】正面（幕内）…春日野（元栃乃和歌），向正面（幕内）…大山（元北勝富士），【アナウンサー】正面（幕内）…三輪洋雄，【＜副音声＞アナウンサー】ラジャ・プラダン",
+      "translation": "[Explanation] Front (Inside the Shogunate) ... Kasugano (Former Tochino Waka), Mukai Front (Inside the Shogunate) ... Oyama (Former Kitakatsufuji), [Announcer] ...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "5979c52f9a70a650d76b5e756c1a782856c18dc7bd51d145295249fcb5fbab8b": {
+      "kind": "title",
+      "source": "所さん！事件ですよ　顔出しＮＧでデビュー！？“匿名”にこだわる理由",
+      "translation": "Mr. Hokkaido! It's a case, debuting with facial expression!? Why do you insist on \"anonymity\"?",
+      "provider": "MyMemory"
+    },
+    "6e0d3bc85f214829b6c7b885e6c6e171d8d834fdf4585ee4107f013d957ea71c": {
+      "kind": "description-excerpt",
+      "source": "「匿名」にこだわって活動する人々に迫る！　　「顔出しＮＧ」で歌手になりたいオーディションが大盛況…",
+      "translation": "Get to know people who are anonymous! The audition to become a singer with \"Exposed NG\" was a big success...",
+      "provider": "MyMemory"
+    },
+    "d08c7a5cac355074ea34653f62da2bb562584ce22276bc73358af6ec089c246f": {
+      "kind": "description",
+      "source": "「匿名」にこだわって活動する人々に迫る！　　「顔出しＮＧ」で歌手になりたいオーディションが大盛況！卒業アルバムから〇〇が消えた？！あの　有名レストランガイドの調査員が語る覆面活動の　実態とは？２０代、３０代に人気！名前も顔も知らない相手と文通を楽しむサービス。実は所さんも意外な人と文通していた！、、、",
+      "translation": "Get to know people who are anonymous! The audition to become a singer with \"Exposed NG\" was a big success...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "5d6cf566ffee4831291907c84d4fc5cffdbd5d2cd02c72f75770f2221fe7c8d3": {
+      "kind": "title-fragment",
+      "source": "「豊臣兄弟！」２分ダイジェスト　（３６）",
+      "translation": "Toyotomi Brothers! 2-minute Digest (36)",
+      "provider": "MyMemory"
+    },
+    "a25f91121e6f3367bf6427227d00266cd5212f8ced9d565e983e9090ae5ae2d2": {
+      "kind": "title",
+      "source": "大河ドラマ「豊臣兄弟！」２分ダイジェスト　（３６）",
+      "translation": "Taiga Drama: Toyotomi Brothers! 2-minute Digest (36)",
+      "provider": "mapping+MyMemory"
+    },
+    "f7949fc36194baf9919876b4201fc9a56a596f18863285b781cdd1d74c593b0f": {
+      "kind": "description",
+      "source": "２８日に新しく始まる朝ドラ「ブラッサム」の見どころをひと足早くお届け。主演の石橋静河さんをはじめ、「ちゅらさん」以来、２５年ぶりの朝ドラ出演となる国仲涼子さんや朝ドラ初出演の渡部篤郎さんなど、魅力的な登場人物たちのドラマ初公開映像が盛りだくさん。",
+      "translation": "Quickly deliver the highlights of the new morning drama \"Blatham\" that will begin on the 28th.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "451f97fb56f0fc26b7d7a0c90e9451f311701d33c58b8b79f75d6f1601bfdaa0": {
+      "kind": "title",
+      "source": "ニュース６４５（関東・山梨）",
+      "translation": "News 645 (Kanto/Yamanashi)",
+      "provider": "MyMemory"
+    },
+    "e5dad5db295bfb902cf1921c2378003750072e736a9ef2b2d816a5c1af86d69d": {
+      "kind": "description-excerpt",
+      "source": "３０分できょうが分かる日本、そして世界の今と“これから”を読み解く確かな情報を届けます。",
+      "translation": "In 30 minutes, we will deliver reliable information that will help you understand the present and future of Japan and the world.",
+      "provider": "MyMemory"
+    },
+    "1f6fb061236f804adbed81f6cff033d954d2aa483cc8949c3622c480f6f0cea3": {
+      "kind": "description",
+      "source": "３０分できょうが分かる日本、そして世界の今と“これから”を読み解く確かな情報を届けます。　【キャスター】今井翔馬，森下絵理香，【気象キャスター】向笠康二郎",
+      "translation": "In 30 minutes, we will deliver reliable information that will help you understand the present and future of Japan and the world.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "aefdfa5881a7808d34520b89b8a5284c1156417bb37d4ae8b53afa56f32b08a2": {
+      "kind": "title-fragment",
+      "source": "奈良・飛鳥　世界遺産記念ＳＰ▼なぜ飛鳥は日本の国の礎に？",
+      "translation": "Nara Asuka World Heritage Site▼ Why is Asuka the foundation of Japan?",
+      "provider": "MyMemory"
+    },
+    "82cd039b77ee06fded183d7f300e30b39f1b96f9dcf80428a24d706697bebf8f": {
+      "kind": "title",
+      "source": "ブラタモリ　奈良・飛鳥　世界遺産記念ＳＰ▼なぜ飛鳥は日本の国の礎に？",
+      "translation": "Buratamori: Nara Asuka World Heritage Site▼ Why is Asuka the foundation of Japan?",
+      "provider": "mapping+MyMemory"
+    },
+    "a32e8c602c198812d456cdf532820c7d47b33b5c0c1b29de8e7d1f1b50282930": {
+      "kind": "description-excerpt",
+      "source": "今年７月「飛鳥・藤原の宮都」が世界文化遺産に登録されたことを記念し、６年前に放送した「奈良・飛鳥…",
+      "translation": "In July this year, to commemorate the registration of Asuka and Fujiwara no Miyako as a World Cultural Heritage Site, we broadcast \"Nara and Asuka...",
+      "provider": "MyMemory"
+    },
+    "d8d13ce35e7f272b0750510e009827918a2ddb03ac020e620a797300afcef74b": {
+      "kind": "description",
+      "source": "今年７月「飛鳥・藤原の宮都」が世界文化遺産に登録されたことを記念し、６年前に放送した「奈良・飛鳥」の回を特別再編集！奈良県明日香村に残る数々の遺跡をめぐり、日本の国づくりの始まりを解き明かす。石舞台古墳の巨大な石室や、日本最古の仏像から、豪族・蘇我氏の圧倒的な力に迫る！斉明天皇の時代、国づくりの要となったのは「時計」だった！？さらに、謎に包まれた酒船石の目的をタモリが推理！歴史ミステリーに挑む！？",
+      "translation": "In July this year, to commemorate the registration of Asuka and Fujiwara no Miyako as a World Cultural Heritage Site, we broadcast \"Nara and Asuka...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "34fd1d03a5c698eeca5e6b1e77b507c4fd4a1e7c22caecac59371f76af5fe0cc": {
+      "kind": "title-fragment",
+      "source": "人は誰でも主役になれる〜徳島　町を変えた葉っぱの奇跡〜",
+      "translation": "Anyone can be a protagonist: The Miracle of Leaves that Changed Tokushima",
+      "provider": "MyMemory"
+    },
+    "dc341b71769cb7e781de0169dbafed76b193d843b3afc9d3abe846e9c7093a00": {
+      "kind": "title",
+      "source": "新プロジェクトＸ　人は誰でも主役になれる〜徳島　町を変えた葉っぱの奇跡〜",
+      "translation": "Project X: Challengers: Anyone can be a protagonist: The Miracle of Leaves that Changed Tokushima",
+      "provider": "mapping+MyMemory"
+    },
+    "b02fe15f006a8c1ef78a25a1746ddb0926a89b9aa6ac7a8cd99d71abaeb1e697": {
+      "kind": "description-excerpt",
+      "source": "料亭などの和食で“つまもの”として料理を彩る葉っぱ。",
+      "translation": "A leaf that colors dishes as \"samomono\" in Japanese cuisine such as ryotei (Japanese restaurant).",
+      "provider": "MyMemory"
+    },
+    "d94fc6d6b14803770a5c73902c773a5e0062d44b94b6b8b34eaf1fad706532f2": {
+      "kind": "description",
+      "source": "料亭などの和食で“つまもの”として料理を彩る葉っぱ。これを年商３億円のビジネスにしているのが徳島県上勝町だ。担うのは、妻として家族を支えてきた農家の女性たち。家事の陰で自らの夢を胸の奥にしまい込んでいた。「葉っぱなど売れるはずがない」と笑われたが、知恵と情熱でその声を吹き飛ばす。「私たちは夫の添え物じゃない！」人生をかけた勝負に挑み、夢をかなえた女性たちの感動の物語！",
+      "translation": "A leaf that colors dishes as \"samomono\" in Japanese cuisine such as ryotei (Japanese restaurant).",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "473fac7e9dc2b7827c3afe1ae5552953430d4f9086b829a3193d953b60008156": {
+      "kind": "title",
+      "source": "ニュース・気象情報（関東甲信越）",
+      "translation": "News/Weather Information (Kanto Koshin 'etsu)",
+      "provider": "MyMemory"
+    },
+    "8a0a8ab98ecba41db08bbde85c8bbf65349d971a9546dd4620bdf67cd75b0060": {
+      "kind": "title-fragment",
+      "source": "▽台風２６号の進路は・秋雨前線で再び雨も▽土石流１か月",
+      "translation": "The route of ▽Typhoon No. 26 is once again on the autumn rain front line, and the rain is also▽ debris flowing for a month.",
+      "provider": "MyMemory"
+    },
+    "13bf1b65fda4e93994a1975f204b69c6392e874528b2722ab49fbde3c2237bbd": {
+      "kind": "title",
+      "source": "サタデーウオッチ９▽台風２６号の進路は・秋雨前線で再び雨も▽土石流１か月",
+      "translation": "Saturday Watch 9: The route of ▽Typhoon No. 26 is once again on the autumn rain front line, and the rain is also▽ debris flowing for a month.",
+      "provider": "mapping+MyMemory"
+    },
+    "c791a25bac5066e500f2d77a369b6faa374006cf7fdc1f75b8d5f27a51674efc": {
+      "kind": "description-excerpt",
+      "source": "新たな台風２６号進路は秋雨前線で再び雨も…台風２５号の被災地は▽ネパール土石流１か月▽酒税改正で…",
+      "translation": "The new Typhoon Route 26 is on the autumn rain front, and it is raining again... The disaster area of Typhoon 25 is▽ Nepal's debris flow with a one-month▽ liquor tax revision...",
+      "provider": "MyMemory"
+    },
+    "4a2af7a721242d69b69addb430cdc3befd48c8e06412639c86e518dc09968224": {
+      "kind": "description",
+      "source": "新たな台風２６号進路は秋雨前線で再び雨も…台風２５号の被災地は▽ネパール土石流１か月▽酒税改正でビールは",
+      "translation": "The new Typhoon Route 26 is on the autumn rain front, and it is raining again... The disaster area of Typhoon 25 is▽ Nepal's debris flow with a one-month▽ liquor tax revision...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "d92389a296e7d8ae01657adb7fd17fcaf40c825c1d28b2ae445b654eebf43df0": {
+      "kind": "title",
+      "source": "病院ラジオ　聖マリアンナ医科大学病院編▼サンドウィッチマン",
+      "translation": "Hospital Radio St. Marianna Medical University Hospital Edition▼ Sandwich Man",
+      "provider": "MyMemory"
+    },
+    "d17ce4c4d85a10298ea1ae1853e1687e54f70b2556ce01dbda6167f564c1615d": {
+      "kind": "description-excerpt",
+      "source": "サンドウィッチマンが訪れるのは川崎市の聖マリアンナ医科大学病院。",
+      "translation": "The Sandwich Man visits St. Marianna Medical University Hospital in Kawasaki City.",
+      "provider": "MyMemory"
+    },
+    "57ed04a3e0532c2e237e7f31a1492451c98bb406a0f0418ab4d66cf907e845cd": {
+      "kind": "description",
+      "source": "サンドウィッチマンが訪れるのは川崎市の聖マリアンナ医科大学病院。母性や慈悲の心を象徴する聖母マリア像の前で患者さんや家族の日ごろ言えない思いに触れる▼１４歳で脳腫瘍が見つかった女子高生。抗がん剤治療の前に卵巣凍結保存▼産後２か月で心不全に。ふだん言えぬ夫への思い▼小学生の娘が新型コロナ感染。医療従事者への感謝▼国指定難病の若手医師。自分を支えてくれたような医師を目指す▼心停止から生還した父親…ほか",
+      "translation": "The Sandwich Man visits St. Marianna Medical University Hospital in Kawasaki City.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "77ba7ccf250158fa3adba830bc68ea443128a317ed588468ecce9193e2889d89": {
+      "kind": "description",
+      "source": "２８日に新しく始まる朝ドラ「ブラッサム」の見どころをひと足早くお届け。主演の石橋静河さんをはじめ、加賀まりこさんや松たか子さんといったキャスト陣の熱い思いに迫る。さらに主題歌を担当するＹＯＡＳＯＢＩと作家・綿矢りささんの制作秘話も初披露。ドラマのモデルとなった作家・宇野千代の言葉に魅了される理由があきらかに。",
+      "translation": "Quickly deliver the highlights of the new morning drama \"Blatham\" that will begin on the 28th.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "7f9cedfc879c2a42b35bad28167b821e79aaa1fd5a35656296d6c999d91dcb0a": {
+      "kind": "title",
+      "source": "Ｄｅａｒにっぽん　ＰＲ番組",
+      "translation": "Deer Nippon PR program",
+      "provider": "MyMemory"
+    },
+    "c5cb891caf9340dd3cd69c2cb9b4dfb03acaa819a8df6fd36f92b4c77fb1a470": {
+      "kind": "description-excerpt",
+      "source": "【語り】吉岡里帆",
+      "translation": "[Story] Riho Yoshioka",
+      "provider": "MyMemory"
+    },
+    "e2a951060c55cc3954112b2ec625e9f7dc9d8683be0bfad0847b1cec134a0920": {
+      "kind": "description",
+      "source": "【語り】吉岡里帆",
+      "translation": "[Story] Riho Yoshioka",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "bcd666effa6974d6df0d80e51483ac75ef34bbd5bad185ca8b1574d1a6c02e9a": {
+      "kind": "title",
+      "source": "Ｖｅｎｕｅ１０１　ＥＸＴＲＡ　ＷＥＥＫ１",
+      "translation": "Venue 101 EXTRAWEEK1",
+      "provider": "MyMemory"
+    },
+    "1f7bf59db330960551c47e868dfa653f8e2b0c7d3710499e8ebe8e50590fccba": {
+      "kind": "description-excerpt",
+      "source": "１０１スタジオを飛び出し、「Ｖｅｎｕｅ１０１　ＥＸＴＲＡ」と題して、今年度２回目となる公開収録を…",
+      "translation": "Leaving Studio 101 and titled “Vene 101 Extra”, this year's second public recording...",
+      "provider": "MyMemory"
+    },
+    "6e9cf6e7c242d76043914bb7cab2691f745c4e3c47a8f8774771e7d3215b17bd": {
+      "kind": "description",
+      "source": "１０１スタジオを飛び出し、「Ｖｅｎｕｅ１０１　ＥＸＴＲＡ」と題して、今年度２回目となる公開収録をＮＨＫホールで実施！この模様を２週にわたってお届けします。２６日に放送するＷＥＥＫ１では、４組のアーティストのライブをお届けします！さらに、客席の中に設けた”アーティスト席”で一緒に盛り上がるアーティストたちの姿も必見です！２８００人の観客のみなさんとのアツいライブをお送りします！",
+      "translation": "Leaving Studio 101 and titled “Vene 101 Extra”, this year's second public recording...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "9a19115993ba6cbd22a0adc9f890df741ea544f436581cac07c036d6c04a9cd8": {
+      "kind": "genre",
+      "source": "ライブ・コンサート",
+      "translation": "Live Concerts",
+      "provider": "MyMemory"
+    },
+    "2736bd69343e050020e80f0feaf363d254724305be765a99abf44530a9427e0c": {
+      "kind": "title",
+      "source": "ザ・グレイテスト・ヒッツ【斉藤和義スペシャル】",
+      "translation": "The Greatest Hits [Kazuyoshi Saito Special]",
+      "provider": "MyMemory"
+    },
+    "65f45ab3fd02e317ccdcecce6279c90ad2f0287e37f9f648408bdac678c9458f": {
+      "kind": "description-excerpt",
+      "source": "昭和・平成・令和、ＮＨＫの音楽番組から「これだ！」という名パフォーマンス映像をお届けする１５分間…",
+      "translation": "From the music programs of Showa, Heisei, Reiwa, and NHK, \"This is it!\" 15 minutes to deliver a performance video called...",
+      "provider": "MyMemory"
+    },
+    "3dd7492130fb273750acbb9ec8cbcae2a36e1511bf04168c5713d4239dae1e45": {
+      "kind": "description",
+      "source": "昭和・平成・令和、ＮＨＫの音楽番組から「これだ！」という名パフォーマンス映像をお届けする１５分間。今回はシンガーソングライター【斉藤和義】特集！紹介するのは、「歌うたいのバラッド」（１９９７年「ポップジャム」）、「ずっと好きだった」（２０１０年「ウエンズデー　Ｊ－ＰＯＰ」）、「やさしくなりたい」（２０１２年「ＳＯＮＧＳ」。時代を超えて愛される珠玉の名曲たち▽ＭＣニューヨーク胸キュン共演エピソード",
+      "translation": "From the music programs of Showa, Heisei, Reiwa, and NHK, \"This is it!\" 15 minutes to deliver a performance video called...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "fa39f5b028ac6a84277832e7fac3e88d624319ea78b358da93efd11c3ce56720": {
+      "kind": "genre",
+      "source": "歌謡曲・演歌",
+      "translation": "Songs and Enka",
+      "provider": "MyMemory"
+    },
+    "ee260d3a52d30aa1b23177a847f01bb691f8b8da6c38d08a97849a2df6c9f776": {
+      "kind": "title",
+      "source": "アニメ　ＭＡＯ　🈡（２６）「幽羅子の世界」",
+      "translation": "Anime MAO 終(26) \"Unako's World\"",
+      "provider": "MyMemory"
+    },
+    "d0cc907f40bac56306bf9d028aaea2de5be9a1d455af5c8084fc43bb088afbe4": {
+      "kind": "description-excerpt",
+      "source": "幽羅子は、自らの過去を菜花に語り始める。平安時代、「御降家」に放たれた呪いを取り込む器として、呪…",
+      "translation": "Yurako began to tell Naika about her past. In the Heian period, as a vessel for capturing the curse cast by the \"Onariya\", the curse...",
+      "provider": "MyMemory"
+    },
+    "dcb6ae51b1861d6ce18a2aeb568ddb88ae4e7a7c9c2fab6357a9a189a2c7db84": {
+      "kind": "description",
+      "source": "幽羅子は、自らの過去を菜花に語り始める。平安時代、「御降家」に放たれた呪いを取り込む器として、呪符に囲まれた岩屋で暮らしていた幽羅子は、外にも世界があることを知る。そして、初めて摩緒と出会う……。",
+      "translation": "Yurako began to tell Naika about her past. In the Heian period, as a vessel for capturing the curse cast by the \"Onariya\", the curse...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "46f89dc33fa46217ad304552e6ebb5cc37b22bfc9f68c7d1d2b323ec2fbc3c8a": {
+      "kind": "genre",
+      "source": "アニメ/特撮",
+      "translation": "Anime/Tokugawa",
+      "provider": "MyMemory"
+    },
+    "429db7fa7b517860426ca839fd207ef7daecce6d9b76afa250ab3a6b9e0e2eff": {
+      "kind": "genre",
+      "source": "国内アニメ",
+      "translation": "Domestic Anime",
+      "provider": "MyMemory"
+    },
+    "70796cbbc1d1e4dad30b75a2183f9873f96243329f2c3037185bd9dde5deb316": {
+      "kind": "title-fragment",
+      "source": "「石橋凌～全力で生きる気質を受け継いで～」",
+      "translation": "\"Ryo Ishibashi ~ Inheriting the temperament of living with all your strength ~\"",
+      "provider": "MyMemory"
+    },
+    "460618bc8986257490fc47826732c1dcbe272c7480be71bf1809bde7bebbb07f": {
+      "kind": "title",
+      "source": "ファミリーヒストリー「石橋凌～全力で生きる気質を受け継いで～」",
+      "translation": "Family History: \"Ryo Ishibashi ~ Inheriting the temperament of living with all your strength ~\"",
+      "provider": "mapping+MyMemory"
+    },
+    "8fc66cd6f35423e443d7bbe7847fc2ed9725a39a8b4f1be5bbc8c4eb5edb3b7e": {
+      "kind": "description-excerpt",
+      "source": "伝説的ロックバンドＡＲＢのボーカルでデビュー。音楽活動と俳優の両方に全力で取り組んできた石橋凌。",
+      "translation": "Debuted with vocals from legendary rock band ARB. Ryo Ishibashi has worked hard on both musical activities and actors.",
+      "provider": "MyMemory"
+    },
+    "331a140367e2d5d6693023f861fa2c38df4726f5279cfe2347655ba3e876bc2c": {
+      "kind": "description",
+      "source": "伝説的ロックバンドＡＲＢのボーカルでデビュー。音楽活動と俳優の両方に全力で取り組んできた石橋凌。エネルギッシュで努力家な気質は先祖譲りだった。母は８０歳まで病棟の看護師をしたファンキーな女性。そのルーツを辿ると大友宗麟の嫡男に仕えた武士だと分かる。父方祖父と凌との意外な共通点も判明。父は陸軍で激戦を経験し若き日の夢叶わず５０代で病死するが、思いは子供達に引き継がれる。娘・石橋静河が語る父の姿とは。",
+      "translation": "Debuted with vocals from legendary rock band ARB. Ryo Ishibashi has worked hard on both musical activities and actors.",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "87cf9b62f86912e30a8d59d125cbda472325f1a2785e48cb91ed263b9408f1d0": {
+      "kind": "title",
+      "source": "所さん！事件ですよ　夏休みＳＰ",
+      "translation": "Dokoro-san! It's a case, Summer Vacation SP",
+      "provider": "MyMemory"
+    },
+    "343b37642a229ff80dee3e4b8d103a8e1d03e2887f816ba1504ae9668c28d73d": {
+      "kind": "description-excerpt",
+      "source": "ハリウッドセレブが日本の古着に夢中！？カニエ・ウェストを顧客にもつカリスマバイヤーの日本縦断古着…",
+      "translation": "Hollywood celebrities are obsessed with old Japanese clothes!? A charismatic buyer who has Kanye West as a customer, his longitudinal Japanese used clothes...",
+      "provider": "MyMemory"
+    },
+    "c745627edada26c0fc7adb86e66760ff6cce4c28754dd3128292f3e9405c426c": {
+      "kind": "description",
+      "source": "ハリウッドセレブが日本の古着に夢中！？カニエ・ウェストを顧客にもつカリスマバイヤーの日本縦断古着買い付けツアーに密着！！▽アジアで高騰する幻の日本のアーチストのＴシャツとは？▽所さんもびっくり！タイの古着王の総額５０億円のお宝コレクション倉庫に潜入！！▽世界を駆け巡る古着は最後はどこにいく？環境問題を引き起こす古着の墓場とは？▽人生の再起をかける古着バイヤーの卵の夢と挫折▽世界的古着ブームの光と影",
+      "translation": "Hollywood celebrities are obsessed with old Japanese clothes!? A charismatic buyer who has Kanye West as a customer, his longitudinal Japanese used clothes...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "c31912c1f640a249ef34badac3bda989ed88e81e3898abf9b147b18659dd15ed": {
+      "kind": "title",
+      "source": "北アルプス「北アルプスの四季」",
+      "translation": "Northern Alps \"Four Seasons of the Northern Alps\"",
+      "provider": "MyMemory"
+    },
+    "506a9902c442d7a484579eeda2c0f6735cf6760b5b9396eeb13c9aa8428b7c5f": {
+      "kind": "description-excerpt",
+      "source": "北アルプスの山々の四季",
+      "translation": "Four Seasons in the Northern Alps",
+      "provider": "MyMemory"
+    },
+    "8d30fef2da8e6c1bdbf582011cab7944f9b959a369a4e8bbae75e79e7276dc3f": {
+      "kind": "description",
+      "source": "北アルプスの山々の四季",
+      "translation": "Four Seasons in the Northern Alps",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "9076bf4346dece571cebc00e0bdae58c64785a11afe62ecf18320588ffb2961f": {
+      "kind": "title",
+      "source": "ヨーロッパ　トラムの旅「ドイツ　ベルリン」",
+      "translation": "Euratram Tour Berlin, Germany",
+      "provider": "MyMemory"
+    },
+    "512eca715aecd831aa123a09a3ad62b0caf77ff184a09d066b537e51602851de": {
+      "kind": "description",
+      "source": "欧州各地の都市を走る路面電車・トラム。どこか懐かしくレトロなたたずまいは、旅人をひきつけて止まない。街の中心部を走るので、名所巡りも車窓から楽しめる。トラムを乗りこなせれば街の観光は楽々。ヨーロッパにはトラムで巡りたくなるすてきな街があふれている。あたかもトラムに乗っているかのような感覚で、車窓を楽しむリアル・トラム体験。今回は、ドイツ・ベルリンを旅する。",
+      "translation": "Trams and trams run through cities across Europe. A nostalgic and retro look can't stop attracting travelers...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "2952d43544f71bfcd807889ee186eb4b4ae63246c1a3af9b631c78ef58023e64": {
+      "kind": "title",
+      "source": "カラーでよみがえる東京「上野公園〜西郷さんは見ていた〜」",
+      "translation": "Tokyo resurrected in color \"Ueno Park ~ Saigo-san was watching ~\"",
+      "provider": "MyMemory"
+    },
+    "c1d8b2e73276ffebd500814c9908c5d5e9b0be7f447dc6150ef0900e2ff338c4": {
+      "kind": "description-excerpt",
+      "source": "１００年の間に震災と戦争によって２度焼け野原となり、そこから不死鳥のようによみがえった都市・東京…",
+      "translation": "In 100 years, the city of Tokyo has been burned twice by the earthquake and war, and has risen like a phoenix from there...",
+      "provider": "MyMemory"
+    },
+    "91be966b1c2873a227ac0ba9f7e90b998b675fb605bbf68d18af66c008cc29ec": {
+      "kind": "description",
+      "source": "１００年の間に震災と戦争によって２度焼け野原となり、そこから不死鳥のようによみがえった都市・東京。ＮＨＫは、東京を撮影した白黒フィルムを世界中から収集、現実にできるだけ近い色彩の復元に挑んだ。色を取り戻した東京は、どんな表情を見せるのか。今回は上野にしぼって、激動の歩みを、初公開フルカラー映像でたどる。",
+      "translation": "In 100 years, the city of Tokyo has been burned twice by the earthquake and war, and has risen like a phoenix from there...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "01c1749bef485ec4547a3244dff6a2374b361fc31d61132efc23f1b53d91e7f8": {
+      "kind": "title",
+      "source": "インターミッション",
+      "translation": "Intermission",
+      "provider": "MyMemory"
+    },
+    "c0351688cbcd737ee0187eabbe7135514bd5659843a31945f62d72a79caa6035": {
+      "kind": "title-fragment",
+      "source": "（２０２６年）　幕内の全取組　秋場所　十四日目",
+      "translation": "(2026) All Initiatives in the Shogunate Autumn Place Day 14",
+      "provider": "MyMemory"
+    },
+    "ca49eebd5d6227dbe2d994f5b7eb7627643190b97736cb646b1a7fe48aa4e960": {
+      "kind": "title",
+      "source": "大相撲（２０２６年）　幕内の全取組　秋場所　十四日目",
+      "translation": "Grand Sumo: (2026) All Initiatives in the Shogunate Autumn Place Day 14",
+      "provider": "mapping+MyMemory"
+    },
+    "2fd6068e9d36f99442efaf6a73f20a43441297f7d5d04293a1ee595b7b87c707": {
+      "kind": "title-fragment",
+      "source": "「オーボエ・ソナタ」プーランク作曲",
+      "translation": "Oboe Sonata by Poulenc",
+      "provider": "MyMemory"
+    },
+    "352b414f179f3179d2c84ac6864e3a599623a8ebc2bab1d0c1e1805db70bf568": {
+      "kind": "title",
+      "source": "名曲アルバム「オーボエ・ソナタ」プーランク作曲",
+      "translation": "Masterpiece Album: Oboe Sonata by Poulenc",
+      "provider": "mapping+MyMemory"
+    },
+    "0999cd0512f9e7411fe171fb13ce8a4f977fc546323035887876e673c01c1b4b": {
+      "kind": "description-excerpt",
+      "source": "オーボエ　古部賢一　ピアノ　宇根美沙惠　ロケ地　パリ、ノワゼー（フランス）",
+      "translation": "Oboe Kenichi Kobe Piano Misa Une Location Paris, Noise (France)",
+      "provider": "MyMemory"
+    },
+    "337120205df871a05b13cfcad99ff2f0367aafe4cab2cc622b0291fda5759659": {
+      "kind": "description",
+      "source": "オーボエ　古部賢一　ピアノ　宇根美沙惠　ロケ地　パリ、ノワゼー（フランス）",
+      "translation": "Oboe Kenichi Kobe Piano Misa Une Location Paris, Noise (France)",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "9e41b848b9cdf9f4f13a6f3dcae1f9002ddc22ceed199490ce9bee992e458d3b": {
+      "kind": "title",
+      "source": "【ＮＨＫ地域局発】　小さな光を見つめてみたら",
+      "translation": "[From NHK Regional Bureau] When I stared at the small light",
+      "provider": "MyMemory"
+    },
+    "0b2b36dabbbfc3d40b7860fea1f76390c9f260755023ad58e5d28abf92b81af7": {
+      "kind": "description-excerpt",
+      "source": "多くの人が寝静まる町で、それにあらがうかのように「灯り」をともし真夜中に活動をしている場所を見つ…",
+      "translation": "In a town where many people sleep, I see a place that is active in the middle of the night with a \"light\" as if shining on it...",
+      "provider": "MyMemory"
+    },
+    "1dc4ccb11b67c8c17250f223fd8549d20d53cb41bf4f61f195fd75d453391571": {
+      "kind": "description",
+      "source": "多くの人が寝静まる町で、それにあらがうかのように「灯り」をともし真夜中に活動をしている場所を見つめる…四国中央市の山あいで新聞配達をする夫婦。愛媛県宇和島市の深夜にだけ営業するお弁当屋さん。高知県大豊町の山の中で夜通し作業をする豆腐屋さん…四国に眠る、知られざる夜の灯りの先に広がる物語。",
+      "translation": "In a town where many people sleep, I see a place that is active in the middle of the night with a \"light\" as if shining on it...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "c924b6d9433c282b1524dea0415239b50a0bfc73ab47a1341f33e1bf56ccce77": {
+      "kind": "title",
+      "source": "一本の道ｍｉｎｉ「ウイスキーの道をゆく　スコットランド・スペイ川に沿って」",
+      "translation": "One Trail mini “Scotch Spey River Walking Whisky Trail”",
+      "provider": "MyMemory"
+    },
+    "f4c23ca6308d28d0ee5fdf87a142f04cf96a0457cf2e43a4a88b39b68a08e86f": {
+      "kind": "description-excerpt",
+      "source": "２０１６年１２月に放送した「一本の道」の５分版。地元に住む案内人から、スコットランドでは、ウイス…",
+      "translation": "A five-minute version of \"One Road\" broadcast in December 2016. From a local guide, in Scotland, Whis...",
+      "provider": "MyMemory"
+    },
+    "324f4629d0c6b6930c46f9a3d9db3cb40eb6ed7feceed150d34e6bed8e71b06f": {
+      "kind": "description",
+      "source": "２０１６年１２月に放送した「一本の道」の５分版。地元に住む案内人から、スコットランドでは、ウイスキーが「命の水」と呼ばれていることを教えられる。歩き始めると、泥炭で茶色くなったスペイ川に遭遇。この泥炭がスコッチウイスキーの香りの理由。蒸留所を訪ねてテイスティングをさせてもらい、たわわに実った大麦畑で、農家の人の話を聞いた。スペイ川はサーモンフィッシングでも有名。スペイ川とともにゴールの北海へ。",
+      "translation": "A five-minute version of \"One Road\" broadcast in December 2016. From a local guide, in Scotland, Whis...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "2bd2e5bad1d6fd694415dbfab3cdecf753c77f40d1cc60e40d6f67d3242ae591": {
+      "kind": "title",
+      "source": "桂文枝の演芸図鑑　中村鴈治郎　おぼん・こぼん　弁財亭和泉",
+      "translation": "Katsura Bunge's Encyclopedia of Performing Arts Nakamura Kanjiro Obon Kobon Benzaitei Izumi",
+      "provider": "MyMemory"
+    },
+    "87c0f2c5c7c9ed3a6aeb951491332fc9654b799fe1aad10bded924c5c2ee1052": {
+      "kind": "description-excerpt",
+      "source": "桂文枝がえりすぐりの芸をナビゲート▽演芸はおぼん・こぼんの漫才、弁財亭和泉の新作落語「箱の中」▽…",
+      "translation": "Fumie Katsura navigates the art of purification▽ Performing arts is a manga of obon and kobon, Benzaitei Izumi's new rakugo \"In the Box\"▽...",
+      "provider": "MyMemory"
+    },
+    "f948cb8024ae17a77dd54c3aecb58261b21a4ba588f6658ad3a8f8e8fee03df7": {
+      "kind": "description",
+      "source": "桂文枝がえりすぐりの芸をナビゲート▽演芸はおぼん・こぼんの漫才、弁財亭和泉の新作落語「箱の中」▽対談ゲストは歌舞伎俳優で、映画「国宝」の歌舞伎指導・出演で話題の中村鴈治郎▽映画「国宝」から「シネマ歌舞伎」へ！伝統芸歌舞伎に思う未来と危機感▽８歳で初舞台。暗中模索の２０代を救ってくれた勘九郎（当時）と八十助（当時）のアメとムチとは？▽鴈治郎襲名秘話。父の藤十郎襲名と交錯する思いを語る・・・他",
+      "translation": "Fumie Katsura navigates the art of purification▽ Performing arts is a manga of obon and kobon, Benzaitei Izumi's new rakugo \"In the Box\"▽...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "663870369265796d1d2c2e2cde4ee6f40ac80dd9304c27d1d49d60a047ec0217": {
+      "kind": "genre",
+      "source": "お笑い・コメディ",
+      "translation": "Comedy",
+      "provider": "MyMemory"
+    },
+    "673472993b3f1ed82c1b3915a117d911b5cb20610487c802643a079b37f0c6d9": {
+      "kind": "genre",
+      "source": "劇場/公演",
+      "translation": "Theater/Performance",
+      "provider": "MyMemory"
+    },
+    "002c51cccfb242be2634d7e9e79e16ee84fe2a21db97f6cf4181b97b6a52f2da": {
+      "kind": "genre",
+      "source": "落語・演芸",
+      "translation": "Rakugo/Performing Arts",
+      "provider": "MyMemory"
+    },
+    "976670e1bdedcc9d81b01ceaaf2801cce4c99f1aa7938c5300ee1e1d068d8b4a": {
+      "kind": "title",
+      "source": "【特選！時代劇】大岡越前８🈡（８）「越前と天一坊」",
+      "translation": "[Special selection! Period drama] Ooka Echizen 8終 (8) \"Echizen and Tenichibo\"",
+      "provider": "MyMemory"
+    },
+    "3f4c46978e435a25ac18d1e4e26c3a1c939401e04f915b9f43f1a841b385af3e": {
+      "kind": "description-excerpt",
+      "source": "天一坊（藤枝喜輝）が、吉宗（徳重聡）のご落胤か否かの再吟味では、忠相（高橋克典）と伊賀亮（加藤雅…",
+      "translation": "In re-examining whether Tenichibo (Yoshiteru Fujieda) is a descendant of Yoshimune (Satoshi Tokushige), Tadasuke (Katanori Takahashi) and Ryo Iga (Masa Kato...",
+      "provider": "MyMemory"
+    },
+    "f750f56ef4dff5bbc4af5c579c32fcfc7dfc31475d41519128ad98d5076ad329": {
+      "kind": "description",
+      "source": "天一坊（藤枝喜輝）が、吉宗（徳重聡）のご落胤か否かの再吟味では、忠相（高橋克典）と伊賀亮（加藤雅也）の丁々発止が続く。が、ただただ父と会いたいと言う天一坊の言葉に、忠相は芝居でない何かを感じはした。しかし、紀州に調査に向かった新三郎（寺脇康文）達が持って帰る報告を待つ時間稼ぎのため、忠相は、伊織（勝村政信）に協力してもらい、仮病を使う。再吟味を任せた忠相の結論が遅いことに、吉宗は怒りを爆発させる。",
+      "translation": "In re-examining whether Tenichibo (Yoshiteru Fujieda) is a descendant of Yoshimune (Satoshi Tokushige), Tadasuke (Katanori Takahashi) and Ryo Iga (Masa Kato...",
+      "provider": "MyMemory (summary excerpt)"
+    },
+    "4050fdd659ad6499f0eaca9fa91b10a51e64bb532d825a9d0efa38f3b8001a6b": {
+      "kind": "title-fragment",
+      "source": "　🈡土曜ダイジェスト版　第２６週",
+      "translation": "終Saturday Digest Week 26",
+      "provider": "MyMemory"
+    },
+    "79f8fafbb6008f10c3d1a7bf8c26f9a97a5bb8731c4e98075fe5f2ba1b2e4aa1": {
+      "kind": "title-fragment",
+      "source": "関東甲信越",
+      "translation": "Kanto Koshinetsu",
+      "provider": "MyMemory"
+    },
+    "e25ff30662e3fce80bb40624508f5fcfff780c1aad2b671493b9471890557337": {
+      "kind": "title-fragment",
+      "source": "優勝争いの行方は",
+      "translation": "Where is the fight for the championship going?",
+      "provider": "MyMemory"
+    }
+  }
+}

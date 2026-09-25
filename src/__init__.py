@@ -1,0 +1,1 @@
+"""Japanese IPTV XMLTV generator."""

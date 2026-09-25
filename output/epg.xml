@@ -1,0 +1,1095 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv generator-info-name="Japan EPG">
+  <channel id="NHK東京・総合_jp">
+    <display-name lang="en">NHK G Tokyo</display-name>
+    <display-name lang="ja">NHK総合1・東京</display-name>
+    <icon src="https://jp-epg-26f0ce.gitlab.io/logos/nhk_g.png" />
+  </channel>
+  <programme start="20260926011500 +0900" stop="20260926021500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Hospital Radio Saitama Prefectural Cancer Center▼ Sandwichman</title>
+    <title lang="ja">病院ラジオ　埼玉県立がんセンター編▼サンドウィッチマン</title>
+    <desc lang="en">The Sandwichman visits the Saitama Prefectural Cancer Center.</desc>
+    <desc lang="ja">サンドウィッチマンが訪れるのは埼玉県立がんセンター。がん先進医療の拠点で患者さんや家族の日ごろ言えない思いに触れる▼乳がんになって実感した女の友情▼抗がん剤の治療でおしっこ大会？▼治療の副作用で外見はボロボロ…それでも感じる心の豊かさ▼子宮を全摘し患者の気持ちを痛感した看護師▼謎の高熱で白血病が判明▼小笠原に波照間島…治療も旅行も全力で▼残りの日々を夫と穏やかに過ごしたい…ほか</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">General Documentary</category>
+    <category lang="en">Space/Science/Medicine</category>
+    <category lang="en">Interview/Discussion</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">ドキュメンタリー全般</category>
+    <category lang="ja">宇宙・科学・医学</category>
+    <category lang="ja">インタビュー・討論</category>
+  </programme>
+  <programme start="20260926021500 +0900" stop="20260926021600 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">NHK Special: The Challenge of PR Disease Episode 2: The Key to Overcoming Depression</title>
+    <title lang="ja">ＮＨＫスペシャルＰＲ　病への挑戦　第２集　うつ病　克服へのカギ</title>
+    <desc lang="en">A PR program that summarizes the highlights of the NHK Special.</desc>
+    <desc lang="ja">ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。今回は９月２７日放送の『病への挑戦　第２集　うつ病　克服へのカギ』。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">その他</category>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926021600 +0900" stop="20260926022100 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Serial TV Novel: Blossom — Preview</title>
+    <title lang="ja">連続テレビ小説「ブラッサム」ＰＲ</title>
+    <desc lang="en">Quickly deliver the highlights of the new morning drama "Blossom" that will begin on the 28th.</desc>
+    <desc lang="ja">２８日に新しく始まる朝ドラ「ブラッサム」の見どころをひと足早くお届け。主演の石橋静河さんをはじめ、キャスト陣の熱い思いに迫る特別番組。「ちゅらさん」以来、２５年ぶりの朝ドラ出演となる国仲涼子さんに、朝ドラ初出演の渡部篤郎さんといった、魅力的な登場人物たちのドラマ初公開映像が盛りだくさん。</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+  </programme>
+  <programme start="20260926022100 +0900" stop="20260926022200 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">SL time machine 1 minute PR</title>
+    <title lang="ja">ＳＬタイムマシン　１分ＰＲ</title>
+    <desc lang="en">1-minute PR version of "SL Time Machine" broadcast on General TV from 7:30 pm on Monday, October 12.</desc>
+    <desc lang="ja">総合テレビで１０月１２日（月・祝）夜７時半から放送の「ＳＬタイムマシン」の１分ＰＲ版。今、ＳＬの人気が高まっている。美しい日本の風景を眺めながら、レトロなＳＬの旅をゆったりと楽しめる。その人気の原点を求めて、“ＳＬタイムマシン”で時空をひとっ飛び！すると、１９６０年代後半～７５年頃のＳＬ大ブームを発見！ＳＬはなぜ、人々の心を惹きつけ続けるのか？時空を超える旅へ、ようこそ！</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">General Documentary</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">ドキュメンタリー全般</category>
+  </programme>
+  <programme start="20260926022200 +0900" stop="20260926032200 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Belgrade, Serbia - European Tram Tour</title>
+    <title lang="ja">ヨーロッパ　トラムの旅「セルビア　ベオグラード」</title>
+    <desc lang="en">Trams and trams run through cities across Europe. A nostalgic and retro look can't stop attracting travelers...</desc>
+    <desc lang="ja">欧州各地の都市を走る路面電車・トラム。どこか懐かしくレトロなたたずまいは、旅人をひきつけて止まない。街の中心部を走るので、名所巡りも車窓から楽しめる。トラムを乗りこなせれば街の観光は楽々。ヨーロッパにはトラムで巡りたくなる素敵（すてき）な街があふれている。あたかもトラムに乗っているかのような感覚で、車窓を楽しむリアル・トラム体験。今回は、セルビア・ベオグラードを旅する。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Travel, Fishing, Outdoors</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">旅・釣り・アウトドア</category>
+  </programme>
+  <programme start="20260926032200 +0900" stop="20260926033500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Soul Taki Fire "Special Healing Flame"</title>
+    <title lang="ja">魂のタキ火「特別編　癒やしの炎」</title>
+    <desc lang="en">"Taki fire of the soul" is sent with a talk of the guests' faces illuminated by the flames.</desc>
+    <desc lang="ja">炎に照らし出されたゲストたちの素顔のトークとともにお送りする「魂のタキ火」。時に都会の片隅で、時に自然の中で。今までの放送の中から、美しい炎の映像を中心にお送りします。どうぞ、心を開放する、穏やかなひとときを。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260926033500 +0900" stop="20260926040000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Grand Sumo: Aki Basho, Day 13 — All Makuuchi Bouts</title>
+    <title lang="ja">大相撲（２０２６年）　幕内の全取組　秋場所　十三日目</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Sumo and martial arts</category>
+    <category lang="en">Sports News</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Culture &amp; Traditional Culture</category>
+    <category lang="ja">スポーツ</category>
+    <category lang="ja">相撲・格闘技</category>
+    <category lang="ja">スポーツニュース</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">カルチャー・伝統文化</category>
+  </programme>
+  <programme start="20260926040000 +0900" stop="20260926040500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Hello! NHK World Japan</title>
+    <title lang="ja">ハロー！ＮＨＫワールドＪＡＰＡＮ</title>
+    <desc lang="en">From October 2 to the end of December, the Japanese version of the popular international broadcast regular program "Design x Stories" will be broadcast on E-Tele...</desc>
+    <desc lang="ja">１０月２日から１２月末まで　国際放送の人気定時番組Ｄｅｓｉｇｎ×Ｓｔｏｒｉｅｓの日本語版がＥテレで放送される。その放送内容を紹介するとともに、国内でも放送されて好評を得ている国際放送発の番組「ＲＡＭＥＮ　ＪＡＰＡＮ（ラーメン・ジャパン）」や「ＪＡＰＡＮ　ＤＥＬＩＳＨ（ジャパン・デリッシュ）」も紹介する。　</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+  </programme>
+  <programme start="20260926040500 +0900" stop="20260926041000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Minna no Uta: "Yorgao"/"OK Shokudo"</title>
+    <title lang="ja">みんなのうた「ヨルガオ」／「ＯＫ食堂」</title>
+    <desc lang="en">"Yorgao" (2019) Lyrics: Kimiko, Composer: Atsushi Sasaki, Arrangement: nano. Ripe, Kanematsu Shu, Uta: ...</desc>
+    <desc lang="ja">「ヨルガオ」（２０１９年）作詞：きみコ、作曲：佐々木淳、編曲：ｎａｎｏ．ＲＩＰＥ・兼松衆、うた：ｎａｎｏ．ＲＩＰＥ、アニメ：外山光男／「ＯＫ食堂」（２０１５年）作詞：もりちよこ、作曲：佐瀬寿一、うた：ガッツ石松＆ポカスカジャン、アニメ：青木純</desc>
+    <category lang="en">Music</category>
+    <category lang="en">Domestic Rock Pop</category>
+    <category lang="en">Nursery rhymes and kids</category>
+    <category lang="en">Variety</category>
+    <category lang="en">Music Variety</category>
+    <category lang="ja">音楽</category>
+    <category lang="ja">国内ロック・ポップス</category>
+    <category lang="ja">童謡・キッズ</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">音楽バラエティ</category>
+  </programme>
+  <programme start="20260926041000 +0900" stop="20260926041500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Pythagorean Switch Mini▽ New Bio▽ Patatoxy</title>
+    <title lang="ja">ピタゴラスイッチ　ミニ▽新しい生物▽パタトクカシー</title>
+    <desc lang="en">There are various mysterious structures, interesting ideas, and laws hidden in our daily lives.</desc>
+    <desc lang="ja">私たちがふだん暮らしている中には、さまざまな不思議な構造、面白い考え方、法則が隠れている。番組では、「子どもにとっての“なるほど！”」を、アニメ、歌、体操、ピタゴラ装置など、多彩なコーナーで紹介します。</desc>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Infants and elementary school students</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Other</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">幼児・小学生</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260926041500 +0900" stop="20260926050000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">International News Report: 2026 What happened at the site of the rapid spread of Ebola?</title>
+    <title lang="ja">国際報道２０２６　エボラ出血熱の感染急拡大　現場で何が</title>
+    <desc lang="en">Ebola is spreading rapidly in the Democratic Republic of the Congo.</desc>
+    <desc lang="ja">コンゴ民主共和国でエボラ出血熱の感染が急拡大している。特に懸念されているのが、その拡大のスピードだ。ことし５月に公式に感染が確認されて以降、感染者数は９月中旬現在で７０００人を超え、死者の数も３３００人に達している。感染の中心地となっているコンゴ東部イトゥリ州にカメラが入り、ぜい弱な医療体制や風習、それに地元経済と治安情勢など、急激な感染拡大の背景に何があるのか解き明かす。</desc>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Overseas/International</category>
+    <category lang="en">Featured/Documentation</category>
+    <category lang="en">Explanation</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">海外・国際</category>
+    <category lang="ja">特集・ドキュメント</category>
+    <category lang="ja">解説</category>
+  </programme>
+  <programme start="20260926050000 +0900" stop="20260926051000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News and Weather</title>
+    <title lang="ja">ニュース・気象情報</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="en">The weather</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+    <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260926051000 +0900" stop="20260926053500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Delicious! The king of sesame seeds, golden sesame seeds with a wish on a single grain</title>
+    <title lang="ja">うまいッ！　ひと粒に願いをこめて　ごまの王様　金ごま</title>
+    <desc lang="en">This time, we are planning to support young producers! Jume Muto, a former member of AKB48, is a woman struggling to make gold sesame in Saitama Prefecture...</desc>
+    <desc lang="ja">今回は若手生産者応援企画！ＡＫＢ４８の元メンバー・武藤十夢さんが、埼玉県で金ごま作りに奮闘する女性を訪ねます。ごまのほぼ１００パーセントを輸入に頼る日本。国産ごまを増やしたいと、農業経験ゼロから栽培を始めた女性の思いとは？初めて見るごま畑に武藤さんも大興奮。収穫作業にも挑戦します。いると濃厚な香りが広がる「ごまの王様」、金ごま。その魅力と、金ごまを使った埼玉県の絶品郷土料理をご紹介します。</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Food &amp; Drink</category>
+    <category lang="en">Variety</category>
+    <category lang="en">Culinary Variety</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Culture &amp; Traditional Culture</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">グルメ・料理</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">料理バラエティ</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">カルチャー・伝統文化</category>
+  </programme>
+  <programme start="20260926053500 +0900" stop="20260926054000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">One Point Sign Language (14) Hobby * Subtitle Supermarket</title>
+    <title lang="ja">ワンポイント手話（１４）趣味※字幕スーパー</title>
+    <desc lang="en">We will introduce 25 basic sign language words and conversations that are indispensable for daily life.</desc>
+    <desc lang="ja">日常生活に欠かせない初歩的な手話の単語や会話を２５回に分けて紹介します。通しでごらんいただき、最終的には手話で簡単な自己紹介ができるようになるのが目標です。講師の河合優子さん、サブ講師の所智子さん、生徒役石川寛和さんはいずれも、中途失聴および難聴の当事者です。読書、俳句など、趣味を表す手話を学習します</desc>
+    <episode-num system="onscreen">14</episode-num>
+    <category lang="en">Welfare</category>
+    <category lang="en">Sign language</category>
+    <category lang="ja">福祉</category>
+    <category lang="ja">手話</category>
+  </programme>
+  <programme start="20260926054000 +0900" stop="20260926055000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">NHK video file Mayumi Narita (Para swimmer) who wants to meet that person</title>
+    <title lang="ja">ＮＨＫ映像ファイル　あの人に会いたい　成田真由美（パラ競泳選手）</title>
+    <desc lang="en">Narita was born in Kawasaki City, Kanagawa Prefecture in 1970. She was an active girl who loved sports.</desc>
+    <desc lang="ja">成田さんは昭和４５年、神奈川県川崎市生まれ。スポーツが大好きで活発な少女だった。しかし、中学生の時に横断性脊髄炎を発症して、両足がまひ。車いす生活となった。２３歳の時、友人に誘われたのをきっかけに、競泳の世界へ。持ち前の負けず嫌いの性格から猛練習を重ね、パラリンピックで数多くのメダルを獲得した。障害者への理解を広げる活動にも尽力。東京パラリンピックでは組織委員会の理事も務めた。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Culture &amp; Traditional Culture</category>
+    <category lang="en">Interview/Discussion</category>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Performing Arts/Wide Show</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">カルチャー・伝統文化</category>
+    <category lang="ja">インタビュー・討論</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">芸能・ワイドショー</category>
+  </programme>
+  <programme start="20260926055000 +0900" stop="20260926060000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Weather Information</title>
+    <title lang="ja">気象情報</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">The weather</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260926060000 +0900" stop="20260926063000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">NHK News: Good Morning Japan: What is the future outlook for Typhoon 26?</title>
+    <title lang="ja">ＮＨＫニュース　おはよう日本　台風２６号　今後の見通しは</title>
+    <desc lang="en">The future prospects of ▼Typhoon No. 26 can be seen in the annual festival of the ▼Shizuoka tornado.</desc>
+    <desc lang="ja">▼台風２６号　今後の見通しは　▼静岡竜巻１年　祭りにこめる思い</desc>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="en">Featured/Documentation</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports News</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+    <category lang="ja">特集・ドキュメント</category>
+    <category lang="ja">スポーツ</category>
+    <category lang="ja">スポーツニュース</category>
+  </programme>
+  <programme start="20260926063000 +0900" stop="20260926070000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">NHK News: Good Morning Japan: What is the future outlook for Typhoon 26?</title>
+    <title lang="ja">ＮＨＫニュース　おはよう日本　台風２６号　今後の見通しは</title>
+    <desc lang="en">▼Typhoon 26 The outlook for the future is to convene the ▼extraordinary Diet on the 5th Nepal is now ▼featured one month from the ▼debris flow...</desc>
+    <desc lang="ja">▼台風２６号　今後の見通しは　▼臨時国会　５日召集へ　▼土石流から１か月　ネパールはいま　▼特集　ＡＩ時代の働き方</desc>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="en">Featured/Documentation</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports News</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+    <category lang="ja">特集・ドキュメント</category>
+    <category lang="ja">スポーツ</category>
+    <category lang="ja">スポーツニュース</category>
+  </programme>
+  <programme start="20260926070000 +0900" stop="20260926073000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">NHK News: Good Morning Japan</title>
+    <title lang="ja">ＮＨＫニュース　おはよう日本</title>
+    <desc lang="en">The latest news from Japan and abroad is easy to understand and compact. Special features that approach the deeper depths of live broadcasts and news from the scene that I am curious about...</desc>
+    <desc lang="ja">国内外の最新ニュースをわかりやすくコンパクトに。気になる現場からの生中継やニュースの深層に迫る特集も。スポーツ情報、きょうの気象情報も詳しくお伝えします。</desc>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="en">Featured/Documentation</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports News</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+    <category lang="ja">特集・ドキュメント</category>
+    <category lang="ja">スポーツ</category>
+    <category lang="ja">スポーツニュース</category>
+  </programme>
+  <programme start="20260926073000 +0900" stop="20260926080000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">NHK News: Good Morning Shutoken: Kanto Koshinetsu</title>
+    <title lang="ja">ＮＨＫニュース　おはよう首都圏（関東甲信越）</title>
+    <desc lang="en">Beware of ▽Tokyo Gelato's▽ hidden taste disorder! How do you protect your taste buds?</desc>
+    <desc lang="ja">▽東京ジェラートの旅▽隠れ味覚障害に注意！味覚を守る方法とは？</desc>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Local</category>
+    <category lang="en">The weather</category>
+    <category lang="en">Transit</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">ローカル・地域</category>
+    <category lang="ja">天気</category>
+    <category lang="ja">交通</category>
+  </programme>
+  <programme start="20260926080000 +0900" stop="20260926081500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Serial TV Novel: Kaze, Kaoru — Final Saturday Digest, Week 26</title>
+    <title lang="ja">【連続テレビ小説】風、薫る　🈡土曜ダイジェスト版　第２６週</title>
+    <desc lang="en">As the nursing exam was approaching, Rin (Ai Kami) and Naomi (Juri Kamisaka) joined the Eifu Nursing Association as special lecturers Imai (Yu Furukawa...</desc>
+    <desc lang="ja">看護婦試験が近づく中、りん（見上愛）と直美（上坂樹里）は恵風看護婦会に特別講師として今井（古川雄大）を迎える。そして試験当日、緊張の面持ちのツヤ（東野絢香）とセツ（村上穂乃佳）らをりんと直美は温かく送り出すのだった。そんな中、りんはシマケン（佐野晶哉）より、看護の実用書を書いてはどうかと提案される。後に続く看護婦たちに看護の知識を伝えるため、りんは悩みながらも本づくりに邁進していく。</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+    <category lang="ja">その他</category>
+    <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260926081500 +0900" stop="20260926090000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Chico Will Scold You!: The Mystery of the ▽Moon▽ Sato-san's Mystery▽ Why the Red Clothes on the Calendar</title>
+    <title lang="ja">チコちゃんに叱られる！▽月の不思議▽佐藤さんの謎▽なぜ還暦に赤い服</title>
+    <desc lang="en">Why is the moon uneven and full of craters?... what's the big difference from Earth!</desc>
+    <desc lang="ja">なぜ月はクレーターだらけで凸凹しているの？…地球との大きな違いは何か！？壮大でロマンあふれる宇宙の物語！なぜ日本で佐藤さんが一番多いの？…佐藤さんが最も多い名字に上り詰めたまさかの理由とは！？なぜ還暦に赤い服を着るの？…還暦を過ぎてさらに輝く驚きの６０代が続々登場！まさかのあの人のお父さん！？びっくりしたとき“ウソでしょ！”というのはなぜ？ゲストは松嶋尚美さんと金子大地さん！</desc>
+    <category lang="en">Variety</category>
+    <category lang="en">QUESTION TIME</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">クイズ</category>
+  </programme>
+  <programme start="20260926090000 +0900" stop="20260926093000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Darwin's Amazing Animals: "Lake Biwa Gem Biwamas Great Pursuit!"</title>
+    <title lang="ja">ダーウィンが来た！「びわ湖の宝石　ビワマス大追跡！」</title>
+    <desc lang="en">Biwamasu, a jewel of Lake Biwa. It is a salmonid fish with a total length of 60 cm, which has been loved in the region since ancient times, but 202...</desc>
+    <desc lang="ja">びわ湖の宝石・ビワマス。全長６０ｃｍになるサケ科の魚で、いにしえから地域で愛されてきたが、２０２５年ようやく新種として発表されるなど、まだ謎多き魚だ。広く深いびわ湖で過ごすため、泳ぐ姿さえ湖ではほとんど目撃されていない。今回、徹底調査で水深６０ｍの湖底で撮影に成功！見えてきたのは、「湖の深さ」を巧みに利用し生き抜く姿。びわ湖４００万年の歴史が育む世界で唯一ここにしかいないビワマスの生態に迫る。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Nature, Animals, Environment</category>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Travel, Fishing, Outdoors</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">自然・動物・環境</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">旅・釣り・アウトドア</category>
+  </programme>
+  <programme start="20260926093000 +0900" stop="20260926100000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Document 72 Hours: At the Aomori Nebuta Festival "Phantom Campground"</title>
+    <title lang="ja">ドキュメント７２時間　青森・ねぶた祭　“幻のキャンプ場”で</title>
+    <desc lang="en">The Aomori Nebuta Festival is held every year in early August. Near the venue, there is a "phantom campground" that only opens during the festival...</desc>
+    <desc lang="ja">毎年８月上旬に行われる青森ねぶた祭。その会場近くに、祭りの間だけオープンする“幻のキャンプ場”がある。予約も料金も不要。宿泊の条件はただひとつ「ねぶた祭に参加すること」。２０年以上通い詰める会社員。ここで出会って結婚した夫婦。日中は思い思いに過ごし、夜は祭りでラッセラーと跳ね回る。年齢も性別も肩書きも誰も気にしない。年に１度、かげろうのように現れては消えるキャンプ場で、旅人たちとともに過ごした。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Lifestyle/Housing</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">社会・時事</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">暮らし・住まい</category>
+  </programme>
+  <programme start="20260926100000 +0900" stop="20260926100500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News and Weather</title>
+    <title lang="ja">ニュース・気象情報</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="en">The weather</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+    <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260926100500 +0900" stop="20260926103300 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Metropolitan area information spoilers! In-depth coverage of the latest developments in "housekeeping" at home and at home!</title>
+    <title lang="ja">首都圏情報ネタドリ！　自宅や実家の“家じまい”　最新事情を徹底取材！</title>
+    <desc lang="en">The house suddenly "turned into a negative chattel". More and more people are facing the difficulty of "housekeeping" to organize and dispose of their homes and parents' homes.</desc>
+    <desc lang="ja">家が突然「負の動産へ」。自宅や実家を整理・処分する“家じまい”の難しさに直面する人が増えている。実家の家じまいを考えた男性は、思うように売却ができず更地にすることを検討。解体費が２００万円以上かかると判明し衝撃を受けた。また、思い出の品をなかなか片付けられないという女性も。マンションではさらに深刻な実態が。番組では気を付けるポイントを徹底取材。家じまいの準備に役立つ自治体の最新事情も紹介する。</desc>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Local</category>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Lifestyle/Housing</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">ローカル・地域</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">暮らし・住まい</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">社会・時事</category>
+  </programme>
+  <programme start="20260926103300 +0900" stop="20260926110800 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Ariyoshi's Money Discovery Assault! Kaneo-kun surprises! Mirror secrets that are indispensable to life</title>
+    <title lang="ja">有吉のお金発見　突撃！カネオくん　驚き！生活に欠かせない「鏡」のヒミツ</title>
+    <desc lang="en">We are approaching the mirror secrets that are indispensable to our lives! Infiltrate a factory that manufactures mirrors that you don't know about.</desc>
+    <desc lang="ja">私たちの生活に欠かせない鏡のヒミツに迫る！意外と知らない鏡の製造工場へ潜入。倒れても割れない鏡！そのヒミツは？さらにＳＮＳで大バズりの“映しすぎる鏡”や、利用者の声から生まれた“見えすぎない鏡”も登場！動画を見ながら作業ができる！最新の鏡事情に、華やかレトロなミラーボールの製造工場に潜入。手作業で鏡を貼り付けていく職人技も！北欧ノルウェーの山間部に現れた巨大な鏡！スタジオ騒然の使用方法とは！？</desc>
+    <category lang="en">Variety</category>
+    <category lang="en">Talk Variety</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">トークバラエティ</category>
+  </programme>
+  <programme start="20260926110800 +0900" stop="20260926115400 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Ncon 2026 Kanto Koshinetsu Block Highlight Elementary School Section</title>
+    <title lang="ja">Ｎコン２０２６　関東甲信越ブロックハイライト　小学校の部</title>
+    <desc lang="en">The elementary school section of the Kanto Koshinetsu Block Competition held at Saitama Sonic City Main Hall has a district competition...</desc>
+    <desc lang="ja">さいたま・ソニックシティ大ホールで開催された関東甲信越ブロックコンクール小学校の部には地区コンクールを勝ち進んだ１３校が出場。すべての出場校の自由曲の演奏と、金賞を受賞した学校の課題曲の演奏をハイライトでお届けします。課題曲「どっきん　せみさん」はＥテレのワンワンが制作。参加者みんなで歌う全員合唱もお楽しみに！ナレーション：瀬戸光アナウンサー</desc>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Music, Arts &amp; Crafts</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">音楽・美術・工芸</category>
+  </programme>
+  <programme start="20260926115400 +0900" stop="20260926120000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Weather Information</title>
+    <title lang="ja">気象情報</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">The weather</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260926120000 +0900" stop="20260926121000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News</title>
+    <title lang="ja">ニュース</title>
+    <desc lang="en">[Caster] Shinya Tonegawa</desc>
+    <desc lang="ja">　【キャスター】利根川真也</desc>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260926121000 +0900" stop="20260926121500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News (Kanto Koshinetsu)</title>
+    <title lang="ja">ニュース（関東甲信越）</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260926121500 +0900" stop="20260926124000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Just pasting the exploration factory will change the atmosphere! Wallpaper factory</title>
+    <title lang="ja">探検ファクトリー　貼るだけで雰囲気がガラッと変わる！壁紙工場</title>
+    <desc lang="en">A wallpaper factory where you can stylishly color your life just by pasting it. From the common white stuff to the quirky design.</desc>
+    <desc lang="ja">貼るだけで暮らしをおしゃれに彩る壁紙の工場。一般的な白いものから奇抜なデザインまで。気分に合わせて手軽にＤＩＹで貼ることが出来る壁紙には独自の工夫が。／中川家、すっちーが全国の魅力あふれる工場を「探検」する工場見学バラエティー。ふだんは見ることのできない最新の技術やたくみの技を紹介し、世界に誇る日本のモノづくりのすばらしさ、それを支える情熱、次の世代に継承していくことの大切さを伝えます。</desc>
+    <category lang="en">Variety</category>
+    <category lang="en">Travel Variety</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">旅バラエティ</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">社会・時事</category>
+  </programme>
+  <programme start="20260926124000 +0900" stop="20260926124500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Weekend N-Space... The Challenge of Sickness Episode 2: The Key to Overcoming Depression</title>
+    <title lang="ja">週末のＮスペは…　病への挑戦　第２集　うつ病　克服へのカギ</title>
+    <desc lang="en">A PR program that summarizes the highlights of the NHK Special.</desc>
+    <desc lang="ja">ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。今回は９月２７日放送の『病への挑戦　第２集　うつ病　克服へのカギ』。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="en">Nature, Animals, Environment</category>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">社会・時事</category>
+    <category lang="ja">自然・動物・環境</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260926124500 +0900" stop="20260926130000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Serial TV Novel: Kaze, Kaoru — Final Saturday Digest, Week 26</title>
+    <title lang="ja">【連続テレビ小説】風、薫る　🈡土曜ダイジェスト版　第２６週</title>
+    <desc lang="en">As the nursing exam was approaching, Rin (Ai Kami) and Naomi (Juri Kamisaka) joined the Eifu Nursing Association as special lecturers Imai (Yu Furukawa...</desc>
+    <desc lang="ja">看護婦試験が近づく中、りん（見上愛）と直美（上坂樹里）は恵風看護婦会に特別講師として今井（古川雄大）を迎える。そして試験当日、緊張の面持ちのツヤ（東野絢香）とセツ（村上穂乃佳）らをりんと直美は温かく送り出すのだった。そんな中、りんはシマケン（佐野晶哉）より、看護の実用書を書いてはどうかと提案される。後に続く看護婦たちに看護の知識を伝えるため、りんは悩みながらも本づくりに邁進していく。</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+    <category lang="ja">その他</category>
+    <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260926130000 +0900" stop="20260926130500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News and Weather</title>
+    <title lang="ja">ニュース・気象情報</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260926130500 +0900" stop="20260926135000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">The Toyotomi brothers! (36) Princess Wakako and Oni Wakako</title>
+    <title lang="ja">豊臣兄弟！（３６）姫若子と鬼若子</title>
+    <desc lang="en">By making peace with Nobukatsu (Tatsuya Yamawaki), the battle between Hideyoshi (Masaru Ikematsu) and Ieyasu (Shinpei Matsushita) was once over.</desc>
+    <desc lang="ja">信雄（山脇辰哉）と和睦したことで、秀吉（池松壮亮）と家康（松下洸平）の戦はいったん収束。だが四国では、四国一統を悲願とする長宗我部元親（磯部寛之）が反旗を翻す。秀吉は、四国攻めの総大将に秀長（仲野太賀）を指名。秀長は、世に秀吉の力を誇示するため、天然の要害・四国を圧倒的な力で攻め落とす大規模作戦を実行する。そのころ秀吉は、ある重要な目的のため京を訪れていた。</desc>
+    <episode-num system="onscreen">36</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="en">Jidaigeki</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+    <category lang="ja">時代劇</category>
+  </programme>
+  <programme start="20260926135000 +0900" stop="20260926145000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Dusta "Brother Toyotomi! Fan Thanksgiving"</title>
+    <title lang="ja">土スタ「豊臣兄弟！ファン感謝祭」</title>
+    <desc lang="en">Live broadcast from Wakayama Castle Hall this week! Fan Thanksgiving is here.</desc>
+    <desc lang="ja">今週は、和歌山城ホールから公開生放送！「ファン感謝祭」をお届けします。ゲストは、義昭役・尾上右近さん、光秀役・要潤さん、高虎役・佳久創さん。視聴者が選んだ“もう一度見たい名場面”を一挙に振り返り。兄弟の絆、義昭・光秀の濃密な関係、本能寺の変、そして天下人へ変貌する秀吉＿＿笑いと笑いと切なさが交錯する物語の舞台裏に迫る６０分！池松壮亮さん、松下洸平さん、仲野太賀さんのお気に入りシーンも！</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="en">Variety</category>
+    <category lang="en">Talk Variety</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Interview/Discussion</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">トークバラエティ</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">インタビュー・討論</category>
+  </programme>
+  <programme start="20260926145000 +0900" stop="20260926145500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Masterpiece Album: Composed by beautiful blue Danube Johann Strauss</title>
+    <title lang="ja">名曲アルバム　美しく青きドナウ　ヨハン・シュトラウス作曲</title>
+    <desc lang="en">One of the best waltzes to be played as an annual encore at the Vienna Philharmonic New Year's Concert.</desc>
+    <desc lang="ja">ウィーン・フィルのニューイヤーコンサートでも恒例のアンコール曲として演奏される屈指のワルツ。生涯のほとんどをワルツとポルカの作曲に捧げたヨハン・シュトラウスがこの名曲を作曲した家を訪ねながら、ドナウ川随一の景勝地ヴァッハウ渓谷の遊覧クルーズ、そして夏のドナウの恵みである杏子の収穫祭をご紹介する。</desc>
+    <category lang="en">Music</category>
+    <category lang="en">Classical Opera</category>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Music, Arts &amp; Crafts</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="ja">音楽</category>
+    <category lang="ja">クラシック・オペラ</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">音楽・美術・工芸</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+  </programme>
+  <programme start="20260926145500 +0900" stop="20260926150000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Minna no Uta: "Umm"/"Ah!"</title>
+    <title lang="ja">みんなのうた「Ｕｍｍ」／「あっ！」</title>
+    <desc lang="en">"Umm" song: Sumika. Everyone experiences the confusion of the word "Umm" and Funki...</desc>
+    <desc lang="ja">「Ｕｍｍ」うた：ｓｕｍｉｋａ。誰もが経験する迷う気持ちを「Ｕｍｍ（うーん）」という言葉とファンキーなメロディーで歌い上げる。冒険活劇として映像化するのは、かずきおえかき／「あっ！」うた：ＹＯＮＡ　ＹＯＮＡ　ＷＥＥＫＥＮＤＥＲＳ。遊びに夢中で、時間が「あっ！」という間に過ぎていた。そんな「あっ！」を繰り返し子供は「あっ！」という間に大人へなっていく。目に見えない時間を映像化するのは、いよりさき。</desc>
+    <category lang="en">Music</category>
+    <category lang="en">Domestic Rock Pop</category>
+    <category lang="en">Nursery rhymes and kids</category>
+    <category lang="en">Variety</category>
+    <category lang="en">Music Variety</category>
+    <category lang="ja">音楽</category>
+    <category lang="ja">国内ロック・ポップス</category>
+    <category lang="ja">童謡・キッズ</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">音楽バラエティ</category>
+  </programme>
+  <programme start="20260926150000 +0900" stop="20260926150500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News and Weather</title>
+    <title lang="ja">ニュース・気象情報</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260926150500 +0900" stop="20260926160000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Grand Sumo: Aki Basho, Day 14</title>
+    <title lang="ja">大相撲（２０２６年）秋場所　十四日目</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Sumo and martial arts</category>
+    <category lang="ja">スポーツ</category>
+    <category lang="ja">相撲・格闘技</category>
+  </programme>
+  <programme start="20260926160000 +0900" stop="20260926180000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Grand Sumo: Aki Basho, Day 14 — The Championship Race</title>
+    <title lang="ja">大相撲（２０２６年）秋場所　十四日目　優勝争いの行方は</title>
+    <desc lang="en">[Explanation] Front (Makuuchi division) ... Kasugano (Former Tochino Waka), Mukai Front (Makuuchi division) ... Oyama (Former Kitakatsufuji), [Announcer] ...</desc>
+    <desc lang="ja">【解説】正面（幕内）…春日野（元栃乃和歌），向正面（幕内）…大山（元北勝富士），【アナウンサー】正面（幕内）…三輪洋雄，【＜副音声＞アナウンサー】ラジャ・プラダン</desc>
+    <category lang="en">Sports</category>
+    <category lang="en">Sumo and martial arts</category>
+    <category lang="ja">スポーツ</category>
+    <category lang="ja">相撲・格闘技</category>
+  </programme>
+  <programme start="20260926180000 +0900" stop="20260926180500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News</title>
+    <title lang="ja">ニュース</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260926180500 +0900" stop="20260926183400 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Mr. Hokkaido! It's a case, debuting with facial expression!? Why do you insist on "anonymity"?</title>
+    <title lang="ja">所さん！事件ですよ　顔出しＮＧでデビュー！？“匿名”にこだわる理由</title>
+    <desc lang="en">Get to know people who are anonymous! The audition to become a singer with "Exposed NG" was a big success...</desc>
+    <desc lang="ja">「匿名」にこだわって活動する人々に迫る！　　「顔出しＮＧ」で歌手になりたいオーディションが大盛況！卒業アルバムから〇〇が消えた？！あの　有名レストランガイドの調査員が語る覆面活動の　実態とは？２０代、３０代に人気！名前も顔も知らない相手と文通を楽しむサービス。実は所さんも意外な人と文通していた！、、、</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Lifestyle/Housing</category>
+    <category lang="en">Variety</category>
+    <category lang="en">Talk Variety</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">暮らし・住まい</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">トークバラエティ</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">社会・時事</category>
+  </programme>
+  <programme start="20260926183400 +0900" stop="20260926183600 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Taiga Drama: Toyotomi Brothers! 2-minute Digest (36)</title>
+    <title lang="ja">大河ドラマ「豊臣兄弟！」２分ダイジェスト　（３６）</title>
+    <desc lang="en">By making peace with Nobukatsu (Tatsuya Yamawaki), the battle between Hideyoshi (Masaru Ikematsu) and Ieyasu (Shinpei Matsushita) was once over.</desc>
+    <desc lang="ja">信雄（山脇辰哉）と和睦したことで、秀吉（池松壮亮）と家康（松下洸平）の戦はいったん収束。だが四国では、四国一統を悲願とする長宗我部元親（磯部寛之）が反旗を翻す。秀吉は、四国攻めの総大将に秀長（仲野太賀）を指名。秀長は、世に秀吉の力を誇示するため、天然の要害・四国を圧倒的な力で攻め落とす大規模作戦を実行する。そのころ秀吉は、ある重要な目的のため京を訪れていた。</desc>
+    <episode-num system="onscreen">36</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="en">Jidaigeki</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+    <category lang="ja">時代劇</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+  </programme>
+  <programme start="20260926183600 +0900" stop="20260926183800 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Serial TV Novel: Blossom — Preview</title>
+    <title lang="ja">連続テレビ小説「ブラッサム」ＰＲ</title>
+    <desc lang="en">Quickly deliver the highlights of the new morning drama "Blossom" that will begin on the 28th.</desc>
+    <desc lang="ja">２８日に新しく始まる朝ドラ「ブラッサム」の見どころをひと足早くお届け。主演の石橋静河さんをはじめ、「ちゅらさん」以来、２５年ぶりの朝ドラ出演となる国仲涼子さんや朝ドラ初出演の渡部篤郎さんなど、魅力的な登場人物たちのドラマ初公開映像が盛りだくさん。</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+  </programme>
+  <programme start="20260926183800 +0900" stop="20260926184500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Weekend N-Space... The Challenge of Sickness Episode 2: The Key to Overcoming Depression</title>
+    <title lang="ja">週末のＮスペは…　病への挑戦　第２集　うつ病　克服へのカギ</title>
+    <desc lang="en">A PR program that summarizes the highlights of the NHK Special.</desc>
+    <desc lang="ja">ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。今回は９月２７日放送の『病への挑戦　第２集　うつ病　克服へのカギ』。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="en">Nature, Animals, Environment</category>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">社会・時事</category>
+    <category lang="ja">自然・動物・環境</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260926184500 +0900" stop="20260926190000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News 645 (Kanto/Yamanashi)</title>
+    <title lang="ja">ニュース６４５（関東・山梨）</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Local</category>
+    <category lang="en">The weather</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">ローカル・地域</category>
+    <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260926190000 +0900" stop="20260926193000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">NHK News 7</title>
+    <title lang="ja">ＮＨＫニュース７</title>
+    <desc lang="en">In 30 minutes, we will deliver reliable information that will help you understand the present and future of Japan and the world.</desc>
+    <desc lang="ja">３０分できょうが分かる日本、そして世界の今と“これから”を読み解く確かな情報を届けます。　【キャスター】今井翔馬，森下絵理香，【気象キャスター】向笠康二郎</desc>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="en">The weather</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports News</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+    <category lang="ja">天気</category>
+    <category lang="ja">スポーツ</category>
+    <category lang="ja">スポーツニュース</category>
+  </programme>
+  <programme start="20260926193000 +0900" stop="20260926200700 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Buratamori: Nara Asuka World Heritage Site▼ Why is Asuka the foundation of Japan?</title>
+    <title lang="ja">ブラタモリ　奈良・飛鳥　世界遺産記念ＳＰ▼なぜ飛鳥は日本の国の礎に？</title>
+    <desc lang="en">In July this year, to commemorate the registration of Asuka and Fujiwara no Miyako as a World Cultural Heritage Site, we broadcast "Nara and Asuka...</desc>
+    <desc lang="ja">今年７月「飛鳥・藤原の宮都」が世界文化遺産に登録されたことを記念し、６年前に放送した「奈良・飛鳥」の回を特別再編集！奈良県明日香村に残る数々の遺跡をめぐり、日本の国づくりの始まりを解き明かす。石舞台古墳の巨大な石室や、日本最古の仏像から、豪族・蘇我氏の圧倒的な力に迫る！斉明天皇の時代、国づくりの要となったのは「時計」だった！？さらに、謎に包まれた酒船石の目的をタモリが推理！歴史ミステリーに挑む！？</desc>
+    <category lang="en">Variety</category>
+    <category lang="en">Travel Variety</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Travel, Fishing, Outdoors</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">旅バラエティ</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">旅・釣り・アウトドア</category>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926200700 +0900" stop="20260926205500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Project X: Challengers: Anyone can be a protagonist: The Miracle of Leaves that Changed Tokushima</title>
+    <title lang="ja">新プロジェクトＸ　人は誰でも主役になれる〜徳島　町を変えた葉っぱの奇跡〜</title>
+    <desc lang="en">A leaf that colors dishes as "samomono" in Japanese cuisine such as ryotei (Japanese restaurant).</desc>
+    <desc lang="ja">料亭などの和食で“つまもの”として料理を彩る葉っぱ。これを年商３億円のビジネスにしているのが徳島県上勝町だ。担うのは、妻として家族を支えてきた農家の女性たち。家事の陰で自らの夢を胸の奥にしまい込んでいた。「葉っぱなど売れるはずがない」と笑われたが、知恵と情熱でその声を吹き飛ばす。「私たちは夫の添え物じゃない！」人生をかけた勝負に挑み、夢をかなえた女性たちの感動の物語！</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="en">General Documentary</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">社会・時事</category>
+    <category lang="ja">ドキュメンタリー全般</category>
+    <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260926205500 +0900" stop="20260926210000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News and Weather (Kanto Koshinetsu)</title>
+    <title lang="ja">ニュース・気象情報（関東甲信越）</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="en">The weather</category>
+    <category lang="en">Local</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+    <category lang="ja">天気</category>
+    <category lang="ja">ローカル・地域</category>
+  </programme>
+  <programme start="20260926210000 +0900" stop="20260926220000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Saturday Watch 9: The route of ▽Typhoon No. 26 is once again on the autumn rain front line, and the rain is also▽ debris flowing for a month.</title>
+    <title lang="ja">サタデーウオッチ９▽台風２６号の進路は・秋雨前線で再び雨も▽土石流１か月</title>
+    <desc lang="en">The new Typhoon Route 26 is on the autumn rain front, and it is raining again... The disaster area of Typhoon 25 is▽ Nepal's debris flow with a one-month▽ liquor tax revision...</desc>
+    <desc lang="ja">新たな台風２６号進路は秋雨前線で再び雨も…台風２５号の被災地は▽ネパール土石流１か月▽酒税改正でビールは</desc>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260926220000 +0900" stop="20260926224500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Hospital Radio St. Marianna Medical University Hospital Edition▼ Sandwichman</title>
+    <title lang="ja">病院ラジオ　聖マリアンナ医科大学病院編▼サンドウィッチマン</title>
+    <desc lang="en">The Sandwichman visits St. Marianna Medical University Hospital in Kawasaki City.</desc>
+    <desc lang="ja">サンドウィッチマンが訪れるのは川崎市の聖マリアンナ医科大学病院。母性や慈悲の心を象徴する聖母マリア像の前で患者さんや家族の日ごろ言えない思いに触れる▼１４歳で脳腫瘍が見つかった女子高生。抗がん剤治療の前に卵巣凍結保存▼産後２か月で心不全に。ふだん言えぬ夫への思い▼小学生の娘が新型コロナ感染。医療従事者への感謝▼国指定難病の若手医師。自分を支えてくれたような医師を目指す▼心停止から生還した父親…ほか</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">General Documentary</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">ドキュメンタリー全般</category>
+  </programme>
+  <programme start="20260926224500 +0900" stop="20260926224700 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Serial TV Novel: Blossom — Preview</title>
+    <title lang="ja">連続テレビ小説「ブラッサム」ＰＲ</title>
+    <desc lang="en">Quickly deliver the highlights of the new morning drama "Blossom" that will begin on the 28th.</desc>
+    <desc lang="ja">２８日に新しく始まる朝ドラ「ブラッサム」の見どころをひと足早くお届け。主演の石橋静河さんをはじめ、加賀まりこさんや松たか子さんといったキャスト陣の熱い思いに迫る。さらに主題歌を担当するＹＯＡＳＯＢＩと作家・綿矢りささんの制作秘話も初披露。ドラマのモデルとなった作家・宇野千代の言葉に魅了される理由があきらかに。</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+  </programme>
+  <programme start="20260926224700 +0900" stop="20260926224800 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">SL time machine 1 minute PR</title>
+    <title lang="ja">ＳＬタイムマシン　１分ＰＲ</title>
+    <desc lang="en">1-minute PR version of "SL Time Machine" broadcast on General TV from 7:30 pm on Monday, October 12.</desc>
+    <desc lang="ja">総合テレビで１０月１２日（月・祝）夜７時半から放送の「ＳＬタイムマシン」の１分ＰＲ版。今、ＳＬの人気が高まっている。美しい日本の風景を眺めながら、レトロなＳＬの旅をゆったりと楽しめる。その人気の原点を求めて、“ＳＬタイムマシン”で時空をひとっ飛び！すると、１９６０年代後半～７５年頃のＳＬ大ブームを発見！ＳＬはなぜ、人々の心を惹きつけ続けるのか？時空を超える旅へ、ようこそ！</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">General Documentary</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">ドキュメンタリー全般</category>
+  </programme>
+  <programme start="20260926224800 +0900" stop="20260926225000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Deer Nippon PR program</title>
+    <title lang="ja">Ｄｅａｒにっぽん　ＰＲ番組</title>
+    <desc lang="en">[Story] Riho Yoshioka</desc>
+    <desc lang="ja">【語り】吉岡里帆</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">General Documentary</category>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">ドキュメンタリー全般</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+  </programme>
+  <programme start="20260926225000 +0900" stop="20260926225500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Weekend N-Space... The Challenge of Sickness Episode 2: The Key to Overcoming Depression</title>
+    <title lang="ja">週末のＮスペは…　病への挑戦　第２集　うつ病　克服へのカギ</title>
+    <desc lang="en">A PR program that summarizes the highlights of the NHK Special.</desc>
+    <desc lang="ja">ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。今回は９月２７日放送の『病への挑戦　第２集　うつ病　克服へのカギ』。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="en">Nature, Animals, Environment</category>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">社会・時事</category>
+    <category lang="ja">自然・動物・環境</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260926225500 +0900" stop="20260926230000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News and Weather</title>
+    <title lang="ja">ニュース・気象情報</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="en">The weather</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+    <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260926230000 +0900" stop="20260926233000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Venue 101 EXTRAWEEK1</title>
+    <title lang="ja">Ｖｅｎｕｅ１０１　ＥＸＴＲＡ　ＷＥＥＫ１</title>
+    <desc lang="en">Leaving Studio 101 and titled “Vene 101 Extra”, this year's second public recording...</desc>
+    <desc lang="ja">１０１スタジオを飛び出し、「Ｖｅｎｕｅ１０１　ＥＸＴＲＡ」と題して、今年度２回目となる公開収録をＮＨＫホールで実施！この模様を２週にわたってお届けします。２６日に放送するＷＥＥＫ１では、４組のアーティストのライブをお届けします！さらに、客席の中に設けた”アーティスト席”で一緒に盛り上がるアーティストたちの姿も必見です！２８００人の観客のみなさんとのアツいライブをお送りします！</desc>
+    <category lang="en">Music</category>
+    <category lang="en">Domestic Rock Pop</category>
+    <category lang="en">Live Concerts</category>
+    <category lang="en">Variety</category>
+    <category lang="en">Music Variety</category>
+    <category lang="ja">音楽</category>
+    <category lang="ja">国内ロック・ポップス</category>
+    <category lang="ja">ライブ・コンサート</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">音楽バラエティ</category>
+  </programme>
+  <programme start="20260926233000 +0900" stop="20260926234500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">The Greatest Hits [Kazuyoshi Saito Special]</title>
+    <title lang="ja">ザ・グレイテスト・ヒッツ【斉藤和義スペシャル】</title>
+    <desc lang="en">From the music programs of Showa, Heisei, Reiwa, and NHK, "This is it!" 15 minutes to deliver a performance video called...</desc>
+    <desc lang="ja">昭和・平成・令和、ＮＨＫの音楽番組から「これだ！」という名パフォーマンス映像をお届けする１５分間。今回はシンガーソングライター【斉藤和義】特集！紹介するのは、「歌うたいのバラッド」（１９９７年「ポップジャム」）、「ずっと好きだった」（２０１０年「ウエンズデー　Ｊ－ＰＯＰ」）、「やさしくなりたい」（２０１２年「ＳＯＮＧＳ」。時代を超えて愛される珠玉の名曲たち▽ＭＣニューヨーク胸キュン共演エピソード</desc>
+    <category lang="en">Music</category>
+    <category lang="en">Domestic Rock Pop</category>
+    <category lang="en">Songs and Enka</category>
+    <category lang="en">Variety</category>
+    <category lang="en">Talk Variety</category>
+    <category lang="ja">音楽</category>
+    <category lang="ja">国内ロック・ポップス</category>
+    <category lang="ja">歌謡曲・演歌</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">トークバラエティ</category>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926234500 +0900" stop="20260927001000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Anime MAO 終(26) "Unako's World"</title>
+    <title lang="ja">アニメ　ＭＡＯ　🈡（２６）「幽羅子の世界」</title>
+    <desc lang="en">Yurako began to tell Naika about her past. In the Heian period, as a vessel for capturing the curse cast by the "Onariya", the curse...</desc>
+    <desc lang="ja">幽羅子は、自らの過去を菜花に語り始める。平安時代、「御降家」に放たれた呪いを取り込む器として、呪符に囲まれた岩屋で暮らしていた幽羅子は、外にも世界があることを知る。そして、初めて摩緒と出会う……。</desc>
+    <episode-num system="onscreen">26</episode-num>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="en">Domestic Anime</category>
+    <category lang="ja">アニメ/特撮</category>
+    <category lang="ja">国内アニメ</category>
+    <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260927001000 +0900" stop="20260927010000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Family History: "Ryo Ishibashi ~ Inheriting the temperament of living with all your strength ~"</title>
+    <title lang="ja">ファミリーヒストリー「石橋凌～全力で生きる気質を受け継いで～」</title>
+    <desc lang="en">Debuted with vocals from legendary rock band ARB. Ryo Ishibashi has worked hard on both musical activities and actors.</desc>
+    <desc lang="ja">伝説的ロックバンドＡＲＢのボーカルでデビュー。音楽活動と俳優の両方に全力で取り組んできた石橋凌。エネルギッシュで努力家な気質は先祖譲りだった。母は８０歳まで病棟の看護師をしたファンキーな女性。そのルーツを辿ると大友宗麟の嫡男に仕えた武士だと分かる。父方祖父と凌との意外な共通点も判明。父は陸軍で激戦を経験し若き日の夢叶わず５０代で病死するが、思いは子供達に引き継がれる。娘・石橋静河が語る父の姿とは。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="en">Culture &amp; Traditional Culture</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">社会・時事</category>
+    <category lang="ja">カルチャー・伝統文化</category>
+  </programme>
+  <programme start="20260927010000 +0900" stop="20260927021200 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Dokoro-san! It's a case, Summer Vacation SP</title>
+    <title lang="ja">所さん！事件ですよ　夏休みＳＰ</title>
+    <desc lang="en">Hollywood celebrities are obsessed with old Japanese clothes!? A charismatic buyer who has Kanye West as a customer, his longitudinal Japanese used clothes...</desc>
+    <desc lang="ja">ハリウッドセレブが日本の古着に夢中！？カニエ・ウェストを顧客にもつカリスマバイヤーの日本縦断古着買い付けツアーに密着！！▽アジアで高騰する幻の日本のアーチストのＴシャツとは？▽所さんもびっくり！タイの古着王の総額５０億円のお宝コレクション倉庫に潜入！！▽世界を駆け巡る古着は最後はどこにいく？環境問題を引き起こす古着の墓場とは？▽人生の再起をかける古着バイヤーの卵の夢と挫折▽世界的古着ブームの光と影</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Lifestyle/Housing</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">暮らし・住まい</category>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260927021200 +0900" stop="20260927021300 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">NHK Special: The Challenge of PR Disease Episode 2: The Key to Overcoming Depression</title>
+    <title lang="ja">ＮＨＫスペシャルＰＲ　病への挑戦　第２集　うつ病　克服へのカギ</title>
+    <desc lang="en">A PR program that summarizes the highlights of the NHK Special.</desc>
+    <desc lang="ja">ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。今回は９月２７日放送の『病への挑戦　第２集　うつ病　克服へのカギ』。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">その他</category>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260927021300 +0900" stop="20260927031300 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Northern Alps "Four Seasons of the Northern Alps"</title>
+    <title lang="ja">北アルプス「北アルプスの四季」</title>
+    <desc lang="en">Four Seasons in the Northern Alps</desc>
+    <desc lang="ja">北アルプスの山々の四季</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Nature, Animals, Environment</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">自然・動物・環境</category>
+  </programme>
+  <programme start="20260927031300 +0900" stop="20260927034500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Euratram Tour Berlin, Germany</title>
+    <title lang="ja">ヨーロッパ　トラムの旅「ドイツ　ベルリン」</title>
+    <desc lang="en">Trams and trams run through cities across Europe. A nostalgic and retro look can't stop attracting travelers...</desc>
+    <desc lang="ja">欧州各地の都市を走る路面電車・トラム。どこか懐かしくレトロなたたずまいは、旅人をひきつけて止まない。街の中心部を走るので、名所巡りも車窓から楽しめる。トラムを乗りこなせれば街の観光は楽々。ヨーロッパにはトラムで巡りたくなるすてきな街があふれている。あたかもトラムに乗っているかのような感覚で、車窓を楽しむリアル・トラム体験。今回は、ドイツ・ベルリンを旅する。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Travel, Fishing, Outdoors</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">旅・釣り・アウトドア</category>
+  </programme>
+  <programme start="20260927034500 +0900" stop="20260927034800 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Tokyo resurrected in color "Ueno Park ~ Saigo-san was watching ~"</title>
+    <title lang="ja">カラーでよみがえる東京「上野公園〜西郷さんは見ていた〜」</title>
+    <desc lang="en">In 100 years, the city of Tokyo has been burned twice by the earthquake and war, and has risen like a phoenix from there...</desc>
+    <desc lang="ja">１００年の間に震災と戦争によって２度焼け野原となり、そこから不死鳥のようによみがえった都市・東京。ＮＨＫは、東京を撮影した白黒フィルムを世界中から収集、現実にできるだけ近い色彩の復元に挑んだ。色を取り戻した東京は、どんな表情を見せるのか。今回は上野にしぼって、激動の歩みを、初公開フルカラー映像でたどる。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Featured/Documentation</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">特集・ドキュメント</category>
+  </programme>
+  <programme start="20260927034800 +0900" stop="20260927035000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Intermission</title>
+    <title lang="ja">インターミッション</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260927035000 +0900" stop="20260927041500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Grand Sumo: Aki Basho, Day 14 — All Makuuchi Bouts</title>
+    <title lang="ja">大相撲（２０２６年）　幕内の全取組　秋場所　十四日目</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Sumo and martial arts</category>
+    <category lang="en">Sports News</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Culture &amp; Traditional Culture</category>
+    <category lang="ja">スポーツ</category>
+    <category lang="ja">相撲・格闘技</category>
+    <category lang="ja">スポーツニュース</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">カルチャー・伝統文化</category>
+  </programme>
+  <programme start="20260927041500 +0900" stop="20260927042000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">One Point Sign Language (14) Hobby * Subtitle Supermarket</title>
+    <title lang="ja">ワンポイント手話（１４）趣味※字幕スーパー</title>
+    <desc lang="en">We will introduce 25 basic sign language words and conversations that are indispensable for daily life.</desc>
+    <desc lang="ja">日常生活に欠かせない初歩的な手話の単語や会話を２５回に分けて紹介します。通しでごらんいただき、最終的には手話で簡単な自己紹介ができるようになるのが目標です。講師の河合優子さん、サブ講師の所智子さん、生徒役石川寛和さんはいずれも、中途失聴および難聴の当事者です。読書、俳句など、趣味を表す手話を学習します</desc>
+    <episode-num system="onscreen">14</episode-num>
+    <category lang="en">Welfare</category>
+    <category lang="en">Sign language</category>
+    <category lang="ja">福祉</category>
+    <category lang="ja">手話</category>
+  </programme>
+  <programme start="20260927042000 +0900" stop="20260927042500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Masterpiece Album: Oboe Sonata by Poulenc</title>
+    <title lang="ja">名曲アルバム「オーボエ・ソナタ」プーランク作曲</title>
+    <desc lang="en">Oboe Kenichi Kobe Piano Misa Une Location Paris, Noise (France)</desc>
+    <desc lang="ja">オーボエ　古部賢一　ピアノ　宇根美沙惠　ロケ地　パリ、ノワゼー（フランス）</desc>
+    <category lang="en">Music</category>
+    <category lang="en">Classical Opera</category>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Music, Arts &amp; Crafts</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="ja">音楽</category>
+    <category lang="ja">クラシック・オペラ</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">音楽・美術・工芸</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+  </programme>
+  <programme start="20260927042500 +0900" stop="20260927043000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Minna no Uta: "Yorgao"/"OK Shokudo"</title>
+    <title lang="ja">みんなのうた「ヨルガオ」／「ＯＫ食堂」</title>
+    <desc lang="en">"Yorgao" (2019) Lyrics: Kimiko, Composer: Atsushi Sasaki, Arrangement: nano. Ripe, Kanematsu Shu, Uta: ...</desc>
+    <desc lang="ja">「ヨルガオ」（２０１９年）作詞：きみコ、作曲：佐々木淳、編曲：ｎａｎｏ．ＲＩＰＥ・兼松衆、うた：ｎａｎｏ．ＲＩＰＥ、アニメ：外山光男／「ＯＫ食堂」（２０１５年）作詞：もりちよこ、作曲：佐瀬寿一、うた：ガッツ石松＆ポカスカジャン、アニメ：青木純</desc>
+    <category lang="en">Music</category>
+    <category lang="en">Domestic Rock Pop</category>
+    <category lang="en">Nursery rhymes and kids</category>
+    <category lang="en">Variety</category>
+    <category lang="en">Music Variety</category>
+    <category lang="ja">音楽</category>
+    <category lang="ja">国内ロック・ポップス</category>
+    <category lang="ja">童謡・キッズ</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">音楽バラエティ</category>
+  </programme>
+  <programme start="20260927043000 +0900" stop="20260927045700 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">[From NHK Regional Bureau] When I stared at the small light</title>
+    <title lang="ja">【ＮＨＫ地域局発】　小さな光を見つめてみたら</title>
+    <desc lang="en">In a town where many people sleep, I see a place that is active in the middle of the night with a "light" as if shining on it...</desc>
+    <desc lang="ja">多くの人が寝静まる町で、それにあらがうかのように「灯り」をともし真夜中に活動をしている場所を見つめる…四国中央市の山あいで新聞配達をする夫婦。愛媛県宇和島市の深夜にだけ営業するお弁当屋さん。高知県大豊町の山の中で夜通し作業をする豆腐屋さん…四国に眠る、知られざる夜の灯りの先に広がる物語。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Other</category>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Local</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">その他</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">ローカル・地域</category>
+  </programme>
+  <programme start="20260927045700 +0900" stop="20260927045900 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Serial TV Novel: Blossom — Preview</title>
+    <title lang="ja">連続テレビ小説「ブラッサム」ＰＲ</title>
+    <desc lang="en">Quickly deliver the highlights of the new morning drama "Blossom" that will begin on the 28th.</desc>
+    <desc lang="ja">２８日に新しく始まる朝ドラ「ブラッサム」の見どころをひと足早くお届け。主演の石橋静河さんをはじめ、「ちゅらさん」以来、２５年ぶりの朝ドラ出演となる国仲涼子さんや朝ドラ初出演の渡部篤郎さんなど、魅力的な登場人物たちのドラマ初公開映像が盛りだくさん。</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+  </programme>
+  <programme start="20260927045900 +0900" stop="20260927050000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">SL time machine 1 minute PR</title>
+    <title lang="ja">ＳＬタイムマシン　１分ＰＲ</title>
+    <desc lang="en">1-minute PR version of "SL Time Machine" broadcast on General TV from 7:30 pm on Monday, October 12.</desc>
+    <desc lang="ja">総合テレビで１０月１２日（月・祝）夜７時半から放送の「ＳＬタイムマシン」の１分ＰＲ版。今、ＳＬの人気が高まっている。美しい日本の風景を眺めながら、レトロなＳＬの旅をゆったりと楽しめる。その人気の原点を求めて、“ＳＬタイムマシン”で時空をひとっ飛び！すると、１９６０年代後半～７５年頃のＳＬ大ブームを発見！ＳＬはなぜ、人々の心を惹きつけ続けるのか？時空を超える旅へ、ようこそ！</desc>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Shows &amp; Announcements</category>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">General Documentary</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">番組紹介・お知らせ</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">ドキュメンタリー全般</category>
+  </programme>
+  <programme start="20260927050000 +0900" stop="20260927051000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News and Weather</title>
+    <title lang="ja">ニュース・気象情報</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="en">The weather</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+    <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260927051000 +0900" stop="20260927051500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">One Trail mini “Scotch Spey River Walking Whisky Trail”</title>
+    <title lang="ja">一本の道ｍｉｎｉ「ウイスキーの道をゆく　スコットランド・スペイ川に沿って」</title>
+    <desc lang="en">A five-minute version of "One Road" broadcast in December 2016. From a local guide, in Scotland, Whis...</desc>
+    <desc lang="ja">２０１６年１２月に放送した「一本の道」の５分版。地元に住む案内人から、スコットランドでは、ウイスキーが「命の水」と呼ばれていることを教えられる。歩き始めると、泥炭で茶色くなったスペイ川に遭遇。この泥炭がスコッチウイスキーの香りの理由。蒸留所を訪ねてテイスティングをさせてもらい、たわわに実った大麦畑で、農家の人の話を聞いた。スペイ川はサーモンフィッシングでも有名。スペイ川とともにゴールの北海へ。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+  </programme>
+  <programme start="20260927051500 +0900" stop="20260927052000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Weekend N-Space... The Challenge of Sickness Episode 2: The Key to Overcoming Depression</title>
+    <title lang="ja">週末のＮスペは…　病への挑戦　第２集　うつ病　克服へのカギ</title>
+    <desc lang="en">A PR program that summarizes the highlights of the NHK Special.</desc>
+    <desc lang="ja">ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。今回は９月２７日放送の『病への挑戦　第２集　うつ病　克服へのカギ』。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="en">Nature, Animals, Environment</category>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">Other</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">社会・時事</category>
+    <category lang="ja">自然・動物・環境</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260927052000 +0900" stop="20260927055000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Katsura Bunge's Encyclopedia of Performing Arts Nakamura Kanjiro Obon Kobon Benzaitei Izumi</title>
+    <title lang="ja">桂文枝の演芸図鑑　中村鴈治郎　おぼん・こぼん　弁財亭和泉</title>
+    <desc lang="en">Fumie Katsura navigates the art of purification▽ Performing arts is a manga of obon and kobon, Benzaitei Izumi's new rakugo "In the Box"▽...</desc>
+    <desc lang="ja">桂文枝がえりすぐりの芸をナビゲート▽演芸はおぼん・こぼんの漫才、弁財亭和泉の新作落語「箱の中」▽対談ゲストは歌舞伎俳優で、映画「国宝」の歌舞伎指導・出演で話題の中村鴈治郎▽映画「国宝」から「シネマ歌舞伎」へ！伝統芸歌舞伎に思う未来と危機感▽８歳で初舞台。暗中模索の２０代を救ってくれた勘九郎（当時）と八十助（当時）のアメとムチとは？▽鴈治郎襲名秘話。父の藤十郎襲名と交錯する思いを語る・・・他</desc>
+    <category lang="en">Variety</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Theatre / Performance</category>
+    <category lang="en">Rakugo/Performing Arts</category>
+    <category lang="en">Talk Variety</category>
+    <category lang="ja">バラエティ</category>
+    <category lang="ja">お笑い・コメディ</category>
+    <category lang="ja">劇場/公演</category>
+    <category lang="ja">落語・演芸</category>
+    <category lang="ja">トークバラエティ</category>
+  </programme>
+  <programme start="20260927055000 +0900" stop="20260927060000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Weather Information</title>
+    <title lang="ja">気象情報</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">The weather</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260927060000 +0900" stop="20260927061000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">News</title>
+    <title lang="ja">ニュース</title>
+    <category lang="en">News / Current Affairs</category>
+    <category lang="en">On-time/Overall</category>
+    <category lang="ja">ニュース/報道</category>
+    <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260927061000 +0900" stop="20260927065300 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">[Special selection! Period drama] Ooka Echizen 8終 (8) "Echizen and Tenichibo"</title>
+    <title lang="ja">【特選！時代劇】大岡越前８🈡（８）「越前と天一坊」</title>
+    <desc lang="en">In re-examining whether Tenichibo (Yoshiteru Fujieda) is a descendant of Yoshimune (Satoshi Tokushige), Tadasuke (Katanori Takahashi) and Ryo Iga (Masa Kato...</desc>
+    <desc lang="ja">天一坊（藤枝喜輝）が、吉宗（徳重聡）のご落胤か否かの再吟味では、忠相（高橋克典）と伊賀亮（加藤雅也）の丁々発止が続く。が、ただただ父と会いたいと言う天一坊の言葉に、忠相は芝居でない何かを感じはした。しかし、紀州に調査に向かった新三郎（寺脇康文）達が持って帰る報告を待つ時間稼ぎのため、忠相は、伊織（勝村政信）に協力してもらい、仮病を使う。再吟味を任せた忠相の結論が遅いことに、吉宗は怒りを爆発させる。</desc>
+    <episode-num system="onscreen">8</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="en">Jidaigeki</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+    <category lang="ja">時代劇</category>
+    <category lang="en">Finale</category>
+  </programme>
+</tv>

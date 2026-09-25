@@ -1,0 +1,24 @@
+{
+  "title": {},
+  "description": {},
+  "genre": {
+    "ニュース/報道": "News / Current Affairs",
+    "ニュース／報道": "News / Current Affairs",
+    "スポーツ": "Sports",
+    "情報/ワイドショー": "Information / Talk",
+    "情報／ワイドショー": "Information / Talk",
+    "ドラマ": "Drama",
+    "音楽": "Music",
+    "バラエティ": "Variety",
+    "映画": "Film",
+    "アニメ/特撮": "Anime / Tokusatsu",
+    "アニメ／特撮": "Anime / Tokusatsu",
+    "ドキュメンタリー/教養": "Documentary / Education",
+    "ドキュメンタリー／教養": "Documentary / Education",
+    "劇場/公演": "Theatre / Performance",
+    "劇場／公演": "Theatre / Performance",
+    "趣味/教育": "Hobbies / Education",
+    "趣味／教育": "Hobbies / Education",
+    "福祉": "Welfare"
+  }
+}

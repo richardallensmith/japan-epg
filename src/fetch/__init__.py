@@ -1,0 +1,1 @@
+"""Replaceable schedule source adapters."""

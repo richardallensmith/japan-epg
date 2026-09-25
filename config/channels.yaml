@@ -1,0 +1,15 @@
+{
+  "channels": {
+    "nhk_g_tokyo": {
+      "playlist_name": "NHK G",
+      "expected_tvg_id": "NHK東京・総合_jp",
+      "display_name_en": "NHK G Tokyo",
+      "display_name_ja": "NHK総合1・東京",
+      "source": "nhk",
+      "source_options": {
+        "area": "130",
+        "service": "g1"
+      }
+    }
+  }
+}
