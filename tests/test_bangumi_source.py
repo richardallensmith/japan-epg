@@ -1,5 +1,6 @@
 import unittest
 
+from src.fetch.base import SourceError
 from src.fetch.bangumi import BangumiSource, _BangumiParser
 
 
@@ -42,6 +43,21 @@ class BangumiSourceTests(unittest.TestCase):
         self.assertEqual(["アニメ／特撮"], first.categories_ja)
         self.assertEqual({"repeat"}, first.markers)
         self.assertEqual("2026-09-26T05:00:00+09:00", first.start.isoformat())
+
+    def test_guarded_station_line_selects_ambiguous_channel(self):
+        parser = _BangumiParser()
+        parser.feed(HTML)
+        source = BangumiSource(station="テレビ朝日", lineup="tokyo", station_line=2)
+        programmes = source._parse(parser, "テレビ朝日_jp", "20260926")
+        self.assertEqual(3, len(programmes))
+        self.assertEqual("朝番組", programmes[0].title_ja)
+
+    def test_guarded_station_line_rejects_lineup_change(self):
+        parser = _BangumiParser()
+        parser.feed(HTML)
+        source = BangumiSource(station="TOKYO", lineup="tokyo", station_line=2)
+        with self.assertRaises(SourceError):
+            source._parse(parser, "TOKYO・MX2_jp", "20260926")
 
 
 if __name__ == "__main__":

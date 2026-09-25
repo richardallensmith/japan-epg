@@ -116,18 +116,33 @@ class _BangumiParser(HTMLParser):
 class BangumiSource:
     """Tokyo terrestrial schedules from G.GUIDE's broadcaster-supplied listings."""
 
-    name = "G.GUIDE broadcaster-official Tokyo listings (bangumi.org)"
-    endpoint = "https://bangumi.org/epg/td?broad_cast_date={date}&ggm_group_id=42"
-    _page_cache: dict[str, _BangumiParser] = {}
+    name = "G.GUIDE broadcaster-official listings (bangumi.org)"
+    endpoints = {
+        "tokyo": "https://bangumi.org/epg/td?broad_cast_date={date}&ggm_group_id=42",
+        "bs": "https://bangumi.org/epg/bs?broad_cast_date={date}",
+    }
+    _page_cache: dict[tuple[str, str], _BangumiParser] = {}
 
-    def __init__(self, *, station: str, timeout: int = 30):
+    def __init__(
+        self,
+        *,
+        station: str,
+        lineup: str = "tokyo",
+        station_line: int | None = None,
+        timeout: int = 30,
+    ):
+        if lineup not in self.endpoints:
+            raise ValueError(f"Unsupported G.GUIDE lineup: {lineup!r}")
         self.station = station
+        self.lineup = lineup
+        self.station_line = station_line
         self.timeout = timeout
 
     def _get_page(self, date_string: str) -> _BangumiParser:
-        if date_string in self._page_cache:
-            return self._page_cache[date_string]
-        url = self.endpoint.format(date=date_string)
+        cache_key = (self.lineup, date_string)
+        if cache_key in self._page_cache:
+            return self._page_cache[cache_key]
+        url = self.endpoints[self.lineup].format(date=date_string)
         request = Request(url, headers={"User-Agent": "Japan-EPG/1.0 (+XMLTV generator)"})
         try:
             with urlopen(request, timeout=self.timeout) as response:
@@ -138,7 +153,7 @@ class BangumiSource:
         parser.feed(html)
         if not parser.channel_names or not parser.program_lines:
             raise SourceError(f"G.GUIDE returned a structurally valid page but no meaningful schedule for {date_string}")
-        self._page_cache[date_string] = parser
+        self._page_cache[cache_key] = parser
         return parser
 
     @staticmethod
@@ -162,11 +177,23 @@ class BangumiSource:
         return match.group(1).translate(str.maketrans("０１２３４５６７８９", "0123456789"))
 
     def _parse(self, page: _BangumiParser, channel_id: str, request_date: str) -> list[Programme]:
-        matches = [
-            index
-            for index, name in enumerate(page.channel_names, start=1)
-            if name.endswith(self.station) or self.station in name
-        ]
+        if self.station_line is not None:
+            if not 1 <= self.station_line <= len(page.channel_names):
+                raise SourceError(
+                    f"G.GUIDE station line {self.station_line} is absent for {self.station!r} on {request_date}"
+                )
+            line_name = page.channel_names[self.station_line - 1]
+            if self.station not in line_name:
+                raise SourceError(
+                    f"G.GUIDE station line {self.station_line} changed: expected {self.station!r}, got {line_name!r}"
+                )
+            matches = [self.station_line]
+        else:
+            matches = [
+                index
+                for index, name in enumerate(page.channel_names, start=1)
+                if name.endswith(self.station) or self.station in name
+            ]
         if len(matches) != 1:
             raise SourceError(
                 f"Expected one G.GUIDE station matching {self.station!r} for {request_date}; found {len(matches)}"

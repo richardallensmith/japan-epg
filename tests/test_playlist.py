@@ -20,6 +20,24 @@ https://example/tbs.m3u8
 https://example/tvtokyo.m3u8
 #EXTINF:-1 tvg-id="フジテレビ_jp" tvg-name="Fuji TV",Fuji TV
 https://example/fuji.m3u8
+#EXTINF:-1 tvg-id="TOKYO・MX_jp" tvg-name="TOKYO MX1",TOKYO MX1
+https://example/mx1.m3u8
+#EXTINF:-1 tvg-id="TOKYO・MX2_jp" tvg-name="TOKYO MX2 (HD 720p)",TOKYO MX2 (HD 720p)
+https://example/mx2.m3u8
+#EXTINF:-1 tvg-id="BS日テレ_jp" tvg-name="BS NTV",BS NTV
+https://example/bsntv.m3u8
+#EXTINF:-1 tvg-id="BS朝日_jp" tvg-name="BS Asahi",BS Asahi
+https://example/bsasahi.m3u8
+#EXTINF:-1 tvg-id="BS-TBS_jp" tvg-name="BS TBS",BS TBS
+https://example/bstbs.m3u8
+#EXTINF:-1 tvg-id="BSテレ東_jp" tvg-name="BS TV Tokyo",BS TV Tokyo
+https://example/bstvtokyo.m3u8
+#EXTINF:-1 tvg-id="BSフジ_jp" tvg-name="BS Fuji",BS Fuji
+https://example/bsfuji.m3u8
+#EXTINF:-1 tvg-id="BS11-イレブン_jp" tvg-name="BS11",BS11
+https://example/bs11.m3u8
+#EXTINF:-1 tvg-id="BS12トゥエルビ_jp" tvg-name="BS 12",BS 12
+https://example/bs12.m3u8
 #EXTINF:-1 tvg-id="other",Other
 https://example/other.m3u8
 """
@@ -28,7 +46,7 @@ https://example/other.m3u8
 class PlaylistTests(unittest.TestCase):
     def test_parse_playlist(self):
         channels = parse_m3u(PLAYLIST)
-        self.assertEqual(9, len(channels))
+        self.assertEqual(18, len(channels))
         self.assertEqual("NHK東京・総合_jp", channels[0].tvg_id)
         self.assertEqual("https://example/nhkg.m3u8", channels[0].url)
 
@@ -49,6 +67,22 @@ class PlaylistTests(unittest.TestCase):
             "TBS": "TBS_jp",
             "TV Tokyo": "テレ東_jp",
             "Fuji TV": "フジテレビ_jp",
+        }
+        for name, tvg_id in expected.items():
+            self.assertEqual(tvg_id, find_channel(channels, name=name).tvg_id)
+
+    def test_tokyo_mx_and_bs_channel_ids_match(self):
+        channels = parse_m3u(PLAYLIST)
+        expected = {
+            "TOKYO MX1": "TOKYO・MX_jp",
+            "TOKYO MX2 (HD 720p)": "TOKYO・MX2_jp",
+            "BS NTV": "BS日テレ_jp",
+            "BS Asahi": "BS朝日_jp",
+            "BS TBS": "BS-TBS_jp",
+            "BS TV Tokyo": "BSテレ東_jp",
+            "BS Fuji": "BSフジ_jp",
+            "BS11": "BS11-イレブン_jp",
+            "BS 12": "BS12トゥエルビ_jp",
         }
         for name, tvg_id in expected.items():
             self.assertEqual(tvg_id, find_channel(channels, name=name).tvg_id)

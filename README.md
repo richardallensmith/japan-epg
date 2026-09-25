@@ -1,6 +1,6 @@
 # Japan EPG
 
-An English-first XMLTV generator for Japanese IPTV players. The current feed covers the three core NHK services plus the five major Tokyo commercial networks, preserving the original Japanese metadata alongside translated English metadata.
+An English-first XMLTV generator for Japanese IPTV players. The current feed covers 17 major terrestrial and BS services, preserving the original Japanese metadata alongside translated English metadata.
 
 The playlist remains the authority for channel identity. The generator refuses to write a feed if any live playlist ID differs from its configured, reviewed value.
 
@@ -16,10 +16,19 @@ The playlist remains the authority for channel identity. The generator refuses t
 | TBS | `TBS_jp` | G.GUIDE Tokyo, station `TBS1` |
 | TV Tokyo | `テレ東_jp` | G.GUIDE Tokyo, station `テレ東` |
 | Fuji TV | `フジテレビ_jp` | G.GUIDE Tokyo, station `フジテレビ` |
+| TOKYO MX1 | `TOKYO・MX_jp` | G.GUIDE Tokyo, guarded line 8 |
+| TOKYO MX2 | `TOKYO・MX2_jp` | G.GUIDE Tokyo, guarded line 9 |
+| BS NTV | `BS日テレ_jp` | G.GUIDE BS, station `BS日テレ` |
+| BS Asahi | `BS朝日_jp` | G.GUIDE BS, station `BS朝日1` |
+| BS-TBS | `BS-TBS_jp` | G.GUIDE BS, station `BS-TBS` |
+| BS TV Tokyo | `BSテレ東_jp` | G.GUIDE BS, station `ＢＳテレ東` |
+| BS Fuji | `BSフジ_jp` | G.GUIDE BS, station `BSフジ・181` |
+| BS11 | `BS11-イレブン_jp` | G.GUIDE BS, guarded line 12 |
+| BS12 TwellV | `BS12トゥエルビ_jp` | G.GUIDE BS, guarded line 13 |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
-NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. Commercial listings come from G.GUIDE's broadcaster-supplied Tokyo schedule at <https://bangumi.org/epg/td>. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
+NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. Commercial listings come from G.GUIDE's broadcaster-supplied [Tokyo terrestrial](https://bangumi.org/epg/td) and [BS](https://bangumi.org/epg/bs) schedules. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
 
 ## Generate and validate
 
@@ -115,3 +124,5 @@ Use the published `epg.xml` URL directly as an EPG source in TiviMate or Sparkle
 ## Further expansion
 
 Add channel records under `config/channels.yaml`, then implement or reuse a schedule adapter under `src/fetch/`. Keep each playlist ID pinned and covered by an offline fixture test before enabling the channel.
+
+FAST channels are intentionally deferred until the major terrestrial, BS, and conventional specialty services are complete.

@@ -80,6 +80,87 @@
       "display_name_ja": "フジテレビ",
       "source": "bangumi",
       "source_options": {"station": "フジテレビ"}
+    },
+    "tokyo_mx1": {
+      "enabled": true,
+      "playlist_name": "TOKYO MX1",
+      "expected_tvg_id": "TOKYO・MX_jp",
+      "display_name_en": "TOKYO MX1",
+      "display_name_ja": "TOKYO MX1",
+      "source": "bangumi",
+      "source_options": {"station": "TOKYO", "lineup": "tokyo", "station_line": 8}
+    },
+    "tokyo_mx2": {
+      "enabled": true,
+      "playlist_name": "TOKYO MX2 (HD 720p)",
+      "expected_tvg_id": "TOKYO・MX2_jp",
+      "display_name_en": "TOKYO MX2",
+      "display_name_ja": "TOKYO MX2",
+      "source": "bangumi",
+      "source_options": {"station": "TOKYO", "lineup": "tokyo", "station_line": 9}
+    },
+    "bs_ntv": {
+      "enabled": true,
+      "playlist_name": "BS NTV",
+      "expected_tvg_id": "BS日テレ_jp",
+      "display_name_en": "BS NTV",
+      "display_name_ja": "BS日テレ",
+      "source": "bangumi",
+      "source_options": {"station": "BS日テレ", "lineup": "bs"}
+    },
+    "bs_asahi": {
+      "enabled": true,
+      "playlist_name": "BS Asahi",
+      "expected_tvg_id": "BS朝日_jp",
+      "display_name_en": "BS Asahi",
+      "display_name_ja": "BS朝日",
+      "source": "bangumi",
+      "source_options": {"station": "BS朝日1", "lineup": "bs"}
+    },
+    "bs_tbs": {
+      "enabled": true,
+      "playlist_name": "BS TBS",
+      "expected_tvg_id": "BS-TBS_jp",
+      "display_name_en": "BS-TBS",
+      "display_name_ja": "BS-TBS",
+      "source": "bangumi",
+      "source_options": {"station": "BS-TBS", "lineup": "bs"}
+    },
+    "bs_tv_tokyo": {
+      "enabled": true,
+      "playlist_name": "BS TV Tokyo",
+      "expected_tvg_id": "BSテレ東_jp",
+      "display_name_en": "BS TV Tokyo",
+      "display_name_ja": "BSテレ東",
+      "source": "bangumi",
+      "source_options": {"station": "ＢＳテレ東", "lineup": "bs"}
+    },
+    "bs_fuji": {
+      "enabled": true,
+      "playlist_name": "BS Fuji",
+      "expected_tvg_id": "BSフジ_jp",
+      "display_name_en": "BS Fuji",
+      "display_name_ja": "BSフジ",
+      "source": "bangumi",
+      "source_options": {"station": "BSフジ・181", "lineup": "bs"}
+    },
+    "bs11": {
+      "enabled": true,
+      "playlist_name": "BS11",
+      "expected_tvg_id": "BS11-イレブン_jp",
+      "display_name_en": "BS11",
+      "display_name_ja": "BS11イレブン",
+      "source": "bangumi",
+      "source_options": {"station": "BS11イ", "lineup": "bs", "station_line": 12}
+    },
+    "bs12": {
+      "enabled": true,
+      "playlist_name": "BS 12",
+      "expected_tvg_id": "BS12トゥエルビ_jp",
+      "display_name_en": "BS12 TwellV",
+      "display_name_ja": "BS12トゥエルビ",
+      "source": "bangumi",
+      "source_options": {"station": "BS12ト", "lineup": "bs", "station_line": 13}
     }
   }
 }

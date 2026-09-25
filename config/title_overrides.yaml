@@ -45,7 +45,18 @@
     "TXNニュース": "TXN News",
     "FNNニュース＆スポーツ": "FNN News & Sports",
     "SOUND WEATHER": "Sound Weather",
-    "にほんごであそぼ「試み」": "Nihongo de Asobo: ‘Attempt’"
+    "にほんごであそぼ「試み」": "Nihongo de Asobo: ‘Attempt’",
+    "ショッピング情報": "Shopping Information",
+    "お買い物情報": "Shopping Information",
+    "テレビショッピング": "TV Shopping",
+    "美と健康のショッピング": "Beauty and Health Shopping",
+    "健康テレビショッピング": "Health TV Shopping",
+    "ショップジャパン": "Shop Japan",
+    "MXショッピング": "MX Shopping",
+    "モーサテサタデー": "Morning Satellite Saturday",
+    "朝一番BS－TBSニュース": "Early Morning BS-TBS News",
+    "おはようBSフジ": "Good Morning BS Fuji",
+    "TOKYO MX NEWS": "TOKYO MX News"
   },
   "prefix": {
     "ＮＨＫニュース７": "NHK News 7",
@@ -157,6 +168,8 @@
     "ジャンクSPORTS": "Junk Sports",
     "Live News イット！": "Live News It!",
     "新しいカギ": "The New Key",
-    "さんまのお笑い向上委員会": "Sanma's Comedy Improvement Committee"
+    "さんまのお笑い向上委員会": "Sanma's Comedy Improvement Committee",
+    "BS日テレ Shopping": "BS NTV Shopping",
+    "ショップチャンネル": "Shop Channel"
   }
 }
