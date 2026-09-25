@@ -24,12 +24,24 @@ jobs:
           python-version: "3.12"
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+      - name: Restore persistent translation cache
+        uses: actions/cache/restore@v4
+        with:
+          path: cache/translations.json
+          key: translations-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            translations-${{ runner.os }}-
       - name: Run tests
         run: python -m unittest discover -v
       - name: Build and validate feed
         env:
           MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
         run: python -m src.main
+      - name: Save persistent translation cache
+        uses: actions/cache/save@v4
+        with:
+          path: cache/translations.json
+          key: translations-${{ runner.os }}-${{ github.run_id }}
       - name: Prepare Pages artifact
         run: |
           mkdir -p _site
