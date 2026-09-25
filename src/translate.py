@@ -184,8 +184,16 @@ class TranslationEngine:
                 week = unicodedata.normalize("NFKC", digest.group(1))
                 finale = "Final " if "🈡" in remainder or "最終" in remainder else ""
                 return f"Serial TV Novel: {series_en} — {finale}Saturday Digest, Week {week}"
+            final_week = re.search(
+                r"[（(]([0-9０-９]+)[）)]最終週「道標(?:（みちしるべ）)?」",
+                remainder.replace("　", ""),
+            )
+            if final_week:
+                episode = unicodedata.normalize("NFKC", final_week.group(1))
+                finale = " — Finale" if "🈡" in remainder else ""
+                return f'Serial TV Novel: {series_en} — Episode {episode}{finale} — Final Week: "Signpost"'
             return self._clean_english(
-                f"Serial TV Novel: {series_en}" + (f" — {self._machine('title-fragment', remainder)}" if remainder else "")
+                f"Serial TV Novel: {series_en}" + (f" — {self._title_fragment(remainder)}" if remainder else "")
             )
         serial_pr = re.match(r'^連続テレビ小説「([^」]+)」\s*ＰＲ$', text)
         if serial_pr:
@@ -207,6 +215,18 @@ class TranslationEngine:
         self.cache.save()  # retain progress if a later request fails
         return result
 
+    def _title_fragment(self, text: str) -> str:
+        markers = []
+        for symbol, label in (("🈡", "Finale"), ("🈞", "Repeat"), ("🈢", "Live")):
+            if symbol in text:
+                markers.append(label)
+                text = text.replace(symbol, "")
+        translated = self._machine("title-fragment", text.strip()) if text.strip() else ""
+        if markers:
+            marker_text = ", ".join(markers)
+            return f"{marker_text} — {translated}" if translated else marker_text
+        return translated
+
     def title(self, text: str) -> str:
         if text in self.manual_titles:
             return self.manual_titles[text]
@@ -215,21 +235,21 @@ class TranslationEngine:
         rule_result = self._rule_title(text)
         if rule_result:
             return rule_result
-        cached = self.cache.get("title", text)
-        if cached:
-            return self._clean_english(cached)
         for prefix in sorted(self.prefix_titles, key=len, reverse=True):
             if text.startswith(prefix):
                 remainder = text[len(prefix) :].strip(" 　:：")
                 known = self.prefix_titles[prefix]
                 if not remainder:
                     return known
-                translated_remainder = self._machine("title-fragment", remainder)
+                translated_remainder = self._title_fragment(remainder)
                 separator = "" if known.endswith((" ", ": ")) else ": "
                 result = self._clean_english(known + separator + translated_remainder)
                 self.cache.put("title", text, result, "mapping+" + self.provider.name)
                 self.cache.save()
                 return result
+        cached = self.cache.get("title", text)
+        if cached:
+            return self._clean_english(cached)
         return self._machine("title", text)
 
     def _description_excerpt(self, text: str) -> str:

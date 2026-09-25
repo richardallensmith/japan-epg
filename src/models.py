@@ -14,6 +14,14 @@ class PlaylistChannel:
     group_title: str = ""
 
 
+@dataclass(frozen=True)
+class XmltvChannel:
+    channel_id: str
+    display_name_en: str
+    display_name_ja: str
+    icon_url: str = ""
+
+
 @dataclass
 class Programme:
     channel_id: str

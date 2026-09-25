@@ -1,6 +1,7 @@
 {
   "channels": {
     "nhk_g_tokyo": {
+      "enabled": true,
       "playlist_name": "NHK G",
       "expected_tvg_id": "NHK東京・総合_jp",
       "display_name_en": "NHK G Tokyo",
@@ -9,6 +10,30 @@
       "source_options": {
         "area": "130",
         "service": "g1"
+      }
+    },
+    "nhk_e_tokyo": {
+      "enabled": true,
+      "playlist_name": "NHK E",
+      "expected_tvg_id": "NHK東京・教育_jp",
+      "display_name_en": "NHK E Tokyo",
+      "display_name_ja": "NHK Eテレ1・東京",
+      "source": "nhk",
+      "source_options": {
+        "area": "130",
+        "service": "e1"
+      }
+    },
+    "nhk_bs": {
+      "enabled": true,
+      "playlist_name": "NHK BS",
+      "expected_tvg_id": "NHK・BS_jp",
+      "display_name_en": "NHK BS",
+      "display_name_ja": "NHK BS",
+      "source": "nhk",
+      "source_options": {
+        "area": "130",
+        "service": "s1"
       }
     }
   }

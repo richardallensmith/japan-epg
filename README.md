@@ -1,14 +1,16 @@
 # Japan EPG
 
-An English-first XMLTV generator for Japanese IPTV players. The initial vertical slice covers **NHK G Tokyo / NHK総合1・東京** and preserves the original Japanese metadata alongside translated English metadata.
+An English-first XMLTV generator for Japanese IPTV players. The current feed covers **NHK G Tokyo**, **NHK E Tokyo**, and **NHK BS**, preserving the original Japanese metadata alongside translated English metadata.
 
 The playlist remains the authority for channel identity. The generator refuses to write a feed if the live playlist's NHK G ID differs from the configured, reviewed value.
 
-## Current channel
+## Current channels
 
 | Playlist name | Exact `tvg-id` | Schedule service |
 |---|---|---|
 | NHK G | `NHK東京・総合_jp` | NHK Tokyo area `130`, service `g1` |
+| NHK E | `NHK東京・教育_jp` | NHK Tokyo area `130`, service `e1` |
+| NHK BS | `NHK・BS_jp` | NHK Tokyo area `130`, service `s1` |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
@@ -29,6 +31,12 @@ Useful options:
 
 ```bash
 python3 -m src.main --days 1 --description-chars 48 --output output/epg.xml
+```
+
+Build only selected configured channels by repeating `--channel`:
+
+```bash
+python3 -m src.main --channel nhk_g_tokyo --channel nhk_e_tokyo
 ```
 
 NHK broadcast days cross midnight, so the source adapter fetches the overlapping previous/current/next broadcast dates and then retains only current/upcoming entries in the requested window.
@@ -55,7 +63,7 @@ The output uses timezone-aware XMLTV timestamps such as `20260926190000 +0900`. 
 Validation fails on:
 
 - a missing or mismatched playlist channel ID;
-- zero programme entries or zero current/future entries;
+- zero programme entries or zero current/future entries for any configured channel;
 - malformed timestamps or a stop time not after its start;
 - duplicate channels or programmes;
 - programmes assigned to another channel;
@@ -101,4 +109,4 @@ Use the published `epg.xml` URL directly as an EPG source in TiviMate or Sparkle
 
 ## Expansion
 
-Add channel records under `config/channels.yaml`, then implement or reuse a `ScheduleSource` adapter. The design is ready for NHK E, NHK BS, NTV, TV Asahi, TBS, TV Tokyo, and Fuji TV, but they are deliberately not enabled until NHK G has been observed in the target players.
+Add channel records under `config/channels.yaml`, then implement or reuse a `ScheduleSource` adapter. NHK E and NHK BS reuse the official NHK adapter. NTV, TV Asahi, TBS, TV Tokyo, and Fuji TV remain the next expansion milestone and will require a reputable non-NHK listings adapter.

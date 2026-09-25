@@ -21,6 +21,7 @@ class NHKTimetableSource:
 
     name = "NHK official public timetable (api.nhk.jp/r8)"
     endpoint = "https://api.nhk.jp/r8/pg/date/tv/{area}/{date}.json"
+    _response_cache: dict[tuple[str, str], dict] = {}
 
     def __init__(self, *, area: str = "130", service: str = "g1", timeout: int = 30):
         self.area = area
@@ -28,11 +29,16 @@ class NHKTimetableSource:
         self.timeout = timeout
 
     def _get_json(self, date_string: str) -> dict:
+        cache_key = (self.area, date_string)
+        if cache_key in self._response_cache:
+            return self._response_cache[cache_key]
         url = self.endpoint.format(area=self.area, date=date_string)
         request = Request(url, headers={"User-Agent": "Japan-EPG/1.0 (+XMLTV generator)"})
         try:
             with urlopen(request, timeout=self.timeout) as response:
-                return json.loads(response.read().decode("utf-8"))
+                payload = json.loads(response.read().decode("utf-8"))
+                self._response_cache[cache_key] = payload
+                return payload
         except Exception as exc:
             raise SourceError(f"NHK timetable request failed for {date_string}: {exc}") from exc
 

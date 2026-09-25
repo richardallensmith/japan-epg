@@ -24,22 +24,25 @@ def parse_xmltv_timestamp(value: str) -> datetime:
 def validate_feed(
     source: Path | ET.ElementTree,
     *,
-    expected_channel_id: str,
-    playlist_channel_id: str,
+    expected_channel_ids: set[str],
+    playlist_channel_ids: set[str],
     now: datetime | None = None,
     min_future_hours: float = 2.0,
 ) -> dict:
-    if expected_channel_id != playlist_channel_id:
+    if expected_channel_ids != playlist_channel_ids:
         raise ValidationError(
-            f"Configured NHK G id {expected_channel_id!r} does not match playlist id {playlist_channel_id!r}"
+            f"Configured channel ids {sorted(expected_channel_ids)!r} do not match playlist ids "
+            f"{sorted(playlist_channel_ids)!r}"
         )
     tree = ET.parse(source) if isinstance(source, Path) else source
     root = tree.getroot()
     if root.tag != "tv":
         raise ValidationError("Document root is not <tv>")
     channel_ids = [element.get("id") for element in root.findall("channel")]
-    if expected_channel_id not in channel_ids:
-        raise ValidationError(f"Missing expected channel {expected_channel_id!r}")
+    if set(channel_ids) != expected_channel_ids:
+        raise ValidationError(
+            f"XMLTV channel ids {sorted(channel_ids)!r} do not match expected ids {sorted(expected_channel_ids)!r}"
+        )
     if len(channel_ids) != len(set(channel_ids)):
         raise ValidationError("Duplicate <channel> entries")
 
@@ -47,14 +50,16 @@ def validate_feed(
     if now.tzinfo is None:
         raise ValueError("now must be timezone-aware")
     seen: set[tuple[str, str, str, str]] = set()
-    current_or_future = 0
+    current_or_future = {channel_id: 0 for channel_id in expected_channel_ids}
+    per_channel_count = {channel_id: 0 for channel_id in expected_channel_ids}
+    per_channel_stops: dict[str, list[datetime]] = {channel_id: [] for channel_id in expected_channel_ids}
     starts: list[datetime] = []
     stops: list[datetime] = []
     bilingual_titles = 0
     bilingual_descriptions = 0
     for element in root.findall("programme"):
         channel = element.get("channel", "")
-        if channel != expected_channel_id:
+        if channel not in expected_channel_ids:
             raise ValidationError(f"Programme references unexpected channel {channel!r}")
         start = parse_xmltv_timestamp(element.get("start", ""))
         stop = parse_xmltv_timestamp(element.get("stop", ""))
@@ -68,8 +73,10 @@ def validate_feed(
         if key in seen:
             raise ValidationError(f"Duplicate programme entry: {key}")
         seen.add(key)
+        per_channel_count[channel] += 1
+        per_channel_stops[channel].append(stop)
         if stop > now:
-            current_or_future += 1
+            current_or_future[channel] += 1
         starts.append(start)
         stops.append(stop)
         bilingual_titles += 1
@@ -78,18 +85,30 @@ def validate_feed(
 
     if not starts:
         raise ValidationError("Channel exists but has zero programme entries")
-    if current_or_future == 0:
-        raise ValidationError("Channel exists but has zero current/future programme entries")
-    if max(stops) < now + timedelta(hours=min_future_hours):
-        raise ValidationError(
-            f"Schedule is suspiciously stale/short: latest stop {max(stops).isoformat()} is less than "
-            f"{min_future_hours:g} hours ahead"
-        )
+    for channel_id in sorted(expected_channel_ids):
+        if per_channel_count[channel_id] == 0:
+            raise ValidationError(f"Channel {channel_id!r} exists but has zero programme entries")
+        if current_or_future[channel_id] == 0:
+            raise ValidationError(f"Channel {channel_id!r} has zero current/future programme entries")
+        latest = max(per_channel_stops[channel_id])
+        if latest < now + timedelta(hours=min_future_hours):
+            raise ValidationError(
+                f"Schedule for {channel_id!r} is suspiciously stale/short: latest stop {latest.isoformat()} "
+                f"is less than {min_future_hours:g} hours ahead"
+            )
     return {
         "programmes": len(starts),
-        "current_or_future": current_or_future,
+        "current_or_future": sum(current_or_future.values()),
         "earliest": min(starts),
         "latest": max(stops),
         "bilingual_titles": bilingual_titles,
         "bilingual_descriptions": bilingual_descriptions,
+        "per_channel": {
+            channel_id: {
+                "programmes": per_channel_count[channel_id],
+                "current_or_future": current_or_future[channel_id],
+                "latest": max(per_channel_stops[channel_id]),
+            }
+            for channel_id in sorted(expected_channel_ids)
+        },
     }

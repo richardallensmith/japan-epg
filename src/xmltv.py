@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
 
-from .models import Programme
+from .models import Programme, XmltvChannel
 
 
 def xmltv_timestamp(value: datetime) -> str:
@@ -16,23 +16,21 @@ def xmltv_timestamp(value: datetime) -> str:
 def build_xmltv(
     programmes: list[Programme],
     *,
-    channel_id: str,
-    display_name_en: str,
-    display_name_ja: str,
-    icon_url: str = "",
+    channels: list[XmltvChannel],
 ) -> ET.ElementTree:
     root = ET.Element("tv", {"generator-info-name": "Japan EPG"})
-    channel = ET.SubElement(root, "channel", {"id": channel_id})
-    ET.SubElement(channel, "display-name", {"lang": "en"}).text = display_name_en
-    ET.SubElement(channel, "display-name", {"lang": "ja"}).text = display_name_ja
-    if icon_url:
-        ET.SubElement(channel, "icon", {"src": icon_url})
+    for info in channels:
+        channel = ET.SubElement(root, "channel", {"id": info.channel_id})
+        ET.SubElement(channel, "display-name", {"lang": "en"}).text = info.display_name_en
+        ET.SubElement(channel, "display-name", {"lang": "ja"}).text = info.display_name_ja
+        if info.icon_url:
+            ET.SubElement(channel, "icon", {"src": info.icon_url})
 
     for item in programmes:
         programme = ET.SubElement(
             root,
             "programme",
-            {"start": xmltv_timestamp(item.start), "stop": xmltv_timestamp(item.stop), "channel": channel_id},
+            {"start": xmltv_timestamp(item.start), "stop": xmltv_timestamp(item.stop), "channel": item.channel_id},
         )
         ET.SubElement(programme, "title", {"lang": "en"}).text = item.title_en
         ET.SubElement(programme, "title", {"lang": "ja"}).text = item.title_ja
