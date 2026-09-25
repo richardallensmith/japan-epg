@@ -35,7 +35,8 @@ jobs:
         run: python -m unittest discover -v
       - name: Build and validate feed
         env:
-          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
+          # Public repository contact; override with a MYMEMORY_EMAIL secret if desired.
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL || 'richardallensmith@users.noreply.github.com' }}
         run: python -m src.main
       - name: Save persistent translation cache
         uses: actions/cache/save@v4

@@ -7,13 +7,10 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 from ..models import Programme
+from .base import SourceError
 
 JST = ZoneInfo("Asia/Tokyo")
 EPISODE_RE = re.compile(r"(?:\(|（)([0-9０-９]+)(?:\)|）)")
-
-
-class SourceError(RuntimeError):
-    pass
 
 
 class NHKTimetableSource:

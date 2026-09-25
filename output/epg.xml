@@ -15,6 +15,31 @@
     <display-name lang="ja">NHK BS</display-name>
     <icon src="https://jp-epg-26f0ce.gitlab.io/logos/nhk_bs.png" />
   </channel>
+  <channel id="日本テレビ_jp">
+    <display-name lang="en">NTV</display-name>
+    <display-name lang="ja">日本テレビ</display-name>
+    <icon src="https://jp-epg-26f0ce.gitlab.io/logos/ntv.png" />
+  </channel>
+  <channel id="テレビ朝日_jp">
+    <display-name lang="en">TV Asahi</display-name>
+    <display-name lang="ja">テレビ朝日</display-name>
+    <icon src="https://jp-epg-26f0ce.gitlab.io/logos/tv_asahi.png" />
+  </channel>
+  <channel id="TBS_jp">
+    <display-name lang="en">TBS</display-name>
+    <display-name lang="ja">TBSテレビ</display-name>
+    <icon src="https://jp-epg-26f0ce.gitlab.io/logos/tbs.png" />
+  </channel>
+  <channel id="テレ東_jp">
+    <display-name lang="en">TV Tokyo</display-name>
+    <display-name lang="ja">テレビ東京</display-name>
+    <icon src="https://jp-epg-26f0ce.gitlab.io/logos/tv_tokyo.png" />
+  </channel>
+  <channel id="フジテレビ_jp">
+    <display-name lang="en">Fuji TV</display-name>
+    <display-name lang="ja">フジテレビ</display-name>
+    <icon src="https://jp-epg-26f0ce.gitlab.io/logos/fuji_tv.png" />
+  </channel>
   <programme start="20260926004000 +0900" stop="20260926053000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Off Air</title>
     <title lang="ja">放送休止</title>
@@ -25,19 +50,11 @@
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">その他</category>
   </programme>
-  <programme start="20260926022200 +0900" stop="20260926032200 +0900" channel="NHK東京・総合_jp">
-    <title lang="en">Belgrade, Serbia - European Tram Tour</title>
-    <title lang="ja">ヨーロッパ　トラムの旅「セルビア　ベオグラード」</title>
-    <desc lang="en">Trams and trams run through cities across Europe. A nostalgic and retro look can't stop attracting travelers...</desc>
-    <desc lang="ja">欧州各地の都市を走る路面電車・トラム。どこか懐かしくレトロなたたずまいは、旅人をひきつけて止まない。街の中心部を走るので、名所巡りも車窓から楽しめる。トラムを乗りこなせれば街の観光は楽々。ヨーロッパにはトラムで巡りたくなる素敵（すてき）な街があふれている。あたかもトラムに乗っているかのような感覚で、車窓を楽しむリアル・トラム体験。今回は、セルビア・ベオグラードを旅する。</desc>
-    <category lang="en">Documentary / Education</category>
-    <category lang="en">History &amp; Journeys</category>
-    <category lang="en">Hobbies / Education</category>
-    <category lang="en">Travel, Fishing, Outdoors</category>
-    <category lang="ja">ドキュメンタリー/教養</category>
-    <category lang="ja">歴史・紀行</category>
-    <category lang="ja">趣味/教育</category>
-    <category lang="ja">旅・釣り・アウトドア</category>
+  <programme start="20260926024500 +0900" stop="20260926040000 +0900" channel="TBS_jp">
+    <title lang="en">Kaimono Lab</title>
+    <title lang="ja">カイモノラボ</title>
+    <desc lang="en">Look! Buy! It's fun! Shopping variety that delivers top-selling items at a great price!</desc>
+    <desc lang="ja">見て！ 買って！ 楽しめる！今話題の売れ筋アイテムを超お得にお届けするショッピングバラエティ！</desc>
   </programme>
   <programme start="20260926025000 +0900" stop="20260926035000 +0900" channel="NHK・BS_jp">
     <title lang="en">Scenery from the driver's seat Odakyu Odawara Line</title>
@@ -49,6 +66,17 @@
     <category lang="ja">情報/ワイドショー</category>
     <category lang="ja">暮らし・住まい</category>
   </programme>
+  <programme start="20260926030500 +0900" stop="20260926040500 +0900" channel="フジテレビ_jp">
+    <title lang="en">GTO # 10 — Repeat</title>
+    <title lang="ja">GTO ＃10🈞🈖</title>
+    <desc lang="en">"School staff and students are in a forbidden love... tears in the eyes of Onizuka! Soul's Sermon on Runaway Love" Takashi Tamachi Ikumi Airu</desc>
+    <desc lang="ja">「学校職員と生徒が禁断の恋…⁉鬼塚の目にも涙！暴走する恋心に魂の説教」 反町隆史 生見愛瑠</desc>
+    <episode-num system="onscreen">10</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="en">Repeat</category>
+    <previously-shown />
+  </programme>
   <programme start="20260926032200 +0900" stop="20260926033500 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Soul Taki Fire "Special Healing Flame"</title>
     <title lang="ja">魂のタキ火「特別編　癒やしの炎」</title>
@@ -58,6 +86,27 @@
     <category lang="en">Other</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260926032400 +0900" stop="20260926034400 +0900" channel="日本テレビ_jp">
+    <title lang="en">NTV Poschuré: Convincing you to buy! Great value mood SP — Repeat</title>
+    <title lang="ja">日テレポシュレ 買って納得！お得気分SP🈞</title>
+    <category lang="en">Repeat</category>
+    <category lang="en">Special</category>
+    <previously-shown />
+  </programme>
+  <programme start="20260926032500 +0900" stop="20260926042500 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Akatsuki Department Store</title>
+    <title lang="ja">あかつき百貨店</title>
+    <desc lang="en">Diet, beauty, hair care, health, life, kitchen, miscellaneous goods, jewelry, electrical appliances... all over the world, including Japan and the United States...</desc>
+    <desc lang="ja">ダイエット・美容・ヘアケア・健康・ライフ・キッチン・雑貨・宝飾・電化製品‥日本・米国を始め世界中の逸品を自宅でくつろぎながらショッピング！</desc>
+  </programme>
+  <programme start="20260926033000 +0900" stop="20260926040000 +0900" channel="テレ東_jp">
+    <title lang="en">Ultrasound</title>
+    <title lang="ja">超超音波</title>
+    <desc lang="en">Ultrasound, a live house that uses radio waves to transmit music in the middle of the night.</desc>
+    <desc lang="ja">深夜に電波を使って音楽を発信するライブハウス「超超音波」。</desc>
+    <category lang="en">Music</category>
+    <category lang="ja">音楽</category>
   </programme>
   <programme start="20260926033500 +0900" stop="20260926040000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Grand Sumo: Aki Basho, Day 13 — All Makuuchi Bouts</title>
@@ -72,6 +121,12 @@
     <category lang="ja">スポーツニュース</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">カルチャー・伝統文化</category>
+  </programme>
+  <programme start="20260926034400 +0900" stop="20260926041400 +0900" channel="日本テレビ_jp">
+    <title lang="en">NTV Poschuré</title>
+    <title lang="ja">日テレポシュレ</title>
+    <desc lang="en">"Nichi Teleposhure" is a mail order program where you can get good things at a great price. Now!</desc>
+    <desc lang="ja">イイモノがお得に手に入る通販番組「日テレポシュレ」今だから！買えるドキドキ・ワクワクな商品をご紹介！お見逃しなく！</desc>
   </programme>
   <programme start="20260926035000 +0900" stop="20260926045000 +0900" channel="NHK・BS_jp">
     <title lang="en">Northern Alps: Vignettes of Beauty</title>
@@ -99,6 +154,20 @@
     <category lang="ja">情報/ワイドショー</category>
     <category lang="ja">番組紹介・お知らせ</category>
   </programme>
+  <programme start="20260926040000 +0900" stop="20260926040500 +0900" channel="テレ東_jp">
+    <title lang="en">Music Break Cookie Miracle</title>
+    <title lang="ja">ミュージックブレイクーキミレコー</title>
+    <desc lang="en">I have a song here that I want to deliver to you. - The protagonist who sends a very ordinary everyday life.</desc>
+    <desc lang="ja">キミに届けたい楽曲がここにある。 ーごくありふれた日常を送る主人公。そんな彼にいま聴かせたい楽曲を勧めてくる隣人のヒロインが、素敵な1曲をご紹介！</desc>
+    <category lang="en">Music</category>
+    <category lang="ja">音楽</category>
+  </programme>
+  <programme start="20260926040000 +0900" stop="20260926044500 +0900" channel="TBS_jp">
+    <title lang="en">TBS News</title>
+    <title lang="ja">TBS NEWS</title>
+    <desc lang="en">The latest news from all over Japan this morning, overseas news, economic information, today's weather, baseball and other sports information for women...</desc>
+    <desc lang="ja">今朝の日本各地の最新ニュース、海外ニュース、経済情報、今日のお天気、野球などスポーツ情報を女性キャスターがお伝えする朝の報道番組。</desc>
+  </programme>
   <programme start="20260926040500 +0900" stop="20260926041000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Minna no Uta: "Yorgao"/"OK Shokudo"</title>
     <title lang="ja">みんなのうた「ヨルガオ」／「ＯＫ食堂」</title>
@@ -115,6 +184,12 @@
     <category lang="ja">バラエティ</category>
     <category lang="ja">音楽バラエティ</category>
   </programme>
+  <programme start="20260926040500 +0900" stop="20260926041500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Dinos The Store</title>
+    <title lang="ja">ディノスTHEストア</title>
+    <desc lang="en">Mail order Dinos confidently delivers "Now is Kaidoki!" products!</desc>
+    <desc lang="ja">通販のディノスが自信を持ってお届けする「今がカイドキ！」な商品をご紹介！ゲストの皆さんの本音のリアクションも交えて、商品の魅力を解説します！</desc>
+  </programme>
   <programme start="20260926041000 +0900" stop="20260926041500 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Pythagorean Switch Mini▽ New Bio▽ Patatoxy</title>
     <title lang="ja">ピタゴラスイッチ　ミニ▽新しい生物▽パタトクカシー</title>
@@ -128,6 +203,16 @@
     <category lang="ja">幼児・小学生</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260926041400 +0900" stop="20260926041500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Highlights of NTV</title>
+    <title lang="ja">日テレみどころ</title>
+  </programme>
+  <programme start="20260926041500 +0900" stop="20260926044500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Mimiyori!</title>
+    <title lang="ja">ミミヨリ！</title>
+    <desc lang="en">Your ears are on the way!</desc>
+    <desc lang="ja">耳より情報をお届けします！</desc>
   </programme>
   <programme start="20260926041500 +0900" stop="20260926050000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">International News Report: 2026 What happened at the site of the rapid spread of Ebola?</title>
@@ -143,6 +228,40 @@
     <category lang="ja">特集・ドキュメント</category>
     <category lang="ja">解説</category>
   </programme>
+  <programme start="20260926041500 +0900" stop="20260926054500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Friends on Ice 2026</title>
+    <title lang="ja">フレンズオンアイス2026</title>
+    <desc lang="en">Shizuka Arakawa's "Friends on Ice" ice show is celebrating its 20th anniversary this year!</desc>
+    <desc lang="ja">荒川静香のアイスショー「フレンズオンアイス」が今年で20周年！名場面6選に羽生結弦・宇野昌磨・浅田真央ら登場。荒川×坂本花織スペシャル対談も！</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260926041500 +0900" stop="20260926055500 +0900" channel="テレ東_jp">
+    <title lang="en">Monosta Saturday</title>
+    <title lang="ja">ものスタ サタデー</title>
+    <desc lang="en">"Me", tell me about a good product!! I can't afford to be "nu". I want to buy a product that makes me want to buy it like "su"...</desc>
+    <desc lang="ja">「も」っといい商品を教えて！！ 「の」んびりしてはいられない 「ス」ぐに買いたくなっちゃう商品を 「タ」っぷりとご紹介するショッピング番組</desc>
+  </programme>
+  <programme start="20260926042500 +0900" stop="20260926045000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Atsushi Watanabe's Building Tour</title>
+    <title lang="ja">渡辺篤史の建もの探訪🈑</title>
+    <desc lang="en">Panoramic Window House Buried in the Greenery of Miscellaneous Groves, Takagi Residence, Kuki City, Saitama Prefecture</desc>
+    <desc lang="ja">「雑木林の庭 緑に埋もれるパノラマ窓の家」埼玉県久喜市・髙木邸</desc>
+  </programme>
+  <programme start="20260926044500 +0900" stop="20260926045200 +0900" channel="フジテレビ_jp">
+    <title lang="en">Sound Weather</title>
+    <title lang="ja">SOUND WEATHER</title>
+    <desc lang="en">Whether you're a major or an indie, put it on a good quality pop music promo video for the next day...</desc>
+    <desc lang="ja">メジャー、インディーズを問わず、良質なポップミュージックのプロモーションビデオにのせて、翌日のお天気をお届けする音楽プログラム。</desc>
+    <category lang="en">Music</category>
+    <category lang="ja">音楽</category>
+  </programme>
+  <programme start="20260926044500 +0900" stop="20260926051500 +0900" channel="TBS_jp">
+    <title lang="en">Definitely something</title>
+    <title lang="ja">ぜひモノ</title>
+    <desc lang="en">Mail order program (TV shopping)</desc>
+    <desc lang="ja">通販番組（TVショッピング）</desc>
+  </programme>
   <programme start="20260926045000 +0900" stop="20260926050000 +0900" channel="NHK・BS_jp">
     <title lang="en">Aerial Cruising: Special edition "Journey around World Heritage Sites in Portugal"</title>
     <title lang="ja">空からクルージング特別編「ポルトガル・世界遺産を巡る旅」</title>
@@ -152,6 +271,18 @@
     <category lang="en">Travel, Fishing, Outdoors</category>
     <category lang="ja">趣味/教育</category>
     <category lang="ja">旅・釣り・アウトドア</category>
+  </programme>
+  <programme start="20260926045000 +0900" stop="20260926052000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Telementary: 2026 "Reverberating Life: 20 Years of Kazu and Hanaka"</title>
+    <title lang="ja">テレメンタリー2026「響け命よ －カズと花香の20年－」🈑</title>
+    <desc lang="en">A 7-year-old boy died of pediatric cancer in 2006. Two days later, my sister, who was born two days later, 20 years later, began to follow the path of a doctor...</desc>
+    <desc lang="ja">2006年に小児がんで亡くなった7歳の男の子。その2日後に生まれた妹は20年後、医師の道を歩み始めた。命は、消えない。20年にわたる記録映像で描く、家族の物語。</desc>
+  </programme>
+  <programme start="20260926045200 +0900" stop="20260926052200 +0900" channel="フジテレビ_jp">
+    <title lang="en">TV Terakoya [I can do my best because I like it/Chika Chino, etc.]</title>
+    <title lang="ja">テレビ寺子屋【好きだから頑張れる／親野智可等】</title>
+    <desc lang="en">Be a cheerleader, not a supervisor! Educational critic Tomoka Chino and others talk about how children stretch themselves...</desc>
+    <desc lang="ja">親は子どもの「監督」ではなく「応援団」になろう！教育評論家の親野智可等さんが語る、子どもが自ら伸びるための環境づくりとは？</desc>
   </programme>
   <programme start="20260926050000 +0900" stop="20260926051000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">News and Weather</title>
@@ -191,6 +322,12 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">カルチャー・伝統文化</category>
   </programme>
+  <programme start="20260926051500 +0900" stop="20260926053000 +0900" channel="TBS_jp">
+    <title lang="en">Royal Album</title>
+    <title lang="ja">皇室アルバム</title>
+    <desc lang="en">"The Emperor's family participated in a disaster drill"</desc>
+    <desc lang="ja">『天皇ご一家 防災訓練に参加されて』</desc>
+  </programme>
   <programme start="20260926051500 +0900" stop="20260926061500 +0900" channel="NHK・BS_jp">
     <title lang="en">Classic Karnak Megalithic Heritage Site (France)</title>
     <title lang="ja">歴史遺産でクラシック　カルナック巨石遺構（フランス）</title>
@@ -200,6 +337,26 @@
     <category lang="en">Classical Opera</category>
     <category lang="ja">音楽</category>
     <category lang="ja">クラシック・オペラ</category>
+  </programme>
+  <programme start="20260926052000 +0900" stop="20260926055000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">The Power of Japan</title>
+    <title lang="ja">日本のチカラ🈑</title>
+    <desc lang="en">Nichito Watanabe (12) in Oita City loves sumo.</desc>
+    <desc lang="ja">大分市の渡邉日翔（にちと）さん（12）は相撲が大好き。父の哲宏さん（43）は稽古の送り迎えなどをサポートしています。ところが昨年、哲宏さんが脳出血で倒れて...</desc>
+  </programme>
+  <programme start="20260926052200 +0900" stop="20260926053000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Bonobono</title>
+    <title lang="ja">ぼのぼの🈑</title>
+    <desc lang="en">"Bono-chan ~ I stood up" Character: Bono-chan's father Alai...</desc>
+    <desc lang="ja">「ぼのちゃん〜ボクは立ったんだよ」 登場キャラクター：ぼのちゃん ぼのちゃんのおとうさん アライグマちゃん クズリちゃんのおとうさん 他</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
+  <programme start="20260926053000 +0900" stop="20260926054500 +0900" channel="TBS_jp">
+    <title lang="en">JNN News</title>
+    <title lang="ja">JNNニュース🈐🈑</title>
+    <desc lang="en">We'll send you the latest news.</desc>
+    <desc lang="ja">最新のニュースをお送りします。</desc>
   </programme>
   <programme start="20260926053000 +0900" stop="20260926055000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">NHK High School Course: Let me tell you a little English communication I</title>
@@ -214,6 +371,12 @@
     <category lang="ja">中学生・高校生</category>
     <category lang="ja">会話・語学</category>
     <category lang="ja">大学生・受験</category>
+  </programme>
+  <programme start="20260926053000 +0900" stop="20260926060000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Weekly Fuji Television Criticism</title>
+    <title lang="ja">週刊フジテレビ批評</title>
+    <desc lang="en">Approaching the toy industry in the 1 trillion yen market! Beyblade's generational fanaticism.</desc>
+    <desc lang="ja">1兆円市場のおもちゃ業界に迫る！ベイブレードに見る、世代を超える熱狂的なファンを生み出す仕掛け。テレビが考える“熱狂”の作り方とは？</desc>
   </programme>
   <programme start="20260926053500 +0900" stop="20260926054000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">One Point Sign Language (14) Hobby * Subtitle Supermarket</title>
@@ -242,6 +405,24 @@
     <category lang="ja">情報/ワイドショー</category>
     <category lang="ja">芸能・ワイドショー</category>
   </programme>
+  <programme start="20260926054500 +0900" stop="20260926055500 +0900" channel="日本テレビ_jp">
+    <title lang="en">News Saturday</title>
+    <title lang="ja">ニュースサタデー</title>
+    <desc lang="en">Here's the latest news</desc>
+    <desc lang="ja">最新のニュースをお伝えします</desc>
+  </programme>
+  <programme start="20260926054500 +0900" stop="20260926070000 +0900" channel="TBS_jp">
+    <title lang="en">Ravit at dawn!</title>
+    <title lang="ja">夜明けのラヴィット！🈑</title>
+    <desc lang="en">Get your weekly Ravit! Monday-Friday opening talk delivered in a snap!</desc>
+    <desc lang="ja">月曜〜金曜の「ラヴィット！」1週間分のオープニングトークをギューッと凝縮してお届け！今まで放送できなかった生放送終わりのアフタートーク初公開！㊙裏話も！</desc>
+  </programme>
+  <programme start="20260926055000 +0900" stop="20260926060000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">ANN News</title>
+    <title lang="ja">ANNニュース🈐🈑</title>
+    <desc lang="en">Ann News is the first to provide accurate news and information!</desc>
+    <desc lang="ja">正確なニュース・情報をいち早くお伝えするANNニュース！テレビ朝日系列の放送局26局が総力をあげ、緻密な取材にもとづいたニュースを最新機材を駆使して放送します。</desc>
+  </programme>
   <programme start="20260926055000 +0900" stop="20260926060000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Weather Information</title>
     <title lang="ja">気象情報</title>
@@ -264,6 +445,16 @@
     <category lang="ja">中学生・高校生</category>
     <category lang="ja">大学生・受験</category>
   </programme>
+  <programme start="20260926055500 +0900" stop="20260926060000 +0900" channel="テレ東_jp">
+    <title lang="en">"I don't know if it's a lie or a real one. Too much urban legend" Recommended</title>
+    <title lang="ja">「ウソかホントかわからない やりすぎ都市伝説」オススメ</title>
+  </programme>
+  <programme start="20260926055500 +0900" stop="20260926092500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Shuichi: Timeless release of Inomata, a rice farmer who continues to flood around Chiba and Inganuma</title>
+    <title lang="ja">シューイチ🈑🈓千葉・印旛沼周辺の浸水続くコメ農家は／タイムレス猪俣釈放</title>
+    <desc lang="en">Unique rules of our house Tokyo &amp; Osaka/Cheerful Nippon Table Tennis/Nationwide Evolutionary Library where you can stay/Child Actor Yuno-chan Surprise Eight...</desc>
+    <desc lang="ja">我が家の独自ルール東京＆大阪／快挙ニッポン卓球／泊まれる⁉全国進化系図書館／子役ゆのちゃん驚き八重洲周辺で新乗り物／トラジャ×秋野菜／目黒蓮ミラノへ</desc>
+  </programme>
   <programme start="20260926060000 +0900" stop="20260926062500 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Veggie Garden: Veggie Garden Rare Veggie Tzarsai &amp; Florence Fennel</title>
     <title lang="ja">やさいの時間　ベジガーデン　レアベジ　ザーサイ＆フローレンスフェンネル</title>
@@ -277,6 +468,15 @@
     <category lang="ja">園芸・ペット・手芸</category>
     <category lang="ja">情報/ワイドショー</category>
     <category lang="ja">暮らし・住まい</category>
+  </programme>
+  <programme start="20260926060000 +0900" stop="20260926063000 +0900" channel="テレ東_jp">
+    <title lang="en">Korean-style Chodora 6 Summer Fragrance # 25 An Insufferable Choice (Part 1)</title>
+    <title lang="ja">韓流朝ドラ6 夏の香り ＃25 せつない選択（前編）🈓🈔</title>
+    <desc lang="en">"Winter Sonata" is the third installment of the "Four Seasons Series", a pure love drama directed by Yun Seok-ho.</desc>
+    <desc lang="ja">『冬のソナタ』ユン・ソクホ監督の純愛ドラマ“四季シリーズ”第3作。ソン・スンホン、ソン・イェジン主演、心で通い合う運命的愛をモチーフにした感動のラブストーリー。</desc>
+    <episode-num system="onscreen">25</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="ja">ドラマ</category>
   </programme>
   <programme start="20260926060000 +0900" stop="20260926063000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">NHK News: Good Morning Japan: What is the future outlook for Typhoon 26?</title>
@@ -293,6 +493,18 @@
     <category lang="ja">特集・ドキュメント</category>
     <category lang="ja">スポーツ</category>
     <category lang="ja">スポーツニュース</category>
+  </programme>
+  <programme start="20260926060000 +0900" stop="20260926080000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Good! Morning</title>
+    <title lang="ja">グッド！モーニング🈓🈑</title>
+    <desc lang="en">Fukuoka Prefectural Council Vigilance Again Against Heavy Rain and Typhoon▽ Fukuoka Prefectural Council Visiting Thailand "Banqueting" Video Acquisition▽ U.S.-China "Allies...</desc>
+    <desc lang="ja">決壊の印旛沼復旧着手…再び強雨・台風に警戒▽福岡県議会タイ視察“宴会騒ぎ”動画入手▽米中「同盟国」発言▽猪俣周杜さんが釈放🈀</desc>
+  </programme>
+  <programme start="20260926060000 +0900" stop="20260926083000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Mezamashi Saturday: Supermarket's own pizza/Chiba rain again... support one after another</title>
+    <title lang="ja">めざましどようび スーパーの独自ピザ／千葉再び雨…支援続々🈑🈓</title>
+    <desc lang="en">Raining again in Chiba... supporting a man who is stabbed by a▼ woman one after another Escape▼▼ supermarket's own pizza Chiikawa autumn event▼ Amusement park video Sir...</desc>
+    <desc lang="ja">千葉再び雨…支援続々▼女性刺される男逃走▼スーパーの独自ピザ▼ちいかわ秋イベント▼遊園地動画サービス▼大谷復帰後初マルチ▼踊るクイズ総集編！▼丸山隆平とんかつ愛</desc>
   </programme>
   <programme start="20260926061500 +0900" stop="20260926071500 +0900" channel="NHK・BS_jp">
     <title lang="en">Seiya Nakai's Spectacular Railway Journeys: Autumn Railway in the Heart of Hokkaido</title>
@@ -317,6 +529,12 @@
     <category lang="ja">その他</category>
     <category lang="ja">情報/ワイドショー</category>
     <category lang="ja">健康・医療</category>
+  </programme>
+  <programme start="20260926063000 +0900" stop="20260926070000 +0900" channel="テレ東_jp">
+    <title lang="en">Saturday Television Shop</title>
+    <title lang="ja">サタデーテレショップ</title>
+    <desc lang="en">An informational program sent on Saturday mornings. Here's your top product info.</desc>
+    <desc lang="ja">土曜日の朝に送る情報番組。話題の商品情報をお届けします。</desc>
   </programme>
   <programme start="20260926063000 +0900" stop="20260926070000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">NHK News: Good Morning Japan: What is the future outlook for Typhoon 26?</title>
@@ -351,7 +569,7 @@
     <category lang="ja">音楽バラエティ</category>
   </programme>
   <programme start="20260926064000 +0900" stop="20260926065000 +0900" channel="NHK東京・教育_jp">
-    <title lang="en">Nihongo de Asobo: [こころみ] /attempt/trial/effort/</title>
+    <title lang="en">Nihongo de Asobo: ‘Attempt’</title>
     <title lang="ja">にほんごであそぼ「試み」</title>
     <desc lang="en">Japanese bongo (Miaki Aoyagi), three-dimensional paper cutter (Tsujiso), gutarachinna/try, read aloud (Shinshu Takasugi)/"...</desc>
     <desc lang="ja">書道で学ぶにほんご（青柳美扇）・立体紙切り（辻笙）・ぐうたらちんたら／試み、朗読（高杉真宙）／「黄金仮面」江戸川乱歩、漢字カードバトル、うた「ねえ、アリス」</desc>
@@ -396,6 +614,12 @@
     <category lang="ja">バラエティ</category>
     <category lang="ja">トークバラエティ</category>
   </programme>
+  <programme start="20260926070000 +0900" stop="20260926073000 +0900" channel="テレ東_jp">
+    <title lang="en">Toranomon Market: We will tell you about the food culture throughout Japan!</title>
+    <title lang="ja">虎ノ門市場 日本全国の食文化をお伝えします！🈑</title>
+    <desc lang="en">Whether it's traditional flavors handed down in the region or new flavors that are now evolving, they're close to the producers and chefs who care...</desc>
+    <desc lang="ja">地方に伝わる昔ながらの伝統の味や、いま進化を遂げている新しい味など、こだわりの生産者や料理人に密着取材します。テレビ東京「虎ノ門市場」でお取り寄せも可能です！</desc>
+  </programme>
   <programme start="20260926070000 +0900" stop="20260926073000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">NHK News: Good Morning Japan</title>
     <title lang="ja">ＮＨＫニュース　おはよう日本</title>
@@ -411,6 +635,14 @@
     <category lang="ja">特集・ドキュメント</category>
     <category lang="ja">スポーツ</category>
     <category lang="ja">スポーツニュース</category>
+  </programme>
+  <programme start="20260926070000 +0900" stop="20260926114500 +0900" channel="TBS_jp">
+    <title lang="en">Asian Games: The first ★men's and women★'s marathon in 8 years, and the first women's marathon in 28 years! Same Nissan Relay, etc.</title>
+    <title lang="ja">アジア大会 ★男女マラソン★ 男子8年ぶり、女子28年ぶり金へ！同日生中継ほか🈑🈓</title>
+    <desc lang="en">On the same day! Yuya Yoshida and Kazuki Yamashita will challenge the men to conquer for the first time in 8 years!</desc>
+    <desc lang="ja">同日開催！男子は8年ぶり制覇に吉田祐也と山下一貴が挑む！女子は高橋尚子以来28年ぶりの金メダルへ佐藤早也伽と矢田みくにが名古屋の街を疾走する！果たして勝つのは？</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
   </programme>
   <programme start="20260926071500 +0900" stop="20260926073000 +0900" channel="NHK・BS_jp">
     <title lang="en">Serial TV Novel: Himawari — (138) "Chapter 12: Is it pitiful to travel with others?"</title>
@@ -434,6 +666,14 @@
     <category lang="ja">趣味/教育</category>
     <category lang="ja">幼児・小学生</category>
     <category lang="ja">音楽・美術・工芸</category>
+  </programme>
+  <programme start="20260926073000 +0900" stop="20260926080000 +0900" channel="テレ東_jp">
+    <title lang="en">Ninjara "The Magnificent Spicy Mask"</title>
+    <title lang="ja">ニンジャラ「華麗なるスパイシー仮面」🈑🈓</title>
+    <desc lang="en">The Bartons are entrusted with the protection of the prince of Masaradia.</desc>
+    <desc lang="ja">バートンたちはマサラディアの王子の警護を任される。ロンそっくりな王子にイーグルシティを案内していると、王子を狙う男たちが襲来！その時スパイシー仮面なる男が現れ…</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
   </programme>
   <programme start="20260926073000 +0900" stop="20260926080000 +0900" channel="NHK・BS_jp">
     <title lang="en">A Japanese garden at the Italian Embassy with Murasame-san and Japanese gardens!</title>
@@ -492,7 +732,7 @@
     <category lang="ja">宇宙・科学・医学</category>
   </programme>
   <programme start="20260926080000 +0900" stop="20260926081500 +0900" channel="NHK東京・総合_jp">
-    <title lang="en">Serial TV Novel: Kaze, Kaoru — Final Saturday Digest, Week 26</title>
+    <title lang="en">Serial TV Novel: Kaze, Kaoru — Saturday Digest, Week 26 — Finale</title>
     <title lang="ja">【連続テレビ小説】風、薫る　🈡土曜ダイジェスト版　第２６週</title>
     <desc lang="en">As the nursing exam was approaching, Rin (Ai Kami) and Naomi (Juri Kamisaka) joined the Eifu Nursing Association as special lecturers Imai (Yu Furukawa...</desc>
     <desc lang="ja">看護婦試験が近づく中、りん（見上愛）と直美（上坂樹里）は恵風看護婦会に特別講師として今井（古川雄大）を迎える。そして試験当日、緊張の面持ちのツヤ（東野絢香）とセツ（村上穂乃佳）らをりんと直美は温かく送り出すのだった。そんな中、りんはシマケン（佐野晶哉）より、看護の実用書を書いてはどうかと提案される。後に続く看護婦たちに看護の知識を伝えるため、りんは悩みながらも本づくりに邁進していく。</desc>
@@ -503,6 +743,21 @@
     <category lang="ja">国内ドラマ</category>
     <category lang="ja">その他</category>
     <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260926080000 +0900" stop="20260926083000 +0900" channel="テレ東_jp">
+    <title lang="en">Toshiya Miyata's Final Turn ~ Vanguard Divinez Destiny Star Wars Edition Support TV ~ — Finale</title>
+    <title lang="ja">宮田俊哉のファイナルターン〜ヴァンガードDivinez運命星戦編 応援TV〜🈡🈑</title>
+    <desc lang="en">Toshiya Miyata is everywhere to support "Card Fight!! Vanguard Divinez Destiny Star Battle Edition"...</desc>
+    <desc lang="ja">『カードファイト！！ヴァンガード Divinez 運命星戦編』を応援するため、宮田俊哉があちこち奔走！ある日はロケ？ある日はクイズ？ヴァンガードまみれの3...</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+    <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260926080000 +0900" stop="20260926093000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Morning! Live Travel Salad: Hitoshi Katagiri meets a national treasure and travels to Sentosa, Singapore</title>
+    <title lang="ja">朝だ！生です旅サラダ 片桐仁が国宝の土偶と対面＆シンガポール・セントーサの旅🈓🈑</title>
+    <desc lang="en">From luxurious trips abroad and in Japan, to casual hot spring trips and familiar day trips... information programs that suggest a wide range of travel styles...</desc>
+    <desc lang="ja">海外・国内の豪華な旅から、気軽な温泉旅や身近な日帰り旅まで…幅広い旅のスタイルを提案する情報番組。毎週素敵なゲストが登場！</desc>
   </programme>
   <programme start="20260926081000 +0900" stop="20260926081500 +0900" channel="NHK・BS_jp">
     <title lang="en">Sekahoshi 5min. "Morocco of Temptation"</title>
@@ -560,6 +815,22 @@
     <category lang="ja">ドラマ</category>
     <category lang="ja">国内ドラマ</category>
   </programme>
+  <programme start="20260926083000 +0900" stop="20260926090000 +0900" channel="テレ東_jp">
+    <title lang="en">Shimajiro no Wow!: Episode 743 "Oiichan is a Superstar"</title>
+    <title lang="ja">しまじろうのわお！ 第743話「おにいちゃんは スーパースター」🈑</title>
+    <desc lang="en">Wow! The number of them makes the world interesting. 30 minutes of discovery and ideas.</desc>
+    <desc lang="ja">わお！の数だけ世界は面白くなる。発見とアイデアがつまった30分。よく知りよく考え、未来を切り拓く力を育む親子で楽しめる教育番組。</desc>
+    <episode-num system="onscreen">743</episode-num>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
+  <programme start="20260926083000 +0900" stop="20260926102500 +0900" channel="フジテレビ_jp">
+    <title lang="en">What Will You Do on Saturday!?: The Extreme ★Value! Autumn Food★ Tour with Aeon Thorough Strategy SP</title>
+    <title lang="ja">土曜はナニする！？ ★コスパの極み！イオン徹底攻略★日帰り旅で秋グルメ満喫SP🈑</title>
+    <desc lang="en">Excellent ★value! Aeon Thorough Capture SP sold 40 million units per year! The strongest fried chicken, "Tang Wang"! 100 million per year!</desc>
+    <desc lang="ja">★コスパ抜群！イオン徹底攻略SP年間4千万個販売！最強唐揚げ「唐王」！年間1億個！爆売れコロッケ！★ぷらっとりっぷ秋のグルメ最新情報！橋本環奈＆優香、感動の味！</desc>
+    <category lang="en">Special</category>
+  </programme>
   <programme start="20260926083500 +0900" stop="20260926090000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Curious George: "Ka Ka Ka Ka Ka Ka Ka" "Ice My Room"</title>
     <title lang="ja">アニメ　おさるのジョージ「かっせーかっせー」「アイス　マイルーム」</title>
@@ -607,6 +878,14 @@
     <category lang="ja">アニメ/特撮</category>
     <category lang="ja">国内アニメ</category>
   </programme>
+  <programme start="20260926090000 +0900" stop="20260926093000 +0900" channel="テレ東_jp">
+    <title lang="en">Ultraman Theo: A Fighter's Preparation — New</title>
+    <title lang="ja">ウルトラマンテオ 闘う者の覚悟🈑🈕🈖</title>
+    <desc lang="en">Ultraman Zero demonstrates incredible combat power! Overwhelmed by the difference in power, Ibuki struggles from scratch...</desc>
+    <desc lang="ja">驚異の戦闘力を見せつけるウルトラマンゼロ！ その力の差に圧倒されるイブキは、ゼロから闘うことへの覚悟を問われる。</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
   <programme start="20260926090000 +0900" stop="20260926093000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Darwin's Amazing Animals: "Lake Biwa Gem Biwamas Great Pursuit!"</title>
     <title lang="ja">ダーウィンが来た！「びわ湖の宝石　ビワマス大追跡！」</title>
@@ -622,7 +901,7 @@
     <category lang="ja">旅・釣り・アウトドア</category>
   </programme>
   <programme start="20260926091500 +0900" stop="20260926093000 +0900" channel="NHK・BS_jp">
-    <title lang="en">Serial TV Novel: Kaze, Kaoru — Episode 130 — Finale — Final Week: "Signpost"</title>
+    <title lang="en">Serial TV Novel: Kaze, Kaoru — Episode 130 — Final Week: "Signpost" — Finale</title>
     <title lang="ja">【連続テレビ小説】風、薫る　🈡（１３０）最終週「道標（みちしるべ）」</title>
     <desc lang="en">Months and days passed, and the release date of the practical book on nursing written by Rin (Ai Umi) ushered in.</desc>
     <desc lang="ja">月日は流れ、りん（見上愛）が執筆した看護の実用書の発売日を迎えた。出版祝いに、多江（生田絵梨花）が恵風看護婦会を訪ねてくる。一方、田之上屋に向かおうとしていたシマケン（佐野晶哉）は道中である親子に出会って…。</desc>
@@ -643,6 +922,12 @@
     <category lang="ja">趣味/教育</category>
     <category lang="ja">幼児・小学生</category>
   </programme>
+  <programme start="20260926092500 +0900" stop="20260926103000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Burari Tochū Gesha no Tabi: Rich! Raw Wasabi Flavor &amp; Deliciousness at Carbonara Specialty Store! Chilled</title>
+    <title lang="ja">ぶらり途中下車の旅🈖🈑濃厚！カルボナーラ専門店で生わさび味＆美味！冷やしほうとう</title>
+    <desc lang="en">Jun ▽Hashimoto travels on the Saitama Stadium Line and the Namboku Line,▽ cute wild birds!</desc>
+    <desc lang="ja">▽橋本じゅんが埼玉スタジアム線・南北線でぶらり旅▽かわいい野鳥！シマエナガの七宝焼き▽鮮やかな光沢と滑らかな肌触り！シルクベルベット▽旬のシャインマスカット狩り</desc>
+  </programme>
   <programme start="20260926093000 +0900" stop="20260926093500 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Mini Anime Mouse-kun's Vest "Mouse-kun and Swing"</title>
     <title lang="ja">ミニアニメ　ねずみくんのチョッキ「ねずみくんとブランコ」</title>
@@ -656,6 +941,21 @@
     <category lang="ja">国内アニメ</category>
     <category lang="ja">趣味/教育</category>
     <category lang="ja">幼児・小学生</category>
+  </programme>
+  <programme start="20260926093000 +0900" stop="20260926095500 +0900" channel="テレビ朝日_jp">
+    <title lang="en">You want to know about Osamu Hayashi now! The masterpiece selection was changed in the Showa→ Reiwa! How to deal with injuries SP</title>
+    <title lang="ja">林修の今知りたいでしょ！ 傑作選 昭和→令和で変わった！ケガの対処方法SP🈑</title>
+    <desc lang="en">Professor Hayashi, who usually teaches, transforms into a student! The lecturers who are familiar with various fields gather, and the world that Professor Hayashi does not know...</desc>
+    <desc lang="ja">普段は教える立場の林修先生が生徒に変身！様々な分野に精通した講師が集まり、林修先生に知らない世界をレクチャーします！このタメになる講座いつ受けるか？今でしょ！</desc>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926093000 +0900" stop="20260926100000 +0900" channel="テレ東_jp">
+    <title lang="en">Teletraan Anime Kids Music Festival</title>
+    <title lang="ja">テレ東系アニメKids音楽祭🈑</title>
+    <desc lang="en">A three-week series of dream music festival specials packed with popular anime theme songs and masterpieces from the Teletraan series!</desc>
+    <desc lang="ja">テレ東系列が誇る大人気アニメの主題歌や名曲を詰め込んだ3週連続の夢の音楽お祭り特番！全15作品・総勢13組のアーティストが勢ぞろい！今日は第2弾、お見逃しなく！</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
   </programme>
   <programme start="20260926093000 +0900" stop="20260926100000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Document 72 Hours: At the Aomori Nebuta Festival "Phantom Campground"</title>
@@ -701,6 +1001,12 @@
     <category lang="ja">バラエティ</category>
     <category lang="ja">料理バラエティ</category>
   </programme>
+  <programme start="20260926095500 +0900" stop="20260926100000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">That was confusing.</title>
+    <title lang="ja">しあわせのたね。🈑</title>
+    <desc lang="en">SDGs, an international goal to achieve a sustainable and better world by 2030.</desc>
+    <desc lang="ja">2030年までに、持続可能でよりよい世界を目指す国際目標「SDGs」。 番組では、未来に向けた“はじめの一歩”を実践している人たちに注目して紹介していきます。</desc>
+  </programme>
   <programme start="20260926100000 +0900" stop="20260926100500 +0900" channel="NHK東京・総合_jp">
     <title lang="en">News and Weather</title>
     <title lang="ja">ニュース・気象情報</title>
@@ -727,6 +1033,20 @@
     <category lang="ja">幼児・小学生</category>
     <category lang="ja">中学生・高校生</category>
   </programme>
+  <programme start="20260926100000 +0900" stop="20260926103000 +0900" channel="テレ東_jp">
+    <title lang="en">Mossate Saturday</title>
+    <title lang="ja">モーサテサタデー</title>
+    <desc lang="en">Looking forward to the stock market at the end of the year! What was the point? What was the reaction of countries and markets at the▼ US-China summit?</desc>
+    <desc lang="ja">年末に向けて株式相場を展望！ポイントは？▼米中首脳会談を受けた各国や市場の反応は？</desc>
+  </programme>
+  <programme start="20260926100000 +0900" stop="20260926103000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Untitled Concert: "Dragon Quest Concert Conducted by Tuoyama Koichi"</title>
+    <title lang="ja">題名のない音楽会「すぎやまこういちが指揮をするドラゴンクエストの音楽会」🈑</title>
+    <desc lang="en">Koichi Koyama, who composed the music of Dragon Quest, wrote his own masterpiece for the orchestra.</desc>
+    <desc lang="ja">ドラゴンクエストの音楽を作曲したすぎやまこういちさんが自らオーケストラの指揮をした名曲を、秘蔵トークとともにお送りします！貴重な演奏をお楽しみください。</desc>
+    <category lang="en">Music</category>
+    <category lang="ja">音楽</category>
+  </programme>
   <programme start="20260926100500 +0900" stop="20260926103300 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Metropolitan area information spoilers! In-depth coverage of the latest developments in "housekeeping" at home and at home!</title>
     <title lang="ja">首都圏情報ネタドリ！　自宅や実家の“家じまい”　最新事情を徹底取材！</title>
@@ -745,6 +1065,24 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">社会・時事</category>
   </programme>
+  <programme start="20260926102500 +0900" stop="20260926103000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Programme Guide</title>
+    <title lang="ja">ガイド</title>
+  </programme>
+  <programme start="20260926103000 +0900" stop="20260926110000 +0900" channel="フジテレビ_jp">
+    <title lang="en">F1 Side by Side</title>
+    <title lang="ja">F1サイドbyサイド🈑</title>
+    <desc lang="en">From the latest news to gossip stories in Formula 1, which is a hot topic on a global scale, we have plenty to offer.</desc>
+    <desc lang="ja">世界的な規模で話題になっているF1、その最新ニュースからゴシップネタまで、たっぷりお届けします。3レース連続完走を果たした角田裕毅を特集。</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260926103000 +0900" stop="20260926110000 +0900" channel="テレ東_jp">
+    <title lang="en">Lbs (Local Business Satellite)</title>
+    <title lang="ja">LBS（ローカルビジネスサテライト）🈑</title>
+    <desc lang="en">A program featuring unique local companies excavated by The Nikkei and five TXN affiliated stations.</desc>
+    <desc lang="ja">日本経済新聞とTXN系列5局が発掘した地方のユニークな企業を取り上げる番組。今回のテーマは「地場産業が新発想でヒット」。新しい昼寝スタイルや常識破りの醤油...</desc>
+  </programme>
   <programme start="20260926103000 +0900" stop="20260926110000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Kokoro Ninjutsu Popo Maru! Chosen Fengun! Kokoro Trial Castle Scroll</title>
     <title lang="ja">こころ忍術　ポポまるっ！　選　風雲！こころ試練城の巻</title>
@@ -755,6 +1093,18 @@
     <category lang="ja">趣味/教育</category>
     <category lang="ja">幼児・小学生</category>
   </programme>
+  <programme start="20260926103000 +0900" stop="20260926110000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Buy now! Great chance to get Live Shopping Limited Time Items! Don't miss out!</title>
+    <title lang="ja">買いドキ！生放送ショッピング 期間限定商品を手にする大チャンス！お見逃しなく！</title>
+    <desc lang="en">Buy Doki! We will introduce the seasonal products that can be made because it is a live broadcast shopping live broadcast!</desc>
+    <desc lang="ja">買いドキ！生放送ショッピング 生放送だからできる旬な商品をご紹介します！期間限定商品を手にする大チャンス！届いたその日からあなたの生活が変わる！お見逃しなく！</desc>
+  </programme>
+  <programme start="20260926103000 +0900" stop="20260926112500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Oh! My God!: He is also in charge of the yakiniku gods, movies, and national treasures that are praised by shopkeepers in the same industry God of Special Makeup</title>
+    <title lang="ja">オー！マイゴッド！🈑同業店主が絶賛する焼肉の神＆映画・国宝も担当！特殊メイクの神</title>
+    <desc lang="en">Phantom Kuroge Wagyu Beef! Erika▼ Toda and Jun Shison, who are run by one-sided grilled gravy and yakiniku shops across the country...</desc>
+    <desc lang="ja">幻の黒毛和牛！片面焼きで肉汁溢れる神タン＆全国の焼肉店がマネする神テール▼戸田恵梨香＆志尊淳をまさかの姿に…特殊メイクの神が普通の女性を北野武に大変身させる神技</desc>
+  </programme>
   <programme start="20260926103300 +0900" stop="20260926110800 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Ariyoshi's Money Discovery Assault! Kaneo-kun surprises! Mirror secrets that are indispensable to life</title>
     <title lang="ja">有吉のお金発見　突撃！カネオくん　驚き！生活に欠かせない「鏡」のヒミツ</title>
@@ -764,6 +1114,12 @@
     <category lang="en">Talk Variety</category>
     <category lang="ja">バラエティ</category>
     <category lang="ja">トークバラエティ</category>
+  </programme>
+  <programme start="20260926110000 +0900" stop="20260926112700 +0900" channel="テレ東_jp">
+    <title lang="en">As Roundtable Confidential AI evolves, what power do children need to develop for the future?</title>
+    <title lang="ja">円卓コンフィデンシャルAIが進化する中、子どもが将来に向けて身につけるべき力とは🈑</title>
+    <desc lang="en">As AI continues to evolve, what power do children need to develop for the future?</desc>
+    <desc lang="ja">AIが進化を続ける中、子どもが将来に向けて身につけるべき力とは？教育や人材育成のポイントや、ゼロイチ人材の育て方、大人たちがどう変わるべきかなど激論を交わ...</desc>
   </programme>
   <programme start="20260926110000 +0900" stop="20260926113000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Science Zero memory enhancement is not a dream! Is Memory the Mysterious Cobb?</title>
@@ -780,6 +1136,18 @@
     <category lang="ja">自然・動物・環境</category>
     <category lang="ja">情報/ワイドショー</category>
     <category lang="ja">健康・医療</category>
+  </programme>
+  <programme start="20260926110000 +0900" stop="20260926113000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Morning Meshi, a selection of masterpieces</title>
+    <title lang="ja">朝メシまで。 傑作選🈑</title>
+    <desc lang="en">We start working at night while we sleep and work until morning... I know that such people "eat breakfast for a day's shime"...</desc>
+    <desc lang="ja">私達が寝ている夜に仕事をスタートして朝まで働く…そんな方々が“1日のシメに食べる朝ご飯”とは⁉知られざる深夜のお仕事を朝メシまで密着するドキュメントバラエティ！</desc>
+  </programme>
+  <programme start="20260926110000 +0900" stop="20260926115000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Mikiti Dining Ken▼ Miyake's disgusting entertainer Roy made a big mistake with alcohol!? Honesty of Mikiti's daughter</title>
+    <title lang="ja">ミキティダイニング▼三宅健の苦手な芸能人ロイお酒で大失態！？ミキティ娘の㊙本音🈑</title>
+    <desc lang="en">Summer Event Unlocked! The face of unfamiliar Ken Miyake's▼ unfamiliar entertainer ROIROM!</desc>
+    <desc lang="ja">夏のイベント未公開解禁！人見知りな三宅健の苦手な芸能人▼ROIROMの素顔連発！ロイ初めてのお酒で何が！？▼庄司ミキティ共演！爆笑レッドカーペット裏側</desc>
   </programme>
   <programme start="20260926110000 +0900" stop="20260926130000 +0900" channel="NHK・BS_jp">
     <title lang="en">MLB 2026 — Shohei Ohtani Scheduled to Appear: The Dodgers vs. The Giants</title>
@@ -801,6 +1169,18 @@
     <category lang="ja">趣味/教育</category>
     <category lang="ja">音楽・美術・工芸</category>
   </programme>
+  <programme start="20260926112500 +0900" stop="20260926113000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Genius!! Company Unpredictable Money Survival! Introducing the movie "Beasts on the Straw"</title>
+    <title lang="ja">天才！！カンパニー🈑予測不能なマネーサバイバル！映画「藁にもすがる獣たち」を紹介</title>
+    <desc lang="en">Weekly close-ups of hot new products and company picks!</desc>
+    <desc lang="ja">話題の気になる新商品や企業のイチオシ商品を毎週クローズアップ！ おぎやはぎがその魅力を楽しくお伝えします！</desc>
+  </programme>
+  <programme start="20260926112700 +0900" stop="20260926113000 +0900" channel="テレ東_jp">
+    <title lang="en">From business reports + taxi arrangements to expense reimbursement! "GO business"</title>
+    <title lang="ja">ビジネスレポート＋ タクシーの手配から経費精算まで！『GO BUSINESS』🈑</title>
+    <desc lang="en">From arranging taxis to managing expenses, make corporate travel more efficient!</desc>
+    <desc lang="ja">タクシーの手配から経費管理まで、企業の移動を効率化！『GO BUSINESS』が請求書払いで精算負担を減らし、利用状況の可視化でガバナンスを支える仕組みに迫る。</desc>
+  </programme>
   <programme start="20260926113000 +0900" stop="20260926114000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Neko no Mijutsukan 78 steps It's hard to use, but it's exciting! Sotto Sass</title>
     <title lang="ja">ねこのめ美じゅつかん　７８歩め　使いにくいけどワクワク！ソットサス</title>
@@ -814,6 +1194,25 @@
     <category lang="ja">音楽・美術・工芸</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">カルチャー・伝統文化</category>
+  </programme>
+  <programme start="20260926113000 +0900" stop="20260926114500 +0900" channel="日本テレビ_jp">
+    <title lang="en">NNN Straight News</title>
+    <title lang="ja">NNN ストレイトニュース🈑</title>
+    <desc lang="en">Straight to the latest news! We will provide you with the information you need in a compact format.</desc>
+    <desc lang="ja">最新のニュースをストレートに！ 必要とされる情報を、コンパクトにまとめてお伝えします。</desc>
+  </programme>
+  <programme start="20260926113000 +0900" stop="20260926121500 +0900" channel="テレ東_jp">
+    <title lang="en">Moya Moya Summers 2: [First landing in Ibaraki and Tsuchiura City!] Renkon &amp; exquisite steak, tongue-in-cheek SP</title>
+    <title lang="ja">モヤモヤさまぁ〜ず2【茨城・土浦市に初上陸！】レンコン＆絶品ステーキに舌鼓SP🈑</title>
+    <desc lang="en">Anna Saito became a gal and shouted "Age ~". Otake is a fierce horse restaurant with more talk than usual.</desc>
+    <desc lang="ja">齋藤アナがギャルになり「アゲ〜」と叫ぶ。大竹は激ウマ洋食店でいつもより口数が多くなる。三村はウソをつく▼カメと井戸。自分らしく情熱を持って前向きに生きる教材とは</desc>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926113000 +0900" stop="20260926133000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Wide! Scramble: Saturday</title>
+    <title lang="ja">ワイド！スクランブル サタデー🈑</title>
+    <desc lang="en">Increased infestation... bears &amp; deer &amp; boars Why go to the countryside? Forecast for the recovery of▽ Inzanuma on the front line of countermeasures... the latest route of Typhoon No. 26▽...</desc>
+    <desc lang="ja">出没増加…クマ＆シカ＆イノシシなぜ人里へ？対策最前線▽印旛沼復旧見通しは…台風26号最新進路▽ネパール土石流1カ月🈀</desc>
   </programme>
   <programme start="20260926114000 +0900" stop="20260926120000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Weekly Sign Language News</title>
@@ -829,6 +1228,24 @@
     <category lang="ja">福祉</category>
     <category lang="ja">手話</category>
   </programme>
+  <programme start="20260926114500 +0900" stop="20260926115500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Kewpie 3-Minute Cooking: Shrimp chili</title>
+    <title lang="ja">キユーピー3分クッキング🈖🈑えびチリ</title>
+    <desc lang="en">For children, use boiled eggs to create a mild taste and serve on top of broccoli, which is easy for children to eat...</desc>
+    <desc lang="ja">子ども用は、溶き卵でとじてマイルドな味わいに仕上げ、子どもが食べやすいブロッコリーの上に盛ります。大人用はレタスの上に盛り、仕上げにラー油をかけて辛みをプラス。</desc>
+  </programme>
+  <programme start="20260926114500 +0900" stop="20260926115900 +0900" channel="TBS_jp">
+    <title lang="en">JNN News</title>
+    <title lang="ja">JNNニュース🈑</title>
+    <desc lang="en">Here's the latest news.</desc>
+    <desc lang="ja">最新のニュースをお伝えします。</desc>
+  </programme>
+  <programme start="20260926115000 +0900" stop="20260926120000 +0900" channel="フジテレビ_jp">
+    <title lang="en">FNN Live News days</title>
+    <title lang="ja">FNN Live News days🈑</title>
+    <desc lang="en">Don't miss out on Live News Days during the weekend.</desc>
+    <desc lang="ja">週末の昼も「ライブニュース デイズ」をお見逃しなく。民放で最大級の全国ネットワークを持つFNNの記者が取材したニュースをお届けします。</desc>
+  </programme>
   <programme start="20260926115400 +0900" stop="20260926120000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Weather Information</title>
     <title lang="ja">気象情報</title>
@@ -836,6 +1253,18 @@
     <category lang="en">The weather</category>
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260926115500 +0900" stop="20260926133000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Saturday live news zigzag</title>
+    <title lang="ja">サタデーLIVE ニュース ジグザグ🈑</title>
+    <desc lang="en">"Saturday, noon. Honest news for you." Navigator Seie Ozawa stands in the viewer's eyes and knows...</desc>
+    <desc lang="ja">「土曜、昼。あなたのために、正直なニュースを。」 ナビゲーター小澤征悦が視聴者の目線に立ち、今知るべきニュース・課題に本音で向き合い、まっすぐ正直に伝えます。</desc>
+  </programme>
+  <programme start="20260926115900 +0900" stop="20260926140000 +0900" channel="TBS_jp">
+    <title lang="en">King's Brunch: Replacement gourmet that you want to eat again Enjoy your trip to Boso in▽ autumn!</title>
+    <title lang="ja">王様のブランチ🈑 もう一度食べたいおかわりグルメ▽秋の房総を遊びつくす満喫旅！</title>
+    <desc lang="en">Brunch family cravings again!</desc>
+    <desc lang="ja">ブランチファミリーがもう一度食べたいおかわりグルメ！ニンニク香る絶品トンテキ＆背徳感あふれるチャーハン▽秋の房総ドライブ旅！贅沢グランピング施設にテンショ...</desc>
   </programme>
   <programme start="20260926120000 +0900" stop="20260926121000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">News</title>
@@ -865,6 +1294,12 @@
     <category lang="ja">バラエティ</category>
     <category lang="ja">音楽バラエティ</category>
   </programme>
+  <programme start="20260926120000 +0900" stop="20260926133000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Bura Saturday: Ariyoshi-kun's Honest Walk: [Take a walk in Jinbo-machi, where long-established famous shops and culture remain]</title>
+    <title lang="ja">ぶらサタ・有吉くんの正直さんぽ【老舗の名店と文化が残る神保町をお散歩】🈑</title>
+    <desc lang="en">A specialty of a long-established Chinese restaurant Chilled Chinese▽ Showa Retro Cafe A Ukulele shop where authentic coffee▽ lovers gather▽ Extinction Mede...</desc>
+    <desc lang="ja">老舗中華料理店の名物冷やし中華▽昭和レトロ喫茶の本格コーヒー▽愛好家が集まるウクレレ店▽絶滅メディアの宝庫でタイムスリップ▽スパイス香る絶品ビリヤニ</desc>
+  </programme>
   <programme start="20260926121000 +0900" stop="20260926121500 +0900" channel="NHK東京・総合_jp">
     <title lang="en">News (Kanto Koshinetsu)</title>
     <title lang="ja">ニュース（関東甲信越）</title>
@@ -886,6 +1321,13 @@
     <category lang="ja">旅バラエティ</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">社会・時事</category>
+  </programme>
+  <programme start="20260926121500 +0900" stop="20260926141500 +0900" channel="テレ東_jp">
+    <title lang="en">I don't know if it's true or not. "Overdone Urban Legend 26 Autumn" Preparation Review SP [Tomorrow night 6:30]</title>
+    <title lang="ja">ウソかホントかわからない“やりすぎ都市伝説26秋”予習復習SP【明日夜6時30分】🈑</title>
+    <desc lang="en">UFOs or planes? Capture the spectacle of shock! Newly developed in the▼ "Shimokitazawa Time Slip Incident"!</desc>
+    <desc lang="ja">UFOか？飛行機か？衝撃の光景を激撮！▼“下北沢タイムスリップ事件”に新展開！Mr.都市伝説・関暁夫がアメリカで「人類覚醒極秘プロジェクト」に迫る！明日夜...</desc>
+    <category lang="en">Special</category>
   </programme>
   <programme start="20260926123000 +0900" stop="20260926130000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Teach me how to nurture my children! Honne of the childcare worker (2) There is a certain Gimon edition throughout the visit to the park</title>
@@ -923,7 +1365,7 @@
     <category lang="ja">その他</category>
   </programme>
   <programme start="20260926124500 +0900" stop="20260926130000 +0900" channel="NHK東京・総合_jp">
-    <title lang="en">Serial TV Novel: Kaze, Kaoru — Final Saturday Digest, Week 26</title>
+    <title lang="en">Serial TV Novel: Kaze, Kaoru — Saturday Digest, Week 26 — Finale</title>
     <title lang="ja">【連続テレビ小説】風、薫る　🈡土曜ダイジェスト版　第２６週</title>
     <desc lang="en">As the nursing exam was approaching, Rin (Ai Kami) and Naomi (Juri Kamisaka) joined the Eifu Nursing Association as special lecturers Imai (Yu Furukawa...</desc>
     <desc lang="ja">看護婦試験が近づく中、りん（見上愛）と直美（上坂樹里）は恵風看護婦会に特別講師として今井（古川雄大）を迎える。そして試験当日、緊張の面持ちのツヤ（東野絢香）とセツ（村上穂乃佳）らをりんと直美は温かく送り出すのだった。そんな中、りんはシマケン（佐野晶哉）より、看護の実用書を書いてはどうかと提案される。後に続く看護婦たちに看護の知識を伝えるため、りんは悩みながらも本づくりに邁進していく。</desc>
@@ -995,6 +1437,31 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">ドキュメンタリー全般</category>
   </programme>
+  <programme start="20260926133000 +0900" stop="20260926133500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Fujinabi!</title>
+    <title lang="ja">フジナビ！</title>
+    <desc lang="en">Secretly navigate to you, the viewer, on Fuji TV's recommended programs.</desc>
+    <desc lang="ja">フジテレビのおすすめ番組をこっそり視聴者のあなたにナビゲート。 見逃せない番組の見どころを紹介しちゃいます！</desc>
+  </programme>
+  <programme start="20260926133000 +0900" stop="20260926143000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Soko Made Itte Iinkai NP: Tokyo vs the region! Is it evil to concentrate at one extreme? Inequality SP!</title>
+    <title lang="ja">そこまで言って委員会NP 東京VS地方！一極集中は悪なのか？格差SP！🈑</title>
+    <desc lang="en">Is it evil to "win alone" in Tokyo? Osaka, Governor Yoshimura &amp; Aichi, Governor Omura &amp; Tokyo, Former Governor Irozoe participate in the▽ "Vice Capital"...</desc>
+    <desc lang="ja">東京の“一人勝ち”は悪なのか⁉大阪・吉村知事＆愛知・大村知事＆東京・舛添元知事が参戦▽「副首都」は本当に必要？▽小池都知事の独走に知事たちの本音は</desc>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926133000 +0900" stop="20260926143500 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Expedition of working Innoch! World Heritage masterpiece selection [Great eruption successfully filmed! Hawaii Island Adventure Two-Person Trip</title>
+    <title lang="ja">有働イノッチの探険！世界遺産 傑作選 【大噴火の撮影成功！ハワイ島探険2人旅】🈑</title>
+    <desc lang="en">From 8:15 on Tuesday, September 29... Yumiko Arizuko x Yasuhiko Inohara, the second part of the Strongest Tag World Heritage Tour!</desc>
+    <desc lang="ja">9月29日火曜よる8時15分から…有働由美子×井ノ原快彦、最強タッグ世界遺産旅・第2弾！新たな舞台は「トルコ・カッパドキア」▼その前に…「ハワイ島旅」をお届け！</desc>
+  </programme>
+  <programme start="20260926133500 +0900" stop="20260926142500 +0900" channel="フジテレビ_jp">
+    <title lang="en">September 29th is the Quiz! Ikemen Paradise</title>
+    <title lang="ja">9月29日よるはクイズ！イケメンパラダイス🈑</title>
+    <desc lang="en">Toraja Matsukura &amp; Yoshizawa Kiterets Sasaki &amp; Bali Sada... one of the most handsome idols &amp; entertainers in the entertainment industry for a paranormal quiz...</desc>
+    <desc lang="ja">トラジャ松倉＆吉澤・キテレツ佐々木・バリ砂田…芸能界屈指のイケメンアイドル＆芸人が超常識クイズに挑む…頭を使ってカッコいいところを魅せるクイズ番組！</desc>
+  </programme>
   <programme start="20260926135000 +0900" stop="20260926145000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Dusta "Brother Toyotomi! Fan Thanksgiving"</title>
     <title lang="ja">土スタ「豊臣兄弟！ファン感謝祭」</title>
@@ -1023,6 +1490,14 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">自然・動物・環境</category>
   </programme>
+  <programme start="20260926140000 +0900" stop="20260926150000 +0900" channel="TBS_jp">
+    <title lang="en">M! LK's Explosion Mission★ Part 2 10/6 (Tue) at 10 o'clock★ Just before broadcast SP</title>
+    <title lang="ja">M!LKの爆裂ミッション★第2弾 10/6（火）よる10時放送★直前SP🈑</title>
+    <desc lang="en">M! LK's first terrestrial GP banded crown special! "I want M! LK to do it, I want you to investigate" to the explosion mission M! L...</desc>
+    <desc lang="ja">M!LKの地上波初 GP帯冠特番！「M!LKにやってほしい・調べてほしい」爆裂ミッションにM!LKが全力で挑む！</desc>
+    <episode-num system="onscreen">2</episode-num>
+    <category lang="en">Special</category>
+  </programme>
   <programme start="20260926140000 +0900" stop="20260926153000 +0900" channel="NHK・BS_jp">
     <title lang="en">Relaxing Solo Hot-Spring Journey: Changing Tohoku Edition</title>
     <title lang="ja">ゆったり温泉ひとり旅　千変万化の東北編</title>
@@ -1032,6 +1507,37 @@
     <category lang="en">History &amp; Journeys</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">歴史・紀行</category>
+  </programme>
+  <programme start="20260926141500 +0900" stop="20260926150000 +0900" channel="テレ東_jp">
+    <title lang="en">Comfortable Shopping Studio Saturday</title>
+    <title lang="ja">快適！ショッピングスタジオ サタデー</title>
+    <desc lang="en">Live broadcast every day from Monday to Friday "Comfortable! Shopping Studio expands to Saturday afternoon!</desc>
+    <desc lang="ja">月曜から金曜まで毎日生放送「快適！ショッピングスタジオ」が土曜日午後に拡大！土曜日午後も自社スタジオより元気に生放送！</desc>
+  </programme>
+  <programme start="20260926142500 +0900" stop="20260926143000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Programme Guide</title>
+    <title lang="ja">ガイド</title>
+  </programme>
+  <programme start="20260926143000 +0900" stop="20260926150000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Buzz TV Roylom Railway ~ There are people waiting for me ~</title>
+    <title lang="ja">BUZZ TV ロイロム鉄道〜私を待ってる人がいる〜🈑</title>
+    <desc lang="en">ROIROM is shaken by the railway for a journey. I was taken by one of the show's navigator theaters to “ROIROM...</desc>
+    <desc lang="ja">ROIROMが鉄道に揺られてぶらり旅に。番組のナビゲーター劇団ひとりに連れられて“ROIROMを待ってる人”を訪ねる。鉄道沿線の魅力的な人やお店もたっぷり紹介。</desc>
+    <category lang="en">Music</category>
+    <category lang="ja">音楽</category>
+  </programme>
+  <programme start="20260926143000 +0900" stop="20260926155500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Miracle experience! Anvil Riverbow [September 30th is... everyone knows the popular★ monkey mushroom explosion SP]</title>
+    <title lang="ja">奇跡体験！アンビリバボー【9月30日は…誰もが知る人気モノ★キセキの爆誕SP】🈑</title>
+    <desc lang="en">Before the broadcast on September 30th... a girl who has been denied "liking" meets a miracle and is filled with▼ tears by a world-class diva!</desc>
+    <desc lang="ja">9月30日放送に先駆けて…「好き」を否定され続けた少女が奇跡の出会いで世界的歌姫に‼▼涙あふれる家族の味‼誰もが一度は口にしたことがある超人気店とは⁉</desc>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926143500 +0900" stop="20260926153000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">If you want to buy from Koji Imada, choose Imada's "Okanto Mail Order!" Masterpiece.</title>
+    <title lang="ja">今田耕司の買うならイマダ「おかんと通販してみた！」 傑作選🈑</title>
+    <desc lang="en">The sleeping pillow supports the neck until morning, the impact price is▽ chased, and the old dirt is dirt from the back of the pipe!</desc>
+    <desc lang="ja">首を支えて朝まで快眠㊙枕が衝撃価格▽追いだき配管の奥から古い汚れがドバドバ！プロ仕様洗剤が半額▽とかすだけ簡単ストレート＆ボリューム感アップのブラシが約5...</desc>
   </programme>
   <programme start="20260926144500 +0900" stop="20260926153000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Earth Dramatic: Adventurer Congo: An Indigenous Village in the Forest</title>
@@ -1089,6 +1595,26 @@
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">定時・総合</category>
   </programme>
+  <programme start="20260926150000 +0900" stop="20260926155000 +0900" channel="TBS_jp">
+    <title lang="en">Ms. ★Okada's Junichi and Robert Akiyama Rampage aired on TV at 8:55 a.m. on Monday,★ October 5</title>
+    <title lang="ja">テレビ×ミセス★10/5（月）よる8時55分放送★岡田准一・ロバート秋山大暴れ🈑</title>
+    <desc lang="en">The next time is at 8:55 am on Monday, October 5th, the daughter of★ TV senior, Moe.</desc>
+    <desc lang="ja">次回10月5日（月）よる8時55分から★テレビ大先輩のモー娘。OG中澤・保田・矢口との巨大すべり台クイズ★藤澤の奇跡をもう一度！</desc>
+  </programme>
+  <programme start="20260926150000 +0900" stop="20260926155500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Hometown Love Story ~ Return to the Land of Love · Yamaguchi Edition ~ From the Local Bureau! Love Reality Show</title>
+    <title lang="ja">同郷ラブストーリー 〜恋する里帰り・山口編〜ローカル局発！恋愛リアリティショー🈑</title>
+    <desc lang="en">A love reality show featuring seven strangers living in Tokyo in their hometown of Yamaguchi Prefecture!</desc>
+    <desc lang="ja">東京で暮らす見ず知らずの男女7人が、故郷・山口県を舞台に繰り広げる恋愛リアリティショー！果たして「同郷の恋」は実るのか…？！</desc>
+  </programme>
+  <programme start="20260926150000 +0900" stop="20260926160000 +0900" channel="テレ東_jp">
+    <title lang="en">Winning Horse Racing: Nakayama</title>
+    <title lang="ja">ウイニング競馬〜中山〜</title>
+    <desc lang="en">Nakayama 11R Autumn Stakes Hanshin 10R Nonobu Special 11R Sirius Stakes (GIII)</desc>
+    <desc lang="ja">中山11R 秋風ステークス 阪神10R 野分特別 11R シリウスステークス（GⅢ）</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
   <programme start="20260926150500 +0900" stop="20260926160000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Grand Sumo: Aki Basho, Day 14</title>
     <title lang="ja">大相撲（２０２６年）秋場所　十四日目</title>
@@ -1096,6 +1622,12 @@
     <category lang="en">Sumo and martial arts</category>
     <category lang="ja">スポーツ</category>
     <category lang="ja">相撲・格闘技</category>
+  </programme>
+  <programme start="20260926153000 +0900" stop="20260926160000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Naniwa Danshi no Gyakuten Danshi: Key TO lit Daisuke Iwasaki &amp; Daiko Sasaki vs. Senpaku Dance &amp; Song</title>
+    <title lang="ja">なにわ男子の逆転男子 KEY TO LIT岩﨑大昇＆佐々木大光と先輩曲ダンス＆ソング対決🈑</title>
+    <desc lang="en">Key TO lit Daisuke Iwasaki &amp; Daiko Sasaki battle with Senpai!</desc>
+    <desc lang="ja">KEY TO LIT岩﨑大昇＆佐々木大光と先輩曲バトル！Snow Man、嵐、SMAPらの名曲を正確に踊って歌え！絶対に間違えられないガチ対決！</desc>
   </programme>
   <programme start="20260926153000 +0900" stop="20260926160000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Yamato nunnery Shojin diary "Long moon and moon waiting night is the edge of the rice"</title>
@@ -1129,6 +1661,36 @@
     <category lang="ja">趣味/教育</category>
     <category lang="ja">音楽・美術・工芸</category>
   </programme>
+  <programme start="20260926155000 +0900" stop="20260926185900 +0900" channel="TBS_jp">
+    <title lang="en">Asian Games: Follow the men's group to Asian domination! Table Tennis Singles and Doubles Quarterfinals</title>
+    <title lang="ja">アジア大会 男子団体に続きアジア制覇へ！卓球シングルス・ダブルス準々決勝🈑🈓</title>
+    <desc lang="en">The first golden men's group in 60 years! Table Tennis Nippon, Singles and Doubles Quarterfinals to the pinnacle of Asia!</desc>
+    <desc lang="ja">60年ぶり金の男子団体に続け！卓球ニッポン、シングルス・ダブルス準々決勝からアジアの頂点へ！智和＆美和の張本兄妹らが出陣！</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260926155500 +0900" stop="20260926160000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Programme Guide</title>
+    <title lang="ja">ガイド</title>
+  </programme>
+  <programme start="20260926155500 +0900" stop="20260926165500 +0900" channel="日本テレビ_jp">
+    <title lang="en">3 hours of laughter at 7 o'clock tonight!▼ M! LK masterpiece selection! Shiozaki darts! Sono &amp; Yoshida are the ekiden of the road</title>
+    <title lang="ja">今夜7時は笑コラ豪華3時間！▼M!LK傑作選！塩﨑ダーツ！曽野＆吉田は道の駅伝🈑</title>
+    <desc lang="en">M! LK hilarious VTR again! Shiozaki plays all summer in Nagano Prefecture!</desc>
+    <desc lang="ja">M!LK爆笑VTR再び！塩﨑が長野県で夏を遊びつくす！子どもたちと一緒に「滅」▼曽野＆吉田は北陸の道の駅1位当て▼今夜は大泉洋！山下智久！伊藤沙莉！増田貴久</desc>
+  </programme>
+  <programme start="20260926160000 +0900" stop="20260926163000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Bumblebee star</title>
+    <title lang="ja">バチバチSTAR🈑</title>
+    <desc lang="en">Challenged by key TO lit! Running Hiking King</desc>
+    <desc lang="ja">KEY TO LITが挑戦！駆け引キング</desc>
+  </programme>
+  <programme start="20260926160000 +0900" stop="20260926163000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Aiba ◎× Club: The season of athletic meets and sports is here! What is the technique of successfully photographing a moving child!?</title>
+    <title lang="ja">相葉◎×部 運動会・スポーツの季節到来！動く子どもを上手に撮る㊙テクとは！？🈑</title>
+    <desc lang="en">A professional photographer who also shoots the Olympics will not miss a decisive moment. Slide the shooting button on his▼ smartphone...</desc>
+    <desc lang="ja">オリンピックも撮影するプロカメラマンが決定的瞬間を逃さない㊙テク▼スマホの撮影ボタンをスライドで連写！ほか裏技も▼カメラのスローシャッターで躍動感を出す！</desc>
+  </programme>
   <programme start="20260926160000 +0900" stop="20260926170000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">The ROU (old) legendary youth program YOUU is getting old and coming back! Old Honne with Kenmu Kiri</title>
     <title lang="ja">ＲＯＵ（老）伝説の若者番組ＹＯＵが老いて復活！木梨憲武と語る老いのホンネ</title>
@@ -1144,6 +1706,12 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">インタビュー・討論</category>
     <category lang="ja">社会・時事</category>
+  </programme>
+  <programme start="20260926160000 +0900" stop="20260926171500 +0900" channel="テレ東_jp">
+    <title lang="en">West. Midway &amp; Sashitabi in Shigeoka!!</title>
+    <title lang="ja">WEST．中間＆重岡のサシタビ！！🈑</title>
+    <desc lang="en">Intermediate Junta and Daiki Shigeoka enjoy Hakone, Atami, and Izu with sashi!!</desc>
+    <desc lang="ja">中間淳太と重岡大毅がサシで箱根・熱海・伊豆を大満喫！！WEST．のメンバー2人が本当にやりたいことを詰め込んだプライベートさながら旅企画第4弾！</desc>
   </programme>
   <programme start="20260926160000 +0900" stop="20260926180000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Grand Sumo: Aki Basho, Day 14 — The Championship Race</title>
@@ -1194,6 +1762,27 @@
     <category lang="ja">ドラマ</category>
     <category lang="ja">海外ドラマ</category>
   </programme>
+  <programme start="20260926163000 +0900" stop="20260926170000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Crayon Shin-chan: [Wild laundry]</title>
+    <title lang="ja">クレヨンしんちゃん 【ワイルドお洗濯だゾ】🈀🈓🈖🈑</title>
+    <desc lang="en">If the washing machine breaks in the Nohara family... amazing hand washing that can only be done with sashimi!! In addition, the red scorpion team mara...</desc>
+    <desc lang="ja">野原家で洗濯機が壊れたら…みさえとしんのすけにしかできない驚愕の手洗い!!さらに紅さそり隊がマラソンをしたら感動の結末に!?防衛隊はアイスを賭けてムダに高...</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
+  <programme start="20260926163000 +0900" stop="20260926170000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Junk Sports</title>
+    <title lang="ja">ジャンクSPORTS🈑</title>
+    <desc lang="en">From a laundry clerk with a monthly salary of 20,000 to a major! Mac Suzuki's rise legend Takashi▽ Saito's reversal drama The crispy▽ potato...</desc>
+    <desc lang="ja">月給2万の洗濯係からメジャーへ！マック鈴木の成り上がり伝説▽齋藤隆の大逆転劇▽ポテトのカリカリ過酷生活▽侍ジャパン新監督・井口資仁の覚悟</desc>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926165500 +0900" stop="20260926170000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Zeke!</title>
+    <title lang="ja">ゼッケン！🈑</title>
+    <desc lang="en">Gen Z cast members, sensitive to changing times, charge companies to report!</desc>
+    <desc lang="ja">時代の変化に敏感なZ世代の出演者が企業を突撃レポート！現場の「生の声」を鮮度良く届ける経済バラエティーです！</desc>
+  </programme>
   <programme start="20260926170000 +0900" stop="20260926172400 +0900" channel="NHK東京・教育_jp">
     <title lang="en">With Mother: Saturday</title>
     <title lang="ja">おかあさんといっしょ　土曜日</title>
@@ -1211,6 +1800,40 @@
     <category lang="ja">童謡・キッズ</category>
     <category lang="ja">バラエティ</category>
     <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260926170000 +0900" stop="20260926173000 +0900" channel="日本テレビ_jp">
+    <title lang="en">news every.Saturday</title>
+    <title lang="ja">news every．サタデー🈑</title>
+    <desc lang="en">Here's an in-depth look at the latest Saturday news and weather information.</desc>
+    <desc lang="ja">土曜日の最新ニュースと気象情報を詳しく分かりやすくお伝えします。</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260926170000 +0900" stop="20260926173000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Doraemon: [Pocket signal] [Transformer printer]</title>
+    <title lang="ja">ドラえもん 【ポケット信号機】【変身レプリンター】🈓🈑</title>
+    <desc lang="en">The strongest red light!? [Pocket Traffic Light] Free sample of Mirai Department Store! [Henshin reprinter]</desc>
+    <desc lang="ja">最強の赤信号！？【ポケット信号機】未来デパートの試供品！【変身レプリンター】</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
+  <programme start="20260926170000 +0900" stop="20260926180000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Live News It!</title>
+    <title lang="ja">Live News イット！🈑</title>
+    <desc lang="en">Here's a snapshot of the news and sports that happened over the weekend. Get accurate content faster than anywhere else, and dig deeper into hot topics...</desc>
+    <desc lang="ja">週末に起きたニュース＆スポーツを一挙紹介。どこよりも早く正確な内容を、そして注目の話題の深掘りも！社会を映し未来を探るニュース番組をお届けします</desc>
+  </programme>
+  <programme start="20260926171500 +0900" stop="20260926172000 +0900" channel="テレ東_jp">
+    <title lang="en">Monoism</title>
+    <title lang="ja">モノイズム🈑</title>
+    <desc lang="en">Interviews with developers and researchers at each company, such as features of new products that cannot be explained in catalogs and commercials, excellent...</desc>
+    <desc lang="ja">カタログやCMでは語り尽くせない、新製品の特徴などを各企業の開発者や研究者のインタビュー、秀逸な映像を駆使してご紹介します。</desc>
+  </programme>
+  <programme start="20260926172000 +0900" stop="20260926173000 +0900" channel="テレ東_jp">
+    <title lang="en">TXN News</title>
+    <title lang="ja">TXNニュース🈑🈐</title>
+    <desc lang="en">Compactly communicates the latest news from Japan and the world.</desc>
+    <desc lang="ja">日本や世界の最新ニュースをコンパクトにお伝えする。</desc>
   </programme>
   <programme start="20260926172400 +0900" stop="20260926172500 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Aokiro Minna no For Every Child Katsuya Hashimoto</title>
@@ -1234,8 +1857,30 @@
     <category lang="ja">海外アニメ</category>
     <category lang="ja">その他</category>
   </programme>
+  <programme start="20260926173000 +0900" stop="20260926180000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Ann Super J-Channel</title>
+    <title lang="ja">ANNスーパーJチャンネル🈑</title>
+    <desc lang="en">Heavy rain damage... recovering Kanto rain againほか</desc>
+    <desc lang="ja">大雨被害…復旧進める関東また雨🈀</desc>
+  </programme>
+  <programme start="20260926173000 +0900" stop="20260926180000 +0900" channel="テレ東_jp">
+    <title lang="en">Beat the popular fishing spot! Tozai Tenyatachiwa — New</title>
+    <title lang="ja">THEフィッシング 人気のニ大スポットを攻略！東西テンヤタチウオ🈑🈕🈖</title>
+    <desc lang="en">As an authentic fishing program, we are the first to introduce the latest fishing methods and seasonal fishing! This time, the stage is Osaka Bay and Tokyo Bay!</desc>
+    <desc lang="ja">本格的釣り番組として、最新の釣り方や、旬の釣りをいち早く紹介！今回の舞台は大阪湾・東京湾！</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260926173000 +0900" stop="20260926180000 +0900" channel="日本テレビ_jp">
+    <title lang="en">The Adopted Daughter of a Book-loving Shimokujo Lord Chapter 23 "Charlotte's Baptism"</title>
+    <title lang="ja">本好きの下剋上 領主の養女 第二十三章「シャルロッテの洗礼式」🈑🈓</title>
+    <desc lang="en">Charlotte has been kidnapped. Rozemyne bravely confronts the culprit.</desc>
+    <desc lang="ja">シャルロッテが誘拐された。勇ましく犯人に立ち向かうローゼマイン。しかしローゼマインも襲撃者に捕われ、無理やり毒を飲まされる。ローゼマイン、絶体絶命のピンチ！</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
   <programme start="20260926174500 +0900" stop="20260926175500 +0900" channel="NHK東京・教育_jp">
-    <title lang="en">Mysterious Candy Store Zenitendo: Finale — "Tsugumi's wish"</title>
+    <title lang="en">Mysterious Candy Store Zenitendo: "Tsugumi's wish" — Finale</title>
     <title lang="ja">アニメ　ふしぎ駄菓子屋　銭天堂　🈡「つぐみの願い」</title>
     <desc lang="en">According to Professor Rokujo's plan, Zenitendo is a success (...</desc>
     <desc lang="ja">六条教授（ろくじょうきょうじゅ）の計画通り、銭天堂（ぜにてんどう）に忍（しの）びこむことに成功（せいこう）したつぐみ。金色の招（まね）き猫（ねこ）たちの信頼（しんらい）も得（え）て、地下にある銭天堂の心臓（しんぞう）部、「祝福（しゅくふく）の招き猫」を破壊（はかい）する計画を実行しようとする。ところが、そこへ紅子（べにこ）が立ち塞（ふさ）がった。はたして、つぐみの本当のねらい　とは……？</desc>
@@ -1270,6 +1915,35 @@
     <category lang="en">On-time/Overall</category>
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260926180000 +0900" stop="20260926183000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Music fair [Masayuki Suzuki featured! Tsuyoshi Dohmoto/Chemistry Luxury guests too]</title>
+    <title lang="ja">MUSIC FAIR【鈴木雅之古希特集！堂本剛・ケミストリー豪華ゲストも】🈑🈖</title>
+    <desc lang="en">Masayuki Suzuki Furuki Featured! Seimi Suzuki and "Lonely Chaplin", "No, not like Tsuyoshi Dohon", Kemi...</desc>
+    <desc lang="ja">鈴木雅之古希特集！鈴木聖美と「ロンリー・チャップリン」を、堂本剛と「違う、そうじゃない」を、ケミと「ガラス越しに消えた夏」をコラボ！鈴木愛理とのシングル曲も</desc>
+    <category lang="en">Music</category>
+    <category lang="ja">音楽</category>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926180000 +0900" stop="20260926183000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Jinsei no Rakuen: Tanada no Sato Tenku no Kominka Inn Nagasaki Hasamicho</title>
+    <title lang="ja">人生の楽園 棚田の里 天空の古民家宿 〜長崎・波佐見町🈑</title>
+    <desc lang="en">Takuma Kawachi and his friends fell in love with Oniki Rice Terrace, which was selected as one of the "Top 100 Rice Terraces in Japan", and started an old house lodging on a scenic hill...</desc>
+    <desc lang="ja">「日本の棚田百選」に選ばれる「鬼木棚田」に惚れ込み、絶景の高台で古民家宿を始めた河内拓馬さんと友紀乃さん。“天空のウッドデッキ”では棚田を眺めつつ食事を楽しめる</desc>
+  </programme>
+  <programme start="20260926180000 +0900" stop="20260926183000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Detective Conan: "Senju Raku in a Silky Color (First Day)"</title>
+    <title lang="ja">名探偵コナン「茜色の千秋楽（初日）」🈑🈓</title>
+    <desc lang="en">After seeing a stage performance modeled after Kogoro and Heiji, Heiji decided to convey his thoughts to Kazuha at Naniwa Harukas.</desc>
+    <desc lang="ja">小五郎と平次をモデルにした舞台の観劇後、平次は浪速ハルカスで和葉に想いを伝えようと決意する。しかし、“傀儡の悪魔”の呪いをなぞるかのように連続殺人の幕が上がる。</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
+  <programme start="20260926180000 +0900" stop="20260926183000 +0900" channel="テレ東_jp">
+    <title lang="en">Unknown Gulliver ~ Excellent Company File ~ — New</title>
+    <title lang="ja">知られざるガリバー〜エクセレントカンパニーファイル〜🈑🈕🈖</title>
+    <desc lang="en">Comprehensive manufacturer of partitions "Komatsu Wall Industry". Unique technology to lightly move huge walls of several tons of manpower and high sound insulation...</desc>
+    <desc lang="ja">間仕切の総合メーカー「小松ウオール工業」。数トンの巨大壁を人力で軽々動かす独自技術と高い遮音性、高層ビルを仕切る開発など、空間の可能性を広げるモノづくりに迫る！</desc>
   </programme>
   <programme start="20260926180000 +0900" stop="20260926193000 +0900" channel="NHK・BS_jp">
     <title lang="en">Super Adhesive! The Wonderful (Wow) King of the World Australian Crocodile Hunter</title>
@@ -1314,7 +1988,7 @@
     <category lang="ja">幼児・小学生</category>
   </programme>
   <programme start="20260926182500 +0900" stop="20260926185000 +0900" channel="NHK東京・教育_jp">
-    <title lang="en">Welcome to Demon School! Iruma-kun, Season 4: Finale — (24) "The most luxurious hanamuke"</title>
+    <title lang="en">Welcome to Demon School! Iruma-kun, Season 4: (24) "The most luxurious hanamuke" — Finale</title>
     <title lang="ja">アニメ　魔入りました！入間くん４　🈡（２４）「一番豪華な餞（はなむけ）を」</title>
     <desc lang="en">For the problem child (Abnormal) class, each teacher and family will give a gift.</desc>
     <desc lang="ja">問題児（アブノーマル）クラスに向けて、それぞれの師匠や家族からプレゼントが贈られる。１年生で全員がランク４（ダレス）になるという偉業を成し遂げたご褒美だ！しかし、これらは単純なプレゼントではなく、次期魔王を決める“ＴＳ（トリックスター）計画”の思惑もはらんでいて…。激動の１年が終わり、問題児クラスはついに２年生に！</desc>
@@ -1328,6 +2002,32 @@
     <category lang="ja">趣味/教育</category>
     <category lang="ja">中学生・高校生</category>
     <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260926183000 +0900" stop="20260926190000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Manten Aozora Restaurant: Rare domestic black sesame! Nogizaka was also surprised by the exquisite sesame oil Ajillo</title>
+    <title lang="ja">満天☆青空レストラン 希少な国産黒ごま！乃木坂も絶品ごま油アヒージョに驚き🈖🈑</title>
+    <desc lang="en">The finest ingredients found in Komagane City, Nagano Prefecture are "black sesame", which is extremely rare and explodes in fragrance, with a self-sufficiency rate of only 0.1%!</desc>
+    <desc lang="ja">長野県駒ヶ根市で見つけた極上食材は、自給率わずか0.1％と超希少で香ばしさが爆発する「黒ごま」！濃厚ごま油、そしてそのアヒージョに乃木坂驚き！</desc>
+  </programme>
+  <programme start="20260926183000 +0900" stop="20260926205500 +0900" channel="テレ東_jp">
+    <title lang="en">Saturday Golden Asako and Rino's 50,000 yen trip to Fukushima and Aizu! Large release SP</title>
+    <title lang="ja">土曜ゴールデン あさこ・梨乃の5万円旅 福島・会津の旅完全版！大放出SP🈑🈓</title>
+    <desc lang="en">I love sake! Rino Katase &amp; Asako Ito are the name of▽ Ouchi-juku in the morning of▽ Fukushima Aizu ~ Kitakata ~ stunning scenery Goshiki-numa...</desc>
+    <desc lang="ja">お酒大好き！かたせ梨乃＆いとうあさこが福島会津〜喜多方〜絶景の五色沼へ▽感動の朝ラー▽大内宿の名物そば▽馬刺し＆郷土料理でグビ▽朝ドラ俳優・富田望生参戦の珍道中</desc>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926183000 +0900" stop="20260926210000 +0900" channel="フジテレビ_jp">
+    <title lang="en">The New Key: /M! LK Participate in the Shiozaki War! Do your best to run the famous song quiz Tsuchihachi-sensei! Legendary Idol Song SP!</title>
+    <title lang="ja">新しいカギ／M！LK塩﨑参戦！全力疾走名曲クイズ土八先生！伝説アイドル曲SP！🈑</title>
+    <desc lang="en">M! LK Taiji Shiozaki Emergency Participation! Masterpiece Quiz Tsuchihachisensei! How many of the▼ Showa and Heisei legendary idol songs can you answer?</desc>
+    <desc lang="ja">M！LK塩﨑太智緊急参戦！名曲クイズ土八先生！▼昭和・平成の伝説アイドルソングいくつ答えられる？▼懐かしの超貴重映像続々▼生徒700人と全力疾走対決！</desc>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926183000 +0900" stop="20260926220000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Celebrity Rating Check: [World's best cocktail and real lion dance, Hamada curry waves]</title>
+    <title lang="ja">芸能人格付けチェック 【世界一カクテルに本物の獅子舞、浜田カレーで大波乱】🈓🈑</title>
+    <desc lang="en">The world's best cocktail and 300-year-old traditional lion dance! Stradivarius is also available for a total of 5.8 billion yen!</desc>
+    <desc lang="ja">世界一カクテルに、300年の伝統獅子舞！総額58億円ストラディヴァリウスも登場！天童よしみ、キムラ緑子がまさかの涙…浜田シェフのカレーで芸能人が次々と消え...</desc>
   </programme>
   <programme start="20260926183400 +0900" stop="20260926183600 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Taiga Drama: Toyotomi Brothers! 2-minute Digest (36)</title>
@@ -1402,6 +2102,14 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">カルチャー・伝統文化</category>
   </programme>
+  <programme start="20260926185900 +0900" stop="20260926190000 +0900" channel="TBS_jp">
+    <title lang="en">Asian Games: Aichi/Nagoya</title>
+    <title lang="ja">アジア大会 愛知・名古屋🈑🈓</title>
+    <desc lang="en">Japan's first Asian Games in 32 years "Aichi Nagoya" Japan's top athletes received a big cheer from the local...</desc>
+    <desc lang="ja">32年ぶりの日本開催「アジア大会 愛知・名古屋」 日本のトップアスリートたちが地元の大声援を受け、アジア48億人の頂点へ！</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
   <programme start="20260926190000 +0900" stop="20260926193000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">NHK News 7</title>
     <title lang="ja">ＮＨＫニュース７</title>
@@ -1431,6 +2139,21 @@
     <category lang="ja">ドキュメンタリー全般</category>
     <category lang="ja">歴史・紀行</category>
     <category lang="ja">宇宙・科学・医学</category>
+  </programme>
+  <programme start="20260926190000 +0900" stop="20260926215400 +0900" channel="日本テレビ_jp">
+    <title lang="en">Waratte Koraete!: 3 Hour SP▼ Oizumi Yosemite Battle! Ito Sari Darts Journey! Takahisa Masuda's Roadside Ekid</title>
+    <title lang="ja">笑ってコラえて3時間SP▼大泉洋参戦！伊藤沙莉ダーツ旅！増田貴久が道の駅伝🈑🈓</title>
+    <desc lang="en">Hiroshi Oizumi talks about the filming of the drama "Our Hakone Ekiden" with Tomohisa Yamashita on the back!</desc>
+    <desc lang="ja">大泉洋が語るドラマ「俺たちの箱根駅伝」撮影裏側に山下智久感服！伊藤沙莉は栃木で激ウマ梨＆鶏ササミに大興奮！NEWS増田は岐阜で飛騨牛＆飛騨もも＆巨大なめこに歓喜</desc>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260926190000 +0900" stop="20260926223000 +0900" channel="TBS_jp">
+    <title lang="en">Asian Games: ★To the next World Cup! Soccer Men vs North Korea★ Losing End Finals T + More</title>
+    <title lang="ja">アジア大会★次のW杯へ！サッカー男子VS北朝鮮★負ければ終わりの決勝T ほか🈑🈓</title>
+    <desc lang="en">First gold medal in 16 years! The qualifying all-win Oiwa Japan quarter-final is a fate vs the enthusiasm of North Korea's▼ world athletics again!</desc>
+    <desc lang="ja">16年ぶり金メダルヘ！予選全勝・大岩JAPAN 準々決勝は因縁のvs北朝鮮▼世界陸上の熱狂再び！400m決勝 中島ジョセフ アジア制覇へ！110mH 村竹...</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
   </programme>
   <programme start="20260926193000 +0900" stop="20260926200700 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Buratamori: Nara Asuka World Heritage Site▼ Why is Asuka the foundation of Japan?</title>
@@ -1544,8 +2267,14 @@
     <category lang="ja">天気</category>
     <category lang="ja">ローカル・地域</category>
   </programme>
+  <programme start="20260926205500 +0900" stop="20260926210000 +0900" channel="テレ東_jp">
+    <title lang="en">Tell them to live</title>
+    <title lang="ja">生きるを伝える🈑</title>
+    <desc lang="en">Every time, we introduce the lives of those who have overcome adversity and worked hard, or those who have survived, human beings...</desc>
+    <desc lang="ja">毎回、逆境を乗り越えて一生懸命生きている人、あるいは生き抜いた人の生きざまを紹介する、ヒューマンドキュメンタリー番組です。</desc>
+  </programme>
   <programme start="20260926210000 +0900" stop="20260926213000 +0900" channel="NHK東京・教育_jp">
-    <title lang="en">Until my days become words, 終 September compilation! Kiyohara Goye Abe Mao</title>
+    <title lang="en">Until my days become words, September compilation! Kiyohara Goye Abe Mao — Finale</title>
     <title lang="ja">わたしの日々が、言葉になるまで　🈡　９月総集編！　清原果耶　阿部真央　</title>
     <desc lang="en">Feelings and events born in the rush of each day. In the program, stop for a moment on those days and color tomorrow...</desc>
     <desc lang="ja">慌ただしい毎日の中で生まれる気持ちや出来事。番組では、そんな日々にちょっと立ち止まり、明日を彩る言葉を探していく。今回は，９月放送回のいいとこどり総集編。恋とは？愛とは？恋愛小説の名手、島本、ラブソングならこの人、阿部、二人の深ーい恋愛哲学に清原はウットリ！友人の彼氏の写真が微妙だった時の清原の返しの言葉にひとりも桐山も大爆笑。さらに、許してもらえる謝罪の極意も。面白トークてんこもり、必見です！</desc>
@@ -1554,6 +2283,12 @@
     <category lang="ja">バラエティ</category>
     <category lang="ja">トークバラエティ</category>
     <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260926210000 +0900" stop="20260926215400 +0900" channel="テレ東_jp">
+    <title lang="en">Admatic Heaven: [Asakusa/Aibabashi] "Cooking goods" are available in a☆ world-class specialty store district</title>
+    <title lang="ja">出没！アド街ック天国【浅草・合羽橋】㊙“調理グッズ”勢揃い☆世界に誇る専門店街🈑</title>
+    <desc lang="en">A cash lottery totaling 6 million yen will be held at the Ant♪ Tool Festival [Asakusa · Kappabashi] for a great deal!</desc>
+    <desc lang="ja">総額600万円の現金抽選会アリ♪道具まつり開催【浅草・合羽橋】お得に攻略！いまや世界中の観光客に大人気のお買い物ストリートに浅草っ子が愛する味＆美味しい老舗が！</desc>
   </programme>
   <programme start="20260926210000 +0900" stop="20260926220000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Saturday Watch 9: The route of ▽Typhoon No. 26 is once again on the autumn rain front line, and the rain is also▽ debris flowing for a month.</title>
@@ -1575,6 +2310,14 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">歴史・紀行</category>
   </programme>
+  <programme start="20260926210000 +0900" stop="20260926233000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Saturday Premium Movie "Negotiator Masayoshi Mashita"◆ Release Celebration! Broadcast the entire series!</title>
+    <title lang="ja">土曜プレミアム・映画「交渉人 真下正義」◆最新作公開記念！シリーズ一挙放送！🈑🈖</title>
+    <desc lang="en">The big hit of the movie "Dancing Big Lines N.E.W." is now on screen! Broadcast the entire series!</desc>
+    <desc lang="ja">映画「踊る大捜査線 N．E．W．」大ヒット上映中！シリーズ一挙放送！地下鉄の最新鋭実験車両が乗っ取られた！？真下は姿なき犯人と緊迫した頭脳戦に挑む！</desc>
+    <category lang="en">Film</category>
+    <category lang="ja">映画</category>
+  </programme>
   <programme start="20260926213000 +0900" stop="20260926220000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Isn't Transcendental Happiness Galmind an agee? Until I find out who I really am</title>
     <title lang="ja">超越ハピネス　ギャルマインドってアゲじゃない？本当の自分を見つけるまで</title>
@@ -1584,6 +2327,28 @@
     <category lang="en">Talk Variety</category>
     <category lang="ja">バラエティ</category>
     <category lang="ja">トークバラエティ</category>
+  </programme>
+  <programme start="20260926215400 +0900" stop="20260926215700 +0900" channel="日本テレビ_jp">
+    <title lang="en">Shakareki! ~ Social History Research Department ~</title>
+    <title lang="ja">シャカレキ！〜社会歴史研究部〜🈑</title>
+    <desc lang="en">"What○ was done on the○ day and○ month of the year ago" is introduced in an easy-to-understand way with videos and photos from that time!</desc>
+    <desc lang="ja">「○年前の○月○日にあった出来ごと」を当時の映像や写真で解りやすく紹介！</desc>
+    <category lang="en">Drama</category>
+    <category lang="ja">ドラマ</category>
+  </programme>
+  <programme start="20260926215400 +0900" stop="20260926220000 +0900" channel="テレ東_jp">
+    <title lang="en">Saturday Meizu ▽Nakamura Toru</title>
+    <title lang="ja">土曜名馬座 ▽仲村トオル🈑</title>
+    <desc lang="en">◆The night of the 461st "Remnants of the White Dragon", the activities of the famous horses that will be remembered by the people, and the episodes at that time...</desc>
+    <desc lang="ja">◆第四百六十一夜 「白龍の残光」 人々の記憶に残る、名馬たちの活躍を、当時のエピソードなどを交えて紹介する。 俳優・仲村トオルが語る名馬物語…</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260926215700 +0900" stop="20260926220000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Drops of passion</title>
+    <title lang="ja">情熱のしずく🈑</title>
+    <desc lang="en">Shining a spotlight on “One Invention That Changed Lives” and staring behind the scenes of the passion and hard work of the developers, the two-minute...</desc>
+    <desc lang="ja">「暮らしを変えた一つの発明品」に光を当て、開発者たちの情熱と努力の舞台裏を見つめていく、2分間のミニドキュメンタリー</desc>
   </programme>
   <programme start="20260926220000 +0900" stop="20260926223000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Now you call - Cheanning Takeyama listens on the phone - (23)</title>
@@ -1596,6 +2361,12 @@
     <category lang="ja">福祉</category>
     <category lang="ja">その他</category>
   </programme>
+  <programme start="20260926220000 +0900" stop="20260926223000 +0900" channel="テレ東_jp">
+    <title lang="en">New Masters of Beauty: [Brush on mouth] Tomihiro Hoshino's beautiful world of poetry and painting</title>
+    <title lang="ja">新美の巨人たち 【口に絵筆をくわえて】描いた 星野富弘・美しき「詩画」の世界🈑</title>
+    <desc lang="en">[Brush on mouth] The world of Tomihiro Hoshino depicted. There is a vigorous flower, accompanied by loving words, "poetry and painting...</desc>
+    <desc lang="ja">【口に絵筆をくわえて】描いた星野富弘の世界。そこには健気に咲く花に、愛に溢れた言葉を添えた「詩画」の数々が。そのひと筆、ひと色に心打たれる。</desc>
+  </programme>
   <programme start="20260926220000 +0900" stop="20260926224500 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Hospital Radio St. Marianna Medical University Hospital Edition▼ Sandwichman</title>
     <title lang="ja">病院ラジオ　聖マリアンナ医科大学病院編▼サンドウィッチマン</title>
@@ -1605,6 +2376,26 @@
     <category lang="en">General Documentary</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">ドキュメンタリー全般</category>
+  </programme>
+  <programme start="20260926220000 +0900" stop="20260926225200 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Saturday Station</title>
+    <title lang="ja">サタデーステーション🈑</title>
+    <desc lang="en">Cherish the "live feeling" that can be done because it is a live broadcast, delve into the "featured news" that can be done because it is a weekend, and "move on the weekend...</desc>
+    <desc lang="ja">生放送だからできる“LIVE感”を大切に、週末だからできる“注目ニュース”の掘り下げと“週末も動いているニュース”を速報で高島彩キャスターが分かりやすくお...</desc>
+  </programme>
+  <programme start="20260926220000 +0900" stop="20260926225400 +0900" channel="日本テレビ_jp">
+    <title lang="en">Tracking Coverage news log</title>
+    <title lang="ja">追跡取材 news LOG🈑</title>
+    <desc lang="en">The trail of reporters following Mayuko Wakuda. On Saturday nights, we'll be getting to the bottom of some high-profile news and buzz.</desc>
+    <desc lang="ja">和久田麻由子とたどる、記者たちの取材の軌跡。土曜日の夜、注目のニュースや話題の真相に迫る「追跡ドキュメンタリー型」ニュース番組です。</desc>
+  </programme>
+  <programme start="20260926223000 +0900" stop="20260926225500 +0900" channel="テレ東_jp">
+    <title lang="en">▼The return of Shohei Otani to▼ victory with the sports rear-view live "Otani Camera" Pro Baseball</title>
+    <title lang="ja">スポーツリアライブ▼「大谷カメラ」で見る大谷翔平の復帰戦▼優勝争い大詰めプロ野球</title>
+    <desc lang="en">Shohei Otani is back! Thoroughly analyze Otani on the ground and bench with the unique "Otani Camera"▼ Pro Baseball Season Perfect...</desc>
+    <desc lang="ja">大谷翔平が復帰！独自の「大谷カメラ」でグラウンド＆ベンチでの大谷を徹底分析▼プロ野球シーズン佳境！阪神と巨人大混戦の優勝争い</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
   </programme>
   <programme start="20260926223000 +0900" stop="20260926230000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Mr. Okonomi is doing well. Are you studying? Do you have any troubleshooting? How to Deal with Generation AI</title>
@@ -1635,6 +2426,12 @@
     <category lang="ja">スポーツ</category>
     <category lang="ja">野球</category>
     <category lang="ja">スポーツニュース</category>
+  </programme>
+  <programme start="20260926223000 +0900" stop="20260926235400 +0900" channel="TBS_jp">
+    <title lang="en">Information 7 Days Newscaster: Bulletin Mikizane Tanaka 1500m Final!!</title>
+    <title lang="ja">情報7daysニュースキャスター🈑 速報 田中希実1500メートル決勝!!</title>
+    <desc lang="en">eleven-year-old Yuki Kurihara to compete in the eSports "Puyo Puyo" finals, playing hawk in the Asian Games? Raining again in▼ Chiba?</desc>
+    <desc lang="ja">eスポーツ「ぷよぷよ」決勝挑む11歳 栗原悠輝 アジア大会で鷹活躍?▼千葉再び雨？台風26号は▼XGロッキン初出場の舞台裏に密着!!▼B’z稲葉浩志 地元...</desc>
   </programme>
   <programme start="20260926224500 +0900" stop="20260926224700 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Serial TV Novel: Blossom — Preview</title>
@@ -1696,6 +2493,28 @@
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">その他</category>
   </programme>
+  <programme start="20260926225200 +0900" stop="20260926225600 +0900" channel="テレビ朝日_jp">
+    <title lang="en">My Happy Hour</title>
+    <title lang="ja">私の幸福時間🈑</title>
+    <desc lang="en">Where does your happiness come from? Why? Time with friends and family, time with history and culture, taste...</desc>
+    <desc lang="ja">あなたの「しあわせ」は、どこから？なにから？友人や家族と過ごす時間、歴史や文化に触れ合う時間、趣味に没頭する時間…誰もがもっている“大切なひととき”をご紹介。</desc>
+  </programme>
+  <programme start="20260926225400 +0900" stop="20260926230000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Well Mi and Nesuko. Yuka Kageyama and Yoshizumi perform together for the</title>
+    <title lang="ja">ウェル美とネス子。🈑影山優佳＆吉住初共演</title>
+    <desc lang="en">Yuka Kageyama &amp; Yoshizumi's One Situation Short Drama Packed with Wellness Information</desc>
+    <desc lang="ja">影山優佳＆吉住が繰り広げるウェルネス情報満載のワンシチュエーションショートドラマ</desc>
+    <category lang="en">Drama</category>
+    <category lang="ja">ドラマ</category>
+  </programme>
+  <programme start="20260926225500 +0900" stop="20260926230000 +0900" channel="テレ東_jp">
+    <title lang="en">Weekly ping pong news</title>
+    <title lang="ja">WEEKLY PING PONG NEWS🈑</title>
+    <desc lang="en">A completely new form of news program that delivers the charm of ping pong (table tennis) has been born!</desc>
+    <desc lang="ja">PING PONG(卓球)の魅力をお届けする全く新しい形のニュース番組が誕生！卓球伝道師の福澤朗をMCに迎え、解説委員には謎のパンダ二頭という異色のメンバ...</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
   <programme start="20260926225500 +0900" stop="20260926230000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">News and Weather</title>
     <title lang="ja">ニュース・気象情報</title>
@@ -1705,6 +2524,26 @@
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">定時・総合</category>
     <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260926225600 +0900" stop="20260926230000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Port Time</title>
+    <title lang="ja">港時間🈑</title>
+    <desc lang="en">Penny has been a skilled lobster fisherman for over 30 years.</desc>
+    <desc lang="ja">30年以上、腕のいいロブスター漁師として活躍してきたペニーさん。第2の人生に選んだのが『海の体験ツアーの船長』。そんなペニーさんの「港時間」とは…。</desc>
+  </programme>
+  <programme start="20260926230000 +0900" stop="20260926233000 +0900" channel="テレ東_jp">
+    <title lang="en">Bleach Thousand Years of Bloodshed: Climax Selection - Episode 28</title>
+    <title lang="ja">『BLEACH 千年血戦篇クライマックスセレクション』28話🈑</title>
+    <desc lang="en">Having been entrusted with a mission by Hyoshubu Ichibei, Kurosaki Ichigo and others hurried to the Reio Daidairi.</desc>
+    <desc lang="ja">兵主部一兵衛から使命を託され、霊王大内裏へと急ぐ黒崎一護たち。悠然と待ち受けていたのは、『力の9年』を経て全知全能の力を取り戻したユーハバッハだった。</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
+  <programme start="20260926230000 +0900" stop="20260926233000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Another Sky: Dean Fudzioka's Origins - Washington State at age 19</title>
+    <title lang="ja">アナザースカイ🈑ディーン・フジオカの原点！19歳で留学した米ワシントン州へ</title>
+    <desc lang="en">Days of youth unknown. Starting a business or staying in a foreign country! Reunion with the benefactor and the "rules of life" that are unraveled in nature...</desc>
+    <desc lang="ja">知られざる青春の日々。異国での起業や野宿まで！恩人との再会や大自然の中で紐解かれる“人生のルール”現在の活躍に繋がる熱きルーツに迫る！▽堀田真由卒業…新MCは？</desc>
   </programme>
   <programme start="20260926230000 +0900" stop="20260926233000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Venue 101 EXTRAWEEK1</title>
@@ -1721,6 +2560,12 @@
     <category lang="ja">ライブ・コンサート</category>
     <category lang="ja">バラエティ</category>
     <category lang="ja">音楽バラエティ</category>
+  </programme>
+  <programme start="20260926230000 +0900" stop="20260927000000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Switch ~ The Most Powerful Entertainer Decision Match That Can Be Bokeh and Tsukukomi ~</title>
+    <title lang="ja">SWITCH 〜ボケもツッコミもできる最強芸人決定戦〜🈑</title>
+    <desc lang="en">Well, Zuzu is the judge's new celebration of laughter! Both "Bokeh" and "Tsukkomi" are funny new competitions and prowess...</desc>
+    <desc lang="ja">さまぁ〜ずが審査員の新たな笑いの祭典！ 「ボケ」も「ツッコミ」もどちらも行うお笑い新競技で実力派芸人8名が激突！</desc>
   </programme>
   <programme start="20260926230000 +0900" stop="20260927000000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">ETV Special: Pick my reason for going to war</title>
@@ -1765,8 +2610,29 @@
     <category lang="ja">トークバラエティ</category>
     <category lang="en">Special</category>
   </programme>
+  <programme start="20260926233000 +0900" stop="20260926235500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Saxakhimhim [Pure Brother Monaki] 34 years old on average? A Different Career &amp; Current Topical Kayo Group</title>
+    <title lang="ja">サクサクヒムヒム【純烈の弟モナキ】平均34歳？異色の経歴＆今話題の歌謡グループ🈑</title>
+    <desc lang="en">Even before the debut, the total number of social media views exceeded 1.8 billion! Dig deeper into Monaki, which attracts an unusually large buzz!</desc>
+    <desc lang="ja">デビュー前なのにSNS総再生回数18億回超え！異例の大バズリを魅せた「モナキ」を深掘り！異色の経歴…戦隊モノに一級建築士にサラリーマンまで！クセになる魅力を公開</desc>
+  </programme>
+  <programme start="20260926233000 +0900" stop="20260927000000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Sanma's Comedy Improvement Committee: Justice Kottake, a ▼lawyer entertainer, laughs at Yogolet entertainers and judges them by law</title>
+    <title lang="ja">さんまのお笑い向上委員会▼弁護士芸人こたけ正義感がヨゴレ芸人をお笑い法律で裁く🈑</title>
+    <desc lang="en">The largest solo live tour is almost over! Improve the sense of justice for the attorney-artist Kotatake who is riding the Nori!</desc>
+    <desc lang="ja">最大規模の単独ライブツアーが即完！ノリに乗っている弁護士芸人こたけ正義感を向上！ヨゴレの筆頭しんいち＆大崎から不満爆発！ハライチ岩井にタイムリミット！</desc>
+  </programme>
+  <programme start="20260926233000 +0900" stop="20260927000000 +0900" channel="テレ東_jp">
+    <title lang="en">Saturday Night J "Special Feature of Famous Directors" Jubilo Iwata/Tadahiro Akiba Director's palm reading!?</title>
+    <title lang="ja">サタデーナイトJ“名物監督特集”ジュビロ磐田・秋葉忠宏監督を手相占い！？</title>
+    <desc lang="en">The J-League cheering show with the latest visual images begins!! Focusing on the hottest and most exciting matches...</desc>
+    <desc lang="ja">最新のビジュアルイメージでお届けするJリーグ応援番組がスタート!!最も熱く盛り上がった試合を中心に解説者独自の視点や情報で分かりやすく、深く、魅力を伝える...</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+    <category lang="en">Special</category>
+  </programme>
   <programme start="20260926234500 +0900" stop="20260927001000 +0900" channel="NHK東京・総合_jp">
-    <title lang="en">Anime MAO 終(26) "Unako's World"</title>
+    <title lang="en">Anime MAO (26) "Unako's World" — Finale</title>
     <title lang="ja">アニメ　ＭＡＯ　🈡（２６）「幽羅子の世界」</title>
     <desc lang="en">Yurako began to tell Naika about her past. In the Heian period, as a vessel for capturing the curse cast by the "Onariya", the curse...</desc>
     <desc lang="ja">幽羅子は、自らの過去を菜花に語り始める。平安時代、「御降家」に放たれた呪いを取り込む器として、呪符に囲まれた岩屋で暮らしていた幽羅子は、外にも世界があることを知る。そして、初めて摩緒と出会う……。</desc>
@@ -1777,8 +2643,36 @@
     <category lang="ja">国内アニメ</category>
     <category lang="en">Finale</category>
   </programme>
+  <programme start="20260926235400 +0900" stop="20260926235700 +0900" channel="TBS_jp">
+    <title lang="en">Weather Newscaster</title>
+    <title lang="ja">Weatherニュースキャスター🈑</title>
+    <desc lang="en">With the concept of "Almost there!", weather information &amp; food that you will want to eat tomorrow, fashion that you will want to wear...</desc>
+    <desc lang="ja">“あともう少し！”をコンセプトに、お天気情報＆きっとあした食べたくなる食、着たくなるファッションなどご紹介！“あともう少し”夜更かししてね！</desc>
+  </programme>
+  <programme start="20260926235500 +0900" stop="20260927005500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Going!: Director Moriyasu x Ryoshin Takeuchi "The Future of Japanese Football"▼ Igigi infiltrates the B Premier!</title>
+    <title lang="ja">Going！🈑森保監督×竹内涼真「日本サッカーの未来」▼井桁がBプレミア潜入！</title>
+    <desc lang="en">▼Director Kazuichi Mori x Ryoshin Takeuchi... analysis by▼ Yoichiro Kakitani as he approaches the path to Asian domination!</desc>
+    <desc lang="ja">▼森保一監督×竹内涼真…アジア制覇への道筋に迫る▼柿谷曜一朗が分析！ウルグアイ戦から見えた新たな日本代表の戦い方とは？▼今アツい！井桁弘恵がBリーグ開幕戦を取材</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260926235700 +0900" stop="20260927000000 +0900" channel="TBS_jp">
+    <title lang="en">One Hundred Views of Japanese Heart "Paint and Scrape to Make Patterns!? Kurume basket fetal lacquerware/Fukuoka"</title>
+    <title lang="ja">和心百景『塗って削って模様を作る！？久留米籃胎漆器／福岡』🈖🈑</title>
+    <desc lang="en">Traditional crafts that have been handed down along with Japanese culture contain not only history and skills, but also "hearts"...</desc>
+    <desc lang="ja">日本の文化とともに受け継がれてきた伝統工芸品 そこには歴史や技だけでなく、「心」が込められています 今回は、 『久留米籃胎漆器／福岡』 笛木優子</desc>
+  </programme>
+  <programme start="20260927000000 +0900" stop="20260927002500 +0900" channel="テレ東_jp">
+    <title lang="en">Super GT Sugo GT500 Racing Labo</title>
+    <title lang="ja">RACING LABO「SUPER GT SUGO GT500」🈑</title>
+    <desc lang="en">This time, the stage sports land Sugo is the "circuit where monsters live" that is inevitable in the Great Melee.</desc>
+    <desc lang="ja">今回の舞台スポーツランドSUGOは、大混戦必至の“魔物が棲むサーキット”。高低差70mの心臓破りの最終上りストレートやトラフィックを巡る攻防など、最後まで...</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
   <programme start="20260927000000 +0900" stop="20260927003000 +0900" channel="NHK東京・教育_jp">
-    <title lang="en">Neko Mentally Masaya 終 Ozaki, Goo, Banana, Robin, Dali, Taketo Sakura</title>
+    <title lang="en">Neko Mentally Masaya Ozaki, Goo, Banana, Robin, Dali, Taketo Sakura — Finale</title>
     <title lang="ja">ネコメンタリー　🈡　尾崎将也とグーとばななとロビンとダリと鏑とさくら</title>
     <desc lang="en">There was always a cat beside the writer. "Ume-chan-sensei," "The Man Who Can't Marry," and many other popular drama scripts...</desc>
     <desc lang="ja">もの書く人の傍らにはいつも猫がいた。「梅ちゃん先生」「結婚できない男」他多くの人気ドラマの脚本を手がけた尾崎将也さん。動物を飼うことに興味がなかったにも関わらず、いつの間にか６匹の猫と同居することになる。表情も執筆のペースも崩さない泰然自若の脚本家と自由奔放な猫達。関心の無さを装いながら、すべて家族と断言していた、ドラマさながらの？ユーモラスな日々。２０２０年４月の放送を追悼再放送。朗読は阿部寛。</desc>
@@ -1787,6 +2681,26 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">ドキュメンタリー全般</category>
     <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260927000000 +0900" stop="20260927003000 +0900" channel="TBS_jp">
+    <title lang="en">Jinsei Saikō Restaurant: [Nisaki Shibuya] Sudden Tears... NMB48 Graduation &amp; Actress Opening Eyes Stage Ura</title>
+    <title lang="ja">人生最高レストラン【渋谷凪咲】突然の涙…NMB48卒業＆女優開眼㊙舞台ウラ🈖🈑</title>
+    <desc lang="en">▼Feeling like a young entertainer!? Queen Variety's real-life▼ grandmother predicts that "the child who lives in the entertainment industry" will be the first actress to▼ yearn for...</desc>
+    <desc lang="ja">▼感覚は若手芸人!?バラエティ女王の本音▼亡き祖母の予言「凪は芸能界で生きる子」▼憧れの女優に初対面で号泣…生放送㊙失敗談▼本場スパイスカリー▼衝撃の極太ごぼう</desc>
+  </programme>
+  <programme start="20260927000000 +0900" stop="20260927003000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">First Voice Movie Release Celebration! Let's Begin! Let's Begin SP</title>
+    <title lang="ja">映画『ファーストボイス』公開記念！始めてみなければ始まらない！レッツビギンSP🈑</title>
+    <desc lang="en">Released October 2 (Fri)! Starring Ayase, who was said to lose far 100%, challenged the harassment trial of "Japan's first"...</desc>
+    <desc lang="ja">10月2日（金）公開！主演・綾瀬はるか 100％負けると言われた≪日本初≫のハラスメント裁判に挑む！</desc>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260927000000 +0900" stop="20260927005500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Chihara Junior's Hebereke SP</title>
+    <title lang="ja">千原ジュニアのヘベレケSP🈑</title>
+    <desc lang="en">Chihara Junior and a cheerful entertainer are seriously drinking and talking about Honene! Baka rhythm is baffling!</desc>
+    <desc lang="ja">千原ジュニアと愉快な芸能人が本気で呑んでホンネを喋りまくる！バカリズムが困惑！？ふかわりょうの勘違い友情、山田邦子の伝説秘話、白洲迅の失言連発で爆笑の本音飲み会</desc>
+    <category lang="en">Special</category>
   </programme>
   <programme start="20260927001000 +0900" stop="20260927010000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Family History: "Ryo Ishibashi ~ Inheriting the temperament of living with all your strength ~"</title>
@@ -1802,6 +2716,12 @@
     <category lang="ja">社会・時事</category>
     <category lang="ja">カルチャー・伝統文化</category>
   </programme>
+  <programme start="20260927002500 +0900" stop="20260927005500 +0900" channel="テレ東_jp">
+    <title lang="en">Chaplin ★Onna Entertainer Great Gathering! Festival of Deep Talks &amp; Stories</title>
+    <title lang="ja">すっかり にちようチャップリン★オンナ芸人大集合！DEEPトーク＆ネタの祭典🈑</title>
+    <desc lang="en">Konno Bruma! There is a▼ broadcast just in time for the▼ Japan Electric Union "JK Caste" that makes a statement to the flash mob man!</desc>
+    <desc lang="ja">紺野ぶるま！フラッシュモブ男に物申す▼日本エレキテル連合「JKカースト」あるある▼放送ギリギリ！？オダウエダ丸裸コント▼田中卓志・ハリセンボン・福留光帆</desc>
+  </programme>
   <programme start="20260927003000 +0900" stop="20260927004000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">The Conversation Continues! Real Travel English (69) Drive Tour "Hearing About Places"</title>
     <title lang="ja">会話が続く！リアル旅英語（６９）ドライブツアー「場所について聞く」</title>
@@ -1812,6 +2732,22 @@
     <category lang="en">Conversation/Language</category>
     <category lang="ja">趣味/教育</category>
     <category lang="ja">会話・語学</category>
+  </programme>
+  <programme start="20260927003000 +0900" stop="20260927005800 +0900" channel="TBS_jp">
+    <title lang="en">☆S1 Heat! Asian Games▼ Soccer Japan x North Korea▼ Puyo Puyo 11-Year-Old Prodigy▼ MLB Update</title>
+    <title lang="ja">S☆1🈑熱戦！アジア大会▼サッカー日本×北朝鮮▼ぷよぷよ11歳の神童▼MLB最新情報</title>
+    <desc lang="en">The fiercely contested Asian Games! ▼Soccer Men's Quarterfinals Japan x North Korea ▼Men's and Women's Hurdles Village Bamboo Rashid &amp; Hitoshi Nakajima...</desc>
+    <desc lang="ja">熱戦続くアジア大会！ ▼サッカー男子準々決勝・日本×北朝鮮 ▼男女ハードル村竹ラシッド＆中島ひとみ出陣 ▼話題沸騰！eスポーツ！11歳ぷよぷよの神童 ▼M...</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260927003000 +0900" stop="20260927010000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Death (Youth) Game Finale "The Fall of Vengeance"</title>
+    <title lang="ja">デス（青春）ゲーム 最終話「復讐の行方」🈑</title>
+    <desc lang="en">The Death Youth game has finally begun, with three suspects in custody.</desc>
+    <desc lang="ja">3人の容疑者を拘束し、ついに始まったデス青春ゲーム。ゲームマスターのソウスケの鬼気迫る追及が続くが、教師たちはなかなか口を割らず…。しびれを切らしたソウスケは…</desc>
+    <category lang="en">Drama</category>
+    <category lang="ja">ドラマ</category>
   </programme>
   <programme start="20260927004000 +0900" stop="20260927010800 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Let's learn the Imozuru style! NHK Learning Master Guitar Paradigm in 3 Months</title>
@@ -1833,6 +2769,43 @@
     <category lang="ja">音楽</category>
     <category lang="ja">国内ロック・ポップス</category>
   </programme>
+  <programme start="20260927005500 +0900" stop="20260927010500 +0900" channel="フジテレビ_jp">
+    <title lang="en">FNN News &amp; Sports</title>
+    <title lang="ja">FNNニュース＆スポーツ</title>
+    <desc lang="en">Saturday concludes with FNN News &amp; Sports! Further note the news that FNN stations caught at home and abroad...</desc>
+    <desc lang="ja">土曜日の締めは「FNNニュース＆スポーツ」！FNN各局が国内外でキャッチしたニュースを、さらに注目のスポーツをまとめて、「土曜日」をしっかり報じます</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260927005500 +0900" stop="20260927012500 +0900" channel="テレ東_jp">
+    <title lang="en">What about the second one? ~ Hanashi with Knobs ~ Toast with Sareee and Hatagaya</title>
+    <title lang="ja">二軒目どうする？〜ツマミのハナシ〜Sareeeと幡ヶ谷で乾杯🈑</title>
+    <desc lang="en">Masahiro Matsuoka enjoys a variety of izakaya with Daikichi Hakata and wonderful guests!</desc>
+    <desc lang="ja">松岡昌宏が博多大吉と素敵なゲストと楽しむ居酒屋ぶらりバラエティー！</desc>
+  </programme>
+  <programme start="20260927005500 +0900" stop="20260927012500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Mazirumie Co., Ltd. — Finale</title>
+    <title lang="ja">株式会社マジルミエ🈡🈑</title>
+    <desc lang="en">A new battle of magical girls to keep people smiling and happy, finally for the last time!</desc>
+    <desc lang="ja">人々の笑顔と幸せを守る魔法少女たちの新たな戦い、ついに最終回！ 第12話 魔法少女になって良かった</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+    <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260927005800 +0900" stop="20260927012800 +0900" channel="TBS_jp">
+    <title lang="en">I won't say "can't" from IMP.Walk around Togoshi Ginza shopping street to convey the charm of the city</title>
+    <title lang="ja">IMP.の「できません」は言いません🈑街の魅力を伝えるため戸越銀座商店街を巡る</title>
+    <desc lang="en">The first terrestrial crown program by ▼IMP.! It is an icon of programs across the country with the aim of increasing the popularity of ▼IMP....</desc>
+    <desc lang="ja">▼IMP.による地上波初の冠番組！ ▼IMP.の知名度UPを目指し全国各地で番組のアイコンである名刺を交換、世のため、人のために汗をかきまくる！</desc>
+  </programme>
+  <programme start="20260927010000 +0900" stop="20260927013000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">World Pro Wrestling</title>
+    <title lang="ja">ワールドプロレスリング</title>
+    <desc lang="en">G.B.H. makes a comeback in Hokkaido! Yano Dori, Makabe Katsuyoshi, and K.O.B are challenging for the IWGP Tag Team Championship...</desc>
+    <desc lang="ja">北海道で、G・B・Hが衝撃復活！矢野通＆真壁刀義とK.O.Bが、IWGPタッグ王座挑戦権を懸け大乱闘！“至宝”IWGPジュニア王座戦も放送！</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
   <programme start="20260927010000 +0900" stop="20260927021200 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Dokoro-san! It's a case, Summer Vacation SP</title>
     <title lang="ja">所さん！事件ですよ　夏休みＳＰ</title>
@@ -1844,6 +2817,13 @@
     <category lang="ja">暮らし・住まい</category>
     <category lang="en">Special</category>
   </programme>
+  <programme start="20260927010500 +0900" stop="20260927013500 +0900" channel="フジテレビ_jp">
+    <title lang="en">What are★ the human strengths that you learn from Chika Ikihara and the secrets that people continue to demand? Shamanic Dreams of Retirement — Finale</title>
+    <title lang="ja">🈡指原千夏★さんまに学ぶ人間力と人から求められ続ける極意とは？さんま語る老後の夢</title>
+    <desc lang="en">What are the human strengths that Chika Wakatsuki and Rino ICHIHARA learn from the Akashi family and the perfection that people continue to demand?</desc>
+    <desc lang="ja">若槻千夏と指原莉乃が明石家さんまに学ぶ人間力と人から求められ続ける極意とは？さんまが語る意外な老後の夢とは？さらに若槻と指原が人生を変えた瞬間を告白！</desc>
+    <category lang="en">Finale</category>
+  </programme>
   <programme start="20260927010800 +0900" stop="20260927045500 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Off Air</title>
     <title lang="ja">放送休止</title>
@@ -1853,6 +2833,76 @@
     <category lang="en">Other</category>
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">その他</category>
+  </programme>
+  <programme start="20260927012500 +0900" stop="20260927013000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Programme Guide</title>
+    <title lang="ja">ガイド</title>
+  </programme>
+  <programme start="20260927012500 +0900" stop="20260927021000 +0900" channel="テレ東_jp">
+    <title lang="en">Hasegawa Akari &amp; Chinzei Jyukyoka (fruits Zipper)</title>
+    <title lang="ja">たべるししゃべるし 長谷川あかり＆鎮西寿々歌（FRUITS ZIPPER)</title>
+    <desc lang="en">"Junkyoka Chinzei" and "Akari Hasegawa" are 20 years old best friends who cook, eat, and talk with each other.</desc>
+    <desc lang="ja">「鎮西寿々歌」「長谷川あかり」20年来の親友が、ふたりで料理つくって、たべて、しゃべるだけ。</desc>
+  </programme>
+  <programme start="20260927012800 +0900" stop="20260927015800 +0900" channel="TBS_jp">
+    <title lang="en">Birth Day: Shine again! 11 years of close contact... Swimming Ike Erikanako — Finale</title>
+    <title lang="ja">バース・デイ🈡🈑 再び輝きを！密着11年…競泳池江璃花子</title>
+    <desc lang="en">Ryoko Ike, a third grader in high school, won six crowns in the Asian Games. He built many glories and overcame hardships to meet him at the age of 26...</desc>
+    <desc lang="ja">高校3年生でアジア大会6冠に輝いた池江璃花子。数々の栄光を築き、そして苦難を乗り越え26歳で迎えるアジア大会。復活なるか？秘蔵映像で綴る密着11年の記録。</desc>
+    <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260927013000 +0900" stop="20260927020000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Autumn Drama Highlights! Saturday's edition is [Animoto &amp; Hadanbobo]</title>
+    <title lang="ja">秋ドラマ見どころ特集！土曜よるは【あにいもうと＆はだかんぼうたち】</title>
+    <desc lang="en">Hot Teletraan Autumn Drama Special! [Animoto] Nana Eikura, Eiji Akachu, Yu Miyazaki, Achievement Kimura [Hadakanbo...</desc>
+    <desc lang="ja">話題のテレ朝秋ドラマ特集！ 【あにいもうと】榮倉奈々、赤楚衛二、宮﨑優、木村達成 【はだかんぼうたち】松田元太、加藤ローサ、髙木雄也、大沢あかね</desc>
+    <category lang="en">Drama</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260927013000 +0900" stop="20260927023000 +0900" channel="日本テレビ_jp">
+    <title lang="en">&amp; Hulu Ice Show "Sword Rampage" &amp; Popular Drama Set in Northern Ireland</title>
+    <title lang="ja">＆Hulu アイスショー「刀剣乱舞」＆北アイルランドが舞台の人気ドラマ</title>
+    <desc lang="en">The first ice show of the popular "Sword Ranbu", explaining its charm thoroughly!</desc>
+    <desc lang="ja">大人気「刀剣乱舞」初のアイスショー、その魅力を徹底解説！華麗な演技と壮大な世界観に注目▼人気ドラマ「ブルー・ライツ ベルファストの新米警察官」第1話を放送！</desc>
+    <category lang="en">Drama</category>
+    <category lang="ja">ドラマ</category>
+  </programme>
+  <programme start="20260927013500 +0900" stop="20260927020500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Uma Revo!</title>
+    <title lang="ja">うまレボ！</title>
+    <desc lang="en">Seina Imamura &amp; Mika Kobayashi! Female Jockey Celebration Bullet▼ Tour Yuchamigachi's regular Shin-Okubo exquisite Korean gourmet...</desc>
+    <desc lang="ja">今村聖奈＆小林美駒！大活躍女性騎手お祝い弾丸ツアー▼ゆうちゃみガチ常連の新大久保絶品韓国グルメで乾杯＆モテ香水作りで対決▼秋GⅠ開幕！スプリンターズS</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260927015800 +0900" stop="20260927022800 +0900" channel="TBS_jp">
+    <title lang="en">Please let me bring my bag.★ Today, Nakanishi is Saichiko. Nasu Harashi.</title>
+    <title lang="ja">カバン持ちさせてください★本日、中西は紗千子。那須はししまるです。</title>
+    <desc lang="en">Frostbite has TimeTree bags! New feature idea meeting! What is a laundry service!?</desc>
+    <desc lang="ja">なすなかにしがTimeTreeのカバン持ち！ 新機能のアイディア会議！洗濯代行サービスとは！？</desc>
+  </programme>
+  <programme start="20260927020000 +0900" stop="20260927023000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Hanori-san wants to fight even if he is reincarnated [ANiMAZiNG!!!] # 12 — Finale</title>
+    <title lang="ja">🈡花織さんは転生しても喧嘩がしたい【ANiMAZiNG！！！】 ＃12</title>
+    <desc lang="en">A Naruto meteor who was a demon king in a world not here. A brave warrior who once defeated him, and now a high school girl, Hanawori Meaty...</desc>
+    <desc lang="ja">ここではない世界で魔王をやっていた鳴神流星。かつて彼を倒した勇者で、現在は女子高生の花織ミーティアが押しかけてきた。そこで再び巡り合った二人の恋がはじまった⁉</desc>
+    <episode-num system="onscreen">12</episode-num>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+    <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260927020500 +0900" stop="20260927023500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Spadra ★Quests Be perturbed by the potato-filled curry festival Bizarre Pyjama Talk!</title>
+    <title lang="ja">スパドラ★クエスト 芋だらけのカレー祭りぶっちゃけパジャマトークで入り乱れる！</title>
+    <desc lang="en">Super ★Dragon, a 9-player evolutionary mixer unit, is fully committed to "man polishing" through various challenges...</desc>
+    <desc lang="ja">9人組進化系ミクスチャーユニット・SUPER★DRAGONが様々な挑戦を通して“男磨き”に全力で挑むドキュメントバラエティ！</desc>
+  </programme>
+  <programme start="20260927021000 +0900" stop="20260927023500 +0900" channel="テレ東_jp">
+    <title lang="en">God Tongue: [Combination Okitoshi Battle Royal]</title>
+    <title lang="ja">ゴッドタン【コンビ大喜利バトルロイヤル】</title>
+    <desc lang="en">▼Lalande Nishida Awakening... What is the infinite state of sweating Daikiri!? ▼Nishikigoi... Masanori's burst of laughter festival!! ▼Ka...</desc>
+    <desc lang="ja">▼ラランド・ニシダ覚醒…無双状態の汗だく大喜利とは!? ▼錦鯉…マサノリさんで爆笑祭り!! ▼カミナリまなぶ…初大喜利!?</desc>
   </programme>
   <programme start="20260927021200 +0900" stop="20260927021300 +0900" channel="NHK東京・総合_jp">
     <title lang="en">NHK Special: The Challenge of PR Disease Episode 2: The Key to Overcoming Depression</title>
@@ -1875,6 +2925,42 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">自然・動物・環境</category>
   </programme>
+  <programme start="20260927022800 +0900" stop="20260927035500 +0900" channel="TBS_jp">
+    <title lang="en">Kaimono Lab</title>
+    <title lang="ja">カイモノラボ</title>
+    <desc lang="en">Look! Buy! It's fun! Shopping variety that delivers top-selling items at a great price!</desc>
+    <desc lang="ja">見て！ 買って！ 楽しめる！今話題の売れ筋アイテムを超お得にお届けするショッピングバラエティ！</desc>
+  </programme>
+  <programme start="20260927023000 +0900" stop="20260927030000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Ueda-chanel TV can not see the fierce rare antenna festival! A customer tricks GP of entertainers who are good at selling!</title>
+    <title lang="ja">上田ちゃんネル テレビでは見られない激レアネタ祭！営業得意芸人の客いじりGP！</title>
+    <desc lang="en">The punch, bikes, Kawasaki bikes, Sukachan, and other "sales stories" that entertainers who are good at sales do not usually show on TV...</desc>
+    <desc lang="ja">ザ・パンチ、バイク川崎バイク、スカチャンと、営業が得意な芸人が普段テレビでは見せない“営業ネタ”を披露！ お客さんを巻き込んだネタの面白さで競う！</desc>
+  </programme>
+  <programme start="20260927023000 +0900" stop="20260927033000 +0900" channel="日本テレビ_jp">
+    <title lang="en">NTV Poschuré: Secret Deals just for you SP — Repeat</title>
+    <title lang="ja">日テレポシュレ 貴方だけに秘密のお得市SP🈞</title>
+    <category lang="en">Repeat</category>
+    <category lang="en">Special</category>
+    <previously-shown />
+  </programme>
+  <programme start="20260927023500 +0900" stop="20260927030500 +0900" channel="テレ東_jp">
+    <title lang="en">Victory League! Worldwide Performance Duo Gabezi and Pantomime Challenge!</title>
+    <title lang="ja">ヴィクトリーグ！ 世界的パフォーマンスデュオ・ガベジとパントマイムに挑戦！</title>
+    <desc lang="en">Collaborate with international award-winning global performance duo Gabeji for a pantomime!</desc>
+    <desc lang="ja">海外で数々の賞を受賞している世界的パフォーマンスデュオ・ガベジとコラボしてパントマイムに挑戦！基礎知識から普段見られない裏側まで公開！今回はティモンディも挑戦！</desc>
+  </programme>
+  <programme start="20260927023500 +0900" stop="20260927033500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Black Trick ~ Judicial Advocate ~ # 10 — Repeat</title>
+    <title lang="ja">ブラックトリック〜裁きを操る弁護人〜 ＃10🈞🈑🈖</title>
+    <desc lang="en">GACKT, the first star of the month 9! A dangerous and charming dark hero who plays the dual role of a skilled lawyer and a first-class architect...</desc>
+    <desc lang="ja">GACKT、月9初主演！敏腕弁護士と一級建築士の二刀流で活躍する危険な魅力あふれるダークヒーローが誕生！でっち上げの“嘘”を武器に真実を暴く痛快リーガルドラマ！</desc>
+    <episode-num system="onscreen">10</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="en">Repeat</category>
+    <previously-shown />
+  </programme>
   <programme start="20260927025500 +0900" stop="20260927032000 +0900" channel="NHK・BS_jp">
     <title lang="en">Grand Sumo: Aki Basho, Day 14 — All Makuuchi Bouts</title>
     <title lang="ja">大相撲（２０２６年）　幕内の全取組　秋場所　十四日目</title>
@@ -1888,6 +2974,21 @@
     <category lang="ja">スポーツニュース</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">カルチャー・伝統文化</category>
+  </programme>
+  <programme start="20260927030000 +0900" stop="20260927033000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">I-Love! Mr.GeMing ~○○ is online now ~</title>
+    <title lang="ja">アイ＝ラブ！げーみんぐ〜○○さんがオンラインになりました〜</title>
+    <desc lang="en">This time, the "legendary swordsman" Miyamoto Musashi will challenge the protagonist's sword fight action game!</desc>
+    <desc lang="ja">今回は、“伝説の剣豪”宮本武蔵が主人公の剣戦アクションゲームに挑戦！精巧で没入感のある世界観の中で、興奮と驚きの連続！=LOVEもアインシュタインも大盛り...</desc>
+  </programme>
+  <programme start="20260927030500 +0900" stop="20260927044500 +0900" channel="テレ東_jp">
+    <title lang="en">Satacine ☆"Maze Runner 2: Desert Labyrinth" Take on the global second stage!</title>
+    <title lang="ja">サタ☆シネ「メイズ・ランナー2：砂漠の迷宮」地球規模の第2ステージ！試練に挑め🈔</title>
+    <desc lang="en">Waiting for the young people who had escaped the giant maze was a desert burned by the sun!</desc>
+    <desc lang="ja">巨大迷路を脱出した若者たちを待っていたのは、太陽に焼き尽くされた砂漠だった！謎の組織が仕掛ける地球規模の「第2ステージ」。トラップだらけの砂漠を攻略せよ！</desc>
+    <episode-num system="onscreen">2</episode-num>
+    <category lang="en">Film</category>
+    <category lang="ja">映画</category>
   </programme>
   <programme start="20260927031300 +0900" stop="20260927034500 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Euratram Tour Berlin, Germany</title>
@@ -1916,6 +3017,26 @@
     <category lang="ja">歴史・紀行</category>
     <category lang="ja">趣味/教育</category>
     <category lang="ja">旅・釣り・アウトドア</category>
+  </programme>
+  <programme start="20260927033000 +0900" stop="20260927040000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Satade Marche</title>
+    <title lang="ja">サタデーマルシェ</title>
+    <desc lang="en">Diet, beauty, hair care, health, life, kitchen, miscellaneous goods, jewelry, electrical appliances... all over the world, including Japan and the United States...</desc>
+    <desc lang="ja">ダイエット・美容・ヘアケア・健康・ライフ・キッチン・雑貨・宝飾・電化製品‥日本・米国を始め世界中の逸品を自宅でくつろぎながらショッピング！</desc>
+  </programme>
+  <programme start="20260927033000 +0900" stop="20260927040000 +0900" channel="日本テレビ_jp">
+    <title lang="en">NTV Poschuré: I was looking for this! Recommended SP — Repeat</title>
+    <title lang="ja">日テレポシュレ こんなの探してた！おすすめSP🈞</title>
+    <category lang="en">Repeat</category>
+    <category lang="en">Special</category>
+    <previously-shown />
+  </programme>
+  <programme start="20260927033500 +0900" stop="20260927040500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Mine Kubo HYADA Kojurase Night Listen to all of▼ Nagano SP! The Nagano Festival Burst Without Degree</title>
+    <title lang="ja">久保みねヒャダこじらせナイト▼永野に全部聞くSP！忖度なき永野節炸裂</title>
+    <desc lang="en">The indiscriminate Nagano Festival has exploded! Listen to all of Nagano SP It's▼ young, but▼ beautiful Nagano talking about the relationship with the car that suits you Yes...</desc>
+    <desc lang="ja">忖度なき永野節が炸裂！永野に全部聞くSP▼年下だけど気が合うくるまとの関係を語る▼綺麗な永野はいる？優しさについて考える▼転生したらやりたい名場面を再現選手権！</desc>
+    <category lang="en">Special</category>
   </programme>
   <programme start="20260927034500 +0900" stop="20260927034800 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Tokyo resurrected in color "Ueno Park ~ Saigo-san was watching ~"</title>
@@ -1953,6 +3074,37 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">カルチャー・伝統文化</category>
   </programme>
+  <programme start="20260927035500 +0900" stop="20260927044000 +0900" channel="TBS_jp">
+    <title lang="en">TBS News</title>
+    <title lang="ja">TBS NEWS</title>
+    <desc lang="en">The latest news from all over Japan this morning, overseas news, economic information, today's weather, baseball and other sports information for women...</desc>
+    <desc lang="ja">今朝の日本各地の最新ニュース、海外ニュース、経済情報、今日のお天気、野球などスポーツ情報を女性キャスターがお伝えする朝の報道番組。</desc>
+  </programme>
+  <programme start="20260927040000 +0900" stop="20260927040500 +0900" channel="テレビ朝日_jp">
+    <title lang="en">CS Tele Asahi Navi!</title>
+    <title lang="ja">CSテレ朝ナビ‼</title>
+    <desc lang="en">A program that delivers the charm of TV Asahi's CS broadcast! Anime, Drama, Variety, Sports, News... Everyday...</desc>
+    <desc lang="ja">テレビ朝日のCS放送の魅力をお届けする番組！アニメ、ドラマ、バラエティ、スポーツ、ニュース…毎日見られる「ドラえもん」など盛りだくさん‼見逃せない番組をご紹介！</desc>
+  </programme>
+  <programme start="20260927040000 +0900" stop="20260927042000 +0900" channel="日本テレビ_jp">
+    <title lang="en">NTV Poschuré: Strictly NO missed bargain SP — Repeat</title>
+    <title lang="ja">日テレポシュレ 見逃し厳禁お買い得SP🈞</title>
+    <category lang="en">Repeat</category>
+    <category lang="en">Special</category>
+    <previously-shown />
+  </programme>
+  <programme start="20260927040500 +0900" stop="20260927043500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Dinos The Store</title>
+    <title lang="ja">ディノスTHEストア</title>
+    <desc lang="en">Mail order Dinos confidently delivers "Now is Kaidoki!" products!</desc>
+    <desc lang="ja">通販のディノスが自信を持ってお届けする「今がカイドキ！」な商品をご紹介！ユージがゲストの皆さんの本音のリアクションも交えて、商品の魅力を解説します！</desc>
+  </programme>
+  <programme start="20260927040500 +0900" stop="20260927050000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Wakako-san and Masaru-san won't buy a house??</title>
+    <title lang="ja">ワカコさんとマサルくんのお宅は買わないの？？</title>
+    <desc lang="en">Students aiming to be announcers for Wakako-san and Masaru-kun introduce products that are currently hot!</desc>
+    <desc lang="ja">ワカコさんとマサルくんにアナウンサーを目指す学生達が今話題の商品を紹介！ その魅力と衝撃の価格にスタジオは驚きの連続！それでもお宅は買わないの？？</desc>
+  </programme>
   <programme start="20260927041500 +0900" stop="20260927042000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">One Point Sign Language (14) Hobby * Subtitle Supermarket</title>
     <title lang="ja">ワンポイント手話（１４）趣味※字幕スーパー</title>
@@ -1981,6 +3133,13 @@
     <category lang="ja">音楽・美術・工芸</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">歴史・紀行</category>
+  </programme>
+  <programme start="20260927042000 +0900" stop="20260927043000 +0900" channel="日本テレビ_jp">
+    <title lang="en">NTV Poschuré: SP who wants to be on your side — Repeat</title>
+    <title lang="ja">日テレポシュレ あなたの味方になりたいSP🈞</title>
+    <category lang="en">Repeat</category>
+    <category lang="en">Special</category>
+    <previously-shown />
   </programme>
   <programme start="20260927042000 +0900" stop="20260927050000 +0900" channel="NHK・BS_jp">
     <title lang="en">Visual Poem: A Thousand-Year Prayer Landscape</title>
@@ -2028,6 +3187,38 @@
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">ローカル・地域</category>
   </programme>
+  <programme start="20260927043000 +0900" stop="20260927050000 +0900" channel="日本テレビ_jp">
+    <title lang="en">NTV Poschuré</title>
+    <title lang="ja">日テレポシュレ</title>
+    <desc lang="en">"Nichi Teleposhure" is a mail order program where you can get good things at a great price. Now!</desc>
+    <desc lang="ja">イイモノがお得に手に入る通販番組「日テレポシュレ」今だから！買えるドキドキ・ワクワクな商品をご紹介！お見逃しなく！</desc>
+  </programme>
+  <programme start="20260927043500 +0900" stop="20260927044500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Dinos The Store</title>
+    <title lang="ja">ディノスTHEストア</title>
+    <desc lang="en">Mail order Dinos confidently delivers "Now is Kaidoki!" products!</desc>
+    <desc lang="ja">通販のディノスが自信を持ってお届けする「今がカイドキ！」な商品をご紹介！ゲストの皆さんの本音のリアクションも交えて、商品の魅力を解説します！</desc>
+  </programme>
+  <programme start="20260927044000 +0900" stop="20260927054000 +0900" channel="TBS_jp">
+    <title lang="en">Definitely something</title>
+    <title lang="ja">ぜひモノ</title>
+    <desc lang="en">Mail order program (TV shopping)</desc>
+    <desc lang="ja">通販番組（TVショッピング）</desc>
+  </programme>
+  <programme start="20260927044500 +0900" stop="20260927052000 +0900" channel="テレ東_jp">
+    <title lang="en">Monosta Sunday</title>
+    <title lang="ja">ものスタ サンデー</title>
+    <desc lang="en">"Me", tell me about a good product!! I can't afford to be "nu". I want to buy a product that makes me want to buy it like "su"...</desc>
+    <desc lang="ja">「も」っといい商品を教えて！！ 「の」んびりしてはいられない 「ス」ぐに買いたくなっちゃう商品を 「タ」っぷりとご紹介するショッピング番組</desc>
+  </programme>
+  <programme start="20260927044500 +0900" stop="20260927054000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Golf Triple Match ~ Gachinko battles across generations and genders! ~ Men's and women's seniors clash</title>
+    <title lang="ja">ゴルフトリプルマッチ〜世代と性別を超えたガチンコバトル！〜 男子女子シニアが激突</title>
+    <desc lang="en">Golf battles across generations and genders! Men's Pro, Yasumasa Nagano x Women's Pro, Yoshimoto Koune x Senior Pro, Hiroyuki Fujita!</desc>
+    <desc lang="ja">世代と性別を超えたゴルフバトル！男子プロ・長野泰雅×女子プロ・吉本ここね×シニアプロ・藤田寛之！長野プロが大きくリード中！藤田・吉本プロが巻き返す！</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
   <programme start="20260927045500 +0900" stop="20260927045800 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Off Air</title>
     <title lang="ja">放送休止</title>
@@ -2066,6 +3257,14 @@
     <category lang="ja">歴史・紀行</category>
     <category lang="ja">ドキュメンタリー全般</category>
   </programme>
+  <programme start="20260927050000 +0900" stop="20260927050500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Bad Routenent: Tokyo Campaign</title>
+    <title lang="ja">『バッド・ルーテナント：トウキョウ』ストーリー</title>
+    <desc lang="en">A joint project between Hollywood and Japan. Directed by Shun Oguri x Lily James x Takashi Miike.</desc>
+    <desc lang="ja">ハリウッドと日本の共同プロジェクト。小栗旬×リリー・ジェームズ×三池崇史監督。世界が熱狂した新時代のサスペンスアクションがついに日本上陸！そのストーリーとは？</desc>
+    <category lang="en">Film</category>
+    <category lang="ja">映画</category>
+  </programme>
   <programme start="20260927050000 +0900" stop="20260927051000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">News and Weather</title>
     <title lang="ja">ニュース・気象情報</title>
@@ -2075,6 +3274,12 @@
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">定時・総合</category>
     <category lang="ja">天気</category>
+  </programme>
+  <programme start="20260927050000 +0900" stop="20260927052000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Yes! It's TV Asahi</title>
+    <title lang="ja">はい！テレビ朝日です🈑</title>
+    <desc lang="en">Ahead of the release of "First Voice," a film produced by TV Asahi, director Tetsu Maeda...</desc>
+    <desc lang="ja">テレビ朝日がプロデュースに参加している映画「ファーストボイス」の公開に先駆けて、監督の前田哲さんに魅力と見どころを語っていただきます。</desc>
   </programme>
   <programme start="20260927050000 +0900" stop="20260927060000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">The Age of Mind - Religion and Life - Shusaku Endo "Deep River" Part 1</title>
@@ -2100,6 +3305,16 @@
     <category lang="ja">スポーツ</category>
     <category lang="ja">野球</category>
   </programme>
+  <programme start="20260927050500 +0900" stop="20260927051000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Big hit in theaters! Don't miss the Swans and Bats whirlwind! — Repeat</title>
+    <title lang="ja">大ヒット上映中！『白鳥とコウモリ』旋風を見逃すな！🈞</title>
+    <desc lang="en">Swans and Bats is finally here! Watch Matsumura Hokuto and Imada Misakura travel to Taiwan to experience the local enthusiasm...</desc>
+    <desc lang="ja">『白鳥とコウモリ』がついに公開！ 松村北斗・今田美桜が台湾に渡り現地の熱狂を体感している様子をお届け！</desc>
+    <category lang="en">Film</category>
+    <category lang="ja">映画</category>
+    <category lang="en">Repeat</category>
+    <previously-shown />
+  </programme>
   <programme start="20260927051000 +0900" stop="20260927051500 +0900" channel="NHK東京・総合_jp">
     <title lang="en">One Trail mini “Scotch Spey River Walking Whisky Trail”</title>
     <title lang="ja">一本の道ｍｉｎｉ「ウイスキーの道をゆく　スコットランド・スペイ川に沿って」</title>
@@ -2109,6 +3324,12 @@
     <category lang="en">History &amp; Journeys</category>
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">歴史・紀行</category>
+  </programme>
+  <programme start="20260927051000 +0900" stop="20260927054000 +0900" channel="日本テレビ_jp">
+    <title lang="en">NTV Poschuré: Sell</title>
+    <title lang="ja">日テレポシュレモーニング</title>
+    <desc lang="en">"Nichi Teleposhure" is a mail order program where you can get good things at a great price. Now!</desc>
+    <desc lang="ja">イイモノがお得に手に入る通販番組「日テレポシュレ」今だから！買えるドキドキ・ワクワクな商品をご紹介！お見逃しなく！</desc>
   </programme>
   <programme start="20260927051500 +0900" stop="20260927052000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Weekend N-Space... The Challenge of Sickness Episode 2: The Key to Overcoming Depression</title>
@@ -2126,6 +3347,18 @@
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">その他</category>
   </programme>
+  <programme start="20260927052000 +0900" stop="20260927053000 +0900" channel="テレ東_jp">
+    <title lang="en">Watch! 7</title>
+    <title lang="ja">ウオッチ！7🈑🈐</title>
+    <desc lang="en">TV Tokyo itself verifies its own broadcast programs, and also politely takes up the situation of the monthly broadcast program council.</desc>
+    <desc lang="ja">テレビ東京自身が自局の放送番組を検証し、また月1度開催の放送番組審議会の様子も丁寧に取り上げる。視聴者との信頼関係をより強くするためにテレビ東京自身を映す番組。</desc>
+  </programme>
+  <programme start="20260927052000 +0900" stop="20260927055000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Healthy Family Teleshop</title>
+    <title lang="ja">健康家族テレショップ</title>
+    <desc lang="en">Diet, beauty, hair care, health, life, kitchen, miscellaneous goods, jewelry, electrical appliances... all over the world, including Japan and the United States...</desc>
+    <desc lang="ja">ダイエット・美容・ヘアケア・健康・ライフ・キッチン・雑貨・宝飾・電化製品‥日本・米国を始め世界中の逸品を自宅でくつろぎながらショッピング！</desc>
+  </programme>
   <programme start="20260927052000 +0900" stop="20260927055000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Katsura Bunge's Encyclopedia of Performing Arts Nakamura Kanjiro Obon Kobon Benzaitei Izumi</title>
     <title lang="ja">桂文枝の演芸図鑑　中村鴈治郎　おぼん・こぼん　弁財亭和泉</title>
@@ -2142,6 +3375,40 @@
     <category lang="ja">落語・演芸</category>
     <category lang="ja">トークバラエティ</category>
   </programme>
+  <programme start="20260927053000 +0900" stop="20260927060000 +0900" channel="テレ東_jp">
+    <title lang="en">Yoko's Enka Line</title>
+    <title lang="ja">洋子の演歌一直線</title>
+    <desc lang="en">A song show hosted by enka singer Yoko Nagayama. It introduces a wide range of singers from representative Japanese singers to newcomers.</desc>
+    <desc lang="ja">演歌歌手の長山洋子が司会を務める歌謡番組。日本を代表する歌手から新人歌手まで幅広く紹介。</desc>
+    <category lang="en">Music</category>
+    <category lang="ja">音楽</category>
+  </programme>
+  <programme start="20260927054000 +0900" stop="20260927054500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Swallows Kids Academy</title>
+    <title lang="ja">スワローズ キッズアカデミー🈑</title>
+    <desc lang="en">Tokyo Yakult rises to revive baseball's popularity!</desc>
+    <desc lang="ja">野球人気復活に東京ヤクルトが立ち上がる！</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260927054000 +0900" stop="20260927060000 +0900" channel="TBS_jp">
+    <title lang="en">TBS Review</title>
+    <title lang="ja">TBSレビュー🈐</title>
+    <desc lang="en">Unexpected in a Moment of Miracle ~ 30 Years of Broadcasting "World Heritage" Passion and Technological Advancement</desc>
+    <desc lang="ja">「想定外」を奇跡の一瞬に〜放送30年『世界遺産』 撮影への情熱と技術の進歩</desc>
+  </programme>
+  <programme start="20260927054000 +0900" stop="20260927060000 +0900" channel="日本テレビ_jp">
+    <title lang="en">NTV Up Date!</title>
+    <title lang="ja">日テレアップDate！🈖🈑</title>
+    <desc lang="en">I will tell you about the Nippon Television Group's "Now". Not only information on various programs and events, but also groups...</desc>
+    <desc lang="ja">日本テレビグループの「今」をお伝えします。様々な番組・イベントの情報だけでなく、グループが取り組む社会貢献活動や番組制作の裏側・制作スタッフの生の声を届けます。</desc>
+  </programme>
+  <programme start="20260927054500 +0900" stop="20260927060000 +0900" channel="フジテレビ_jp">
+    <title lang="en">The Royal Family</title>
+    <title lang="ja">皇室ご一家🈑</title>
+    <desc lang="en">Taking the official duties, private travel, and hobbies of the emperor and the empress, as well as those of the emperor's family...</desc>
+    <desc lang="ja">天皇・皇后両陛下をはじめ天皇ご一家のみなさまのご公務や私的なご旅行、そしてご趣味などをくまなく取材。「皇室」の今をできる限り詳しく紹介します。</desc>
+  </programme>
   <programme start="20260927055000 +0900" stop="20260927060000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Weather Information</title>
     <title lang="ja">気象情報</title>
@@ -2150,6 +3417,14 @@
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">天気</category>
   </programme>
+  <programme start="20260927055000 +0900" stop="20260927080000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Good! Morning</title>
+    <title lang="ja">グッド！モーニング🈓🈑</title>
+    <desc lang="en">Communicate the news you want to know with your own eyes in an easy-to-understand way.</desc>
+    <desc lang="ja">けさ知っておきたいニュースを独自目線でわかりやすく伝えます。「お天気検定」、「ニュース検定」、「エンタメ検定」にも挑戦しよう！</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
   <programme start="20260927060000 +0900" stop="20260927061000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">News</title>
     <title lang="ja">ニュース</title>
@@ -2157,6 +3432,18 @@
     <category lang="en">On-time/Overall</category>
     <category lang="ja">ニュース/報道</category>
     <category lang="ja">定時・総合</category>
+  </programme>
+  <programme start="20260927060000 +0900" stop="20260927061500 +0900" channel="フジテレビ_jp">
+    <title lang="en">FNN News</title>
+    <title lang="ja">FNNニュース🈑</title>
+    <desc lang="en">Sunday morning is "FNN News". Compact yet packed with information.</desc>
+    <desc lang="ja">日曜日の朝は「FNNニュース」。コンパクトながら情報満載。全国のFNN系列の記者がしのぎを削って集めたニュースをしっかりお届けします。</desc>
+  </programme>
+  <programme start="20260927060000 +0900" stop="20260927061500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Imperial Family Diary: Yujin-sama 20 years old, Noriko-sama 60 years old ▽What is the personality of the two people seen in the interview?</title>
+    <title lang="ja">皇室日記🈑▽悠仁さま20歳・紀子さま還暦60歳 取材でみえたお二人のお人柄とは</title>
+    <desc lang="en">▽Both Majesties Ghibli Park visit "Kaonashi" with you... Yuin-sama▽ I saw from the interaction with the boy scouts...</desc>
+    <desc lang="ja">▽両陛下ジブリパークご訪問「カオナシ」とご一緒に・・・▽悠仁さまボーイスカウトとの交流から見えた“素顔”▽紀子さま被災地の子ども支援15年の思い</desc>
   </programme>
   <programme start="20260927060000 +0900" stop="20260927062500 +0900" channel="NHK東京・教育_jp">
     <title lang="en">NHK Tanka: My Kenji Miyazawa Theme "Dialect"</title>
@@ -2168,8 +3455,23 @@
     <category lang="ja">趣味/教育</category>
     <category lang="ja">生涯教育・資格</category>
   </programme>
+  <programme start="20260927060000 +0900" stop="20260927063000 +0900" channel="テレ東_jp">
+    <title lang="en">Korean-style Chodora 6 Summer Fragrance # 26 An Insufferable Choice (Part 2)</title>
+    <title lang="ja">韓流朝ドラ6 夏の香り ＃26 せつない選択（後編）🈓🈔</title>
+    <desc lang="en">"Winter Sonata" is the third installment of the "Four Seasons Series", a pure love drama directed by Yun Seok-ho.</desc>
+    <desc lang="ja">『冬のソナタ』ユン・ソクホ監督の純愛ドラマ“四季シリーズ”第3作。ソン・スンホン、ソン・イェジン主演、心で通い合う運命的愛をモチーフにした感動のラブストーリー。</desc>
+    <episode-num system="onscreen">26</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="ja">ドラマ</category>
+  </programme>
+  <programme start="20260927060000 +0900" stop="20260927064500 +0900" channel="TBS_jp">
+    <title lang="en">Banana Man's Early Morning Gourmet: Excellent breakfast in a restaurant where regulars come ★early in the morning</title>
+    <title lang="ja">バナナマンの早起きせっかくグルメ★早朝から常連さんが足繁く通うお店の極上朝ご飯🈑</title>
+    <desc lang="en">The second part of the corner where Shigaraki-san delivers "the best breakfast in the shop where regulars come from the morning!"</desc>
+    <desc lang="ja">設楽さんが憧れる“朝から常連さんが足繁く通うお店の極上朝ごはん”をお届けするコーナーの第2弾！雰囲気抜群なお店の極上朝ごはん＆粋な常連さんに、設楽さんも大興奮！</desc>
+  </programme>
   <programme start="20260927061000 +0900" stop="20260927065300 +0900" channel="NHK東京・総合_jp">
-    <title lang="en">[Special selection! Period drama] Ooka Echizen 8終 (8) "Echizen and Tenichibo"</title>
+    <title lang="en">[Special selection! Period drama] Ooka Echizen 8 (8) "Echizen and Tenichibo" — Finale</title>
     <title lang="ja">【特選！時代劇】大岡越前８🈡（８）「越前と天一坊」</title>
     <desc lang="en">In re-examining whether Tenichibo (Yoshiteru Fujieda) is a descendant of Yoshimune (Satoshi Tokushige), Tadasuke (Katanori Takahashi) and Ryo Iga (Masa Kato...</desc>
     <desc lang="ja">天一坊（藤枝喜輝）が、吉宗（徳重聡）のご落胤か否かの再吟味では、忠相（高橋克典）と伊賀亮（加藤雅也）の丁々発止が続く。が、ただただ父と会いたいと言う天一坊の言葉に、忠相は芝居でない何かを感じはした。しかし、紀州に調査に向かった新三郎（寺脇康文）達が持って帰る報告を待つ時間稼ぎのため、忠相は、伊織（勝村政信）に協力してもらい、仮病を使う。再吟味を任せた忠相の結論が遅いことに、吉宗は怒りを爆発させる。</desc>
@@ -2181,6 +3483,18 @@
     <category lang="ja">国内ドラマ</category>
     <category lang="ja">時代劇</category>
     <category lang="en">Finale</category>
+  </programme>
+  <programme start="20260927061500 +0900" stop="20260927063000 +0900" channel="日本テレビ_jp">
+    <title lang="en">NNN News Sunday</title>
+    <title lang="ja">NNNニュースサンデー🈐</title>
+  </programme>
+  <programme start="20260927061500 +0900" stop="20260927070000 +0900" channel="フジテレビ_jp">
+    <title lang="en">Pachipachirun, let's "Pak + Pak" the cuisine of the★ world!★ What is today's "swagger"? Other</title>
+    <title lang="ja">ぱちぱちるんるん★世界の料理を「ぱく＋ぱく」しよう！★今日の「げらげら」は？他🈑</title>
+    <desc lang="en">"Paku + Paku" What kind of world cuisine can you encounter? "Furious" Who will come to make me laugh?</desc>
+    <desc lang="ja">「ぱく＋ぱく」どんな世界の料理と出会えるかな？「げらげら」誰が笑わせに来てくれるかな？「がっちょんファクトリー」どんな面白いメカが登場するかな？</desc>
+    <category lang="en">Music</category>
+    <category lang="ja">音楽</category>
   </programme>
   <programme start="20260927062500 +0900" stop="20260927063500 +0900" channel="NHK東京・教育_jp">
     <title lang="en">TV Taiso</title>
@@ -2196,6 +3510,18 @@
     <category lang="ja">情報/ワイドショー</category>
     <category lang="ja">健康・医療</category>
   </programme>
+  <programme start="20260927063000 +0900" stop="20260927070000 +0900" channel="テレ東_jp">
+    <title lang="en">Sunday Television Shop</title>
+    <title lang="ja">サンデーテレショップ</title>
+    <desc lang="en">An informational program sent on Sunday mornings. Get deals delivered directly to your home.</desc>
+    <desc lang="ja">日曜日の朝に送る情報番組。お得な情報をダイレクトに皆様の家庭にお届けします。</desc>
+  </programme>
+  <programme start="20260927063000 +0900" stop="20260927070000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Tōku e Ikitai: [Muratsu Tsuyoshi] Aki Nada and Bishima Kaido, from Hiroshima and Kure to the island of smiles</title>
+    <title lang="ja">遠くへ行きたい【村雨辰剛】安芸灘とびしま海道、広島・呉から微笑みの島へ🈖🈑</title>
+    <desc lang="en">Explore the beautiful landscapes and islands of the Seto Inland Sea. Discover the beauty of Japan at the Daiwa Museum. There is also a naval gourmet that Wu is proud of.</desc>
+    <desc lang="ja">瀬戸内の美しい風景と島めぐり。大和ミュージアムでは日本の美に出会う。呉自慢の海軍グルメも。安芸灘に浮かぶ「庭の島」、レトロな港町、人情溢れる島の暮らしに触れる。</desc>
+  </programme>
   <programme start="20260927063500 +0900" stop="20260927070000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">NHK Haiku: Title "Edamame"</title>
     <title lang="ja">ＮＨＫ俳句　題「枝豆」</title>
@@ -2205,6 +3531,12 @@
     <category lang="en">Lifelong education/qualifications</category>
     <category lang="ja">趣味/教育</category>
     <category lang="ja">生涯教育・資格</category>
+  </programme>
+  <programme start="20260927064500 +0900" stop="20260927070000 +0900" channel="TBS_jp">
+    <title lang="en">JNN News</title>
+    <title lang="ja">JNNニュース🈐</title>
+    <desc lang="en">Here's the latest news.</desc>
+    <desc lang="ja">最新のニュースをお伝えします。</desc>
   </programme>
   <programme start="20260927065300 +0900" stop="20260927065500 +0900" channel="NHK東京・総合_jp">
     <title lang="en">Weather Information</title>
@@ -2236,6 +3568,26 @@
     <category lang="ja">ドキュメンタリー/教養</category>
     <category lang="ja">自然・動物・環境</category>
   </programme>
+  <programme start="20260927070000 +0900" stop="20260927073000 +0900" channel="テレ東_jp">
+    <title lang="en">Animori!</title>
+    <title lang="ja">アニもり！🈑</title>
+    <desc lang="en">Popular short anime, too, Rida-kun! "Little 3 Ashibe QQ Sesame-chan" "Odegakiko Shame (Season 2)...</desc>
+    <desc lang="ja">話題のショートアニメもりだくさん！ 「小3アシベ QQゴマちゃん」「おでかけ子ザメ（シーズン2）」「ラブル＆クルー」「プラノサウルス ガチコセイブツ部」ほか</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
+  <programme start="20260927070000 +0900" stop="20260927073000 +0900" channel="TBS_jp">
+    <title lang="en">Health capsule! Genki's time [The point is chronic kidney disease learned from a famous doctor "Octopod cells"]</title>
+    <title lang="ja">健康カプセル！ゲンキの時間🈖🈑【ポイントは“タコ足細胞” 名医に学ぶ慢性腎臓病】</title>
+    <desc lang="en">"Chronic kidney disease", in which the kidneys continue to function poorly or are impaired, is a disease that should be noted now.</desc>
+    <desc lang="ja">腎臓の機能低下や障害が続く「慢性腎臓病」は、今注目すべき病気です。そこで今回は、タコ足細胞を守り、慢性腎臓病を防ぐ方法を教えてもらいます。</desc>
+  </programme>
+  <programme start="20260927070000 +0900" stop="20260927073000 +0900" channel="日本テレビ_jp">
+    <title lang="en">Tokoro-san no Me ga Ten!: The information revolution of 2000 years ago!? Make the parchment that inspired the book!</title>
+    <title lang="ja">所さんの目がテン！🈑2000年前の情報革命!?本の元となった羊皮紙を作れ！</title>
+    <desc lang="en">From clay tablets and papyrus, to books that turn the page! Why did sheepskin parchment spread?</desc>
+    <desc lang="ja">粘土板やパピルスから、ページをめくる本へ！羊の皮を使った羊皮紙が広まった理由とは？ヨーロッパ企画・石田が石灰岩を900℃の窯で焼き続ける過酷な手作り羊皮紙に挑む</desc>
+  </programme>
   <programme start="20260927070000 +0900" stop="20260927074000 +0900" channel="NHK東京・総合_jp">
     <title lang="en">NHK News: Good Morning Japan</title>
     <title lang="ja">ＮＨＫニュース　おはよう日本</title>
@@ -2251,6 +3603,14 @@
     <category lang="ja">特集・ドキュメント</category>
     <category lang="ja">スポーツ</category>
     <category lang="ja">スポーツニュース</category>
+  </programme>
+  <programme start="20260927070000 +0900" stop="20260927085500 +0900" channel="フジテレビ_jp">
+    <title lang="en">Sunday Blake: Shosuke Tanihara x Masayuki Suzuki's Conversation! The Secret Story of Meeting That Diva — New</title>
+    <title lang="ja">SUNDAYブレイク． 谷原章介×鈴木雅之対談！“あの歌姫”との出会い秘話🈑🈕🈓</title>
+    <desc lang="en">A conversation between Shosuke Tanihara and Masayuki Suzuki! The secret story of the encounter with "that diva"▽ USJ Halloween dance was performed by Naomi Kobayashi, the third...</desc>
+    <desc lang="ja">谷原章介×鈴木雅之対談！“あの歌姫”との出会い秘話▽USJハロウィーンダンスを三代目小林直己がオズワルド伊藤に伝授！？▽“旅の祭典”最新トレンドは？</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
   </programme>
   <programme start="20260927071000 +0900" stop="20260927072000 +0900" channel="NHK東京・教育_jp">
     <title lang="en">Darwin! The Survivors Battle Masters "Beware! Rocket Jump Showdown"</title>
@@ -2290,6 +3650,27 @@
     <category lang="ja">音楽</category>
     <category lang="ja">童謡・キッズ</category>
   </programme>
+  <programme start="20260927073000 +0900" stop="20260927080000 +0900" channel="TBS_jp">
+    <title lang="en">Gacchiri Monday!!: !! GO Kawanabe is acclaimed! 26 years old, President Jim &amp; the industry is shocked! Mysterious black box with trumpet sound extinguished</title>
+    <title lang="ja">がっちりマンデー‼GO川鍋が絶賛！26歳㊙ジム社長＆業界激震！ラッパ音消す謎黒箱🈑</title>
+    <desc lang="en">The presidents of a great company that the show found at a local presentation competition!</desc>
+    <desc lang="ja">番組が地方プレゼン大会でみつけたスゴい会社の社長たち！1日1店舗増えてる⁉超急成長の激安無人ジムのカラクリ！トランペットの先に着けると音が消える謎の黒い箱⁉</desc>
+  </programme>
+  <programme start="20260927073000 +0900" stop="20260927083000 +0900" channel="テレ東_jp">
+    <title lang="en">Where Are We Going with Pokémon!?: [Suisute Otoi and "Poko Poke" feature!]</title>
+    <title lang="ja">ポケモンとどこいく！？【すいすて音井ちゃんと“ぽこポケ”特集！】🈑🈓</title>
+    <desc lang="en">BOOOOOOO underwater exploration in this city! The cute Kodak made by Otoi-chan as the Pokémon swim cute...</desc>
+    <desc lang="ja">ブクブクうみぞこの街で水中探検！ポケモンたちが可愛く泳ぐ姿に、音井ちゃんが作るコダックの可愛いおうち。推しポケモンのキュートな寝姿に音井ちゃんもうっとり♪ハナコ</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+    <category lang="en">Special</category>
+  </programme>
+  <programme start="20260927073000 +0900" stop="20260927102500 +0900" channel="日本テレビ_jp">
+    <title lang="en">Shuichi: Inokari Aoya also praised it! Soy Milk Oden &amp; Sweets Virtue Recipe by Matsuya ONOE▽ and others</title>
+    <title lang="ja">シューイチ🈑🈓猪狩蒼弥も絶賛！豆乳おでん＆スイーツ▽背徳レシピを尾上松也らが堪能</title>
+    <desc lang="en">Protect Tokyo from urban flooding! Which country would you like to infiltrate Zhongshan into▽ an underground giant tunnel?</desc>
+    <desc lang="ja">都市型水害から東京を守る！地下巨大トンネルに中山潜入▽行きたい国は？世界最大級の旅の祭典▽絶品背徳レシピ！尾上松也&amp;和久田麻由子が堪能▽秋山＆平子が富山から中継</desc>
+  </programme>
   <programme start="20260927074000 +0900" stop="20260927074500 +0900" channel="NHK東京・総合_jp">
     <title lang="en">NHK News: Good Morning Shutoken: Kanto Koshinetsu</title>
     <title lang="ja">ＮＨＫニュース　おはよう首都圏（関東甲信越）</title>
@@ -2315,5 +3696,138 @@
     <category lang="ja">自然・動物・環境</category>
     <category lang="ja">趣味/教育</category>
     <category lang="ja">旅・釣り・アウトドア</category>
+  </programme>
+  <programme start="20260927080000 +0900" stop="20260927080100 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Kopen-chan # 78</title>
+    <title lang="ja">コウペンちゃん ＃78🈑</title>
+    <desc lang="en"># 78 "HANAMARU approval department" Find everyone's small canvas and have a great day!</desc>
+    <desc lang="ja">＃78「はなまる承認部」 はたらくみんなの小さながんばりを見つけて、今日もえらい！</desc>
+    <episode-num system="onscreen">78</episode-num>
+  </programme>
+  <programme start="20260927080000 +0900" stop="20260927081500 +0900" channel="NHK・BS_jp">
+    <title lang="en">Serial TV Novel: Himawari — (133) "Chapter 12: Is it pitiful to travel with others?"</title>
+    <title lang="ja">【連続テレビ小説】ひまわり（１３３）「第十二章旅は道連れ世は情け？」</title>
+    <desc lang="en">Nozomi (Nanako Matsushima) returned to Fukushima from Tatsuya (Masaru Endo) to Azusa (Mari Natsuki) and Akamatsu (Eiji Okuda) ...</desc>
+    <desc lang="ja">福島に戻ってきたのぞみ（松嶋菜々子）は、達也（遠藤雅）からあづさ（夏木マリ）と赤松（奥田瑛二）の関係を聞かされる。迷いを断ち切るように、のぞみはあづさに電話して二人を祝福する。裁判所研修の調停は、子供を引き渡す日を迎えた。デリケートな場になるので、星野（上川隆也）は万一に備えスタンバイ。しかし、案の定、父・健一（三井善忠）と母・勝子（神野三鈴）が子供を奪い合うはげしい口論になり、のぞみは動揺する。</desc>
+    <episode-num system="onscreen">133</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+  </programme>
+  <programme start="20260927080000 +0900" stop="20260927082500 +0900" channel="NHK東京・教育_jp">
+    <title lang="en">Veggie Garden: Choice of premium garlic</title>
+    <title lang="ja">やさいの時間　選プレミアム　ニンニク</title>
+    <desc lang="en">Carefully selected garlic cultivation techniques from past archives.</desc>
+    <desc lang="ja">ニンニクの栽培テクニックを過去のアーカイブから厳選。畑は、杉浦太陽＆長沢裕さんが出演した２０１７年放送「太陽のベジ・ガーデン　お手軽野菜　ニンニク」講師：藤田智（恵泉女学園教授・当時）、司会：川瀬良子。プランターは、渡辺満里奈さんが出演した２０１８年放送「満里奈の毎日プランター！じっくりニンニク」講師：深町貴子（園芸家）を蔵出し。当時の内容を再構成してお届けする。語り：宮島史年</desc>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Gardening, pets, handicrafts</category>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Lifestyle/Housing</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">園芸・ペット・手芸</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">暮らし・住まい</category>
+  </programme>
+  <programme start="20260927080000 +0900" stop="20260927082500 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">A Small Journey: "Invigorating Mind ~ Yusa Town, Yamagata Prefecture ~"</title>
+    <title lang="ja">小さな旅「心　うるおす　～山形県　遊佐町～」</title>
+    <desc lang="en">Yusa Town, Yamagata Prefecture, overlooking the Sea of Japan, has become a spring of rain and snow on Mt. Chokai, and has been supporting people's lives with "spring water...</desc>
+    <desc lang="ja">日本海をのぞむ山形県遊佐町は、鳥海山に降った雨や雪が湧き水となり、人々の暮らしを支えてきた「湧水の里」。旅人・藤井彩子が湧き水を利用した共同洗い場で出会った女性。この春に亡くなった夫が残した家庭菜園を生きがいに暮らす。鳥海山のふもとの集落を訪ねると、公営の水道ではなく、住民たちが管理する水道を使っているという。鳥海山の湧き水を水源とするこの水道はどのように生まれたのか。湧き水と人生をめぐる物語。</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">History &amp; Journeys</category>
+    <category lang="en">Society/Current Events</category>
+    <category lang="en">Culture &amp; Traditional Culture</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">歴史・紀行</category>
+    <category lang="ja">社会・時事</category>
+    <category lang="ja">カルチャー・伝統文化</category>
+  </programme>
+  <programme start="20260927080000 +0900" stop="20260927095400 +0900" channel="TBS_jp">
+    <title lang="en">Sunday Morning: What was said at the ▽US-China summit meeting The scars of heavy rain damage such as▽ Chiba</title>
+    <title lang="ja">サンデーモーニング🈑▽米中首脳会談で何が語られたのか▽千葉など豪雨被害の爪痕</title>
+    <desc lang="en">▽US-China Leaders' Meeting President Trump and President Xi Jinping's Thoughtful Imperial Pool ▽Collapses, Damage Expands, Typhoon No. 25's Claw Marks...</desc>
+    <desc lang="ja">▽米中首脳会談 トランプ大統領・習近平国家主席の思惑 ▽印旛沼が決壊 被害が拡大台風25号の爪痕 ▽ビール類の税率一元化へ</desc>
+    <category lang="en">Sports</category>
+    <category lang="ja">スポーツ</category>
+  </programme>
+  <programme start="20260927080100 +0900" stop="20260927083000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Yay! With a star! Tobida School Don't Do Omoro Cute Facial Gymnastics!</title>
+    <title lang="ja">よ〜い！スターと！トビダスクール しなことオモロかわいい顔体操！🈓🈑</title>
+    <desc lang="en">A ☆brand new school entertainment by Takeshita Paradisu, Shinako, and Madamada!</desc>
+    <desc lang="ja">竹下☆ぱらだいす、しなこ、MADAMADAによる全く新しい学園エンターテインメント！誰もが持っている＜自分だけのスター性＞を見つけるために「よ〜い！スターと！」</desc>
+  </programme>
+  <programme start="20260927081500 +0900" stop="20260927083000 +0900" channel="NHK・BS_jp">
+    <title lang="en">Serial TV Novel: Himawari — (134) "Chapter 12: Is it pitiful to travel with others?"</title>
+    <title lang="ja">【連続テレビ小説】ひまわり（１３４）「第十二章旅は道連れ世は情け？」</title>
+    <desc lang="en">Toru (Nori Terasen) came to Fukushima to meet Keiko (Jun Fubuki).</desc>
+    <desc lang="ja">徹（寺泉憲）は桂子（風吹ジュン）に会いに福島に来た。桂子はその意味を察し、達也（遠藤雅）に会うのはあと１度だけにすると約束する。そして達也のことを、婚約していた赤松との子だと偽って結婚していたことを告白する。のぞみ（松嶋菜々子）は、調停の場でのショックから立ち直れず、裁判官に必要な冷静な判断力とバランス感覚がないと痛感する。星野（上川隆也）になぐさめられるが、のぞみは修習後の進路が思い浮かばない。</desc>
+    <episode-num system="onscreen">134</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+  </programme>
+  <programme start="20260927082500 +0900" stop="20260927083000 +0900" channel="NHK東京・教育_jp">
+    <title lang="en">A hobby of gardening Green style Kyoto is also a day of sunshine Shimariya style Shimmering refreshing autumn</title>
+    <title lang="ja">趣味の園芸グリーンスタイル　京も一日陽だまり屋　風そよぐ　さわやかな秋</title>
+    <desc lang="en">Yodamariya is a gardening shop located in the back alley of Kyoto. The fun of plants, the fun of growing, papercarts (paper dolls)...</desc>
+    <desc lang="ja">京都の路地裏にある園芸店「陽だまり屋」。植物のおもしろさ、育てる楽しさを、ペープサート（紙人形）で紹介している。この日は、夏の恋にやぶれた青年が来店。花の美しさがわかってくれば、女性の気持ちにも寄り添えると、コノハはこっそり指導を開始。いつの間にか風そよぐ秋の寄せ植えが完成していく。脚本／声の出演）劇団ヨーロッパ企画</desc>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Gardening, pets, handicrafts</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">園芸・ペット・手芸</category>
+  </programme>
+  <programme start="20260927082500 +0900" stop="20260927085000 +0900" channel="NHK東京・総合_jp">
+    <title lang="en">Deer Nippon "Deeper Blue than Yesterday: Noto Newcomer Ama Summer"</title>
+    <title lang="ja">Ｄｅａｒにっぽん「きのうより深い青へ　～能登　新人海女の夏～」</title>
+    <desc lang="en">Wajima's ama fishing has been handed down in the rich waters of Noto for more than 400 years.</desc>
+    <desc lang="ja">能登の豊かな海で４００年以上受け継がれてきた輪島の海女漁。加川杏奈さん（２４）は、この地域で５年ぶりに誕生した期待の新人だ。能登半島地震で被災し、家族と仮設住宅での暮らしを続けながら、身一つで漁を行う伝統の技を学んでいる。この夏挑んだのは、ベテラン海女でもとるのが難しい“海の宝石”アワビ。海底に潜む大物をつかみとることはできるのか？復興を目指す漁師町で成長を誓う新人海女、奮闘の日々を追う。　</desc>
+    <category lang="en">Documentary / Education</category>
+    <category lang="en">General Documentary</category>
+    <category lang="ja">ドキュメンタリー/教養</category>
+    <category lang="ja">ドキュメンタリー全般</category>
+  </programme>
+  <programme start="20260927083000 +0900" stop="20260927084500 +0900" channel="NHK・BS_jp">
+    <title lang="en">Serial TV Novel: Himawari — (135) "Chapter 12: Is it pitiful to travel with others?"</title>
+    <title lang="ja">【連続テレビ小説】ひまわり（１３５）「第十二章旅は道連れ世は情け？」</title>
+    <desc lang="en">Kenichi (Yoshitada Mitsui) refuses to let Katsuko see his child.</desc>
+    <desc lang="ja">健一（三井善忠）は勝子に子供を会わせることを拒否する。のぞみ（松嶋菜々子）は、子供の心の成長のために月に１度でも会わせられないか、と食い下がるが拒絶される。桂子（風吹ジュン）は達也（遠藤雅）に別れを告げる。「これしか思いつかなかった」とお金の入った封筒を差し出され、達也は戸惑う。赤松（奥田瑛二）は、訪ねてきた徹（寺泉憲）と酒を酌み交わしながら、あづさ（夏木マリ）とのことを打ち明けるが…。</desc>
+    <episode-num system="onscreen">135</episode-num>
+    <category lang="en">Drama</category>
+    <category lang="en">Domestic Drama</category>
+    <category lang="ja">ドラマ</category>
+    <category lang="ja">国内ドラマ</category>
+  </programme>
+  <programme start="20260927083000 +0900" stop="20260927085500 +0900" channel="NHK東京・教育_jp">
+    <title lang="en">Brilliant autumn gardening hobby: Katoou</title>
+    <title lang="ja">趣味の園芸　華麗に秋を演出！ケイトウ</title>
+    <desc lang="en">Color the autumn flowerbed with the vivid floral color of a flame, and the "Kato" has been familiar since ancient times.</desc>
+    <desc lang="ja">炎のような鮮やかな花色で秋の花壇を彩り、古くから親しまれている“ケイトウ”。その名の通り、トサカに似たものもあれば、細長い円錐形のもの、球状のものなど形もさまざま。とて存在感があるので、庭の主役にもなるし、寄せ植えにもピッタリ。さらに、暑さに強く初心者でも簡単に育てられる。ケイトウの魅力を寄せ植えのスペシャリストでもある園芸家・上田広樹さんに教えて頂く。</desc>
+    <category lang="en">Hobbies / Education</category>
+    <category lang="en">Gardening, pets, handicrafts</category>
+    <category lang="en">Information / Talk</category>
+    <category lang="en">Lifestyle/Housing</category>
+    <category lang="ja">趣味/教育</category>
+    <category lang="ja">園芸・ペット・手芸</category>
+    <category lang="ja">情報/ワイドショー</category>
+    <category lang="ja">暮らし・住まい</category>
+  </programme>
+  <programme start="20260927083000 +0900" stop="20260927090000 +0900" channel="テレ東_jp">
+    <title lang="en">Tomipura World Norinori Times!!</title>
+    <title lang="ja">トミプラワールドのりのりタイムズ！！🈑</title>
+    <desc lang="en">A huge collection of cars, trains, and popular attractions! Unusual footage, fun songs, dance and anime, and Thailand's favorite zetta...</desc>
+    <desc lang="ja">車や電車、人気ののりもの大集合！めずらしい映像、楽しい歌とダンスやアニメでのりタイのりものゼッタイ見つかる！のりもの情報キッズバラエティ</desc>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
+  </programme>
+  <programme start="20260927083000 +0900" stop="20260927090000 +0900" channel="テレビ朝日_jp">
+    <title lang="en">Detective Pretty Cure! # 35 Love Detective</title>
+    <title lang="ja">名探偵プリキュア！ ＃35 恋の名探偵🈓🈑</title>
+    <desc lang="en">"Detective" pre-cure is born!! Nazo! Cuatto solved!</desc>
+    <desc lang="ja">「探偵」のプリキュアが誕生！！そのナゾ！キュアット解決！</desc>
+    <episode-num system="onscreen">35</episode-num>
+    <category lang="en">Anime / Tokusatsu</category>
+    <category lang="ja">アニメ／特撮</category>
   </programme>
 </tv>

@@ -6,6 +6,10 @@ from typing import Protocol
 from ..models import Programme
 
 
+class SourceError(RuntimeError):
+    pass
+
+
 class ScheduleSource(Protocol):
     name: str
 

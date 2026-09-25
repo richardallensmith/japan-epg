@@ -5,6 +5,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .fetch.bangumi import BangumiSource
 from .fetch.nhk import NHKTimetableSource
 from .models import XmltvChannel
 from .normalize import deduplicate
@@ -45,9 +46,11 @@ def build(args: argparse.Namespace) -> dict:
                 f"Playlist changed for {key}: tvg-id is {playlist_channel.tvg_id!r}, expected {expected_id!r}. "
                 "Refusing to generate a mismatched feed."
             )
-        if config["source"] != "nhk":
-            raise RuntimeError(f"Unsupported source {config['source']!r} for {key}")
-        source = NHKTimetableSource(**config["source_options"])
+        source_factories = {"nhk": NHKTimetableSource, "bangumi": BangumiSource}
+        try:
+            source = source_factories[config["source"]](**config["source_options"])
+        except KeyError as exc:
+            raise RuntimeError(f"Unsupported source {config['source']!r} for {key}") from exc
         source_names.add(source.name)
         programmes.extend(source.fetch(channel_id=playlist_channel.tvg_id, now=now, days=args.days))
         expected_ids.add(expected_id)

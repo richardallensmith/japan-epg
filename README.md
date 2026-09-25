@@ -1,8 +1,8 @@
 # Japan EPG
 
-An English-first XMLTV generator for Japanese IPTV players. The current feed covers **NHK G Tokyo**, **NHK E Tokyo**, and **NHK BS**, preserving the original Japanese metadata alongside translated English metadata.
+An English-first XMLTV generator for Japanese IPTV players. The current feed covers the three core NHK services plus the five major Tokyo commercial networks, preserving the original Japanese metadata alongside translated English metadata.
 
-The playlist remains the authority for channel identity. The generator refuses to write a feed if the live playlist's NHK G ID differs from the configured, reviewed value.
+The playlist remains the authority for channel identity. The generator refuses to write a feed if any live playlist ID differs from its configured, reviewed value.
 
 ## Current channels
 
@@ -11,10 +11,15 @@ The playlist remains the authority for channel identity. The generator refuses t
 | NHK G | `NHK東京・総合_jp` | NHK Tokyo area `130`, service `g1` |
 | NHK E | `NHK東京・教育_jp` | NHK Tokyo area `130`, service `e1` |
 | NHK BS | `NHK・BS_jp` | NHK Tokyo area `130`, service `s1` |
+| NTV | `日本テレビ_jp` | G.GUIDE Tokyo, station `日テレ1` |
+| TV Asahi | `テレビ朝日_jp` | G.GUIDE Tokyo, station `テレビ朝日` |
+| TBS | `TBS_jp` | G.GUIDE Tokyo, station `TBS1` |
+| TV Tokyo | `テレ東_jp` | G.GUIDE Tokyo, station `テレ東` |
+| Fuji TV | `フジテレビ_jp` | G.GUIDE Tokyo, station `フジテレビ` |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
-Primary listings source: NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. The adapter is isolated in `src/fetch/nhk.py` so another source can be added without changing normalization, translation, XML generation, or validation.
+NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. Commercial listings come from G.GUIDE's broadcaster-supplied Tokyo schedule at <https://bangumi.org/epg/td>. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
 
 ## Generate and validate
 
@@ -52,7 +57,7 @@ Translation is layered in this order:
 
 The full Japanese title and full Japanese description from NHK are always retained. The English description is intentionally a concise translated summary (48 Japanese characters by default) to keep the no-key first-run translation volume reasonable. Increase `--description-chars` when using a higher-quota setup.
 
-The default fallback provider is the public MyMemory API. Results are stored in `cache/translations.json`, making future refreshes stable and reducing external requests. Set `MYMEMORY_EMAIL` to an email accepted by that provider for its identified-user quota. Text sent for a cache miss is shared with that provider; replace `MyMemoryProvider` or pre-fill manual overrides if that is undesirable.
+The fallback layer is a replaceable provider chain using Google Translate's public endpoint and MyMemory. Results are stored in `cache/translations.json`, making future refreshes stable and reducing external requests. The workflow identifies the public project with the repository owner's GitHub no-reply address for MyMemory's documented higher quota; set a `MYMEMORY_EMAIL` repository secret to override it. Text sent for a cache miss is shared with the provider; replace the providers or pre-fill manual overrides if that is undesirable.
 
 Do not silently map a mistranslated proper name in code. Add a reviewed title/description override so future rebuilds remain deterministic.
 
@@ -107,6 +112,6 @@ ENABLE_PAGES_PUBLISH=true
 
 Use the published `epg.xml` URL directly as an EPG source in TiviMate or Sparkle.
 
-## Expansion
+## Further expansion
 
-Add channel records under `config/channels.yaml`, then implement or reuse a `ScheduleSource` adapter. NHK E and NHK BS reuse the official NHK adapter. NTV, TV Asahi, TBS, TV Tokyo, and Fuji TV remain the next expansion milestone and will require a reputable non-NHK listings adapter.
+Add channel records under `config/channels.yaml`, then implement or reuse a schedule adapter under `src/fetch/`. Keep each playlist ID pinned and covered by an offline fixture test before enabling the channel.

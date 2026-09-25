@@ -1,6 +1,7 @@
 import unittest
 
-from src.fetch.nhk import NHKTimetableSource, SourceError
+from src.fetch.base import SourceError
+from src.fetch.nhk import NHKTimetableSource
 
 
 class NHKSourceTests(unittest.TestCase):

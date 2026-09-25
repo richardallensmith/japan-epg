@@ -7,6 +7,7 @@ import re
 import time
 import unicodedata
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
@@ -28,9 +29,19 @@ class MyMemoryProvider:
     name = "MyMemory"
     endpoint = "https://api.mymemory.translated.net/get"
 
-    def __init__(self, timeout: int = 30, delay: float = 0.12):
+    def __init__(
+        self,
+        timeout: int = 30,
+        delay: float = 0.8,
+        max_attempts: int = 5,
+        retry_backoff: float = 3.0,
+        max_retry_delay: float = 30.0,
+    ):
         self.timeout = timeout
         self.delay = delay
+        self.max_attempts = max_attempts
+        self.retry_backoff = retry_backoff
+        self.max_retry_delay = max_retry_delay
 
     def translate(self, text: str) -> str:
         params = {"q": text, "langpair": "ja|en"}
@@ -40,11 +51,25 @@ class MyMemoryProvider:
             f"{self.endpoint}?{urlencode(params)}",
             headers={"User-Agent": "Japan-EPG/1.0 (+XMLTV generator)"},
         )
-        try:
-            with urlopen(request, timeout=self.timeout) as response:
-                payload = json.loads(response.read().decode("utf-8"))
-        except Exception as exc:
-            raise TranslationError(f"MyMemory request failed: {exc}") from exc
+        payload = None
+        for attempt in range(1, self.max_attempts + 1):
+            try:
+                with urlopen(request, timeout=self.timeout) as response:
+                    payload = json.loads(response.read().decode("utf-8"))
+                break
+            except HTTPError as exc:
+                if exc.code != 429 or attempt == self.max_attempts:
+                    raise TranslationError(f"MyMemory request failed: {exc}") from exc
+                retry_after = exc.headers.get("Retry-After") if exc.headers else None
+                try:
+                    wait_seconds = float(retry_after) if retry_after else self.retry_backoff * (2 ** (attempt - 1))
+                except ValueError:
+                    wait_seconds = self.retry_backoff * (2 ** (attempt - 1))
+                time.sleep(min(wait_seconds, self.max_retry_delay))
+            except Exception as exc:
+                raise TranslationError(f"MyMemory request failed: {exc}") from exc
+        if payload is None:
+            raise TranslationError("MyMemory request failed without a response")
         if payload.get("responseStatus") != 200 or payload.get("quotaFinished"):
             raise TranslationError(f"MyMemory rejected translation: {payload.get('responseDetails') or payload}")
         result = (payload.get("responseData") or {}).get("translatedText", "").strip()
@@ -52,6 +77,61 @@ class MyMemoryProvider:
             raise TranslationError("MyMemory returned no usable translation")
         time.sleep(self.delay)
         return result
+
+
+class GoogleTranslateProvider:
+    """Secondary no-key MT provider for uncached variable text."""
+
+    name = "Google Translate"
+    endpoint = "https://translate.googleapis.com/translate_a/single"
+
+    def __init__(self, timeout: int = 30, delay: float = 0.35):
+        self.timeout = timeout
+        self.delay = delay
+
+    def translate(self, text: str) -> str:
+        params = {"client": "gtx", "sl": "ja", "tl": "en", "dt": "t", "q": text}
+        request = Request(
+            f"{self.endpoint}?{urlencode(params)}",
+            headers={"User-Agent": "Japan-EPG/1.0 (+XMLTV generator)"},
+        )
+        try:
+            with urlopen(request, timeout=self.timeout) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+            result = "".join(part[0] for part in payload[0] if part and part[0]).strip()
+        except Exception as exc:
+            raise TranslationError(f"Google Translate request failed: {exc}") from exc
+        if not result:
+            raise TranslationError("Google Translate returned no usable translation")
+        time.sleep(self.delay)
+        return result
+
+
+class ProviderChain:
+    """Try replaceable MT providers in order and stop retrying one that fails."""
+
+    def __init__(self, providers):
+        self.providers = list(providers)
+        self.disabled: set[int] = set()
+        self._last_name = "provider chain"
+
+    @property
+    def name(self) -> str:
+        return self._last_name
+
+    def translate(self, text: str) -> str:
+        errors = []
+        for index, provider in enumerate(self.providers):
+            if index in self.disabled:
+                continue
+            try:
+                result = provider.translate(text)
+                self._last_name = provider.name
+                return result
+            except TranslationError as exc:
+                self.disabled.add(index)
+                errors.append(str(exc))
+        raise TranslationError("All machine-translation providers failed: " + "; ".join(errors))
 
 
 class TranslationCache:
@@ -111,7 +191,7 @@ class TranslationEngine:
         self.manual_descriptions = manual_data.get("description", {})
         self.genre_overrides = manual_data.get("genre", {})
         self.cache = TranslationCache(cache_path)
-        self.provider = provider or MyMemoryProvider()
+        self.provider = provider or ProviderChain([GoogleTranslateProvider(), MyMemoryProvider(max_attempts=2)])
         self.description_limit = description_limit
 
     @staticmethod
@@ -210,7 +290,11 @@ class TranslationEngine:
         cached = self.cache.get(kind, text)
         if cached:
             return self._clean_english(cached)
-        result = self._clean_english(self.provider.translate(text))
+        try:
+            result = self._clean_english(self.provider.translate(text))
+        except TranslationError as exc:
+            excerpt = text if len(text) <= 80 else text[:77] + "..."
+            raise TranslationError(f"Unable to translate {kind} text {excerpt!r}: {exc}") from exc
         self.cache.put(kind, text, result, self.provider.name)
         self.cache.save()  # retain progress if a later request fails
         return result
@@ -227,7 +311,7 @@ class TranslationEngine:
             return f"{marker_text} — {translated}" if translated else marker_text
         return translated
 
-    def title(self, text: str) -> str:
+    def _title_without_broadcast_markers(self, text: str) -> str:
         if text in self.manual_titles:
             return self.manual_titles[text]
         if text in self.exact_titles:
@@ -251,6 +335,26 @@ class TranslationEngine:
         if cached:
             return self._clean_english(cached)
         return self._machine("title", text)
+
+    def title(self, text: str) -> str:
+        marker_labels = []
+        markers = {
+            "🈞": "Repeat",
+            "🈢": "Live",
+            "🈡": "Finale",
+            "🈕": "New",
+        }
+        cleaned = text
+        for symbol, label in markers.items():
+            if symbol in cleaned:
+                marker_labels.append(label)
+            cleaned = cleaned.replace(symbol, "")
+        for symbol in ("🈀", "🈑", "🈓", "🈖", "🈐", "🈔", "🈙", "🈚", "🈒", "🅂"):
+            cleaned = cleaned.replace(symbol, "")
+        result = self._title_without_broadcast_markers(cleaned.strip())
+        if marker_labels:
+            result += " — " + ", ".join(marker_labels)
+        return result
 
     def _description_excerpt(self, text: str) -> str:
         if len(text) <= self.description_limit:

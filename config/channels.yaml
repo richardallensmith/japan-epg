@@ -35,6 +35,51 @@
         "area": "130",
         "service": "s1"
       }
+    },
+    "ntv_tokyo": {
+      "enabled": true,
+      "playlist_name": "NTV",
+      "expected_tvg_id": "日本テレビ_jp",
+      "display_name_en": "NTV",
+      "display_name_ja": "日本テレビ",
+      "source": "bangumi",
+      "source_options": {"station": "日テレ1"}
+    },
+    "tv_asahi_tokyo": {
+      "enabled": true,
+      "playlist_name": "TV Asahi",
+      "expected_tvg_id": "テレビ朝日_jp",
+      "display_name_en": "TV Asahi",
+      "display_name_ja": "テレビ朝日",
+      "source": "bangumi",
+      "source_options": {"station": "テレビ朝日"}
+    },
+    "tbs_tokyo": {
+      "enabled": true,
+      "playlist_name": "TBS",
+      "expected_tvg_id": "TBS_jp",
+      "display_name_en": "TBS",
+      "display_name_ja": "TBSテレビ",
+      "source": "bangumi",
+      "source_options": {"station": "TBS1"}
+    },
+    "tv_tokyo": {
+      "enabled": true,
+      "playlist_name": "TV Tokyo",
+      "expected_tvg_id": "テレ東_jp",
+      "display_name_en": "TV Tokyo",
+      "display_name_ja": "テレビ東京",
+      "source": "bangumi",
+      "source_options": {"station": "テレ東"}
+    },
+    "fuji_tv_tokyo": {
+      "enabled": true,
+      "playlist_name": "Fuji TV",
+      "expected_tvg_id": "フジテレビ_jp",
+      "display_name_en": "Fuji TV",
+      "display_name_ja": "フジテレビ",
+      "source": "bangumi",
+      "source_options": {"station": "フジテレビ"}
     }
   }
 }
