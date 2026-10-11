@@ -161,6 +161,87 @@
       "display_name_ja": "BS12トゥエルビ",
       "source": "bangumi",
       "source_options": {"station": "BS12ト", "lineup": "bs", "station_line": 13}
+    },
+    "nhk_g_osaka": {
+      "enabled": true,
+      "playlist_name": "NHK G Osaka",
+      "expected_tvg_id": "NHK大阪・総合_jp",
+      "display_name_en": "NHK G Osaka",
+      "display_name_ja": "NHK総合1・大阪",
+      "source": "nhk",
+      "source_options": {"area": "270", "service": "g1"}
+    },
+    "nhk_e_osaka": {
+      "enabled": true,
+      "playlist_name": "NHK E Osaka",
+      "expected_tvg_id": "NHK大阪・教育_jp",
+      "display_name_en": "NHK E Osaka",
+      "display_name_ja": "NHK Eテレ1・大阪",
+      "source": "nhk",
+      "source_options": {"area": "270", "service": "e1"}
+    },
+    "mbs": {
+      "enabled": true,
+      "playlist_name": "MBS",
+      "expected_tvg_id": "毎日テレビ_jp",
+      "display_name_en": "MBS",
+      "display_name_ja": "MBS毎日放送",
+      "source": "bangumi",
+      "source_options": {"station": "MBS", "lineup": "osaka"}
+    },
+    "abc_tv": {
+      "enabled": true,
+      "playlist_name": "ABC",
+      "expected_tvg_id": "ABCテレビ_jp",
+      "display_name_en": "ABC TV",
+      "display_name_ja": "ABCテレビ",
+      "source": "bangumi",
+      "source_options": {"station": "ABCテレビ1", "lineup": "osaka"}
+    },
+    "tv_osaka": {
+      "enabled": true,
+      "playlist_name": "TV Osaka",
+      "expected_tvg_id": "テレビ大阪_jp",
+      "display_name_en": "TV Osaka",
+      "display_name_ja": "テレビ大阪",
+      "source": "bangumi",
+      "source_options": {"station": "テレビ大阪1", "lineup": "osaka"}
+    },
+    "kansai_tv": {
+      "enabled": true,
+      "playlist_name": "Kansai TV",
+      "expected_tvg_id": "関西テレビ_jp",
+      "display_name_en": "Kansai TV",
+      "display_name_ja": "関西テレビ",
+      "source": "bangumi",
+      "source_options": {"station": "関西テレビ1", "lineup": "osaka"}
+    },
+    "ytv": {
+      "enabled": true,
+      "playlist_name": "ytv",
+      "expected_tvg_id": "読売テレビ_jp",
+      "display_name_en": "Yomiuri TV",
+      "display_name_ja": "読売テレビ",
+      "source": "bangumi",
+      "source_options": {"station": "読売テレビ1", "lineup": "osaka"}
+    },
+    "sun_tv": {
+      "enabled": true,
+      "playlist_name": "SUN",
+      "expected_tvg_id": "サンテレビ_jp",
+      "display_name_en": "SUN TV",
+      "display_name_ja": "サンテレビ",
+      "source": "bangumi",
+      "source_options": {"station": "サンテレビ1", "lineup": "osaka"}
+    },
+    "kbs_kyoto": {
+      "enabled": true,
+      "playlist_name": "KBS",
+      "expected_tvg_id": "KBS京都_jp",
+      "display_name_en": "KBS Kyoto",
+      "display_name_ja": "KBS京都",
+      "source": "bangumi",
+      "source_options": {"station": "KBS京都", "lineup": "osaka"}
     }
   }
 }

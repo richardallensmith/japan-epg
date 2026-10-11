@@ -1,6 +1,6 @@
 # Japan EPG
 
-An English-first XMLTV generator for Japanese IPTV players. The current feed covers 17 major terrestrial and BS services, preserving the original Japanese metadata alongside translated English metadata.
+An English-first XMLTV generator for Japanese IPTV players. The current feed covers 26 major Tokyo, Kansai, and BS services, preserving the original Japanese metadata alongside translated English metadata.
 
 The playlist remains the authority for channel identity. The generator refuses to write a feed if any live playlist ID differs from its configured, reviewed value.
 
@@ -25,10 +25,19 @@ The playlist remains the authority for channel identity. The generator refuses t
 | BS Fuji | `BSフジ_jp` | G.GUIDE BS, station `BSフジ・181` |
 | BS11 | `BS11-イレブン_jp` | G.GUIDE BS, guarded line 12 |
 | BS12 TwellV | `BS12トゥエルビ_jp` | G.GUIDE BS, guarded line 13 |
+| NHK G Osaka | `NHK大阪・総合_jp` | NHK Osaka area `270`, service `g1` |
+| NHK E Osaka | `NHK大阪・教育_jp` | NHK Osaka area `270`, service `e1` |
+| MBS | `毎日テレビ_jp` | G.GUIDE Osaka, station `MBS` |
+| ABC TV | `ABCテレビ_jp` | G.GUIDE Osaka, station `ABCテレビ1` |
+| TV Osaka | `テレビ大阪_jp` | G.GUIDE Osaka, station `テレビ大阪1` |
+| Kansai TV | `関西テレビ_jp` | G.GUIDE Osaka, station `関西テレビ1` |
+| Yomiuri TV | `読売テレビ_jp` | G.GUIDE Osaka, station `読売テレビ1` |
+| SUN TV | `サンテレビ_jp` | G.GUIDE Osaka, station `サンテレビ1` |
+| KBS Kyoto | `KBS京都_jp` | G.GUIDE Osaka, station `KBS京都` |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
-NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. Commercial listings come from G.GUIDE's broadcaster-supplied [Tokyo terrestrial](https://bangumi.org/epg/td) and [BS](https://bangumi.org/epg/bs) schedules. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
+NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. Commercial listings come from G.GUIDE's broadcaster-supplied [terrestrial](https://bangumi.org/epg/td) and [BS](https://bangumi.org/epg/bs) schedules, using separate Tokyo and Osaka lineups. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
 
 ## Generate and validate
 

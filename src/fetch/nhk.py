@@ -49,6 +49,8 @@ class NHKTimetableSource:
             markers.add("live")
         if "🈡" in title or "最終回" in title:
             markers.add("finale")
+        if any(mark in title for mark in ("🈕", "🈟", "🆕", "[新]", "［新］", "【新】")):
+            markers.add("new")
         if any(mark in title for mark in ("スペシャル", "ＳＰ", "特集")):
             markers.add("special")
         return markers

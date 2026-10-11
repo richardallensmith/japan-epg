@@ -4,8 +4,10 @@ import hashlib
 import json
 import os
 import re
+import tempfile
 import time
 import unicodedata
+import fcntl
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import urlencode
@@ -162,15 +164,35 @@ class TranslationCache:
         self.dirty = True
 
     def save(self) -> None:
-        if self.dirty:
-            self.path.parent.mkdir(parents=True, exist_ok=True)
-            temp = self.path.with_suffix(".tmp")
-            temp.write_text(
-                json.dumps({"version": 1, "entries": self.entries}, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
-            )
-            temp.replace(self.path)
-            self.dirty = False
+        if not self.dirty:
+            return
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        lock_path = self.path.with_suffix(self.path.suffix + ".lock")
+        with lock_path.open("a+") as lock:
+            fcntl.flock(lock.fileno(), fcntl.LOCK_EX)
+            if self.path.exists():
+                disk_payload = json.loads(self.path.read_text(encoding="utf-8"))
+                merged_entries = disk_payload.get("entries", {})
+                merged_entries.update(self.entries)
+                self.entries = merged_entries
+            temp_path = None
+            try:
+                with tempfile.NamedTemporaryFile(
+                    "w",
+                    encoding="utf-8",
+                    dir=self.path.parent,
+                    prefix=f".{self.path.stem}.",
+                    suffix=".tmp",
+                    delete=False,
+                ) as temp:
+                    json.dump({"version": 1, "entries": self.entries}, temp, ensure_ascii=False, indent=2)
+                    temp.write("\n")
+                    temp_path = Path(temp.name)
+                temp_path.replace(self.path)
+                self.dirty = False
+            finally:
+                if temp_path and temp_path.exists():
+                    temp_path.unlink()
 
 
 class TranslationEngine:
@@ -343,6 +365,9 @@ class TranslationEngine:
             "🈢": "Live",
             "🈡": "Finale",
             "🈕": "New",
+            "🈟": "New",
+            "🆕": "New",
+            "㊙": "Secret",
         }
         cleaned = text
         for symbol, label in markers.items():

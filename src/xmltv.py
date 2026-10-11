@@ -48,6 +48,8 @@ def build_xmltv(
             ET.SubElement(programme, "category", {"lang": "en"}).text = marker.title()
         if "repeat" in item.markers:
             ET.SubElement(programme, "previously-shown")
+        if "new" in item.markers:
+            ET.SubElement(programme, "new")
     return ET.ElementTree(root)
 
 

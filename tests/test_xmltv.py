@@ -56,6 +56,13 @@ class XmltvTests(unittest.TestCase):
         self.assertIn(("en", "A & B <News>"), titles)
         self.assertIn(("ja", "A & B <ニュース>"), titles)
 
+    def test_new_marker_uses_xmltv_new_element(self):
+        item = programme()
+        item.markers.add("new")
+        tree = build_xmltv([item], channels=channels(CHANNEL))
+        self.assertIsNotNone(tree.find("programme/new"))
+        self.assertEqual("New", tree.findtext("programme/category[@lang='en']"))
+
     def test_duplicate_prevention(self):
         first = programme()
         result = deduplicate([first, programme()])

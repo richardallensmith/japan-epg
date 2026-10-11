@@ -5,7 +5,7 @@ from pathlib import Path
 from unittest.mock import patch
 from urllib.error import HTTPError
 
-from src.translate import MyMemoryProvider, ProviderChain, TranslationEngine, TranslationError
+from src.translate import MyMemoryProvider, ProviderChain, TranslationCache, TranslationEngine, TranslationError
 
 
 class FakeProvider:
@@ -101,6 +101,24 @@ class TranslateTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             engine = self.make_engine(Path(temp))
             self.assertEqual("Translated 番組", engine.title("番組🈀🈑🈓🈖"))
+
+    def test_new_and_secret_markers_are_rendered_in_english(self):
+        with tempfile.TemporaryDirectory() as temp:
+            engine = self.make_engine(Path(temp))
+            self.assertEqual("Translated 番組 — New, Secret", engine.title("🈟㊙番組"))
+
+    def test_concurrent_cache_snapshots_merge_without_losing_entries(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "translations.json"
+            first = TranslationCache(path)
+            second = TranslationCache(path)
+            first.put("title", "一", "One", "first")
+            second.put("title", "二", "Two", "second")
+            first.save()
+            second.save()
+            merged = TranslationCache(path)
+            self.assertEqual("One", merged.get("title", "一"))
+            self.assertEqual("Two", merged.get("title", "二"))
 
 
 if __name__ == "__main__":

@@ -119,6 +119,7 @@ class BangumiSource:
     name = "G.GUIDE broadcaster-official listings (bangumi.org)"
     endpoints = {
         "tokyo": "https://bangumi.org/epg/td?broad_cast_date={date}&ggm_group_id=42",
+        "osaka": "https://bangumi.org/epg/td?broad_cast_date={date}&ggm_group_id=84",
         "bs": "https://bangumi.org/epg/bs?broad_cast_date={date}",
     }
     _page_cache: dict[tuple[str, str], _BangumiParser] = {}
@@ -165,6 +166,8 @@ class BangumiSource:
             markers.add("live")
         if "🈡" in title or "最終回" in title:
             markers.add("finale")
+        if any(mark in title for mark in ("🈕", "🈟", "🆕", "[新]", "［新］", "【新】")):
+            markers.add("new")
         if any(mark in title for mark in ("スペシャル", "SP", "ＳＰ", "特集")):
             markers.add("special")
         return markers

@@ -59,6 +59,9 @@ class BangumiSourceTests(unittest.TestCase):
         with self.assertRaises(SourceError):
             source._parse(parser, "TOKYO・MX2_jp", "20260926")
 
+    def test_new_marker_is_preserved(self):
+        self.assertIn("new", BangumiSource._markers("🈟新番組"))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -56,7 +56,13 @@
     "モーサテサタデー": "Morning Satellite Saturday",
     "朝一番BS－TBSニュース": "Early Morning BS-TBS News",
     "おはようBSフジ": "Good Morning BS Fuji",
-    "TOKYO MX NEWS": "TOKYO MX News"
+    "TOKYO MX NEWS": "TOKYO MX News",
+    "天気予報": "Weather Forecast",
+    "オープニング": "Opening",
+    "クロージング": "Closedown",
+    "ABC天気予報": "ABC Weather Forecast",
+    "かまいたちの掟": "Kamaitachi's Rules",
+    "かんさい情報ネット ten．": "Kansai Information Net ten."
   },
   "prefix": {
     "ＮＨＫニュース７": "NHK News 7",
@@ -170,6 +176,14 @@
     "新しいカギ": "The New Key",
     "さんまのお笑い向上委員会": "Sanma's Comedy Improvement Committee",
     "BS日テレ Shopping": "BS NTV Shopping",
-    "ショップチャンネル": "Shop Channel"
+    "ショップチャンネル": "Shop Channel",
+    "おはよう関西": "Good Morning Kansai",
+    "おはよう朝日です": "Ohayo Asahi Desu",
+    "Newsモーニングサテライト": "News Morning Satellite",
+    "よ〜いドン！": "Yo-i Don!",
+    "ミヤネ屋": "Miyaneya",
+    "サンテレビニュース": "SUN TV News",
+    "KBS京都ニュース": "KBS Kyoto News",
+    "あちこちオードリー": "Achikochi Audrey"
   }
 }
