@@ -9,7 +9,7 @@ import time
 import unicodedata
 import fcntl
 from pathlib import Path
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
@@ -74,7 +74,10 @@ class MyMemoryProvider:
             raise TranslationError("MyMemory request failed without a response")
         if payload.get("responseStatus") != 200 or payload.get("quotaFinished"):
             raise TranslationError(f"MyMemory rejected translation: {payload.get('responseDetails') or payload}")
-        result = (payload.get("responseData") or {}).get("translatedText", "").strip()
+        result = (payload.get("responseData") or {}).get("translatedText")
+        if not isinstance(result, str):
+            raise TranslationError("MyMemory returned no usable translation")
+        result = result.strip()
         if not result or result.upper().startswith("MYMEMORY WARNING"):
             raise TranslationError("MyMemory returned no usable translation")
         time.sleep(self.delay)
@@ -87,9 +90,10 @@ class GoogleTranslateProvider:
     name = "Google Translate"
     endpoint = "https://translate.googleapis.com/translate_a/single"
 
-    def __init__(self, timeout: int = 30, delay: float = 0.35):
+    def __init__(self, timeout: int = 30, delay: float = 0.35, max_attempts: int = 3):
         self.timeout = timeout
         self.delay = delay
+        self.max_attempts = max_attempts
 
     def translate(self, text: str) -> str:
         params = {"client": "gtx", "sl": "ja", "tl": "en", "dt": "t", "q": text}
@@ -98,8 +102,18 @@ class GoogleTranslateProvider:
             headers={"User-Agent": "Japan-EPG/1.0 (+XMLTV generator)"},
         )
         try:
-            with urlopen(request, timeout=self.timeout) as response:
-                payload = json.loads(response.read().decode("utf-8"))
+            for attempt in range(self.max_attempts):
+                try:
+                    with urlopen(request, timeout=self.timeout) as response:
+                        payload = json.loads(response.read().decode("utf-8"))
+                    break
+                except (URLError, TimeoutError) as exc:
+                    # Retry transient transport/server failures; respect rate limits.
+                    if isinstance(exc, HTTPError) and exc.code < 500:
+                        raise
+                    if attempt + 1 == self.max_attempts:
+                        raise
+                    time.sleep(2 ** attempt)
             result = "".join(part[0] for part in payload[0] if part and part[0]).strip()
         except Exception as exc:
             raise TranslationError(f"Google Translate request failed: {exc}") from exc

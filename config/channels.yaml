@@ -43,7 +43,9 @@
       "display_name_en": "NTV",
       "display_name_ja": "日本テレビ",
       "source": "bangumi",
-      "source_options": {"station": "日テレ1"}
+      "source_options": {
+        "station": "日テレ1"
+      }
     },
     "tv_asahi_tokyo": {
       "enabled": true,
@@ -52,7 +54,9 @@
       "display_name_en": "TV Asahi",
       "display_name_ja": "テレビ朝日",
       "source": "bangumi",
-      "source_options": {"station": "テレビ朝日"}
+      "source_options": {
+        "station": "テレビ朝日"
+      }
     },
     "tbs_tokyo": {
       "enabled": true,
@@ -61,7 +65,9 @@
       "display_name_en": "TBS",
       "display_name_ja": "TBSテレビ",
       "source": "bangumi",
-      "source_options": {"station": "TBS1"}
+      "source_options": {
+        "station": "TBS1"
+      }
     },
     "tv_tokyo": {
       "enabled": true,
@@ -70,7 +76,9 @@
       "display_name_en": "TV Tokyo",
       "display_name_ja": "テレビ東京",
       "source": "bangumi",
-      "source_options": {"station": "テレ東"}
+      "source_options": {
+        "station": "テレ東"
+      }
     },
     "fuji_tv_tokyo": {
       "enabled": true,
@@ -79,7 +87,9 @@
       "display_name_en": "Fuji TV",
       "display_name_ja": "フジテレビ",
       "source": "bangumi",
-      "source_options": {"station": "フジテレビ"}
+      "source_options": {
+        "station": "フジテレビ"
+      }
     },
     "tokyo_mx1": {
       "enabled": true,
@@ -88,7 +98,11 @@
       "display_name_en": "TOKYO MX1",
       "display_name_ja": "TOKYO MX1",
       "source": "bangumi",
-      "source_options": {"station": "TOKYO", "lineup": "tokyo", "station_line": 8}
+      "source_options": {
+        "station": "TOKYO",
+        "lineup": "tokyo",
+        "station_line": 8
+      }
     },
     "tokyo_mx2": {
       "enabled": true,
@@ -97,7 +111,11 @@
       "display_name_en": "TOKYO MX2",
       "display_name_ja": "TOKYO MX2",
       "source": "bangumi",
-      "source_options": {"station": "TOKYO", "lineup": "tokyo", "station_line": 9}
+      "source_options": {
+        "station": "TOKYO",
+        "lineup": "tokyo",
+        "station_line": 9
+      }
     },
     "bs_ntv": {
       "enabled": true,
@@ -106,7 +124,10 @@
       "display_name_en": "BS NTV",
       "display_name_ja": "BS日テレ",
       "source": "bangumi",
-      "source_options": {"station": "BS日テレ", "lineup": "bs"}
+      "source_options": {
+        "station": "BS日テレ",
+        "lineup": "bs"
+      }
     },
     "bs_asahi": {
       "enabled": true,
@@ -115,7 +136,10 @@
       "display_name_en": "BS Asahi",
       "display_name_ja": "BS朝日",
       "source": "bangumi",
-      "source_options": {"station": "BS朝日1", "lineup": "bs"}
+      "source_options": {
+        "station": "BS朝日1",
+        "lineup": "bs"
+      }
     },
     "bs_tbs": {
       "enabled": true,
@@ -124,7 +148,10 @@
       "display_name_en": "BS-TBS",
       "display_name_ja": "BS-TBS",
       "source": "bangumi",
-      "source_options": {"station": "BS-TBS", "lineup": "bs"}
+      "source_options": {
+        "station": "BS-TBS",
+        "lineup": "bs"
+      }
     },
     "bs_tv_tokyo": {
       "enabled": true,
@@ -133,7 +160,10 @@
       "display_name_en": "BS TV Tokyo",
       "display_name_ja": "BSテレ東",
       "source": "bangumi",
-      "source_options": {"station": "ＢＳテレ東", "lineup": "bs"}
+      "source_options": {
+        "station": "ＢＳテレ東",
+        "lineup": "bs"
+      }
     },
     "bs_fuji": {
       "enabled": true,
@@ -142,7 +172,10 @@
       "display_name_en": "BS Fuji",
       "display_name_ja": "BSフジ",
       "source": "bangumi",
-      "source_options": {"station": "BSフジ・181", "lineup": "bs"}
+      "source_options": {
+        "station": "BSフジ・181",
+        "lineup": "bs"
+      }
     },
     "bs11": {
       "enabled": true,
@@ -151,7 +184,11 @@
       "display_name_en": "BS11",
       "display_name_ja": "BS11イレブン",
       "source": "bangumi",
-      "source_options": {"station": "BS11イ", "lineup": "bs", "station_line": 12}
+      "source_options": {
+        "station": "BS11イ",
+        "lineup": "bs",
+        "station_line": 12
+      }
     },
     "bs12": {
       "enabled": true,
@@ -160,7 +197,11 @@
       "display_name_en": "BS12 TwellV",
       "display_name_ja": "BS12トゥエルビ",
       "source": "bangumi",
-      "source_options": {"station": "BS12ト", "lineup": "bs", "station_line": 13}
+      "source_options": {
+        "station": "BS12ト",
+        "lineup": "bs",
+        "station_line": 13
+      }
     },
     "nhk_g_osaka": {
       "enabled": true,
@@ -169,7 +210,10 @@
       "display_name_en": "NHK G Osaka",
       "display_name_ja": "NHK総合1・大阪",
       "source": "nhk",
-      "source_options": {"area": "270", "service": "g1"}
+      "source_options": {
+        "area": "270",
+        "service": "g1"
+      }
     },
     "nhk_e_osaka": {
       "enabled": true,
@@ -178,7 +222,10 @@
       "display_name_en": "NHK E Osaka",
       "display_name_ja": "NHK Eテレ1・大阪",
       "source": "nhk",
-      "source_options": {"area": "270", "service": "e1"}
+      "source_options": {
+        "area": "270",
+        "service": "e1"
+      }
     },
     "mbs": {
       "enabled": true,
@@ -187,7 +234,10 @@
       "display_name_en": "MBS",
       "display_name_ja": "MBS毎日放送",
       "source": "bangumi",
-      "source_options": {"station": "MBS", "lineup": "osaka"}
+      "source_options": {
+        "station": "MBS",
+        "lineup": "osaka"
+      }
     },
     "abc_tv": {
       "enabled": true,
@@ -196,7 +246,10 @@
       "display_name_en": "ABC TV",
       "display_name_ja": "ABCテレビ",
       "source": "bangumi",
-      "source_options": {"station": "ABCテレビ1", "lineup": "osaka"}
+      "source_options": {
+        "station": "ABCテレビ1",
+        "lineup": "osaka"
+      }
     },
     "tv_osaka": {
       "enabled": true,
@@ -205,7 +258,10 @@
       "display_name_en": "TV Osaka",
       "display_name_ja": "テレビ大阪",
       "source": "bangumi",
-      "source_options": {"station": "テレビ大阪1", "lineup": "osaka"}
+      "source_options": {
+        "station": "テレビ大阪1",
+        "lineup": "osaka"
+      }
     },
     "kansai_tv": {
       "enabled": true,
@@ -214,7 +270,10 @@
       "display_name_en": "Kansai TV",
       "display_name_ja": "関西テレビ",
       "source": "bangumi",
-      "source_options": {"station": "関西テレビ1", "lineup": "osaka"}
+      "source_options": {
+        "station": "関西テレビ1",
+        "lineup": "osaka"
+      }
     },
     "ytv": {
       "enabled": true,
@@ -223,7 +282,10 @@
       "display_name_en": "Yomiuri TV",
       "display_name_ja": "読売テレビ",
       "source": "bangumi",
-      "source_options": {"station": "読売テレビ1", "lineup": "osaka"}
+      "source_options": {
+        "station": "読売テレビ1",
+        "lineup": "osaka"
+      }
     },
     "sun_tv": {
       "enabled": true,
@@ -232,7 +294,10 @@
       "display_name_en": "SUN TV",
       "display_name_ja": "サンテレビ",
       "source": "bangumi",
-      "source_options": {"station": "サンテレビ1", "lineup": "osaka"}
+      "source_options": {
+        "station": "サンテレビ1",
+        "lineup": "osaka"
+      }
     },
     "kbs_kyoto": {
       "enabled": true,
@@ -241,7 +306,206 @@
       "display_name_en": "KBS Kyoto",
       "display_name_ja": "KBS京都",
       "source": "bangumi",
-      "source_options": {"station": "KBS京都", "lineup": "osaka"}
+      "source_options": {
+        "station": "KBS京都",
+        "lineup": "osaka"
+      }
+    },
+    "bs10": {
+      "enabled": true,
+      "playlist_name": "BS 10",
+      "expected_tvg_id": "BS10_jp",
+      "display_name_en": "BS 10",
+      "display_name_ja": "ＢＳ１０",
+      "source": "bangumi",
+      "source_options": {
+        "station": "ＢＳ１０",
+        "lineup": "bs",
+        "station_line": 10,
+        "station_id": "200"
+      }
+    },
+    "jcom_bs": {
+      "enabled": true,
+      "playlist_name": "JCOM BS",
+      "expected_tvg_id": "J-COM-BS_jp",
+      "display_name_en": "JCOM BS",
+      "display_name_ja": "J:COM BS",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J:COM BS",
+        "lineup": "bs",
+        "station_line": 26,
+        "station_id": "260"
+      }
+    },
+    "bs_yoshimoto": {
+      "enabled": true,
+      "playlist_name": "BS Yoshimoto",
+      "expected_tvg_id": "BSよしもと_jp",
+      "display_name_en": "BS Yoshimoto",
+      "display_name_ja": "ＢＳよしもと",
+      "source": "bangumi",
+      "source_options": {
+        "station": "ＢＳよしもと",
+        "lineup": "bs",
+        "station_line": 27,
+        "station_id": "265"
+      }
+    },
+    "wowow_prime": {
+      "enabled": true,
+      "playlist_name": "WOWOW Prime",
+      "expected_tvg_id": "CH.621",
+      "display_name_en": "WOWOW Prime",
+      "display_name_ja": "WOWOWプライム",
+      "source": "bangumi",
+      "source_options": {
+        "station": "WOWOWプ..",
+        "lineup": "bs",
+        "station_line": 7,
+        "station_id": "191"
+      }
+    },
+    "wowow_live": {
+      "enabled": true,
+      "playlist_name": "WOWOW Live",
+      "expected_tvg_id": "CH.622",
+      "display_name_en": "WOWOW Live",
+      "display_name_ja": "WOWOWライブ",
+      "source": "bangumi",
+      "source_options": {
+        "station": "WOWOWライブ",
+        "lineup": "bs",
+        "station_line": 8,
+        "station_id": "192"
+      }
+    },
+    "wowow_cinema": {
+      "enabled": true,
+      "playlist_name": "WOWOW Cinema",
+      "expected_tvg_id": "CH.623",
+      "display_name_en": "WOWOW Cinema",
+      "display_name_ja": "WOWOWシネマ",
+      "source": "bangumi",
+      "source_options": {
+        "station": "WOWOWシネマ",
+        "lineup": "bs",
+        "station_line": 9,
+        "station_id": "193"
+      }
+    },
+    "bs10_premium": {
+      "enabled": true,
+      "playlist_name": "BS 10 Premium",
+      "expected_tvg_id": "CH.625",
+      "display_name_en": "BS 10 Premium",
+      "display_name_ja": "ＢＳ１０プレミアム",
+      "source": "bangumi",
+      "source_options": {
+        "station": "ＢＳ１０プレミアム",
+        "lineup": "bs",
+        "station_line": 11,
+        "station_id": "201"
+      }
+    },
+    "wowow_plus": {
+      "enabled": true,
+      "playlist_name": "WOWOW Plus",
+      "expected_tvg_id": "CH.630",
+      "display_name_en": "WOWOW Plus",
+      "display_name_ja": "WOWOWプラス",
+      "source": "bangumi",
+      "source_options": {
+        "station": "WOWOWプラス",
+        "lineup": "bs",
+        "station_line": 23,
+        "station_id": "252"
+      }
+    },
+    "fishing_vision": {
+      "enabled": true,
+      "playlist_name": "Fishing Vision",
+      "expected_tvg_id": "rch_46",
+      "display_name_en": "Fishing Vision",
+      "display_name_ja": "BS釣りビジョン",
+      "source": "bangumi",
+      "source_options": {
+        "station": "BS釣りビジョン",
+        "lineup": "bs",
+        "station_line": 22,
+        "station_id": "251"
+      }
+    },
+    "green_channel": {
+      "enabled": true,
+      "playlist_name": "Green Channel",
+      "expected_tvg_id": "CH.688",
+      "display_name_en": "Green Channel",
+      "display_name_ja": "グリーンチャンネル",
+      "source": "bangumi",
+      "source_options": {
+        "station": "グリーンチャンネル",
+        "lineup": "bs",
+        "station_line": 16,
+        "station_id": "234"
+      }
+    },
+    "jsports1": {
+      "enabled": true,
+      "playlist_name": "JSport 1",
+      "expected_tvg_id": "CH.603",
+      "display_name_en": "JSport 1",
+      "display_name_ja": "J SPORTS 1",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J SPORTS 1",
+        "lineup": "bs",
+        "station_line": 18,
+        "station_id": "242"
+      }
+    },
+    "jsports2": {
+      "enabled": true,
+      "playlist_name": "JSport 2",
+      "expected_tvg_id": "CH.604",
+      "display_name_en": "JSport 2",
+      "display_name_ja": "J SPORTS 2",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J SPORTS 2",
+        "lineup": "bs",
+        "station_line": 19,
+        "station_id": "243"
+      }
+    },
+    "jsports3": {
+      "enabled": true,
+      "playlist_name": "JSport 3",
+      "expected_tvg_id": "CH.606",
+      "display_name_en": "JSport 3",
+      "display_name_ja": "J SPORTS 3",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J SPORTS 3",
+        "lineup": "bs",
+        "station_line": 20,
+        "station_id": "244"
+      }
+    },
+    "jsports4": {
+      "enabled": true,
+      "playlist_name": "JSport 4",
+      "expected_tvg_id": "CH.605",
+      "display_name_en": "JSport 4",
+      "display_name_ja": "J SPORTS 4",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J SPORTS 4",
+        "lineup": "bs",
+        "station_line": 21,
+        "station_id": "245"
+      }
     }
   }
 }

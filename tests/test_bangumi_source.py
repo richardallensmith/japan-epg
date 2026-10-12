@@ -62,6 +62,24 @@ class BangumiSourceTests(unittest.TestCase):
     def test_new_marker_is_preserved(self):
         self.assertIn("new", BangumiSource._markers("🈟新番組"))
 
+class ServiceIdentityTests(unittest.TestCase):
+    def test_service_id_rejects_station_rename_collision(self):
+        parser = _BangumiParser()
+        parser.feed(HTML)
+        source = BangumiSource(station='日テレ1', station_line=1, station_id='191')
+        with self.assertRaisesRegex(SourceError, 'service ID changed'):
+            source._parse(parser, 'CH.621', '20260926')
+
+    def test_service_id_and_display_name_both_required(self):
+        html = HTML.replace('event-1', '191-1').replace('pid="124"', 'pid="124" se-id="191-2"').replace('pid="125"', 'pid="125" se-id="191-3"')
+        parser = _BangumiParser()
+        parser.feed(html)
+        source = BangumiSource(station='日テレ1', station_line=1, station_id='191')
+        self.assertEqual(3, len(source._parse(parser, 'CH.621', '20260926')))
+        source.station = 'WOWOW'
+        with self.assertRaises(SourceError):
+            source._parse(parser, 'CH.621', '20260926')
+
 
 if __name__ == "__main__":
     unittest.main()

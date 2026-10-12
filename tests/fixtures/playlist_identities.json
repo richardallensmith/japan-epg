@@ -1,0 +1,837 @@
+[
+  {
+    "playlist_name": "日テレNEWS",
+    "tvg_id": "rch_47",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "FNNプライムオンライン",
+    "tvg_id": "rch_108",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "MBSニュース",
+    "tvg_id": "rch_115",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "日テレNEWSセレクト",
+    "tvg_id": "rch_101",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "共同通信News",
+    "tvg_id": "rch_56",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "NewsWorld",
+    "tvg_id": "rch_103",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "オリコンニュース",
+    "tvg_id": "rch_54",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "STOCK VOICE",
+    "tvg_id": "rch_83",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "Bloomberg TV+",
+    "tvg_id": "rch_70",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "Euronews",
+    "tvg_id": "rch_90",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "Reuters 60",
+    "tvg_id": "rch_120",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "TOP BARÇA",
+    "tvg_id": "rch_89",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "NTV Pro Wrestling",
+    "tvg_id": "rch_97",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "刺激ストロングSPORTS",
+    "tvg_id": "rch_48",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "FUEL TV",
+    "tvg_id": "rch_64",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "ムビドラTV",
+    "tvg_id": "rch_34",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "手塚プロダクションTV",
+    "tvg_id": "rch_73",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "しまじろうチャンネル",
+    "tvg_id": "rch_61",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "キッズ",
+    "tvg_id": "rch_65",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "that’s 70s",
+    "tvg_id": "rch_104",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "that’s 80s",
+    "tvg_id": "rch_105",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "that’s 90s00s",
+    "tvg_id": "rch_106",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "that’s Rock",
+    "tvg_id": "rch_107",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "麻雀",
+    "tvg_id": "rch_74",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "パチンコ・パチスロ",
+    "tvg_id": "rch_35",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "ぷれいば！",
+    "tvg_id": "rch_113",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "ワンニャンチャンネル",
+    "tvg_id": "rch_86",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "九州・沖縄　街ネタ",
+    "tvg_id": "rch_114",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "エンタメ～テレDEEP",
+    "tvg_id": "rch_37",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "NEW KPOP",
+    "tvg_id": "rch_94",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "QVC",
+    "tvg_id": "rch_102",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "QVC (CS)",
+    "tvg_id": "CH.525",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "GSTV",
+    "tvg_id": "rch_112",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "GSTV (CS)",
+    "tvg_id": "CH.527",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "セクシーエンタメチャンネル",
+    "tvg_id": "rch_98",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "刺激ストロング",
+    "tvg_id": "rch_40",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "映画（年齢制限あり）",
+    "tvg_id": "rch_42",
+    "group": "ラクテンTV"
+  },
+  {
+    "playlist_name": "ビジネス・プレミアム (FAST)",
+    "tvg_id": "fastch_v2_busns",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "エンタメニュース (FAST)",
+    "tvg_id": "fastch_v2_entns",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "GOLF LIFE (FAST)",
+    "tvg_id": "fastch_v2_bgolf",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "時代劇TV (FAST)",
+    "tvg_id": "fastch_v2_samri",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "LeminoTV (FAST)",
+    "tvg_id": "fastch_v2_comdy",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "エンタメ・アジア (FAST)",
+    "tvg_id": "fastch_v2_asdrm",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "アニマックス FREE (FAST)",
+    "tvg_id": "fastch_v2_kids",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "ペットTV (FAST)",
+    "tvg_id": "fastch_v2_pett1",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "キャンプ・アウトドア (FAST)",
+    "tvg_id": "fastch_v2_camng",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "今日のごはんなに? (FAST)",
+    "tvg_id": "fastch_v2_travl",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "観るたび (FAST)",
+    "tvg_id": "fastch_v2_recip",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "丸ごと九州 (FAST)",
+    "tvg_id": "fastch_v2_news1",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "ぴあ落語ざんまい (FAST)",
+    "tvg_id": "fastch_v2_jpthp",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "FASHIONPLUS (FAST)",
+    "tvg_id": "fastch_v2_snyon",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "囲碁・将棋ライト (FAST)",
+    "tvg_id": "fastch_v2_goshogi",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "丸ごと北海道 (FAST)",
+    "tvg_id": "fastch_v2_hokkaido",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "東海ロキポ (FAST)",
+    "tvg_id": "fastch_v2_tokai",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "韓流チャンネル (FAST)",
+    "tvg_id": "fastch_v2_krdrm",
+    "group": "FAST"
+  },
+  {
+    "playlist_name": "NHK G",
+    "tvg_id": "NHK東京・総合_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "NHK G (Sub Ch.)",
+    "tvg_id": "NHK東京・総合2_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "NHK E",
+    "tvg_id": "NHK東京・教育_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "NTV",
+    "tvg_id": "日本テレビ_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "TV Asahi",
+    "tvg_id": "テレビ朝日_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "TBS",
+    "tvg_id": "TBS_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "TV Tokyo",
+    "tvg_id": "テレ東_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "Fuji TV",
+    "tvg_id": "フジテレビ_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "TOKYO MX1",
+    "tvg_id": "TOKYO・MX_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "TOKYO MX2 (HD 720p)",
+    "tvg_id": "TOKYO・MX2_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "NHK G Osaka",
+    "tvg_id": "NHK大阪・総合_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "NHK G Kyoto",
+    "tvg_id": "NHK京都・総合_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "NHK E Osaka",
+    "tvg_id": "NHK大阪・教育_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "SUN",
+    "tvg_id": "サンテレビ_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "MBS",
+    "tvg_id": "毎日テレビ_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "KBS",
+    "tvg_id": "KBS京都_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "ABC",
+    "tvg_id": "ABCテレビ_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "TV Osaka",
+    "tvg_id": "テレビ大阪_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "Kansai TV",
+    "tvg_id": "関西テレビ_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "ytv",
+    "tvg_id": "読売テレビ_jp",
+    "group": "地上デジタル"
+  },
+  {
+    "playlist_name": "NHK BS",
+    "tvg_id": "NHK・BS_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "NHK BS (Sub Ch.)",
+    "tvg_id": "NHK・BS2_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS NTV",
+    "tvg_id": "BS日テレ_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS NTV 4K",
+    "tvg_id": "BS日テレ-4K_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS Asahi",
+    "tvg_id": "BS朝日_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS Asahi 4K",
+    "tvg_id": "BS朝日-4K_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS TBS",
+    "tvg_id": "BS-TBS_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS TBS 4K",
+    "tvg_id": "BS-TBS-4K_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS TV Tokyo",
+    "tvg_id": "BSテレ東_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS TV Tokyo 4K",
+    "tvg_id": "BSテレ東-4K_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS Fuji",
+    "tvg_id": "BSフジ_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS 10",
+    "tvg_id": "BS10_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS11",
+    "tvg_id": "BS11-イレブン_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS 12",
+    "tvg_id": "BS12トゥエルビ_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "JCOM BS",
+    "tvg_id": "J-COM-BS_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS Yoshimoto",
+    "tvg_id": "BSよしもと_jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "NHK BS4K",
+    "tvg_id": "NHKBSP4K.jp",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "WOWOW Prime",
+    "tvg_id": "CH.621",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "WOWOW Live",
+    "tvg_id": "CH.622",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "WOWOW Cinema",
+    "tvg_id": "CH.623",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "BS 10 Premium",
+    "tvg_id": "CH.625",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "WOWOW Plus",
+    "tvg_id": "CH.630",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "Fishing Vision",
+    "tvg_id": "rch_46",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "Weather News",
+    "tvg_id": "rch_45",
+    "group": "BS放送"
+  },
+  {
+    "playlist_name": "NTV News24",
+    "tvg_id": "CH.571",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "TBS News",
+    "tvg_id": "CH.572",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "BBC News",
+    "tvg_id": "CH.565",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "CNNj",
+    "tvg_id": "CH.566",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "NHK World-Japan",
+    "tvg_id": "NHKWorldJapan.jp",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Green Channel",
+    "tvg_id": "CH.688",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "JSport 1",
+    "tvg_id": "CH.603",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "JSport 2",
+    "tvg_id": "CH.604",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "JSport 3",
+    "tvg_id": "CH.606",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "JSport 4",
+    "tvg_id": "CH.605",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Sky A",
+    "tvg_id": "rch_49",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Gaora Sports",
+    "tvg_id": "rch_51",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Nittele G+",
+    "tvg_id": "CH.608",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Golf Network",
+    "tvg_id": "rch_75",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Sport Live Plus",
+    "tvg_id": "CH.580",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "スカチャン1",
+    "tvg_id": "CH.581",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Fighting TV Samurai",
+    "tvg_id": "CH.600",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Toei Channel",
+    "tvg_id": "CH.629",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Eisei Gekijo",
+    "tvg_id": "CH.628",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Neco Channel",
+    "tvg_id": "rch_59",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "The Cinema",
+    "tvg_id": "CH.631",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Movie Plus",
+    "tvg_id": "CH.632",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Nihon Eiga Senmon",
+    "tvg_id": "CH.634",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Jidaigeki Senmon",
+    "tvg_id": "CH.662",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Family Gekijyo",
+    "tvg_id": "CH.660",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Home Drama Channel",
+    "tvg_id": "CH.661",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "TBS Channel 1",
+    "tvg_id": "CH.616",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "TBS Channel 2",
+    "tvg_id": "CH.617",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "TV Asahi Channel 1",
+    "tvg_id": "CH.611",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "TV Asahi Channel 2",
+    "tvg_id": "CH.612",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Nittele Plus",
+    "tvg_id": "CH.619",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Channel Ginga",
+    "tvg_id": "CH.664",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Fuji TV ONE",
+    "tvg_id": "CH.614",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Fuji TV TWO",
+    "tvg_id": "CH.615",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Fuji TV NEXT",
+    "tvg_id": "CH.613",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Action Channel (AXN)",
+    "tvg_id": "CH.650",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Dlife",
+    "tvg_id": "Dlife(ディーライフ)_jp",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "LaLa TV",
+    "tvg_id": "CH.654",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Mystery Channel",
+    "tvg_id": "CH.649",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Animax",
+    "tvg_id": "CH.670",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Disney Channel",
+    "tvg_id": "CH.620",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Kids Staton",
+    "tvg_id": "CH.669",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Cartoon Network",
+    "tvg_id": "CH.668",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "AT-X",
+    "tvg_id": "CH.667",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Disney Junior",
+    "tvg_id": "CH.672",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Takarazuka Sky Stage",
+    "tvg_id": "TAKARAZUKASKYSTAGE.jp",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Space Shower TV (HD)",
+    "tvg_id": "スペースシャワーTV_jp",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "MTV",
+    "tvg_id": "CH.640",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Music Air",
+    "tvg_id": "ミュージック・エア_jp",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Music ON TV",
+    "tvg_id": "CH.641",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Kayo Pops",
+    "tvg_id": "rch_85",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Music Japan TV",
+    "tvg_id": "CH.639",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Discovery Channel",
+    "tvg_id": "CH.676",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Animal Planet",
+    "tvg_id": "CH.677",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "History",
+    "tvg_id": "rch_43",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "National Geographic Japan",
+    "tvg_id": "CH.675",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Tabi Channel",
+    "tvg_id": "CH.544",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Tetsudo Channel",
+    "tvg_id": "rch_30",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Mondo TV",
+    "tvg_id": "CH.659",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Me-Tele Next",
+    "tvg_id": "メ～テレNEXT_jp",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Shogi Channel",
+    "tvg_id": "rch_36",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "囲碁・将棋ライト (R)",
+    "tvg_id": "rch_100",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Mnet",
+    "tvg_id": "CH.658",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "KBS World",
+    "tvg_id": "CH.656",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "ショップチャンネル",
+    "tvg_id": "ショップチャンネル_jp",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "V Paradise",
+    "tvg_id": "CH.635",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "ヌーヴェルパラダイス",
+    "tvg_id": "CH.535",
+    "group": "CS放送"
+  },
+  {
+    "playlist_name": "Pigoo",
+    "tvg_id": "rch_41",
+    "group": "CS放送"
+  }
+]

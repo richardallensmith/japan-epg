@@ -1,6 +1,6 @@
 # Japan EPG
 
-An English-first XMLTV generator for Japanese IPTV players. The current feed covers 26 major Tokyo, Kansai, and BS services, preserving the original Japanese metadata alongside translated English metadata.
+An English-first XMLTV generator for Japanese IPTV players. The current feed covers 40 Tokyo, Kansai, BS, and conventional specialty services, preserving the original Japanese metadata alongside translated English metadata.
 
 The playlist remains the authority for channel identity. The generator refuses to write a feed if any live playlist ID differs from its configured, reviewed value.
 
@@ -17,23 +17,37 @@ The playlist remains the authority for channel identity. The generator refuses t
 | TV Tokyo | `テレ東_jp` | G.GUIDE Tokyo, station `テレ東` |
 | Fuji TV | `フジテレビ_jp` | G.GUIDE Tokyo, station `フジテレビ` |
 | TOKYO MX1 | `TOKYO・MX_jp` | G.GUIDE Tokyo, guarded line 8 |
-| TOKYO MX2 | `TOKYO・MX2_jp` | G.GUIDE Tokyo, guarded line 9 |
+| TOKYO MX2 (HD 720p) | `TOKYO・MX2_jp` | G.GUIDE Tokyo, guarded line 9 |
 | BS NTV | `BS日テレ_jp` | G.GUIDE BS, station `BS日テレ` |
 | BS Asahi | `BS朝日_jp` | G.GUIDE BS, station `BS朝日1` |
-| BS-TBS | `BS-TBS_jp` | G.GUIDE BS, station `BS-TBS` |
+| BS TBS | `BS-TBS_jp` | G.GUIDE BS, station `BS-TBS` |
 | BS TV Tokyo | `BSテレ東_jp` | G.GUIDE BS, station `ＢＳテレ東` |
 | BS Fuji | `BSフジ_jp` | G.GUIDE BS, station `BSフジ・181` |
 | BS11 | `BS11-イレブン_jp` | G.GUIDE BS, guarded line 12 |
-| BS12 TwellV | `BS12トゥエルビ_jp` | G.GUIDE BS, guarded line 13 |
+| BS 12 | `BS12トゥエルビ_jp` | G.GUIDE BS, guarded line 13 |
 | NHK G Osaka | `NHK大阪・総合_jp` | NHK Osaka area `270`, service `g1` |
 | NHK E Osaka | `NHK大阪・教育_jp` | NHK Osaka area `270`, service `e1` |
 | MBS | `毎日テレビ_jp` | G.GUIDE Osaka, station `MBS` |
-| ABC TV | `ABCテレビ_jp` | G.GUIDE Osaka, station `ABCテレビ1` |
+| ABC | `ABCテレビ_jp` | G.GUIDE Osaka, station `ABCテレビ1` |
 | TV Osaka | `テレビ大阪_jp` | G.GUIDE Osaka, station `テレビ大阪1` |
 | Kansai TV | `関西テレビ_jp` | G.GUIDE Osaka, station `関西テレビ1` |
-| Yomiuri TV | `読売テレビ_jp` | G.GUIDE Osaka, station `読売テレビ1` |
-| SUN TV | `サンテレビ_jp` | G.GUIDE Osaka, station `サンテレビ1` |
-| KBS Kyoto | `KBS京都_jp` | G.GUIDE Osaka, station `KBS京都` |
+| ytv | `読売テレビ_jp` | G.GUIDE Osaka, station `読売テレビ1` |
+| SUN | `サンテレビ_jp` | G.GUIDE Osaka, station `サンテレビ1` |
+| KBS | `KBS京都_jp` | G.GUIDE Osaka, station `KBS京都` |
+| BS 10 | `BS10_jp` | G.GUIDE BS, service `200` |
+| JCOM BS | `J-COM-BS_jp` | G.GUIDE BS, service `260` |
+| BS Yoshimoto | `BSよしもと_jp` | G.GUIDE BS, service `265` |
+| WOWOW Prime | `CH.621` | G.GUIDE BS, service `191` |
+| WOWOW Live | `CH.622` | G.GUIDE BS, service `192` |
+| WOWOW Cinema | `CH.623` | G.GUIDE BS, service `193` |
+| BS 10 Premium | `CH.625` | G.GUIDE BS, service `201` |
+| WOWOW Plus | `CH.630` | G.GUIDE BS, service `252` |
+| Fishing Vision | `rch_46` | G.GUIDE BS, service `251` |
+| Green Channel | `CH.688` | G.GUIDE BS, service `234` |
+| JSport 1 | `CH.603` | G.GUIDE BS, service `242` |
+| JSport 2 | `CH.604` | G.GUIDE BS, service `243` |
+| JSport 3 | `CH.606` | G.GUIDE BS, service `244` |
+| JSport 4 | `CH.605` | G.GUIDE BS, service `245` |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
@@ -48,7 +62,7 @@ python3 -m unittest discover -v
 python3 -m src.main
 ```
 
-The second command downloads the current playlist and official schedule, translates cache misses, writes `output/epg.xml` atomically, and validates the result. A failed fetch, empty schedule, translation failure, ID mismatch, or validation failure exits nonzero. It never substitutes fixture or sample programmes.
+The second command downloads the current playlist and official schedule, translates cache misses, validates the complete result, then writes `output/epg.xml` atomically. A failed fetch, empty schedule, translation failure, ID mismatch, or validation failure exits nonzero. It never substitutes fixture or sample programmes.
 
 Useful options:
 
@@ -75,7 +89,7 @@ Translation is layered in this order:
 
 The full Japanese title and full Japanese description from NHK are always retained. The English description is intentionally a concise translated summary (48 Japanese characters by default) to keep the no-key first-run translation volume reasonable. Increase `--description-chars` when using a higher-quota setup.
 
-The fallback layer is a replaceable provider chain using Google Translate's public endpoint and MyMemory. Results are stored in `cache/translations.json`, making future refreshes stable and reducing external requests. The workflow identifies the public project with the repository owner's GitHub no-reply address for MyMemory's documented higher quota; set a `MYMEMORY_EMAIL` repository secret to override it. Text sent for a cache miss is shared with the provider; replace the providers or pre-fill manual overrides if that is undesirable.
+The fallback layer is a replaceable provider chain using Google Translate's public endpoint and MyMemory. Results are stored in `cache/translations.json`, making future refreshes stable and reducing external requests. The workflow sends no contact email by default; the owner can deliberately configure a `MYMEMORY_EMAIL` repository secret for MyMemory's documented higher quota. Text sent for a cache miss is shared with the provider; replace the providers or pre-fill manual overrides if that is undesirable.
 
 Do not silently map a mistranslated proper name in code. Add a reviewed title/description override so future rebuilds remain deterministic.
 
@@ -91,7 +105,8 @@ Validation fails on:
 - duplicate channels or programmes;
 - programmes assigned to another channel;
 - missing bilingual titles;
-- a feed whose last programme is suspiciously near/past the current time.
+- a feed whose last programme is suspiciously near/past the current time;
+- non-Japan offsets, conflicting overlaps, fewer than three entries, placeholder-only schedules, or listings starting more than six hours ahead.
 
 Japanese and English titles are emitted for every programme. Both descriptions are emitted whenever the source has a description. XML is built with the standard library XML writer, which escapes titles and descriptions safely.
 
@@ -135,3 +150,12 @@ Use the published `epg.xml` URL directly as an EPG source in TiviMate or Sparkle
 Add channel records under `config/channels.yaml`, then implement or reuse a schedule adapter under `src/fetch/`. Keep each playlist ID pinned and covered by an offline fixture test before enabling the channel.
 
 FAST channels are intentionally deferred until the major terrestrial, BS, and conventional specialty services are complete.
+
+
+## Channel-status inventory
+
+`config/channel_status.json` accounts for every exact name/ID pair in the live playlist. Each build reconciles the entire playlist before fetching schedules, including newly added entries and identities removed since the previous build. Removed entries remain in the inventory with `present: false` and do not count toward live totals. Stream URLs are not stored.
+
+Statuses are `pending`, `enabled`, `grouped`, or `blocked`. Configuration alone never marks a channel enabled: only a successful current feed validation records its programme count, coverage, source options, and validation time. `grouped` and `blocked` require a documented reason and source evidence. Newly discovered or changed identities start pending. Rakuten and FAST services are deferred until conventional channels are addressed; QVC/GSTV CS services retain conventional priority. A previous validation timestamp describes that run, not a guarantee of source availability forever.
+
+The 2026-10-12 batch uses one shared BS lineup, including the BS-carried J SPORTS and Green Channel services whose playlist groups are CS. Every new service is guarded by both its station label/position and the actual source service ID. No parent/subchannel or FAST equivalence is inferred.

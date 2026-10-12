@@ -1,6 +1,6 @@
 import unittest
 
-from src.playlist import find_channel, parse_m3u
+from src.playlist import PlaylistError, find_channel, parse_m3u
 
 
 PLAYLIST = """#EXTM3U
@@ -62,6 +62,11 @@ https://example/other.m3u8
 
 
 class PlaylistTests(unittest.TestCase):
+    def test_tvg_name_alias_does_not_hide_a_playlist_rename(self):
+        renamed = PLAYLIST.replace(',NHK G\n', ',Renamed NHK G\n')
+        with self.assertRaises(PlaylistError):
+            find_channel(parse_m3u(renamed), name='NHK G')
+
     def test_parse_playlist(self):
         channels = parse_m3u(PLAYLIST)
         self.assertEqual(27, len(channels))

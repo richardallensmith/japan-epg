@@ -8,6 +8,7 @@ from pathlib import Path
 from .fetch.bangumi import BangumiSource
 from .fetch.nhk import NHKTimetableSource
 from .models import XmltvChannel
+from .inventory import reconcile, mark_validated, save as save_inventory
 from .normalize import deduplicate
 from .playlist import find_channel, load_playlist
 from .translate import TranslationEngine, load_json_yaml
@@ -32,6 +33,11 @@ def build(args: argparse.Namespace) -> dict:
     if not configs:
         raise RuntimeError("No enabled channels selected")
     playlist_channels = load_playlist(args.playlist)
+    inventory_path = ROOT / "config/channel_status.json"
+    previous_inventory = load_json_yaml(inventory_path) if inventory_path.exists() else {}
+    inventory = reconcile(playlist_channels, all_configs, previous_inventory)
+    inventory["playlist_url"] = args.playlist
+    save_inventory(inventory, inventory_path)
     now = datetime.now(timezone.utc)
     programmes = []
     xmltv_channels: list[XmltvChannel] = []
@@ -77,13 +83,15 @@ def build(args: argparse.Namespace) -> dict:
         channels=xmltv_channels,
     )
     output_path = ROOT / args.output
-    write_xmltv(tree, output_path)
     result = validate_feed(
-        output_path,
+        tree,
         expected_channel_ids=expected_ids,
         playlist_channel_ids=playlist_ids,
-        now=now,
+        now=datetime.now(timezone.utc),
     )
+    write_xmltv(tree, output_path)
+    mark_validated(inventory, all_configs, result)
+    save_inventory(inventory, inventory_path)
     result.update(
         {
             "channel_ids": sorted(expected_ids),

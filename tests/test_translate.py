@@ -120,6 +120,47 @@ class TranslateTests(unittest.TestCase):
             self.assertEqual("One", merged.get("title", "一"))
             self.assertEqual("Two", merged.get("title", "二"))
 
+class EmptyTranslationTests(unittest.TestCase):
+    def test_null_response_is_a_translation_error(self):
+        class NullResponse(FakeResponse):
+            def read(self):
+                return b'{"responseStatus":200,"responseData":{"translatedText":null}}'
+        with patch('src.translate.urlopen', return_value=NullResponse()):
+            with self.assertRaises(TranslationError):
+                MyMemoryProvider(delay=0).translate('ニュース')
+
+class GoogleRetryTests(unittest.TestCase):
+    def test_transient_server_error_retries_before_fallback(self):
+        from src.translate import GoogleTranslateProvider
+        class GoogleResponse(FakeResponse):
+            def read(self):
+                return '[[["News","ニュース"]]]'.encode()
+        provider = GoogleTranslateProvider(delay=0)
+        failure = HTTPError(provider.endpoint, 503, 'Unavailable', {}, None)
+        with patch('src.translate.urlopen', side_effect=[failure, GoogleResponse()]) as request, patch('src.translate.time.sleep'):
+            self.assertEqual('News', provider.translate('ニュース'))
+        self.assertEqual(2, request.call_count)
+
+    def test_rate_limit_is_not_retried(self):
+        from src.translate import GoogleTranslateProvider
+        provider = GoogleTranslateProvider(delay=0)
+        failure = HTTPError(provider.endpoint, 429, 'Rate limited', {}, None)
+        with patch('src.translate.urlopen', side_effect=failure) as request:
+            with self.assertRaises(TranslationError):
+                provider.translate('ニュース')
+        self.assertEqual(1, request.call_count)
+
+class SatelliteMappingTests(unittest.TestCase):
+    def test_reviewed_recurring_titles_override_machine_cache(self):
+        root = Path(__file__).resolve().parents[1]
+        with tempfile.TemporaryDirectory() as temp:
+            engine = TranslationEngine(title_overrides_path=root / 'config/title_overrides.yaml',
+                translation_overrides_path=root / 'config/translation_overrides.yaml',
+                cache_path=Path(temp) / 'cache.json', provider=FailingProvider())
+            self.assertEqual('Off Air', engine.title('休止'))
+            self.assertEqual('Information', engine.title('インフォメーション'))
+            self.assertEqual('Programme Guide', engine.title('番組案内'))
+
 
 if __name__ == "__main__":
     unittest.main()

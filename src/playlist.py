@@ -54,7 +54,7 @@ def load_playlist(location: str) -> list[PlaylistChannel]:
 
 
 def find_channel(channels: list[PlaylistChannel], *, name: str) -> PlaylistChannel:
-    matches = [c for c in channels if c.name == name or c.tvg_name == name]
+    matches = [c for c in channels if c.name == name]
     if len(matches) != 1:
         raise PlaylistError(f"Expected exactly one playlist channel named {name!r}; found {len(matches)}")
     if not matches[0].tvg_id:

@@ -1,0 +1,2189 @@
+{
+  "version": 1,
+  "playlist_url": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+  "reconciled_at": "2026-10-12T11:17:44.404513+00:00",
+  "identity_sha256": "049ba9e6fd1790ef032f391c138e8ef3edb73e3dd6882d0bae7f6af59421fa7c",
+  "totals": {
+    "pending": 127,
+    "enabled": 40
+  },
+  "channels": [
+    {
+      "playlist_name": "日テレNEWS",
+      "tvg_id": "rch_47",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "FNNプライムオンライン",
+      "tvg_id": "rch_108",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "MBSニュース",
+      "tvg_id": "rch_115",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "日テレNEWSセレクト",
+      "tvg_id": "rch_101",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "共同通信News",
+      "tvg_id": "rch_56",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "NewsWorld",
+      "tvg_id": "rch_103",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "オリコンニュース",
+      "tvg_id": "rch_54",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "STOCK VOICE",
+      "tvg_id": "rch_83",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Bloomberg TV+",
+      "tvg_id": "rch_70",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Euronews",
+      "tvg_id": "rch_90",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Reuters 60",
+      "tvg_id": "rch_120",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "TOP BARÇA",
+      "tvg_id": "rch_89",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "NTV Pro Wrestling",
+      "tvg_id": "rch_97",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "刺激ストロングSPORTS",
+      "tvg_id": "rch_48",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "FUEL TV",
+      "tvg_id": "rch_64",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "ムビドラTV",
+      "tvg_id": "rch_34",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "手塚プロダクションTV",
+      "tvg_id": "rch_73",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "しまじろうチャンネル",
+      "tvg_id": "rch_61",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "キッズ",
+      "tvg_id": "rch_65",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "that’s 70s",
+      "tvg_id": "rch_104",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "that’s 80s",
+      "tvg_id": "rch_105",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "that’s 90s00s",
+      "tvg_id": "rch_106",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "that’s Rock",
+      "tvg_id": "rch_107",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "麻雀",
+      "tvg_id": "rch_74",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "パチンコ・パチスロ",
+      "tvg_id": "rch_35",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "ぷれいば！",
+      "tvg_id": "rch_113",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "ワンニャンチャンネル",
+      "tvg_id": "rch_86",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "九州・沖縄　街ネタ",
+      "tvg_id": "rch_114",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "エンタメ～テレDEEP",
+      "tvg_id": "rch_37",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "NEW KPOP",
+      "tvg_id": "rch_94",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "QVC",
+      "tvg_id": "rch_102",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "QVC (CS)",
+      "tvg_id": "CH.525",
+      "group": "ラクテンTV",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "GSTV",
+      "tvg_id": "rch_112",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "GSTV (CS)",
+      "tvg_id": "CH.527",
+      "group": "ラクテンTV",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "セクシーエンタメチャンネル",
+      "tvg_id": "rch_98",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "刺激ストロング",
+      "tvg_id": "rch_40",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "映画（年齢制限あり）",
+      "tvg_id": "rch_42",
+      "group": "ラクテンTV",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "ビジネス・プレミアム (FAST)",
+      "tvg_id": "fastch_v2_busns",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "エンタメニュース (FAST)",
+      "tvg_id": "fastch_v2_entns",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "GOLF LIFE (FAST)",
+      "tvg_id": "fastch_v2_bgolf",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "時代劇TV (FAST)",
+      "tvg_id": "fastch_v2_samri",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "LeminoTV (FAST)",
+      "tvg_id": "fastch_v2_comdy",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "エンタメ・アジア (FAST)",
+      "tvg_id": "fastch_v2_asdrm",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "アニマックス FREE (FAST)",
+      "tvg_id": "fastch_v2_kids",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "ペットTV (FAST)",
+      "tvg_id": "fastch_v2_pett1",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "キャンプ・アウトドア (FAST)",
+      "tvg_id": "fastch_v2_camng",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "今日のごはんなに? (FAST)",
+      "tvg_id": "fastch_v2_travl",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "観るたび (FAST)",
+      "tvg_id": "fastch_v2_recip",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "丸ごと九州 (FAST)",
+      "tvg_id": "fastch_v2_news1",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "ぴあ落語ざんまい (FAST)",
+      "tvg_id": "fastch_v2_jpthp",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "FASHIONPLUS (FAST)",
+      "tvg_id": "fastch_v2_snyon",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "囲碁・将棋ライト (FAST)",
+      "tvg_id": "fastch_v2_goshogi",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "丸ごと北海道 (FAST)",
+      "tvg_id": "fastch_v2_hokkaido",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "東海ロキポ (FAST)",
+      "tvg_id": "fastch_v2_tokai",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "韓流チャンネル (FAST)",
+      "tvg_id": "fastch_v2_krdrm",
+      "group": "FAST",
+      "phase": "fast",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "NHK G",
+      "tvg_id": "NHK東京・総合_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "nhk_g_tokyo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "nhk",
+      "source_options": {
+        "area": "130",
+        "service": "g1"
+      },
+      "validated_at": "2026-10-12T11:18:11.198039+00:00",
+      "validation": {
+        "programmes": 59,
+        "current_or_future": 59,
+        "latest": "2026-10-14 02:45:00+09:00",
+        "earliest": "2026-10-12 19:30:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "NHK G (Sub Ch.)",
+      "tvg_id": "NHK東京・総合2_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "NHK E",
+      "tvg_id": "NHK東京・教育_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "nhk_e_tokyo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "nhk",
+      "source_options": {
+        "area": "130",
+        "service": "e1"
+      },
+      "validated_at": "2026-10-12T11:18:11.198056+00:00",
+      "validation": {
+        "programmes": 92,
+        "current_or_future": 92,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "NTV",
+      "tvg_id": "日本テレビ_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "ntv_tokyo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "日テレ1"
+      },
+      "validated_at": "2026-10-12T11:18:11.198059+00:00",
+      "validation": {
+        "programmes": 32,
+        "current_or_future": 32,
+        "latest": "2026-10-14 01:29:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "TV Asahi",
+      "tvg_id": "テレビ朝日_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "tv_asahi_tokyo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "テレビ朝日"
+      },
+      "validated_at": "2026-10-12T11:18:11.198061+00:00",
+      "validation": {
+        "programmes": 34,
+        "current_or_future": 34,
+        "latest": "2026-10-14 01:20:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "TBS",
+      "tvg_id": "TBS_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "tbs_tokyo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "TBS1"
+      },
+      "validated_at": "2026-10-12T11:18:11.198063+00:00",
+      "validation": {
+        "programmes": 29,
+        "current_or_future": 29,
+        "latest": "2026-10-14 01:26:00+09:00",
+        "earliest": "2026-10-12 18:30:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "TV Tokyo",
+      "tvg_id": "テレ東_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "tv_tokyo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "テレ東"
+      },
+      "validated_at": "2026-10-12T11:18:11.198065+00:00",
+      "validation": {
+        "programmes": 47,
+        "current_or_future": 47,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 18:25:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "Fuji TV",
+      "tvg_id": "フジテレビ_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "fuji_tv_tokyo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "フジテレビ"
+      },
+      "validated_at": "2026-10-12T11:18:11.198066+00:00",
+      "validation": {
+        "programmes": 33,
+        "current_or_future": 33,
+        "latest": "2026-10-14 01:45:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "TOKYO MX1",
+      "tvg_id": "TOKYO・MX_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "tokyo_mx1",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "TOKYO",
+        "lineup": "tokyo",
+        "station_line": 8
+      },
+      "validated_at": "2026-10-12T11:18:11.198069+00:00",
+      "validation": {
+        "programmes": 62,
+        "current_or_future": 62,
+        "latest": "2026-10-14 01:35:00+09:00",
+        "earliest": "2026-10-12 19:57:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "TOKYO MX2 (HD 720p)",
+      "tvg_id": "TOKYO・MX2_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "tokyo_mx2",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "TOKYO",
+        "lineup": "tokyo",
+        "station_line": 9
+      },
+      "validated_at": "2026-10-12T11:18:11.198071+00:00",
+      "validation": {
+        "programmes": 42,
+        "current_or_future": 42,
+        "latest": "2026-10-14 02:00:00+09:00",
+        "earliest": "2026-10-12 20:09:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "NHK G Osaka",
+      "tvg_id": "NHK大阪・総合_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "nhk_g_osaka",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "nhk",
+      "source_options": {
+        "area": "270",
+        "service": "g1"
+      },
+      "validated_at": "2026-10-12T11:18:11.198073+00:00",
+      "validation": {
+        "programmes": 59,
+        "current_or_future": 59,
+        "latest": "2026-10-14 02:45:00+09:00",
+        "earliest": "2026-10-12 19:30:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "NHK G Kyoto",
+      "tvg_id": "NHK京都・総合_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "NHK E Osaka",
+      "tvg_id": "NHK大阪・教育_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "nhk_e_osaka",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "nhk",
+      "source_options": {
+        "area": "270",
+        "service": "e1"
+      },
+      "validated_at": "2026-10-12T11:18:11.198079+00:00",
+      "validation": {
+        "programmes": 92,
+        "current_or_future": 92,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "SUN",
+      "tvg_id": "サンテレビ_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "sun_tv",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "サンテレビ1",
+        "lineup": "osaka"
+      },
+      "validated_at": "2026-10-12T11:18:11.198081+00:00",
+      "validation": {
+        "programmes": 60,
+        "current_or_future": 60,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 19:58:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "MBS",
+      "tvg_id": "毎日テレビ_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "mbs",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "MBS",
+        "lineup": "osaka"
+      },
+      "validated_at": "2026-10-12T11:18:11.198083+00:00",
+      "validation": {
+        "programmes": 39,
+        "current_or_future": 39,
+        "latest": "2026-10-14 01:29:00+09:00",
+        "earliest": "2026-10-12 18:30:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "KBS",
+      "tvg_id": "KBS京都_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "kbs_kyoto",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "KBS京都",
+        "lineup": "osaka"
+      },
+      "validated_at": "2026-10-12T11:18:11.198085+00:00",
+      "validation": {
+        "programmes": 64,
+        "current_or_future": 64,
+        "latest": "2026-10-14 01:55:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "ABC",
+      "tvg_id": "ABCテレビ_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "abc_tv",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "ABCテレビ1",
+        "lineup": "osaka"
+      },
+      "validated_at": "2026-10-12T11:18:11.198087+00:00",
+      "validation": {
+        "programmes": 40,
+        "current_or_future": 40,
+        "latest": "2026-10-14 01:33:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "TV Osaka",
+      "tvg_id": "テレビ大阪_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "tv_osaka",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "テレビ大阪1",
+        "lineup": "osaka"
+      },
+      "validated_at": "2026-10-12T11:18:11.198089+00:00",
+      "validation": {
+        "programmes": 47,
+        "current_or_future": 47,
+        "latest": "2026-10-14 01:45:00+09:00",
+        "earliest": "2026-10-12 18:25:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "Kansai TV",
+      "tvg_id": "関西テレビ_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "kansai_tv",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "関西テレビ1",
+        "lineup": "osaka"
+      },
+      "validated_at": "2026-10-12T11:18:11.198091+00:00",
+      "validation": {
+        "programmes": 41,
+        "current_or_future": 41,
+        "latest": "2026-10-14 01:19:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "ytv",
+      "tvg_id": "読売テレビ_jp",
+      "group": "地上デジタル",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "ytv",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "読売テレビ1",
+        "lineup": "osaka"
+      },
+      "validated_at": "2026-10-12T11:18:11.198092+00:00",
+      "validation": {
+        "programmes": 31,
+        "current_or_future": 31,
+        "latest": "2026-10-14 01:29:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "NHK BS",
+      "tvg_id": "NHK・BS_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "nhk_bs",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "nhk",
+      "source_options": {
+        "area": "130",
+        "service": "s1"
+      },
+      "validated_at": "2026-10-12T11:18:11.198094+00:00",
+      "validation": {
+        "programmes": 37,
+        "current_or_future": 37,
+        "latest": "2026-10-14 01:55:00+09:00",
+        "earliest": "2026-10-12 19:30:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "NHK BS (Sub Ch.)",
+      "tvg_id": "NHK・BS2_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "BS NTV",
+      "tvg_id": "BS日テレ_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs_ntv",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "BS日テレ",
+        "lineup": "bs"
+      },
+      "validated_at": "2026-10-12T11:18:11.198096+00:00",
+      "validation": {
+        "programmes": 51,
+        "current_or_future": 51,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "BS NTV 4K",
+      "tvg_id": "BS日テレ-4K_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "BS Asahi",
+      "tvg_id": "BS朝日_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs_asahi",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "BS朝日1",
+        "lineup": "bs"
+      },
+      "validated_at": "2026-10-12T11:18:11.198098+00:00",
+      "validation": {
+        "programmes": 43,
+        "current_or_future": 43,
+        "latest": "2026-10-14 02:00:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "BS Asahi 4K",
+      "tvg_id": "BS朝日-4K_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "BS TBS",
+      "tvg_id": "BS-TBS_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs_tbs",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "BS-TBS",
+        "lineup": "bs"
+      },
+      "validated_at": "2026-10-12T11:18:11.198102+00:00",
+      "validation": {
+        "programmes": 40,
+        "current_or_future": 40,
+        "latest": "2026-10-14 02:00:00+09:00",
+        "earliest": "2026-10-12 19:30:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "BS TBS 4K",
+      "tvg_id": "BS-TBS-4K_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "BS TV Tokyo",
+      "tvg_id": "BSテレ東_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs_tv_tokyo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "ＢＳテレ東",
+        "lineup": "bs"
+      },
+      "validated_at": "2026-10-12T11:18:11.198105+00:00",
+      "validation": {
+        "programmes": 40,
+        "current_or_future": 40,
+        "latest": "2026-10-14 01:28:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "BS TV Tokyo 4K",
+      "tvg_id": "BSテレ東-4K_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "BS Fuji",
+      "tvg_id": "BSフジ_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs_fuji",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "BSフジ・181",
+        "lineup": "bs"
+      },
+      "validated_at": "2026-10-12T11:18:11.198107+00:00",
+      "validation": {
+        "programmes": 43,
+        "current_or_future": 43,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "BS 10",
+      "tvg_id": "BS10_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs10",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "ＢＳ１０",
+        "lineup": "bs",
+        "station_line": 10,
+        "station_id": "200"
+      },
+      "validated_at": "2026-10-12T11:18:11.198109+00:00",
+      "validation": {
+        "programmes": 36,
+        "current_or_future": 36,
+        "latest": "2026-10-14 04:30:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "BS11",
+      "tvg_id": "BS11-イレブン_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs11",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "BS11イ",
+        "lineup": "bs",
+        "station_line": 12
+      },
+      "validated_at": "2026-10-12T11:18:11.198111+00:00",
+      "validation": {
+        "programmes": 45,
+        "current_or_future": 45,
+        "latest": "2026-10-14 01:35:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "BS 12",
+      "tvg_id": "BS12トゥエルビ_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs12",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "BS12ト",
+        "lineup": "bs",
+        "station_line": 13
+      },
+      "validated_at": "2026-10-12T11:18:11.198113+00:00",
+      "validation": {
+        "programmes": 38,
+        "current_or_future": 38,
+        "latest": "2026-10-14 02:00:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "JCOM BS",
+      "tvg_id": "J-COM-BS_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "jcom_bs",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J:COM BS",
+        "lineup": "bs",
+        "station_line": 26,
+        "station_id": "260"
+      },
+      "validated_at": "2026-10-12T11:18:11.198115+00:00",
+      "validation": {
+        "programmes": 39,
+        "current_or_future": 39,
+        "latest": "2026-10-14 02:00:00+09:00",
+        "earliest": "2026-10-12 18:30:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "BS Yoshimoto",
+      "tvg_id": "BSよしもと_jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs_yoshimoto",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "ＢＳよしもと",
+        "lineup": "bs",
+        "station_line": 27,
+        "station_id": "265"
+      },
+      "validated_at": "2026-10-12T11:18:11.198118+00:00",
+      "validation": {
+        "programmes": 43,
+        "current_or_future": 43,
+        "latest": "2026-10-14 01:25:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "NHK BS4K",
+      "tvg_id": "NHKBSP4K.jp",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "WOWOW Prime",
+      "tvg_id": "CH.621",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "wowow_prime",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "WOWOWプ..",
+        "lineup": "bs",
+        "station_line": 7,
+        "station_id": "191"
+      },
+      "validated_at": "2026-10-12T11:18:11.198120+00:00",
+      "validation": {
+        "programmes": 32,
+        "current_or_future": 32,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 18:15:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "WOWOW Live",
+      "tvg_id": "CH.622",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "wowow_live",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "WOWOWライブ",
+        "lineup": "bs",
+        "station_line": 8,
+        "station_id": "192"
+      },
+      "validated_at": "2026-10-12T11:18:11.198122+00:00",
+      "validation": {
+        "programmes": 20,
+        "current_or_future": 20,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "WOWOW Cinema",
+      "tvg_id": "CH.623",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "wowow_cinema",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "WOWOWシネマ",
+        "lineup": "bs",
+        "station_line": 9,
+        "station_id": "193"
+      },
+      "validated_at": "2026-10-12T11:18:11.198124+00:00",
+      "validation": {
+        "programmes": 15,
+        "current_or_future": 15,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 19:10:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "BS 10 Premium",
+      "tvg_id": "CH.625",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "bs10_premium",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "ＢＳ１０プレミアム",
+        "lineup": "bs",
+        "station_line": 11,
+        "station_id": "201"
+      },
+      "validated_at": "2026-10-12T11:18:11.198127+00:00",
+      "validation": {
+        "programmes": 17,
+        "current_or_future": 17,
+        "latest": "2026-10-14 02:40:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "WOWOW Plus",
+      "tvg_id": "CH.630",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "wowow_plus",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "WOWOWプラス",
+        "lineup": "bs",
+        "station_line": 23,
+        "station_id": "252"
+      },
+      "validated_at": "2026-10-12T11:18:11.198129+00:00",
+      "validation": {
+        "programmes": 15,
+        "current_or_future": 15,
+        "latest": "2026-10-14 01:55:00+09:00",
+        "earliest": "2026-10-12 17:30:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "Fishing Vision",
+      "tvg_id": "rch_46",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "fishing_vision",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "BS釣りビジョン",
+        "lineup": "bs",
+        "station_line": 22,
+        "station_id": "251"
+      },
+      "validated_at": "2026-10-12T11:18:11.198131+00:00",
+      "validation": {
+        "programmes": 33,
+        "current_or_future": 33,
+        "latest": "2026-10-14 02:00:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "Weather News",
+      "tvg_id": "rch_45",
+      "group": "BS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "NTV News24",
+      "tvg_id": "CH.571",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "TBS News",
+      "tvg_id": "CH.572",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "BBC News",
+      "tvg_id": "CH.565",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "CNNj",
+      "tvg_id": "CH.566",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "NHK World-Japan",
+      "tvg_id": "NHKWorldJapan.jp",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Green Channel",
+      "tvg_id": "CH.688",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "green_channel",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "グリーンチャンネル",
+        "lineup": "bs",
+        "station_line": 16,
+        "station_id": "234"
+      },
+      "validated_at": "2026-10-12T11:18:11.198133+00:00",
+      "validation": {
+        "programmes": 32,
+        "current_or_future": 32,
+        "latest": "2026-10-14 02:00:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "JSport 1",
+      "tvg_id": "CH.603",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "jsports1",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J SPORTS 1",
+        "lineup": "bs",
+        "station_line": 18,
+        "station_id": "242"
+      },
+      "validated_at": "2026-10-12T11:18:11.198135+00:00",
+      "validation": {
+        "programmes": 18,
+        "current_or_future": 18,
+        "latest": "2026-10-14 03:00:00+09:00",
+        "earliest": "2026-10-12 18:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "JSport 2",
+      "tvg_id": "CH.604",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "jsports2",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J SPORTS 2",
+        "lineup": "bs",
+        "station_line": 19,
+        "station_id": "243"
+      },
+      "validated_at": "2026-10-12T11:18:11.198137+00:00",
+      "validation": {
+        "programmes": 19,
+        "current_or_future": 19,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 19:30:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "JSport 3",
+      "tvg_id": "CH.606",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "jsports3",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J SPORTS 3",
+        "lineup": "bs",
+        "station_line": 20,
+        "station_id": "244"
+      },
+      "validated_at": "2026-10-12T11:18:11.198140+00:00",
+      "validation": {
+        "programmes": 19,
+        "current_or_future": 19,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 20:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "JSport 4",
+      "tvg_id": "CH.605",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": "jsports4",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "J SPORTS 4",
+        "lineup": "bs",
+        "station_line": 21,
+        "station_id": "245"
+      },
+      "validated_at": "2026-10-12T11:18:11.198142+00:00",
+      "validation": {
+        "programmes": 15,
+        "current_or_future": 15,
+        "latest": "2026-10-14 01:30:00+09:00",
+        "earliest": "2026-10-12 19:00:00+09:00"
+      }
+    },
+    {
+      "playlist_name": "Sky A",
+      "tvg_id": "rch_49",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Gaora Sports",
+      "tvg_id": "rch_51",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Nittele G+",
+      "tvg_id": "CH.608",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Golf Network",
+      "tvg_id": "rch_75",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Sport Live Plus",
+      "tvg_id": "CH.580",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "スカチャン1",
+      "tvg_id": "CH.581",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Fighting TV Samurai",
+      "tvg_id": "CH.600",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Toei Channel",
+      "tvg_id": "CH.629",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Eisei Gekijo",
+      "tvg_id": "CH.628",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Neco Channel",
+      "tvg_id": "rch_59",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "The Cinema",
+      "tvg_id": "CH.631",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Movie Plus",
+      "tvg_id": "CH.632",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Nihon Eiga Senmon",
+      "tvg_id": "CH.634",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Jidaigeki Senmon",
+      "tvg_id": "CH.662",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Family Gekijyo",
+      "tvg_id": "CH.660",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Home Drama Channel",
+      "tvg_id": "CH.661",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "TBS Channel 1",
+      "tvg_id": "CH.616",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "TBS Channel 2",
+      "tvg_id": "CH.617",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "TV Asahi Channel 1",
+      "tvg_id": "CH.611",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "TV Asahi Channel 2",
+      "tvg_id": "CH.612",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Nittele Plus",
+      "tvg_id": "CH.619",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Channel Ginga",
+      "tvg_id": "CH.664",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Fuji TV ONE",
+      "tvg_id": "CH.614",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Fuji TV TWO",
+      "tvg_id": "CH.615",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Fuji TV NEXT",
+      "tvg_id": "CH.613",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Action Channel (AXN)",
+      "tvg_id": "CH.650",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Dlife",
+      "tvg_id": "Dlife(ディーライフ)_jp",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "LaLa TV",
+      "tvg_id": "CH.654",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Mystery Channel",
+      "tvg_id": "CH.649",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Animax",
+      "tvg_id": "CH.670",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Disney Channel",
+      "tvg_id": "CH.620",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Kids Staton",
+      "tvg_id": "CH.669",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Cartoon Network",
+      "tvg_id": "CH.668",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "AT-X",
+      "tvg_id": "CH.667",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Disney Junior",
+      "tvg_id": "CH.672",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Takarazuka Sky Stage",
+      "tvg_id": "TAKARAZUKASKYSTAGE.jp",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Space Shower TV (HD)",
+      "tvg_id": "スペースシャワーTV_jp",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "MTV",
+      "tvg_id": "CH.640",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Music Air",
+      "tvg_id": "ミュージック・エア_jp",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Music ON TV",
+      "tvg_id": "CH.641",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Kayo Pops",
+      "tvg_id": "rch_85",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Music Japan TV",
+      "tvg_id": "CH.639",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Discovery Channel",
+      "tvg_id": "CH.676",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Animal Planet",
+      "tvg_id": "CH.677",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "History",
+      "tvg_id": "rch_43",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "National Geographic Japan",
+      "tvg_id": "CH.675",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Tabi Channel",
+      "tvg_id": "CH.544",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Tetsudo Channel",
+      "tvg_id": "rch_30",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Mondo TV",
+      "tvg_id": "CH.659",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Me-Tele Next",
+      "tvg_id": "メ～テレNEXT_jp",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Shogi Channel",
+      "tvg_id": "rch_36",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "囲碁・将棋ライト (R)",
+      "tvg_id": "rch_100",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Mnet",
+      "tvg_id": "CH.658",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "KBS World",
+      "tvg_id": "CH.656",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "ショップチャンネル",
+      "tvg_id": "ショップチャンネル_jp",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "V Paradise",
+      "tvg_id": "CH.635",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "ヌーヴェルパラダイス",
+      "tvg_id": "CH.535",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    },
+    {
+      "playlist_name": "Pigoo",
+      "tvg_id": "rch_41",
+      "group": "CS放送",
+      "phase": "conventional",
+      "present": true,
+      "config_key": null,
+      "status": "pending",
+      "reason": "Awaiting source research and current-listing validation."
+    }
+  ]
+}

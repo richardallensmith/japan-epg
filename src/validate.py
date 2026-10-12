@@ -28,6 +28,7 @@ def validate_feed(
     playlist_channel_ids: set[str],
     now: datetime | None = None,
     min_future_hours: float = 2.0,
+    min_programmes: int = 3,
 ) -> dict:
     if expected_channel_ids != playlist_channel_ids:
         raise ValidationError(
@@ -53,6 +54,8 @@ def validate_feed(
     current_or_future = {channel_id: 0 for channel_id in expected_channel_ids}
     per_channel_count = {channel_id: 0 for channel_id in expected_channel_ids}
     per_channel_stops: dict[str, list[datetime]] = {channel_id: [] for channel_id in expected_channel_ids}
+    per_channel_starts = {channel_id: [] for channel_id in expected_channel_ids}
+    per_channel_titles = {channel_id: set() for channel_id in expected_channel_ids}
     starts: list[datetime] = []
     stops: list[datetime] = []
     bilingual_titles = 0
@@ -63,11 +66,13 @@ def validate_feed(
             raise ValidationError(f"Programme references unexpected channel {channel!r}")
         start = parse_xmltv_timestamp(element.get("start", ""))
         stop = parse_xmltv_timestamp(element.get("stop", ""))
+        if any(not element.get(field, "").endswith(" +0900") for field in ("start", "stop")):
+            raise ValidationError("Programme timestamps must use +0900 Japan time")
         if stop <= start:
             raise ValidationError(f"Programme stop is not after start: {start} / {stop}")
         ja_title = element.findtext("title[@lang='ja']", default="")
         en_title = element.findtext("title[@lang='en']", default="")
-        if not ja_title or not en_title:
+        if not ja_title.strip() or not en_title.strip():
             raise ValidationError("Every programme must have non-empty English and Japanese titles")
         key = (channel, element.get("start", ""), element.get("stop", ""), ja_title)
         if key in seen:
@@ -75,12 +80,18 @@ def validate_feed(
         seen.add(key)
         per_channel_count[channel] += 1
         per_channel_stops[channel].append(stop)
+        per_channel_starts[channel].append(start)
+        per_channel_titles[channel].add(ja_title.strip())
         if stop > now:
             current_or_future[channel] += 1
         starts.append(start)
         stops.append(stop)
         bilingual_titles += 1
-        if element.find("desc[@lang='ja']") is not None and element.find("desc[@lang='en']") is not None:
+        ja_description = element.findtext("desc[@lang='ja']", default="").strip()
+        en_description = element.findtext("desc[@lang='en']", default="").strip()
+        if bool(ja_description) != bool(en_description):
+            raise ValidationError("Source descriptions must retain both Japanese and English text")
+        if ja_description and en_description:
             bilingual_descriptions += 1
 
     if not starts:
@@ -88,6 +99,15 @@ def validate_feed(
     for channel_id in sorted(expected_channel_ids):
         if per_channel_count[channel_id] == 0:
             raise ValidationError(f"Channel {channel_id!r} exists but has zero programme entries")
+        if per_channel_count[channel_id] < min_programmes:
+            raise ValidationError(f"Channel {channel_id!r} has too few meaningful programme entries")
+        if per_channel_titles[channel_id] <= {'休止', '放送休止', '番組情報がありません', '未定', '番組未定'}:
+            raise ValidationError(f"Channel {channel_id!r} contains only schedule placeholders")
+        if min(per_channel_starts[channel_id]) > now + timedelta(hours=6):
+            raise ValidationError(f"Channel {channel_id!r} has no listings near the current time")
+        intervals = sorted(zip(per_channel_starts[channel_id], per_channel_stops[channel_id]))
+        if any(start < previous_stop for (_, previous_stop), (start, _) in zip(intervals, intervals[1:])):
+            raise ValidationError(f"Channel {channel_id!r} has overlapping or conflicting programme entries")
         if current_or_future[channel_id] == 0:
             raise ValidationError(f"Channel {channel_id!r} has zero current/future programme entries")
         latest = max(per_channel_stops[channel_id])
@@ -108,6 +128,7 @@ def validate_feed(
                 "programmes": per_channel_count[channel_id],
                 "current_or_future": current_or_future[channel_id],
                 "latest": max(per_channel_stops[channel_id]),
+                "earliest": min(per_channel_starts[channel_id]),
             }
             for channel_id in sorted(expected_channel_ids)
         },

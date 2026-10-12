@@ -114,7 +114,7 @@ class _BangumiParser(HTMLParser):
 
 
 class BangumiSource:
-    """Tokyo terrestrial schedules from G.GUIDE's broadcaster-supplied listings."""
+    """Terrestrial and satellite schedules from G.GUIDE's public listings."""
 
     name = "G.GUIDE broadcaster-official listings (bangumi.org)"
     endpoints = {
@@ -130,6 +130,7 @@ class BangumiSource:
         station: str,
         lineup: str = "tokyo",
         station_line: int | None = None,
+        station_id: str | None = None,
         timeout: int = 30,
     ):
         if lineup not in self.endpoints:
@@ -137,6 +138,7 @@ class BangumiSource:
         self.station = station
         self.lineup = lineup
         self.station_line = station_line
+        self.station_id = station_id
         self.timeout = timeout
 
     def _get_page(self, date_string: str) -> _BangumiParser:
@@ -202,6 +204,10 @@ class BangumiSource:
                 f"Expected one G.GUIDE station matching {self.station!r} for {request_date}; found {len(matches)}"
             )
         rows = page.program_lines.get(matches[0], [])
+        if self.station_id and any(
+            row["source_id"].split("-", 1)[0] != self.station_id for row in rows
+        ):
+            raise SourceError(f"G.GUIDE service ID changed for {self.station!r} on {request_date}")
         programmes: list[Programme] = []
         for row in rows:
             if not row["title"]:

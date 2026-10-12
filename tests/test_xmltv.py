@@ -79,6 +79,7 @@ class XmltvTests(unittest.TestCase):
             playlist_channel_ids={CHANNEL},
             now=now,
             min_future_hours=1,
+            min_programmes=1,
         )
         self.assertEqual(1, result["programmes"])
 
@@ -149,6 +150,41 @@ class XmltvTests(unittest.TestCase):
                 playlist_channel_ids={CHANNEL, CHANNEL_2},
                 now=datetime(2026, 9, 26, 18, 0, tzinfo=JST),
             )
+
+class ScheduleIntegrityTests(unittest.TestCase):
+    def check_invalid(self, items):
+        with self.assertRaises(ValidationError):
+            validate_feed(build_xmltv(items, channels=channels(CHANNEL)),
+                          expected_channel_ids={CHANNEL}, playlist_channel_ids={CHANNEL},
+                          now=datetime(2026, 9, 26, 18, 0, tzinfo=JST))
+
+    def test_single_long_placeholder_is_rejected(self):
+        item = programme(title='放送休止')
+        item.stop += timedelta(days=1)
+        self.check_invalid([item])
+
+    def test_all_placeholder_schedule_is_rejected(self):
+        self.check_invalid([programme(start=datetime(2026, 9, 26, h, 0, tzinfo=JST), title='休止') for h in (19, 20, 21)])
+
+    def test_conflicting_programmes_are_rejected(self):
+        self.check_invalid([programme(title=t) for t in ('番組A', '番組B', '番組C')])
+
+    def test_non_japan_timestamps_rejected(self):
+        items = [programme(start=datetime(2026, 9, 26, h, 0, tzinfo=timezone.utc)) for h in (10, 11, 12)]
+        self.check_invalid(items)
+
+    def test_distant_future_listings_do_not_count_as_current(self):
+        items = [programme(start=datetime(2026, 9, 28, h, 0, tzinfo=JST)) for h in (19, 20, 21)]
+        self.check_invalid(items)
+
+class DescriptionIntegrityTests(unittest.TestCase):
+    def test_missing_english_description_is_rejected(self):
+        tree = build_xmltv([programme()], channels=channels(CHANNEL))
+        node = tree.find('programme')
+        node.remove(node.find("desc[@lang='en']"))
+        with self.assertRaisesRegex(ValidationError, 'descriptions'):
+            validate_feed(tree, expected_channel_ids={CHANNEL}, playlist_channel_ids={CHANNEL},
+                          now=datetime(2026, 9, 26, 18, 0, tzinfo=JST), min_programmes=1)
 
 
 if __name__ == "__main__":
