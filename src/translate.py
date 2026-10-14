@@ -382,13 +382,15 @@ class TranslationEngine:
             "🈟": "New",
             "🆕": "New",
             "㊙": "Secret",
+            "🈥": "Dubbed",
+            "🈠": "Premiere",
         }
         cleaned = text
         for symbol, label in markers.items():
             if symbol in cleaned:
                 marker_labels.append(label)
             cleaned = cleaned.replace(symbol, "")
-        for symbol in ("🈀", "🈑", "🈓", "🈖", "🈐", "🈔", "🈙", "🈚", "🈒", "🅂"):
+        for symbol in ("🈀", "🈑", "🈓", "🈖", "🈐", "🈔", "🈙", "🈚", "🈒", "🅂", "🅊", "🅍"):
             cleaned = cleaned.replace(symbol, "")
         result = self._title_without_broadcast_markers(cleaned.strip())
         if marker_labels:

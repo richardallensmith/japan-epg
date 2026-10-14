@@ -1,0 +1,481 @@
+{
+  "programmes": 2072,
+  "current_or_future": 2072,
+  "earliest": "2026-10-14 08:50:00+09:00",
+  "latest": "2026-10-15 23:00:00+09:00",
+  "bilingual_titles": 2072,
+  "bilingual_descriptions": 1881,
+  "per_channel": {
+    "ABCテレビ_jp": {
+      "programmes": 39,
+      "current_or_future": 39,
+      "latest": "2026-10-15 21:50:00+09:00",
+      "earliest": "2026-10-14 13:45:00+09:00"
+    },
+    "BS-TBS_jp": {
+      "programmes": 43,
+      "current_or_future": 43,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 13:54:00+09:00"
+    },
+    "BS10_jp": {
+      "programmes": 43,
+      "current_or_future": 43,
+      "latest": "2026-10-15 21:52:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "BS11-イレブン_jp": {
+      "programmes": 46,
+      "current_or_future": 46,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "BS12トゥエルビ_jp": {
+      "programmes": 33,
+      "current_or_future": 33,
+      "latest": "2026-10-15 21:00:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "BSよしもと_jp": {
+      "programmes": 42,
+      "current_or_future": 42,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 13:00:00+09:00"
+    },
+    "BSテレ東_jp": {
+      "programmes": 37,
+      "current_or_future": 37,
+      "latest": "2026-10-15 19:54:00+09:00",
+      "earliest": "2026-10-14 12:53:00+09:00"
+    },
+    "BSフジ_jp": {
+      "programmes": 39,
+      "current_or_future": 39,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "BS日テレ_jp": {
+      "programmes": 45,
+      "current_or_future": 45,
+      "latest": "2026-10-15 19:55:00+09:00",
+      "earliest": "2026-10-14 14:02:00+09:00"
+    },
+    "BS朝日_jp": {
+      "programmes": 45,
+      "current_or_future": 45,
+      "latest": "2026-10-15 20:54:00+09:00",
+      "earliest": "2026-10-14 13:55:00+09:00"
+    },
+    "CH.603": {
+      "programmes": 24,
+      "current_or_future": 24,
+      "latest": "2026-10-15 21:30:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "CH.604": {
+      "programmes": 20,
+      "current_or_future": 20,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 13:00:00+09:00"
+    },
+    "CH.605": {
+      "programmes": 15,
+      "current_or_future": 15,
+      "latest": "2026-10-15 19:50:00+09:00",
+      "earliest": "2026-10-14 13:00:00+09:00"
+    },
+    "CH.606": {
+      "programmes": 18,
+      "current_or_future": 18,
+      "latest": "2026-10-15 22:30:00+09:00",
+      "earliest": "2026-10-14 08:50:00+09:00"
+    },
+    "CH.611": {
+      "programmes": 39,
+      "current_or_future": 39,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 13:55:00+09:00"
+    },
+    "CH.612": {
+      "programmes": 31,
+      "current_or_future": 31,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "CH.613": {
+      "programmes": 26,
+      "current_or_future": 26,
+      "latest": "2026-10-15 21:00:00+09:00",
+      "earliest": "2026-10-14 13:10:00+09:00"
+    },
+    "CH.614": {
+      "programmes": 36,
+      "current_or_future": 36,
+      "latest": "2026-10-15 23:00:00+09:00",
+      "earliest": "2026-10-14 14:01:00+09:00"
+    },
+    "CH.615": {
+      "programmes": 37,
+      "current_or_future": 37,
+      "latest": "2026-10-15 19:28:00+09:00",
+      "earliest": "2026-10-14 13:48:00+09:00"
+    },
+    "CH.616": {
+      "programmes": 30,
+      "current_or_future": 30,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "CH.617": {
+      "programmes": 36,
+      "current_or_future": 36,
+      "latest": "2026-10-15 19:40:00+09:00",
+      "earliest": "2026-10-14 13:40:00+09:00"
+    },
+    "CH.619": {
+      "programmes": 39,
+      "current_or_future": 39,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "CH.621": {
+      "programmes": 29,
+      "current_or_future": 29,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 13:30:00+09:00"
+    },
+    "CH.622": {
+      "programmes": 25,
+      "current_or_future": 25,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 13:30:00+09:00"
+    },
+    "CH.623": {
+      "programmes": 15,
+      "current_or_future": 15,
+      "latest": "2026-10-15 21:00:00+09:00",
+      "earliest": "2026-10-14 13:30:00+09:00"
+    },
+    "CH.625": {
+      "programmes": 16,
+      "current_or_future": 16,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 13:00:00+09:00"
+    },
+    "CH.628": {
+      "programmes": 26,
+      "current_or_future": 26,
+      "latest": "2026-10-15 20:30:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "CH.629": {
+      "programmes": 28,
+      "current_or_future": 28,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 13:30:00+09:00"
+    },
+    "CH.630": {
+      "programmes": 20,
+      "current_or_future": 20,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 13:45:00+09:00"
+    },
+    "CH.631": {
+      "programmes": 16,
+      "current_or_future": 16,
+      "latest": "2026-10-15 20:45:00+09:00",
+      "earliest": "2026-10-14 13:35:00+09:00"
+    },
+    "CH.632": {
+      "programmes": 20,
+      "current_or_future": 20,
+      "latest": "2026-10-15 21:00:00+09:00",
+      "earliest": "2026-10-14 13:30:00+09:00"
+    },
+    "CH.660": {
+      "programmes": 23,
+      "current_or_future": 23,
+      "latest": "2026-10-15 20:55:00+09:00",
+      "earliest": "2026-10-14 12:50:00+09:00"
+    },
+    "CH.661": {
+      "programmes": 30,
+      "current_or_future": 30,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "CH.662": {
+      "programmes": 31,
+      "current_or_future": 31,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 13:30:00+09:00"
+    },
+    "CH.664": {
+      "programmes": 30,
+      "current_or_future": 30,
+      "latest": "2026-10-15 19:45:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "CH.688": {
+      "programmes": 33,
+      "current_or_future": 33,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "J-COM-BS_jp": {
+      "programmes": 39,
+      "current_or_future": 39,
+      "latest": "2026-10-15 20:30:00+09:00",
+      "earliest": "2026-10-14 13:00:00+09:00"
+    },
+    "KBS京都_jp": {
+      "programmes": 63,
+      "current_or_future": 63,
+      "latest": "2026-10-15 19:55:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "NHK・BS_jp": {
+      "programmes": 34,
+      "current_or_future": 34,
+      "latest": "2026-10-15 21:15:00+09:00",
+      "earliest": "2026-10-14 13:00:00+09:00"
+    },
+    "NHK大阪・教育_jp": {
+      "programmes": 91,
+      "current_or_future": 91,
+      "latest": "2026-10-15 19:20:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "NHK大阪・総合_jp": {
+      "programmes": 67,
+      "current_or_future": 67,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 13:00:00+09:00"
+    },
+    "NHK東京・教育_jp": {
+      "programmes": 91,
+      "current_or_future": 91,
+      "latest": "2026-10-15 19:20:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "NHK東京・総合_jp": {
+      "programmes": 66,
+      "current_or_future": 66,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 13:00:00+09:00"
+    },
+    "TBS_jp": {
+      "programmes": 24,
+      "current_or_future": 24,
+      "latest": "2026-10-15 21:00:00+09:00",
+      "earliest": "2026-10-14 13:55:00+09:00"
+    },
+    "TOKYO・MX2_jp": {
+      "programmes": 38,
+      "current_or_future": 38,
+      "latest": "2026-10-15 19:30:00+09:00",
+      "earliest": "2026-10-14 12:29:00+09:00"
+    },
+    "TOKYO・MX_jp": {
+      "programmes": 55,
+      "current_or_future": 55,
+      "latest": "2026-10-15 19:57:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "rch_46": {
+      "programmes": 35,
+      "current_or_future": 35,
+      "latest": "2026-10-15 20:00:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "rch_59": {
+      "programmes": 27,
+      "current_or_future": 27,
+      "latest": "2026-10-15 20:20:00+09:00",
+      "earliest": "2026-10-14 12:30:00+09:00"
+    },
+    "サンテレビ_jp": {
+      "programmes": 60,
+      "current_or_future": 60,
+      "latest": "2026-10-15 19:55:00+09:00",
+      "earliest": "2026-10-14 14:00:00+09:00"
+    },
+    "テレビ大阪_jp": {
+      "programmes": 46,
+      "current_or_future": 46,
+      "latest": "2026-10-15 20:30:00+09:00",
+      "earliest": "2026-10-14 12:37:00+09:00"
+    },
+    "テレビ朝日_jp": {
+      "programmes": 33,
+      "current_or_future": 33,
+      "latest": "2026-10-15 21:54:00+09:00",
+      "earliest": "2026-10-14 13:55:00+09:00"
+    },
+    "テレ東_jp": {
+      "programmes": 42,
+      "current_or_future": 42,
+      "latest": "2026-10-15 20:30:00+09:00",
+      "earliest": "2026-10-14 13:40:00+09:00"
+    },
+    "フジテレビ_jp": {
+      "programmes": 27,
+      "current_or_future": 27,
+      "latest": "2026-10-15 21:00:00+09:00",
+      "earliest": "2026-10-14 13:50:00+09:00"
+    },
+    "日本テレビ_jp": {
+      "programmes": 30,
+      "current_or_future": 30,
+      "latest": "2026-10-15 19:54:00+09:00",
+      "earliest": "2026-10-14 13:55:00+09:00"
+    },
+    "毎日テレビ_jp": {
+      "programmes": 30,
+      "current_or_future": 30,
+      "latest": "2026-10-15 21:00:00+09:00",
+      "earliest": "2026-10-14 13:55:00+09:00"
+    },
+    "読売テレビ_jp": {
+      "programmes": 34,
+      "current_or_future": 34,
+      "latest": "2026-10-15 20:54:00+09:00",
+      "earliest": "2026-10-14 13:55:00+09:00"
+    },
+    "関西テレビ_jp": {
+      "programmes": 35,
+      "current_or_future": 35,
+      "latest": "2026-10-15 20:54:00+09:00",
+      "earliest": "2026-10-14 13:50:00+09:00"
+    }
+  },
+  "validated_at": "2026-10-14T05:06:32.742761+00:00",
+  "tests": 59,
+  "english_titles_with_japanese_characters": 0,
+  "inventory_totals": {
+    "pending": 110,
+    "enabled": 57
+  },
+  "live_playlist_count": 167,
+  "source_audit": {
+    "CH.629": {
+      "playlist_name": "Toei Channel",
+      "programmes": 28,
+      "earliest": "2026-10-14T13:30:00+09:00",
+      "latest": "2026-10-15T20:00:00+09:00",
+      "source_service_id": "218"
+    },
+    "CH.628": {
+      "playlist_name": "Eisei Gekijo",
+      "programmes": 27,
+      "earliest": "2026-10-14T12:45:00+09:00",
+      "latest": "2026-10-15T20:30:00+09:00",
+      "source_service_id": "219"
+    },
+    "rch_59": {
+      "playlist_name": "Neco Channel",
+      "programmes": 26,
+      "earliest": "2026-10-14T12:30:00+09:00",
+      "latest": "2026-10-15T18:40:00+09:00",
+      "source_service_id": "223"
+    },
+    "CH.631": {
+      "playlist_name": "The Cinema",
+      "programmes": 17,
+      "earliest": "2026-10-14T11:00:00+09:00",
+      "latest": "2026-10-15T20:45:00+09:00",
+      "source_service_id": "227"
+    },
+    "CH.632": {
+      "playlist_name": "Movie Plus",
+      "programmes": 19,
+      "earliest": "2026-10-14T13:30:00+09:00",
+      "latest": "2026-10-15T18:45:00+09:00",
+      "source_service_id": "240"
+    },
+    "CH.662": {
+      "playlist_name": "Jidaigeki Senmon",
+      "programmes": 30,
+      "earliest": "2026-10-14T13:30:00+09:00",
+      "latest": "2026-10-15T19:00:00+09:00",
+      "source_service_id": "292"
+    },
+    "CH.660": {
+      "playlist_name": "Family Gekijyo",
+      "programmes": 22,
+      "earliest": "2026-10-14T12:50:00+09:00",
+      "latest": "2026-10-15T19:00:00+09:00",
+      "source_service_id": "293"
+    },
+    "CH.661": {
+      "playlist_name": "Home Drama Channel",
+      "programmes": 30,
+      "earliest": "2026-10-14T13:00:00+09:00",
+      "latest": "2026-10-15T19:00:00+09:00",
+      "source_service_id": "294"
+    },
+    "CH.616": {
+      "playlist_name": "TBS Channel 1",
+      "programmes": 32,
+      "earliest": "2026-10-14T12:00:00+09:00",
+      "latest": "2026-10-15T19:30:00+09:00",
+      "source_service_id": "296"
+    },
+    "CH.617": {
+      "playlist_name": "TBS Channel 2",
+      "programmes": 37,
+      "earliest": "2026-10-14T12:50:00+09:00",
+      "latest": "2026-10-15T19:40:00+09:00",
+      "source_service_id": "297"
+    },
+    "CH.611": {
+      "playlist_name": "TV Asahi Channel 1",
+      "programmes": 39,
+      "earliest": "2026-10-14T12:55:00+09:00",
+      "latest": "2026-10-15T19:00:00+09:00",
+      "source_service_id": "298"
+    },
+    "CH.612": {
+      "playlist_name": "TV Asahi Channel 2",
+      "programmes": 32,
+      "earliest": "2026-10-14T12:00:00+09:00",
+      "latest": "2026-10-15T20:00:00+09:00",
+      "source_service_id": "299"
+    },
+    "CH.619": {
+      "playlist_name": "Nittele Plus",
+      "programmes": 39,
+      "earliest": "2026-10-14T12:30:00+09:00",
+      "latest": "2026-10-15T19:00:00+09:00",
+      "source_service_id": "300"
+    },
+    "CH.664": {
+      "playlist_name": "Channel Ginga",
+      "programmes": 31,
+      "earliest": "2026-10-14T13:00:00+09:00",
+      "latest": "2026-10-15T19:45:00+09:00",
+      "source_service_id": "305"
+    },
+    "CH.614": {
+      "playlist_name": "Fuji TV ONE",
+      "programmes": 37,
+      "earliest": "2026-10-14T13:02:00+09:00",
+      "latest": "2026-10-15T23:00:00+09:00",
+      "source_service_id": "307"
+    },
+    "CH.615": {
+      "playlist_name": "Fuji TV TWO",
+      "programmes": 37,
+      "earliest": "2026-10-14T13:00:00+09:00",
+      "latest": "2026-10-15T18:41:00+09:00",
+      "source_service_id": "308"
+    },
+    "CH.613": {
+      "playlist_name": "Fuji TV NEXT",
+      "programmes": 25,
+      "earliest": "2026-10-14T13:10:00+09:00",
+      "latest": "2026-10-15T19:00:00+09:00",
+      "source_service_id": "309"
+    }
+  }
+}

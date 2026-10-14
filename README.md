@@ -1,6 +1,6 @@
 # Japan EPG
 
-An English-first XMLTV generator for Japanese IPTV players. The current feed covers 40 Tokyo, Kansai, BS, and conventional specialty services, preserving the original Japanese metadata alongside translated English metadata.
+An English-first XMLTV generator for Japanese IPTV players. The current feed covers 57 Tokyo, Kansai, BS, CS, and conventional specialty services, preserving the original Japanese metadata alongside translated English metadata.
 
 The playlist remains the authority for channel identity. The generator refuses to write a feed if any live playlist ID differs from its configured, reviewed value.
 
@@ -48,10 +48,27 @@ The playlist remains the authority for channel identity. The generator refuses t
 | JSport 2 | `CH.604` | G.GUIDE BS, service `243` |
 | JSport 3 | `CH.606` | G.GUIDE BS, service `244` |
 | JSport 4 | `CH.605` | G.GUIDE BS, service `245` |
+| Toei Channel | `CH.629` | G.GUIDE CS, service `218` |
+| Eisei Gekijo | `CH.628` | G.GUIDE CS, service `219` |
+| Neco Channel | `rch_59` | G.GUIDE CS, service `223` |
+| The Cinema | `CH.631` | G.GUIDE CS, service `227` |
+| Movie Plus | `CH.632` | G.GUIDE CS, service `240` |
+| Jidaigeki Senmon | `CH.662` | G.GUIDE CS, service `292` |
+| Family Gekijyo | `CH.660` | G.GUIDE CS, service `293` |
+| Home Drama Channel | `CH.661` | G.GUIDE CS, service `294` |
+| TBS Channel 1 | `CH.616` | G.GUIDE CS, service `296` |
+| TBS Channel 2 | `CH.617` | G.GUIDE CS, service `297` |
+| TV Asahi Channel 1 | `CH.611` | G.GUIDE CS, service `298` |
+| TV Asahi Channel 2 | `CH.612` | G.GUIDE CS, service `299` |
+| Nittele Plus | `CH.619` | G.GUIDE CS, service `300` |
+| Channel Ginga | `CH.664` | G.GUIDE CS, service `305` |
+| Fuji TV ONE | `CH.614` | G.GUIDE CS, service `307` |
+| Fuji TV TWO | `CH.615` | G.GUIDE CS, service `308` |
+| Fuji TV NEXT | `CH.613` | G.GUIDE CS, service `309` |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
-NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. Commercial listings come from G.GUIDE's broadcaster-supplied [terrestrial](https://bangumi.org/epg/td) and [BS](https://bangumi.org/epg/bs) schedules, using separate Tokyo and Osaka lineups. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
+NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. Commercial listings come from G.GUIDE's broadcaster-supplied [terrestrial](https://bangumi.org/epg/td), [BS](https://bangumi.org/epg/bs), and [CS](https://bangumi.org/epg/cs) schedules, using separate Tokyo and Osaka lineups. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
 
 ## Generate and validate
 
@@ -159,3 +176,5 @@ FAST channels are intentionally deferred until the major terrestrial, BS, and co
 Statuses are `pending`, `enabled`, `grouped`, or `blocked`. Configuration alone never marks a channel enabled: only a successful current feed validation records its programme count, coverage, source options, and validation time. `grouped` and `blocked` require a documented reason and source evidence. Newly discovered or changed identities start pending. Rakuten and FAST services are deferred until conventional channels are addressed; QVC/GSTV CS services retain conventional priority. A previous validation timestamp describes that run, not a guarantee of source availability forever.
 
 The 2026-10-12 batch uses one shared BS lineup, including the BS-carried J SPORTS and Green Channel services whose playlist groups are CS. Every new service is guarded by both its station label/position and the actual source service ID. No parent/subchannel or FAST equivalence is inferred.
+
+The 2026-10-14 batch adds 17 movie, drama, and entertainment services from the shared CS lineup. Exact playlist names/IDs, source line labels, lineup positions, and event service IDs are pinned independently. Source service numbers were cross-checked against [SKY PerfecTV’s channel list](https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel). Yesterday’s optional G.GUIDE page may expire with HTTP 404 after the 05:00 JST broadcast boundary; current/future dates, pre-boundary dates, access denials, and server failures still fail the build. The final feed must still pass every channel’s coverage and structure checks.

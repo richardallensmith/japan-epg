@@ -506,6 +506,244 @@
         "station_line": 21,
         "station_id": "245"
       }
+    },
+    "toei_channel": {
+      "enabled": true,
+      "playlist_name": "Toei Channel",
+      "expected_tvg_id": "CH.629",
+      "display_name_en": "Toei Channel",
+      "display_name_ja": "東映チャンネル",
+      "source": "bangumi",
+      "source_options": {
+        "station": "218 東映チャ..",
+        "lineup": "cs",
+        "station_line": 2,
+        "station_id": "218"
+      }
+    },
+    "eisei_gekijo": {
+      "enabled": true,
+      "playlist_name": "Eisei Gekijo",
+      "expected_tvg_id": "CH.628",
+      "display_name_en": "Eisei Gekijo",
+      "display_name_ja": "衛星劇場",
+      "source": "bangumi",
+      "source_options": {
+        "station": "219 衛星劇場",
+        "lineup": "cs",
+        "station_line": 3,
+        "station_id": "219"
+      }
+    },
+    "neco_channel": {
+      "enabled": true,
+      "playlist_name": "Neco Channel",
+      "expected_tvg_id": "rch_59",
+      "display_name_en": "Neco Channel",
+      "display_name_ja": "映画・チャンネルNECO",
+      "source": "bangumi",
+      "source_options": {
+        "station": "223 映画･チ..",
+        "lineup": "cs",
+        "station_line": 4,
+        "station_id": "223"
+      }
+    },
+    "the_cinema": {
+      "enabled": true,
+      "playlist_name": "The Cinema",
+      "expected_tvg_id": "CH.631",
+      "display_name_en": "The Cinema",
+      "display_name_ja": "ザ・シネマ",
+      "source": "bangumi",
+      "source_options": {
+        "station": "227 ザ･シネマ",
+        "lineup": "cs",
+        "station_line": 5,
+        "station_id": "227"
+      }
+    },
+    "movie_plus": {
+      "enabled": true,
+      "playlist_name": "Movie Plus",
+      "expected_tvg_id": "CH.632",
+      "display_name_en": "Movie Plus",
+      "display_name_ja": "ムービープラス",
+      "source": "bangumi",
+      "source_options": {
+        "station": "240 ムービー..",
+        "lineup": "cs",
+        "station_line": 6,
+        "station_id": "240"
+      }
+    },
+    "jidaigeki_senmon": {
+      "enabled": true,
+      "playlist_name": "Jidaigeki Senmon",
+      "expected_tvg_id": "CH.662",
+      "display_name_en": "Jidaigeki Senmon",
+      "display_name_ja": "時代劇専門チャンネル",
+      "source": "bangumi",
+      "source_options": {
+        "station": "292 時代劇専..",
+        "lineup": "cs",
+        "station_line": 12,
+        "station_id": "292"
+      }
+    },
+    "family_gekijyo": {
+      "enabled": true,
+      "playlist_name": "Family Gekijyo",
+      "expected_tvg_id": "CH.660",
+      "display_name_en": "Family Gekijyo",
+      "display_name_ja": "ファミリー劇場",
+      "source": "bangumi",
+      "source_options": {
+        "station": "293 ファミリ..",
+        "lineup": "cs",
+        "station_line": 13,
+        "station_id": "293"
+      }
+    },
+    "home_drama": {
+      "enabled": true,
+      "playlist_name": "Home Drama Channel",
+      "expected_tvg_id": "CH.661",
+      "display_name_en": "Home Drama Channel",
+      "display_name_ja": "ホームドラマチャンネル",
+      "source": "bangumi",
+      "source_options": {
+        "station": "294 ホームド..",
+        "lineup": "cs",
+        "station_line": 14,
+        "station_id": "294"
+      }
+    },
+    "tbs_channel1": {
+      "enabled": true,
+      "playlist_name": "TBS Channel 1",
+      "expected_tvg_id": "CH.616",
+      "display_name_en": "TBS Channel 1",
+      "display_name_ja": "TBSチャンネル1",
+      "source": "bangumi",
+      "source_options": {
+        "station": "296 TBSチ..",
+        "lineup": "cs",
+        "station_line": 16,
+        "station_id": "296"
+      }
+    },
+    "tbs_channel2": {
+      "enabled": true,
+      "playlist_name": "TBS Channel 2",
+      "expected_tvg_id": "CH.617",
+      "display_name_en": "TBS Channel 2",
+      "display_name_ja": "TBSチャンネル2",
+      "source": "bangumi",
+      "source_options": {
+        "station": "297 TBSチ..",
+        "lineup": "cs",
+        "station_line": 17,
+        "station_id": "297"
+      }
+    },
+    "tv_asahi_channel1": {
+      "enabled": true,
+      "playlist_name": "TV Asahi Channel 1",
+      "expected_tvg_id": "CH.611",
+      "display_name_en": "TV Asahi Channel 1",
+      "display_name_ja": "テレ朝チャンネル1",
+      "source": "bangumi",
+      "source_options": {
+        "station": "298 テレ朝チ..",
+        "lineup": "cs",
+        "station_line": 18,
+        "station_id": "298"
+      }
+    },
+    "tv_asahi_channel2": {
+      "enabled": true,
+      "playlist_name": "TV Asahi Channel 2",
+      "expected_tvg_id": "CH.612",
+      "display_name_en": "TV Asahi Channel 2",
+      "display_name_ja": "テレ朝チャンネル2",
+      "source": "bangumi",
+      "source_options": {
+        "station": "299 テレ朝チ..",
+        "lineup": "cs",
+        "station_line": 19,
+        "station_id": "299"
+      }
+    },
+    "nittele_plus": {
+      "enabled": true,
+      "playlist_name": "Nittele Plus",
+      "expected_tvg_id": "CH.619",
+      "display_name_en": "Nittele Plus",
+      "display_name_ja": "日テレプラス",
+      "source": "bangumi",
+      "source_options": {
+        "station": "300 日テレプ..",
+        "lineup": "cs",
+        "station_line": 20,
+        "station_id": "300"
+      }
+    },
+    "channel_ginga": {
+      "enabled": true,
+      "playlist_name": "Channel Ginga",
+      "expected_tvg_id": "CH.664",
+      "display_name_en": "Channel Ginga",
+      "display_name_ja": "チャンネル銀河",
+      "source": "bangumi",
+      "source_options": {
+        "station": "305 チャンネ..",
+        "lineup": "cs",
+        "station_line": 22,
+        "station_id": "305"
+      }
+    },
+    "fuji_tv_one": {
+      "enabled": true,
+      "playlist_name": "Fuji TV ONE",
+      "expected_tvg_id": "CH.614",
+      "display_name_en": "Fuji TV ONE",
+      "display_name_ja": "フジテレビONE",
+      "source": "bangumi",
+      "source_options": {
+        "station": "307 フジテレ..",
+        "lineup": "cs",
+        "station_line": 23,
+        "station_id": "307"
+      }
+    },
+    "fuji_tv_two": {
+      "enabled": true,
+      "playlist_name": "Fuji TV TWO",
+      "expected_tvg_id": "CH.615",
+      "display_name_en": "Fuji TV TWO",
+      "display_name_ja": "フジテレビTWO",
+      "source": "bangumi",
+      "source_options": {
+        "station": "308 フジテレ..",
+        "lineup": "cs",
+        "station_line": 24,
+        "station_id": "308"
+      }
+    },
+    "fuji_tv_next": {
+      "enabled": true,
+      "playlist_name": "Fuji TV NEXT",
+      "expected_tvg_id": "CH.613",
+      "display_name_en": "Fuji TV NEXT",
+      "display_name_ja": "フジテレビNEXT",
+      "source": "bangumi",
+      "source_options": {
+        "station": "309 フジテレ..",
+        "lineup": "cs",
+        "station_line": 25,
+        "station_id": "309"
+      }
     }
   }
 }

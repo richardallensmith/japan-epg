@@ -1,0 +1,690 @@
+{
+  "source_url": "https://bangumi.org/epg/cs?broad_cast_date=20261014",
+  "channel_names": [
+    "161 QVC",
+    "218 東映チャ..",
+    "219 衛星劇場",
+    "223 映画･チ..",
+    "227 ザ･シネマ",
+    "240 ムービー..",
+    "250 スカイA",
+    "254 GAOR..",
+    "257 日テレジ..",
+    "262 ゴルフネ..",
+    "290 TAKA..",
+    "292 時代劇専..",
+    "293 ファミリ..",
+    "294 ホームド..",
+    "295 MOND..",
+    "296 TBSチ..",
+    "297 TBSチ..",
+    "298 テレ朝チ..",
+    "299 テレ朝チ..",
+    "300 日テレプ..",
+    "301 メ～テレ..",
+    "305 チャンネ..",
+    "307 フジテレ..",
+    "308 フジテレ..",
+    "309 フジテレ..",
+    "310 V☆パラ..",
+    "311 アクショ..",
+    "312 Dlife",
+    "314 LaLaTV",
+    "316 ミステリ..",
+    "317 KBS ..",
+    "318 Mnet",
+    "321 Musi..",
+    "322 スペース..",
+    "323 MTV HD",
+    "324 ミュージ..",
+    "325 MUSI..",
+    "329 歌謡ポッ..",
+    "330 キッズス..",
+    "331 カートゥ..",
+    "333 アニメシ..",
+    "339 ディズニ..",
+    "340 ディスカ..",
+    "341 アニマル..",
+    "342 ヒストリ..",
+    "343 ナショナ..",
+    "349 日テレN..",
+    "351 TBS ..",
+    "353 BBCニ..",
+    "354 CNNj",
+    "363 囲碁･将..",
+    "55 ショップチ..",
+    "800 スポーツ..",
+    "801 スカチャン1"
+  ],
+  "channels": [
+    {
+      "config_key": "toei_channel",
+      "playlist_name": "Toei Channel",
+      "tvg_id": "CH.629",
+      "station": "218 東映チャ..",
+      "station_line": 2,
+      "station_id": "218",
+      "rows": [
+        {
+          "start": "202610140400",
+          "stop": "202610140600",
+          "source_id": "218-56378",
+          "title": "京都地検の女9 #4",
+          "description": "名取裕子扮する検事が“主婦の勘”を武器に事件の真相を暴く人気ミステリーシリーズの最終作。 #4 若者5人が暮らすシェアハウスで放火事件が発生！",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMADa3DoAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140630",
+          "source_id": "218-56379",
+          "title": "花のあすか組！ #9",
+          "description": "高口里純の人気同名漫画をドラマ化した学園少女アクション。 #9 はじめての涙 出演：小高恵美／小沢なつき 1988年 全23話",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMADa3DsAI"
+        },
+        {
+          "start": "202610140630",
+          "stop": "202610140700",
+          "source_id": "218-56380",
+          "title": "花のあすか組！ #10",
+          "description": "高口里純の人気同名漫画をドラマ化した学園少女アクション。 #10 ミコの恋 パンツでデート 出演：小高恵美／小沢なつき 1988年 全23話",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMADa3DwAI"
+        }
+      ]
+    },
+    {
+      "config_key": "eisei_gekijo",
+      "playlist_name": "Eisei Gekijo",
+      "tvg_id": "CH.628",
+      "station": "219 衛星劇場",
+      "station_line": 3,
+      "station_id": "219",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140615",
+          "source_id": "219-44077",
+          "title": "韓◆家門の栄光＃23🈑【連日一挙】 ▼パク・シフ、ユン・ジョンヒ",
+          "description": "◆韓国ドラマClassic〜不朽の名作選〜◆ 「検事プリンセス」「王女の男」など数々の作品に出演するパク・シフが2008年に出演した大ヒットドラマ！ 20...",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMADbrC0AI"
+        },
+        {
+          "start": "202610140615",
+          "stop": "202610140730",
+          "source_id": "219-44078",
+          "title": "韓◆1％の奇跡＃22🈑【連日一挙】 ▼カン・ドンウォン、キム・ジョンファ",
+          "description": "カン・ドンウォンのドラマ初主演作！ 財閥の御曹司と心優しい女性教師のロマンティックな恋模様を描いた究極の胸キュン・ストーリー。 2003年 53分 全26話",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMADbrC4AI"
+        },
+        {
+          "start": "202610140730",
+          "stop": "202610140830",
+          "source_id": "219-44079",
+          "title": "華◆山河枕（さんがしん）〜Promise of Love〜＃23🈑【連日一挙】",
+          "description": "▼ビクトリア、ディン・ユーシー 将軍家に生まれた2人の男女が祖国を護るために命懸けの戦いに臨む大型ロマンス・アクション時代劇。 2025年 中国 48分 ...",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMADbrC8AI"
+        }
+      ]
+    },
+    {
+      "config_key": "neco_channel",
+      "playlist_name": "Neco Channel",
+      "tvg_id": "rch_59",
+      "station": "223 映画･チ..",
+      "station_line": 4,
+      "station_id": "223",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140530",
+          "source_id": "223-32988",
+          "title": "ゴーストを愛した美人妻",
+          "description": "背徳に揺れ動く人妻を人気セクシー女優・水城奈緒が演じる官能ドラマ。共演：田淵正浩 トニー大木(18年・28分)",
+          "genre": "映画",
+          "href": "/tv_events/AmMADfgNwAI"
+        },
+        {
+          "start": "202610140530",
+          "stop": "202610140600",
+          "source_id": "223-32989",
+          "title": "インフォメーション",
+          "description": "各種インフォメーションをお届け",
+          "genre": "",
+          "href": "/tv_events/AmMADfgN0AI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140740",
+          "source_id": "223-32990",
+          "title": "🈑新・ミナミの帝王11 奨学金とオレオレ詐欺（千原ジュニア主演）",
+          "description": "千原ジュニアが、大阪ミナミの高利貸し・萬田銀次郎をクールに演じる新シリーズ。共演：大東駿介 赤井英和(16年・81分)",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMADfgN4AI"
+        }
+      ]
+    },
+    {
+      "config_key": "the_cinema",
+      "playlist_name": "The Cinema",
+      "tvg_id": "CH.631",
+      "station": "227 ザ･シネマ",
+      "station_line": 5,
+      "station_id": "227",
+      "rows": [
+        {
+          "start": "202610140340",
+          "stop": "202610140600",
+          "source_id": "227-32212",
+          "title": "シルミド／SILMIDO 🈑",
+          "description": "金日成暗殺のために集められた犯罪者たち──韓国の知られざる計画の全貌を再現した社会派サスペンス",
+          "genre": "映画",
+          "href": "/tv_events/AmMADjfdQAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140630",
+          "source_id": "227-32213",
+          "title": "生活お役立ち情報(無料)",
+          "description": "この番組は生活に役立つお得なテレビショッピングをお届けします。",
+          "genre": "",
+          "href": "/tv_events/AmMADjfdUAI"
+        },
+        {
+          "start": "202610140630",
+          "stop": "202610140900",
+          "source_id": "227-32214",
+          "title": "光州5・18 🈑",
+          "description": "1980年、韓国・光州市で起こった実際の悲劇。今初めて描かれる、韓国史のタブー。",
+          "genre": "映画",
+          "href": "/tv_events/AmMADjfdYAI"
+        }
+      ]
+    },
+    {
+      "config_key": "movie_plus",
+      "playlist_name": "Movie Plus",
+      "tvg_id": "CH.632",
+      "station": "240 ムービー..",
+      "station_line": 6,
+      "station_id": "240",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140645",
+          "source_id": "240-63100",
+          "title": "クラッシュ・ダイブ II／沈黙の潜水艦",
+          "description": "タイムリミットは12時間！核弾頭を奪回せよ！「クラッシュ・ダイブ」のマイケル・ダディコフが主演を務めた武装潜水艦バトル・アクション。",
+          "genre": "映画",
+          "href": "/tv_events/AmMADw9nwAI"
+        },
+        {
+          "start": "202610140645",
+          "stop": "202610140900",
+          "source_id": "240-63101",
+          "title": "天と地と",
+          "description": "海音寺潮五郎による同名小説を、角川春樹製作・監督・脚本で映画化。戦国時代を背景に、上杉謙信と武田信玄の対決を描くスペクタクル時代劇。",
+          "genre": "映画",
+          "href": "/tv_events/AmMADw9n0AI"
+        },
+        {
+          "start": "202610140900",
+          "stop": "202610140930",
+          "source_id": "240-63102",
+          "title": "インフォメーション",
+          "description": "",
+          "genre": "",
+          "href": "/tv_events/AmMADw9n4AI"
+        }
+      ]
+    },
+    {
+      "config_key": "jidaigeki_senmon",
+      "playlist_name": "Jidaigeki Senmon",
+      "tvg_id": "CH.662",
+      "station": "292 時代劇専..",
+      "station_line": 12,
+      "station_id": "292",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140600",
+          "source_id": "292-3720",
+          "title": "暴れん坊将軍Ⅲ #46 ◆松平健／長門勇",
+          "description": "第46回「激震！ なまず武士の怒り」 本編46分-1988年・TVシリーズ・全123話- 出演：松平健／北島三郎／横内正 他 ゲスト：長門勇",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEkDogAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140655",
+          "source_id": "292-3721",
+          "title": "遠山の金さんVS女ねずみ #15",
+          "description": "「ねずみに殺人容疑 金さん困る」出演：松方弘樹／古手川祐子／水野真紀 原作：陣出達朗 江戸のスーパースターと女怪盗が夢の激突！（1997年・全20話）",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEkDokAI"
+        },
+        {
+          "start": "202610140655",
+          "stop": "202610140700",
+          "source_id": "292-3722",
+          "title": "【無料】日本映画専門チャンネルpresents「東映ヤクザ映画 疵の美学」のすべて",
+          "description": "姉妹チャンネル・日本映画専門チャンネルで放送の「東映ヤクザ映画 疵の美学」をご紹介！(2026年）",
+          "genre": "",
+          "href": "/tv_events/AmMAEkDooAI"
+        }
+      ]
+    },
+    {
+      "config_key": "family_gekijyo",
+      "playlist_name": "Family Gekijyo",
+      "tvg_id": "CH.660",
+      "station": "293 ファミリ..",
+      "station_line": 13,
+      "station_id": "293",
+      "rows": [
+        {
+          "start": "202610140455",
+          "stop": "202610140600",
+          "source_id": "293-53407",
+          "title": "🅊🈑結婚できない男【連日】#10",
+          "description": "阿部寛主演、尾崎将也脚本のヒューマンドラマ。40歳独身の建築家・桑野信介が、周囲を巻き込みながら結婚への道を模索する姿をコミカルに描く。出演はほかに夏川結衣。",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEl0J8AI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140640",
+          "source_id": "293-53408",
+          "title": "🅊志村軒【連日】#12",
+          "description": "志村けんの冠コント番組。下町の小さなラーメン屋で繰り広げられる人情コントの数々。出演はほかに優香、森下悠里、肥後克広、近藤春菜、桃瀬美咲、上島竜兵、箕輪はるか。",
+          "genre": "",
+          "href": "/tv_events/AmMAEl0KAAI"
+        },
+        {
+          "start": "202610140640",
+          "stop": "202610140800",
+          "source_id": "293-53409",
+          "title": "🈑ドリフ大爆笑【連日】#125",
+          "description": "1977年より月1回のペースで放送され高視聴率を獲得した、ザ・ドリフターズの代表的コント番組。お笑いファン、アイドルファン必見、バラエティ番組の金字塔！",
+          "genre": "",
+          "href": "/tv_events/AmMAEl0KEAI"
+        }
+      ]
+    },
+    {
+      "config_key": "home_drama",
+      "playlist_name": "Home Drama Channel",
+      "tvg_id": "CH.661",
+      "station": "294 ホームド..",
+      "station_line": 14,
+      "station_id": "294",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140600",
+          "source_id": "294-59798",
+          "title": "眠狂四郎無頼控＃15 ▼片岡孝夫（現・片岡仁左衛門）、火野正平",
+          "description": "≪時代劇傑作選≫ ＃15「お庭番悲話！裏切りの人肌」 片岡孝夫（現・片岡仁左衛門）版『眠狂四郎』シリーズ第2弾。 1983年 45分 全23話",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEm6ZYAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140700",
+          "source_id": "294-59799",
+          "title": "華◆暗河伝＃31🈑【日本初放送】 ▼ゴン・ジュン、ポン・シャオラン",
+          "description": "【ノーカット】 ＃31「道を照らす光」 「暗河」を舞台に最強の刺客が権力争いへと巻き込まれていく。新時代武侠の傑作！ 2024年 中国 37分 全38話",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEm6ZcAI"
+        },
+        {
+          "start": "202610140700",
+          "stop": "202610140750",
+          "source_id": "294-59800",
+          "title": "華◆素敵な恋の咲かせかた＃23🈑【ノーカット】 ▼ジャン・リンホー",
+          "description": "《アンコール》 ▼シュー・ルオハン イケメン漢方医＆仕事と恋に疲れたヒロイン、心がキュンと癒されるヒーリング・ラブコメディ！ 2025年 中国 47分 全28話",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEm6ZgAI"
+        }
+      ]
+    },
+    {
+      "config_key": "tbs_channel1",
+      "playlist_name": "TBS Channel 1",
+      "tvg_id": "CH.616",
+      "station": "296 TBSチ..",
+      "station_line": 16,
+      "station_id": "296",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140550",
+          "source_id": "296-12491",
+          "title": "🈡中国ドラマ「与鳳行」ノーカット字幕版 #39",
+          "description": "チャオ・リーイン×ケニー・リンの『楚喬伝』黄金カップルが再び共演！天命に抗う二人の恋と宿命を描いた壮大なファンタジー時代劇。",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEoMMsAI"
+        },
+        {
+          "start": "202610140550",
+          "stop": "202610140600",
+          "source_id": "296-12432",
+          "title": "【無料】インフォメーション2026年10月",
+          "description": "TBSチャンネルのオススメ番組を紹介！カスタマーセンター TEL：0570-666-296（年中無休10-20時）",
+          "genre": "",
+          "href": "/tv_events/AmMAEoMJAAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140700",
+          "source_id": "296-12492",
+          "title": "水戸黄門・第38部 #18🈑 ◆里見浩太朗",
+          "description": "里見浩太朗演じる黄門様が、瀬戸内で起きた藩の合併騒動を収めに8回目の世直し旅へ。小沢真珠が騒動解決のために活躍する娘・志保を演じ、一行に同行する。",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEoMMwAI"
+        }
+      ]
+    },
+    {
+      "config_key": "tbs_channel2",
+      "playlist_name": "TBS Channel 2",
+      "tvg_id": "CH.617",
+      "station": "297 TBSチ..",
+      "station_line": 17,
+      "station_id": "297",
+      "rows": [
+        {
+          "start": "202610140450",
+          "stop": "202610140545",
+          "source_id": "297-13209",
+          "title": "顔で笑って #18",
+          "description": "永遠のスター山口百恵の連ドラデビュー作、1973年制作作品。百年あまり女系が続く鎌倉の外科病院を舞台に、宇津井健演じる有能な外科医とその家族たちを描く。",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEpM5kAI"
+        },
+        {
+          "start": "202610140545",
+          "stop": "202610140600",
+          "source_id": "297-12888",
+          "title": "笑ゥせぇるすまん #101",
+          "description": "藤子不二雄（A）原作のブラック・ユーモア漫画。主人公・喪黒福造の不気味なキャラクターと決め台詞「ドーーン！！」が話題となった。",
+          "genre": "アニメ／特撮",
+          "href": "/tv_events/AmMAEpMlgAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140700",
+          "source_id": "297-13210",
+          "title": "🈟ストーカー・誘う女 #1",
+          "description": "過剰な愛が突然、狂気へと変わり忍び寄る…。平穏な日常生活の中に襲いかかるストーカーの恐怖を描く。出演は陣内孝則、雛形あきこ、小林稔侍ほか。",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEpM5oAI"
+        }
+      ]
+    },
+    {
+      "config_key": "tv_asahi_channel1",
+      "playlist_name": "TV Asahi Channel 1",
+      "tvg_id": "CH.611",
+      "station": "298 テレ朝チ..",
+      "station_line": 18,
+      "station_id": "298",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140600",
+          "source_id": "298-62657",
+          "title": "無能の鷹 #8[終]",
+          "description": "#8「無能は世界を平和にする!?生きてるだけで偉い−さよなら鷹野」（2024年／全8話） 出演者：菜々緒、塩野瑛久、工藤阿須加、さとうほなみ、安藤玉恵 ほか",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEq9MEAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140630",
+          "source_id": "298-62658",
+          "title": "あたしンち #179",
+          "description": "#179「母、懸賞生活／ユズ、ショッピングデビュー」 思わず笑ってしまう「タチバナ家」の、ごくありふれた日常をご家族みんなでお楽しみください!!",
+          "genre": "アニメ／特撮",
+          "href": "/tv_events/AmMAEq9MIAI"
+        },
+        {
+          "start": "202610140630",
+          "stop": "202610140700",
+          "source_id": "298-62659",
+          "title": "仮面ライダーガヴ #40",
+          "description": "#40「追憶のアラモード」（2024-2025年／全50話） ▽お菓子も悪も、俺が食べつくす!! 出演者：知念英和 ほか",
+          "genre": "アニメ／特撮",
+          "href": "/tv_events/AmMAEq9MMAI"
+        }
+      ]
+    },
+    {
+      "config_key": "tv_asahi_channel2",
+      "playlist_name": "TV Asahi Channel 2",
+      "tvg_id": "CH.612",
+      "station": "299 テレ朝チ..",
+      "station_line": 19,
+      "station_id": "299",
+      "rows": [
+        {
+          "start": "202610140400",
+          "stop": "202610140600",
+          "source_id": "299-52718",
+          "title": "鉄道の時代▽大宮工場特集(1) ほか",
+          "description": "昭和・平成 鉄道の時代 #28▽大宮工場特集(1) #29▽大宮工場特集(2) #30▽新線の開通(2) #31▽新線の開通(3)",
+          "genre": "",
+          "href": "/tv_events/AmMAErze4AI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140625",
+          "source_id": "299-52719",
+          "title": "人生の楽園 #1251",
+          "description": "「新潟県・上越市〜城下町 妻の喫茶店と夫の蕎麦屋〜」 テレビ朝日放送日:2025年10月11日",
+          "genre": "",
+          "href": "/tv_events/AmMAErze8AI"
+        },
+        {
+          "start": "202610140625",
+          "stop": "202610140655",
+          "source_id": "299-52720",
+          "title": "ショッピング情報",
+          "description": "・・・ショッピング情報・・・",
+          "genre": "",
+          "href": "/tv_events/AmMAErzfAAI"
+        }
+      ]
+    },
+    {
+      "config_key": "nittele_plus",
+      "playlist_name": "Nittele Plus",
+      "tvg_id": "CH.619",
+      "station": "300 日テレプ..",
+      "station_line": 20,
+      "station_id": "300",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140600",
+          "source_id": "300-59288",
+          "title": "鉄道発見伝 鉄兄ちゃん藤田大介アナが行く! #10「SL復活なるか!?若桜鉄道・鳥取」",
+          "description": "出演：藤田大介(日本テレビアナウンサー)、田中匡史(ディレクター)",
+          "genre": "",
+          "href": "/tv_events/AmMAEs55gAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140700",
+          "source_id": "300-59289",
+          "title": "【日テレ刑事ドラマアワー】ジャングル #26",
+          "description": "出演：鹿賀丈史、桑名正博、香坂みゆき、真野響子、勝野洋 ほか 地上波放送日：1987年2月27日〜1987年12月25日",
+          "genre": "ドラマ",
+          "href": "/tv_events/AmMAEs55kAI"
+        },
+        {
+          "start": "202610140700",
+          "stop": "202610140730",
+          "source_id": "300-59290",
+          "title": "[無料]プラス!ショッピング",
+          "description": "毎日の暮らしに「プラス!」な情報を。ショッピング番組。",
+          "genre": "",
+          "href": "/tv_events/AmMAEs55oAI"
+        }
+      ]
+    },
+    {
+      "config_key": "channel_ginga",
+      "playlist_name": "Channel Ginga",
+      "tvg_id": "CH.664",
+      "station": "305 チャンネ..",
+      "station_line": 22,
+      "station_id": "305",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140530",
+          "source_id": "305-61507",
+          "title": "記憶のロケ地を巡る旅＃14",
+          "description": "【竹中直人・西村まさ彦編（京都・東京）】不朽の名作映画や人気ドラマに出演する俳優たちが記憶を辿りながら思い出のロケ地を巡る旅番組/2025年",
+          "genre": "",
+          "href": "/tv_events/AmMAEx8EMAI"
+        },
+        {
+          "start": "202610140530",
+          "stop": "202610140600",
+          "source_id": "305-61508",
+          "title": "にっぽん百名山 大菩薩嶺",
+          "description": "山を知り尽くした経験豊富なガイドに導かれ、自らが登山道を歩いているような主観映像を駆使し、空撮や三次元マップを用いて“ヤマタビ”の魅力を伝える/2015年",
+          "genre": "",
+          "href": "/tv_events/AmMAEx8EQAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140745",
+          "source_id": "305-61509",
+          "title": "BS日本のうた ＃327",
+          "description": "【出演】秋元順子、市川由紀乃、黒川真一朗、坂本冬美、鶴岡雅義と東京ロマンチカ、花咲ゆき美、藤あや子、藤原浩、松原健之、八代亜紀、山本あき、山本譲二/2015年",
+          "genre": "音楽",
+          "href": "/tv_events/AmMAEx8EUAI"
+        }
+      ]
+    },
+    {
+      "config_key": "fuji_tv_one",
+      "playlist_name": "Fuji TV ONE",
+      "tvg_id": "CH.614",
+      "station": "307 フジテレ..",
+      "station_line": 23,
+      "station_id": "307",
+      "rows": [
+        {
+          "start": "202610140400",
+          "stop": "202610140540",
+          "source_id": "307-1220",
+          "title": "千鳥のクセスゴ！ #87 大悟発案の勝俣歌謡祭！最多出場者で紅白歌合戦開催",
+          "description": "＜ゲスト＞飯尾和樹（ずん） 児嶋一哉 セントチヒロ・チッチ 藤原樹・浦川翔平（THE RAMPAGE） （地上波放送日 2023年12月17日）",
+          "genre": "",
+          "href": "/tv_events/AmMAEzBMQAI"
+        },
+        {
+          "start": "202610140540",
+          "stop": "202610140600",
+          "source_id": "307-1221",
+          "title": "極道スイーツ〜コワモテ俳優2人のぶらり絶品甘味巡り〜 #1 上野 ミルクレープ",
+          "description": "「上野 予約即完売！ミルクレープ」 極道俳優が甘味で素顔解禁！コワモテ俳優としても人気のある本宮泰風＆山口祥行が街ブラしながらスイーツ店を巡る異色バラエティ",
+          "genre": "",
+          "href": "/tv_events/AmMAEzBMUAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140700",
+          "source_id": "307-1223",
+          "title": "プロ野球ニュース 2026",
+          "description": "＜解説＞大矢明彦 坂口智隆 ＜MC＞野村弘樹 菊池柚花 ▽クライマックスシリーズの試合結果をお届け！ 【再放送】",
+          "genre": "スポーツ",
+          "href": "/tv_events/AmMAEzBMcAI"
+        }
+      ]
+    },
+    {
+      "config_key": "fuji_tv_two",
+      "playlist_name": "Fuji TV TWO",
+      "tvg_id": "CH.615",
+      "station": "308 フジテレ..",
+      "station_line": 24,
+      "station_id": "308",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140530",
+          "source_id": "308-19609",
+          "title": "サザエさん #221 時代を超えて愛される国民的アニメ「サザエさん」CS初放送",
+          "description": "第2578回「夢の三人家族」「商店街のコミュニケーション能力」「みんなで金婚式」 （地上波放送日 2020年11月22日） ＜原作＞長谷川町子",
+          "genre": "アニメ／特撮",
+          "href": "/tv_events/AmMAE0TJkAI"
+        },
+        {
+          "start": "202610140530",
+          "stop": "202610140600",
+          "source_id": "308-19610",
+          "title": "サザエさん #222 時代を超えて愛される国民的アニメ「サザエさん」CS初放送",
+          "description": "第2579回「イクラは工事中」「借り物よどこへ行く」「磯野家、夢の庭」 （地上波放送日 2020年11月29日） ＜原作＞長谷川町子",
+          "genre": "アニメ／特撮",
+          "href": "/tv_events/AmMAE0TJoAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140610",
+          "source_id": "308-19611",
+          "title": "番組PR【10月】",
+          "description": "＜番組に関する情報は・・・＞ https://otn.fujitv.co.jp",
+          "genre": "",
+          "href": "/tv_events/AmMAE0TJsAI"
+        }
+      ]
+    },
+    {
+      "config_key": "fuji_tv_next",
+      "playlist_name": "Fuji TV NEXT",
+      "tvg_id": "CH.613",
+      "station": "309 フジテレ..",
+      "station_line": 25,
+      "station_id": "309",
+      "rows": [
+        {
+          "start": "202610140500",
+          "stop": "202610140530",
+          "source_id": "309-20948",
+          "title": "SKY EYE 〜空からのメッセージ〜 #7「広島編」",
+          "description": "日本各地の魅力をこれまでにない空からの視点でご紹介する、ANA機内で上映されているオリジナル番組を放送。 ※第2音声：英語",
+          "genre": "",
+          "href": "/tv_events/AmMAE1UdQAI"
+        },
+        {
+          "start": "202610140530",
+          "stop": "202610140600",
+          "source_id": "309-20949",
+          "title": "SKY EYE 〜空からのメッセージ〜 #8「長崎編」",
+          "description": "日本各地の魅力をこれまでにない空からの視点でご紹介する、ANA機内で上映されているオリジナル番組を放送。 ※第2音声：英語",
+          "genre": "",
+          "href": "/tv_events/AmMAE1UdUAI"
+        },
+        {
+          "start": "202610140600",
+          "stop": "202610140910",
+          "source_id": "309-22039",
+          "title": "2026/27 Jリーグ ヤマザキビスケット ルヴァンカップ 鳥栖×東京V",
+          "description": "1stラウンド 2回戦「サガン鳥栖 vs 東京ヴェルディ」 ＜開催＞2026年9月29日（火） ＜解説＞徳永悠平 ＜実況＞南鉄平 ＜リポーター＞諸岡彩",
+          "genre": "スポーツ",
+          "href": "/tv_events/AmMAE1VhcAI"
+        }
+      ]
+    }
+  ]
+}

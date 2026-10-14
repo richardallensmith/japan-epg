@@ -107,6 +107,11 @@ class TranslateTests(unittest.TestCase):
             engine = self.make_engine(Path(temp))
             self.assertEqual("Translated 番組 — New, Secret", engine.title("🈟㊙番組"))
 
+    def test_cs_dubbing_premiere_and_audio_symbols(self):
+        with tempfile.TemporaryDirectory() as temp:
+            engine = self.make_engine(Path(temp))
+            self.assertEqual("Translated 映画 — Dubbed, Premiere", engine.title("🅊🅍映画🈥🈠"))
+
     def test_concurrent_cache_snapshots_merge_without_losing_entries(self):
         with tempfile.TemporaryDirectory() as temp:
             path = Path(temp) / "translations.json"
@@ -160,6 +165,8 @@ class SatelliteMappingTests(unittest.TestCase):
             self.assertEqual('Off Air', engine.title('休止'))
             self.assertEqual('Information', engine.title('インフォメーション'))
             self.assertEqual('Programme Guide', engine.title('番組案内'))
+            self.assertEqual('Sazae-san', engine.title('サザエさん'))
+            self.assertEqual('Kamen Rider Gavv', engine.title('仮面ライダーガヴ'))
 
 
 if __name__ == "__main__":

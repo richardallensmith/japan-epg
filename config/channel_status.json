@@ -1,11 +1,11 @@
 {
   "version": 1,
   "playlist_url": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
-  "reconciled_at": "2026-10-12T11:17:44.404513+00:00",
+  "reconciled_at": "2026-10-14T05:06:32.741359+00:00",
   "identity_sha256": "049ba9e6fd1790ef032f391c138e8ef3edb73e3dd6882d0bae7f6af59421fa7c",
   "totals": {
-    "pending": 127,
-    "enabled": 40
+    "pending": 110,
+    "enabled": 57
   },
   "channels": [
     {
@@ -572,12 +572,12 @@
         "area": "130",
         "service": "g1"
       },
-      "validated_at": "2026-10-12T11:18:11.198039+00:00",
+      "validated_at": "2026-10-14T05:06:32.741460+00:00",
       "validation": {
-        "programmes": 59,
-        "current_or_future": 59,
-        "latest": "2026-10-14 02:45:00+09:00",
-        "earliest": "2026-10-12 19:30:00+09:00"
+        "programmes": 66,
+        "current_or_future": 66,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 13:00:00+09:00"
       }
     },
     {
@@ -604,12 +604,12 @@
         "area": "130",
         "service": "e1"
       },
-      "validated_at": "2026-10-12T11:18:11.198056+00:00",
+      "validated_at": "2026-10-14T05:06:32.741466+00:00",
       "validation": {
-        "programmes": 92,
-        "current_or_future": 92,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 91,
+        "current_or_future": 91,
+        "latest": "2026-10-15 19:20:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -625,12 +625,12 @@
       "source_options": {
         "station": "日テレ1"
       },
-      "validated_at": "2026-10-12T11:18:11.198059+00:00",
+      "validated_at": "2026-10-14T05:06:32.741468+00:00",
       "validation": {
-        "programmes": 32,
-        "current_or_future": 32,
-        "latest": "2026-10-14 01:29:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 30,
+        "current_or_future": 30,
+        "latest": "2026-10-15 19:54:00+09:00",
+        "earliest": "2026-10-14 13:55:00+09:00"
       }
     },
     {
@@ -646,12 +646,12 @@
       "source_options": {
         "station": "テレビ朝日"
       },
-      "validated_at": "2026-10-12T11:18:11.198061+00:00",
+      "validated_at": "2026-10-14T05:06:32.741470+00:00",
       "validation": {
-        "programmes": 34,
-        "current_or_future": 34,
-        "latest": "2026-10-14 01:20:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 33,
+        "current_or_future": 33,
+        "latest": "2026-10-15 21:54:00+09:00",
+        "earliest": "2026-10-14 13:55:00+09:00"
       }
     },
     {
@@ -667,12 +667,12 @@
       "source_options": {
         "station": "TBS1"
       },
-      "validated_at": "2026-10-12T11:18:11.198063+00:00",
+      "validated_at": "2026-10-14T05:06:32.741472+00:00",
       "validation": {
-        "programmes": 29,
-        "current_or_future": 29,
-        "latest": "2026-10-14 01:26:00+09:00",
-        "earliest": "2026-10-12 18:30:00+09:00"
+        "programmes": 24,
+        "current_or_future": 24,
+        "latest": "2026-10-15 21:00:00+09:00",
+        "earliest": "2026-10-14 13:55:00+09:00"
       }
     },
     {
@@ -688,12 +688,12 @@
       "source_options": {
         "station": "テレ東"
       },
-      "validated_at": "2026-10-12T11:18:11.198065+00:00",
+      "validated_at": "2026-10-14T05:06:32.741474+00:00",
       "validation": {
-        "programmes": 47,
-        "current_or_future": 47,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 18:25:00+09:00"
+        "programmes": 42,
+        "current_or_future": 42,
+        "latest": "2026-10-15 20:30:00+09:00",
+        "earliest": "2026-10-14 13:40:00+09:00"
       }
     },
     {
@@ -709,12 +709,12 @@
       "source_options": {
         "station": "フジテレビ"
       },
-      "validated_at": "2026-10-12T11:18:11.198066+00:00",
+      "validated_at": "2026-10-14T05:06:32.741475+00:00",
       "validation": {
-        "programmes": 33,
-        "current_or_future": 33,
-        "latest": "2026-10-14 01:45:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 27,
+        "current_or_future": 27,
+        "latest": "2026-10-15 21:00:00+09:00",
+        "earliest": "2026-10-14 13:50:00+09:00"
       }
     },
     {
@@ -732,12 +732,12 @@
         "lineup": "tokyo",
         "station_line": 8
       },
-      "validated_at": "2026-10-12T11:18:11.198069+00:00",
+      "validated_at": "2026-10-14T05:06:32.741478+00:00",
       "validation": {
-        "programmes": 62,
-        "current_or_future": 62,
-        "latest": "2026-10-14 01:35:00+09:00",
-        "earliest": "2026-10-12 19:57:00+09:00"
+        "programmes": 55,
+        "current_or_future": 55,
+        "latest": "2026-10-15 19:57:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -755,12 +755,12 @@
         "lineup": "tokyo",
         "station_line": 9
       },
-      "validated_at": "2026-10-12T11:18:11.198071+00:00",
+      "validated_at": "2026-10-14T05:06:32.741480+00:00",
       "validation": {
-        "programmes": 42,
-        "current_or_future": 42,
-        "latest": "2026-10-14 02:00:00+09:00",
-        "earliest": "2026-10-12 20:09:00+09:00"
+        "programmes": 38,
+        "current_or_future": 38,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 12:29:00+09:00"
       }
     },
     {
@@ -777,12 +777,12 @@
         "area": "270",
         "service": "g1"
       },
-      "validated_at": "2026-10-12T11:18:11.198073+00:00",
+      "validated_at": "2026-10-14T05:06:32.741481+00:00",
       "validation": {
-        "programmes": 59,
-        "current_or_future": 59,
-        "latest": "2026-10-14 02:45:00+09:00",
-        "earliest": "2026-10-12 19:30:00+09:00"
+        "programmes": 67,
+        "current_or_future": 67,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 13:00:00+09:00"
       }
     },
     {
@@ -809,12 +809,12 @@
         "area": "270",
         "service": "e1"
       },
-      "validated_at": "2026-10-12T11:18:11.198079+00:00",
+      "validated_at": "2026-10-14T05:06:32.741483+00:00",
       "validation": {
-        "programmes": 92,
-        "current_or_future": 92,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 91,
+        "current_or_future": 91,
+        "latest": "2026-10-15 19:20:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -831,12 +831,12 @@
         "station": "サンテレビ1",
         "lineup": "osaka"
       },
-      "validated_at": "2026-10-12T11:18:11.198081+00:00",
+      "validated_at": "2026-10-14T05:06:32.741485+00:00",
       "validation": {
         "programmes": 60,
         "current_or_future": 60,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 19:58:00+09:00"
+        "latest": "2026-10-15 19:55:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -853,12 +853,12 @@
         "station": "MBS",
         "lineup": "osaka"
       },
-      "validated_at": "2026-10-12T11:18:11.198083+00:00",
+      "validated_at": "2026-10-14T05:06:32.741486+00:00",
       "validation": {
-        "programmes": 39,
-        "current_or_future": 39,
-        "latest": "2026-10-14 01:29:00+09:00",
-        "earliest": "2026-10-12 18:30:00+09:00"
+        "programmes": 30,
+        "current_or_future": 30,
+        "latest": "2026-10-15 21:00:00+09:00",
+        "earliest": "2026-10-14 13:55:00+09:00"
       }
     },
     {
@@ -875,12 +875,12 @@
         "station": "KBS京都",
         "lineup": "osaka"
       },
-      "validated_at": "2026-10-12T11:18:11.198085+00:00",
+      "validated_at": "2026-10-14T05:06:32.741488+00:00",
       "validation": {
-        "programmes": 64,
-        "current_or_future": 64,
-        "latest": "2026-10-14 01:55:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 63,
+        "current_or_future": 63,
+        "latest": "2026-10-15 19:55:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -897,12 +897,12 @@
         "station": "ABCテレビ1",
         "lineup": "osaka"
       },
-      "validated_at": "2026-10-12T11:18:11.198087+00:00",
+      "validated_at": "2026-10-14T05:06:32.741490+00:00",
       "validation": {
-        "programmes": 40,
-        "current_or_future": 40,
-        "latest": "2026-10-14 01:33:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 39,
+        "current_or_future": 39,
+        "latest": "2026-10-15 21:50:00+09:00",
+        "earliest": "2026-10-14 13:45:00+09:00"
       }
     },
     {
@@ -919,12 +919,12 @@
         "station": "テレビ大阪1",
         "lineup": "osaka"
       },
-      "validated_at": "2026-10-12T11:18:11.198089+00:00",
+      "validated_at": "2026-10-14T05:06:32.741491+00:00",
       "validation": {
-        "programmes": 47,
-        "current_or_future": 47,
-        "latest": "2026-10-14 01:45:00+09:00",
-        "earliest": "2026-10-12 18:25:00+09:00"
+        "programmes": 46,
+        "current_or_future": 46,
+        "latest": "2026-10-15 20:30:00+09:00",
+        "earliest": "2026-10-14 12:37:00+09:00"
       }
     },
     {
@@ -941,12 +941,12 @@
         "station": "関西テレビ1",
         "lineup": "osaka"
       },
-      "validated_at": "2026-10-12T11:18:11.198091+00:00",
+      "validated_at": "2026-10-14T05:06:32.741493+00:00",
       "validation": {
-        "programmes": 41,
-        "current_or_future": 41,
-        "latest": "2026-10-14 01:19:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 35,
+        "current_or_future": 35,
+        "latest": "2026-10-15 20:54:00+09:00",
+        "earliest": "2026-10-14 13:50:00+09:00"
       }
     },
     {
@@ -963,12 +963,12 @@
         "station": "読売テレビ1",
         "lineup": "osaka"
       },
-      "validated_at": "2026-10-12T11:18:11.198092+00:00",
+      "validated_at": "2026-10-14T05:06:32.741495+00:00",
       "validation": {
-        "programmes": 31,
-        "current_or_future": 31,
-        "latest": "2026-10-14 01:29:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 34,
+        "current_or_future": 34,
+        "latest": "2026-10-15 20:54:00+09:00",
+        "earliest": "2026-10-14 13:55:00+09:00"
       }
     },
     {
@@ -985,12 +985,12 @@
         "area": "130",
         "service": "s1"
       },
-      "validated_at": "2026-10-12T11:18:11.198094+00:00",
+      "validated_at": "2026-10-14T05:06:32.741497+00:00",
       "validation": {
-        "programmes": 37,
-        "current_or_future": 37,
-        "latest": "2026-10-14 01:55:00+09:00",
-        "earliest": "2026-10-12 19:30:00+09:00"
+        "programmes": 34,
+        "current_or_future": 34,
+        "latest": "2026-10-15 21:15:00+09:00",
+        "earliest": "2026-10-14 13:00:00+09:00"
       }
     },
     {
@@ -1017,12 +1017,12 @@
         "station": "BS日テレ",
         "lineup": "bs"
       },
-      "validated_at": "2026-10-12T11:18:11.198096+00:00",
+      "validated_at": "2026-10-14T05:06:32.741498+00:00",
       "validation": {
-        "programmes": 51,
-        "current_or_future": 51,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 45,
+        "current_or_future": 45,
+        "latest": "2026-10-15 19:55:00+09:00",
+        "earliest": "2026-10-14 14:02:00+09:00"
       }
     },
     {
@@ -1049,12 +1049,12 @@
         "station": "BS朝日1",
         "lineup": "bs"
       },
-      "validated_at": "2026-10-12T11:18:11.198098+00:00",
+      "validated_at": "2026-10-14T05:06:32.741500+00:00",
       "validation": {
-        "programmes": 43,
-        "current_or_future": 43,
-        "latest": "2026-10-14 02:00:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 45,
+        "current_or_future": 45,
+        "latest": "2026-10-15 20:54:00+09:00",
+        "earliest": "2026-10-14 13:55:00+09:00"
       }
     },
     {
@@ -1081,12 +1081,12 @@
         "station": "BS-TBS",
         "lineup": "bs"
       },
-      "validated_at": "2026-10-12T11:18:11.198102+00:00",
+      "validated_at": "2026-10-14T05:06:32.741502+00:00",
       "validation": {
-        "programmes": 40,
-        "current_or_future": 40,
-        "latest": "2026-10-14 02:00:00+09:00",
-        "earliest": "2026-10-12 19:30:00+09:00"
+        "programmes": 43,
+        "current_or_future": 43,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 13:54:00+09:00"
       }
     },
     {
@@ -1113,12 +1113,12 @@
         "station": "ＢＳテレ東",
         "lineup": "bs"
       },
-      "validated_at": "2026-10-12T11:18:11.198105+00:00",
+      "validated_at": "2026-10-14T05:06:32.741504+00:00",
       "validation": {
-        "programmes": 40,
-        "current_or_future": 40,
-        "latest": "2026-10-14 01:28:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 37,
+        "current_or_future": 37,
+        "latest": "2026-10-15 19:54:00+09:00",
+        "earliest": "2026-10-14 12:53:00+09:00"
       }
     },
     {
@@ -1145,12 +1145,12 @@
         "station": "BSフジ・181",
         "lineup": "bs"
       },
-      "validated_at": "2026-10-12T11:18:11.198107+00:00",
+      "validated_at": "2026-10-14T05:06:32.741505+00:00",
       "validation": {
-        "programmes": 43,
-        "current_or_future": 43,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 39,
+        "current_or_future": 39,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -1169,12 +1169,12 @@
         "station_line": 10,
         "station_id": "200"
       },
-      "validated_at": "2026-10-12T11:18:11.198109+00:00",
+      "validated_at": "2026-10-14T05:06:32.741508+00:00",
       "validation": {
-        "programmes": 36,
-        "current_or_future": 36,
-        "latest": "2026-10-14 04:30:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 43,
+        "current_or_future": 43,
+        "latest": "2026-10-15 21:52:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -1192,12 +1192,12 @@
         "lineup": "bs",
         "station_line": 12
       },
-      "validated_at": "2026-10-12T11:18:11.198111+00:00",
+      "validated_at": "2026-10-14T05:06:32.741509+00:00",
       "validation": {
-        "programmes": 45,
-        "current_or_future": 45,
-        "latest": "2026-10-14 01:35:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 46,
+        "current_or_future": 46,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -1215,12 +1215,12 @@
         "lineup": "bs",
         "station_line": 13
       },
-      "validated_at": "2026-10-12T11:18:11.198113+00:00",
+      "validated_at": "2026-10-14T05:06:32.741511+00:00",
       "validation": {
-        "programmes": 38,
-        "current_or_future": 38,
-        "latest": "2026-10-14 02:00:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 33,
+        "current_or_future": 33,
+        "latest": "2026-10-15 21:00:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -1239,12 +1239,12 @@
         "station_line": 26,
         "station_id": "260"
       },
-      "validated_at": "2026-10-12T11:18:11.198115+00:00",
+      "validated_at": "2026-10-14T05:06:32.741514+00:00",
       "validation": {
         "programmes": 39,
         "current_or_future": 39,
-        "latest": "2026-10-14 02:00:00+09:00",
-        "earliest": "2026-10-12 18:30:00+09:00"
+        "latest": "2026-10-15 20:30:00+09:00",
+        "earliest": "2026-10-14 13:00:00+09:00"
       }
     },
     {
@@ -1263,12 +1263,12 @@
         "station_line": 27,
         "station_id": "265"
       },
-      "validated_at": "2026-10-12T11:18:11.198118+00:00",
+      "validated_at": "2026-10-14T05:06:32.741516+00:00",
       "validation": {
-        "programmes": 43,
-        "current_or_future": 43,
-        "latest": "2026-10-14 01:25:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 42,
+        "current_or_future": 42,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 13:00:00+09:00"
       }
     },
     {
@@ -1297,12 +1297,12 @@
         "station_line": 7,
         "station_id": "191"
       },
-      "validated_at": "2026-10-12T11:18:11.198120+00:00",
+      "validated_at": "2026-10-14T05:06:32.741518+00:00",
       "validation": {
-        "programmes": 32,
-        "current_or_future": 32,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 18:15:00+09:00"
+        "programmes": 29,
+        "current_or_future": 29,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 13:30:00+09:00"
       }
     },
     {
@@ -1321,12 +1321,12 @@
         "station_line": 8,
         "station_id": "192"
       },
-      "validated_at": "2026-10-12T11:18:11.198122+00:00",
+      "validated_at": "2026-10-14T05:06:32.741520+00:00",
       "validation": {
-        "programmes": 20,
-        "current_or_future": 20,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "programmes": 25,
+        "current_or_future": 25,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 13:30:00+09:00"
       }
     },
     {
@@ -1345,12 +1345,12 @@
         "station_line": 9,
         "station_id": "193"
       },
-      "validated_at": "2026-10-12T11:18:11.198124+00:00",
+      "validated_at": "2026-10-14T05:06:32.741522+00:00",
       "validation": {
         "programmes": 15,
         "current_or_future": 15,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 19:10:00+09:00"
+        "latest": "2026-10-15 21:00:00+09:00",
+        "earliest": "2026-10-14 13:30:00+09:00"
       }
     },
     {
@@ -1369,12 +1369,12 @@
         "station_line": 11,
         "station_id": "201"
       },
-      "validated_at": "2026-10-12T11:18:11.198127+00:00",
+      "validated_at": "2026-10-14T05:06:32.741525+00:00",
       "validation": {
-        "programmes": 17,
-        "current_or_future": 17,
-        "latest": "2026-10-14 02:40:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 16,
+        "current_or_future": 16,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 13:00:00+09:00"
       }
     },
     {
@@ -1393,12 +1393,12 @@
         "station_line": 23,
         "station_id": "252"
       },
-      "validated_at": "2026-10-12T11:18:11.198129+00:00",
+      "validated_at": "2026-10-14T05:06:32.741527+00:00",
       "validation": {
-        "programmes": 15,
-        "current_or_future": 15,
-        "latest": "2026-10-14 01:55:00+09:00",
-        "earliest": "2026-10-12 17:30:00+09:00"
+        "programmes": 20,
+        "current_or_future": 20,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 13:45:00+09:00"
       }
     },
     {
@@ -1417,12 +1417,12 @@
         "station_line": 22,
         "station_id": "251"
       },
-      "validated_at": "2026-10-12T11:18:11.198131+00:00",
+      "validated_at": "2026-10-14T05:06:32.741529+00:00",
       "validation": {
-        "programmes": 33,
-        "current_or_future": 33,
-        "latest": "2026-10-14 02:00:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 35,
+        "current_or_future": 35,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -1501,12 +1501,12 @@
         "station_line": 16,
         "station_id": "234"
       },
-      "validated_at": "2026-10-12T11:18:11.198133+00:00",
+      "validated_at": "2026-10-14T05:06:32.741531+00:00",
       "validation": {
-        "programmes": 32,
-        "current_or_future": 32,
-        "latest": "2026-10-14 02:00:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 33,
+        "current_or_future": 33,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -1525,12 +1525,12 @@
         "station_line": 18,
         "station_id": "242"
       },
-      "validated_at": "2026-10-12T11:18:11.198135+00:00",
+      "validated_at": "2026-10-14T05:06:32.741533+00:00",
       "validation": {
-        "programmes": 18,
-        "current_or_future": 18,
-        "latest": "2026-10-14 03:00:00+09:00",
-        "earliest": "2026-10-12 18:00:00+09:00"
+        "programmes": 24,
+        "current_or_future": 24,
+        "latest": "2026-10-15 21:30:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
       }
     },
     {
@@ -1549,12 +1549,12 @@
         "station_line": 19,
         "station_id": "243"
       },
-      "validated_at": "2026-10-12T11:18:11.198137+00:00",
+      "validated_at": "2026-10-14T05:06:32.741535+00:00",
       "validation": {
-        "programmes": 19,
-        "current_or_future": 19,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 19:30:00+09:00"
+        "programmes": 20,
+        "current_or_future": 20,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 13:00:00+09:00"
       }
     },
     {
@@ -1573,12 +1573,12 @@
         "station_line": 20,
         "station_id": "244"
       },
-      "validated_at": "2026-10-12T11:18:11.198140+00:00",
+      "validated_at": "2026-10-14T05:06:32.741537+00:00",
       "validation": {
-        "programmes": 19,
-        "current_or_future": 19,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 20:00:00+09:00"
+        "programmes": 18,
+        "current_or_future": 18,
+        "latest": "2026-10-15 22:30:00+09:00",
+        "earliest": "2026-10-14 08:50:00+09:00"
       }
     },
     {
@@ -1597,12 +1597,12 @@
         "station_line": 21,
         "station_id": "245"
       },
-      "validated_at": "2026-10-12T11:18:11.198142+00:00",
+      "validated_at": "2026-10-14T05:06:32.741539+00:00",
       "validation": {
         "programmes": 15,
         "current_or_future": 15,
-        "latest": "2026-10-14 01:30:00+09:00",
-        "earliest": "2026-10-12 19:00:00+09:00"
+        "latest": "2026-10-15 19:50:00+09:00",
+        "earliest": "2026-10-14 13:00:00+09:00"
       }
     },
     {
@@ -1681,9 +1681,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "toei_channel",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "218 東映チャ..",
+        "lineup": "cs",
+        "station_line": 2,
+        "station_id": "218"
+      },
+      "validated_at": "2026-10-14T05:06:32.741541+00:00",
+      "validation": {
+        "programmes": 28,
+        "current_or_future": 28,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 13:30:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Eisei Gekijo",
@@ -1691,9 +1709,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "eisei_gekijo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "219 衛星劇場",
+        "lineup": "cs",
+        "station_line": 3,
+        "station_id": "219"
+      },
+      "validated_at": "2026-10-14T05:06:32.741543+00:00",
+      "validation": {
+        "programmes": 26,
+        "current_or_future": 26,
+        "latest": "2026-10-15 20:30:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Neco Channel",
@@ -1701,9 +1737,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "neco_channel",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "223 映画･チ..",
+        "lineup": "cs",
+        "station_line": 4,
+        "station_id": "223"
+      },
+      "validated_at": "2026-10-14T05:06:32.741545+00:00",
+      "validation": {
+        "programmes": 27,
+        "current_or_future": 27,
+        "latest": "2026-10-15 20:20:00+09:00",
+        "earliest": "2026-10-14 12:30:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "The Cinema",
@@ -1711,9 +1765,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "the_cinema",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "227 ザ･シネマ",
+        "lineup": "cs",
+        "station_line": 5,
+        "station_id": "227"
+      },
+      "validated_at": "2026-10-14T05:06:32.741547+00:00",
+      "validation": {
+        "programmes": 16,
+        "current_or_future": 16,
+        "latest": "2026-10-15 20:45:00+09:00",
+        "earliest": "2026-10-14 13:35:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Movie Plus",
@@ -1721,9 +1793,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "movie_plus",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "240 ムービー..",
+        "lineup": "cs",
+        "station_line": 6,
+        "station_id": "240"
+      },
+      "validated_at": "2026-10-14T05:06:32.741549+00:00",
+      "validation": {
+        "programmes": 20,
+        "current_or_future": 20,
+        "latest": "2026-10-15 21:00:00+09:00",
+        "earliest": "2026-10-14 13:30:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Nihon Eiga Senmon",
@@ -1741,9 +1831,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "jidaigeki_senmon",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "292 時代劇専..",
+        "lineup": "cs",
+        "station_line": 12,
+        "station_id": "292"
+      },
+      "validated_at": "2026-10-14T05:06:32.741552+00:00",
+      "validation": {
+        "programmes": 31,
+        "current_or_future": 31,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 13:30:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Family Gekijyo",
@@ -1751,9 +1859,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "family_gekijyo",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "293 ファミリ..",
+        "lineup": "cs",
+        "station_line": 13,
+        "station_id": "293"
+      },
+      "validated_at": "2026-10-14T05:06:32.741554+00:00",
+      "validation": {
+        "programmes": 23,
+        "current_or_future": 23,
+        "latest": "2026-10-15 20:55:00+09:00",
+        "earliest": "2026-10-14 12:50:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Home Drama Channel",
@@ -1761,9 +1887,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "home_drama",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "294 ホームド..",
+        "lineup": "cs",
+        "station_line": 14,
+        "station_id": "294"
+      },
+      "validated_at": "2026-10-14T05:06:32.741556+00:00",
+      "validation": {
+        "programmes": 30,
+        "current_or_future": 30,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "TBS Channel 1",
@@ -1771,9 +1915,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "tbs_channel1",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "296 TBSチ..",
+        "lineup": "cs",
+        "station_line": 16,
+        "station_id": "296"
+      },
+      "validated_at": "2026-10-14T05:06:32.741558+00:00",
+      "validation": {
+        "programmes": 30,
+        "current_or_future": 30,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "TBS Channel 2",
@@ -1781,9 +1943,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "tbs_channel2",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "297 TBSチ..",
+        "lineup": "cs",
+        "station_line": 17,
+        "station_id": "297"
+      },
+      "validated_at": "2026-10-14T05:06:32.741560+00:00",
+      "validation": {
+        "programmes": 36,
+        "current_or_future": 36,
+        "latest": "2026-10-15 19:40:00+09:00",
+        "earliest": "2026-10-14 13:40:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "TV Asahi Channel 1",
@@ -1791,9 +1971,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "tv_asahi_channel1",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "298 テレ朝チ..",
+        "lineup": "cs",
+        "station_line": 18,
+        "station_id": "298"
+      },
+      "validated_at": "2026-10-14T05:06:32.741562+00:00",
+      "validation": {
+        "programmes": 39,
+        "current_or_future": 39,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 13:55:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "TV Asahi Channel 2",
@@ -1801,9 +1999,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "tv_asahi_channel2",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "299 テレ朝チ..",
+        "lineup": "cs",
+        "station_line": 19,
+        "station_id": "299"
+      },
+      "validated_at": "2026-10-14T05:06:32.741564+00:00",
+      "validation": {
+        "programmes": 31,
+        "current_or_future": 31,
+        "latest": "2026-10-15 20:00:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Nittele Plus",
@@ -1811,9 +2027,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "nittele_plus",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "300 日テレプ..",
+        "lineup": "cs",
+        "station_line": 20,
+        "station_id": "300"
+      },
+      "validated_at": "2026-10-14T05:06:32.741566+00:00",
+      "validation": {
+        "programmes": 39,
+        "current_or_future": 39,
+        "latest": "2026-10-15 19:30:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Channel Ginga",
@@ -1821,9 +2055,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "channel_ginga",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "305 チャンネ..",
+        "lineup": "cs",
+        "station_line": 22,
+        "station_id": "305"
+      },
+      "validated_at": "2026-10-14T05:06:32.741568+00:00",
+      "validation": {
+        "programmes": 30,
+        "current_or_future": 30,
+        "latest": "2026-10-15 19:45:00+09:00",
+        "earliest": "2026-10-14 14:00:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Fuji TV ONE",
@@ -1831,9 +2083,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "fuji_tv_one",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "307 フジテレ..",
+        "lineup": "cs",
+        "station_line": 23,
+        "station_id": "307"
+      },
+      "validated_at": "2026-10-14T05:06:32.741570+00:00",
+      "validation": {
+        "programmes": 36,
+        "current_or_future": 36,
+        "latest": "2026-10-15 23:00:00+09:00",
+        "earliest": "2026-10-14 14:01:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Fuji TV TWO",
@@ -1841,9 +2111,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "fuji_tv_two",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "308 フジテレ..",
+        "lineup": "cs",
+        "station_line": 24,
+        "station_id": "308"
+      },
+      "validated_at": "2026-10-14T05:06:32.741572+00:00",
+      "validation": {
+        "programmes": 37,
+        "current_or_future": 37,
+        "latest": "2026-10-15 19:28:00+09:00",
+        "earliest": "2026-10-14 13:48:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Fuji TV NEXT",
@@ -1851,9 +2139,27 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "fuji_tv_next",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "309 フジテレ..",
+        "lineup": "cs",
+        "station_line": 25,
+        "station_id": "309"
+      },
+      "validated_at": "2026-10-14T05:06:32.741574+00:00",
+      "validation": {
+        "programmes": 26,
+        "current_or_future": 26,
+        "latest": "2026-10-15 21:00:00+09:00",
+        "earliest": "2026-10-14 13:10:00+09:00"
+      },
+      "evidence": [
+        "https://bangumi.org/epg/cs",
+        "https://www.skyperfectv.co.jp/program/schedule/basic/?shrink=channel"
+      ]
     },
     {
       "playlist_name": "Action Channel (AXN)",

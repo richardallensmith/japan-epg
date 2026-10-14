@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 from datetime import datetime, timedelta
 from html.parser import HTMLParser
+from urllib.error import HTTPError
 from urllib.parse import urljoin
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
@@ -121,6 +122,7 @@ class BangumiSource:
         "tokyo": "https://bangumi.org/epg/td?broad_cast_date={date}&ggm_group_id=42",
         "osaka": "https://bangumi.org/epg/td?broad_cast_date={date}&ggm_group_id=84",
         "bs": "https://bangumi.org/epg/bs?broad_cast_date={date}",
+        "cs": "https://bangumi.org/epg/cs?broad_cast_date={date}",
     }
     _page_cache: dict[tuple[str, str], _BangumiParser] = {}
 
@@ -241,6 +243,15 @@ class BangumiSource:
         all_programmes: list[Programme] = []
         for day in dates:
             date_string = day.strftime("%Y%m%d")
-            all_programmes.extend(self._parse(self._get_page(date_string), channel_id, date_string))
+            try:
+                page = self._get_page(date_string)
+            except SourceError as exc:
+                # Some lineups retire yesterday's page after the 05:00 boundary.
+                # Before then it is required to cover the current broadcast day.
+                if (day < now_jst.date() and now_jst.hour >= 5
+                        and isinstance(exc.__cause__, HTTPError) and exc.__cause__.code == 404):
+                    continue
+                raise
+            all_programmes.extend(self._parse(page, channel_id, date_string))
         future_limit = now_jst + timedelta(days=days, hours=5)
         return [p for p in all_programmes if p.stop > now_jst and p.start < future_limit]
