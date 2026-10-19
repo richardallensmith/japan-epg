@@ -39,7 +39,7 @@ jobs:
         env:
           # Optional contact field only when deliberately configured by the owner.
           MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
-        run: python -m src.main
+        run: python -m src.main --days 2
       - name: Save persistent translation cache
         uses: actions/cache/save@v4
         with:
