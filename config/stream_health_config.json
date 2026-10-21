@@ -1,0 +1,12 @@
+{
+  "source_playlist": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+  "workers": 4,
+  "probe_timeout_seconds": 20,
+  "ffprobe_rw_timeout_microseconds": 15000000,
+  "suspect_after_failures": 2,
+  "remove_after_failures": 6,
+  "restore_after_successes": 2,
+  "new_channel_successes_required": 1,
+  "mass_failure_threshold": 0.30,
+  "mass_failure_minimum_baseline": 10
+}
