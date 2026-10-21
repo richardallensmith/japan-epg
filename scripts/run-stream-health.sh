@@ -58,7 +58,7 @@ echo "Running authoritative stream health check..."
 python3 -m src.stream_health
 
 echo "Running stream-health unit tests..."
-python3 -m unittest tests.test_stream_health -v
+python3 -m unittest discover -s tests -p 'test_stream_health.py' -v
 
 if [[ -z "$(git status --porcelain)" ]]; then
   echo "No health-state changes to publish."
@@ -84,7 +84,7 @@ git fetch origin main
 git rebase origin/main
 
 # A rebase can change context; ensure the health outputs and tests still validate.
-python3 -m unittest tests.test_stream_health -v
+python3 -m unittest discover -s tests -p 'test_stream_health.py' -v
 
 echo "Pushing validated health state to main..."
 git push origin HEAD:main
