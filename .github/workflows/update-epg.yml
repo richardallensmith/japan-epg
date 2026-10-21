@@ -49,6 +49,8 @@ jobs:
         run: |
           mkdir -p _site
           cp output/epg.xml _site/epg.xml
+          cp output/japan-live.m3u _site/japan-live.m3u
+          cp output/stream-health.md _site/stream-health.md
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
