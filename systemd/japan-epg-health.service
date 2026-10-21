@@ -1,0 +1,12 @@
+[Unit]
+Description=Japan EPG stream health check
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+Environment=HOME=/home/ras
+Environment=PATH=/home/ras/.local/bin:/usr/local/bin:/usr/bin:/bin
+WorkingDirectory=/home/ras/projects/japan-epg
+ExecStart=/home/ras/projects/japan-epg/scripts/run-stream-health.sh
+TimeoutStartSec=3600
