@@ -1,136 +1,248 @@
 # Japan IPTV Stream Health
 
-- Updated: 2026-10-22T16:09:00.521584+00:00
+- Updated: 2026-10-22T22:10:52.033623+00:00
 - Run status: ok
 - Upstream channels: 167
 - Checked: 167
-- Passed: 53
-- Failed: 114
-- Published: 167
+- Passed: 54
+- Failed: 113
+- Published: 54
 - Healthy: 54
-- Suspect: 113
-- Removed: 0
+- Suspect: 0
+- Removed: 113
 - New/unverified: 0
 - Upstream removed: 0
 - Mass-failure suppression: no
-- Proven-good baseline failures: 1/54 (1.9%)
+- Proven-good baseline failures: 0/54 (0.0%)
 
 ## Status changes
 
-- None
+- STOCK VOICE: suspect -> removed
+- 刺激ストロングSPORTS: suspect -> removed
+- しまじろうチャンネル: suspect -> removed
+- TOP BARÇA: suspect -> removed
+- FUEL TV: suspect -> removed
+- NEW KPOP: suspect -> removed
+- NHK G (Sub Ch.): suspect -> removed
+- NHK E: suspect -> removed
+- NTV: suspect -> removed
+- TV Asahi: suspect -> removed
+- TBS: suspect -> removed
+- TV Tokyo: suspect -> removed
+- Fuji TV: suspect -> removed
+- TOKYO MX1: suspect -> removed
+- TOKYO MX2 (HD 720p): suspect -> removed
+- NHK G Osaka: suspect -> removed
+- SUN: suspect -> removed
+- NHK G Kyoto: suspect -> removed
+- NHK E Osaka: suspect -> removed
+- MBS: suspect -> removed
+- ABC: suspect -> removed
+- KBS: suspect -> removed
+- TV Osaka: suspect -> removed
+- Kansai TV: suspect -> removed
+- ytv: suspect -> removed
+- NHK BS: suspect -> removed
+- NHK BS (Sub Ch.): suspect -> removed
+- BS NTV 4K: suspect -> removed
+- BS NTV: suspect -> removed
+- BS Asahi: suspect -> removed
+- BS Asahi 4K: suspect -> removed
+- BS TBS: suspect -> removed
+- BS TBS 4K: suspect -> removed
+- BS TV Tokyo 4K: suspect -> removed
+- BS TV Tokyo: suspect -> removed
+- BS Fuji: suspect -> removed
+- BS11: suspect -> removed
+- BS 12: suspect -> removed
+- BS 10: suspect -> removed
+- JCOM BS: suspect -> removed
+- NHK BS4K: suspect -> removed
+- BS Yoshimoto: suspect -> removed
+- WOWOW Prime: suspect -> removed
+- WOWOW Live: suspect -> removed
+- BS 10 Premium: suspect -> removed
+- WOWOW Plus: suspect -> removed
+- Fishing Vision: suspect -> removed
+- WOWOW Cinema: suspect -> removed
+- NTV News24: suspect -> removed
+- TBS News: suspect -> removed
+- BBC News: suspect -> removed
+- CNNj: suspect -> removed
+- Green Channel: suspect -> removed
+- JSport 2: suspect -> removed
+- JSport 1: suspect -> removed
+- JSport 3: suspect -> removed
+- JSport 4: suspect -> removed
+- Gaora Sports: suspect -> removed
+- Sky A: suspect -> removed
+- Nittele G+: suspect -> removed
+- Golf Network: suspect -> removed
+- Sport Live Plus: suspect -> removed
+- スカチャン1: suspect -> removed
+- Toei Channel: suspect -> removed
+- Fighting TV Samurai: suspect -> removed
+- Eisei Gekijo: suspect -> removed
+- Neco Channel: suspect -> removed
+- Movie Plus: suspect -> removed
+- The Cinema: suspect -> removed
+- Nihon Eiga Senmon: suspect -> removed
+- Jidaigeki Senmon: suspect -> removed
+- Home Drama Channel: suspect -> removed
+- Family Gekijyo: suspect -> removed
+- TBS Channel 1: suspect -> removed
+- TBS Channel 2: suspect -> removed
+- TV Asahi Channel 1: suspect -> removed
+- TV Asahi Channel 2: suspect -> removed
+- Channel Ginga: suspect -> removed
+- Nittele Plus: suspect -> removed
+- Fuji TV ONE: suspect -> removed
+- Fuji TV TWO: suspect -> removed
+- Fuji TV NEXT: suspect -> removed
+- Action Channel (AXN): suspect -> removed
+- Dlife: suspect -> removed
+- LaLa TV: suspect -> removed
+- Mystery Channel: suspect -> removed
+- Disney Channel: suspect -> removed
+- Animax: suspect -> removed
+- Kids Staton: suspect -> removed
+- Cartoon Network: suspect -> removed
+- AT-X: suspect -> removed
+- Disney Junior: suspect -> removed
+- Space Shower TV (HD): suspect -> removed
+- Takarazuka Sky Stage: suspect -> removed
+- MTV: suspect -> removed
+- Music Air: suspect -> removed
+- Music ON TV: suspect -> removed
+- Kayo Pops: suspect -> removed
+- Music Japan TV: suspect -> removed
+- Discovery Channel: suspect -> removed
+- History: suspect -> removed
+- Animal Planet: suspect -> removed
+- National Geographic Japan: suspect -> removed
+- Tabi Channel: suspect -> removed
+- Tetsudo Channel: suspect -> removed
+- Mondo TV: suspect -> removed
+- Me-Tele Next: suspect -> removed
+- Shogi Channel: suspect -> removed
+- Mnet: suspect -> removed
+- KBS World: suspect -> removed
+- V Paradise: suspect -> removed
+- ヌーヴェルパラダイス: suspect -> removed
+- Pigoo: suspect -> removed
 
 ## Current suspect/removed channels
 
-- [suspect] ABC (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2be8f983b47cfb012f90cabae32f59969#.m3u8: Server returned 404 Not Found
-- [suspect] AT-X (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13f80172c3641adc44b51b06468f4c180#.m3u8: Server returned 404 Not Found
-- [suspect] Action Channel (AXN) (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=10536ea2561790e4a735e6984fd0e916e#.m3u8: Server returned 404 Not Found
-- [suspect] Animal Planet (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1a99420314fed9070da550da5e6f2f330#.m3u8: Server returned 404 Not Found
-- [suspect] Animax (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=170c780b44fd9848ff3d9c8330482fa64#.m3u8: Server returned 404 Not Found
-- [suspect] BBC News (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=114d6fa627f716ef6e5cb36bc4df04cb1#.m3u8: Server returned 404 Not Found
-- [suspect] BS 10 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2506fdd1ea62e42f40b7d2ab6199d8c5c#.m3u8: Server returned 404 Not Found
-- [suspect] BS 10 Premium (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=22eaa9a10272344dccd2b9577af6cb297#.m3u8: Server returned 404 Not Found
-- [suspect] BS 12 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1fc39231d69b72701257837261d1366d9#.m3u8: Server returned 404 Not Found
-- [suspect] BS Asahi (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1695db78084ce5c4e1a1f0489000946ad#.m3u8: Server returned 404 Not Found
-- [suspect] BS Asahi 4K (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1db08be4fab0e222c35ba4d9718a9db61#.m3u8: Server returned 404 Not Found
-- [suspect] BS Fuji (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1a7a2b3fd4037a5485ffb4c327817b050#.m3u8: Server returned 404 Not Found
-- [suspect] BS NTV (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=10d3dc3a9f4f70786d905c923eac3879c#.m3u8: Server returned 404 Not Found
-- [suspect] BS NTV 4K (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ec34774394191d91e8c2db852ffff836#.m3u8: Server returned 404 Not Found
-- [suspect] BS TBS (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1c564486ba0bf21a91e2a6b6e28407f02#.m3u8: Server returned 404 Not Found
-- [suspect] BS TBS 4K (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1d3531edb11fa470487fc62877b1cf947#.m3u8: Server returned 404 Not Found
-- [suspect] BS TV Tokyo (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ec0a07f28efada23e5ab0d2c6827c3f1#.m3u8: Server returned 404 Not Found
-- [suspect] BS TV Tokyo 4K (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1491d3767a9aaa008e51830ea00d53306#.m3u8: Server returned 404 Not Found
-- [suspect] BS Yoshimoto (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=254c1fe5f163df3d16c6afee97d2e93ec#.m3u8: Server returned 404 Not Found
-- [suspect] BS11 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2bb2f2a89229484c3413ee8435735a5b1#.m3u8: Server returned 404 Not Found
-- [suspect] CNNj (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14fb4d1e17303d637a79428d5ff2f80a4#.m3u8: Server returned 404 Not Found
-- [suspect] Cartoon Network (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=15ae42edc0663c4bb862ce0524fd549ee#.m3u8: Server returned 404 Not Found
-- [suspect] Channel Ginga (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1d208154529e34f9eef2f4a8c685b7232#.m3u8: Server returned 404 Not Found
-- [suspect] Discovery Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=15b3008b521b7a6ad99522aa5fa9fdabd#.m3u8: Server returned 404 Not Found
-- [suspect] Disney Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2278a8574ead80b9222695686d93ff895#.m3u8: Server returned 404 Not Found
-- [suspect] Disney Junior (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1dcd4b3cba03bc3dace94c7ab5c73ba60#.m3u8: Server returned 404 Not Found
-- [suspect] Dlife (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1686703a3cc1e0f20f7ca46f6c1ff8834#.m3u8: Server returned 404 Not Found
-- [suspect] Eisei Gekijo (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1467d68a249a196ea8db4e3843acef416#.m3u8: Server returned 404 Not Found
-- [suspect] FUEL TV (failures: 5) - TIMEOUT
-- [suspect] Family Gekijyo (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=143a7cdc70ee45c2107042231e7e94e90#.m3u8: Server returned 404 Not Found
-- [suspect] Fighting TV Samurai (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=171787ab586243e432ef44fcae36f9c77#.m3u8: Server returned 404 Not Found
-- [suspect] Fishing Vision (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1066f1552ceef380ab4bd25a453d0812f#.m3u8: Server returned 404 Not Found
-- [suspect] Fuji TV (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=186c510fcf1ec45dce241a79730dff0b0#.m3u8: Server returned 404 Not Found
-- [suspect] Fuji TV NEXT (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=18db599db496f7c162d943a1dc494df48#.m3u8: Server returned 404 Not Found
-- [suspect] Fuji TV ONE (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=189755a848d4bfc54177ffe4bd2c61c36#.m3u8: Server returned 404 Not Found
-- [suspect] Fuji TV TWO (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1847a0f478931e901788a07ed2cee0899#.m3u8: Server returned 404 Not Found
-- [suspect] Gaora Sports (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ffa549f2ca5dbf8b33f9f1060e332b42#.m3u8: Server returned 404 Not Found
-- [suspect] Golf Network (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=23737f89e9cbea790b951ad9a67459a78#.m3u8: Server returned 404 Not Found
-- [suspect] Green Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1370e73e1b64b21af3be6306dcd148a82#.m3u8: Server returned 404 Not Found
-- [suspect] History (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=156beafa2c9edc4a554281a3690a954d8#.m3u8: Server returned 404 Not Found
-- [suspect] Home Drama Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1e945a45a2ff4508d18785d001230f7fe#.m3u8: Server returned 404 Not Found
-- [suspect] JCOM BS (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=21cb548d363a66620f4985c400d7a223b#.m3u8: Server returned 404 Not Found
-- [suspect] JSport 1 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1f22c42673700c63d4ebeca698366ea92#.m3u8: Server returned 404 Not Found
-- [suspect] JSport 2 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14961daa36ff79a545745bf76064abab2#.m3u8: Server returned 404 Not Found
-- [suspect] JSport 3 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1dda3421fe686a9659a44443549126780#.m3u8: Server returned 404 Not Found
-- [suspect] JSport 4 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1fed6a21cfb9b43271ba06ff5ed827bbf#.m3u8: Server returned 404 Not Found
-- [suspect] Jidaigeki Senmon (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=18d3de000aeeff0e4890bef8cbd095d63#.m3u8: Server returned 404 Not Found
-- [suspect] KBS (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=17c9ea3422de203abbc786a3839c14638#.m3u8: Server returned 404 Not Found
-- [suspect] KBS World (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=26dfaece2cb3dc399a6314d7db085b6fb#.m3u8: Server returned 404 Not Found
-- [suspect] Kansai TV (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=166fa472352e309c3938b6007bcbfd1e9#.m3u8: Server returned 404 Not Found
-- [suspect] Kayo Pops (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=15f9501dd0ae33edd0388a4051086307a#.m3u8: Server returned 404 Not Found
-- [suspect] Kids Staton (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1d30a28f3e5f8b0223481170e132cb20a#.m3u8: Server returned 404 Not Found
-- [suspect] LaLa TV (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b6fad813874f23f9592fbe0450663707#.m3u8: Server returned 404 Not Found
-- [suspect] MBS (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=11eef7611d43093910c6939adc560f16e#.m3u8: Server returned 404 Not Found
-- [suspect] MTV (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1db958e6c0a725f78930011154f16c84c#.m3u8: Server returned 404 Not Found
-- [suspect] Me-Tele Next (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=130c82fd10e56b14e1c1448e674cfac85#.m3u8: Server returned 404 Not Found
-- [suspect] Mnet (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2d6b2b3d5441c388b10113832aded6061#.m3u8: Server returned 404 Not Found
-- [suspect] Mondo TV (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=156c8f204d3c925ac98082ebcf889e969#.m3u8: Server returned 404 Not Found
-- [suspect] Movie Plus (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ec87aba4c3d5fec7e2995666a0d5a669#.m3u8: Server returned 404 Not Found
-- [suspect] Music Air (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1a6e8a5989a6c2563642c9fd362a79293#.m3u8: Server returned 404 Not Found
-- [suspect] Music Japan TV (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b1c7c6dd568b4d2f98a0d558e0c78979#.m3u8: Server returned 404 Not Found
-- [suspect] Music ON TV (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14b01b86a90cedefc5c5dce1acf475c8b#.m3u8: Server returned 404 Not Found
-- [suspect] Mystery Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13f097360bcf2ca00dee21edacd5e8b84#.m3u8: Server returned 404 Not Found
-- [suspect] NEW KPOP (failures: 5) - https://ads.its-newid.net/api/manifest.m3u8?tp=r_channel&channel_name=newkpop&channel_id=newid_165: Server returned 403 Forbidden (access denied)
-- [suspect] NHK BS (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=149fb1419e970b164d7336bb3183b760a#.m3u8: Server returned 404 Not Found
-- [suspect] NHK BS (Sub Ch.) (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=29599f4ee5496d07e2c5ea6a3e7772089#.m3u8: Server returned 404 Not Found
-- [suspect] NHK BS4K (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2ee8ddd078206f0306c9170d3a1431ff8#.m3u8: Server returned 404 Not Found
-- [suspect] NHK E (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=29e1da1d18419990038a4a0ebf285d52a#.m3u8: Server returned 404 Not Found
-- [suspect] NHK E Osaka (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=25679230fbfaa9b388e056109e41c8100#.m3u8: Server returned 404 Not Found
-- [suspect] NHK G (Sub Ch.) (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=19539e3ab8eb86a9a92d5eea21245cd84#.m3u8: Server returned 404 Not Found
-- [suspect] NHK G Kyoto (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13f906571e73d30e657a6f3b0c81c3972#.m3u8: Server returned 404 Not Found
-- [suspect] NHK G Osaka (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2dff1094a01e170d0626893f1006fcb5e#.m3u8: Server returned 404 Not Found
-- [suspect] NTV (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=158392c50acf65316f328be33130d06aa#.m3u8: Server returned 404 Not Found
-- [suspect] NTV News24 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ccffa1587dcb3a4bc13b3a9923ee4209#.m3u8: Server returned 404 Not Found
-- [suspect] National Geographic Japan (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1326169eeadb107b5749e9cca2adc5c49#.m3u8: Server returned 404 Not Found
-- [suspect] Neco Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=19f0dee37a0adbb53fa72448376714f2a#.m3u8: Server returned 404 Not Found
-- [suspect] Nihon Eiga Senmon (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1c66d4a3bb66dc6b8b27ed0694f974b79#.m3u8: Server returned 404 Not Found
-- [suspect] Nittele G+ (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b07a5a0c5cb309f5b3bdf904e56c5778#.m3u8: Server returned 404 Not Found
-- [suspect] Nittele Plus (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13b7a29438bb697b299207f39178bcced#.m3u8: Server returned 404 Not Found
-- [suspect] Pigoo (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1827f6ab7906f013daeadef859acb0af8#.m3u8: Server returned 404 Not Found
-- [suspect] STOCK VOICE (failures: 5)
-- [suspect] SUN (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2dff119c3fb8755ce47b1eb377e9cb37d#.m3u8: Server returned 404 Not Found
-- [suspect] Shogi Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=172efdc0b11dcb99aa4825cfa5159ced6#.m3u8: Server returned 404 Not Found
-- [suspect] Sky A (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1feebfcb80e43d2661a0444663cd05dd9#.m3u8: Server returned 404 Not Found
-- [suspect] Space Shower TV (HD) (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14798d3110461ee8704bfab2664016344#.m3u8: Server returned 404 Not Found
-- [suspect] Sport Live Plus (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=133c5ee13b6a54ed85a80487e00cac22a#.m3u8: Server returned 404 Not Found
-- [suspect] TBS (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ae7eead24f146c1ebd862caab4f8e23d#.m3u8: Server returned 404 Not Found
-- [suspect] TBS Channel 1 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=138f5cd2c4df4688a41947e2b8623c843#.m3u8: Server returned 404 Not Found
-- [suspect] TBS Channel 2 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2b9a5dfbc46639bc1c617fcc383609069#.m3u8: Server returned 404 Not Found
-- [suspect] TBS News (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=18548966574725250e240abcd0d8e82d4#.m3u8: Server returned 404 Not Found
-- [suspect] TOKYO MX1 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=188484310a4df95891688c5aa17543b81#.m3u8: Server returned 404 Not Found
-- [suspect] TOKYO MX2 (HD 720p) (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=293f4e4476bbd1b401d27e54f9f26f41b#.m3u8: Server returned 404 Not Found
-- [suspect] TOP BARÇA (failures: 5) - TIMEOUT
-- [suspect] TV Asahi (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b885170724617b9e3f6fe5d24914955e#.m3u8: Server returned 404 Not Found
-- [suspect] TV Asahi Channel 1 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=11f2269c04043cc8f58df58563d2eb0c3#.m3u8: Server returned 404 Not Found
-- [suspect] TV Asahi Channel 2 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1d2438204954a47fdca2f5b237b9fa85b#.m3u8: Server returned 404 Not Found
-- [suspect] TV Osaka (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1dc57dcdc9717a2c8c943255e3bd85e04#.m3u8: Server returned 404 Not Found
-- [suspect] TV Tokyo (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=133f5ad491dd2ea5265345f4984aa7504#.m3u8: Server returned 404 Not Found
-- [suspect] Tabi Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=12d36e710c4158908fd0f9a248e22bc04#.m3u8: Server returned 404 Not Found
-- [suspect] Takarazuka Sky Stage (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ca8b723f65f036f3691a1ab27de3d2bc#.m3u8: Server returned 404 Not Found
-- [suspect] Tetsudo Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1bef97270950d7c6fdb1f44e53b63a2cc#.m3u8: Server returned 404 Not Found
-- [suspect] The Cinema (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1f3cdf75854f02ae43addb582d38f9fec#.m3u8: Server returned 404 Not Found
-- [suspect] Toei Channel (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=10b97a4e70e5eb9ab60e63de2f4969470#.m3u8: Server returned 404 Not Found
-- [suspect] V Paradise (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1aaeeb321fec278972b3aea5f929a9bc3#.m3u8: Server returned 404 Not Found
-- [suspect] WOWOW Cinema (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2272733515e8782a343760e192dd8477d#.m3u8: Server returned 404 Not Found
-- [suspect] WOWOW Live (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1754802ae2ec09f5529c48069daba1385#.m3u8: Server returned 404 Not Found
-- [suspect] WOWOW Plus (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=18fef16e0a95f251fb690187f02475fcd#.m3u8: Server returned 404 Not Found
-- [suspect] WOWOW Prime (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14dec677e7d419137030b612affd78e3f#.m3u8: Server returned 404 Not Found
-- [suspect] ytv (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=16eb2d8b1f05faf5beb1d41e773d43584#.m3u8: Server returned 404 Not Found
-- [suspect] しまじろうチャンネル (failures: 5) - https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rchannelbenessehlscmaf-rakutenjp/playlist.m3u8: Server returned 5XX Server Error reply
-- [suspect] スカチャン1 (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=11852112b9a13a8b6d52dc51a66f2a8b9#.m3u8: Server returned 404 Not Found
-- [suspect] ヌーヴェルパラダイス (failures: 5) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ff9a812a2bf0752a6daa6959e435b67d#.m3u8: Server returned 404 Not Found
-- [suspect] 刺激ストロングSPORTS (failures: 5) - [tcp @ 0x64600b5e0f40] Failed to resolve hostname amg01287-rakutentvjapan-shigekisports-rakutenjp-jnftc.amagi.tv: Name or service not known https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekisports-rakutenjp/playlist.m3u8: Input/output error
+- [removed] ABC (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2be8f983b47cfb012f90cabae32f59969#.m3u8: Server returned 404 Not Found
+- [removed] AT-X (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13f80172c3641adc44b51b06468f4c180#.m3u8: Server returned 404 Not Found
+- [removed] Action Channel (AXN) (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=10536ea2561790e4a735e6984fd0e916e#.m3u8: Server returned 404 Not Found
+- [removed] Animal Planet (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1a99420314fed9070da550da5e6f2f330#.m3u8: Server returned 404 Not Found
+- [removed] Animax (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=170c780b44fd9848ff3d9c8330482fa64#.m3u8: Server returned 404 Not Found
+- [removed] BBC News (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=114d6fa627f716ef6e5cb36bc4df04cb1#.m3u8: Server returned 404 Not Found
+- [removed] BS 10 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2506fdd1ea62e42f40b7d2ab6199d8c5c#.m3u8: Server returned 404 Not Found
+- [removed] BS 10 Premium (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=22eaa9a10272344dccd2b9577af6cb297#.m3u8: Server returned 404 Not Found
+- [removed] BS 12 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1fc39231d69b72701257837261d1366d9#.m3u8: Server returned 404 Not Found
+- [removed] BS Asahi (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1695db78084ce5c4e1a1f0489000946ad#.m3u8: Server returned 404 Not Found
+- [removed] BS Asahi 4K (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1db08be4fab0e222c35ba4d9718a9db61#.m3u8: Server returned 404 Not Found
+- [removed] BS Fuji (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1a7a2b3fd4037a5485ffb4c327817b050#.m3u8: Server returned 404 Not Found
+- [removed] BS NTV (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=10d3dc3a9f4f70786d905c923eac3879c#.m3u8: Server returned 404 Not Found
+- [removed] BS NTV 4K (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ec34774394191d91e8c2db852ffff836#.m3u8: Server returned 404 Not Found
+- [removed] BS TBS (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1c564486ba0bf21a91e2a6b6e28407f02#.m3u8: Server returned 404 Not Found
+- [removed] BS TBS 4K (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1d3531edb11fa470487fc62877b1cf947#.m3u8: Server returned 404 Not Found
+- [removed] BS TV Tokyo (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ec0a07f28efada23e5ab0d2c6827c3f1#.m3u8: Server returned 404 Not Found
+- [removed] BS TV Tokyo 4K (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1491d3767a9aaa008e51830ea00d53306#.m3u8: Server returned 404 Not Found
+- [removed] BS Yoshimoto (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=254c1fe5f163df3d16c6afee97d2e93ec#.m3u8: Server returned 404 Not Found
+- [removed] BS11 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2bb2f2a89229484c3413ee8435735a5b1#.m3u8: Server returned 404 Not Found
+- [removed] CNNj (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14fb4d1e17303d637a79428d5ff2f80a4#.m3u8: Server returned 404 Not Found
+- [removed] Cartoon Network (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=15ae42edc0663c4bb862ce0524fd549ee#.m3u8: Server returned 404 Not Found
+- [removed] Channel Ginga (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1d208154529e34f9eef2f4a8c685b7232#.m3u8: Server returned 404 Not Found
+- [removed] Discovery Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=15b3008b521b7a6ad99522aa5fa9fdabd#.m3u8: Server returned 404 Not Found
+- [removed] Disney Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2278a8574ead80b9222695686d93ff895#.m3u8: Server returned 404 Not Found
+- [removed] Disney Junior (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1dcd4b3cba03bc3dace94c7ab5c73ba60#.m3u8: Server returned 404 Not Found
+- [removed] Dlife (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1686703a3cc1e0f20f7ca46f6c1ff8834#.m3u8: Server returned 404 Not Found
+- [removed] Eisei Gekijo (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1467d68a249a196ea8db4e3843acef416#.m3u8: Server returned 404 Not Found
+- [removed] FUEL TV (failures: 6) - TIMEOUT
+- [removed] Family Gekijyo (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=143a7cdc70ee45c2107042231e7e94e90#.m3u8: Server returned 404 Not Found
+- [removed] Fighting TV Samurai (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=171787ab586243e432ef44fcae36f9c77#.m3u8: Server returned 404 Not Found
+- [removed] Fishing Vision (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1066f1552ceef380ab4bd25a453d0812f#.m3u8: Server returned 404 Not Found
+- [removed] Fuji TV (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=186c510fcf1ec45dce241a79730dff0b0#.m3u8: Server returned 404 Not Found
+- [removed] Fuji TV NEXT (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=18db599db496f7c162d943a1dc494df48#.m3u8: Server returned 404 Not Found
+- [removed] Fuji TV ONE (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=189755a848d4bfc54177ffe4bd2c61c36#.m3u8: Server returned 404 Not Found
+- [removed] Fuji TV TWO (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1847a0f478931e901788a07ed2cee0899#.m3u8: Server returned 404 Not Found
+- [removed] Gaora Sports (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ffa549f2ca5dbf8b33f9f1060e332b42#.m3u8: Server returned 404 Not Found
+- [removed] Golf Network (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=23737f89e9cbea790b951ad9a67459a78#.m3u8: Server returned 404 Not Found
+- [removed] Green Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1370e73e1b64b21af3be6306dcd148a82#.m3u8: Server returned 404 Not Found
+- [removed] History (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=156beafa2c9edc4a554281a3690a954d8#.m3u8: Server returned 404 Not Found
+- [removed] Home Drama Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1e945a45a2ff4508d18785d001230f7fe#.m3u8: Server returned 404 Not Found
+- [removed] JCOM BS (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=21cb548d363a66620f4985c400d7a223b#.m3u8: Server returned 404 Not Found
+- [removed] JSport 1 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1f22c42673700c63d4ebeca698366ea92#.m3u8: Server returned 404 Not Found
+- [removed] JSport 2 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14961daa36ff79a545745bf76064abab2#.m3u8: Server returned 404 Not Found
+- [removed] JSport 3 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1dda3421fe686a9659a44443549126780#.m3u8: Server returned 404 Not Found
+- [removed] JSport 4 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1fed6a21cfb9b43271ba06ff5ed827bbf#.m3u8: Server returned 404 Not Found
+- [removed] Jidaigeki Senmon (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=18d3de000aeeff0e4890bef8cbd095d63#.m3u8: Server returned 404 Not Found
+- [removed] KBS (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=17c9ea3422de203abbc786a3839c14638#.m3u8: Server returned 404 Not Found
+- [removed] KBS World (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=26dfaece2cb3dc399a6314d7db085b6fb#.m3u8: Server returned 404 Not Found
+- [removed] Kansai TV (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=166fa472352e309c3938b6007bcbfd1e9#.m3u8: Server returned 404 Not Found
+- [removed] Kayo Pops (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=15f9501dd0ae33edd0388a4051086307a#.m3u8: Server returned 404 Not Found
+- [removed] Kids Staton (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1d30a28f3e5f8b0223481170e132cb20a#.m3u8: Server returned 404 Not Found
+- [removed] LaLa TV (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b6fad813874f23f9592fbe0450663707#.m3u8: Server returned 404 Not Found
+- [removed] MBS (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=11eef7611d43093910c6939adc560f16e#.m3u8: Server returned 404 Not Found
+- [removed] MTV (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1db958e6c0a725f78930011154f16c84c#.m3u8: Server returned 404 Not Found
+- [removed] Me-Tele Next (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=130c82fd10e56b14e1c1448e674cfac85#.m3u8: Server returned 404 Not Found
+- [removed] Mnet (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2d6b2b3d5441c388b10113832aded6061#.m3u8: Server returned 404 Not Found
+- [removed] Mondo TV (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=156c8f204d3c925ac98082ebcf889e969#.m3u8: Server returned 404 Not Found
+- [removed] Movie Plus (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ec87aba4c3d5fec7e2995666a0d5a669#.m3u8: Server returned 404 Not Found
+- [removed] Music Air (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1a6e8a5989a6c2563642c9fd362a79293#.m3u8: Server returned 404 Not Found
+- [removed] Music Japan TV (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b1c7c6dd568b4d2f98a0d558e0c78979#.m3u8: Server returned 404 Not Found
+- [removed] Music ON TV (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14b01b86a90cedefc5c5dce1acf475c8b#.m3u8: Server returned 404 Not Found
+- [removed] Mystery Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13f097360bcf2ca00dee21edacd5e8b84#.m3u8: Server returned 404 Not Found
+- [removed] NEW KPOP (failures: 6) - https://ads.its-newid.net/api/manifest.m3u8?tp=r_channel&channel_name=newkpop&channel_id=newid_165: Server returned 403 Forbidden (access denied)
+- [removed] NHK BS (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=149fb1419e970b164d7336bb3183b760a#.m3u8: Server returned 404 Not Found
+- [removed] NHK BS (Sub Ch.) (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=29599f4ee5496d07e2c5ea6a3e7772089#.m3u8: Server returned 404 Not Found
+- [removed] NHK BS4K (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2ee8ddd078206f0306c9170d3a1431ff8#.m3u8: Server returned 404 Not Found
+- [removed] NHK E (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=29e1da1d18419990038a4a0ebf285d52a#.m3u8: Server returned 404 Not Found
+- [removed] NHK E Osaka (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=25679230fbfaa9b388e056109e41c8100#.m3u8: Server returned 404 Not Found
+- [removed] NHK G (Sub Ch.) (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=19539e3ab8eb86a9a92d5eea21245cd84#.m3u8: Server returned 404 Not Found
+- [removed] NHK G Kyoto (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13f906571e73d30e657a6f3b0c81c3972#.m3u8: Server returned 404 Not Found
+- [removed] NHK G Osaka (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2dff1094a01e170d0626893f1006fcb5e#.m3u8: Server returned 404 Not Found
+- [removed] NTV (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=158392c50acf65316f328be33130d06aa#.m3u8: Server returned 404 Not Found
+- [removed] NTV News24 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ccffa1587dcb3a4bc13b3a9923ee4209#.m3u8: Server returned 404 Not Found
+- [removed] National Geographic Japan (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1326169eeadb107b5749e9cca2adc5c49#.m3u8: Server returned 404 Not Found
+- [removed] Neco Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=19f0dee37a0adbb53fa72448376714f2a#.m3u8: Server returned 404 Not Found
+- [removed] Nihon Eiga Senmon (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1c66d4a3bb66dc6b8b27ed0694f974b79#.m3u8: Server returned 404 Not Found
+- [removed] Nittele G+ (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b07a5a0c5cb309f5b3bdf904e56c5778#.m3u8: Server returned 404 Not Found
+- [removed] Nittele Plus (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13b7a29438bb697b299207f39178bcced#.m3u8: Server returned 404 Not Found
+- [removed] Pigoo (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1827f6ab7906f013daeadef859acb0af8#.m3u8: Server returned 404 Not Found
+- [removed] STOCK VOICE (failures: 6)
+- [removed] SUN (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2dff119c3fb8755ce47b1eb377e9cb37d#.m3u8: Server returned 404 Not Found
+- [removed] Shogi Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=172efdc0b11dcb99aa4825cfa5159ced6#.m3u8: Server returned 404 Not Found
+- [removed] Sky A (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1feebfcb80e43d2661a0444663cd05dd9#.m3u8: Server returned 404 Not Found
+- [removed] Space Shower TV (HD) (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14798d3110461ee8704bfab2664016344#.m3u8: Server returned 404 Not Found
+- [removed] Sport Live Plus (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=133c5ee13b6a54ed85a80487e00cac22a#.m3u8: Server returned 404 Not Found
+- [removed] TBS (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ae7eead24f146c1ebd862caab4f8e23d#.m3u8: Server returned 404 Not Found
+- [removed] TBS Channel 1 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=138f5cd2c4df4688a41947e2b8623c843#.m3u8: Server returned 404 Not Found
+- [removed] TBS Channel 2 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2b9a5dfbc46639bc1c617fcc383609069#.m3u8: Server returned 404 Not Found
+- [removed] TBS News (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=18548966574725250e240abcd0d8e82d4#.m3u8: Server returned 404 Not Found
+- [removed] TOKYO MX1 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=188484310a4df95891688c5aa17543b81#.m3u8: Server returned 404 Not Found
+- [removed] TOKYO MX2 (HD 720p) (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=293f4e4476bbd1b401d27e54f9f26f41b#.m3u8: Server returned 404 Not Found
+- [removed] TOP BARÇA (failures: 6) - TIMEOUT
+- [removed] TV Asahi (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b885170724617b9e3f6fe5d24914955e#.m3u8: Server returned 404 Not Found
+- [removed] TV Asahi Channel 1 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=11f2269c04043cc8f58df58563d2eb0c3#.m3u8: Server returned 404 Not Found
+- [removed] TV Asahi Channel 2 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1d2438204954a47fdca2f5b237b9fa85b#.m3u8: Server returned 404 Not Found
+- [removed] TV Osaka (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1dc57dcdc9717a2c8c943255e3bd85e04#.m3u8: Server returned 404 Not Found
+- [removed] TV Tokyo (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=133f5ad491dd2ea5265345f4984aa7504#.m3u8: Server returned 404 Not Found
+- [removed] Tabi Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=12d36e710c4158908fd0f9a248e22bc04#.m3u8: Server returned 404 Not Found
+- [removed] Takarazuka Sky Stage (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ca8b723f65f036f3691a1ab27de3d2bc#.m3u8: Server returned 404 Not Found
+- [removed] Tetsudo Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1bef97270950d7c6fdb1f44e53b63a2cc#.m3u8: Server returned 404 Not Found
+- [removed] The Cinema (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1f3cdf75854f02ae43addb582d38f9fec#.m3u8: Server returned 404 Not Found
+- [removed] Toei Channel (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=10b97a4e70e5eb9ab60e63de2f4969470#.m3u8: Server returned 404 Not Found
+- [removed] V Paradise (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1aaeeb321fec278972b3aea5f929a9bc3#.m3u8: Server returned 404 Not Found
+- [removed] WOWOW Cinema (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2272733515e8782a343760e192dd8477d#.m3u8: Server returned 404 Not Found
+- [removed] WOWOW Live (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1754802ae2ec09f5529c48069daba1385#.m3u8: Server returned 404 Not Found
+- [removed] WOWOW Plus (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=18fef16e0a95f251fb690187f02475fcd#.m3u8: Server returned 404 Not Found
+- [removed] WOWOW Prime (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14dec677e7d419137030b612affd78e3f#.m3u8: Server returned 404 Not Found
+- [removed] ytv (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=16eb2d8b1f05faf5beb1d41e773d43584#.m3u8: Server returned 404 Not Found
+- [removed] しまじろうチャンネル (failures: 6) - https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rchannelbenessehlscmaf-rakutenjp/playlist.m3u8: Server returned 5XX Server Error reply
+- [removed] スカチャン1 (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=11852112b9a13a8b6d52dc51a66f2a8b9#.m3u8: Server returned 404 Not Found
+- [removed] ヌーヴェルパラダイス (failures: 6) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ff9a812a2bf0752a6daa6959e435b67d#.m3u8: Server returned 404 Not Found
+- [removed] 刺激ストロングSPORTS (failures: 6) - [tcp @ 0x555c9a387d40] Failed to resolve hostname amg01287-rakutentvjapan-shigekisports-rakutenjp-jnftc.amagi.tv: Name or service not known https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekisports-rakutenjp/playlist.m3u8: Input/output error
