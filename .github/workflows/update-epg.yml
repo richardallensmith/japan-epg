@@ -35,12 +35,23 @@ jobs:
             translations-${{ runner.os }}-${{ hashFiles('cache/translations.json') }}-
       - name: Run tests
         run: python -m unittest discover -v
-      - name: Build and validate feed
+      - name: Build and validate fresh EPG
+        id: epg-build
+        continue-on-error: true
         env:
           # Optional contact field only when deliberately configured by the owner.
           MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
-        run: python -m src.main --days 2
+        run: python -m src.main --days 2 --output output/epg.next.xml
+      - name: Promote fresh EPG
+        if: steps.epg-build.outcome == 'success'
+        run: mv output/epg.next.xml output/epg.xml
+      - name: Keep last known-good EPG after transient build failure
+        if: steps.epg-build.outcome != 'success'
+        run: |
+          rm -f output/epg.next.xml
+          echo "::warning::Fresh EPG build failed; publishing the last committed epg.xml with current playlist-health artifacts."
       - name: Save persistent translation cache
+        if: always()
         uses: actions/cache/save@v4
         with:
           path: cache/translations.json
