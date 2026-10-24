@@ -49,9 +49,9 @@ fi
 cd "$WORKTREE"
 
 if [[ -n "$(git status --porcelain)" ]]; then
-  echo "ERROR: nightly worktree has uncommitted changes; refusing to overwrite them."
+  echo "Interrupted nightly work detected; preserving it in a local git stash before reset."
   git status --short
-  exit 2
+  git stash push --include-untracked -m "auto-preserve interrupted nightly expansion $STAMP"
 fi
 
 CURRENT_BRANCH="$(git branch --show-current)"
