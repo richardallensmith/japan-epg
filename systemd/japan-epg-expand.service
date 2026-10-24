@@ -1,0 +1,12 @@
+[Unit]
+Description=Japan EPG nightly live-channel expansion
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+Environment=HOME=/home/ras
+Environment=PATH=/home/ras/.nvm/versions/node/v22.23.3/bin:/home/ras/.local/bin:/usr/local/bin:/usr/bin:/bin
+WorkingDirectory=/home/ras/projects/japan-epg
+ExecStart=/home/ras/projects/japan-epg/scripts/run-nightly-expansion.sh
+TimeoutStartSec=5700
