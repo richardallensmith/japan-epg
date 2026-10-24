@@ -33,10 +33,21 @@ def build(args: argparse.Namespace) -> dict:
     if not configs:
         raise RuntimeError("No enabled channels selected")
     playlist_channels = load_playlist(args.playlist)
+    active_playlist_names = {channel.name for channel in playlist_channels}
+    configs = {
+        key: value
+        for key, value in configs.items()
+        if value["playlist_name"] in active_playlist_names
+    }
+    if not configs:
+        raise RuntimeError("No enabled configured channels are present in the active playlist")
+
+    inventory_playlist = getattr(args, "inventory_playlist", None) or args.playlist
+    inventory_channels = playlist_channels if inventory_playlist == args.playlist else load_playlist(inventory_playlist)
     inventory_path = ROOT / "config/channel_status.json"
     previous_inventory = load_json_yaml(inventory_path) if inventory_path.exists() else {}
-    inventory = reconcile(playlist_channels, all_configs, previous_inventory)
-    inventory["playlist_url"] = args.playlist
+    inventory = reconcile(inventory_channels, all_configs, previous_inventory)
+    inventory["playlist_url"] = inventory_playlist
     save_inventory(inventory, inventory_path)
     now = datetime.now(timezone.utc)
     programmes = []
@@ -104,7 +115,12 @@ def build(args: argparse.Namespace) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build an English-first Japanese XMLTV feed")
-    parser.add_argument("--playlist", default=DEFAULT_PLAYLIST)
+    parser.add_argument("--playlist", default=DEFAULT_PLAYLIST, help="Active playlist used to select channels for EPG generation")
+    parser.add_argument(
+        "--inventory-playlist",
+        default=None,
+        help="Optional full upstream playlist used only for inventory reconciliation",
+    )
     parser.add_argument(
         "--channel",
         action="append",
