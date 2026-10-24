@@ -328,10 +328,14 @@ class TranslationEngine:
             return self._clean_english(cached)
         try:
             result = self._clean_english(self.provider.translate(text))
-        except TranslationError as exc:
-            excerpt = text if len(text) <= 80 else text[:77] + "..."
-            raise TranslationError(f"Unable to translate {kind} text {excerpt!r}: {exc}") from exc
-        self.cache.put(kind, text, result, self.provider.name)
+            provider_name = self.provider.name
+        except TranslationError:
+            # Translation is enrichment, not a hard requirement for a valid EPG.
+            # Preserve the source text so provider quota/rate-limit failures cannot
+            # prevent current schedule data from being published.
+            result = self._clean_english(text)
+            provider_name = "source-text-fallback"
+        self.cache.put(kind, text, result, provider_name)
         self.cache.save()  # retain progress if a later request fails
         return result
 
