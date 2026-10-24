@@ -54,8 +54,14 @@ if [[ -n "$(git status --porcelain)" ]]; then
   exit 2
 fi
 
+CURRENT_BRANCH="$(git branch --show-current)"
+if [[ "$CURRENT_BRANCH" != "$BRANCH" ]]; then
+  echo "Switching nightly worktree from $CURRENT_BRANCH to $BRANCH."
+  git switch "$BRANCH"
+fi
+
 git fetch origin main
-git rebase origin/main
+git reset --hard origin/main
 
 PROMPT="$(cat "$PROMPT_FILE")"
 
@@ -80,7 +86,7 @@ fi
 
 echo "Running full validation before commit..."
 python3 -m unittest discover -v
-python -m src.main   --days 2   --playlist output/japan-live.m3u   --inventory-playlist https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u
+python3 -m src.main   --days 2   --playlist output/japan-live.m3u   --inventory-playlist https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u
 
 git add -A
 git commit -m "Expand live-channel EPG coverage $STAMP"
@@ -90,7 +96,7 @@ git rebase origin/main
 
 echo "Re-running validation after rebase..."
 python3 -m unittest discover -v
-python -m src.main   --days 2   --playlist output/japan-live.m3u   --inventory-playlist https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u
+python3 -m src.main   --days 2   --playlist output/japan-live.m3u   --inventory-playlist https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u
 
 git push origin HEAD:main
 
