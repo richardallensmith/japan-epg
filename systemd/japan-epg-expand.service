@@ -8,5 +8,5 @@ Type=oneshot
 Environment=HOME=/home/ras
 Environment=PATH=/home/ras/.nvm/versions/node/v22.23.3/bin:/home/ras/.local/bin:/usr/local/bin:/usr/bin:/bin
 WorkingDirectory=/home/ras/projects/japan-epg
-ExecStart=/home/ras/projects/japan-epg/scripts/run-nightly-expansion.sh
+ExecStart=/usr/bin/bash /home/ras/projects/japan-epg/scripts/run-nightly-expansion.sh
 TimeoutStartSec=5700
