@@ -33,7 +33,8 @@ def build_xmltv(
             {"start": xmltv_timestamp(item.start), "stop": xmltv_timestamp(item.stop), "channel": item.channel_id},
         )
         ET.SubElement(programme, "title", {"lang": "en"}).text = item.title_en
-        ET.SubElement(programme, "title", {"lang": "ja"}).text = item.title_ja
+        if item.title_ja:
+            ET.SubElement(programme, "title", {"lang": "ja"}).text = item.title_ja
         if item.description_en:
             ET.SubElement(programme, "desc", {"lang": "en"}).text = item.description_en
         if item.description_ja:

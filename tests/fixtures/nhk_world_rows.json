@@ -1,0 +1,32 @@
+{
+  "source_url": "https://masterpl.hls.nhkworld.jp/epg/w/20261025.json",
+  "data": [
+    {
+      "title": "NHK NEWSLINE",
+      "episodeTitle": "",
+      "description": "NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.",
+      "startTime": "2026-10-25T04:00:00+09:00",
+      "endTime": "2026-10-25T04:10:00+09:00",
+      "episodeId": "503701920261025001",
+      "episodeLink": ""
+    },
+    {
+      "title": "Manben: Behind the Scenes of Manga with Urasawa Naoki",
+      "episodeTitle": "Sugimura Shinichi",
+      "description": "Manga artist Urasawa Naoki takes you behind the scenes of how manga is made with guest Sugimura Shinichi. Learn Sugimura's digital drawing techniques as he works on the climax of LAST PLEASURE BOAT.",
+      "startTime": "2026-10-25T04:10:00+09:00",
+      "endTime": "2026-10-25T04:58:15+09:00",
+      "episodeId": "521101320261025001",
+      "episodeLink": "https://www3.nhk.or.jp/nhkworld/en/shows/5211013/"
+    },
+    {
+      "title": "INFO",
+      "episodeTitle": "#2 Diorama TOKYO",
+      "description": "",
+      "startTime": "2026-10-25T04:58:15+09:00",
+      "endTime": "2026-10-25T04:58:30+09:00",
+      "episodeId": "590100220261025002",
+      "episodeLink": ""
+    }
+  ]
+}

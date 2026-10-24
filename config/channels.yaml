@@ -744,6 +744,43 @@
         "station_line": 25,
         "station_id": "309"
       }
+    },
+    "qvc_cs": {
+      "enabled": true,
+      "playlist_name": "QVC (CS)",
+      "expected_tvg_id": "CH.525",
+      "display_name_en": "QVC CS",
+      "display_name_ja": "QVC",
+      "source": "bangumi",
+      "source_options": {
+        "station": "161 QVC",
+        "lineup": "cs",
+        "station_line": 1,
+        "station_id": "161"
+      }
+    },
+    "shop_channel": {
+      "enabled": true,
+      "playlist_name": "ショップチャンネル",
+      "expected_tvg_id": "ショップチャンネル_jp",
+      "display_name_en": "Shop Channel",
+      "display_name_ja": "ショップチャンネル",
+      "source": "bangumi",
+      "source_options": {
+        "station": "55 ショップチ",
+        "lineup": "cs",
+        "station_line": 52,
+        "station_id": "55"
+      }
+    },
+    "nhk_world_japan": {
+      "enabled": true,
+      "playlist_name": "NHK World-Japan",
+      "expected_tvg_id": "NHKWorldJapan.jp",
+      "display_name_en": "NHK WORLD-JAPAN",
+      "display_name_ja": "NHK WORLD-JAPAN",
+      "source": "nhk_world",
+      "source_options": {}
     }
   }
 }

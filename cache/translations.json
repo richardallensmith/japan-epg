@@ -497,7 +497,7 @@
       "kind": "title",
       "source": "ＮＨＫニュース　おはよう首都圏（関東甲信越）",
       "translation": "NHK News: Good Morning Shutoken: Kanto Koshinetsu",
-      "provider": "mapping+Google Translate"
+      "provider": "mapping+provider chain"
     },
     "33f757eb5dbc0228e3e0b39c79188034a5cf9c29714b015874ef834c3866eaba": {
       "kind": "description-excerpt",
@@ -32825,7 +32825,7 @@
       "kind": "title",
       "source": "みんなのうた「絶対晴天！！」／「おっちょこブラザーズ」",
       "translation": "Minna no Uta: “Absolutely sunny weather!!” / “Ochoko Brothers”",
-      "provider": "mapping+Google Translate"
+      "provider": "mapping+provider chain"
     },
     "9aa2ecc2a00dadb6a2bd13eeeaf281c914ee8bf7b531e4974668ebd1bc58c939": {
       "kind": "description-excerpt",
@@ -34139,7 +34139,7 @@
       "kind": "title",
       "source": "みんなのうた「フライパンＤＪ！」／「あのドアの向こうに」",
       "translation": "Minna no Uta: \"Frying Pan DJ!\"/\"Behind that door\"",
-      "provider": "mapping+Google Translate"
+      "provider": "mapping+provider chain"
     },
     "794458b71c3efea253ac682312f2250c840ff25f5b07c24fd23df1265ff67cbb": {
       "kind": "description-excerpt",
@@ -68807,6 +68807,2682 @@
       "kind": "description",
       "source": "もうひとつの日本一決定戦！日本プロ野球の二軍(ファーム)の日本一を決める戦い。 北海道日本ハムファイターズ×読売ジャイアンツ",
       "translation": "Another match to decide the best in Japan! A battle to decide who is the best in Japan in the second team (farm) of Nippon Professional Baseball.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "9d8abc22b13cbea874c33021dcdc264c0479738b66ae295a328b53826692d722": {
+      "kind": "title",
+      "source": "皮膚科学から生まれたコスメ ISA KNOX",
+      "translation": "Cosmetics born from dermatology ISA KNOX",
+      "provider": "Google Translate"
+    },
+    "1a35aa96b5d676b136d88b0a3b85644647356e7c11a11febb661518ad3aa5bd8": {
+      "kind": "description-excerpt",
+      "source": "皮膚科学から生まれた韓国コスメ「イザノックス」が登場！",
+      "translation": "Introducing Izanox, a Korean cosmetic product born from dermatology!",
+      "provider": "Google Translate"
+    },
+    "8bfdaec991136846175a48998b29c4390e5983f5abdb9964c4a3c360fbd34c5c": {
+      "kind": "description",
+      "source": "皮膚科学から生まれた韓国コスメ「イザノックス」が登場！年齢を重ねた大人の女性に向けたアイテムをご紹介します。",
+      "translation": "Introducing Izanox, a Korean cosmetic product born from dermatology!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "02e98678cde52bda81ab577553739ea6119cf7840ef95c38b36620f0a3757362": {
+      "kind": "title",
+      "source": "調理もできる溝なしすり鉢使って納得！「めぐみ鉢」",
+      "translation": "I am satisfied with using a grooveless mortar that can also be used for cooking! \"Megumi pot\"",
+      "provider": "Google Translate"
+    },
+    "6030efe319d812a44621c00d8b6594ad29d48f288cf8ed850d593db6faef3d50": {
+      "kind": "description-excerpt",
+      "source": "溝がないのでお手入れ簡単！赤津焼の美しいすり鉢とスリコギのセットを、大小2サイズでご紹介します。",
+      "translation": "Easy to clean as there are no grooves! Introducing a beautiful Akatsu ware mortar and surikogi set in two sizes, large and small.",
+      "provider": "Google Translate"
+    },
+    "f4b40277c9f5dee2857458f0b9aececf50668040f49d2c3b01934264085b101f": {
+      "kind": "description",
+      "source": "溝がないのでお手入れ簡単！赤津焼の美しいすり鉢とスリコギのセットを、大小2サイズでご紹介します。",
+      "translation": "Easy to clean as there are no grooves! Introducing a beautiful Akatsu ware mortar and surikogi set in two sizes, large and small.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c11fb5eab7a3a93e795f73e8f369ecf77455303a52dcab8fa1ec6688d115b159": {
+      "kind": "title",
+      "source": "【特選！時代劇】浮浪雲（４）「孝行、色々」",
+      "translation": "[Special selection! Historical Drama] Wandering Clouds (4) “Filial piety, various things”",
+      "provider": "Google Translate"
+    },
+    "839524b606b7fa161ddd3033f1e346400862bdc2864acbed1655105a9c717e21": {
+      "kind": "description-excerpt",
+      "source": "問屋場「夢屋」の番頭・欲次郎（イッセー尾形）は大酒飲みの弥之助（内藤剛志）に１３年ぶりに会う。",
+      "translation": "Yujiro (Issey Ogata), the manager of the wholesale store ``Yumeya'', meets Yanosuke (Takashi Naito), a heavy drinker, for the first time in 13 years.",
+      "provider": "Google Translate"
+    },
+    "b638e44d552edb767a314f4159dbca3106ffa387c2f83f6df6863470db72d3b3": {
+      "kind": "description",
+      "source": "問屋場「夢屋」の番頭・欲次郎（イッセー尾形）は大酒飲みの弥之助（内藤剛志）に１３年ぶりに会う。弥之助は島帰りなのに娘夫婦に孝行されていると自慢したので、欲次郎は浮浪雲（佐々木蔵之介）とかめ（倉科カナ）の夫婦に、実の父親のように頼られていると張り合う。が欲次郎は、弥之助が娘の民（星野真里）に、親とも思わないと罵倒されるのを聞く。その頃かめは幼なじみの正蔵（福士誠治）に言い寄られ、少しときめいていた。",
+      "translation": "Yujiro (Issey Ogata), the manager of the wholesale store ``Yumeya'', meets Yanosuke (Takashi Naito), a heavy drinker, for the first time in 13 years.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "d25f14314123eca43109be18c0ac7d27f0963e5328710a333f41201d9baa15f5": {
+      "kind": "title-fragment",
+      "source": "１０月２５日（日）",
+      "translation": "Sunday, October 25th",
+      "provider": "Google Translate"
+    },
+    "a5c1d09520093a6e0be107e8af4d1fc10181df082df4e0100d17206d5abaa8fc": {
+      "kind": "title",
+      "source": "ＮＨＫニュース　おはよう日本　１０月２５日（日）",
+      "translation": "NHK News: Good Morning Japan: Sunday, October 25th",
+      "provider": "mapping+provider chain"
+    },
+    "65b0e2d541cdaa82b8ac5fb1871a309cab17756ead16fe6003fde672d4961d9f": {
+      "kind": "description-excerpt",
+      "source": "▼台風３０号　今後の見通しは▼フランス再び大規模デモで厳戒態勢へ▼江戸時代の謎「うつろ舟」資料発…",
+      "translation": "▼ Typhoon No. 30 - Future outlook ▼ France is on high alert due to large-scale demonstrations again ▼ Documents on the Edo-period mystery \"Utsuro-bune\" released...",
+      "provider": "Google Translate"
+    },
+    "83612fa09a560cb183d3b8ba5002018a84e8cb89fe709e8bfebc7df2a391d377": {
+      "kind": "description",
+      "source": "▼台風３０号　今後の見通しは▼フランス再び大規模デモで厳戒態勢へ▼江戸時代の謎「うつろ舟」資料発見相次ぐ▼不正アクセス問題関連",
+      "translation": "▼ Typhoon No. 30 - Future outlook ▼ France is on high alert due to large-scale demonstrations again ▼ Documents on the Edo-period mystery \"Utsuro-bune\" released...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "9ea46dba911a7f59bb950db460bdd054604904a551fcae5cd49145c3ab379be2": {
+      "kind": "title",
+      "source": "セルフジェンヌ 部分ウィッグ",
+      "translation": "selfjenne partial wig",
+      "provider": "Google Translate"
+    },
+    "64bc2901056171e4f169b2b916f5fa83c164c551b17a08184a60a4122cca3f91": {
+      "kind": "description-excerpt",
+      "source": "もっとあなたらしさを発揮できる、もっとあなたを解放する、そんなウィッグ（エクステ）との出会いにご…",
+      "translation": "We hope you will discover wigs (extensions) that will allow you to express yourself more and liberate yourself more...",
+      "provider": "Google Translate"
+    },
+    "7fb6a9ee79b5caf6a9504cd540a128cfa4e5bb857a354409526ec79c1b5a855b": {
+      "kind": "description",
+      "source": "もっとあなたらしさを発揮できる、もっとあなたを解放する、そんなウィッグ（エクステ）との出会いにご期待を！",
+      "translation": "We hope you will discover wigs (extensions) that will allow you to express yourself more and liberate yourself more...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "5c860d399118a3caae5637f82d3db4250b7a3b19d81db44aaa060e79a9e8914a": {
+      "kind": "title",
+      "source": "パーリーデュー シワ改善＆美白美容液スペシャル",
+      "translation": "Pearly Dew wrinkle improvement & whitening serum special",
+      "provider": "Google Translate"
+    },
+    "ea41036c3ba0b88455ae8aba45dc4458005dd3c1a4b032372f3cc317b386f9fe": {
+      "kind": "description-excerpt",
+      "source": "シワ改善＆美白※＆保湿※の効能効果を持つ薬用シワ改善美白美容液とエコバッグが付いたセット。",
+      "translation": "A set that includes a medicated wrinkle-improving, whitening serum with wrinkle-improving, whitening*, and moisturizing effects and an eco bag.",
+      "provider": "Google Translate"
+    },
+    "e47af519d51f6a00886c03a7a7858f9227f76157dd89ca0a933c4f9a678736ac": {
+      "kind": "description",
+      "source": "シワ改善＆美白※＆保湿※の効能効果を持つ薬用シワ改善美白美容液とエコバッグが付いたセット。※メラニンの生成を抑え、しみ・そばかすを防ぐ※皮膚にうるおいを与える",
+      "translation": "A set that includes a medicated wrinkle-improving, whitening serum with wrinkle-improving, whitening*, and moisturizing effects and an eco bag.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "98eb283e6fe1626493616c13a038a104428de9c2f6acf7bb5808cbcccac7c554": {
+      "kind": "title",
+      "source": "さわやか自然百景　北海道　美幌　温水ため池",
+      "translation": "100 Refreshing Nature Scenes, Bihoro, Hokkaido, Warm Water Pond",
+      "provider": "Google Translate"
+    },
+    "996ea7431aabf5e8806b4fe6cfd50809a956c5632a03ab16ef95e723a21d34c5": {
+      "kind": "description-excerpt",
+      "source": "北海道で最大の温水ため池「美幌温水ため池」。川からの冷たい水を温め、水田を潤してきた。",
+      "translation": "Bihoro Onsui Ikei is the largest hot water reservoir in Hokkaido. It heated the cold water from the river and irrigated the rice fields.",
+      "provider": "Google Translate"
+    },
+    "c58e54186f469e13affbea8f9d5c5fb1338cce7890a283d77af8a0110fdeee83": {
+      "kind": "description",
+      "source": "北海道で最大の温水ため池「美幌温水ため池」。川からの冷たい水を温め、水田を潤してきた。そこが、現在ではおよそ４０種のトンボたちの楽園に。台湾、マレーシア由来の「南方系」とシベリア・中国北部・朝鮮半島由来の「北方系」が入り混じる特別な場所だ。５月にため池に水が張られ、７月に競うように羽化。９月になると、タイリクアカネなどが大乱舞。オスとメスが一緒に飛行する「おつながり」からの産卵も見られる。",
+      "translation": "Bihoro Onsui Ikei is the largest hot water reservoir in Hokkaido. It heated the cold water from the river and irrigated the rice fields.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "2e8c6f2e7fb83344cfb64dba5cebc7863b45d07ad35304f1f58dc2d3d5b6e29f": {
+      "kind": "title-fragment",
+      "source": "「川辺の田　雨降れども　～千葉県　田中調節池～」",
+      "translation": "“Riverside rice fields, despite the rain ~Tanaka regulation pond, Chiba prefecture~”",
+      "provider": "Google Translate"
+    },
+    "452469c42948531d0e256aa325f46b73e186794feb08ab6387d29c87cb7c1c2d": {
+      "kind": "title",
+      "source": "小さな旅「川辺の田　雨降れども　～千葉県　田中調節池～」",
+      "translation": "A Small Journey: “Riverside rice fields, despite the rain ~Tanaka regulation pond, Chiba prefecture~”",
+      "provider": "mapping+provider chain"
+    },
+    "eafdfec51381d7f53788d67a47d564eba91a4ee29084104ee8b3bb2d464d8326": {
+      "kind": "description-excerpt",
+      "source": "千葉県北西部、つくばエクスプレスから一望できる田中調節池。",
+      "translation": "Tanaka Reservoir Pond can be seen from the Tsukuba Express in northwestern Chiba Prefecture.",
+      "provider": "Google Translate"
+    },
+    "0b5adb8fa6b9be0484b17fb3491c1a43bbf6b3103c5436abe1eb57a887d0526d": {
+      "kind": "description",
+      "source": "千葉県北西部、つくばエクスプレスから一望できる田中調節池。本来は利根川の洪水が広がるのを防ぐための場所だが、戦後に食糧難の時代を支える農地として開墾された。旅人・山本哲也が出会ったのは、パラオから引き揚げて開墾に汗したという９９歳のコメ農家。また離農する仲間の土地をひきうけ、農業法人を立ち上げた経営者はことし、千葉を襲った豪雨との戦いに追われた。時代の荒波と向き合う農家の意地を見つめる物語。",
+      "translation": "Tanaka Reservoir Pond can be seen from the Tsukuba Express in northwestern Chiba Prefecture.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "56bd45472bf4e8e27cfa8cf5a8afa62507a373dc9a8d237eecff9e61cf766785": {
+      "kind": "title",
+      "source": "ヴィーナスナビ ショップチャンネル30周年記念 2時間スペシャル",
+      "translation": "Venus Navi Shop Channel 30th Anniversary 2 Hour Special",
+      "provider": "Google Translate"
+    },
+    "32b5c1be68f182149d646bb87c674735b28c7c739516ac6e75b441f31147cacf": {
+      "kind": "description-excerpt",
+      "source": "今月は30周年を祝う2時間のスペシャル番組！服やジュエリー、コスメをマツミキさんがトータルにご提…",
+      "translation": "This month is a 2-hour special program celebrating our 30th anniversary! Matsumiki offers a complete range of clothing, jewelry, and cosmetics...",
+      "provider": "Google Translate"
+    },
+    "d3ef0cbd231030ee5c7ed9e4f61e0d0f3350e1d93135910ab8a581976ab53a30": {
+      "kind": "description",
+      "source": "今月は30周年を祝う2時間のスペシャル番組！服やジュエリー、コスメをマツミキさんがトータルにご提案。",
+      "translation": "This month is a 2-hour special program celebrating our 30th anniversary! Matsumiki offers a complete range of clothing, jewelry, and cosmetics...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "2ab50632cdc2375552026c692e706b059c722737547cc1e6ee5a2409f0c7ced9": {
+      "kind": "title",
+      "source": "Ｄｅａｒにっぽん　選　見ていてね、坂本龍一監督",
+      "translation": "Dear Japan selection, please watch it, Director Ryuichi Sakamoto",
+      "provider": "Google Translate"
+    },
+    "9d9d0b08dcd16cda5b4d15f7f4cb6ecd6f47f65aed666953de655c26fbda809f": {
+      "kind": "description-excerpt",
+      "source": "世界的音楽家・坂本龍一さんは、東北ユースオーケストラの子どもたちと家族のように付き合って親しまれ…",
+      "translation": "Ryuichi Sakamoto, a world-renowned musician, has become close to the children of the Tohoku Youth Orchestra and has become close to them as if they were family.",
+      "provider": "Google Translate"
+    },
+    "977c6ecfdee03001f841c995e1d8ee756acf7a514db6581ccb1e8cab5c192613": {
+      "kind": "description",
+      "source": "世界的音楽家・坂本龍一さんは、東北ユースオーケストラの子どもたちと家族のように付き合って親しまれた。被災後「生きていて良いのか」と悩む中で坂本さんの曲を演奏し救われた子。演奏に失敗したとき音楽の楽しさを教えられた子…東日本大震災を被災地で経験した団員一人一人を「みんななら大丈夫」と励ました坂本さん。「今後のオーケストラの目標は？」「坂本監督から自立しなきゃ」再出発をめざし模索する団員たちを追う",
+      "translation": "Ryuichi Sakamoto, a world-renowned musician, has become close to the children of the Tohoku Youth Orchestra and has become close to them as if they were family.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "9f6d959d0b1d7a6883736ab66c59e8293a2e69d55c63036e8005d08265c3c886": {
+      "kind": "title",
+      "source": "こだわりの健康シリーズ クロワール 25周年",
+      "translation": "Special health series Couloir 25th anniversary",
+      "provider": "Google Translate"
+    },
+    "4f17bec3865c7a4536668a39943e12aca1c353ff639529cce0c405c189243322": {
+      "kind": "description-excerpt",
+      "source": "機能性表示食品や栄養機能食品のサプリメント、ブレンド茶などをお届けします。",
+      "translation": "We deliver food with functional claims, nutritional functional food supplements, blended tea, and more.",
+      "provider": "Google Translate"
+    },
+    "aa764530ee4e6e1d9301f10575d4f0d7100e24043afedcce6f9cab631e9bf1b6": {
+      "kind": "description",
+      "source": "機能性表示食品や栄養機能食品のサプリメント、ブレンド茶などをお届けします。",
+      "translation": "We deliver food with functional claims, nutritional functional food supplements, blended tea, and more.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "def84838479503ec03cda1d288145e705eac1c753c93d63118b40a0ff6b53f41": {
+      "kind": "title",
+      "source": "日曜討論　与野党に問う　衆院の国会論戦は",
+      "translation": "Sunday debate: Ask the ruling and opposition parties about the parliamentary debate in the House of Representatives",
+      "provider": "Google Translate"
+    },
+    "caa8e85ef79cb9ad6189f50ba7bd37a6e63e2131873c048ce711b5f5cabb6d3b": {
+      "kind": "description-excerpt",
+      "source": "【出演】▼自由民主党・村井英樹さん　▼日本維新の会・遠藤敬さん　▼国民民主党・古川元久さん　▼公…",
+      "translation": "[Performance] ▼ Liberal Democratic Party, Hideki Murai ▼ Nippon Ishin no Kai, Takashi Endo ▼ Democratic Party of the People, Motohisa Furukawa ▼ Public...",
+      "provider": "Google Translate"
+    },
+    "a89d32dfc7f3169deba06bdcd2599a56130e21c346febce5be38362f38c3fc20": {
+      "kind": "description",
+      "source": "【出演】▼自由民主党・村井英樹さん　▼日本維新の会・遠藤敬さん　▼国民民主党・古川元久さん　▼公明党・中川康洋さん　▼民主改革の会・後藤祐一さん　▼参政党・和田政宗さん　▼チームみらい・高山聡史さん　▼日本共産党・塩川鉄也さん　▼いのちの党・八幡愛さん　【司会】▼ＮＨＫ解説委員・山下毅　▼ＮＨＫアナウンサー・上原光紀",
+      "translation": "[Performance] ▼ Liberal Democratic Party, Hideki Murai ▼ Nippon Ishin no Kai, Takashi Endo ▼ Democratic Party of the People, Motohisa Furukawa ▼ Public...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "20e50804879b5d3fdef836149f68b6e9c67abcb0154f16c7b8b0d9729c6de296": {
+      "kind": "title",
+      "source": "福岡発！訳あり辛子明太子",
+      "translation": "From Fukuoka! Karashi mentaiko with a reason",
+      "provider": "Google Translate"
+    },
+    "73b417574b5185be52f0c2426778a8ee25e159e95384b3b6f9ba6fb258e9c8db": {
+      "kind": "description-excerpt",
+      "source": "そのまま熱々のご飯にのせるもよし！パスタ、和え物等にもよし！",
+      "translation": "You can also serve it as is over hot rice! Good for pasta, seasoned dishes, etc.",
+      "provider": "Google Translate"
+    },
+    "105015a9b639fc23d2551d2eabc5fb60d8f414e4212c0429aeaa5cf3d5066909": {
+      "kind": "description",
+      "source": "そのまま熱々のご飯にのせるもよし！パスタ、和え物等にもよし！プリプリ食感の訳あり明太子を、たっぷりお得にお届けします。",
+      "translation": "You can also serve it as is over hot rice! Good for pasta, seasoned dishes, etc.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "6d48ed591cd0cc0a67a36efd0bac11c72ebf7c402539180aeb15802f0d92a514": {
+      "kind": "title",
+      "source": "明日をまもるナビ（２０６）あなたの空き家が災害のリスクに？！",
+      "translation": "Navi that protects tomorrow (206) Is your vacant house at risk of disaster? !",
+      "provider": "Google Translate"
+    },
+    "3809dfc71d1a98c87d00700a4cffb0690da3a505aa8e34259094184fed28e6af": {
+      "kind": "description-excerpt",
+      "source": "遠くてなかなか足を運べない、思い出が詰まって手が付けられない…様々な理由で放置される“空き家”。",
+      "translation": "Vacant houses are abandoned for a variety of reasons: they are far away and difficult to visit, or they are filled with memories and cannot be touched.",
+      "provider": "Google Translate"
+    },
+    "e010b7720fe66a696cd8fb7203a284f46a3b1cf4f4501f96411fac1281b2567f": {
+      "kind": "description",
+      "source": "遠くてなかなか足を運べない、思い出が詰まって手が付けられない…様々な理由で放置される“空き家”。いま７戸に１戸が空き家とされ、増え続けています。大分で起きた大火災では空き家が原因で被害が拡大。能登半島地震や熊本地震でも倒壊した空き家が復旧・復興の妨げになるなど、地域の災害リスクに直結します。持ち主の方に始めてほしい具体的な対策と、空き家の活用で地域活性化につながった自治体の取り組みをお伝えします。",
+      "translation": "Vacant houses are abandoned for a variety of reasons: they are far away and difficult to visit, or they are filled with memories and cannot be touched.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "419a1d6cbbd9f4db34dab52a71bea3fd0fb3aa31a0798b9ce935694c6e8d3473": {
+      "kind": "title",
+      "source": "学び舎の記憶　マンモス校",
+      "translation": "Memories of the school: Mammoth School",
+      "provider": "Google Translate"
+    },
+    "10116004fce07bf9feef77337e3454a0bd15f3fcfd269bf87a98cd9721fa619a": {
+      "kind": "description-excerpt",
+      "source": "今は見られなくなった教育現場の驚きの光景をＮＨＫに眠る映像で追体験▽昭和４０年代、各地のベッドタ…",
+      "translation": "Relive the surprising sights of educational sites that can no longer be seen with footage hidden on NHK ▽In the 1960s, bedside tables in various places...",
+      "provider": "Google Translate"
+    },
+    "ce2ce7362d1e9601704b67c094736d33b3e3044a641726301a9661db20df4b8c": {
+      "kind": "description",
+      "source": "今は見られなくなった教育現場の驚きの光景をＮＨＫに眠る映像で追体験▽昭和４０年代、各地のベッドタウンで児童が急増。不足する教室をひねり出すため体育館を間仕切りしたり、一つの教室を２つのクラスで使ったり！プレハブ校舎で校庭が埋め尽くされた町では体育は宅地造成地で！▽教員不足も深刻。全国の大学で採用説明会を開く川崎市はライバル横浜市への対抗意識全開！▽膨れ上がる学校めぐる半世紀前のビックリ映像狂騒曲！",
+      "translation": "Relive the surprising sights of educational sites that can no longer be seen with footage hidden on NHK ▽In the 1960s, bedside tables in various places...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "fa7ba52c92ad19ef45c3a4385b501ce7402261d64e84665fe9eee8d40dab102c": {
+      "kind": "title",
+      "source": "妻亡きあとに〜近藤正臣　郡上八幡ひとり暮らし〜",
+      "translation": "After the death of his wife ~ Masaomi Kondo lives alone in Gujo Hachiman ~",
+      "provider": "Google Translate"
+    },
+    "56720fca8e609dd817d140544d36cd3a1c179bd66c94862482efc03d84411590": {
+      "kind": "description-excerpt",
+      "source": "往年の名俳優・近藤正臣（８３）。岐阜・郡上八幡の自然に魅せられ、８年前に妻と移住。",
+      "translation": "Masaomi Kondo (83), a famous actor of yesteryear. Fascinated by the natural beauty of Gujo Hachiman, Gifu, he moved there with his wife eight years ago.",
+      "provider": "Google Translate"
+    },
+    "48dc2333dd0f28231b1ece4eeec5833c4f44a160ba22ada9a2c1f594750b8983": {
+      "kind": "description",
+      "source": "往年の名俳優・近藤正臣（８３）。岐阜・郡上八幡の自然に魅せられ、８年前に妻と移住。穏やかな晩年を過ごす…はずだった。その後、妻が認知症を発症。自身も体調を崩しながら、里山でのワンオペ介護を続けていたが、一昨年、妻が亡くなった。伴侶を失った高齢者は、どう生きていくのか。近藤が向き合う「老い」と「孤独」に長期密着。深い喪失感を抱えながらも、地域の中で“これから”を模索するひとりの老人の日々を見つめる。",
+      "translation": "Masaomi Kondo (83), a famous actor of yesteryear. Fascinated by the natural beauty of Gujo Hachiman, Gifu, he moved there with his wife eight years ago.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "fb0c0b558bb464ba208556e83b9ac6b4ecf3d8fd7630cccb06aa6fdf0823bd52": {
+      "kind": "title",
+      "source": "焼く。蒸す。これ一台。 レンジメートWIDEデビュー",
+      "translation": "bake. Steam. This one. Rangemate WIDE debut",
+      "provider": "Google Translate"
+    },
+    "991b40fee0003f4df3d84a330352253770dce4ebd38d03877e854466a55cba2f": {
+      "kind": "description-excerpt",
+      "source": "電子レンジで焼く・炒めるなど1台8役の人気アイテムが、広く・深くなって新登場！",
+      "translation": "Popular items that can be used for 8 functions such as baking and stir-frying in the microwave are now available in wider and deeper versions!",
+      "provider": "Google Translate"
+    },
+    "8a61790d434336036fdf2c5e9770fe066d8044d8b27e8fa6702f36d623feb108": {
+      "kind": "description",
+      "source": "電子レンジで焼く・炒めるなど1台8役の人気アイテムが、広く・深くなって新登場！専用スチーマー付き。",
+      "translation": "Popular items that can be used for 8 functions such as baking and stir-frying in the microwave are now available in wider and deeper versions!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "ff6977387accac53b9eceb349dfa9709d25a62178b65aa9631d878e6ad64b94b": {
+      "kind": "title",
+      "source": "【夜ドラ】「青の花　器の森」　ＰＲ",
+      "translation": "[Night drama] “Blue Flower Vessel Forest” PR",
+      "provider": "Google Translate"
+    },
+    "2c3638504c8c49f3e11ae1da823113aa7f5d3d948de386bdb192b2e549236d39": {
+      "kind": "description-excerpt",
+      "source": "長崎県波佐見町（はさみちょう）の焼き物工房を舞台にした、夜ドラ「青の花　器の森」の見どころを伝え…",
+      "translation": "Introducing the highlights of the night drama ``Ao no Hana: Vessel Forest'', which is set in a pottery workshop in Hasami Town, Nagasaki Prefecture...",
+      "provider": "Google Translate"
+    },
+    "38c0ca59f9053e7a93fc4ca013806a0e114a66d9f100847d9d6357ee9c72ac18": {
+      "kind": "description",
+      "source": "長崎県波佐見町（はさみちょう）の焼き物工房を舞台にした、夜ドラ「青の花　器の森」の見どころを伝える。波佐見で絵付け職人として働く青子（あおこ）の窯元に、フィンランドから孤高の陶芸家・龍生（たつき）がやってくる。「自分の器には絵付けは必要ない」と言い放つ龍生に、青子は自分だけでなく町も仲間も否定されたように感じて反発するが…　出演　松井玲奈　一ノ瀬颯　西田尚美　ほか",
+      "translation": "Introducing the highlights of the night drama ``Ao no Hana: Vessel Forest'', which is set in a pottery workshop in Hasami Town, Nagasaki Prefecture...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "5ae09da384efc1e418c14ad8be0e0fd42f4020431ad95f1f621bcf26544836b6": {
+      "kind": "title-fragment",
+      "source": "「ひよっこ」再放送ＰＲ",
+      "translation": "“Hiyokko” rebroadcast PR",
+      "provider": "Google Translate"
+    },
+    "3207a6d124c88b2d17f90e4e6a75f06cf6d886e3a4af8a343d1fa1003995f688": {
+      "kind": "title",
+      "source": "連続テレビ小説「ひよっこ」再放送ＰＲ",
+      "translation": "Serial TV Novel: “Hiyokko” rebroadcast PR",
+      "provider": "mapping+provider chain"
+    },
+    "8b6a5d3c0774329ec78c1b8da88e805c56005d3ab424a6414f60e5f71c2d0e92": {
+      "kind": "description-excerpt",
+      "source": "再放送中の連続テレビ小説「ひよっこ」の魅力を改めてお届けするＰＲ番組。",
+      "translation": "A PR program that once again delivers the appeal of the TV drama series \"Hiyokko\" which is currently being rebroadcast.",
+      "provider": "Google Translate"
+    },
+    "45ae6361c72ec660d710eac7e471445a6689ae6525b4ccfb1bdb130091473172": {
+      "kind": "description",
+      "source": "再放送中の連続テレビ小説「ひよっこ」の魅力を改めてお届けするＰＲ番組。ヒロイン・有村架純さんのインタビューも。",
+      "translation": "A PR program that once again delivers the appeal of the TV drama series \"Hiyokko\" which is currently being rebroadcast.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "224a9f59758b46bed26a58c717cb7e5cde113f8e10952c8847cfd512369f56a5": {
+      "kind": "title-fragment",
+      "source": "ＰＲ　村上宗隆　躍進の舞台裏　ＭＬＢ知られざる戦略",
+      "translation": "PR Munetaka Murakami’s breakthrough behind the scenes: MLB’s unknown strategy",
+      "provider": "Google Translate"
+    },
+    "62a69bcdf21af133fd24921e6fc691fc8b60e3b0d610e66d19a508ceed2d7614": {
+      "kind": "title",
+      "source": "ＮＨＫスペシャルＰＲ　村上宗隆　躍進の舞台裏　ＭＬＢ知られざる戦略",
+      "translation": "NHK Special: PR Munetaka Murakami’s breakthrough behind the scenes: MLB’s unknown strategy",
+      "provider": "mapping+provider chain"
+    },
+    "d7c2bdfe60986c7fe2e19ac54b994e84e4e617c3db3f698811e48844798e3080": {
+      "kind": "description",
+      "source": "ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。今回は１０月２５日放送の『村上宗隆　躍進の舞台裏　ＭＬＢ知られざる戦略』。",
+      "translation": "A PR program that summarizes the highlights of the NHK Special.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "fab20d03e0129eb216dd857ae84bbabe813412cf9efaa500403aadb2739784c1": {
+      "kind": "title",
+      "source": "タモリ・山中伸弥の！？ＰＲ　ｉＰＳ細胞スペシャル",
+      "translation": "Tamori/Shinya Yamanaka's! ? PR iPS cell special",
+      "provider": "Google Translate"
+    },
+    "1ce569b09c491c12f6a1b9cbb14b8ba53306dd1cf83b929a6e674c7301370767": {
+      "kind": "description-excerpt",
+      "source": "山中伸弥教授がノーベル賞を受賞した「ｉＰＳ細胞」。",
+      "translation": "\"iPS cells\" for which Professor Shinya Yamanaka won the Nobel Prize.",
+      "provider": "Google Translate"
+    },
+    "cfe13b01755aac50c288643c1fd6a78bf1690fde63a2d4d6bd7365feb7215016": {
+      "kind": "description",
+      "source": "山中伸弥教授がノーベル賞を受賞した「ｉＰＳ細胞」。発見から今年でちょうど２０年となり世界で初めて医療現場での実用化が始まるなど大きな節目を迎えている。その技術の核心は細胞の“時間を巻き戻す”力にある！いま、その力で「若返り」や「超長寿」に迫る研究が続々！シャーレの中で細胞の“過去”をリプレイして難病の治療につなげる技術も登場している。さらに古代人類の謎に迫る研究など異分野への驚異的な広がりも！",
+      "translation": "\"iPS cells\" for which Professor Shinya Yamanaka won the Nobel Prize.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "857bd16b6c890b7b3f305d937a352056a596744d77682739d966066923f78fc2": {
+      "kind": "title",
+      "source": "ＮＨＫＯＮＥ教養　ＰＲミニ番組",
+      "translation": "NHKONE Education PR mini program",
+      "provider": "Google Translate"
+    },
+    "6585823bcd41e1a0321e5a67c9032cc562da5aaa1978d4d742e6c489c0e76ec5": {
+      "kind": "title",
+      "source": "GO！GO！バリュー ミニマライズプラス フレンチシックな新作コート",
+      "translation": "GO! GO! Value Minimalize Plus New French chic coat",
+      "provider": "Google Translate"
+    },
+    "ad64ac9257a14ccd0e4547eb49a713784072f8da55e9f966237a32b5ccba06d2": {
+      "kind": "title",
+      "source": "ＮＨＫのど自慢　富山から生放送▽由紀さおり・氷川きよし",
+      "translation": "NHK Nodojiman live broadcast from Toyama▽Yuki Saori, Hikawa Kiyoshi",
+      "provider": "Google Translate"
+    },
+    "145b1446de0fb8ac2d742d32005b5fa0a312dd4db372a10e38123ff5ff9d5d10": {
+      "kind": "description-excerpt",
+      "source": "富山県上市町から生放送▽ゲスト：由紀さおり・氷川きよし▽司会：高瀬耕造アナウンサー▽鐘：片山陽平…",
+      "translation": "Live broadcast from Kamiichi Town, Toyama Prefecture ▽ Guest: Yuki Saori, Hikawa Kiyoshi ▽ Host: Announcer Kozo Takase ▽ Bell: Katayama Yohei...",
+      "provider": "Google Translate"
+    },
+    "315050a7bd7aabb64c6094953d74154602bfebea55e7ef1d6cbdca9f85fe3413": {
+      "kind": "description",
+      "source": "富山県上市町から生放送▽ゲスト：由紀さおり・氷川きよし▽司会：高瀬耕造アナウンサー▽鐘：片山陽平（セントラル愛知交響楽団）▽【ゲストの歌】由紀さおり「恋でパラダイス」＆氷川きよし「旅でござんす　おじゃる丸」▽誰かのために歌いたい！思いを届けるために歌いたい！そんなあなたのステージが「のど自慢」です。中学生以上の、原則アマチュアの方ならだれでも応募できます。出場申込は番組ＨＰをご覧ください！",
+      "translation": "Live broadcast from Kamiichi Town, Toyama Prefecture ▽ Guest: Yuki Saori, Hikawa Kiyoshi ▽ Host: Announcer Kozo Takase ▽ Bell: Katayama Yohei...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "60f4d3c00a06610db7953697f5e7be93ba289f4d6433f4b6583a5a8d2b3f6c9e": {
+      "kind": "genre",
+      "source": "カラオケ・のと゛自慢",
+      "translation": "Karaoke Notojijiman",
+      "provider": "Google Translate"
+    },
+    "336ee41851d112d9a9547572e5b45d5b9907f1e88a4a2fb0e23f58cb6539e977": {
+      "kind": "title",
+      "source": "ずれない！ゴムない！ 西川 置くらく敷パッドホット パワーアップ",
+      "translation": "Stays in place! No rubber! Nishikawa Laptop Pad Hot Power Up",
+      "provider": "Google Translate"
+    },
+    "0e7720ba4ef6e808ea445a6690314885a764aadc63e18e6cb7e0cbd0a48d766b": {
+      "kind": "description-excerpt",
+      "source": "ホームインテリア／暮らしを彩る！ホームファッションデイズ〜冬の準備編〜／心も身体もほっこりするH…",
+      "translation": "Home interior/Color your life! Home Fashion Days ~Winter Preparation Edition~/H that will warm your mind and body...",
+      "provider": "Google Translate"
+    },
+    "9e77a83fb608bbb18b9fcececa0c3690f8713f20a250e39257461bada683ed3f": {
+      "kind": "description",
+      "source": "ホームインテリア／暮らしを彩る！ホームファッションデイズ〜冬の準備編〜／心も身体もほっこりするHOTなアイテムをラインナップ。快適で暖かなお部屋作りをご提案。",
+      "translation": "Home interior/Color your life! Home Fashion Days ~Winter Preparation Edition~/H that will warm your mind and body...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c891d3fa95daae50ae8540701ce9de810eaa8f75363be4eb4a95865422ec1824": {
+      "kind": "title",
+      "source": "滝野順ピュアプラチナジュエリー",
+      "translation": "Jun Takino Pure Platinum Jewelry",
+      "provider": "Google Translate"
+    },
+    "64f4468f2d2b3651b1fe6d895a84c96e81cd81c687b44668dd25bf9595a6e65f": {
+      "kind": "description-excerpt",
+      "source": "純プラチナならではの滑らかな肌触りと、艶やかな煌きを実現しました。",
+      "translation": "It has the smooth feel and lustrous sparkle that is unique to pure platinum.",
+      "provider": "Google Translate"
+    },
+    "a3d457b92d32d78e147b9f9b0f92b0c4b84d4b9bf69f04381bdb45e9efb647b3": {
+      "kind": "description",
+      "source": "純プラチナならではの滑らかな肌触りと、艶やかな煌きを実現しました。美しいプラチナのジュエリーをご紹介します。",
+      "translation": "It has the smooth feel and lustrous sparkle that is unique to pure platinum.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "42b6a99249fc86263306a7d5216671a0e105b50440d788c51d6d5aecd8cc3366": {
+      "kind": "title",
+      "source": "首都圏いちオシ！　中川家礼二の沿線いちオシ！つくばエクスプレスＳＰ",
+      "translation": "The best in the metropolitan area! Reiji Nakagawa's favorite along the line! Tsukuba Express SP",
+      "provider": "Google Translate"
+    },
+    "4a71c65462be7f82e559fe7aac82af2b01e08eb45d671ad22676930871e818bb": {
+      "kind": "description-excerpt",
+      "source": "秋葉原駅とつくば駅間の５８．３キロを最速４５分で結ぶ「つくばエクスプレス」。",
+      "translation": "\"Tsukuba Express\" connects Akihabara Station and Tsukuba Station for 58.3 km in 45 minutes at the fastest.",
+      "provider": "Google Translate"
+    },
+    "9d4d817194c294a3c8daea11f2df3be7333eb7eb242c043e3d48f3ad4bec9280": {
+      "kind": "description",
+      "source": "秋葉原駅とつくば駅間の５８．３キロを最速４５分で結ぶ「つくばエクスプレス」。沿線には個性豊かな街が広がる。北千住には通称、飲み横。埼玉県八潮市には、多くの本場のパキスタン料理店が…いったいなぜ？そして子育てしやすい街として知られる千葉県流山市では“ある生きもの”が大活躍。沿線出身のＫｉｓ－Ｍｙ－Ｆｔ２・二階堂高嗣、相席スタート・山﨑ケイも驚きの新発見が続々！つくばエクスプレス沿線の魅力を大特集！",
+      "translation": "\"Tsukuba Express\" connects Akihabara Station and Tsukuba Station for 58.3 km in 45 minutes at the fastest.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "972cb95433d4cf1a7f041f339fc9eb220a9d2c097eeb70f09716073cb7ef1041": {
+      "kind": "title",
+      "source": "せかほし５ｍｉｎ．「世界のごちそうチョコレート」",
+      "translation": "Seka Hoshi 5min. \"World's Feast Chocolate\"",
+      "provider": "Google Translate"
+    },
+    "881cd3e3cb49e5eff4d9ce775069a12a96543d49fe95894a192bdf9d9316948e": {
+      "kind": "description-excerpt",
+      "source": "【語り】鈴木亮平",
+      "translation": "[Narrator] Ryohei Suzuki",
+      "provider": "Google Translate"
+    },
+    "7b0ccc5ad4a340aad2970043e7144025aadf0d61797008c4429ed2b32a503a42": {
+      "kind": "description",
+      "source": "【語り】鈴木亮平",
+      "translation": "[Narrator] Ryohei Suzuki",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "9cba8ca01f3f23a3de443cc40ca4bd978de450cd61d65e3e77f32172e62be160": {
+      "kind": "title",
+      "source": "世界で開け！ひみつのドアーズ　フランスで見つけた“人生の楽園”",
+      "translation": "Open to the world! Secret Doors: “Paradise of Life” Found in France",
+      "provider": "Google Translate"
+    },
+    "6f5c4985f19660fbcb71c0e26770fc1984ad9f0f44f950e9583d052740932160": {
+      "kind": "description-excerpt",
+      "source": "“その島を見たものは己の血を見る”そう恐れられてきたフランスの西の果ての絶海に浮かぶウェッサン島…",
+      "translation": "Ouessant Island, floating in the distant sea at the west end of France, has been feared as “those who see the island see their own blood”...",
+      "provider": "Google Translate"
+    },
+    "5d23470cdd9ab738b333682e68520f1b24157810fc51b5bc70b1c826c657c3ca": {
+      "kind": "description",
+      "source": "“その島を見たものは己の血を見る”そう恐れられてきたフランスの西の果ての絶海に浮かぶウェッサン島。強風が吹き荒れ、漁業にも農業にも向かず目立った観光地もないが、島民は口々に「人生の楽園だ」と語る。皆が魅力された謎の“ル・カルム”。３時間かけてつくる極上の島グルメ。島が育むかわいらしく貴重な生き物たち。さらに１万キロ離れた日本との意外なつながりも次々発見。豊かに生きるヒントが見つかる旅へ。",
+      "translation": "Ouessant Island, floating in the distant sea at the west end of France, has been feared as “those who see the island see their own blood”...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "867c15a4647a5db34410eca7520d2787dcdce528f526ab20ef74afd5ae894ef2": {
+      "kind": "title",
+      "source": "Give Re-Collection アパレルカジュアル",
+      "translation": "Give Re-Collection Apparel Casual",
+      "provider": "Google Translate"
+    },
+    "eea428784e4ea8b14e0294c41349179fcff9aa68025e1aa1feca0c4d0d863f00": {
+      "kind": "description-excerpt",
+      "source": "QVCで活躍するモデルたちがプロデュース。大人女子が喜ぶアイテムが続々登場！",
+      "translation": "Produced by models active on QVC. Items that adult women will enjoy are appearing one after another!",
+      "provider": "Google Translate"
+    },
+    "7e9c6758b0e6d92c035b662142a7b63b8bf9c1d9fc568550ed46e1a61c33237f": {
+      "kind": "description",
+      "source": "QVCで活躍するモデルたちがプロデュース。大人女子が喜ぶアイテムが続々登場！番組でのファッションコーディネートのアドバイスも見逃せません。",
+      "translation": "Produced by models active on QVC. Items that adult women will enjoy are appearing one after another!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "d075888b7acbbfc3d4543e2fb9adf949785c588563197fbf201d9abb7a976ad0": {
+      "kind": "title-fragment",
+      "source": "＆タモリ山中伸弥の！？　ＰＲ　ｉＰＳ細胞スペシャル",
+      "translation": "& Tamori Shinya Yamanaka's! ? PR iPS cell special",
+      "provider": "Google Translate"
+    },
+    "4083bd463063e67043c84e9ed057978bc8bbdb5680ee88dd98f8ac2ba1597943": {
+      "kind": "title",
+      "source": "新プロジェクトＸ＆タモリ山中伸弥の！？　ＰＲ　ｉＰＳ細胞スペシャル",
+      "translation": "Project X: Challengers: & Tamori Shinya Yamanaka's! ? PR iPS cell special",
+      "provider": "mapping+provider chain"
+    },
+    "cb69798a8aae90d695cd15983e6cd4cad8fcaf78a1a2f5a1716c561606b57b44": {
+      "kind": "title",
+      "source": "毎週土曜夜１０時放送中　土曜ドラマ「老害の人」",
+      "translation": "Broadcast every Saturday at 10 p.m. Saturday drama “Old Man”",
+      "provider": "Google Translate"
+    },
+    "db886d606b3de527c7eeb3d08b0f9f393d9aab547eb5e938cd178f02bebe378f": {
+      "kind": "description-excerpt",
+      "source": "ボードゲーム製作販売会社の社長・戸山福太郎（伊東四朗）は、妻の通夜の席で娘・明代（夏川結衣）の夫…",
+      "translation": "Fukutaro Toyama (Shiro Ito), the president of a board game production and sales company, sees the husband of his daughter Akiyo (Yui Natsukawa) at his wife's wake...",
+      "provider": "Google Translate"
+    },
+    "a5d9e72571834ed3619061e713bcb1a44ff75698533adb63910623ca8fca369d": {
+      "kind": "description",
+      "source": "ボードゲーム製作販売会社の社長・戸山福太郎（伊東四朗）は、妻の通夜の席で娘・明代（夏川結衣）の夫・純市（勝村政信）に社長の座を譲る。しばらくは一人旅などしていたが、突然会社に顔を出し、社員を捕まえてはかつての武勇伝を繰り返す。週に二度会社に現れるようになる頃、世間はコロナ禍に。そして福太郎８２歳の誕生会が開かれる。集まった同年代の４人は、病気自慢や趣味自慢、それぞれ自慢老害をまき散らすのだが…。",
+      "translation": "Fukutaro Toyama (Shiro Ito), the president of a board game production and sales company, sees the husband of his daughter Akiyo (Yui Natsukawa) at his wife's wake...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "7b0e27fa8e9708a79a210e9651d2c05ce454c70869723823febe43534634ec29": {
+      "kind": "title",
+      "source": "SIXPAD for Women",
+      "translation": "SIXPAD for Women",
+      "provider": "Google Translate"
+    },
+    "865e9145d17caef1d953c4dc30e557e693258616962d35941f6bde36fb574575": {
+      "kind": "description-excerpt",
+      "source": "女性特有の身体の悩みや不安に寄り添うSIXPADのケアアイテムを紹介します。",
+      "translation": "Introducing SIXPAD's care items that address physical concerns and anxieties specific to women.",
+      "provider": "Google Translate"
+    },
+    "4d0ae86e8165d421bc7be832b83d3a8872be7ceddff590ce8de90b37660b24e8": {
+      "kind": "description",
+      "source": "女性特有の身体の悩みや不安に寄り添うSIXPADのケアアイテムを紹介します。",
+      "translation": "Introducing SIXPAD's care items that address physical concerns and anxieties specific to women.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "991057b0ccda7743dce1db4091d68647e17aec35b203767231017574685d8ac9": {
+      "kind": "title",
+      "source": "メゾンマザーマテリアル 抜群の肌触り！日本の拘り素材が登場！",
+      "translation": "Maison Mother Material Excellent texture! Introducing Japanese special materials!",
+      "provider": "Google Translate"
+    },
+    "80313661f3101a7cf2aed03a4c734a74ace6c20015f1de812f434f5504d62615": {
+      "kind": "title",
+      "source": "競馬２０２６「第８７回菊花賞」",
+      "translation": "Horse Racing 2026 “87th Kikuka Sho”",
+      "provider": "Google Translate"
+    },
+    "b9c59258d530bbba5987c6786e1e5daec0e4add774ef6d7ba0d788b58bef8ac6": {
+      "kind": "description-excerpt",
+      "source": "皐月賞・日本ダービーと春のクラシックを制したロブチェンが、史上９頭目の三冠馬を目指して「菊花賞」…",
+      "translation": "Lobchen, who won the Satsuki Sho/Japan Derby and the Spring Classic, is aiming to become the ninth horse in history to win the Triple Crown and win the Kikuka Sho...",
+      "provider": "Google Translate"
+    },
+    "3c21173c6412a736ff914e7da1a7be8e2d93a3303a4b2bff11e2a52a41078f0c": {
+      "kind": "description",
+      "source": "皐月賞・日本ダービーと春のクラシックを制したロブチェンが、史上９頭目の三冠馬を目指して「菊花賞」に臨む。トライアルレースの前走・神戸新聞杯では貫禄の勝利をあげ、今回は圧倒的一番人気も予想されるなか、芝３０００ｍの初めての舞台で実力を発揮することができるのか。解説は元調教師の中村均さん。当日のパドックでは、出走全頭の直前の様子・状態を詳しく解説します。出走は午後３時４０分…歴史的瞬間を見逃すな！",
+      "translation": "Lobchen, who won the Satsuki Sho/Japan Derby and the Spring Classic, is aiming to become the ninth horse in history to win the Triple Crown and win the Kikuka Sho...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f06a4c55308b01dba3b5d5cada9bb59a441faf551f4bbaae7fa51f0ef7693762": {
+      "kind": "genre",
+      "source": "競馬・公営競技",
+      "translation": "Horse racing/public competitions",
+      "provider": "Google Translate"
+    },
+    "876f1839201f50ab5f1ce6abedd4c181f0643a437f37769db34aa691d0a9e4ee": {
+      "kind": "title",
+      "source": "名曲考察教室　ＺＡＲＤ「揺れる想い」×大友花恋＆中野なかるてぃん",
+      "translation": "Masterpiece Consideration Class ZARD “Swaying Thoughts” x Otomo Karen & Nakano Narutin",
+      "provider": "Google Translate"
+    },
+    "3552e8e6cd33355e7fa61c3f4abc9d02a0038cf9a109ac0e65a3e0b02eebab6a": {
+      "kind": "description-excerpt",
+      "source": "「揺れる想い」（１９９３年）はスポーツドリンクのＣＭソングに起用されミリオンヒットを記録。",
+      "translation": "``Swaying Thoughts'' (1993) was used as a sports drink commercial song and became a million hit.",
+      "provider": "Google Translate"
+    },
+    "fccdbc2bf9a5575e6e88184737e610be6aca2f38518ba14e80f4223a8d345512": {
+      "kind": "description",
+      "source": "「揺れる想い」（１９９３年）はスポーツドリンクのＣＭソングに起用されミリオンヒットを記録。澄み渡る夏空の下で好きな人への恋心を瑞々しく歌った名曲だ。作詞はボーカルの坂井泉水が手掛けた。考察するのは、筋金入りのＺＡＲＤファンというお笑い芸人・中野なかるてぃんと、読書家として知られる俳優の大友花恋。ご意見番として大久保佳代子も登場。さらに、俳優の中島健人がＺＡＲＤ愛を熱く語る！【司会】設楽統、浅野里香",
+      "translation": "``Swaying Thoughts'' (1993) was used as a sports drink commercial song and became a million hit.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "9da6fe36cd8a39538bfb0b5877e0ac47787985c76f4ffd3c253b4127d84915de": {
+      "kind": "title",
+      "source": "フラース ザ スカーフカンパニー",
+      "translation": "Fraas The Scarf Company",
+      "provider": "Google Translate"
+    },
+    "23bc3036d0c7c5d72c2d59694e531b3c3205910308980b8ca921ef6bafd2ba91": {
+      "kind": "description-excerpt",
+      "source": "感動的な肌当たりで首元をやさしく包み込むマフラー。",
+      "translation": "A scarf that gently wraps around your neck with a touching touch.",
+      "provider": "Google Translate"
+    },
+    "eeb724fe5565e94f78257a934ad9a7c2c91502741bdd66651ffc63a533bf42bd": {
+      "kind": "description",
+      "source": "感動的な肌当たりで首元をやさしく包み込むマフラー。レオパード柄など装いに映えるデザインをセレクト。",
+      "translation": "A scarf that gently wraps around your neck with a touching touch.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f0a4f701e1e7f161cf5b3839166a21f08624af309a06513376e59f0355d4dfdc": {
+      "kind": "title",
+      "source": "家族みんなの笑顔・山福の「特大おせち」",
+      "translation": "Yamafuku's \"Extra Large Osechi\" will bring smiles to the whole family",
+      "provider": "Google Translate"
+    },
+    "62fea780fc32c30f52e46a5090b9a98b5d8ba807ed24f3baab6ddd2a6ff00b40": {
+      "kind": "description-excerpt",
+      "source": "創業1946年の料理材料専門卸売店「山福」のおせち料理をご紹介します。",
+      "translation": "Introducing New Year dishes from Yamafuku, a wholesale store specializing in cooking ingredients that was founded in 1946.",
+      "provider": "Google Translate"
+    },
+    "ec94d565902a570914f6cc869087a1ea8e2170dc3695e192c769002f7b3469ec": {
+      "kind": "description",
+      "source": "創業1946年の料理材料専門卸売店「山福」のおせち料理をご紹介します。ボリュームたっぷりのお料理は、ご家族や親戚、友人との集まりにもぴったりです。",
+      "translation": "Introducing New Year dishes from Yamafuku, a wholesale store specializing in cooking ingredients that was founded in 1946.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f4479f2fe71655e265927e6c0bb608eca5ea2891e3ea89817d9075dc2c1cd8ba": {
+      "kind": "title-fragment",
+      "source": "ＰＲ　年末スペシャル２０２６投票募集",
+      "translation": "PR End of the Year Special 2026 Voting Recruitment",
+      "provider": "Google Translate"
+    },
+    "eb2ebae87cd7c975868c2567d6194114c07ff552c5eeacab70cd36496ae23c3d": {
+      "kind": "title",
+      "source": "ドキュメント７２時間ＰＲ　年末スペシャル２０２６投票募集",
+      "translation": "Document 72 Hours: PR End of the Year Special 2026 Voting Recruitment",
+      "provider": "mapping+provider chain"
+    },
+    "7753c0d0c2f3663a8d8de1670005e3db892dffc72bf8e21c8b172be0ed57798a": {
+      "kind": "description-excerpt",
+      "source": "今年もやります、ドキュメント７２時間年末スペシャル。",
+      "translation": "We will be doing a documentary 72 hours year-end special again this year.",
+      "provider": "Google Translate"
+    },
+    "df8067ae52368f3f12b06592766c630a75e2c8394cfc352eb8a2c6729d5b7e6f": {
+      "kind": "description",
+      "source": "今年もやります、ドキュメント７２時間年末スペシャル。みなさんの投票で選ばれたベスト１０を年末に一挙アンコール放送。現在、投票募集中！１人３つまで選べます。番組ファンの博多大吉さんや、街の人たちのオススメ回を聞きながら、投票方法をご案内。投票は番組ＨＰから。締め切りは１１月１５日まで。今年はどの回が１位になるのか！？番組を続けていくためにも、ぜひ、みなさまも投票をお願いします！",
+      "translation": "We will be doing a documentary 72 hours year-end special again this year.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f7bf78ed98243be724abaf03d24e97968b8a57182eb197fbc5631e9620f8b204": {
+      "kind": "title",
+      "source": "ＮＨＫ新人落語大賞・お笑い大賞ＰＲ",
+      "translation": "NHK Newcomer Rakugo Award/Comedy Award PR",
+      "provider": "Google Translate"
+    },
+    "e8962b4cb078e795910e7b14f4ad5a2ad1c9d93831b8d218cb981fdc82a87355": {
+      "kind": "title",
+      "source": "ＭＬＢ２分ハイライト　ワールドシリーズ第２戦「レイズ」対「ブルワーズ」",
+      "translation": "MLB 2-minute highlights World Series Game 2 “Rays” vs. “Brewers”",
+      "provider": "Google Translate"
+    },
+    "a00378635fe4e5e04798876d563db97ddf52b19c6e7f6185d760144527b7005a": {
+      "kind": "description-excerpt",
+      "source": "ＭＬＢ２０２６のクライマックス！勝てばともに初のワールドチャンピオンの激闘を２分に凝縮！",
+      "translation": "The climax of MLB2026! If we win, we will condense the fierce battle between the first world champions into 2 minutes!",
+      "provider": "Google Translate"
+    },
+    "e9782487fe7ae979ac63e9a2bbcfbb023248a3f56092d4927f9445893b4203f8": {
+      "kind": "description",
+      "source": "ＭＬＢ２０２６のクライマックス！勝てばともに初のワールドチャンピオンの激闘を２分に凝縮！",
+      "translation": "The climax of MLB2026! If we win, we will condense the fierce battle between the first world champions into 2 minutes!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "9911af29fb53cdc5201512f93b2d939eedee745281458d6cd4da8121b1bc902d": {
+      "kind": "title",
+      "source": "超絶神業！マジックバトル　第９弾　ＧＯＬＤ",
+      "translation": "A transcendent miracle! Magic Battle Part 9 GOLD",
+      "provider": "Google Translate"
+    },
+    "864854c6cb73db1eae3ecd6f6cffc705223d02966c5058d2e92886700f92dce5": {
+      "kind": "description-excerpt",
+      "source": "大混乱！最先端マジックでスマホのパスワードが解除＆ゲストの電話番号がバレた▼韓国の天才がスタジオ…",
+      "translation": "Big mess! Cutting-edge magic unlocks smartphone password and reveals guest's phone number ▼ Korean genius works in studio...",
+      "provider": "Google Translate"
+    },
+    "b864e35352ef63c8d3c565bcf5acbf1b8ad4fd32012c4a5b69c41445dc8cd326": {
+      "kind": "description",
+      "source": "大混乱！最先端マジックでスマホのパスワードが解除＆ゲストの電話番号がバレた▼韓国の天才がスタジオに登場！モノが消える！誰もタネがわからない驚異の魔法▼衝撃の神業！手のひらで炎を操る南米最強の魔術師▼地球の裏側アルゼンチンから遠隔で透視。ありえない予言の的中にみちょぱが凍り付いた▼アジア王者が繰り出す魅惑のペアマジックに浅野ゆう子がメロメロ▼Ｍｒ．マリックにムチャぶり透明なテーブルで下から見る超魔術",
+      "translation": "Big mess! Cutting-edge magic unlocks smartphone password and reveals guest's phone number ▼ Korean genius works in studio...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "fb3529b62629fb93489ec439259dc8b1f10cf705dcdbb2791bb9740bf8213262": {
+      "kind": "title",
+      "source": "レンジで簡単！ 国産若鶏のササミフライドチキン",
+      "translation": "Easy to use in the microwave! Domestic chicken fillet fried chicken",
+      "provider": "Google Translate"
+    },
+    "bccc57df4f51158770673b2ac0921bc7bc8ee14b973e8b2017d420f2c9ce2bb1": {
+      "kind": "title",
+      "source": "具材たっぷり！うま味たっぷり シャンウェイ中華丼",
+      "translation": "Plenty of ingredients! Shanwei Chinese bowl full of umami",
+      "provider": "Google Translate"
+    },
+    "00475548678884013daeac2086e2d87d6b88db75eab8e0b282897c01c4d15b27": {
+      "kind": "description-excerpt",
+      "source": "海鮮と国産野菜がたっぷり入った中華丼は、あっさりとした塩味で旨みも香りも豊か。",
+      "translation": "The Chinese bowl is filled with plenty of seafood and domestic vegetables, and has a light salty flavor and is rich in flavor and aroma.",
+      "provider": "Google Translate"
+    },
+    "bc018df09ec226da69c5ef37d920069433d347c6b293206bc163fd58797695b2": {
+      "kind": "description",
+      "source": "海鮮と国産野菜がたっぷり入った中華丼は、あっさりとした塩味で旨みも香りも豊か。湯煎するだけの本格中華をぜひこの機会に！",
+      "translation": "The Chinese bowl is filled with plenty of seafood and domestic vegetables, and has a light salty flavor and is rich in flavor and aroma.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "bf4055bf7abfabceb6126e3cb109f6a9ca474857ba794231cc90b5c10787eb0e": {
+      "kind": "title",
+      "source": "越田雅哉 ダイヤモンドコレクション",
+      "translation": "Masaya Koshida Diamond Collection",
+      "provider": "Google Translate"
+    },
+    "e7ea110506d20bfc7105944e96bf503845ba3fa1d9fd191e976eb261df227aac": {
+      "kind": "description-excerpt",
+      "source": "人気ゲスト・越田雅哉さんがお届けするダイヤモンドのショー。",
+      "translation": "A diamond show brought to you by popular guest Masaya Koshida.",
+      "provider": "Google Translate"
+    },
+    "6598769ea0dafd2a92e0e322efa3e898e25428144172ca415d85de9c8107e1b7": {
+      "kind": "description",
+      "source": "人気ゲスト・越田雅哉さんがお届けするダイヤモンドのショー。厳選したダイヤモンドを、魅力的なプライスでご紹介します。",
+      "translation": "A diamond show brought to you by popular guest Masaya Koshida.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "60956de594cadb73ca0dc69194acd3b9709f75e20293e183d1031e5840ccbb9c": {
+      "kind": "title",
+      "source": "高品質オールハンドメイド マダムヒロコウィッグ",
+      "translation": "High quality all handmade Madame Hiroko wig",
+      "provider": "Google Translate"
+    },
+    "eae0281495934ef8c91e5b6f14d32b2071a38bcb39c14423c7bf226e80507dd3": {
+      "kind": "description-excerpt",
+      "source": "コスメ／憧れの海外コスメブランドや、こだわり素材のスキンケア、メイク用品、話題の美容器具などビュ…",
+      "translation": "Cosmetics: A view of coveted overseas cosmetics brands, skin care products made with carefully selected ingredients, makeup products, popular beauty equipment, etc.",
+      "provider": "Google Translate"
+    },
+    "ad47da214faf62cb2aa8e852ccee793cc8452df4ddf0fa329611c2299ad2a39b": {
+      "kind": "description",
+      "source": "コスメ／憧れの海外コスメブランドや、こだわり素材のスキンケア、メイク用品、話題の美容器具などビューティーアイテムをご紹介。プロのテクニックも見逃せません。",
+      "translation": "Cosmetics: A view of coveted overseas cosmetics brands, skin care products made with carefully selected ingredients, makeup products, popular beauty equipment, etc.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "2822035073ff42b6cc9a4484c53eb2a6e628bcfec70010808f36fa896da03eab": {
+      "kind": "title",
+      "source": "有吉のお金発見　突撃！カネオくん　シーズン到来！「おでん」の秘密大調査",
+      "translation": "Ariyoshi's money discovery attack! Kaneo-kun season has arrived! Secret investigation of “Oden”",
+      "provider": "Google Translate"
+    },
+    "e418a54c56c872cdc64f55b6b52cbef69e6c6accfa69b64bd1418c7ab31ebe19": {
+      "kind": "description-excerpt",
+      "source": "コロッケやクロワッサンがおでんの具に！進化系おでんの最前線を大調査！",
+      "translation": "Croquettes and croissants can be used as oden ingredients! A major investigation into the forefront of evolutionary oden!",
+      "provider": "Google Translate"
+    },
+    "fc16821d048768336b96f8d7a185062efe4769a7618f95697fe226c3523826b5": {
+      "kind": "description",
+      "source": "コロッケやクロワッサンがおでんの具に！進化系おでんの最前線を大調査！さらにコンビニおでんの製造工場に潜入！大根やしらたきにダシを“しみしみ”にさせる驚きの技術から、職人が手作業で仕上げる「餅きんちゃく」まで…おいしさのヒミツを特別公開！全国のご当地おでんも徹底調査！日本有数のおでんの町、金沢の高級おでん具材「カニ面」とは？福岡県民には当たり前！？博多おでんの知られざる人気具材に有吉もビックリ！",
+      "translation": "Croquettes and croissants can be used as oden ingredients! A major investigation into the forefront of evolutionary oden!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "05bfcf12f9757f0074742397e7e0242e97c2733da6325e90a44d66fae90149e1": {
+      "kind": "title",
+      "source": "10年後も輝く自分で！ 次世代原料ウロリチン配合サプリ「ウロリア」",
+      "translation": "Be yourself that will still shine 10 years from now! Uloria, a supplement containing next-generation raw material urolithin",
+      "provider": "Google Translate"
+    },
+    "2407b7c5d028784c2eed71ada947ce771f05d3ff493b9a3fedbd7c7d79d1f32a": {
+      "kind": "description-excerpt",
+      "source": "美容と健康／話題のダイエット商品や、注目の素材を使ったサプリメント、オーラルケア、フィットネス器…",
+      "translation": "Beauty and Health / Popular diet products, supplements using popular ingredients, oral care, fitness equipment...",
+      "provider": "Google Translate"
+    },
+    "5a747c1b5978263a5487510254494b7c924ec040eab361872824c912228d1380": {
+      "kind": "description",
+      "source": "美容と健康／話題のダイエット商品や、注目の素材を使ったサプリメント、オーラルケア、フィットネス器具など美容と健康をサポートするアイテムをご紹介。",
+      "translation": "Beauty and Health / Popular diet products, supplements using popular ingredients, oral care, fitness equipment...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "fcd25468360b36217aec2a36b4e63ea4a1aee80dc4ce72af4f89b2a32f9d3548": {
+      "kind": "title-fragment",
+      "source": "「完全密着！最強のトラ」",
+      "translation": "\"Complete close contact! The strongest tiger\"",
+      "provider": "Google Translate"
+    },
+    "e0f12cacc0a683bfbde9f1762186eae22e427fa26f49ad8d5eb1cab67874e7d5": {
+      "kind": "title",
+      "source": "ダーウィンが来た！「完全密着！最強のトラ」",
+      "translation": "Darwin's Amazing Animals: \"Complete close contact! The strongest tiger\"",
+      "provider": "mapping+provider chain"
+    },
+    "e7df0f543cefa082712767630e700bd67d1a0ca545c1478fbc1f41b898ab4f84": {
+      "kind": "description-excerpt",
+      "source": "インド中部にあるタドバ・アンダリ・トラ保護区。普通、出会うことすら難しいベンガルトラが、ここでは…",
+      "translation": "Tadoba Andhari Tiger Reserve in central India. Bengal tigers are usually difficult to encounter, but here...",
+      "provider": "Google Translate"
+    },
+    "67caf249a0e5a1e74d66c89a2c1190753b0e78eceb11b6114b6ca5b239eb4f69": {
+      "kind": "description",
+      "source": "インド中部にあるタドバ・アンダリ・トラ保護区。普通、出会うことすら難しいベンガルトラが、ここでは狭いエリアに高密度で生息している。世界最大級の野生ウシ・ガウルを執ように追跡する意外な狩りや、猛獣ナマケグマとの激しい攻防をカメラがとらえた！▼縄張りを支配するオスとの関係を巧みにコントロールしながら、我が子を守り抜く母トラの物語▼“トラ王国”で繰り広げられる、波乱万丈のストーリーをお届けする。",
+      "translation": "Tadoba Andhari Tiger Reserve in central India. Bengal tigers are usually difficult to encounter, but here...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "fdece4a4dd469d3d50f22e5803d302bf1466cf09bd39b1fd8d5d008c532918f5": {
+      "kind": "title",
+      "source": "豊臣兄弟！（４１）家康の野望",
+      "translation": "Toyotomi brothers! (41) Ieyasu's ambition",
+      "provider": "Google Translate"
+    },
+    "c557c09fb5018bc07d553f90d82fff979e0af944539f4f0f3cf4aebafbc025b2": {
+      "kind": "description-excerpt",
+      "source": "あさひ（倉沢杏菜）の輿入れも功を奏さず、上洛しようとしない家康（松下洸平）。",
+      "translation": "Ieyasu (Kohei Matsushita) has no intention of going to Kyoto, as Asahi's (Anna Kurasawa) attempts to move him to Kyoto are unsuccessful.",
+      "provider": "Google Translate"
+    },
+    "17ded87548d8bfa8424273aad9a56d093ed66ceb32570349d9d5b60eb748952b": {
+      "kind": "description",
+      "source": "あさひ（倉沢杏菜）の輿入れも功を奏さず、上洛しようとしない家康（松下洸平）。だが秀吉（池松壮亮）がなか（坂井真紀）まで人質に差し出したことで、ついに根負けする。とはいえ、それは形ばかりの上洛だと察した秀長（仲野太賀）は、謁見前夜に接待の場で家康に胸の内をさらけ出し、豊臣が真に手を取り合うべき相手か見極めてほしいと告げる。しかし家康は、この機に乗じて秀吉の懐刀である秀長を暗殺しようと企てていた。",
+      "translation": "Ieyasu (Kohei Matsushita) has no intention of going to Kyoto, as Asahi's (Anna Kurasawa) attempts to move him to Kyoto are unsuccessful.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "957e4d879821d4dba5763a13043a7fcbfabe30b7ca5756eb066353e60bd0e9d1": {
+      "kind": "title",
+      "source": "私の個性が輝く服 ミニマライズプラス",
+      "translation": "Clothes that make my personality shine Minimalize Plus",
+      "provider": "Google Translate"
+    },
+    "91967c9d72a23e352e8c93aaac89d1094aabe76bee1c0144695bd3ac83e5918f": {
+      "kind": "description-excerpt",
+      "source": "無駄のない美しいシルエットで、上品なヴィンテージ感とフレンチクラシック感のあるアトリエコートをご…",
+      "translation": "We offer an atelier coat with a beautiful, streamlined silhouette that has an elegant vintage feel and French classic feel.",
+      "provider": "Google Translate"
+    },
+    "4e1d5d324a0f030e9e516b90a2e7ada1248cfcf71c323d56dbf77635984a05a0": {
+      "kind": "description",
+      "source": "無駄のない美しいシルエットで、上品なヴィンテージ感とフレンチクラシック感のあるアトリエコートをご案内。",
+      "translation": "We offer an atelier coat with a beautiful, streamlined silhouette that has an elegant vintage feel and French classic feel.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "1c8b75445257fa9c8ee9ae972886b3ab1168c7caed70acb91c075b6a7fb051e0": {
+      "kind": "title",
+      "source": "電源不要！worxコードレス高圧洗浄機",
+      "translation": "No power required! worx cordless pressure washer",
+      "provider": "Google Translate"
+    },
+    "776b2c90a74ddc8d2320bfd81eb32023ad93277d59971f87c8a691feef898a13": {
+      "kind": "description-excerpt",
+      "source": "使う場所を選ばない、充電式コードレスの高圧洗浄機をご紹介。",
+      "translation": "Introducing a rechargeable cordless high pressure washer that can be used anywhere.",
+      "provider": "Google Translate"
+    },
+    "e5b9f468c427dee4f06d0c7e4eb20feac5b4759bbec20f1fc21564db930b6775": {
+      "kind": "description",
+      "source": "使う場所を選ばない、充電式コードレスの高圧洗浄機をご紹介。本体がコンパクトなので移動や収納もラクラク。洗浄機としてはもちろん散水等にもお使いいただけます。",
+      "translation": "Introducing a rechargeable cordless high pressure washer that can be used anywhere.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "5266d582d18c8429845b69aea39d414030c1db72b378a86f473a4131dc497383": {
+      "kind": "title-fragment",
+      "source": "村上宗隆　躍進の舞台裏　ＭＬＢの知られざる戦略とは",
+      "translation": "Behind the scenes of Munetaka Murakami's breakthrough: What is MLB's unknown strategy?",
+      "provider": "Google Translate"
+    },
+    "c066f0b7fdb81c4e6bc435468ee373aaee254159c3da6ec4fbacef890d55b0b2": {
+      "kind": "title",
+      "source": "ＮＨＫスペシャル　村上宗隆　躍進の舞台裏　ＭＬＢの知られざる戦略とは",
+      "translation": "NHK Special: Behind the scenes of Munetaka Murakami's breakthrough: What is MLB's unknown strategy?",
+      "provider": "mapping+provider chain"
+    },
+    "031255b19985796f1edab2beef5485cf57343fc6faead9298b501777e2288eb2": {
+      "kind": "description-excerpt",
+      "source": "２年連続最下位からプレーオフへ、快進撃を牽引した村上宗隆。",
+      "translation": "Munetaka Murakami led the team's steady advance from last place to the playoffs for two consecutive years.",
+      "provider": "Google Translate"
+    },
+    "f1d699748b1d9209383bc2054cfdbba0c0bba81dd84fde7c996da94abca7ab1d": {
+      "kind": "description",
+      "source": "２年連続最下位からプレーオフへ、快進撃を牽引した村上宗隆。メジャー１年目でなぜ本塁打を量産できたのか？獲得の舞台裏やデータ分析による適応戦略、不調脱出に向けた試行錯誤の秘話を球団関係者が明らかに。ＭＬＢはトップ選手だけでなく才能の発掘においても新戦略を打ち出している。ＳＮＳ動画から将来性を見いだし高校球児と契約。最速１６０キロに迫る“脱サラ投手”を獲得する球団も。ＭＬＢの知られざる戦略に迫る。",
+      "translation": "Munetaka Murakami led the team's steady advance from last place to the playoffs for two consecutive years.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "22e17f84b4ceb2e18eee6c4b8efa8e13837b6e41d2782a90d5f9c44c66f305e2": {
+      "kind": "title",
+      "source": "Casalita 無重力感覚リュック",
+      "translation": "Casalita zero gravity backpack",
+      "provider": "Google Translate"
+    },
+    "a3490b5394274a7942a6aa0e65881e38c4b7af7b4149ac9d2908533e7e4f3a67": {
+      "kind": "description-excerpt",
+      "source": "伸縮性のあるショルダーストラップにより、首や背中、腰への負荷を軽減する機能を採用したリュック。",
+      "translation": "This backpack features elastic shoulder straps that reduce the stress on your neck, back, and hips.",
+      "provider": "Google Translate"
+    },
+    "8d5feea090bfc722069bf4b8f4679723814e9d23a6e5409209645c114e946b67": {
+      "kind": "description",
+      "source": "伸縮性のあるショルダーストラップにより、首や背中、腰への負荷を軽減する機能を採用したリュック。見た目以上の収納力も魅力です。",
+      "translation": "This backpack features elastic shoulder straps that reduce the stress on your neck, back, and hips.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "db91e7e54d5a2c731d88de6ea7a05c11c746a076023256f862763dfb3ba0d2cb": {
+      "kind": "title",
+      "source": "ノーネーム",
+      "translation": "no name",
+      "provider": "Google Translate"
+    },
+    "151b69b3553e3ffcfb458fffc390416c313be57f19b2fcc8379bb7282a0c756e": {
+      "kind": "description-excerpt",
+      "source": "ブランド人気のスニーカーを秋冬カラーでご用意。カジュアルなのにほどよく上品な新作に乞うご期待！",
+      "translation": "The brand's popular sneakers are available in fall and winter colors. Look forward to the casual yet elegant new work!",
+      "provider": "Google Translate"
+    },
+    "6a90c9a84e5d44e1a7f89b8a5bf3597570cfe33508da2dc1219935d3933270a3": {
+      "kind": "description",
+      "source": "ブランド人気のスニーカーを秋冬カラーでご用意。カジュアルなのにほどよく上品な新作に乞うご期待！",
+      "translation": "The brand's popular sneakers are available in fall and winter colors. Look forward to the casual yet elegant new work!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "b482c83a125e2b4b18d12349da2a43d607d802b59b3e0ca660f81b6361a16f9f": {
+      "kind": "title",
+      "source": "サンデースポーツ",
+      "translation": "sunday sports",
+      "provider": "Google Translate"
+    },
+    "89acc37a718a308d625b969551379e6adebc279f5cdbf206442753b1d4f338d8": {
+      "kind": "description-excerpt",
+      "source": "連覇か？下克上か？プロ野球日本シリーズ好発進するのは▽フィギュアスケートＧＰシリーズ開幕▽ＷＥリ…",
+      "translation": "A consecutive victory? Gekokujo? Professional Baseball Japan Series gets off to a good start ▽ Figure Skating GP Series begins ▽ WE Ri...",
+      "provider": "Google Translate"
+    },
+    "a409a3d3330814e692ee22488d21c1663a8d9ab9f1c16422728ea204a2aa7baf": {
+      "kind": "description",
+      "source": "連覇か？下克上か？プロ野球日本シリーズ好発進するのは▽フィギュアスケートＧＰシリーズ開幕▽ＷＥリーグから世界一へ・なでしこジャパン新キャプテン高橋はな選手の決意",
+      "translation": "A consecutive victory? Gekokujo? Professional Baseball Japan Series gets off to a good start ▽ Figure Skating GP Series begins ▽ WE Ri...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "d0b859ace2b8212f8de1f2365476bf70dff1fe78edcbda5f5271d1a0f814e6d9": {
+      "kind": "description-excerpt",
+      "source": "２０２６年からシリーズで英語化している番組「村雨さんの日本庭園たしなみ巡り」と「経済バックヤード…",
+      "translation": "The programs “Murasame-san’s Japanese Garden Practice Tour” and “Keizai Backyard” have been translated into English as a series since 2026.",
+      "provider": "Google Translate"
+    },
+    "21e8ece6c336768f2d7c7f00c80d1de996c82bdf250160b5d3710ecc1eb2b097": {
+      "kind": "description",
+      "source": "２０２６年からシリーズで英語化している番組「村雨さんの日本庭園たしなみ巡り」と「経済バックヤード」をとりあげる。英語化された番組の紹介とともに、「日本庭園めぐり」については日本文化の翻訳についての苦労や工夫、「経済バックヤード」については国際放送も視野に制作することでの変化などにもふれ、これまでに海外から寄せられた反響も紹介する。",
+      "translation": "The programs “Murasame-san’s Japanese Garden Practice Tour” and “Keizai Backyard” have been translated into English as a series since 2026.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "6e44d5c652fd65b5646b71ebf0440a8d231b51bd8cdf106a263bb8a736b61a93": {
+      "kind": "title-fragment",
+      "source": "ｍｉｎｉ「スコットランド　民族の誇りを秘めた戦跡と古城」",
+      "translation": "mini “Scotland: Battle ruins and ancient castles that hide the pride of the nation”",
+      "provider": "Google Translate"
+    },
+    "72bfd86383dfe5135b6d7171595b4a64f9936a734296a4961656eed0b0984653": {
+      "kind": "title",
+      "source": "空からクルージングｍｉｎｉ「スコットランド　民族の誇りを秘めた戦跡と古城」",
+      "translation": "Aerial Cruising: mini “Scotland: Battle ruins and ancient castles that hide the pride of the nation”",
+      "provider": "mapping+provider chain"
+    },
+    "5261286839e667365834bb4a9e4fb903a6ff5622bc3207fdd45e246687bbcb9b": {
+      "kind": "description-excerpt",
+      "source": "ＢＳ８Ｋで放送したドローン映像による番組「空からクルージング　スコットランド　守り抜いた誇りの道…",
+      "translation": "A drone video program broadcast on BS8K, “Cruising from the Sky: Scotland’s proud road to protect...”",
+      "provider": "Google Translate"
+    },
+    "bba5adc98f4d02e1a2073fef737c2bf020e63595f422489ac86531fa29d42c78": {
+      "kind": "description",
+      "source": "ＢＳ８Ｋで放送したドローン映像による番組「空からクルージング　スコットランド　守り抜いた誇りの道」から、スコットランドの抵抗の歴史を紹介する。１３世紀、ネス湖畔に立つアーカート城の陥落がイングランドによる支配のきっかけとなった。その後ウィリアム・ウォレスやロバート・ブルースの活躍で独立を取り戻す。しかし、エディンバラ城で暮らした悲劇の女王メアリー・スチュアートの処刑後、１８世紀に独立を失っていく。",
+      "translation": "A drone video program broadcast on BS8K, “Cruising from the Sky: Scotland’s proud road to protect...”",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "9a8ad568033a0e87a1e361d885a18ba5fce06cc0478cc2a71e5c5d77d59731da": {
+      "kind": "title",
+      "source": "刑事フォイル（３）「臆病者」（前編）",
+      "translation": "Detective Foil (3) “Coward” (Part 1)",
+      "provider": "Google Translate"
+    },
+    "4df2b93638d102e9d455cd2ed8a86f7992592409efc5dd3a8f82273cac8fa00f": {
+      "kind": "description-excerpt",
+      "source": "イギリスにもドイツ軍の侵略が現実味を帯びてくる中、対決姿勢を掲げるイギリス政府。",
+      "translation": "As the possibility of a German invasion of Britain becomes more likely, the British government takes a confrontational stance.",
+      "provider": "Google Translate"
+    },
+    "7b646becadb80c14ee5f4fdb792512bb72ca50addc317db29809ee9ebdd31ebe": {
+      "kind": "description",
+      "source": "イギリスにもドイツ軍の侵略が現実味を帯びてくる中、対決姿勢を掲げるイギリス政府。一方で、国内には戦争反対を主張する、ナチス寄りの反ユダヤ主義団体も存在していた。「フライデー・クラブ」もその一つ。ある日、ホテルで行われた「フライデー・クラブ」の集会のさなかに事件が起こる。",
+      "translation": "As the possibility of a German invasion of Britain becomes more likely, the British government takes a confrontational stance.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "846c65eb43826769e04c126c3e42ff80c77730593c6b7704c3b04ec25cb028ed": {
+      "kind": "title-fragment",
+      "source": "ＰＲ変貌の超大国アメリカ第１集国家改造　影の設計者たち",
+      "translation": "America, the superpower of PR change, the first collection of national reforms: Shadow architects",
+      "provider": "Google Translate"
+    },
+    "4a58ea890fad24253a3556028a6ebfa3b5b402fa022c4145fdd830f2bd4b427e": {
+      "kind": "title",
+      "source": "ＮＨＫスペシャルＰＲ変貌の超大国アメリカ第１集国家改造　影の設計者たち",
+      "translation": "NHK Special: America, the superpower of PR change, the first collection of national reforms: Shadow architects",
+      "provider": "mapping+provider chain"
+    },
+    "afb78f7a88550224e2acd14fe3e5d9dfa69f2e99c3941aa99e9d7d006a1cb6d8": {
+      "kind": "description",
+      "source": "ＮＨＫスペシャルの見どころをギュギュっとまとめてお伝えするＰＲ番組。今回は１１月１日放送の『変貌の超大国アメリカ　第１集　国家改造　影の設計者たち』",
+      "translation": "A PR program that summarizes the highlights of the NHK Special.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "9f9db34cb8d628ff9a0d0bfbb9feb35ee9c778e9026e716b5718064f67f27386": {
+      "kind": "title",
+      "source": "ドキュメント２０ｍｉｎ．　かわいくなけりゃだめですか？",
+      "translation": "Document 20min. Does it have to be cute?",
+      "provider": "Google Translate"
+    },
+    "5457be1334e8813f3319e09e5103954f57e58e02b3f6904f9ad05839ac400fb8": {
+      "kind": "description-excerpt",
+      "source": "「どうしてわたしは、こんな見た目なんだろう」。北海道の足寄町に暮らすキャラクター・アユミちゃんの…",
+      "translation": "\"Why do I look like this?\" The character Ayumi-chan, who lives in Ashoro Town, Hokkaido...",
+      "provider": "Google Translate"
+    },
+    "e635215828a8fb2fd8c8d36c01207577c0720948ea247dfbbbe8e3837244de2b": {
+      "kind": "description",
+      "source": "「どうしてわたしは、こんな見た目なんだろう」。北海道の足寄町に暮らすキャラクター・アユミちゃんの悩みは深い。ルックスが怖いと子供たちから嫌われてしまうのだ。そこでこの夏、アユミちゃんは子どもたちと仲良くなるため、挑戦を始める。頼ったのは、見た目は怖いのに人気を博す「ずーしーほっきー」だ。自分らしさを模索した末にアユミちゃんが出した答えとはー。語り・齋藤飛鳥。声・潘めぐみ。",
+      "translation": "\"Why do I look like this?\" The character Ayumi-chan, who lives in Ashoro Town, Hokkaido...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "0d34cb3c4a9fb77adfc46bce18f03eeab8824a5eb20c3132ea1e9c55f30c3d0e": {
+      "kind": "title",
+      "source": "クッションシューズ アキレス ソルボ",
+      "translation": "cushion shoes achilles sorbo",
+      "provider": "Google Translate"
+    },
+    "6939c036cee1d7686ce3d78b42af78dcc3a6369dbf9e3de1800464b57bd91b42": {
+      "kind": "description-excerpt",
+      "source": "思う存分、街を歩いたり、どんな場所にも気がねなく出かけたり。",
+      "translation": "You can walk around the city to your heart's content and go to any place without hesitation.",
+      "provider": "Google Translate"
+    },
+    "cf7cb5239fb58e3ad4cf1c33d8fc8019ef190c507037b93c4e6111dbbaab0601": {
+      "kind": "description",
+      "source": "思う存分、街を歩いたり、どんな場所にも気がねなく出かけたり。アキレス・ソルボは、歩みを柔らかく包み、一歩前へと進もうとする人の心をほどくシューズです。",
+      "translation": "You can walk around the city to your heart's content and go to any place without hesitation.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "b564a0abe46896f94072352a935cbdcadf511446fcce9afd6fdcb9d3a43e6a5d": {
+      "kind": "title",
+      "source": "ショップスターバリュー 天使の綿シフォン リバーシブルプルオーバー",
+      "translation": "Shop Star Value Angel Cotton Chiffon Reversible Pullover",
+      "provider": "Google Translate"
+    },
+    "6d1254ec891169d73aeba3ca44499129b1df738b31a4169fc57eb2f6a4038ba9": {
+      "kind": "description-excerpt",
+      "source": "深夜0時は本日一番のおすすめ商品「ショップスターバリュー」が登場！",
+      "translation": "Today's most recommended product \"Shop Star Value\" will be available at midnight!",
+      "provider": "Google Translate"
+    },
+    "877abf8585a0ec730d64c41c9675eabd031b4a5b86fc8dd5ddfc5feac0ab20fd": {
+      "kind": "description",
+      "source": "深夜0時は本日一番のおすすめ商品「ショップスターバリュー」が登場！人気アイテムや話題の逸品をお得な価格でご紹介します！お見逃しなく！",
+      "translation": "Today's most recommended product \"Shop Star Value\" will be available at midnight!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "0af94afad250506a135618516d7df1e5df6487c06f241987d81843c69441df2e": {
+      "kind": "title",
+      "source": "英理子、るりはどう動く！？まもなく３回　ドラマ１０「会社員」ＰＲ",
+      "translation": "How will Eriko and Ruri move? ? 3rd drama drama 10 “Office worker” PR coming soon",
+      "provider": "Google Translate"
+    },
+    "7fa96e97159b553a0e4e2b9f6e181e0c995809439228e7f558b9c3491cda2482": {
+      "kind": "description-excerpt",
+      "source": "まだ間に合う！ドラマ１０「会社員」毎週火曜日、夜１０時放送中。次回は２７（火）。主演は吉田羊。",
+      "translation": "There's still time! Drama 10 “Office Worker” airs every Tuesday at 10 p.m. Next time is the 27th (Tuesday). Starring Yo Yoshida.",
+      "provider": "Google Translate"
+    },
+    "07b0f3a498bbc53bec47e2b1d3b724d9984b6df01cf6d9e672d6b60b2b3ce5b6": {
+      "kind": "description",
+      "source": "まだ間に合う！ドラマ１０「会社員」毎週火曜日、夜１０時放送中。次回は２７（火）。主演は吉田羊。主な出演は南沙良、加藤清史郎、小久保寿人、田中直樹、尾美としのりほか。再放送は、毎週金曜日、午前０時３５分から放送。英理子とるりの駆け引きの末…二人はどう動く！？注目の第３回。",
+      "translation": "There's still time! Drama 10 “Office Worker” airs every Tuesday at 10 p.m. Next time is the 27th (Tuesday). Starring Yo Yoshida.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "97d547196b2626950fef08cd6b72f9fc714bdb8e98f1984877a218aebaf3df30": {
+      "kind": "title",
+      "source": "ＭＬＢ２０２６　ワールドシリーズハイライト　第２戦",
+      "translation": "MLB2026 World Series Highlights Game 2",
+      "provider": "Google Translate"
+    },
+    "617c843ff9ef7dd8784291469c0352cbf3d6d8d756e9c3904b3f09d6b53de2bb": {
+      "kind": "description-excerpt",
+      "source": "ＭＬＢ２０２６決戦のステージ　ワールドチャンピオンをかけた激闘をハイライトで放送！",
+      "translation": "Highlights of the stage of the MLB 2026 battle for the world championship will be broadcast!",
+      "provider": "Google Translate"
+    },
+    "27e9e539211b78b0933ec885dbcf1ee1379e79b1ecb9261f4f1df713c6081c1b": {
+      "kind": "description",
+      "source": "ＭＬＢ２０２６決戦のステージ　ワールドチャンピオンをかけた激闘をハイライトで放送！",
+      "translation": "Highlights of the stage of the MLB 2026 battle for the world championship will be broadcast!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f93784c911d29242e801ad7e8b25ee0b0a4a8d6c463666c8891e1eb51092383e": {
+      "kind": "title",
+      "source": "日本有数の大手ジュエリーメーカーより！ オーサムジュエリー",
+      "translation": "From one of Japan's leading jewelry manufacturers! オーサムジュエリー",
+      "provider": "Google Translate"
+    },
+    "1ede3feac59fa6d1a66c826ae6669e3d7a7b2ec674a90a29a199394a373eaced": {
+      "kind": "description-excerpt",
+      "source": "使いやすい18Kジュエリーをセレクト。存在感のある輝きをブランドならではのオーサムな価格でご提案…",
+      "translation": "We have selected 18K jewelry that is easy to use. We offer a shine with a strong presence at an awe-inspiring price unique to the brand...",
+      "provider": "Google Translate"
+    },
+    "705649b245c45b48bbdd0598ef30641dbfe68cbd8faac70d8bbbbe3f4e6ecce4": {
+      "kind": "description",
+      "source": "使いやすい18Kジュエリーをセレクト。存在感のある輝きをブランドならではのオーサムな価格でご提案。",
+      "translation": "We have selected 18K jewelry that is easy to use. We offer a shine with a strong presence at an awe-inspiring price unique to the brand...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "397d5093510d03cc45c7c1d342175401b2c1b09c5d7444b3acfc4d82be798437": {
+      "kind": "title",
+      "source": "森永乳業 健康な生活をサポート",
+      "translation": "Morinaga Milk Supporting healthy living",
+      "provider": "Google Translate"
+    },
+    "8f958a0dce7de458cb722d90580ee91a4b19d84ae493ac3897e57a860f79f753": {
+      "kind": "description-excerpt",
+      "source": "笑顔あふれる健康な生活をサポート。水やコーヒーなどに溶かすだけで手軽に飲める機能性表示食品のサプ…",
+      "translation": "Supporting a healthy life full of smiles. A food supplement with functional claims that can be easily taken by simply dissolving it in water, coffee, etc.",
+      "provider": "Google Translate"
+    },
+    "c0f3f7903434971dab1b147d6a40abcfe0eb90e6afb16be7c384843134e8edc8": {
+      "kind": "description",
+      "source": "笑顔あふれる健康な生活をサポート。水やコーヒーなどに溶かすだけで手軽に飲める機能性表示食品のサプリなどが登場。",
+      "translation": "Supporting a healthy life full of smiles. A food supplement with functional claims that can be easily taken by simply dissolving it in water, coffee, etc.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "eae57362cee5722ee08a960a16dc01908d17ee5a5a5514e4598c9b188af760c6": {
+      "kind": "title",
+      "source": "第６８回ＮＨＫ杯ジャンプ",
+      "translation": "68th NHK Trophy Jump",
+      "provider": "Google Translate"
+    },
+    "830f76647676ef791125f7b4c06db6fbdd5ba3955553f3ac655cfe6b7b142615": {
+      "kind": "description-excerpt",
+      "source": "未来を担う若手選手と世界を知るトップ選手がともに戦うＮＨＫ杯ジャンプ。",
+      "translation": "NHK Trophy Jump is a competition where young athletes who will carry the future and top athletes who know the world compete together.",
+      "provider": "Google Translate"
+    },
+    "a9558b928ed2413f2b0cb5636934cc1051fb4d2cc7405545ee559dd99372475c": {
+      "kind": "description",
+      "source": "未来を担う若手選手と世界を知るトップ選手がともに戦うＮＨＫ杯ジャンプ。札幌・大倉山ジャンプ競技場を舞台に、幅広い世代の選手たちがベストパフォーマンスを目指します。女子は今季限りでの現役引退を表明している伊藤有希選手が出場。長年、日本女子ジャンプ界をけん引してきたレジェンドが、どんなジャンプを見せるのかにも注目です。",
+      "translation": "NHK Trophy Jump is a competition where young athletes who will carry the future and top athletes who know the world compete together.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "99defdcc7424f207f818a7f4dbc18ec97fff72d31eebb480d709ce801bfbf4cf": {
+      "kind": "title",
+      "source": "クラレトレーディング 仕分けてきれいに消臭トラベルポーチ",
+      "translation": "Kuraray Trading Sorting and deodorizing travel pouch",
+      "provider": "Google Translate"
+    },
+    "13abf5e20265a7dec176cd374453c17e59b8a2d3e1f4d22255c1c0dd385f5e05": {
+      "kind": "title",
+      "source": "ごろごろパンダ日記",
+      "translation": "Purrling panda diary",
+      "provider": "Google Translate"
+    },
+    "ed6a3817e35cdcbd88849ae2eff3d09abb688f71df3d5eb2de2daefabb44cb40": {
+      "kind": "description-excerpt",
+      "source": "神戸市立王子動物園で暮らしていたジャイアントパンダのタンタン。もふもふと愛くるしい姿に密着。",
+      "translation": "Tantan, a giant panda who lived at Kobe City Oji Zoo. A close look at her fluffy and adorable figure.",
+      "provider": "Google Translate"
+    },
+    "7446ca54831dd578618cd02f1053c2fd29391a0d09f17a88af23252a6f4016e7": {
+      "kind": "description",
+      "source": "神戸市立王子動物園で暮らしていたジャイアントパンダのタンタン。もふもふと愛くるしい姿に密着。",
+      "translation": "Tantan, a giant panda who lived at Kobe City Oji Zoo. A close look at her fluffy and adorable figure.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "e30d60066831a6d897f8f65f55e3b2fc5d6272202e3672b2f27156848360643f": {
+      "kind": "title",
+      "source": "便利がたくさん！大きく見える快適ルーペ！「カカル」",
+      "translation": "Lots of convenience! Comfortable magnifying glass that allows you to see bigger! \"Kakaru\"",
+      "provider": "Google Translate"
+    },
+    "b5b9e27691e2b6a91f20bb359f3d51bbfa7edc587a7d3dd9c0be2fc21784cb5b": {
+      "kind": "title-fragment",
+      "source": "特別編　マルタ　歴史をさかのぼって",
+      "translation": "Special edition: Malta, going back in history",
+      "provider": "Google Translate"
+    },
+    "5967c707f1320f64e71a0dd2c9cd2919b4dd66c146e51fee7f8513da04e2d7b7": {
+      "kind": "title",
+      "source": "空からクルージング特別編　マルタ　歴史をさかのぼって",
+      "translation": "Aerial Cruising: Special edition: Malta, going back in history",
+      "provider": "mapping+provider chain"
+    },
+    "fe59155c24a7e055881278f73405f0e49749985ba609bf7196fdda7afff5c7ed": {
+      "kind": "description-excerpt",
+      "source": "「空からクルージング　マルタ　騎士たちの島々」の再構成番組、第２弾。",
+      "translation": "This is the second part of the reconstructed program of \"Cruising from the Sky: Malta: The Islands of the Knights.\"",
+      "provider": "Google Translate"
+    },
+    "d440c040d207e3027c1eec2029890a70e08ebd0c42e135f0e1bb2d6423f7e052": {
+      "kind": "description",
+      "source": "「空からクルージング　マルタ　騎士たちの島々」の再構成番組、第２弾。ナレーションはなく、絶景とそこに息づく歴史をテロップで楽しむ。前半は１６世紀にバレッタに要塞を建設したヨハネ騎士団の歴史。軍事訓練再現や、質実な大聖堂の内側に広がる華美な世界をたっぷり。後半は古い歴史へ。イスラム王朝支配下から続く街、イムディーナ。さらに紀元前へ。フェニキア人や、ローマ人とマルタの関わり。第二次世界大戦の足跡も。",
+      "translation": "This is the second part of the reconstructed program of \"Cruising from the Sky: Malta: The Islands of the Knights.\"",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "64d352bed6f36506bfd21754a579100d75a3325b8a299e71212ff2c64cb72070": {
+      "kind": "title",
+      "source": "さわやか自然百景　福島　松川浦",
+      "translation": "100 Refreshing Nature Scenes Fukushima Matsukawaura",
+      "provider": "Google Translate"
+    },
+    "8c05a6ebdaa36db19ae0dd1dc83b859381e790d4d0aa005fc5dd48a424bab631": {
+      "kind": "description-excerpt",
+      "source": "福島県北東部に位置する松川浦。太平洋とつながったこの湖には、干潮時、東北地方最大級の干潟が広がる…",
+      "translation": "Matsukawaura is located in the northeastern part of Fukushima Prefecture. This lake, which is connected to the Pacific Ocean, has one of the largest tidal flats in the Tohoku region at low tide.",
+      "provider": "Google Translate"
+    },
+    "e63aa12b785365a6d01f3733459396da324686e30eb075f8c2ee86c3c4ac0362": {
+      "kind": "description",
+      "source": "福島県北東部に位置する松川浦。太平洋とつながったこの湖には、干潮時、東北地方最大級の干潟が広がる。夏、湖やその周辺にダイサギやアオサギなど鳥たちが子育てのため集まる。カニたちも恋の季節を迎え、普段は陸で暮らすクロベンケイガニが子どもを水に放つため岸辺に集まる。そうした松川浦だが、２０１１年の東北地方太平洋沖地震では大きな危機に見舞われたという。海と陸の狭間で繰り広げられる命の営みを見つめる。",
+      "translation": "Matsukawaura is located in the northeastern part of Fukushima Prefecture. This lake, which is connected to the Pacific Ocean, has one of the largest tidal flats in the Tohoku region at low tide.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "1910b45047642d1b68ba644bac86ed0f7824b2f936423b4683ff4b679204c54b": {
+      "kind": "title",
+      "source": "並べても重ねてもOK！ 置き方自在・丈夫な新越ステンレスラック",
+      "translation": "You can line them up or stack them on top of each other! Shinetsu stainless steel rack that can be placed freely and is durable",
+      "provider": "Google Translate"
+    },
+    "185751bf912929116a35b8c162e7509257709709a710dd2bf89256febd44e64a": {
+      "kind": "title",
+      "source": "ピタゴラスイッチ　ミニ▽まきじゃくのジャック　ほか",
+      "translation": "Pythagora Switch Mini ▽Makijaku Jack etc.",
+      "provider": "Google Translate"
+    },
+    "28cf88a1e42b5694c5f1f42db9fad7a2cb4f0976cef8df437bb1ffafc1c2a9c1": {
+      "kind": "description",
+      "source": "私たちがふだん暮らしている中には、さまざまな不思議な構造、おもしろい考え方、法則が隠れている。番組では、さまざまな「こどもにとっての“なるほど！”」を紹介。今回は、「まきじゃくのジャック」「トンカッチのそこのしくみがしりタイム」など。【歌】堀江由朗　ほか",
+      "translation": "There are various mysterious structures, interesting ideas, and laws hidden in our daily lives.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "06b7ad903f94acb12f4a7265a580897fd8eda770c3314825c10c7afdefd6b477": {
+      "kind": "title-fragment",
+      "source": "「回り舞台　誇り再び　～茨城県　常陸大宮市西塩子～」",
+      "translation": "“Revolving stage proud again ~Nishishioko, Hitachiomiya City, Ibaraki Prefecture~”",
+      "provider": "Google Translate"
+    },
+    "c77ac1b3ff5085a76a02b7d06798cf3ea4ba560d9c14319ff364bc35cd958eab": {
+      "kind": "title",
+      "source": "小さな旅「回り舞台　誇り再び　～茨城県　常陸大宮市西塩子～」",
+      "translation": "A Small Journey: “Revolving stage proud again ~Nishishioko, Hitachiomiya City, Ibaraki Prefecture~”",
+      "provider": "mapping+provider chain"
+    },
+    "4b1449bcae289fb4eda8876dc4dfa672dc0369738175cf6c8764b4c73861f710": {
+      "kind": "description-excerpt",
+      "source": "茨城県常陸大宮市の山あい。３年に一度、地元の住民が力を結集してつくる「西塩子の回り舞台」を訪ねた…",
+      "translation": "A mountainous area in Hitachiomiya City, Ibaraki Prefecture. I visited the Nishi-Shioko Revolving Stage, which is created once every three years by the efforts of local residents...",
+      "provider": "Google Translate"
+    },
+    "17a4f551605e0b1b1ec5c50375a3bc1a87696b073603a8cbd6460a8cf9c85687": {
+      "kind": "description",
+      "source": "茨城県常陸大宮市の山あい。３年に一度、地元の住民が力を結集してつくる「西塩子の回り舞台」を訪ねた。旅人・山本哲也が目にしたのは住民たちが木や竹を縄で縛り、手作業で組み立てる巨大な舞台。江戸時代に始まったとされるが、高齢化と人手不足により、いまや存続の危機に陥っていた。「地元の誇りをなくしたくない」。６年ぶりとなる回り舞台復活にむけて、時代にあらがい、奮闘する人たちの姿を見つめた。",
+      "translation": "A mountainous area in Hitachiomiya City, Ibaraki Prefecture. I visited the Nishi-Shioko Revolving Stage, which is created once every three years by the efforts of local residents...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "0901594e75d514be16379d7784f83d25800b34bc5545921fac29e84f13fb40c0": {
+      "kind": "title-fragment",
+      "source": "第４週「岩国と、共に」",
+      "translation": "Week 4 “Together with Iwakuni”",
+      "provider": "Google Translate"
+    },
+    "a45d2b36703a132b7877c1dc09fef86f4f37ca9a2e7d3cc821895e80271fb4ea": {
+      "kind": "description-excerpt",
+      "source": "大正４年、珠（石橋静河）が教員を辞めさせられてから、葉野家の収入はリョウ（国仲涼子）が工場で働く…",
+      "translation": "In Taisho 4, after Tama (Shizuka Ishibashi) was forced to quit her job as a teacher, the Hano family's income came from Ryo (Ryoko Kuninaka) working at a factory...",
+      "provider": "Google Translate"
+    },
+    "dc9c7607435f40eda42896422d0b493f630b1faadf576791fd7d7bfb5a2bd442": {
+      "kind": "description",
+      "source": "大正４年、珠（石橋静河）が教員を辞めさせられてから、葉野家の収入はリョウ（国仲涼子）が工場で働く稼ぎだけだった。月日が経っても教師が不らちな逢引（あいびき）をした、という噂は消えなかったため、珠の新しい仕事もなかなか見つからない。そこでリョウが本家の葉野酒造に頼み込み、珠がそこで働くことに。そんな時、かつて嫁入りした花婿の弟・木村保（金子大地）と偶然出会い…。",
+      "translation": "In Taisho 4, after Tama (Shizuka Ishibashi) was forced to quit her job as a teacher, the Hano family's income came from Ryo (Ryoko Kuninaka) working at a factory...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "bb4962361a22abec7d19d50f0fff9ce1a16554cd8a1264756b4e82d8c317313a": {
+      "kind": "title",
+      "source": "おしゃれを気楽に！「ラフィナリスタ」ステンレスジュエリー",
+      "translation": "Make fashion easy! \"Rafinarista\" stainless steel jewelry",
+      "provider": "Google Translate"
+    },
+    "20e9187ab68182e1752fb3d0d743e452254901e1731b3ec65530677007d6ff3c": {
+      "kind": "title",
+      "source": "15周年！ ホリカホリカ 夢の贅沢美容スペシャル",
+      "translation": "15th anniversary! Holika Holika Dream Luxury Beauty Special",
+      "provider": "Google Translate"
+    },
+    "2e42b4552d38aec2385b5d6ae6db456a4c7c8ac5295c340944921deda5d4fc6d": {
+      "kind": "description-excerpt",
+      "source": "独自開発のハリ成分を配合した目元用クリーム。口元をはじめお顔全体、首のケアにもおすすめです。",
+      "translation": "An eye cream containing a uniquely developed firming ingredient. It is also recommended for care of the mouth, entire face, and neck.",
+      "provider": "Google Translate"
+    },
+    "d17e6ee6a17172ae4ac1f278279890ca88e55e75b44e548494715fe158d7222b": {
+      "kind": "description",
+      "source": "独自開発のハリ成分を配合した目元用クリーム。口元をはじめお顔全体、首のケアにもおすすめです。",
+      "translation": "An eye cream containing a uniquely developed firming ingredient. It is also recommended for care of the mouth, entire face, and neck.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "fa173b017c89971a6f24e91c577e7f1b5e75acb1722ac7713e690e1fae8508ae": {
+      "kind": "title",
+      "source": "リサ ラーソン 暖かい電気ブランケット",
+      "translation": "Lisa Larson Warm Electric Blanket",
+      "provider": "Google Translate"
+    },
+    "54fdccf492bdddfdcb4550c0bad6fb737e965ad62d1fbd2580f62ad4d6144e22": {
+      "kind": "description-excerpt",
+      "source": "世界中にファンの多いリサ・ラーソンの描いたキャラクターをあしらった電気ひざ掛けなど、お部屋を可愛…",
+      "translation": "Add cuteness to your room with electric throws featuring characters drawn by Lisa Larson, who has many fans around the world.",
+      "provider": "Google Translate"
+    },
+    "539adcf36c61432ac333a004ec86a9c88618e91e704378402d49c8ed2aa01f87": {
+      "kind": "description",
+      "source": "世界中にファンの多いリサ・ラーソンの描いたキャラクターをあしらった電気ひざ掛けなど、お部屋を可愛く、あたたかく演出する素敵アイテムをご紹介します。",
+      "translation": "Add cuteness to your room with electric throws featuring characters drawn by Lisa Larson, who has many fans around the world.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "89d394d910c043191488eddd7ffde663e1fd39dddacf453d495fe38ac3a1d236": {
+      "kind": "title",
+      "source": "天使の綿シフォン ふんわり軽くやわらかインナー",
+      "translation": "Angel cotton chiffon, soft and light innerwear",
+      "provider": "Google Translate"
+    },
+    "150534ac2a3b0991168fb97d9e04ccf8fc142efd4a2ff27bf4ae4bd7bd045c4b": {
+      "kind": "description-excerpt",
+      "source": "1枚着もしやすいよう少しゆったりサイズになったリバーシブルインナー。",
+      "translation": "Reversible innerwear with a slightly looser size that makes it easy to wear alone.",
+      "provider": "Google Translate"
+    },
+    "51c33669d005f213c3f1fe0c6ea0561e1fe450848504b7b32187a85ce7e7f348": {
+      "kind": "description",
+      "source": "1枚着もしやすいよう少しゆったりサイズになったリバーシブルインナー。袖口などを折り返してもおしゃれ。",
+      "translation": "Reversible innerwear with a slightly looser size that makes it easy to wear alone.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c39e0fa227b7777c12e53748e2ba900b6b0875dfb41dfcde0967a7f32a29e50e": {
+      "kind": "description-excerpt",
+      "source": "▽生き物にやさしい庭　絶滅危惧種集まる理由",
+      "translation": "▽Creature-friendly garden: Why endangered species gather",
+      "provider": "Google Translate"
+    },
+    "cb59b57b8e1995bb2dfe0af7dd54ead9975d562da3d331cd63c2aea7b07a486d": {
+      "kind": "description",
+      "source": "▽生き物にやさしい庭　絶滅危惧種集まる理由",
+      "translation": "▽Creature-friendly garden: Why endangered species gather",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "a35fe3a6ff6479da6172ef1809ba44f310f2e9f50444942175a16c891f113719": {
+      "kind": "title-fragment",
+      "source": "（２１）第５週「狂騒で、東京」",
+      "translation": "(21) Week 5 “Tokyo in turmoil”",
+      "provider": "Google Translate"
+    },
+    "5984f70fa117dd762ba77d88683f18cd3e31dd77437d3ad99fbce2c6b6ebf40c": {
+      "kind": "description-excerpt",
+      "source": "東京・本郷で、珠（石橋静河）と保（金子大地）は、下宿の大家に自分たちが兄妹だと嘘をつきながら同居…",
+      "translation": "In Hongo, Tokyo, Tama (Shizuka Ishibashi) and Tamotsu (Daichi Kaneko) live together while lying to the landlord of their boarding house that they are brother and sister...",
+      "provider": "Google Translate"
+    },
+    "384a087e4d2860bbf492b911c68d7a8711cdbc9571c9ab662f3603fae7dc14b2": {
+      "kind": "description",
+      "source": "東京・本郷で、珠（石橋静河）と保（金子大地）は、下宿の大家に自分たちが兄妹だと嘘をつきながら同居していた。保は大学に通い、珠は保の世話と家事をする暮らし。珠は近所の書店で、若手一番の作家・秋山格之介（高良健吾）や「イワンの馬鹿」を翻訳した作家・小山牛丸（イッセー尾形）と出会い、大きな刺激を受ける。そんな中、下宿の大家の娘・三好マキ（中村優子）が、珠と保は兄妹ではないと疑い始める…。",
+      "translation": "In Hongo, Tokyo, Tama (Shizuka Ishibashi) and Tamotsu (Daichi Kaneko) live together while lying to the landlord of their boarding house that they are brother and sister...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "4600b0975c1b08388482f0f65f93f978c4389312103e2f4d19087cab35a2a19f": {
+      "kind": "title",
+      "source": "ほっこり本格おうちカフェ 生姜チャイスペシャル",
+      "translation": "Genuine Home Cafe Ginger Chai Special",
+      "provider": "Google Translate"
+    },
+    "ee10eaa17ee1244c72ce2410f17cbec2320e389555d9e2e776afbf226625b81f": {
+      "kind": "description-excerpt",
+      "source": "紅茶エキスに6種類のスパイスと砂糖を絶妙なバランスでブレンド。",
+      "translation": "A perfect blend of black tea extract, 6 types of spices and sugar.",
+      "provider": "Google Translate"
+    },
+    "fe3965ef132f3368e8cd450a1eeeaa4146c3d452da5c7508770138723ed33966": {
+      "kind": "description",
+      "source": "紅茶エキスに6種類のスパイスと砂糖を絶妙なバランスでブレンド。冬は温かなチャイでほっこりしましょ♪",
+      "translation": "A perfect blend of black tea extract, 6 types of spices and sugar.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "0a1655b01d8a51bbef34c9a0615b05957ee66486a2ac4727329743a71107531a": {
+      "kind": "title-fragment",
+      "source": "▽あなたの家もマンションも！？巧妙化する“自宅狙い”犯罪！",
+      "translation": "▽Your home or apartment! ? “Home targeting” crime is becoming more sophisticated!",
+      "provider": "Google Translate"
+    },
+    "524998284f315d2ada2c45332050c10f98af6a125c4dab085849aa8c0732297f": {
+      "kind": "title",
+      "source": "あさイチ▽あなたの家もマンションも！？巧妙化する“自宅狙い”犯罪！",
+      "translation": "Asaichi: ▽Your home or apartment! ? “Home targeting” crime is becoming more sophisticated!",
+      "provider": "mapping+provider chain"
+    },
+    "0ca78804f54173af0e89b7923e30e3ab113cc445e2ceb97c5507ba7fa4dcc0c8": {
+      "kind": "description-excerpt",
+      "source": "鈴木奈穂子アナもワナに…！？室外機盗難や点検商法、ニセ業者の窃盗など“自宅狙い”犯罪が急増中！",
+      "translation": "Naoko Suzuki announcer also falls into a trap...! ? Crimes aimed at homes, such as outdoor unit theft, inspection business, and theft by fake companies, are rapidly increasing!",
+      "provider": "Google Translate"
+    },
+    "f67faa3c7264d38d0052016369bc61c3aed2a66c47ec3f1e67d558cd2df7a922": {
+      "kind": "description",
+      "source": "鈴木奈穂子アナもワナに…！？室外機盗難や点検商法、ニセ業者の窃盗など“自宅狙い”犯罪が急増中！ネット検索で一番上に表示された業者が詐欺を働くなど巧妙過ぎる手口で現役世代も被害に！大切なあなたの住まいを守る方法を伝える▼北海道壮瞥町から中継▼「バターで決める！ねぎとしいたけのリッチなパスタ」濵﨑龍一（イタリア料理店オーナーシェフ）【ゲスト】ＹＯＵ、田中直樹【キャスター】博多華丸・大吉　鈴木奈穂子",
+      "translation": "Naoko Suzuki announcer also falls into a trap...! ? Crimes aimed at homes, such as outdoor unit theft, inspection business, and theft by fake companies, are rapidly increasing!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "4750254c0faf70538e70b33b81c9af3921c559e9429830785c1fab8a1c76e550": {
+      "kind": "title",
+      "source": "Grace Edit 大人の”今”に寄り添う服",
+      "translation": "Grace Edit Clothes that fit the “now” of adults",
+      "provider": "Google Translate"
+    },
+    "86bfb112686e5567cd5d4f42494aeec11e2b5c112ad8b002cf15b41903e4ebd7": {
+      "kind": "description-excerpt",
+      "source": "日々の暮らしにそっと彩りを添える日常着をセレクトしたブランドから、ファッションアイテムをご紹介！",
+      "translation": "Introducing fashion items from brands that select everyday wear that gently adds color to your daily life!",
+      "provider": "Google Translate"
+    },
+    "e341b3998f123ca70291a22b439270f7d044e81e9e3555df3668cd59824e83e8": {
+      "kind": "description",
+      "source": "日々の暮らしにそっと彩りを添える日常着をセレクトしたブランドから、ファッションアイテムをご紹介！",
+      "translation": "Introducing fashion items from brands that select everyday wear that gently adds color to your daily life!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "73762730ef0e81aea2d34494945bb20469dcb2367a50c6d21ddb7938f50220bd": {
+      "kind": "title",
+      "source": "土屋雅之開発 サロン仕様のヘアカラー 「シラガレスキュー」",
+      "translation": "Salon-grade hair color developed by Masayuki Tsuchiya “Shiraga Rescue”",
+      "provider": "Google Translate"
+    },
+    "ec701e1aad2b9f697045f71e58f391570b32509e7804fa2bc87383a36b197a20": {
+      "kind": "description-excerpt",
+      "source": "染毛力も色持ちも追求。髪を補修しながらツヤ髪へ導くヘアカラーパックを、3本特別セットでご提供。",
+      "translation": "Pursuing hair dyeing power and color retention. We offer a special set of 3 hair color packs that repair your hair and make it shiny.",
+      "provider": "Google Translate"
+    },
+    "90f20f864c77669ca74e0381f5a150764f5df98b8f6c5ca2e12fe440b963ccf9": {
+      "kind": "description",
+      "source": "染毛力も色持ちも追求。髪を補修しながらツヤ髪へ導くヘアカラーパックを、3本特別セットでご提供。",
+      "translation": "Pursuing hair dyeing power and color retention. We offer a special set of 3 hair color packs that repair your hair and make it shiny.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "27aa1ef90ffe63de17a8d22952bb5a82bf14fb4bbfbccdabc2cc0f227791872d": {
+      "kind": "title",
+      "source": "こんなにあるよ！関東の番組「つくばエクスプレス沿線ウイーク」",
+      "translation": "There are so many! Kanto program “Tsukuba Express Line Week”",
+      "provider": "Google Translate"
+    },
+    "ddd765c4109d64a187af119540c92359ba897e094cfa0dc594f4e72bc93671fe": {
+      "kind": "description-excerpt",
+      "source": "首都圏ネットワーク１０月２６日～３０日は「つくばエクスプレス沿線ウイーク」。",
+      "translation": "Tokyo Metropolitan Area Network October 26th to 30th is \"Tsukuba Express Line Week\".",
+      "provider": "Google Translate"
+    },
+    "6755849782f46b37fe640244a27457eb5763cf7c009d0c5be8493e5e242973fe": {
+      "kind": "description",
+      "source": "首都圏ネットワーク１０月２６日～３０日は「つくばエクスプレス沿線ウイーク」。ものづくりのまち・八潮、人口急増のまち・南流山、研究学園都市・つくばなど、沿線地域を連日特集で伝えます。黒田リポーターとしゅと犬くんが沿線各地を訪ねるおでかけ企画や、地域で活躍する人たちの取り組みも紹介。開業から２１年を迎えたつくばエクスプレス沿線のいまに迫ります。",
+      "translation": "Tokyo Metropolitan Area Network October 26th to 30th is \"Tsukuba Express Line Week\".",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "2a05d7fbede5f674b81066af06e67351d07a73c397e1c85532af21a68486f7b1": {
+      "kind": "title",
+      "source": "Makana na Kathy",
+      "translation": "Makana na Kathy",
+      "provider": "Google Translate"
+    },
+    "b44868f3b07cc8fa4fb09ed65379deb3272320f14cab6b8f7b27ddb82f786ed5": {
+      "kind": "description-excerpt",
+      "source": "キャシー中島さんプロデュースのファッションブランド。",
+      "translation": "A fashion brand produced by Kathy Nakajima.",
+      "provider": "Google Translate"
+    },
+    "aaf2995d1a530ab8560525779acc1613b9b4dfa6bbdfbf0fe04378792ec6705b": {
+      "kind": "description",
+      "source": "キャシー中島さんプロデュースのファッションブランド。艶やかなカラーとゆったり豊富なサイズ展開が魅力です。",
+      "translation": "A fashion brand produced by Kathy Nakajima.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "edf1cf7eeee29ebe123264c82adba9aa6c5189dfbc8aff473f822809304bd0da": {
+      "kind": "title",
+      "source": "キャッチ！世界のトップニュース　映画で見つめる世界のいま",
+      "translation": "catch! Top news from around the world: Seeing the current state of the world through movies",
+      "provider": "Google Translate"
+    },
+    "6712bc5e9604e6fc6a7b450066c72bbcf029aff289deed4de56a4b81920ac183": {
+      "kind": "description-excerpt",
+      "source": "【映画で見つめる世界のいま】今回紹介する映画はハリウッドスター、トム・クルーズが演じる石油採掘会…",
+      "translation": "[Looking at the current state of the world through movies] The movie we will be introducing this time is an oil exploration company where Hollywood star Tom Cruise plays an...",
+      "provider": "Google Translate"
+    },
+    "b9b05f9063caf7354d1e7f302dce88f92b38ae3b1e5bb639da4eec49c1e6696f": {
+      "kind": "description",
+      "source": "【映画で見つめる世界のいま】今回紹介する映画はハリウッドスター、トム・クルーズが演じる石油採掘会社ＣＥＯの欲深い行動がきっかけで、地球が滅亡の危機に直面する物語「ＤＩＧＧＥＲ／ディガー」。気候変動や、利己主義的な政治…未来に通じる様々な問題を風刺するかのような作品に込められたメッセージを、順天堂大学の藤原帰一特任教授が読み解く。",
+      "translation": "[Looking at the current state of the world through movies] The movie we will be introducing this time is an oil exploration company where Hollywood star Tom Cruise plays an...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "4b06de88073511533e6e105b6c24d5b6cddc689ba661ec9caa680b0720a8aa5b": {
+      "kind": "title",
+      "source": "プロテオグリカン含有美容サプリ プラーゲンEX",
+      "translation": "Proteoglycan-containing beauty supplement Plagen EX",
+      "provider": "Google Translate"
+    },
+    "5b6b966eb4e32567009f6ac5e8e143a5ff71577a88d8d28ed89399097bb76b6d": {
+      "kind": "description-excerpt",
+      "source": "熱を加えない特許製法で抽出した注目の先端美容成分・生プロテオグリカン＆生コラーゲンを配合したサプ…",
+      "translation": "A supplement containing raw proteoglycan and raw collagen, the cutting-edge beauty ingredients extracted using a patented method that does not apply heat.",
+      "provider": "Google Translate"
+    },
+    "5b454cddafc63369faefcebf2f13d608815aa029b433731048344593287cc685": {
+      "kind": "description",
+      "source": "熱を加えない特許製法で抽出した注目の先端美容成分・生プロテオグリカン＆生コラーゲンを配合したサプリ。美容と健康のためのサポート成分も充実しています。",
+      "translation": "A supplement containing raw proteoglycan and raw collagen, the cutting-edge beauty ingredients extracted using a patented method that does not apply heat.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "044be9eb3ad21eb49491a079c6a4a95e85b7ad1b4c1125f72570ad2add2f86c2": {
+      "kind": "title",
+      "source": "グレーテルのかまど　１５の輝くフィナンシエ",
+      "translation": "Gretel's Furnace 15 Shining Financiers",
+      "provider": "Google Translate"
+    },
+    "11e6e47e9c773ede9a8234702a1046e0cf547d98d2d4e02249a779c0cad4daaa": {
+      "kind": "description-excerpt",
+      "source": "１５周年特別企画、第３弾は“１５の輝くフィナンシェ”。",
+      "translation": "The third installment of the 15th anniversary special project is “15 Shining Financiers”.",
+      "provider": "Google Translate"
+    },
+    "1ece90c7feff151a3f8cff3b490c8f50bbbf7380443c2e6e73e3b781e50f4a8f": {
+      "kind": "description",
+      "source": "１５周年特別企画、第３弾は“１５の輝くフィナンシェ”。お菓子の物語をたどる中、たくさんの宝物に出会ったヘンゼル。かまどはスイーツとともに生まれた１５枚の絵を集め、ヘンゼルとお菓子の物語を振り返る。そこへやってきた特別ゲストとは？今宵、ヘンゼルはお宝たちに負けず劣らず、輝きを放つフィナンシェづくりに挑戦！１５年の間に集めたお宝をめでつつ、輝くお菓子に舌鼓を打つ。",
+      "translation": "The third installment of the 15th anniversary special project is “15 Shining Financiers”.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "08ef4c6dd9480c780bf451a53ac30d49d62fa34fd3f43a0b1917940928392e16": {
+      "kind": "description-excerpt",
+      "source": "この時間のテレビ体操は「ラジオ体操第１」です。ワンポイント解説は８番目の「腕を上下に伸ばす運動」…",
+      "translation": "This time's TV exercise is \"Radio Exercise No. 1\". One point explanation is the 8th \"Exercise to stretch the arms up and down\"...",
+      "provider": "Google Translate"
+    },
+    "42234c12c72db3ffcdc795b22c00306a1fb385095d0aa7f981075cd7af353614": {
+      "kind": "description",
+      "source": "この時間のテレビ体操は「ラジオ体操第１」です。ワンポイント解説は８番目の「腕を上下に伸ばす運動」をとりあげます。",
+      "translation": "This time's TV exercise is \"Radio Exercise No. 1\". One point explanation is the 8th \"Exercise to stretch the arms up and down\"...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "131baa241f2c343d86e2cfb042b6c93dcce9a2e4037d4ba7df89368ad7d998de": {
+      "kind": "title",
+      "source": "ワンポイント手話（１６）医療※字幕スーパー",
+      "translation": "One point sign language (16) Medical *Subtitles super",
+      "provider": "Google Translate"
+    },
+    "56a87d4a5ede39e42fd8cb83735c6907e7c047b22c642b4ede5518ccec246cb7": {
+      "kind": "description",
+      "source": "日常生活に欠かせない初歩的な手話の単語や会話を２５回に分けて紹介します。通しでごらんいただき、最終的には手話で簡単な自己紹介ができるようになるのが目標です。講師の河合優子さん、サブ講師の所智子さん、生徒役石川寛和さんはいずれも、中途失聴および難聴の当事者です。病気、熱、血圧、けが、薬などの単語を学びます。",
+      "translation": "We will introduce 25 basic sign language words and conversations that are indispensable for daily life.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "83aa75d74ec316fd1309bd8631ba2687c2b34443f3a5ab5c27c70d6d2b5f8a58": {
+      "kind": "description-excerpt",
+      "source": "【キャスター】合原明子",
+      "translation": "[Caster] Akiko Aihara",
+      "provider": "Google Translate"
+    },
+    "997c50eb880df3885c399f06f6c9856186a3492728e6a40095f07b1d7a16c81e": {
+      "kind": "description",
+      "source": "【キャスター】合原明子",
+      "translation": "[Caster] Akiko Aihara",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "dbcfe90a63156eab2d9a8cce62dad252be9310b76f6b1a128936836fb987b5a4": {
+      "kind": "title",
+      "source": "GO！GO！バリュー ユキコハナイ 装いを彩る 煌めきジュエリー",
+      "translation": "GO! GO! Value Yukikohanai Sparkling jewelry that colors your look",
+      "provider": "Google Translate"
+    },
+    "753831527b2b15e996c94ec56ee6dfc05860b969e8e3da5175001229d4591a13": {
+      "kind": "title",
+      "source": "みみより！解説　時刻はどう決めるの？　うるう秒廃止を決定",
+      "translation": "From Mimi! Explanation: How do you decide the time? Decided to abolish leap seconds",
+      "provider": "Google Translate"
+    },
+    "0846dde4da151697362fa08af7ce0c0b31500753dc260aa9bea15462b88f6c75": {
+      "kind": "description-excerpt",
+      "source": "時刻を調整するため数年おきに挿入されてきた「うるう秒」の廃止が決まりました。",
+      "translation": "It has been decided that the leap second, which has been inserted every few years to adjust the time, will be abolished.",
+      "provider": "Google Translate"
+    },
+    "64c9941b5a237aad692db4c8755e9d96af672c32646e0ae2691bc386765f0fbe": {
+      "kind": "description",
+      "source": "時刻を調整するため数年おきに挿入されてきた「うるう秒」の廃止が決まりました。なぜ廃止するのか、時刻はどのように決めているのか、みみちゃんとともに取材しました。",
+      "translation": "It has been decided that the leap second, which has been inserted every few years to adjust the time, will be abolished.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c744fec1542673029370b52aaea00809d23b5ad2d48026aa9fd47f33b87540f6": {
+      "kind": "title-fragment",
+      "source": "（５６）「谷田部みね子ワン、入ります」",
+      "translation": "(56) “Mineko Yatabe-wan, come in.”",
+      "provider": "Google Translate"
+    },
+    "e38a89af53ed1ae7b74932d03e0716169be67300c7ba63014a4443004ee6731f": {
+      "kind": "description-excerpt",
+      "source": "すずふり亭に行く途中、みね子（有村架純）は人にぶつかり財布の中身をばらまいてしまう。",
+      "translation": "On her way to Suzufuritei, Mineko (Kasumi Arimura) bumps into someone and scatters the contents of her wallet.",
+      "provider": "Google Translate"
+    },
+    "faff03284913289d9f464e794b0a85dc8afec18c088bd80721e1ed1df9ff929a": {
+      "kind": "description",
+      "source": "すずふり亭に行く途中、みね子（有村架純）は人にぶつかり財布の中身をばらまいてしまう。集めるのを手伝ってくれたのは、すてきな感じの大学生・島谷（竹内涼真）だった。すずふり亭はお昼の休憩中。裏の広場で秀俊（磯村勇斗）や元治（やついいちろう）と話していると、中華料理屋の五郎（光石研）と安江（生田智子）夫婦や和菓子屋・柏木堂の親子・一郎（三宅裕司）とヤスハル（古舘佑太郎）ら商店街の人たちがやってくる。",
+      "translation": "On her way to Suzufuritei, Mineko (Kasumi Arimura) bumps into someone and scatters the contents of her wallet.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "352a2658dc2396a34956210ccfc6c46c2679166d7e44699feb8b935b6d3195c2": {
+      "kind": "title",
+      "source": "お野菜ジャムで健康習慣！ 村上祥子監修「にんたまジャム」デビュー",
+      "translation": "Healthy habits with vegetable jam! “Nintama Jam” debut supervised by Shoko Murakami",
+      "provider": "Google Translate"
+    },
+    "be663003b9888a1a3f337c2dbc7fa83354dfc85e8a94d5c008c2e91305f3d06b": {
+      "kind": "description-excerpt",
+      "source": "料理研究家・村上祥子さん監修！毎日の健康習慣のための、国産ニンニクとたまねぎで作ったジャムがデビ…",
+      "translation": "Supervised by cooking expert Shoko Murakami! Jam made with domestic garlic and onions for daily health habits is delicious...",
+      "provider": "Google Translate"
+    },
+    "e12c602cd0e5a1eea48da2f5ced0c093831f1f21d5a7198dde5163051bee557d": {
+      "kind": "description",
+      "source": "料理研究家・村上祥子さん監修！毎日の健康習慣のための、国産ニンニクとたまねぎで作ったジャムがデビュー。はちみつと煮込み、フルーティーな味わいに。",
+      "translation": "Supervised by cooking expert Shoko Murakami! Jam made with domestic garlic and onions for daily health habits is delicious...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f8a8d5082e54a9dbd9dbe9295818d04f0856e452844236a2539168ea4d4d0c9b": {
+      "kind": "title",
+      "source": "マエストロ・ピュアゴールドジュエリー",
+      "translation": "Maestro Pure Gold Jewelry",
+      "provider": "Google Translate"
+    },
+    "f3878dcfcc719a9208505cef1c5a97751b16b08a394d370245765e943f87a10e": {
+      "kind": "description-excerpt",
+      "source": "30年以上の業界経験を誇るゲスト・梅澤成光さんが、24Kにこだわったメタルジュエリーの世界。",
+      "translation": "Our guest, Shigemitsu Umezawa, who boasts over 30 years of experience in the industry, will talk about the world of metal jewelry with a focus on 24K.",
+      "provider": "Google Translate"
+    },
+    "c3701e81275d1dd1f29bb1a2f5cea522b4bd330ea2c15a928e59d4796c3cdc1d": {
+      "kind": "description",
+      "source": "30年以上の業界経験を誇るゲスト・梅澤成光さんが、24Kにこだわったメタルジュエリーの世界。海外デザインと日本の技術力を融合させたジュエリー等をご紹介します。",
+      "translation": "Our guest, Shigemitsu Umezawa, who boasts over 30 years of experience in the industry, will talk about the world of metal jewelry with a focus on 24K.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "24996195770321a7fe035a85ec6f778276c1634716c0ac2629e25aeb4dcb2f4c": {
+      "kind": "description-excerpt",
+      "source": "月曜日、午後のテレビ体操は「オリジナルの体操」です。",
+      "translation": "The TV gymnastics program on Monday afternoon is ``Original Gymnastics.''",
+      "provider": "Google Translate"
+    },
+    "b46ba029595cb8cb5ddae63cebf41aaa81c1c3101f924e928ef01e201eae82b0": {
+      "kind": "description",
+      "source": "月曜日、午後のテレビ体操は「オリジナルの体操」です。",
+      "translation": "The TV gymnastics program on Monday afternoon is ``Original Gymnastics.''",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "23ac0353f86b2153dbe77dae6d65791970b76202d23ecd5d4e09c4f955d2533e": {
+      "kind": "title",
+      "source": "お昼はチェッQ！ワクワク14",
+      "translation": "Check Q for lunch! Exciting 14",
+      "provider": "Google Translate"
+    },
+    "90ddfaf32244618015e96112c39dee5147e0ce9eb1335409b97a2e7de227b35c": {
+      "kind": "title-fragment",
+      "source": "沖縄　古酒愛が止まらない▽徳島　三好　渓谷の里に新たな風",
+      "translation": "Okinawa's love for old sake never ends ▽A new breeze in the valley village of Miyoshi, Tokushima",
+      "provider": "Google Translate"
+    },
+    "01ebcfbe5849eccd7297b252f80b0adff34005c04c43ae463b7398dc9eb67740": {
+      "kind": "title",
+      "source": "列島ニュース　沖縄　古酒愛が止まらない▽徳島　三好　渓谷の里に新たな風",
+      "translation": "News from Around Japan: Okinawa's love for old sake never ends ▽A new breeze in the valley village of Miyoshi, Tokushima",
+      "provider": "mapping+provider chain"
+    },
+    "063fb03795cf0707ad08038351af49c687a4205b2c83cc0323c79631999e442c": {
+      "kind": "description-excerpt",
+      "source": "【午後２時台】各地の話題と気象情報▽古酒愛が止まらない！",
+      "translation": "[2pm] Local topics and weather information▽I can't stop loving old sake!",
+      "provider": "Google Translate"
+    },
+    "59813415232ddf644498d2b8d2c6f09ad8ecec203e159a5613963066feb0727d": {
+      "kind": "description",
+      "source": "【午後２時台】各地の話題と気象情報▽古酒愛が止まらない！沖縄▽ぶらり旅　渓谷の里に新たな風　徳島・三好【キャスター】鹿島綾乃・島田莉生【気象予報士】坂下恵理",
+      "translation": "[2pm] Local topics and weather information▽I can't stop loving old sake!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c67e241acb007c62fc503674b2770d9e66c43af81ab0e6a93613fdfa957a610c": {
+      "kind": "title-fragment",
+      "source": "＋“いまさら聞けない”安保３文書改定",
+      "translation": "+Revised three security documents that “we can’t ask about now”",
+      "provider": "Google Translate"
+    },
+    "708d03423a4b60044e84eb2c670b9e2f9e044a8c2b45d35dee4e047260039d2c": {
+      "kind": "title",
+      "source": "時論公論＋“いまさら聞けない”安保３文書改定",
+      "translation": "Jiron Koron: +Revised three security documents that “we can’t ask about now”",
+      "provider": "mapping+provider chain"
+    },
+    "09d0837bcdda415606b26b8123b69987c890806006dfc4460419e57449475609": {
+      "kind": "description-excerpt",
+      "source": "年末までに改定するとして政府が検討を本格化している安保３文書。",
+      "translation": "The three security documents that the government is seriously considering are scheduled to be revised by the end of the year.",
+      "provider": "Google Translate"
+    },
+    "c71a5e00e4718a52ab7297790324775f436bf6244f610637a4b61b97267ada59": {
+      "kind": "description",
+      "source": "年末までに改定するとして政府が検討を本格化している安保３文書。とっつきにくいかもしれませんが、私たちの経済的な負担にも関わる話。わかりやすく解説します。",
+      "translation": "The three security documents that the government is seriously considering are scheduled to be revised by the end of the year.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c3d6132e60162f485c8878f84952784df642561e94ee6826bf7e503dd3d7b5d8": {
+      "kind": "title",
+      "source": "Oh！Cha15",
+      "translation": "Oh! Cha15",
+      "provider": "Google Translate"
+    },
+    "ed6d2b66b5a3af8920b5fa7f8196d012906c0e786b63477e4b9b3c17ba62bb63": {
+      "kind": "description-excerpt",
+      "source": "平日の15時は、ショップチャンネルでブレイクタイム！“Oh！",
+      "translation": "Break time on Shop Channel at 3pm on weekdays! “Oh!",
+      "provider": "Google Translate"
+    },
+    "9381becbeaa601dfd391adc717166839854c428c3e3b578f6f054a9e2790c574": {
+      "kind": "description",
+      "source": "平日の15時は、ショップチャンネルでブレイクタイム！“Oh！Cha15（お茶行こう）”はお客さまと一緒に作っていく特別な番組です。ぜひご参加ください。",
+      "translation": "Break time on Shop Channel at 3pm on weekdays! “Oh!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "9b23635a5af884207621bec7fcdfc57d9d55bfec4a5ae8081fbb940ef281ba90": {
+      "kind": "title",
+      "source": "保阪尚希厳選 ペルシャの恵み",
+      "translation": "Carefully selected by Naoki Hosaka: Blessings of Persia",
+      "provider": "Google Translate"
+    },
+    "f5de5b1dc22f477a4599ccec923eab5a14106a85dec698c6c32435c6539b59a2": {
+      "kind": "title",
+      "source": "アテックス 家庭用電位治療器イオネス",
+      "translation": "Atex home electric potential treatment device Iones",
+      "provider": "Google Translate"
+    },
+    "b6dfc9c836d8096f9b601fb054c6717a4f6d00675e6d48b26b45d4d8963a0b41": {
+      "kind": "description-excerpt",
+      "source": "寝具に敷いて寝転ぶことで、頭痛や肩こり、不眠症および慢性便秘の緩解が期待できる電位治療器です。",
+      "translation": "This electric potential therapy device can be used to relieve headaches, stiff shoulders, insomnia, and chronic constipation by lying down on your bed.",
+      "provider": "Google Translate"
+    },
+    "33d3cf4c050ba475ae75485ce88be3115da966940ad5f290940132adc00d66ea": {
+      "kind": "description",
+      "source": "寝具に敷いて寝転ぶことで、頭痛や肩こり、不眠症および慢性便秘の緩解が期待できる電位治療器です。",
+      "translation": "This electric potential therapy device can be used to relieve headaches, stiff shoulders, insomnia, and chronic constipation by lying down on your bed.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "6a555fa719ef37857672a11fc1ff1c749dc72cbb604cf6088d8ef7c796db8b71": {
+      "kind": "title",
+      "source": "午後ＬＩＶＥ　ニュースーン　午後３時台デパートの閉店続く背景",
+      "translation": "Afternoon LIVE New Soon Background of department stores closing at 3pm",
+      "provider": "Google Translate"
+    },
+    "ec3bde85791f3c5113173b999e5154cfe170e85805fbff9dd3acb4075b6e296b": {
+      "kind": "description-excerpt",
+      "source": "大都市でも地方都市でもデパートの閉店のニュースを目にします。",
+      "translation": "We see news of department stores closing in both big cities and regional cities.",
+      "provider": "Google Translate"
+    },
+    "5ac679e5d74513b58831f10a8aa3dd871104c05af2b398d37989d7a1f542c1cf": {
+      "kind": "description",
+      "source": "大都市でも地方都市でもデパートの閉店のニュースを目にします。背景にある消費行動の変化とは？▽気になる気象は？最新の情報を▽昔のラーメン事情、故・安藤百福のトークを交えて▽つくばエクスプレス沿線のとある学校から中継します。　ほか",
+      "translation": "We see news of department stores closing in both big cities and regional cities.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c2e14830166f20157962049ac1a9b0cefa92f3b990fb80aff0c7bd8acdee2900": {
+      "kind": "title",
+      "source": "アンティーム・オーガニック プリンセス",
+      "translation": "antique organic princess",
+      "provider": "Google Translate"
+    },
+    "bb94c6ca1c7d243472ce2430e2878784df123fc15e612d90b08c31270e6bcf2c": {
+      "kind": "description-excerpt",
+      "source": "「ウエルネスの原点はセルフケア」という概念のもと、多くの女性が抱える悩みに向き合ってきたアンティ…",
+      "translation": "Based on the concept that ``the origin of wellness is self-care,'' Auntie has faced the problems that many women face...",
+      "provider": "Google Translate"
+    },
+    "92233afe2d68b4eea8599e4f27834230f915306dac38fd246f93980ff3a3eaf9": {
+      "kind": "description",
+      "source": "「ウエルネスの原点はセルフケア」という概念のもと、多くの女性が抱える悩みに向き合ってきたアンティームオーガニックからフェムケアアイテムをご紹介します。",
+      "translation": "Based on the concept that ``the origin of wellness is self-care,'' Auntie has faced the problems that many women face...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "477d16b6945ebc2c84c572743717b7dbdce9abbaadecccc02595f0f7298240bf": {
+      "kind": "title",
+      "source": "徹底的に足のことを考えぬいたシューズ アサヒフットケア",
+      "translation": "Shoes that have been thoroughly considered for your feet - Asahi Foot Care",
+      "provider": "Google Translate"
+    },
+    "5162e0edbc9511ad32b5194a25517cd0c5dad843686281fb788c86284c72fa63": {
+      "kind": "title",
+      "source": "午後ＬＩＶＥ　ニュースーン　午後４時台松下洸平さんインタビュー",
+      "translation": "Afternoon LIVE New Soon 4pm Interview with Kohei Matsushita",
+      "provider": "Google Translate"
+    },
+    "823b57af2569b8e2197672ac089c43c9837e34ea5738326d3562da1f84dd3ec0": {
+      "kind": "description-excerpt",
+      "source": "大河ドラマ「豊臣兄弟！」徳川家康を演じた松下洸平さんが、演技を語りました。",
+      "translation": "Kohei Matsushita, who played Tokugawa Ieyasu in the taiga drama \"Toyotomi Brothers!\", talked about his acting.",
+      "provider": "Google Translate"
+    },
+    "01b5eb81b33eeeba838977cfeb581b4f735f7b2cee4b8f53334d0bf1b27bc9f1": {
+      "kind": "description",
+      "source": "大河ドラマ「豊臣兄弟！」徳川家康を演じた松下洸平さんが、演技を語りました。家康の性格を表すための芝居の工夫など、あらためてドラマを見る楽しみが増えると思います。▽ノルウェーで開かれたサウナの国際会議　ほか",
+      "translation": "Kohei Matsushita, who played Tokugawa Ieyasu in the taiga drama \"Toyotomi Brothers!\", talked about his acting.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "6052a260913f46e9abf59eb3e512979e78a71e986ef3062dbf678961b821202a": {
+      "kind": "title",
+      "source": "低下する筋肉量が気になる方、必見！ ニップン マスリンエイド",
+      "translation": "A must-see for those concerned about decreasing muscle mass! Nippun Maslin Aid",
+      "provider": "Google Translate"
+    },
+    "423a0300461be0ea0d08848954b079189fb8d409277ce23afdffe0837a03974d": {
+      "kind": "title",
+      "source": "午後ＬＩＶＥ　ニュースーン　午後５時台",
+      "translation": "Afternoon LIVE New Soon 5pm",
+      "provider": "Google Translate"
+    },
+    "c59cde99a32e8291053181f2d6084c1f3c89095fcc0aad540ceb2ae88e348a2e": {
+      "kind": "description-excerpt",
+      "source": "この秋、福岡県北九州市にオープンする『希望のまち』。",
+      "translation": "\"Machi of Hope\" will open in Kitakyushu City, Fukuoka Prefecture this fall.",
+      "provider": "Google Translate"
+    },
+    "7a6fb808104133d8e82bdd35dc4b093e92d6aa677f1fa4a1bb51a9ca349841b7": {
+      "kind": "description",
+      "source": "この秋、福岡県北九州市にオープンする『希望のまち』。人々の孤立を防ぐことは出来るのか？ＮＰＯ理事長の奥田知志さんに密着しました！",
+      "translation": "\"Machi of Hope\" will open in Kitakyushu City, Fukuoka Prefecture this fall.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "25dca56a3afa044acc72fe233728b34ccd5166cd9b957a35b8dd14b4981afa53": {
+      "kind": "title",
+      "source": "DEARMA 上質なウール素材を楽しむ 新作ニットコレクション",
+      "translation": "DEARMA Enjoy the new knit collection using high-quality wool materials",
+      "provider": "Google Translate"
+    },
+    "a96754675d58182cbf418f8020b780d377cef089c9c42fb4d643bea249a91aec": {
+      "kind": "title",
+      "source": "北王フードサービス 北海道の味をお届け",
+      "translation": "Hokuo Food Service Delivering the taste of Hokkaido",
+      "provider": "Google Translate"
+    },
+    "528eda6302a7886d94fcac55854c6114b9f06f34b985ef9b0367ac1e952dcac2": {
+      "kind": "title",
+      "source": "からだに寄り添う軽やかバッグ ウニカ",
+      "translation": "Unica, a lightweight bag that hugs your body",
+      "provider": "Google Translate"
+    },
+    "a9a2f9e0d5600bfa617e0b78e8b7781836fd555071c433c8d187a5344ecdb60b": {
+      "kind": "description-excerpt",
+      "source": "人間工学に基づいた、からだに寄り添う超軽量リュックがドット柄＆新色で登場。新作ショルダーも！",
+      "translation": "An ultra-lightweight ergonomic backpack that hugs your body is now available in a dot pattern and new colors. New shoulder too!",
+      "provider": "Google Translate"
+    },
+    "bd6636736072f419e8cfd981a53e153fb7309d4e46936dc966a5a88cc7c33db8": {
+      "kind": "description",
+      "source": "人間工学に基づいた、からだに寄り添う超軽量リュックがドット柄＆新色で登場。新作ショルダーも！",
+      "translation": "An ultra-lightweight ergonomic backpack that hugs your body is now available in a dot pattern and new colors. New shoulder too!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "2c0a0209bcbcd892f580e04accaedf4e97dc038e021bde61f3084cdf271ba012": {
+      "kind": "title",
+      "source": "キレイを一瞬で コスメ ガネーシャプラス",
+      "translation": "Get beautiful in an instant Cosmetics Ganesha Plus",
+      "provider": "Google Translate"
+    },
+    "f52abaa421e4ad9576c699e274b2498eef80fa7b7d87274d3270c3a4cab47292": {
+      "kind": "title",
+      "source": "クローズアップ現代　家も車もマンションも都市浸水で広がる“補償の空白”",
+      "translation": "Close-up of modern times: Houses, cars, and apartments are left with a “compensation gap” due to urban flooding",
+      "provider": "Google Translate"
+    },
+    "b66a8ae8c8e1505dfe7cd3dbfb2e43e1a2c1fdbcdc48742594638ccfe8371582": {
+      "kind": "description-excerpt",
+      "source": "相次ぐ豪雨や台風で浮かび上がったのは、水害から暮らしを守る仕組みの“補償の空白”だった。",
+      "translation": "A series of heavy rains and typhoons revealed a ``compensation gap'' in the system that protects people's lives from flood damage.",
+      "provider": "Google Translate"
+    },
+    "38f0d5a2c850274cddeabefd260d811c267be91e4745738d869ec08ca182ac08": {
+      "kind": "description",
+      "source": "相次ぐ豪雨や台風で浮かび上がったのは、水害から暮らしを守る仕組みの“補償の空白”だった。想定外の浸水で住宅の修繕費や車の買い替えなど多額の負担を抱える都市部の被災者たち。一方、マンションでは個人で水災補償に加入していても共用部には適用されず思わぬ困難に直面するケースも。災害の激甚化に保険料の上昇…どう備えるかの判断が難しくなる中、資産と暮らしをどう守る？水害への経済面の対策を徹底的に掘り下げる。",
+      "translation": "A series of heavy rains and typhoons revealed a ``compensation gap'' in the system that protects people's lives from flood damage.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f9b6949f856a683aa5dd3c3821effb91a90c178367413055dde9a1055df3aa0d": {
+      "kind": "title",
+      "source": "鶴瓶の家族に乾杯　ミキティ八戸でウミネコ探し＆鶴瓶は９０歳からご要望",
+      "translation": "Cheers to Tsurubin's family. Looking for black-tailed black-tailed gulls at Mikiti Hachinohe & Tsurubin is requested by a 90-year-old",
+      "provider": "Google Translate"
+    },
+    "9a54e86b0ae2cd34b1fca179c7d602bb174960cab348284d0de18fc64640a3c8": {
+      "kind": "description-excerpt",
+      "source": "藤本美貴と青森県・八戸市を旅する。ウミネコの繁殖地として有名な蕪島を訪ね、ハネムーン中の仲良しカ…",
+      "translation": "Traveling to Hachinohe City, Aomori Prefecture with Miki Fujimoto. We visited Kabushima, which is famous as a breeding ground for black-tailed black-tailed black-tailed black-tailed black-tailed black-tailed gulls, and met some good friends on their honeymoon...",
+      "provider": "Google Translate"
+    },
+    "594a5fc44af9b6596af94eff2f137a6388989ccc92c0f588bbe53486eef4aa59": {
+      "kind": "description",
+      "source": "藤本美貴と青森県・八戸市を旅する。ウミネコの繁殖地として有名な蕪島を訪ね、ハネムーン中の仲良しカップルと出会う。前回の旅で教えてもらったウミネコの見分け方をたよりにウミネコをさがすが・・・その後、りんごを求め山あいの集落に向かうもなかなか人に出会えず、大苦戦。しかし、一人の女性に出会ってから急展開！鶴瓶は坂道を歩いていたら、番組ファンの９０歳と遭遇するが、とある理由でお叱りをうけてしまう！？",
+      "translation": "Traveling to Hachinohe City, Aomori Prefecture with Miki Fujimoto. We visited Kabushima, which is famous as a breeding ground for black-tailed black-tailed black-tailed black-tailed black-tailed black-tailed gulls, and met some good friends on their honeymoon...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "44ab800bd345675554f8c37a30c1aa1005a4ea36579a374a4607a98a001e23be": {
+      "kind": "title",
+      "source": "ユキコ ハナイ 贅沢な輝きで心ときめく麗しのジュエリー＆グッズ",
+      "translation": "Yukiko Hanai Beautiful jewelry and goods that excite your heart with luxurious shine",
+      "provider": "Google Translate"
+    },
+    "ff8b26efba1948ac342decfaf123f1870a706259f4dcaaf354126e2b75a8f6e4": {
+      "kind": "description-excerpt",
+      "source": "多彩なCZが織りなす輝きを活かしたY字ネックレスをご紹介。",
+      "translation": "Introducing a Y-shaped necklace that takes advantage of the shine woven from a variety of CZ.",
+      "provider": "Google Translate"
+    },
+    "de4869524063c7091f285ddee467c41806af7d3d2597ae5c2913feea41174fed": {
+      "kind": "description",
+      "source": "多彩なCZが織りなす輝きを活かしたY字ネックレスをご紹介。3本がぴたりと重なるセットリングも必見！",
+      "translation": "Introducing a Y-shaped necklace that takes advantage of the shine woven from a variety of CZ.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f622e4cb500123f1beadad8f89f94c2a502004f60cdf90a2ca7811c882100d9a": {
+      "kind": "title",
+      "source": "毎日がサプライズ！ドキドキ20",
+      "translation": "Every day is a surprise! pounding 20",
+      "provider": "Google Translate"
+    },
+    "e76dbac77a4f7cda12c5ffc18953648b4f5d635f58b5fefbf73cfcfa204208ec": {
+      "kind": "description-excerpt",
+      "source": "毎日、夜20時はドキドキのひととき。どんな魅力的なアイテムが飛び出すか、ご期待ください。",
+      "translation": "Every day at 8pm, it's an exciting time. Please look forward to seeing what kind of attractive items will pop up.",
+      "provider": "Google Translate"
+    },
+    "b1f3742616f432e180053df4623aa38c329355f5fe33fd8704c13e08c5c9b780": {
+      "kind": "description",
+      "source": "毎日、夜20時はドキドキのひととき。どんな魅力的なアイテムが飛び出すか、ご期待ください。",
+      "translation": "Every day at 8pm, it's an exciting time. Please look forward to seeing what kind of attractive items will pop up.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f5e2c03554e0d67f22270664b81411b41258313fe236fc694e38efa8c47aa954": {
+      "kind": "title",
+      "source": "ジュエリーナイト世界が夢中ダイヤモニーク",
+      "translation": "Jewelry Night The world is obsessed with Diamond",
+      "provider": "Google Translate"
+    },
+    "f15352f7417db328f2ccb227262d24c1f713b530c850cc49e8f0ca73fdf5f889": {
+      "kind": "description-excerpt",
+      "source": "週ごとにテーマが変わる、きらめきいっぱいの1時間。",
+      "translation": "An hour filled with sparkle, with a theme that changes every week.",
+      "provider": "Google Translate"
+    },
+    "c5eccfe0b46a3493415805ef025db6ef73e024a7fe51f00688e57739031a3974": {
+      "kind": "description",
+      "source": "週ごとにテーマが変わる、きらめきいっぱいの1時間。今回は本物のダイヤモンドのように煌めきを放つ、ダイヤモニークの登場です。",
+      "translation": "An hour filled with sparkle, with a theme that changes every week.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "5f322a31078c492ea6162030244320844ae7dd27639d01206d61f8f179e08607": {
+      "kind": "title-fragment",
+      "source": "▽台風３０号が列島直撃か▽将棋で女性初プロ棋士誕生か",
+      "translation": "▽Was Typhoon No. 30 a direct hit on the archipelago? ▽Will the first female professional shogi player be born?",
+      "provider": "Google Translate"
+    },
+    "87cf9a1ac1be3bfac20cc65287c50d0218cadc255acacc142aa78104ba471914": {
+      "kind": "title",
+      "source": "ニュースウオッチ９　▽台風３０号が列島直撃か▽将棋で女性初プロ棋士誕生か",
+      "translation": "News Watch 9: ▽Was Typhoon No. 30 a direct hit on the archipelago? ▽Will the first female professional shogi player be born?",
+      "provider": "mapping+provider chain"
+    },
+    "e09ce1c3786ff873cc0a3e8c82d36bb8a87e7e084d135da2aecd482227a51cba": {
+      "kind": "description-excerpt",
+      "source": "台風３０号が列島直撃か広範囲で大雨のおそれ▽将棋の西山女流四冠女性初プロ棋士誕生か▽トランプ氏激…",
+      "translation": "Typhoon No. 30 may hit the archipelago directly, leading to widespread heavy rain. Nishiyama, a female shogi player with four titles, will become the first female professional shogi player? Trump is furious...",
+      "provider": "Google Translate"
+    },
+    "b6e6f1f60ce1b333fcc507dfb753c354d8d163e41d4e3074921a124c5acebb0c": {
+      "kind": "description",
+      "source": "台風３０号が列島直撃か広範囲で大雨のおそれ▽将棋の西山女流四冠女性初プロ棋士誕生か▽トランプ氏激戦区で",
+      "translation": "Typhoon No. 30 may hit the archipelago directly, leading to widespread heavy rain. Nishiyama, a female shogi player with four titles, will become the first female professional shogi player? Trump is furious...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "3a9bdaf31967c202f4e302e30ebae6cd36bc795f2db2afc9432f7272977a0298": {
+      "kind": "title",
+      "source": "富洋物産 こだわりの煮魚＆焼き魚 4ヶ月頒布会",
+      "translation": "Tomiyo Bussan special boiled fish & grilled fish 4 month distribution",
+      "provider": "Google Translate"
+    },
+    "9fc2c6deada8686ed0b0d2b7dd3b627456b216d2565b86534eae0ca4fc200d67": {
+      "kind": "title",
+      "source": "映像の世紀バタフライエフェクト　ウォール街　１０月の悪夢",
+      "translation": "Image Century Butterfly Effect Wall Street October Nightmare",
+      "provider": "Google Translate"
+    },
+    "5fcfb5ab329e822f24800991e3eebf0e2c4e0d2570e2d51af6329ed2a93974c4": {
+      "kind": "description-excerpt",
+      "source": "今年６月、元ＦＲＢ議長グリーンスパンが百年の生涯を閉じた。",
+      "translation": "In June of this year, former Federal Reserve Chairman Greenspan passed away after 100 years.",
+      "provider": "Google Translate"
+    },
+    "355ff23555b1f76a5c65e6cb788e885e620b80885809a498fd0976a7f3a895c2": {
+      "kind": "description",
+      "source": "今年６月、元ＦＲＢ議長グリーンスパンが百年の生涯を閉じた。半生を市場の安定に捧げたカリスマの哲学には、ある作家の影が色濃く反映されている。アイン・ランド。８０年以上読み継がれ、トランプ大統領、イーロン・マスクなどの心を捉えてきた。もう一人のカリスマ、投資家バフェットは、欲望渦巻く街で熱狂に飲まれることなく企業の真の価値を見抜き巨万の富を築いた。恐怖と熱狂の中、一人は市場を信じ、一人は市場を疑った。",
+      "translation": "In June of this year, former Federal Reserve Chairman Greenspan passed away after 100 years.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "3ac983e681bb415a17d0e54125744d9c2aa7336d6303f2f35ffade76c82fdb02": {
+      "kind": "title",
+      "source": "【夜ドラ】青の花　器の森（１）",
+      "translation": "[Night Drama] Blue Flower Vessel Forest (1)",
+      "provider": "Google Translate"
+    },
+    "02b55cab05c961cb5d399e5fc0612f3516f134cd42a4dcbfb8fc00e19ccd72e5": {
+      "kind": "description-excerpt",
+      "source": "やきものの町・長崎県波佐見（はさみ）町で育った馬場青子（松井玲奈）は、絵付け職人として働き、豊か…",
+      "translation": "Baba Aoko (Matsui Rena), who grew up in Hasami Town, Nagasaki Prefecture, a town of pottery, works as a painter and lives a wealthy life...",
+      "provider": "Google Translate"
+    },
+    "8b2e2fd0b556dd26951da6e80f07e84649bb828b7845925b4e6d2e0e9289fff1": {
+      "kind": "description",
+      "source": "やきものの町・長崎県波佐見（はさみ）町で育った馬場青子（松井玲奈）は、絵付け職人として働き、豊かな自然の中で暮らしている。ある日、青子が作業をしていると「絵付けなんて必要ない」とつぶやく人物が…。それはフィンランド帰りの陶芸家・真鍋龍生（一ノ瀬颯）で今日から一緒に働くという。反発しあう二人だったが、社長（西田尚美）の頼みで行動を共にすることとなり、青子は龍生の意外な一面に出会う。",
+      "translation": "Baba Aoko (Matsui Rena), who grew up in Hasami Town, Nagasaki Prefecture, a town of pottery, works as a painter and lives a wealthy life...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "37cac1c9af254d65065b29e7931432696446bb24e60f0fb762794ae38640ca67": {
+      "kind": "title",
+      "source": "経済バックヤード　選　おいしい！楽しい！「回転すし」業界の舞台裏　完全版",
+      "translation": "Economy Backyard Selection Delicious! fun! Behind the scenes of the “conveyor belt sushi” industry complete edition",
+      "provider": "Google Translate"
+    },
+    "c082230f584222fb092f7689762d3b0eb46065104a8c28ace3bc6559ce2c1953": {
+      "kind": "description-excerpt",
+      "source": "身近なあれこれの“舞台裏”にとことん迫る『経済バックヤード』今回のテーマは「回転ずし」！",
+      "translation": "The theme of this edition of \"Economic Backyard\", which takes a close look at the \"behind the scenes\" of things around us, is \"conveyor belt sushi\"!",
+      "provider": "Google Translate"
+    },
+    "2616a9f32bd68dd3a6cd65729ef15b3c02b8f84158e05a366aebacf2e41d7c45": {
+      "kind": "description",
+      "source": "身近なあれこれの“舞台裏”にとことん迫る『経済バックヤード』今回のテーマは「回転ずし」！マグロにハマチ・サーモン・つぶ貝・ハンバーグ！おいしくて楽しい！大人にも子どもにも大人気の業界を徹底取材▽逆境にヒントあり？新メニューを次々生み出す大手チェーンの一大プロジェクト▽地域ブランドで“食べてみたい”をプロデュース！ご当地グルメ系の奮闘▽すしネタのヒミツも徹底解剖！意外？井上咲楽さんイチオシのネタは…",
+      "translation": "The theme of this edition of \"Economic Backyard\", which takes a close look at the \"behind the scenes\" of things around us, is \"conveyor belt sushi\"!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "a3e9cf43f287f8cb7ab172de091175abc4f99f89216d0c5ba71b08c692ca2224": {
+      "kind": "title",
+      "source": "FashionMonth SP Live! ModdedAnce",
+      "translation": "FashionMonth SP Live! ModdedAnce",
+      "provider": "Google Translate"
+    },
+    "5f962086ceffb19334c5c5ab7453fd7a188165c162835be5917a42946f86b873": {
+      "kind": "description-excerpt",
+      "source": "一着で強い存在感を持つデザインが特徴。洗練されていながら、伸縮性のある生地と適度に余裕のあるサイ…",
+      "translation": "It features a design that has a strong presence when worn first. Sophisticated yet stretchy fabric and moderately roomy size...",
+      "provider": "Google Translate"
+    },
+    "98db8663b45b1f838fb503c8b955ac54875d8632da5fb619a5cd50e8993ecaac": {
+      "kind": "description",
+      "source": "一着で強い存在感を持つデザインが特徴。洗練されていながら、伸縮性のある生地と適度に余裕のあるサイズ感で、女性の日常に溶け込むお洋服を提案します。",
+      "translation": "It features a design that has a strong presence when worn first. Sophisticated yet stretchy fabric and moderately roomy size...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c43040c7e3e9f10d1446c3abe9533c7ad4a8967aa1e3996f6312b49568a8cc08": {
+      "kind": "title",
+      "source": "潰さず押さえて小さく収納「備長炭軽圧縮収納ケース」",
+      "translation": "``Bincho charcoal light compression storage case'' that can be held down and stored small without crushing it.",
+      "provider": "Google Translate"
+    },
+    "85c5bfcbe16f0a6df3cb9a363eaf8afe7a0b7bcd9fce969bd25bb341abc1daa8": {
+      "kind": "title",
+      "source": "【夜ドラ】「青の花　器の森」ＰＲ（第１週）",
+      "translation": "[Night drama] “Ao no Hana Vessel Forest” PR (1st week)",
+      "provider": "Google Translate"
+    },
+    "aebca5764e02ee4596808b5cc0a3e310b01108c85bc4532a895bfef03ba952fc": {
+      "kind": "title-fragment",
+      "source": "様変わりの予算編成　どう両立する成長と財政規律",
+      "translation": "Budgeting is changing: How to balance growth and fiscal discipline",
+      "provider": "Google Translate"
+    },
+    "6adf7abc2e879f2fed0c848e5db9ed06a60b66335bd9cafa52797788d36b4d11": {
+      "kind": "title",
+      "source": "時論公論　様変わりの予算編成　どう両立する成長と財政規律",
+      "translation": "Jiron Koron: Budgeting is changing: How to balance growth and fiscal discipline",
+      "provider": "mapping+provider chain"
+    },
+    "44387cf43d7ebae26e3024e7cbd01d1f1fac9e70681e2f706266a8bf0ef313df": {
+      "kind": "description-excerpt",
+      "source": "来年度の予算編成は経済成長力を高めるために投資を促す予算を各省庁が上限を設けず要求するなど在り方…",
+      "translation": "Next year's budget will be formulated in such a way that ministries and agencies request a budget that encourages investment without setting an upper limit in order to increase economic growth potential.",
+      "provider": "Google Translate"
+    },
+    "6460b39cf95065be1e53108f4f3e6d2deecc42b6a3ded1b92487b4e4f6183f02": {
+      "kind": "description",
+      "source": "来年度の予算編成は経済成長力を高めるために投資を促す予算を各省庁が上限を設けず要求するなど在り方が大きく変わっています。課題を考えます。",
+      "translation": "Next year's budget will be formulated in such a way that ministries and agencies request a budget that encourages investment without setting an upper limit in order to increase economic growth potential.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "901756126de721850c9abeff04c7cf77df68d81e9c917a07f0ec5874f1c5599c": {
+      "kind": "title",
+      "source": "１分で『刑事フォイル』",
+      "translation": "“Detective Foil” in 1 minute",
+      "provider": "Google Translate"
+    },
+    "fdb74db00d2952c07159fc532fbcbdacb2b570444f109658318a8443f83ede36": {
+      "kind": "description-excerpt",
+      "source": "第二次世界大戦のさなか、イギリス南部の街ヘイスティングスにも戦争の足音が忍び寄っていた。",
+      "translation": "In the middle of World War II, the footsteps of war were creeping into Hastings, a town in southern England.",
+      "provider": "Google Translate"
+    },
+    "c314786f5d7dd4cf61de483a98d88a4b26b550a9b7f8d77c113c40357aee3820": {
+      "kind": "description",
+      "source": "第二次世界大戦のさなか、イギリス南部の街ヘイスティングスにも戦争の足音が忍び寄っていた。正義を追い求める警視正フォイルは、専属運転手のサム（サマンサ）とともに、難事件に挑む。主演マイケル・キッチン、フォイルの声は山路和弘。企画・脚本はイギリスの人気ミステリー作家、アンソニー・ホロヴィッツ。",
+      "translation": "In the middle of World War II, the footsteps of war were creeping into Hastings, a town in southern England.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f1a69cad01e8f9ab51e09eb23e2412f14ce8578b7776738d27ff58b1e19721c7": {
+      "kind": "title-fragment",
+      "source": "「豊臣兄弟！」２分ダイジェスト　（４１）",
+      "translation": "“Toyotomi Brothers!” 2-minute digest (41)",
+      "provider": "Google Translate"
+    },
+    "ec3a75430941875fdcb015cba69147e3a5be89da950e56ab703ebc0b94790b06": {
+      "kind": "title",
+      "source": "大河ドラマ「豊臣兄弟！」２分ダイジェスト　（４１）",
+      "translation": "Taiga Drama: “Toyotomi Brothers!” 2-minute digest (41)",
+      "provider": "mapping+provider chain"
+    },
+    "e3f354983247fee8359feca266d6237ee4fdd32740e5ca0f3661bb315f635fcf": {
+      "kind": "title",
+      "source": "歴史探偵　一休宗純",
+      "translation": "Historical Detective Sojun Ikkyu",
+      "provider": "Google Translate"
+    },
+    "1f67136ff85741500dd909e372bde401d8852051da81fee73eb4ea509dfc9ce0": {
+      "kind": "description-excerpt",
+      "source": "とんちでおなじみの一休さん。しかし、本当の姿はイメージとは大違い！",
+      "translation": "Ikkyu-san is well known as Tonchi. However, the real figure is very different from the image!",
+      "provider": "Google Translate"
+    },
+    "f779047c29c7895b60f1ea40faad03eee5e5841b6cb9b89f51afc2060e1571c6": {
+      "kind": "description",
+      "source": "とんちでおなじみの一休さん。しかし、本当の姿はイメージとは大違い！酒を愛し、権威や常識に真っ向から異を唱えた型破りな禅僧だった。残された漢詩を徹底分析し、その“脳内”をのぞいてみると、驚きの素顔が明らかに！なぜ一休は「とんちの名人」として語り継がれたのか？さらに、応仁の乱で荒廃した京都で挑んだ大徳寺再建の知られざる物語も。煩悩を抱え、迷いながらも自分らしく生き抜いた一休宗純。その波乱の人生に迫る。",
+      "translation": "Ikkyu-san is well known as Tonchi. However, the real figure is very different from the image!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "758fcc7136bcb5fb6df34b0a98aa3194be7d4feb42540102f92f81e62f437b56": {
+      "kind": "title",
+      "source": "コンビタ マヌカハニー",
+      "translation": "Comvita Manuka Honey",
+      "provider": "Google Translate"
+    },
+    "bf65e404f46d42a5c768977f32ddf99e41ace9cf45fb18bb93309ea6ef24327d": {
+      "kind": "description-excerpt",
+      "source": "ニュージーランドに自生するマヌカという低木から取れるハチミツ“マヌカハニー”。",
+      "translation": "Manuka honey is a honey extracted from a shrub called Manuka that grows naturally in New Zealand.",
+      "provider": "Google Translate"
+    },
+    "0fc8cb44a8c3d6fd70892c093e4879b49239ddcf890e277e84b2caad62441091": {
+      "kind": "description",
+      "source": "ニュージーランドに自生するマヌカという低木から取れるハチミツ“マヌカハニー”。健康志向の高い方から、今注目のアイテムをぜひ！",
+      "translation": "Manuka honey is a honey extracted from a shrub called Manuka that grows naturally in New Zealand.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "17c0f5b0dd0d73e8403f20d1c8b29adb4d9abd6c837a881a5e745f5b04d04bae": {
+      "kind": "title",
+      "source": "ショップスターバリュー よみがえる座り心地！復活ソファシート",
+      "translation": "Shop Star Value Revives the comfort of sitting! revival sofa seat",
+      "provider": "Google Translate"
+    },
+    "ea4d3d06d79d7ca05204983083e971100cd5fbc2333eded4616f4b8a77115a07": {
+      "kind": "title",
+      "source": "林修のイマこそ世界史！イケメン皇帝、ローマ帝国の繁栄築く。学び直しにも",
+      "translation": "Osamu Hayashi's current moment is world history! A handsome emperor builds the prosperity of the Roman Empire. Also for relearning",
+      "provider": "Google Translate"
+    },
+    "9086bdef8647b0935e5fecc75b20ce7dfc0b0747849169a5a6298853fb20b09a": {
+      "kind": "description-excerpt",
+      "source": "「へえ、知らなかった！なるほど、教養としても使える」、そんな満足感とともに、難しい今の時代を生き…",
+      "translation": "``Wow, I didn't know that! I see, I can use this as a form of education.'' Living in these difficult times with such a sense of satisfaction...",
+      "provider": "Google Translate"
+    },
+    "13a1b21ba4d95d9408e0aeffba305f56ad71f004301528403c9e506147057110": {
+      "kind": "description",
+      "source": "「へえ、知らなかった！なるほど、教養としても使える」、そんな満足感とともに、難しい今の時代を生きるヒントを探っていく。今回の主人公アウグストゥスは、古代ローマに平和と繁栄をもたらした傑出したリーダー。一体どんな人物だった？私たちが学ぶべきこととは？最新の発掘成果も踏まえ見ていく。林修と大久保佳代子の丁々発止のやり取りも見もの。語りは大河ドラマで徳川家康を演じる松下洸平。なに見るの？この番組でしょ！",
+      "translation": "``Wow, I didn't know that! I see, I can use this as a form of education.'' Living in these difficult times with such a sense of satisfaction...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "3ba3aa0ccbdd4aee25c241966e34116df05a4bdc1821c3499d99b4f7c3bb42b9": {
+      "kind": "title",
+      "source": "エニワイズ モイストコレクション",
+      "translation": "Anywise Moist Collection",
+      "provider": "Google Translate"
+    },
+    "32a5ce614ce3a770904f0b0d8ac6d465c5cce8f6efbd261e1bd9475e2c4b845a": {
+      "kind": "description-excerpt",
+      "source": "エニワイズ加工を施し、肌に優しく着心地快適。しっとりなめらかで肌触りの良いコレクションです。",
+      "translation": "With Anywise processing, it is gentle on the skin and comfortable to wear. A collection that is moist, smooth and feels good on the skin.",
+      "provider": "Google Translate"
+    },
+    "45174c58f1266c98eacb02200e8b612c23639f4f275bd3cd189e3a72d46849b5": {
+      "kind": "description",
+      "source": "エニワイズ加工を施し、肌に優しく着心地快適。しっとりなめらかで肌触りの良いコレクションです。",
+      "translation": "With Anywise processing, it is gentle on the skin and comfortable to wear. A collection that is moist, smooth and feels good on the skin.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f3e8135a6da28980daa7b43a3bba46bcefd2514c57b4920a162a367ecb4cf918": {
+      "kind": "title",
+      "source": "ビバライズ アームカバー型「どっさり」ホームタオル デビュー",
+      "translation": "Vivarise arm cover type “Dossari” home towel debut",
+      "provider": "Google Translate"
+    },
+    "de5e42cb7f592b0359d4c3458d293d8da03fbc2bd2a9fd6ba02397b3c11f1731": {
+      "kind": "description-excerpt",
+      "source": "韓国で大人気の垢すりタオルが、筒状のお掃除用に変身！腕全体を使いながら湯垢・水垢をごっそりオフ！",
+      "translation": "The scouring towel, which is very popular in Korea, has been transformed into a cylindrical cleaning towel! Use your entire arm to thoroughly remove water and limescale!",
+      "provider": "Google Translate"
+    },
+    "9781a5f36114a1125f49331a5b9ccc992f31a40164bcd7bb64378d151f836fab": {
+      "kind": "description",
+      "source": "韓国で大人気の垢すりタオルが、筒状のお掃除用に変身！腕全体を使いながら湯垢・水垢をごっそりオフ！",
+      "translation": "The scouring towel, which is very popular in Korea, has been transformed into a cylindrical cleaning towel! Use your entire arm to thoroughly remove water and limescale!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "eb08e18d1123e415f656a36875f9ea302a2e898be30917a36503c49f66189829": {
+      "kind": "title",
+      "source": "うまいッ！　オホーツクの秋の恵み！銀色に輝くサケ　北海道・枝幸町",
+      "translation": "Delicious! Autumn blessings of Okhotsk! Shining silver salmon, Esashi Town, Hokkaido",
+      "provider": "Google Translate"
+    },
+    "6f9f069e01b0288d66bcda331ed09139b9752da8dbd1f574b636a366c3aaed54": {
+      "kind": "description-excerpt",
+      "source": "オホーツク海に面した枝幸町で国内有数の水揚げ量を誇るのが、ピカピカと銀色に輝く”さけ”。",
+      "translation": "Esashi Town, which faces the Sea of ​​Okhotsk, boasts one of the largest catches in Japan of shiny silver salmon.",
+      "provider": "Google Translate"
+    },
+    "236c0b519cbd4a27a9f7040bdb2b8bc1511177306a2f40691a419e62db901ff9": {
+      "kind": "description",
+      "source": "オホーツク海に面した枝幸町で国内有数の水揚げ量を誇るのが、ピカピカと銀色に輝く”さけ”。食材ハンターの板橋駿谷さんが、たっぷりと脂がのったさけのおいしさの秘密に迫ります。傷がつかないように丁寧に水揚げするダイナミックな漁の迫力や、漁師さんがオススメするうまみがぎっしりと詰まった「さけの塩焼き」の味に大興奮！地元に古くから伝わる、さけを余すところなく丸ごと味わい尽くす地元の伝統料理もご紹介します！",
+      "translation": "Esashi Town, which faces the Sea of ​​Okhotsk, boasts one of the largest catches in Japan of shiny silver salmon.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "0b7a66bebd2db018eafcf32d97b57b7da4ff6d07b6ba3b3184aee987b9f05508": {
+      "kind": "title",
+      "source": "３か月でマスターする心理学（３）なぜ推し活をするのか？",
+      "translation": "Psychology to be mastered in 3 months (3) Why do we do Oshikatsu?",
+      "provider": "Google Translate"
+    },
+    "82440c87bb7bfe91c686951b7c7e1ffdaa57f9a50a7c2333ab81b33839a4ffd7": {
+      "kind": "description-excerpt",
+      "source": "今回のテーマは「なぜ推し活をするのか？」。「推し活」をしている人は幸福感が高いという報告も！",
+      "translation": "This time's theme is \"Why do we do Oshikatsu?\" There are also reports that people who engage in “Oshikatsu” have a higher sense of happiness!",
+      "provider": "Google Translate"
+    },
+    "c1af3b1023093dda9f9708afb599473446ed38ceb04a47f3502dd5180a505b9a": {
+      "kind": "description",
+      "source": "今回のテーマは「なぜ推し活をするのか？」。「推し活」をしている人は幸福感が高いという報告も！実は、推し活には、誰しもが持つ“ある心の機能”が働いているんです。推しがある人も、そうでない人にもぜひご覧いただきたい、私たちの心の不思議な世界です。",
+      "translation": "This time's theme is \"Why do we do Oshikatsu?\" There are also reports that people who engage in “Oshikatsu” have a higher sense of happiness!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "f7ccbdd247fa53335d770ea5d1195c16e3f9243b952605d178b00127dede8334": {
+      "kind": "title",
+      "source": "時は戻せない、でも時代は進む「エナジーライフPQQ」",
+      "translation": "Time cannot be turned back, but the times move forward \"Energy Life PQQ\"",
+      "provider": "Google Translate"
+    },
+    "700eaee395ae811a8e4b7fd1f694665b93c811085007d1535549789432925866": {
+      "kind": "title",
+      "source": "プロフェッショナル　ぶれず、おごらず、侮らず～洋食店主・島田良彦～",
+      "translation": "Professional: Don't waver, don't exaggerate, don't underestimate ~Western restaurant owner Yoshihiko Shimada~",
+      "provider": "Google Translate"
+    },
+    "6ef5e203a65bea6019c60f043a93afdccae7ca1f6ed4347bc3b88befd454fc37": {
+      "kind": "description-excerpt",
+      "source": "大人気のトンカツはいかに作られるのか？東京・上野で１２０年以上続く老舗洋食店の４代目・島田良彦に…",
+      "translation": "How is the extremely popular tonkatsu made? Yoshihiko Shimada, the 4th generation owner of a long-established Western restaurant in Ueno, Tokyo, that has been running for over 120 years...",
+      "provider": "Google Translate"
+    },
+    "5356fd9a8725786f30122e8c621ae47102e2abb6ff5864b70506ae54720430b0": {
+      "kind": "description",
+      "source": "大人気のトンカツはいかに作られるのか？東京・上野で１２０年以上続く老舗洋食店の４代目・島田良彦に密着。タンシチュー、エビフライ、ポークソテー…。池波正太郎や白洲次郎など多くの文化人が愛した味には秘密があった。豚肉は産地やブランドを固定せず、その日の最もいいものを厳選。タンシチューのデミグラスソースは木べらで小麦粉とバターを混ぜ、２０日がかりで。手間暇惜しまぬ姿勢の原点には、亡き父との約束があった。",
+      "translation": "How is the extremely popular tonkatsu made? Yoshihiko Shimada, the 4th generation owner of a long-established Western restaurant in Ueno, Tokyo, that has been running for over 120 years...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c326334ce6445beb6edcfd0c0854decd25e3e5737b4b3889d594a2fae4e70f33": {
+      "kind": "title",
+      "source": "日本１００年遺産～老舗物語・食文化を伝え続ける森の洋食店　東京日比谷～",
+      "translation": "Japan's 100-year heritage ~ A Western restaurant in the forest that continues to pass on long-established stories and food culture, Tokyo Hibiya ~",
+      "provider": "Google Translate"
+    },
+    "eff17b4e74b0f6e3b6891f6199ea73ab96c9ecd508c0a8ddc7f0c4e74f9c0288": {
+      "kind": "description-excerpt",
+      "source": "明治の創業以来看板メニューはその名も「ハイカラビーフカレー」。",
+      "translation": "Since its founding in the Meiji era, its signature menu has been the ``high-karat beef curry.''",
+      "provider": "Google Translate"
+    },
+    "519f9ea831df7c14d305b44b34b1ca6c28cbcdb146bdd3db533d166437e426a6": {
+      "kind": "description",
+      "source": "明治の創業以来看板メニューはその名も「ハイカラビーフカレー」。子供から年配者まで楽しめるまろやかなおいしさで、今も人気。この店の歴史は、戦前戦後の激流に翻弄されてきた。ＧＨＱによる接収、沖縄返還協定反対のデモによる火災・・・。荒波を乗り越えてきた１００年がある。洋食文化の普及が進んだ今、次なる視野は日本各地に伝わる食材を掘り起こし広めること。食文化の伝道師としての役割は終わらない。",
+      "translation": "Since its founding in the Meiji era, its signature menu has been the ``high-karat beef curry.''",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "aea2cfae2b57ef4100f34e9c6ed14cd693589f43e716934082f27baee97878dd": {
+      "kind": "title",
+      "source": "心がトキメク服 ルクオーレ コットンアイレットレース SALE！",
+      "translation": "Clothing that makes your heart flutter Lucore cotton eyelet lace SALE!",
+      "provider": "Google Translate"
+    },
+    "4723012aa19d42fbe02a4c139dbee7451e24df30124d00aa228e1c0318be6252": {
+      "kind": "title",
+      "source": "北海道・かわいい動物たち〜さわやか自然百景から〜",
+      "translation": "Hokkaido Cute Animals ~From 100 Refreshing Natural Views~",
+      "provider": "Google Translate"
+    },
+    "a3d03229b4bf944c5470e9c278d0b2cee2cede88669df33c41699619b39096be": {
+      "kind": "description-excerpt",
+      "source": "日本各地の自然や風景、そこに暮らす生きものたちの姿を紹介してきた「さわやか自然百景」。",
+      "translation": "``Refreshing 100 Scenes of Nature'' has introduced the nature and landscapes of various parts of Japan, as well as the creatures that live there.",
+      "provider": "Google Translate"
+    },
+    "6b6578f9bfbeb48bb9b4e0f40de8a85ade69cd95350814e9c70c9dd99f4eb604": {
+      "kind": "description",
+      "source": "日本各地の自然や風景、そこに暮らす生きものたちの姿を紹介してきた「さわやか自然百景」。番組では、北海道の豊かな自然を映す中で、北海道に生きる動物たちの姿も数多く紹介してきました。北海道で撮影した蓄積の中から、エゾモモンガ、エゾナキウサギ、エゾシマリス、エゾリス、エゾシカ、キタキツネ、ゴマフアザラシなど、北海道の動物たちの愛らしい姿を、珠玉の映像でたっぷりお送りします！",
+      "translation": "``Refreshing 100 Scenes of Nature'' has introduced the nature and landscapes of various parts of Japan, as well as the creatures that live there.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "44bda85cb71a235d506982193c8461aa70eb58427bafc11cbbd9a806ee53fd91": {
+      "kind": "title",
+      "source": "ピタゴラスイッチ　ミニ▽うた▽まきじゃくのジャック",
+      "translation": "Pythagora Switch Mini▽Uta▽Makijaku Jack",
+      "provider": "Google Translate"
+    },
+    "f06e02aa980e93584a6f7fe233f947e698baab652a25588e56621e6022a037c7": {
+      "kind": "description-excerpt",
+      "source": "私たちがふだん暮らしている中には、さまざまな不思議な構造、面白い考え方、法則が隠れています。",
+      "translation": "Various mysterious structures, interesting ideas, and laws are hidden in our daily lives.",
+      "provider": "Google Translate"
+    },
+    "064eab7b0469bf433de469dae507a83dba9c99e1e5283a5d9cfe8cb5ee1a2b7d": {
+      "kind": "description",
+      "source": "私たちがふだん暮らしている中には、さまざまな不思議な構造、面白い考え方、法則が隠れています。番組では、「子どもにとっての“なるほど！”」を、アニメ、歌、体操、ピタゴラ装置など、多彩なコーナーで紹介します。",
+      "translation": "Various mysterious structures, interesting ideas, and laws are hidden in our daily lives.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "80d3ae37238c4ee8185752f4302aeea41ca1c51f7ec3135e608e0866daed4972": {
+      "kind": "title",
+      "source": "カゴメ ゆっくり味わう畑のごほうび 具だくさんスープ",
+      "translation": "Kagome Slowly enjoy the rewards of the fields, soup with lots of ingredients",
+      "provider": "Google Translate"
+    },
+    "c9e75e347e9586f398cae64265691ae99e76e1302978f6cc4d977ed094d365e4": {
+      "kind": "description-excerpt",
+      "source": "「カゴメ」とSHOPが共同開発した人気のスープ。13種類の美味しさがたっぷり詰まったスープです。",
+      "translation": "A popular soup jointly developed by Kagome and SHOP. This soup is packed with 13 types of deliciousness.",
+      "provider": "Google Translate"
+    },
+    "4c43350dceef07e7a3ed0215c6cfb5d0f2eb207377cef55d8381d906e04ce7b3": {
+      "kind": "description",
+      "source": "「カゴメ」とSHOPが共同開発した人気のスープ。13種類の美味しさがたっぷり詰まったスープです。",
+      "translation": "A popular soup jointly developed by Kagome and SHOP. This soup is packed with 13 types of deliciousness.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "c0f7e605fa1ef3baa48a4a4269cafca0475bd19d1e297985bc3b4f2f6e52d431": {
+      "kind": "title-fragment",
+      "source": "２０２６　「ＡＩは民主主義をどう変える？」①　ディープフェイク",
+      "translation": "2026 “How will AI change democracy?” 1 Deepfakes",
+      "provider": "Google Translate"
+    },
+    "e8b17c53d9a4a0966601eabdd2ccbb9c81f4548008ddde38dd94e83e93b4c0b6": {
+      "kind": "title",
+      "source": "国際報道２０２６　「ＡＩは民主主義をどう変える？」①　ディープフェイク",
+      "translation": "International News Report: 2026 “How will AI change democracy?” 1 Deepfakes",
+      "provider": "mapping+provider chain"
+    },
+    "f2a0a85eb9dd8bb924e3af0d09cacec939f2e0662347ebae6c6a3fed62f477a8": {
+      "kind": "description-excerpt",
+      "source": "アメリカ中間選挙で注目されるテキサス州上院選では、ディープフェイク動画が拡散し、選挙への影響が指…",
+      "translation": "In the Texas Senate race, which is attracting attention in the US midterm elections, a deepfake video has spread, indicating its influence on the election...",
+      "provider": "Google Translate"
+    },
+    "f9a465325a1665b6a4b5afccc2e1781c1c7b8779020936c3ba0391fadf412704": {
+      "kind": "description",
+      "source": "アメリカ中間選挙で注目されるテキサス州上院選では、ディープフェイク動画が拡散し、選挙への影響が指摘されている。こうした動画の制作者は「あくまで政治風刺で、若者の関心を高めるため」と主張。表現の自由か悪質な妨害か判断は難しく、選挙でのディープフェイクを禁じる州法の適用も容易ではない。ＡＩによる偽情報が結果を左右しかねない選挙の実態を辻キャスターが現地で徹底取材。",
+      "translation": "In the Texas Senate race, which is attracting attention in the US midterm elections, a deepfake video has spread, indicating its influence on the election...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "eb060dbabb071d51c65a3e70feb6b6bfa2e3ef425dbec3a1896b5379c0f90562": {
+      "kind": "title",
+      "source": "ドイツ・フットベッド発想！ マイスター開発インソール OSMリーヒェ",
+      "translation": "German footbed idea! Meister developed insole OSM Lieche",
+      "provider": "Google Translate"
+    },
+    "03141b2574721d3fd07334e95323ea04da6437b89ba25d536a05e386226217bb": {
+      "kind": "title",
+      "source": "シルバーミントシュガー いつものコーディネートをアップトゥデイト！",
+      "translation": "Silver Mint Sugar Update your usual coordination to date!",
+      "provider": "Google Translate"
+    },
+    "9643b19d93bf85dd8c3cac17c7e73771cf8f1902b2e9558c3bd5a99c86e590ea": {
+      "kind": "description-excerpt",
+      "source": "大人のオフタイムシーンを彩る遊び心と上質をお届けするブランドより、大人かわいい、着心地の良いアイ…",
+      "translation": "From a brand that delivers playfulness and quality that decorates adults' off-time scenes, we offer cute, comfortable eyewear for adults...",
+      "provider": "Google Translate"
+    },
+    "dfcf747eccc721c4bde4051e165d52d09f255d59328c90210a4185637ce0eb5f": {
+      "kind": "description",
+      "source": "大人のオフタイムシーンを彩る遊び心と上質をお届けするブランドより、大人かわいい、着心地の良いアイテムをラインナップしました。",
+      "translation": "From a brand that delivers playfulness and quality that decorates adults' off-time scenes, we offer cute, comfortable eyewear for adults...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "a99bd8677ee398d73d75a341c9478dd91d80e00fc4b6d036e23b5bda01b8dd06": {
+      "kind": "title",
+      "source": "城島茂プロデュースTEIJIN RINGO-TEXバッグ",
+      "translation": "TEIJIN RINGO-TEX bag produced by Shigeru Jojima",
+      "provider": "Google Translate"
+    },
+    "61ef84557ac9cd24070041849ea7a6647cd8ee761b07a22fd76dab584b83e89b": {
+      "kind": "description-excerpt",
+      "source": "環境にも使う人にも思いやり。城島茂さんがテイジンと作った「やさしい」バッグ。",
+      "translation": "Considerate for the environment and the users. A \"gentle\" bag made by Shigeru Jojima with Teijin.",
+      "provider": "Google Translate"
+    },
+    "44f659ef247d091d1685f166371b2f214403dc3479f22420691011010035006d": {
+      "kind": "description",
+      "source": "環境にも使う人にも思いやり。城島茂さんがテイジンと作った「やさしい」バッグ。",
+      "translation": "Considerate for the environment and the users. A \"gentle\" bag made by Shigeru Jojima with Teijin.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "cf75e27bbc47855032380131c70104576e3dab3e1260dcd4424a94ecd5c39d6f": {
+      "kind": "title",
+      "source": "軽くてポカポカ！ 西川 ケーブルニットデザイン ウェアガウン",
+      "translation": "Light and warm! Nishikawa cable knit design wear gown",
+      "provider": "Google Translate"
+    },
+    "c93b2331b4e20e234cea5a0f1b1bb23a6140a74a7169835dcd6b8b0183de80f8": {
+      "kind": "description-excerpt",
+      "source": "ケーブルニット調の軽やかなガウンは、2ウェイの襟元とポケット付きのゆったり仕様で快適にくつろげま…",
+      "translation": "This light, cable-knit style gown has a two-way collar and a loose fit with pockets so you can relax comfortably.",
+      "provider": "Google Translate"
+    },
+    "174c8dc9dee37af7d81bbb0d90813c864eec1c1ad878faf8d35f7dc4c52c3c3f": {
+      "kind": "description",
+      "source": "ケーブルニット調の軽やかなガウンは、2ウェイの襟元とポケット付きのゆったり仕様で快適にくつろげます。",
+      "translation": "This light, cable-knit style gown has a two-way collar and a loose fit with pockets so you can relax comfortably.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "be1a30d6a5c844c6f79ab711a16d701e7adddfa3a3dfd4f1e3500e863fe29de7": {
+      "kind": "description-excerpt",
+      "source": "お出かけ前に知っておきたい情報をまとめてお伝えします！",
+      "translation": "We will tell you all the information you need to know before going out!",
+      "provider": "Google Translate"
+    },
+    "06d0e950b484b9183ca37317d1e26b5be97048f425ee5cacdb77187cbbe1ebee": {
+      "kind": "description",
+      "source": "お出かけ前に知っておきたい情報をまとめてお伝えします！▽首都圏・関東甲信越の最新ニュース▽「傘は必要？服装選びは？洗濯は？」通勤通学・暮らしに役立つ気象情報▽気になるニュースや地域で活躍する人を深掘りした特集も！",
+      "translation": "We will tell you all the information you need to know before going out!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "2d7648e4c1309c5b21321c81563bee4db173121e98ac63a7db723bb7dd92d216": {
+      "kind": "title-fragment",
+      "source": "（２２）第５週「狂騒で、東京」",
+      "translation": "(22) Week 5 “Tokyo in turmoil”",
+      "provider": "Google Translate"
+    },
+    "544471e100c54147e5199f117d9154cfeecb4a695d9cd1acd31a8a4aeba53304": {
+      "kind": "description-excerpt",
+      "source": "珠（石橋静河）と保（金子大地）は下宿の大家に自分たちが兄妹ではないことを白状し、何とか同居を認め…",
+      "translation": "Tama (Shizukawa Ishibashi) and Tamotsu (Daichi Kaneko) confess to the landlord of their boarding house that they are not brother and sister, and somehow agree to live together...",
+      "provider": "Google Translate"
+    },
+    "813939476b3a7b68d0a57e021763d84c1bb930bda89cbffb720e0615ecdb9e65": {
+      "kind": "description",
+      "source": "珠（石橋静河）と保（金子大地）は下宿の大家に自分たちが兄妹ではないことを白状し、何とか同居を認めてもらうことに。しかし、保の父が入院し、仕送りが止まってしまう。どうにかして生活費を稼ぐために、珠は新しい仕事を探し始めるが、中々働ける場所は見つからない。そんな中、珠は新聞広告の片隅に西洋レストラン「悠樂軒」のウエイトレスの求人広告を見つける。さっそく、珠はそのお店に向かうが…。",
+      "translation": "Tama (Shizukawa Ishibashi) and Tamotsu (Daichi Kaneko) confess to the landlord of their boarding house that they are not brother and sister, and somehow agree to live together...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "807e0551c29a45719220b2cd3844e43796f0481324deb648a4c804929a55cd0e": {
+      "kind": "title",
+      "source": "スイス発しっとりスベスベ美肌ケア「ビタクリーム」秋スペシャル",
+      "translation": "Moist and smooth skin care from Switzerland “Vita Cream” Autumn special",
+      "provider": "Google Translate"
+    },
+    "e9fa97eeeb32a2b2a654120ed886e0d56b136e69b98fca30add93273d28cfd44": {
+      "kind": "description-excerpt",
+      "source": "「ゴハン作りたくなーい」。そんなときに少しでも楽できる視聴者のアイデアを大特集！",
+      "translation": "\"I don't want to make rice.\" A special feature on viewers' ideas to make things a little easier during times like these!",
+      "provider": "Google Translate"
+    },
+    "355aa3694e7293dd4617cfde1d5ae82eabd8afddf732b62223b89862f8fe5d85": {
+      "kind": "description",
+      "source": "「ゴハン作りたくなーい」。そんなときに少しでも楽できる視聴者のアイデアを大特集！洗い物したくない・味つけが面倒くさい。やりたくないことを回避するレシピ。「これでいいのだ！」共感しかない料理が登場。常備しておくと使える食材も▼北海道伊達市から中継▼「ハロウィーンに！かぼちゃのころころ簡単ドーナツ」舘野鏡子（料理研究家）【ゲスト】楠見薫、サバンナ高橋、ヤミー【キャスター】博多華丸・大吉、鈴木奈穂子",
+      "translation": "\"I don't want to make rice.\" A special feature on viewers' ideas to make things a little easier during times like these!",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "fcc95f031303e6331d0a8a66b821865c1d7102cc90f643ee3c560729efba3fd0": {
+      "kind": "title",
+      "source": "ひざ関節のサポートに！ 関節ケアプラス筋力サポート",
+      "translation": "For knee joint support! Joint care plus muscle strength support",
+      "provider": "Google Translate"
+    },
+    "5d457cb4e71df1139378d001bb7c6efca3bafc27bfcf9c24c08a5acb94747b97": {
+      "kind": "title",
+      "source": "ミッキーファンタジア 純金小判",
+      "translation": "Mickey Fantasia Pure Gold Oval",
+      "provider": "Google Translate"
+    },
+    "9af00b143ef7db30d03b1fabaf786e56093af6471308dcd904819c247387b16a": {
+      "kind": "description-excerpt",
+      "source": "魔法使いの帽子をかぶったミッキーの表情をデザインした、ミッキーファンタジア 純金小判が登場。",
+      "translation": "Introducing the Mickey Fantasia pure gold oval, designed with the expression of Mickey wearing a wizard's hat.",
+      "provider": "Google Translate"
+    },
+    "cbc617a0b8e5d4ee8e4c756776a68eb27f23aebf52c2f7f05e9b07e453d89f36": {
+      "kind": "description",
+      "source": "魔法使いの帽子をかぶったミッキーの表情をデザインした、ミッキーファンタジア 純金小判が登場。",
+      "translation": "Introducing the Mickey Fantasia pure gold oval, designed with the expression of Mickey wearing a wizard's hat.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "8e74d7e185894b748fa89f56adf065e8c9a2a83de36fab8fb585d8f72641fae8": {
+      "kind": "description-excerpt",
+      "source": "火曜日はピアノ演奏でお伝えします。（解説放送はこれまでと同じ従来の演奏です）。",
+      "translation": "On Tuesday, we will be playing the piano. (The commentary broadcast is the same traditional performance as before).",
+      "provider": "Google Translate"
+    },
+    "f3d89eaa6d57b391e00afcb5ed0f0eeec1eef8bd0ded8aa0daa7ae1692e3e050": {
+      "kind": "description",
+      "source": "火曜日はピアノ演奏でお伝えします。（解説放送はこれまでと同じ従来の演奏です）。高齢の方、身体の不自由な方も気軽にでき、椅子に座ったままでも行うことができます。ゆっくりしたテンポでかつ、全身を十分に動かせるように構成しています。",
+      "translation": "On Tuesday, we will be playing the piano. (The commentary broadcast is the same traditional performance as before).",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "42e468c70410c5c63ea38f55dc0a7435280e06326a7aaa23ce28198cf5df493f": {
+      "kind": "title",
+      "source": "よみがえる座り心地！ 復活ソファシート ファータイプ 新作",
+      "translation": "Revive the comfort of sitting! Revival sofa seat fur type new item",
+      "provider": "Google Translate"
+    },
+    "90b937df0ec6ea804fb03242b9e950a6bf70dc5cfb940e6c77b8a796aef693fe": {
+      "kind": "description-excerpt",
+      "source": "敷くだけで座り心地が快適に！弾力性・体圧分散性・通気性に優れた三次元スプリング構造。",
+      "translation": "Just lay it down and you'll be comfortable! Three-dimensional spring structure with excellent elasticity, body pressure dispersion, and breathability.",
+      "provider": "Google Translate"
+    },
+    "9dbaa2dafa52033282a0152d2a0128dffb306f99dfa41542f97754419438cd62": {
+      "kind": "description",
+      "source": "敷くだけで座り心地が快適に！弾力性・体圧分散性・通気性に優れた三次元スプリング構造。ソファカバーは取り外し可能でオールシーズンOK。",
+      "translation": "Just lay it down and you'll be comfortable! Three-dimensional spring structure with excellent elasticity, body pressure dispersion, and breathability.",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "254abf1252c7583dc41b3bcfdbd09e8bf2e80b1bc4a2c270d91627ec77c6f2c2": {
+      "kind": "title",
+      "source": "キャッチ！世界のトップニュース",
+      "translation": "catch! world top news",
+      "provider": "Google Translate"
+    },
+    "a0e7362a4e4c88205610553a882de5cc32f281b1ac5fa015a7e67d739a3aa6e1": {
+      "kind": "description-excerpt",
+      "source": "世界はいま何をどう伝えているのか。日本時間深夜から早朝にかけて続々と入る世界のニュースを「キャッ…",
+      "translation": "What and how is the world communicating now? \"Catch...",
+      "provider": "Google Translate"
+    },
+    "d676a14fd9a816c249ca264bdc6e990c9879f2f1775ec9bc76190417b17d9821": {
+      "kind": "description",
+      "source": "世界はいま何をどう伝えているのか。日本時間深夜から早朝にかけて続々と入る世界のニュースを「キャッチ！」してダイレクトにお伝えします。分かりづらい対立の構図やその背景、各国の活字媒体の論調についても、海外経験豊富なキャスターが詳しく解説。特集ではＮＨＫの特派員が、現地取材でニュースの背後にある真実を浮き彫りにします。ほかにもＮＹやソウルの最新トレンド、そして映画から国際情勢を読み解くコーナーも。",
+      "translation": "What and how is the world communicating now? \"Catch...",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "4c1f72b95311fd1e09c97b03c27688cf06c27692d926eb64b9112918e4d27cf5": {
+      "kind": "title",
+      "source": "ルナルーチェ 身にまとう幸福感。大判チェックタバード型ストール",
+      "translation": "Luna Luce A feeling of happiness. Large check tabard stole",
+      "provider": "Google Translate"
+    },
+    "d13da9de84ed1207587a72200c9533787879e3be09b978dfa15db6edbea96a6f": {
+      "kind": "description-excerpt",
+      "source": "ちょっとした羽織りとしても使えるタバード型の大判ストールが登場。チェック柄がおしゃれです♪",
+      "translation": "Introducing a large tabard-shaped stole that can be used as a small layer. The check pattern is stylish♪",
+      "provider": "Google Translate"
+    },
+    "47d5ee5364abd726ea2abb0978270466b88fe54016619b69bea769ca1c8d2b7c": {
+      "kind": "description",
+      "source": "ちょっとした羽織りとしても使えるタバード型の大判ストールが登場。チェック柄がおしゃれです♪",
+      "translation": "Introducing a large tabard-shaped stole that can be used as a small layer. The check pattern is stylish♪",
+      "provider": "Google Translate (summary excerpt)"
+    },
+    "ce4aa8cb2b26e0a7effcab21ac758676a92e80a138beb08d458561aa313c99ba": {
+      "kind": "title-fragment",
+      "source": "選　ベジ・ガーデン　甘さ格別！エンドウ３兄弟",
+      "translation": "Selected Veggie Garden - Exceptionally sweet! Endo 3 brothers",
+      "provider": "Google Translate"
+    },
+    "192301b900e256a60acdf1475ba9392a8ce1a78492e40a486bc1f94d20d2d27c": {
+      "kind": "title",
+      "source": "やさいの時間　選　ベジ・ガーデン　甘さ格別！エンドウ３兄弟",
+      "translation": "Veggie Garden: Selected Veggie Garden - Exceptionally sweet! Endo 3 brothers",
+      "provider": "mapping+provider chain"
+    },
+    "901ba18073cd856af4e22b3de365c1fff574afbe2f7781a589e8e2ff7bbe602f": {
+      "kind": "description-excerpt",
+      "source": "「おいしいのは収穫後３日まで」と言われるほど鮮度落ちが激しいエンドウ。",
+      "translation": "Peas lose their freshness so much that it is said that they are only delicious until three days after harvest.",
+      "provider": "Google Translate"
+    },
+    "6accf6411f3d95b78a0c9e8c229aefc5e513ebc961e99ee810949917b0d149ea": {
+      "kind": "description",
+      "source": "「おいしいのは収穫後３日まで」と言われるほど鮮度落ちが激しいエンドウ。今回は、サヤエンドウ、スナップエンドウ、グリンピースを同じ区画で一緒に栽培する。苗づくり、冬越しのポイントなどを紹介する。＜菜園実験・ベジレポ＞東京農業大学ポストハーベスト学研究室の学生がスナップエンドウの鮮度を保つさまざまな方法を検証する。講師；藤田智（恵泉女学園大学副学長）、杉浦太陽、大家志津香、宮島史年（語り）",
+      "translation": "Peas lose their freshness so much that it is said that they are only delicious until three days after harvest.",
       "provider": "Google Translate (summary excerpt)"
     }
   }

@@ -72,25 +72,26 @@ def validate_feed(
             raise ValidationError(f"Programme stop is not after start: {start} / {stop}")
         ja_title = element.findtext("title[@lang='ja']", default="")
         en_title = element.findtext("title[@lang='en']", default="")
-        if not ja_title.strip() or not en_title.strip():
-            raise ValidationError("Every programme must have non-empty English and Japanese titles")
-        key = (channel, element.get("start", ""), element.get("stop", ""), ja_title)
+        if not en_title.strip():
+            raise ValidationError("Every programme must have a non-empty English title")
+        key = (channel, element.get("start", ""), element.get("stop", ""), ja_title or en_title)
         if key in seen:
             raise ValidationError(f"Duplicate programme entry: {key}")
         seen.add(key)
         per_channel_count[channel] += 1
         per_channel_stops[channel].append(stop)
         per_channel_starts[channel].append(start)
-        per_channel_titles[channel].add(ja_title.strip())
+        per_channel_titles[channel].add((ja_title or en_title).strip())
         if stop > now:
             current_or_future[channel] += 1
         starts.append(start)
         stops.append(stop)
-        bilingual_titles += 1
+        if ja_title.strip():
+            bilingual_titles += 1
         ja_description = element.findtext("desc[@lang='ja']", default="").strip()
         en_description = element.findtext("desc[@lang='en']", default="").strip()
-        if bool(ja_description) != bool(en_description):
-            raise ValidationError("Source descriptions must retain both Japanese and English text")
+        if ja_description and not en_description:
+            raise ValidationError("Japanese descriptions require English text or source fallback")
         if ja_description and en_description:
             bilingual_descriptions += 1
 

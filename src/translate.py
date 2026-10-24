@@ -435,8 +435,10 @@ class TranslationEngine:
 
     def enrich(self, programmes: list[Programme]) -> list[Programme]:
         for programme in programmes:
-            programme.title_en = self.title(programme.title_ja)
-            programme.description_en = self.description(programme.description_ja)
+            if programme.title_ja:
+                programme.title_en = self.title(programme.title_ja)
+            if programme.description_ja:
+                programme.description_en = self.description(programme.description_ja)
             programme.categories_en = [self.genre(category) for category in programme.categories_ja]
         self.cache.save()
         return programmes

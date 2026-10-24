@@ -1,11 +1,11 @@
 {
   "version": 1,
   "playlist_url": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
-  "reconciled_at": "2026-10-14T05:06:32.741359+00:00",
+  "reconciled_at": "2026-10-24T21:08:39.825250+00:00",
   "identity_sha256": "049ba9e6fd1790ef032f391c138e8ef3edb73e3dd6882d0bae7f6af59421fa7c",
   "totals": {
-    "pending": 110,
-    "enabled": 57
+    "pending": 107,
+    "enabled": 60
   },
   "channels": [
     {
@@ -324,9 +324,23 @@
       "group": "ラクテンTV",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "qvc_cs",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "161 QVC",
+        "lineup": "cs",
+        "station_line": 1,
+        "station_id": "161"
+      },
+      "validated_at": "2026-10-24T21:08:56.249814+00:00",
+      "validation": {
+        "programmes": 54,
+        "current_or_future": 54,
+        "latest": "2026-10-27 12:00:00+09:00",
+        "earliest": "2026-10-25 06:00:00+09:00"
+      }
     },
     {
       "playlist_name": "GSTV",
@@ -346,7 +360,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "Official GSTV TV timetable was stale at this run: its published listings ended 2026-10-25 01:59 JST, before the 06:00 JST live-build window. No current/future CS527 schedule was validated.",
+      "evidence": "https://www.gstv.jp/about_gstv/tv_schedule"
     },
     {
       "playlist_name": "セクシーエンタメチャンネル",
@@ -572,12 +587,12 @@
         "area": "130",
         "service": "g1"
       },
-      "validated_at": "2026-10-14T05:06:32.741460+00:00",
+      "validated_at": "2026-10-24T21:08:56.249836+00:00",
       "validation": {
-        "programmes": 66,
-        "current_or_future": 66,
-        "latest": "2026-10-15 19:30:00+09:00",
-        "earliest": "2026-10-14 13:00:00+09:00"
+        "programmes": 152,
+        "current_or_future": 152,
+        "latest": "2026-10-27 11:30:00+09:00",
+        "earliest": "2026-10-25 06:00:00+09:00"
       }
     },
     {
@@ -1433,7 +1448,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "Official Weather News timetable JSON supplies only a rolling, undated ten-entry window. The rch_45 playlist feed has not been verified as the same service and a dated 48-hour schedule cannot be derived reliably.",
+      "evidence": "https://weathernews.jp/wnl/timetable.html"
     },
     {
       "playlist_name": "NTV News24",
@@ -1481,9 +1497,18 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "nhk_world_japan",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "nhk_world",
+      "source_options": {},
+      "validated_at": "2026-10-24T21:08:56.249848+00:00",
+      "validation": {
+        "programmes": 325,
+        "current_or_future": 325,
+        "latest": "2026-10-27 11:28:00+09:00",
+        "earliest": "2026-10-25 06:00:00+09:00"
+      }
     },
     {
       "playlist_name": "Green Channel",
@@ -2457,9 +2482,23 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "shop_channel",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "bangumi",
+      "source_options": {
+        "station": "55 ショップチ",
+        "lineup": "cs",
+        "station_line": 52,
+        "station_id": "55"
+      },
+      "validated_at": "2026-10-24T21:08:56.249857+00:00",
+      "validation": {
+        "programmes": 55,
+        "current_or_future": 55,
+        "latest": "2026-10-27 12:00:00+09:00",
+        "earliest": "2026-10-25 06:00:00+09:00"
+      }
     },
     {
       "playlist_name": "V Paradise",

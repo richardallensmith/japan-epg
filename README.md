@@ -1,6 +1,6 @@
 # Japan EPG
 
-An English-first XMLTV generator for Japanese IPTV players. The current feed covers 57 Tokyo, Kansai, BS, CS, and conventional specialty services, preserving the original Japanese metadata alongside translated English metadata.
+An English-first XMLTV generator for Japanese IPTV players. It has 60 configured mappings for Tokyo, Kansai, BS, CS, and conventional specialty services; the active feed includes only channels in the confirmed-live playlist. Japanese-language sources retain their original metadata alongside translated English metadata; English-only sources retain their original English metadata.
 
 The playlist remains the authority for channel identity. The generator refuses to write a feed if any live playlist ID differs from its configured, reviewed value.
 
@@ -65,10 +65,13 @@ The playlist remains the authority for channel identity. The generator refuses t
 | Fuji TV ONE | `CH.614` | G.GUIDE CS, service `307` |
 | Fuji TV TWO | `CH.615` | G.GUIDE CS, service `308` |
 | Fuji TV NEXT | `CH.613` | G.GUIDE CS, service `309` |
+| QVC (CS) | `CH.525` | G.GUIDE CS, service `161` |
+| Shop Channel | `ショップチャンネル_jp` | G.GUIDE CS, service `55` |
+| NHK World-Japan | `NHKWorldJapan.jp` | NHK WORLD-JAPAN English live TV timetable |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
-NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. Commercial listings come from G.GUIDE's broadcaster-supplied [terrestrial](https://bangumi.org/epg/td), [BS](https://bangumi.org/epg/bs), and [CS](https://bangumi.org/epg/cs) schedules, using separate Tokyo and Osaka lineups. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
+Domestic NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. NHK WORLD-JAPAN uses its [English live TV timetable](https://masterpl.hls.nhkworld.jp/epg/w/20261025.json). Commercial listings come from G.GUIDE's broadcaster-supplied [terrestrial](https://bangumi.org/epg/td), [BS](https://bangumi.org/epg/bs), and [CS](https://bangumi.org/epg/cs) schedules, using separate Tokyo and Osaka lineups. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
 
 ## Generate and validate
 
@@ -79,7 +82,7 @@ python3 -m unittest discover -v
 python3 -m src.main
 ```
 
-The second command downloads the current playlist and official schedule, translates cache misses, validates the complete result, then writes `output/epg.xml` atomically. A failed fetch, empty schedule, translation failure, ID mismatch, or validation failure exits nonzero. It never substitutes fixture or sample programmes.
+The second command downloads the current playlist and official schedule, translates cache misses, validates the complete result, then writes `output/epg.xml` atomically. A failed fetch, empty schedule, ID mismatch, or validation failure exits nonzero. Translation provider failures retain source text so current listings remain publishable. It never substitutes fixture or sample programmes.
 
 Useful options:
 
@@ -125,7 +128,7 @@ Validation fails on:
 - a feed whose last programme is suspiciously near/past the current time;
 - non-Japan offsets, conflicting overlaps, fewer than three entries, placeholder-only schedules, or listings starting more than six hours ahead.
 
-Japanese and English titles are emitted for every programme. Both descriptions are emitted whenever the source has a description. XML is built with the standard library XML writer, which escapes titles and descriptions safely.
+Japanese and English titles are emitted when the source provides Japanese and translation is available. English-only source entries carry English titles and descriptions without a misleading Japanese language tag. XML is built with the standard library XML writer, which escapes titles and descriptions safely.
 
 ## Structure
 
@@ -167,6 +170,8 @@ Use the published `epg.xml` URL directly as an EPG source in TiviMate or Sparkle
 Add channel records under `config/channels.yaml`, then implement or reuse a schedule adapter under `src/fetch/`. Keep each playlist ID pinned and covered by an offline fixture test before enabling the channel.
 
 FAST channels are intentionally deferred until the major terrestrial, BS, and conventional specialty services are complete.
+
+The 2026-10-25 live batch adds QVC's distinct CS161 feed, Shop Channel's CS055 feed, and NHK WORLD-JAPAN's English service. The QVC and Shop Channel mappings guard both the G.GUIDE line position and service ID. [SKY PerfecTV](https://www.skyperfectv.co.jp/program/schedule/basic/channel%3ACS161/) identifies QVC as CS161; [Shop Channel](https://www.shopch.jp/sp/CommonViewTypeDInit.do?incPath=%2Finfo%2Ftvhelp_bs.html) identifies its own service as CS055. NHK WORLD-JAPAN's timetable is kept separate from domestic NHK schedules. The similarly named Rakuten QVC feed is not mapped by equivalence.
 
 
 ## Channel-status inventory
