@@ -97,6 +97,23 @@ class TranslateTests(unittest.TestCase):
         self.assertEqual(1, failing.calls)
         self.assertEqual("fake", chain.name)
 
+
+    def test_translation_failure_falls_back_to_source_text(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "titles").write_text(json.dumps({"exact": {}, "prefix": {}}), encoding="utf-8")
+            (root / "manual").write_text(
+                json.dumps({"title": {}, "description": {}, "genre": {}}), encoding="utf-8"
+            )
+            engine = TranslationEngine(
+                title_overrides_path=root / "titles",
+                translation_overrides_path=root / "manual",
+                cache_path=root / "cache.json",
+                provider=FailingProvider(),
+            )
+            self.assertEqual("未翻訳タイトル", engine.title("未翻訳タイトル"))
+            self.assertEqual("未翻訳タイトル", engine.cache.get("title", "未翻訳タイトル"))
+
     def test_broadcast_metadata_symbols_are_not_machine_translated(self):
         with tempfile.TemporaryDirectory() as temp:
             engine = self.make_engine(Path(temp))
