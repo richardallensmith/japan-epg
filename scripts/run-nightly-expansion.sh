@@ -79,7 +79,7 @@ if [[ -z "$(git status --porcelain)" ]]; then
 fi
 
 echo "Running full validation before commit..."
-python -m unittest discover -v
+python3 -m unittest discover -v
 python -m src.main   --days 2   --playlist output/japan-live.m3u   --inventory-playlist https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u
 
 git add -A
@@ -89,7 +89,7 @@ git fetch origin main
 git rebase origin/main
 
 echo "Re-running validation after rebase..."
-python -m unittest discover -v
+python3 -m unittest discover -v
 python -m src.main   --days 2   --playlist output/japan-live.m3u   --inventory-playlist https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u
 
 git push origin HEAD:main
