@@ -46,8 +46,8 @@ The production EPG uses the confirmed-live playlist for active schedule generati
 Validate with:
 
 ```bash
-python -m unittest discover -v
-python -m src.main \
+python3 -m unittest discover -v
+python3 -m src.main \
   --days 2 \
   --playlist output/japan-live.m3u \
   --inventory-playlist https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u
