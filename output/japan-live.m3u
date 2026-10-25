@@ -21,9 +21,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-newsworld-rak
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_54" tvg-name="オリコンニュース" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_54.png",オリコンニュース
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news2cmafhls-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_70" tvg-name="Bloomberg TV+" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/bloomberg_tv.png",Bloomberg TV+
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01601-bloomberg-bloombergplus-hls-rakutenjp/playlist.m3u8
-
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_90" tvg-name="Euronews" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/euronews.png",Euronews
 https://cdn-apne1.tsv2.amagi.tv/linear/amg00882-euronewssa-euronewsengjp-rakutenjp/playlist.m3u8
 
