@@ -10,6 +10,8 @@ from unittest.mock import patch
 from src.fetch.bangumi import BangumiSource, _BangumiParser, JST
 from src.fetch.base import SourceError
 from src.fetch.nhk_world import NHKWorldSource
+from src.fetch.weathernews import WeathernewsSource
+from src.fetch.skyperfectv import SkyPerfectVSource
 from src.models import XmltvChannel
 from src.playlist import load_playlist
 from src.translate import load_json_yaml
@@ -70,6 +72,52 @@ class NHKWorldMappingTests(unittest.TestCase):
                                now=datetime(2026, 10, 25, 3, 55, tzinfo=JST), min_future_hours=0,
                                min_programmes=3)
         self.assertEqual(3, result['programmes'])
+
+
+class WeathernewsMappingTests(unittest.TestCase):
+    def test_official_rolling_timetable_matches_live_identity_and_crosses_midnight(self):
+        fixture = load_json_yaml(ROOT / 'tests/fixtures/weathernews_rows.json')
+        config = load_json_yaml(ROOT / 'config/channels.yaml')['channels']['weather_news']
+        playlist = {c.name: c for c in load_playlist(str(ROOT / 'output/japan-live.m3u'))}
+        self.assertEqual('rch_45', playlist[config['playlist_name']].tvg_id)
+        self.assertEqual('rch_45', config['expected_tvg_id'])
+        now = datetime(2026, 10, 26, 14, 42, tzinfo=JST)
+        with patch('src.fetch.weathernews.urlopen', return_value=io.BytesIO(json.dumps(fixture).encode())):
+            programmes = WeathernewsSource().fetch(channel_id='rch_45', now=now, days=2)
+        self.assertEqual(len(fixture) - 1, len(programmes))
+        self.assertEqual(datetime(2026, 10, 26, 14, tzinfo=JST), programmes[0].start)
+        self.assertEqual(datetime(2026, 10, 27, 0, tzinfo=JST), programmes[3].stop)
+        self.assertEqual(fixture[0]['title'], programmes[0].title_ja)
+        self.assertTrue(all(p.channel_id == 'rch_45' and p.stop > p.start for p in programmes))
+        for programme in programmes:
+            programme.title_en = programme.title_ja
+        tree = build_xmltv(programmes, channels=[XmltvChannel('rch_45', 'Weathernews LiVE', 'ウェザーニュースLiVE')])
+        validate_feed(tree, expected_channel_ids={'rch_45'}, playlist_channel_ids={'rch_45'}, now=now)
+
+
+class GSTVCSMappingTests(unittest.TestCase):
+    def test_sky_guide_uses_exact_cs527_identity_and_midnight_date(self):
+        config = load_json_yaml(ROOT / 'config/channels.yaml')['channels']['gstv_cs']
+        playlist = {c.name: c for c in load_playlist(str(ROOT / 'output/japan-live.m3u'))}
+        self.assertEqual('CH.527', playlist[config['playlist_name']].tvg_id)
+        self.assertEqual('CH.527', config['expected_tvg_id'])
+        html = '<meta content="https://www.skyperfectv.co.jp/program/schedule/premium/channel%3A527/"><title>ジュエリー☆ＧＳＴＶ</title>'
+        html += '<div class="p-schedule__hdr" data-date="2026-10-26"></div>'
+        html += '<div class="p-schedule__hdr" data-date="2026-10-27"></div>'
+        html += '<tr id="js-pm"><td>'
+        for time_range, title in [('22:00〜23:00', 'ジュエリー特集'), ('23:00〜00:00', '麗しの宝石ショッピング')]:
+            html += f'<li class="p-program__item"><p class="p-program__range">{time_range}</p><p class="p-program__name">{title}</p></li>'
+        html += '</td><td></td></tr><tr id="js-md"><td>'
+        for time_range in ['00:00〜02:00', '02:00〜03:00', '03:00〜04:00']:
+            html += f'<li class="p-program__item"><p class="p-program__range">{time_range}</p><p class="p-program__name">GSTVリピート放送</p></li>'
+        html += '</td><td></td></tr>'
+        now = datetime(2026, 10, 26, 22, 30, tzinfo=JST)
+        with patch('src.fetch.skyperfectv.urlopen', return_value=io.BytesIO(html.encode())):
+            programmes = SkyPerfectVSource().fetch(channel_id='CH.527', now=now, days=2)
+        self.assertEqual(5, len(programmes))
+        self.assertEqual(datetime(2026, 10, 27, 0, tzinfo=JST), programmes[2].start)
+        self.assertEqual(datetime(2026, 10, 27, 4, tzinfo=JST), programmes[-1].stop)
+        self.assertTrue(all(p.channel_id == 'CH.527' for p in programmes))
 
 
 if __name__ == '__main__':

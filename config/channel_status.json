@@ -1,11 +1,11 @@
 {
   "version": 1,
   "playlist_url": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
-  "reconciled_at": "2026-10-24T21:08:39.825250+00:00",
+  "reconciled_at": "2026-10-26T05:48:02.024547+00:00",
   "identity_sha256": "049ba9e6fd1790ef032f391c138e8ef3edb73e3dd6882d0bae7f6af59421fa7c",
   "totals": {
-    "pending": 107,
-    "enabled": 60
+    "pending": 105,
+    "enabled": 62
   },
   "channels": [
     {
@@ -316,7 +316,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "Rakuten QVC is a distinct feed. No current timed schedule tied to this exact feed was established; the CS161 guide is not assumed equivalent. The playlist-linked merged EPG ended in August 2026.",
+      "evidence": "https://channel.rakuten.co.jp/service/"
     },
     {
       "playlist_name": "QVC (CS)",
@@ -334,12 +335,12 @@
         "station_line": 1,
         "station_id": "161"
       },
-      "validated_at": "2026-10-24T21:08:56.249814+00:00",
+      "validated_at": "2026-10-26T05:48:19.794780+00:00",
       "validation": {
-        "programmes": 54,
-        "current_or_future": 54,
-        "latest": "2026-10-27 12:00:00+09:00",
-        "earliest": "2026-10-25 06:00:00+09:00"
+        "programmes": 55,
+        "current_or_future": 55,
+        "latest": "2026-10-28 20:00:00+09:00",
+        "earliest": "2026-10-26 14:00:00+09:00"
       }
     },
     {
@@ -350,7 +351,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "Rakuten GSTV is a distinct feed. Its own current timed programme guide was not established; the CS527 guide is not assumed equivalent. The playlist-linked merged EPG ended in August 2026.",
+      "evidence": "https://channel.rakuten.co.jp/service/"
     },
     {
       "playlist_name": "GSTV (CS)",
@@ -358,10 +360,19 @@
       "group": "ラクテンTV",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Official GSTV TV timetable was stale at this run: its published listings ended 2026-10-25 01:59 JST, before the 06:00 JST live-build window. No current/future CS527 schedule was validated.",
-      "evidence": "https://www.gstv.jp/about_gstv/tv_schedule"
+      "config_key": "gstv_cs",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "evidence": "https://www.skyperfectv.co.jp/program/schedule/premium/channel%3A527/",
+      "source": "skyperfectv",
+      "source_options": {},
+      "validated_at": "2026-10-26T05:48:19.794800+00:00",
+      "validation": {
+        "programmes": 50,
+        "current_or_future": 50,
+        "latest": "2026-10-28 20:00:00+09:00",
+        "earliest": "2026-10-26 14:00:00+09:00"
+      }
     },
     {
       "playlist_name": "セクシーエンタメチャンネル",
@@ -587,12 +598,12 @@
         "area": "130",
         "service": "g1"
       },
-      "validated_at": "2026-10-24T21:08:56.249836+00:00",
+      "validated_at": "2026-10-26T05:48:19.794808+00:00",
       "validation": {
-        "programmes": 152,
-        "current_or_future": 152,
-        "latest": "2026-10-27 11:30:00+09:00",
-        "earliest": "2026-10-25 06:00:00+09:00"
+        "programmes": 133,
+        "current_or_future": 133,
+        "latest": "2026-10-28 19:57:00+09:00",
+        "earliest": "2026-10-26 14:05:00+09:00"
       }
     },
     {
@@ -1446,10 +1457,19 @@
       "group": "BS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Official Weather News timetable JSON supplies only a rolling, undated ten-entry window. The rch_45 playlist feed has not been verified as the same service and a dated 48-hour schedule cannot be derived reliably.",
-      "evidence": "https://weathernews.jp/wnl/timetable.html"
+      "config_key": "weather_news",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "evidence": "https://weathernews.jp/wnl/timetable.html",
+      "source": "weathernews",
+      "source_options": {},
+      "validated_at": "2026-10-26T05:48:19.794818+00:00",
+      "validation": {
+        "programmes": 9,
+        "current_or_future": 9,
+        "latest": "2026-10-27 17:00:00+09:00",
+        "earliest": "2026-10-26 14:00:00+09:00"
+      }
     },
     {
       "playlist_name": "NTV News24",
@@ -1502,12 +1522,12 @@
       "reason": "Exact playlist identity and current source listings validated.",
       "source": "nhk_world",
       "source_options": {},
-      "validated_at": "2026-10-24T21:08:56.249848+00:00",
+      "validated_at": "2026-10-26T05:48:19.794822+00:00",
       "validation": {
-        "programmes": 325,
-        "current_or_future": 325,
-        "latest": "2026-10-27 11:28:00+09:00",
-        "earliest": "2026-10-25 06:00:00+09:00"
+        "programmes": 334,
+        "current_or_future": 334,
+        "latest": "2026-10-28 19:55:00+09:00",
+        "earliest": "2026-10-26 14:30:00+09:00"
       }
     },
     {
@@ -2454,7 +2474,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "This Rakuten Igo/Shogi Light service carries archived matches; the CS363 broadcaster guide describes a different service. No current timed guide for this exact feed was established, and the playlist-linked merged EPG ended in August 2026.",
+      "evidence": "https://channel.rakuten.co.jp/service/"
     },
     {
       "playlist_name": "Mnet",
@@ -2492,12 +2513,12 @@
         "station_line": 52,
         "station_id": "55"
       },
-      "validated_at": "2026-10-24T21:08:56.249857+00:00",
+      "validated_at": "2026-10-26T05:48:19.794832+00:00",
       "validation": {
-        "programmes": 55,
-        "current_or_future": 55,
-        "latest": "2026-10-27 12:00:00+09:00",
-        "earliest": "2026-10-25 06:00:00+09:00"
+        "programmes": 57,
+        "current_or_future": 57,
+        "latest": "2026-10-28 20:00:00+09:00",
+        "earliest": "2026-10-26 14:00:00+09:00"
       }
     },
     {

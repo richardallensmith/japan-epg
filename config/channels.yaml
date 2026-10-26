@@ -781,6 +781,24 @@
       "display_name_ja": "NHK WORLD-JAPAN",
       "source": "nhk_world",
       "source_options": {}
+    },
+    "weather_news": {
+      "enabled": true,
+      "playlist_name": "Weather News",
+      "expected_tvg_id": "rch_45",
+      "display_name_en": "Weathernews LiVE",
+      "display_name_ja": "ウェザーニュースLiVE",
+      "source": "weathernews",
+      "source_options": {}
+    },
+    "gstv_cs": {
+      "enabled": true,
+      "playlist_name": "GSTV (CS)",
+      "expected_tvg_id": "CH.527",
+      "display_name_en": "Jewelry GSTV (CS527)",
+      "display_name_ja": "ジュエリー☆GSTV",
+      "source": "skyperfectv",
+      "source_options": {}
     }
   }
 }

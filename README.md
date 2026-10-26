@@ -1,6 +1,6 @@
 # Japan EPG
 
-An English-first XMLTV generator for Japanese IPTV players. It has 60 configured mappings for Tokyo, Kansai, BS, CS, and conventional specialty services; the active feed includes only channels in the confirmed-live playlist. Japanese-language sources retain their original metadata alongside translated English metadata; English-only sources retain their original English metadata.
+An English-first XMLTV generator for Japanese IPTV players. It has 62 configured mappings for Tokyo, Kansai, BS, CS, and conventional specialty services; the active feed includes only channels in the confirmed-live playlist. Japanese-language sources retain their original metadata alongside translated English metadata; English-only sources retain their original English metadata.
 
 The playlist remains the authority for channel identity. The generator refuses to write a feed if any live playlist ID differs from its configured, reviewed value.
 
@@ -68,10 +68,14 @@ The playlist remains the authority for channel identity. The generator refuses t
 | QVC (CS) | `CH.525` | G.GUIDE CS, service `161` |
 | Shop Channel | `ショップチャンネル_jp` | G.GUIDE CS, service `55` |
 | NHK World-Japan | `NHKWorldJapan.jp` | NHK WORLD-JAPAN English live TV timetable |
+| Weather News | `rch_45` | Weathernews LiVE official rolling timetable |
+| GSTV (CS) | `CH.527` | SKY PerfecTV premium CS527 guide |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
 Domestic NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. NHK WORLD-JAPAN uses its [English live TV timetable](https://masterpl.hls.nhkworld.jp/epg/w/20261025.json). Commercial listings come from G.GUIDE's broadcaster-supplied [terrestrial](https://bangumi.org/epg/td), [BS](https://bangumi.org/epg/bs), and [CS](https://bangumi.org/epg/cs) schedules, using separate Tokyo and Osaka lineups. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
+
+Weather News uses [Weathernews LiVE's own rolling timetable](https://weathernews.jp/wnl/timetable.html), which usually exposes about a day of upcoming entries. GSTV (CS) uses [SKY PerfecTV's dated premium CS527 guide](https://www.skyperfectv.co.jp/program/schedule/premium/channel%3A527/). The Rakuten GSTV and QVC feeds and the Rakuten Igo/Shogi Light feed remain separate identities; the CS and standard channel guides are not reused for them without evidence of matching schedules.
 
 ## Generate and validate
 

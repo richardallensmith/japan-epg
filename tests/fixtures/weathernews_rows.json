@@ -1,0 +1,52 @@
+[
+  {
+    "hour": "14:00",
+    "title": "ウェザーニュースLiVE・アフタヌーン",
+    "caster": "aohara2023"
+  },
+  {
+    "hour": "17:00",
+    "title": "ウェザーニュースLiVE・イブニング",
+    "caster": "tokita"
+  },
+  {
+    "hour": "20:00",
+    "title": "ウェザーニュースLiVE・ムーン ",
+    "caster": "kobayashi"
+  },
+  {
+    "hour": "23:00",
+    "title": "ウェザーニュースLiVE",
+    "caster": ""
+  },
+  {
+    "hour": "00:00",
+    "title": "ウェザーニュースLiVE",
+    "caster": ""
+  },
+  {
+    "hour": "05:00",
+    "title": "ウェザーニュースLiVE・モーニング",
+    "caster": "fukuyoshi"
+  },
+  {
+    "hour": "08:00",
+    "title": "ウェザーニュースLiVE・サンシャイン",
+    "caster": "okamoto2023"
+  },
+  {
+    "hour": "11:00",
+    "title": "ウェザーニュースLiVE・コーヒータイム",
+    "caster": "ogawa"
+  },
+  {
+    "hour": "14:00",
+    "title": "ウェザーニュースLiVE・アフタヌーン",
+    "caster": "kawabata"
+  },
+  {
+    "hour": "17:00",
+    "title": "ウェザーニュースLiVE・イブニング",
+    "caster": "ailin"
+  }
+]

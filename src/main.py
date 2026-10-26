@@ -8,6 +8,8 @@ from pathlib import Path
 from .fetch.bangumi import BangumiSource
 from .fetch.nhk import NHKTimetableSource
 from .fetch.nhk_world import NHKWorldSource
+from .fetch.weathernews import WeathernewsSource
+from .fetch.skyperfectv import SkyPerfectVSource
 from .models import XmltvChannel
 from .inventory import reconcile, mark_validated, save as save_inventory
 from .normalize import deduplicate
@@ -65,7 +67,8 @@ def build(args: argparse.Namespace) -> dict:
                 "Refusing to generate a mismatched feed."
             )
         source_factories = {"nhk": NHKTimetableSource, "bangumi": BangumiSource,
-                            "nhk_world": NHKWorldSource}
+                            "nhk_world": NHKWorldSource, "weathernews": WeathernewsSource,
+                            "skyperfectv": SkyPerfectVSource}
         try:
             source = source_factories[config["source"]](**config["source_options"])
         except KeyError as exc:
