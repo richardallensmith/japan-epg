@@ -21,11 +21,13 @@ Existing EPG mappings for channels that are currently dead or removed must be pr
 1. Read `output/japan-live.m3u`.
 2. Read `config/channels.yaml`, `config/channel_status.json`, and the existing source adapters.
 3. Identify confirmed-live channels that do not currently have an enabled, validated EPG mapping.
-4. Select up to 5 of those uncovered live channels for work.
-5. Prefer candidates where a trustworthy schedule source can be established with reasonable effort.
-6. Prefer conventional broadcaster schedules and official or established guide sources over brittle scraping.
-7. If a live channel is a FAST/streaming channel with no trustworthy public schedule, leave it unchanged and record why rather than inventing programme data.
-8. Only after all reasonable confirmed-live gaps are covered or explicitly deferred should the run spend time expanding EPG mappings for currently dead/unpublished upstream channels.
+4. Select up to 12 of those uncovered live channels for work.
+5. Work through the batch efficiently: group channels that share the same trustworthy schedule source or adapter when possible, but validate each channel identity independently.
+6. Prefer candidates where a trustworthy schedule source can be established with reasonable effort.
+7. Prefer conventional broadcaster schedules and official or established guide sources over brittle scraping.
+8. If a live channel is a FAST/streaming channel with no trustworthy public schedule, leave it unchanged and record why rather than inventing programme data.
+9. Do not stop merely because one or two channels were added; continue through the selected batch while time remains and validation stays green.
+10. Only after all reasonable confirmed-live gaps are covered or explicitly deferred should the run spend time expanding EPG mappings for currently dead/unpublished upstream channels.
 
 ## Mapping rules
 
