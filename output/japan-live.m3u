@@ -1,24 +1,24 @@
 #EXTM3U url-tvg="https://skinred78.github.io/jp-iptv-epg/jp-epg-merged.xml" tvg-shift=0 m3uautoload=1
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_47" tvg-name="日テレNEWS" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_47.png",日テレNEWS
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_47" tvg-name="日テレNEWS" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_47.png",NTV News (日テレNEWS)
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news1hlscmaf-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_108" tvg-name="FNNプライムオンライン" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_108.png",FNNプライムオンライン
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_108" tvg-name="FNNプライムオンライン" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_108.png",FNN Prime Online (FNNプライムオンライン)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news4-cmaf-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_115" tvg-name="MBSニュース" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_115.png",MBSニュース
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_115" tvg-name="MBSニュース" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_115.png",MBS News (MBSニュース)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news5-cmaf-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_101" tvg-name="日テレNEWSセレクト" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_101.png",日テレNEWSセレクト
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_101" tvg-name="日テレNEWSセレクト" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_101.png",NTV News Select (日テレNEWSセレクト)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-ntv-newsselect-cmaf-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_56" tvg-name="共同通信News" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_56.png",共同通信News
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_56" tvg-name="共同通信News" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_56.png",Kyodo News (共同通信News)
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news3hlscmaf-rakutenjp/playlist.m3u8
 
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_103" tvg-name="NewsWorld" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/newsworld.png",NewsWorld
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-newsworld-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_54" tvg-name="オリコンニュース" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_54.png",オリコンニュース
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_54" tvg-name="オリコンニュース" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_54.png",Oricon News (オリコンニュース)
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news2cmafhls-rakutenjp/playlist.m3u8
 
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_90" tvg-name="Euronews" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/euronews.png",Euronews
@@ -30,10 +30,10 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00453-reuters-reuters-hls-rakutenjp
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_97" tvg-name="NTV Pro Wrestling" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/ntv_pro_wrestling.png",NTV Pro Wrestling
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-ntv-pro-wrestling-hls-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_34" tvg-name="ムビドラTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_34.png",ムビドラTV
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_34" tvg-name="ムビドラTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_34.png",Mubidora TV (ムビドラTV)
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-moviecmaf-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_73" tvg-name="手塚プロダクションTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_73.png",手塚プロダクションTV
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_73" tvg-name="手塚プロダクションTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_73.png",Tezuka Productions TV (手塚プロダクションTV)
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-anime5-cmaf-rakutenjp/playlist.m3u8
 
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_65" tvg-name="キッズ" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_65.png",キッズ
@@ -72,13 +72,13 @@ https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-nagoyanextcmaf-ra
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_102" tvg-name="QVC" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/qvc.png",QVC
 https://d1flvb4iqlercm.cloudfront.net/r-channel/live.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="CH.525" tvg-name="QVC" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/qvc.png",QVC (CS)
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="CH.525" tvg-name="QVC" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/qvc.png",QVC CS
 https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
 
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_112" tvg-name="GSTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/gstv.png",GSTV
 https://rch01e-alive-hls.akamaized.net/15bcd044c531aa99/out/v1/339db39dc83c421f94a8cebb777e4d02/index.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="CH.527" tvg-name="GSTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/gstv.png",GSTV (CS)
+#EXTINF:-1 group-title="ラクテンTV" tvg-id="CH.527" tvg-name="GSTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/gstv.png",Jewelry GSTV (CS527)
 https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)
 
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_98" tvg-name="セクシーエンタメチャンネル" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_98.png",セクシーエンタメチャンネル
@@ -144,17 +144,17 @@ https://livetv.fastv.jp/channel_assembly/69998DB5725E30535DA6/master.m3u8
 #EXTINF:-1 group-title="FAST" tvg-id="fastch_v2_krdrm" tvg-name="韓流チャンネル (FAST)" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/fastch_v2_krdrm.png",韓流チャンネル (FAST)
 https://livetv.fastv.jp/channel_assembly/6960905473F5101B6A17/master.m3u8
 
-#EXTINF:-1 group-title="地上デジタル" tvg-id="NHK東京・総合_jp" tvg-name="NHK G" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/nhk_g.png",NHK G
+#EXTINF:-1 group-title="地上デジタル" tvg-id="NHK東京・総合_jp" tvg-name="NHK G" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/nhk_g.png",NHK G Tokyo
 http://tsb-mega.i9.ee/stream/nhkg_avc_1080p
 
-#EXTINF:-1 group-title="BS放送" tvg-id="rch_45" tvg-name="Weather News" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/weather_news.png",Weather News
+#EXTINF:-1 group-title="BS放送" tvg-id="rch_45" tvg-name="Weather News" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/weather_news.png",Weathernews LiVE
 https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
 
-#EXTINF:-1 group-title="CS放送" tvg-id="NHKWorldJapan.jp" tvg-name="NHK World-Japan" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/nhk_world_japan.png",NHK World-Japan
+#EXTINF:-1 group-title="CS放送" tvg-id="NHKWorldJapan.jp" tvg-name="NHK World-Japan" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/nhk_world_japan.png",NHK WORLD-JAPAN
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 
 #EXTINF:-1 group-title="CS放送" tvg-id="rch_100" tvg-name="囲碁・将棋ライト" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_100.png",囲碁・将棋ライト (R)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-igo-shogi-cmaf-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="CS放送" tvg-id="ショップチャンネル_jp" tvg-name="ショップチャンネル" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/ch_a4d3ba28.png",ショップチャンネル
+#EXTINF:-1 group-title="CS放送" tvg-id="ショップチャンネル_jp" tvg-name="ショップチャンネル" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/ch_a4d3ba28.png",Shop Channel (ショップチャンネル)
 https://stream3.shopch.jp/HLS/master.m3u8
