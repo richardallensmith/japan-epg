@@ -9,6 +9,7 @@ from src.stream_health import (
     publishable_keys,
     reconcile_inventory,
     render_playlist,
+    reviewed_display_names,
     should_suppress_mass_failure,
 )
 
@@ -34,6 +35,18 @@ class StreamHealthTests(unittest.TestCase):
         self.assertNotIn(",One\n", rendered)
         self.assertIn(entries[1].extinf, rendered)
         self.assertIn(entries[1].url, rendered)
+
+    def test_render_playlist_uses_english_first_visible_name_without_changing_metadata(self):
+        header, entries = parse_playlist(PLAYLIST)
+        rendered = render_playlist(
+            header,
+            entries,
+            {entries[1].key},
+            {"two.jp": "Two English (二番)"},
+        )
+        self.assertIn('tvg-id="two.jp" tvg-name="Two"', rendered)
+        self.assertIn(',Two English (二番)\n', rendered)
+        self.assertNotIn(',Two\n', rendered)
 
     def test_bootstrap_channels_are_grandfathered_and_publishable(self):
         _, entries = parse_playlist(PLAYLIST)
