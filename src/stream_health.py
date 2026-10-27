@@ -332,11 +332,43 @@ def publishable_keys(state: dict) -> set[str]:
     }
 
 
-def render_playlist(header: str, entries: list[StreamEntry], allowed: set[str]) -> str:
+def reviewed_display_names(path: Path) -> dict[str, str]:
+    """Return reviewed English-first visible names keyed by tvg-id."""
+    data = load_json(path, {})
+    overrides: dict[str, str] = {}
+    for config in data.get("channels", {}).values():
+        if not config.get("enabled", True):
+            continue
+        tvg_id = config.get("expected_tvg_id", "")
+        english = (config.get("display_name_en") or "").strip()
+        original = (config.get("playlist_name") or "").strip()
+        if not tvg_id or not english:
+            continue
+        if original and original != english and any(ord(ch) > 127 for ch in original):
+            overrides[tvg_id] = f"{english} ({original})"
+        else:
+            overrides[tvg_id] = english
+    return overrides
+
+
+def _visible_extinf(extinf: str, visible_name: str) -> str:
+    prefix, separator, _ = extinf.rpartition(",")
+    return f"{prefix}{separator}{visible_name}" if separator else extinf
+
+
+def render_playlist(
+    header: str,
+    entries: list[StreamEntry],
+    allowed: set[str],
+    name_overrides: dict[str, str] | None = None,
+) -> str:
     lines = [header]
+    overrides = name_overrides or {}
     for entry in entries:
         if entry.key in allowed:
-            lines.extend(["", entry.extinf, entry.url])
+            visible_name = overrides.get(entry.tvg_id)
+            extinf = _visible_extinf(entry.extinf, visible_name) if visible_name else entry.extinf
+            lines.extend(["", extinf, entry.url])
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -465,7 +497,8 @@ def run(args: argparse.Namespace) -> dict:
         "baseline_failure_ratio": baseline_ratio,
     }
 
-    playlist_text = render_playlist(header, entries, allowed)
+    name_overrides = reviewed_display_names(ROOT / "config" / "channels.yaml")
+    playlist_text = render_playlist(header, entries, allowed, name_overrides)
     report_text = render_report(state, changes)
 
     if not args.dry_run:
