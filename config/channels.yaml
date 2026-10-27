@@ -799,6 +799,153 @@
       "display_name_ja": "ジュエリー☆GSTV",
       "source": "skyperfectv",
       "source_options": {}
+    },
+    "rchannel_ntv_news": {
+      "enabled": true,
+      "playlist_name": "日テレNEWS",
+      "expected_tvg_id": "rch_47",
+      "display_name_en": "NTV News",
+      "display_name_ja": "日テレNEWS",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 47,
+        "source_title": "日テレNEWS"
+      }
+    },
+    "rchannel_fnn_prime": {
+      "enabled": true,
+      "playlist_name": "FNNプライムオンライン",
+      "expected_tvg_id": "rch_108",
+      "display_name_en": "FNN Prime Online",
+      "display_name_ja": "FNNプライムオンライン",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 108,
+        "source_title": "FNNプライムオンライン"
+      }
+    },
+    "rchannel_mbs_news": {
+      "enabled": true,
+      "playlist_name": "MBSニュース",
+      "expected_tvg_id": "rch_115",
+      "display_name_en": "MBS News",
+      "display_name_ja": "MBSニュース",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 115,
+        "source_title": "MBSニュース"
+      }
+    },
+    "rchannel_ntv_news_select": {
+      "enabled": true,
+      "playlist_name": "日テレNEWSセレクト",
+      "expected_tvg_id": "rch_101",
+      "display_name_en": "NTV News Select",
+      "display_name_ja": "日テレNEWSセレクト",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 101,
+        "source_title": "日テレNEWSセレクト グルメや生活情報、ニュース解説満載！"
+      }
+    },
+    "rchannel_kyodo_news": {
+      "enabled": true,
+      "playlist_name": "共同通信News",
+      "expected_tvg_id": "rch_56",
+      "display_name_en": "Kyodo News",
+      "display_name_ja": "共同通信News",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 56,
+        "source_title": "共同通信News"
+      }
+    },
+    "rchannel_news_world": {
+      "enabled": true,
+      "playlist_name": "NewsWorld",
+      "expected_tvg_id": "rch_103",
+      "display_name_en": "NewsWorld",
+      "display_name_ja": "NewsWorld",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 103,
+        "source_title": "NewsWorld",
+        "source_language": "en"
+      }
+    },
+    "rchannel_oricon_news": {
+      "enabled": true,
+      "playlist_name": "オリコンニュース",
+      "expected_tvg_id": "rch_54",
+      "display_name_en": "Oricon News",
+      "display_name_ja": "オリコンニュース",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 54,
+        "source_title": "オリコンニュース"
+      }
+    },
+    "rchannel_euronews": {
+      "enabled": true,
+      "playlist_name": "Euronews",
+      "expected_tvg_id": "rch_90",
+      "display_name_en": "Euronews",
+      "display_name_ja": "ユーロニュース",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 90,
+        "source_title": "[英語]ユーロニュース",
+        "source_language": "en"
+      }
+    },
+    "rchannel_reuters_60": {
+      "enabled": true,
+      "playlist_name": "Reuters 60",
+      "expected_tvg_id": "rch_120",
+      "display_name_en": "Reuters 60",
+      "display_name_ja": "Reuters 60",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 120,
+        "source_title": "[英語]Reuters 60",
+        "source_language": "en"
+      }
+    },
+    "rchannel_ntv_pro_wrestling": {
+      "enabled": true,
+      "playlist_name": "NTV Pro Wrestling",
+      "expected_tvg_id": "rch_97",
+      "display_name_en": "NTV Pro Wrestling",
+      "display_name_ja": "日テレプロレス アーカイブ",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 97,
+        "source_title": "日ﾃﾚﾌﾟﾛﾚｽ ｱｰｶｲ部"
+      }
+    },
+    "rchannel_mubidora": {
+      "enabled": true,
+      "playlist_name": "ムビドラTV",
+      "expected_tvg_id": "rch_34",
+      "display_name_en": "Mubidora TV",
+      "display_name_ja": "ムビドラTV",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 34,
+        "source_title": "ムビドラTV"
+      }
+    },
+    "rchannel_tezuka": {
+      "enabled": true,
+      "playlist_name": "手塚プロダクションTV",
+      "expected_tvg_id": "rch_73",
+      "display_name_en": "Tezuka Productions TV",
+      "display_name_ja": "手塚プロダクションTV",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 73,
+        "source_title": "手塚プロダクションTV"
+      }
     }
   }
 }

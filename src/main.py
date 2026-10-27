@@ -10,6 +10,7 @@ from .fetch.nhk import NHKTimetableSource
 from .fetch.nhk_world import NHKWorldSource
 from .fetch.weathernews import WeathernewsSource
 from .fetch.skyperfectv import SkyPerfectVSource
+from .fetch.rchannel import RChannelSource
 from .models import XmltvChannel
 from .inventory import reconcile, mark_validated, save as save_inventory
 from .normalize import deduplicate
@@ -68,9 +69,12 @@ def build(args: argparse.Namespace) -> dict:
             )
         source_factories = {"nhk": NHKTimetableSource, "bangumi": BangumiSource,
                             "nhk_world": NHKWorldSource, "weathernews": WeathernewsSource,
-                            "skyperfectv": SkyPerfectVSource}
+                            "skyperfectv": SkyPerfectVSource, "rchannel": RChannelSource}
         try:
-            source = source_factories[config["source"]](**config["source_options"])
+            source_options = dict(config["source_options"])
+            if config["source"] == "rchannel":
+                source_options["playlist_stream_url"] = playlist_channel.url
+            source = source_factories[config["source"]](**source_options)
         except KeyError as exc:
             raise RuntimeError(f"Unsupported source {config['source']!r} for {key}") from exc
         source_names.add(source.name)

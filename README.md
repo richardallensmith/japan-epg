@@ -70,12 +70,26 @@ The playlist remains the authority for channel identity. The generator refuses t
 | NHK World-Japan | `NHKWorldJapan.jp` | NHK WORLD-JAPAN English live TV timetable |
 | Weather News | `rch_45` | Weathernews LiVE official rolling timetable |
 | GSTV (CS) | `CH.527` | SKY PerfecTV premium CS527 guide |
+| 日テレNEWS | `rch_47` | R Channel official dated grid, channel 47 |
+| FNNプライムオンライン | `rch_108` | R Channel official dated grid, channel 108 |
+| MBSニュース | `rch_115` | R Channel official dated grid, channel 115 |
+| 日テレNEWSセレクト | `rch_101` | R Channel official dated grid, channel 101 |
+| 共同通信News | `rch_56` | R Channel official dated grid, channel 56 |
+| NewsWorld | `rch_103` | R Channel official dated grid, channel 103 |
+| オリコンニュース | `rch_54` | R Channel official dated grid, channel 54 |
+| Euronews | `rch_90` | R Channel official dated grid, channel 90 |
+| Reuters 60 | `rch_120` | R Channel official dated grid, channel 120 |
+| NTV Pro Wrestling | `rch_97` | R Channel official dated grid, channel 97 |
+| ムビドラTV | `rch_34` | R Channel official dated grid, channel 34 |
+| 手塚プロダクションTV | `rch_73` | R Channel official dated grid, channel 73 |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
 Domestic NHK listings come from NHK's official public timetable JSON, the same `api.nhk.jp/r8` endpoint used by <https://www.nhk.jp/timetable/>. NHK WORLD-JAPAN uses its [English live TV timetable](https://masterpl.hls.nhkworld.jp/epg/w/20261025.json). Commercial listings come from G.GUIDE's broadcaster-supplied [terrestrial](https://bangumi.org/epg/td), [BS](https://bangumi.org/epg/bs), and [CS](https://bangumi.org/epg/cs) schedules, using separate Tokyo and Osaka lineups. Each adapter is isolated under `src/fetch/`, so a source can be replaced without changing playlist matching, normalization, translation, XML generation, or validation.
 
 Weather News uses [Weathernews LiVE's own rolling timetable](https://weathernews.jp/wnl/timetable.html), which usually exposes about a day of upcoming entries. GSTV (CS) uses [SKY PerfecTV's dated premium CS527 guide](https://www.skyperfectv.co.jp/program/schedule/premium/channel%3A527/). The Rakuten GSTV and QVC feeds and the Rakuten Igo/Shogi Light feed remain separate identities; the CS and standard channel guides are not reused for them without evidence of matching schedules.
+
+The R Channel mappings use [R Channel's dated programme grid](https://channel.rakuten.co.jp/schedule). Its JSON rows include channel IDs, titles, stream URLs, and programme start/end times. The adapter checks the exact source channel ID and stream URL against each live playlist entry before using listings. English-only news services retain their source English text without a false Japanese language tag. The grid is a platform endpoint and may change; missing or changed data fails validation rather than substituting a different channel's guide.
 
 ## Generate and validate
 
