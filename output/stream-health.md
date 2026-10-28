@@ -1,19 +1,19 @@
 # Japan IPTV Stream Health
 
-- Updated: 2026-10-27T22:17:04.834324+00:00
-- Run status: ok
+- Updated: 2026-10-28T04:10:27.679338+00:00
+- Run status: suppressed_mass_failure
 - Upstream channels: 167
 - Checked: 167
-- Passed: 52
-- Failed: 115
+- Passed: 29
+- Failed: 138
 - Published: 53
 - Healthy: 52
 - Suspect: 1
 - Removed: 114
 - New/unverified: 0
 - Upstream removed: 0
-- Mass-failure suppression: no
-- Proven-good baseline failures: 1/53 (1.9%)
+- Mass-failure suppression: yes
+- Proven-good baseline failures: 24/53 (45.3%)
 
 ## Status changes
 
@@ -102,7 +102,7 @@
 - [removed] Nittele G+ (failures: 26) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b07a5a0c5cb309f5b3bdf904e56c5778#.m3u8: Server returned 404 Not Found
 - [removed] Nittele Plus (failures: 26) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13b7a29438bb697b299207f39178bcced#.m3u8: Server returned 404 Not Found
 - [removed] Pigoo (failures: 26) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1827f6ab7906f013daeadef859acb0af8#.m3u8: Server returned 404 Not Found
-- [removed] STOCK VOICE (failures: 26)
+- [removed] STOCK VOICE (failures: 26) - TIMEOUT
 - [removed] SUN (failures: 26) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2dff119c3fb8755ce47b1eb377e9cb37d#.m3u8: Server returned 404 Not Found
 - [removed] Shogi Channel (failures: 26) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=172efdc0b11dcb99aa4825cfa5159ced6#.m3u8: Server returned 404 Not Found
 - [removed] Sky A (failures: 26) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1feebfcb80e43d2661a0444663cd05dd9#.m3u8: Server returned 404 Not Found
