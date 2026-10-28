@@ -13,7 +13,7 @@ from src.fetch.nhk_world import NHKWorldSource
 from src.fetch.weathernews import WeathernewsSource
 from src.fetch.skyperfectv import SkyPerfectVSource
 from src.models import XmltvChannel
-from src.playlist import load_playlist
+from src.playlist import load_playlist, find_configured_channel
 from src.translate import load_json_yaml
 from src.validate import validate_feed
 from src.xmltv import build_xmltv
@@ -25,7 +25,7 @@ class ShoppingMappingTests(unittest.TestCase):
     def test_cs_shopping_rows_match_exact_playlist_ids_and_services(self):
         fixture = load_json_yaml(ROOT / 'tests/fixtures/live_shopping_rows.json')
         configs = load_json_yaml(ROOT / 'config/channels.yaml')['channels']
-        playlist = {c.name: c for c in load_playlist(str(ROOT / 'output/japan-live.m3u'))}
+        playlist = load_playlist(str(ROOT / 'output/japan-live.m3u'))
         html = '<div id="ch_area">' + ''.join(f'<p>{escape(n)}</p>' for n in fixture['channel_names']) + '</div>'
         for channel in fixture['channels']:
             html += f'<ul id="program_line_{channel["station_line"]}">'
@@ -39,7 +39,10 @@ class ShoppingMappingTests(unittest.TestCase):
         for row in fixture['channels']:
             with self.subTest(channel=row['playlist_name']):
                 config = configs[row['config_key']]
-                self.assertEqual(row['tvg_id'], playlist[row['playlist_name']].tvg_id)
+                matched = find_configured_channel(playlist, name=config['playlist_name'],
+                                                  expected_id=config['expected_tvg_id'],
+                                                  aliases=tuple(config.get('live_playlist_aliases', ())))
+                self.assertEqual(row['tvg_id'], matched.tvg_id)
                 self.assertEqual(row['tvg_id'], config['expected_tvg_id'])
                 self.assertEqual(row['station_id'], config['source_options']['station_id'])
                 programmes = BangumiSource(**config['source_options'])._parse(page, row['tvg_id'], '20261025')
@@ -56,8 +59,9 @@ class NHKWorldMappingTests(unittest.TestCase):
         fixture = load_json_yaml(ROOT / 'tests/fixtures/nhk_world_rows.json')
         configs = load_json_yaml(ROOT / 'config/channels.yaml')['channels']
         config = configs['nhk_world_japan']
-        playlist = {c.name: c for c in load_playlist(str(ROOT / 'output/japan-live.m3u'))}
-        self.assertEqual(playlist[config['playlist_name']].tvg_id, config['expected_tvg_id'])
+        playlist = load_playlist(str(ROOT / 'output/japan-live.m3u'))
+        self.assertEqual(find_configured_channel(playlist, name=config['playlist_name'],
+                         expected_id=config['expected_tvg_id']).tvg_id, config['expected_tvg_id'])
         with patch('src.fetch.nhk_world.urlopen', return_value=io.BytesIO(json.dumps(fixture).encode())):
             programmes = NHKWorldSource().fetch(
                 channel_id=config['expected_tvg_id'], now=datetime(2026, 10, 25, 3, 55, tzinfo=JST), days=0)
@@ -78,8 +82,9 @@ class WeathernewsMappingTests(unittest.TestCase):
     def test_official_rolling_timetable_matches_live_identity_and_crosses_midnight(self):
         fixture = load_json_yaml(ROOT / 'tests/fixtures/weathernews_rows.json')
         config = load_json_yaml(ROOT / 'config/channels.yaml')['channels']['weather_news']
-        playlist = {c.name: c for c in load_playlist(str(ROOT / 'output/japan-live.m3u'))}
-        self.assertEqual('rch_45', playlist[config['playlist_name']].tvg_id)
+        playlist = load_playlist(str(ROOT / 'output/japan-live.m3u'))
+        self.assertEqual('rch_45', find_configured_channel(playlist, name=config['playlist_name'],
+                         expected_id=config['expected_tvg_id']).tvg_id)
         self.assertEqual('rch_45', config['expected_tvg_id'])
         now = datetime(2026, 10, 26, 14, 42, tzinfo=JST)
         with patch('src.fetch.weathernews.urlopen', return_value=io.BytesIO(json.dumps(fixture).encode())):
@@ -98,8 +103,10 @@ class WeathernewsMappingTests(unittest.TestCase):
 class GSTVCSMappingTests(unittest.TestCase):
     def test_sky_guide_uses_exact_cs527_identity_and_midnight_date(self):
         config = load_json_yaml(ROOT / 'config/channels.yaml')['channels']['gstv_cs']
-        playlist = {c.name: c for c in load_playlist(str(ROOT / 'output/japan-live.m3u'))}
-        self.assertEqual('CH.527', playlist[config['playlist_name']].tvg_id)
+        playlist = load_playlist(str(ROOT / 'output/japan-live.m3u'))
+        self.assertEqual('CH.527', find_configured_channel(playlist, name=config['playlist_name'],
+                         expected_id=config['expected_tvg_id'],
+                         aliases=tuple(config.get('live_playlist_aliases', ()))).tvg_id)
         self.assertEqual('CH.527', config['expected_tvg_id'])
         html = '<meta content="https://www.skyperfectv.co.jp/program/schedule/premium/channel%3A527/"><title>ジュエリー☆ＧＳＴＶ</title>'
         html += '<div class="p-schedule__hdr" data-date="2026-10-26"></div>'

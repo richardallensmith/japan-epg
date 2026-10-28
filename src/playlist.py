@@ -60,3 +60,14 @@ def find_channel(channels: list[PlaylistChannel], *, name: str) -> PlaylistChann
     if not matches[0].tvg_id:
         raise PlaylistError(f"Playlist channel {name!r} has no tvg-id")
     return matches[0]
+
+
+def find_configured_channel(channels: list[PlaylistChannel], *, name: str,
+                            expected_id: str, aliases: tuple[str, ...] = ()) -> PlaylistChannel:
+    """Match a pinned ID and its published or live-playlist display identity."""
+    names = {name, *aliases}
+    matches = [c for c in channels if c.tvg_id == expected_id
+               and (c.name in names or c.tvg_name == name)]
+    if len(matches) != 1:
+        raise PlaylistError(f"Expected one playlist identity for {name!r} ({expected_id!r}); found {len(matches)}")
+    return matches[0]

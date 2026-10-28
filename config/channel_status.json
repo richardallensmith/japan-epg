@@ -1,11 +1,11 @@
 {
   "version": 1,
   "playlist_url": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
-  "reconciled_at": "2026-10-27T05:46:09.899762+00:00",
+  "reconciled_at": "2026-10-28T00:09:51.461593+00:00",
   "identity_sha256": "049ba9e6fd1790ef032f391c138e8ef3edb73e3dd6882d0bae7f6af59421fa7c",
   "totals": {
-    "enabled": 74,
-    "pending": 93
+    "enabled": 86,
+    "pending": 81
   },
   "channels": [
     {
@@ -22,12 +22,12 @@
         "source_channel_id": 47,
         "source_title": "日テレNEWS"
       },
-      "validated_at": "2026-10-27T05:46:29.768602+00:00",
+      "validated_at": "2026-10-28T00:10:25.185180+00:00",
       "validation": {
         "programmes": 54,
         "current_or_future": 54,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {
@@ -44,12 +44,12 @@
         "source_channel_id": 108,
         "source_title": "FNNプライムオンライン"
       },
-      "validated_at": "2026-10-27T05:46:29.768625+00:00",
+      "validated_at": "2026-10-28T00:10:25.185204+00:00",
       "validation": {
         "programmes": 54,
         "current_or_future": 54,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {
@@ -66,12 +66,12 @@
         "source_channel_id": 115,
         "source_title": "MBSニュース"
       },
-      "validated_at": "2026-10-27T05:46:29.768631+00:00",
+      "validated_at": "2026-10-28T00:10:25.185210+00:00",
       "validation": {
         "programmes": 54,
         "current_or_future": 54,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {
@@ -88,12 +88,12 @@
         "source_channel_id": 101,
         "source_title": "日テレNEWSセレクト グルメや生活情報、ニュース解説満載！"
       },
-      "validated_at": "2026-10-27T05:46:29.768635+00:00",
+      "validated_at": "2026-10-28T00:10:25.185214+00:00",
       "validation": {
         "programmes": 54,
         "current_or_future": 54,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {
@@ -110,12 +110,12 @@
         "source_channel_id": 56,
         "source_title": "共同通信News"
       },
-      "validated_at": "2026-10-27T05:46:29.768639+00:00",
+      "validated_at": "2026-10-28T00:10:25.185218+00:00",
       "validation": {
-        "programmes": 18,
-        "current_or_future": 18,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "programmes": 19,
+        "current_or_future": 19,
+        "latest": "2026-10-30 17:00:00+09:00",
+        "earliest": "2026-10-28 08:00:00+09:00"
       }
     },
     {
@@ -133,12 +133,12 @@
         "source_title": "NewsWorld",
         "source_language": "en"
       },
-      "validated_at": "2026-10-27T05:46:29.768643+00:00",
+      "validated_at": "2026-10-28T00:10:25.185222+00:00",
       "validation": {
         "programmes": 107,
         "current_or_future": 107,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:30:00+09:00"
+        "latest": "2026-10-30 14:30:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {
@@ -155,12 +155,12 @@
         "source_channel_id": 54,
         "source_title": "オリコンニュース"
       },
-      "validated_at": "2026-10-27T05:46:29.768646+00:00",
+      "validated_at": "2026-10-28T00:10:25.185225+00:00",
       "validation": {
-        "programmes": 18,
-        "current_or_future": 18,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "programmes": 19,
+        "current_or_future": 19,
+        "latest": "2026-10-30 17:00:00+09:00",
+        "earliest": "2026-10-28 08:00:00+09:00"
       }
     },
     {
@@ -198,12 +198,12 @@
         "source_title": "[英語]ユーロニュース",
         "source_language": "en"
       },
-      "validated_at": "2026-10-27T05:46:29.768651+00:00",
+      "validated_at": "2026-10-28T00:10:25.185230+00:00",
       "validation": {
-        "programmes": 170,
-        "current_or_future": 170,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:30:00+09:00"
+        "programmes": 173,
+        "current_or_future": 173,
+        "latest": "2026-10-30 14:34:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {
@@ -221,12 +221,12 @@
         "source_title": "[英語]Reuters 60",
         "source_language": "en"
       },
-      "validated_at": "2026-10-27T05:46:29.768655+00:00",
+      "validated_at": "2026-10-28T00:10:25.185233+00:00",
       "validation": {
-        "programmes": 29,
-        "current_or_future": 29,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "programmes": 30,
+        "current_or_future": 30,
+        "latest": "2026-10-30 16:00:00+09:00",
+        "earliest": "2026-10-28 08:00:00+09:00"
       }
     },
     {
@@ -253,12 +253,12 @@
         "source_channel_id": 97,
         "source_title": "日ﾃﾚﾌﾟﾛﾚｽ ｱｰｶｲ部"
       },
-      "validated_at": "2026-10-27T05:46:29.768659+00:00",
+      "validated_at": "2026-10-28T00:10:25.185237+00:00",
       "validation": {
-        "programmes": 29,
-        "current_or_future": 29,
-        "latest": "2026-10-29 21:25:30+09:00",
-        "earliest": "2026-10-27 14:00:47+09:00"
+        "programmes": 28,
+        "current_or_future": 28,
+        "latest": "2026-10-30 15:45:10+09:00",
+        "earliest": "2026-10-28 08:16:21+09:00"
       }
     },
     {
@@ -295,12 +295,12 @@
         "source_channel_id": 34,
         "source_title": "ムビドラTV"
       },
-      "validated_at": "2026-10-27T05:46:29.768663+00:00",
+      "validated_at": "2026-10-28T00:10:25.185241+00:00",
       "validation": {
-        "programmes": 31,
-        "current_or_future": 31,
-        "latest": "2026-10-29 19:53:16+09:00",
-        "earliest": "2026-10-27 14:24:07+09:00"
+        "programmes": 32,
+        "current_or_future": 32,
+        "latest": "2026-10-30 15:52:47+09:00",
+        "earliest": "2026-10-28 08:54:57+09:00"
       }
     },
     {
@@ -317,12 +317,12 @@
         "source_channel_id": 73,
         "source_title": "手塚プロダクションTV"
       },
-      "validated_at": "2026-10-27T05:46:29.768667+00:00",
+      "validated_at": "2026-10-28T00:10:25.185245+00:00",
       "validation": {
-        "programmes": 119,
-        "current_or_future": 119,
-        "latest": "2026-10-29 20:10:20+09:00",
-        "earliest": "2026-10-27 14:30:05+09:00"
+        "programmes": 112,
+        "current_or_future": 112,
+        "latest": "2026-10-30 14:25:28+09:00",
+        "earliest": "2026-10-28 09:00:08+09:00"
       }
     },
     {
@@ -343,7 +343,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "No matching channel row in R Channel’s dated public grid on 2026-10-28; no current timed schedule for this exact stream was established.",
+      "evidence": "https://channel.rakuten.co.jp/schedule (2026-10-28 grid)"
     },
     {
       "playlist_name": "that’s 70s",
@@ -351,9 +352,21 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "rchannel_thats_70s",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 104,
+        "source_title": "that’s 70s"
+      },
+      "validated_at": "2026-10-28T00:10:25.185249+00:00",
+      "validation": {
+        "programmes": 33,
+        "current_or_future": 33,
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 08:00:00+09:00"
+      }
     },
     {
       "playlist_name": "that’s 80s",
@@ -361,9 +374,21 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "rchannel_thats_80s",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 105,
+        "source_title": "that’s 80s"
+      },
+      "validated_at": "2026-10-28T00:10:25.185253+00:00",
+      "validation": {
+        "programmes": 32,
+        "current_or_future": 32,
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 08:00:00+09:00"
+      }
     },
     {
       "playlist_name": "that’s 90s00s",
@@ -371,9 +396,21 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "rchannel_thats_90s00s",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 106,
+        "source_title": "that’s 90s00s"
+      },
+      "validated_at": "2026-10-28T00:10:25.185256+00:00",
+      "validation": {
+        "programmes": 32,
+        "current_or_future": 32,
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 08:00:00+09:00"
+      }
     },
     {
       "playlist_name": "that’s Rock",
@@ -381,9 +418,21 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "rchannel_thats_rock",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 107,
+        "source_title": "that’s Rock"
+      },
+      "validated_at": "2026-10-28T00:10:25.185260+00:00",
+      "validation": {
+        "programmes": 31,
+        "current_or_future": 31,
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
+      }
     },
     {
       "playlist_name": "麻雀",
@@ -391,9 +440,21 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "rchannel_mahjong",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 74,
+        "source_title": "麻雀"
+      },
+      "validated_at": "2026-10-28T00:10:25.185264+00:00",
+      "validation": {
+        "programmes": 40,
+        "current_or_future": 40,
+        "latest": "2026-10-30 14:12:57+09:00",
+        "earliest": "2026-10-28 08:02:04+09:00"
+      }
     },
     {
       "playlist_name": "パチンコ・パチスロ",
@@ -401,9 +462,21 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "rchannel_pachinko",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 35,
+        "source_title": "パチンコ・パチスロ"
+      },
+      "validated_at": "2026-10-28T00:10:25.185267+00:00",
+      "validation": {
+        "programmes": 60,
+        "current_or_future": 60,
+        "latest": "2026-10-30 14:33:47+09:00",
+        "earliest": "2026-10-28 09:02:12+09:00"
+      }
     },
     {
       "playlist_name": "ぷれいば！",
@@ -411,9 +484,21 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "rchannel_pureiba",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 113,
+        "source_title": "ぷれいば！ ～ゲーム専門チャンネル～"
+      },
+      "validated_at": "2026-10-28T00:10:25.185271+00:00",
+      "validation": {
+        "programmes": 38,
+        "current_or_future": 38,
+        "latest": "2026-10-30 16:15:54+09:00",
+        "earliest": "2026-10-28 09:01:17+09:00"
+      }
     },
     {
       "playlist_name": "ワンニャンチャンネル",
@@ -421,9 +506,21 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "rchannel_wannyann",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 86,
+        "source_title": "ワンニャンチャンネル"
+      },
+      "validated_at": "2026-10-28T00:10:25.185275+00:00",
+      "validation": {
+        "programmes": 140,
+        "current_or_future": 140,
+        "latest": "2026-10-30 14:10:19+09:00",
+        "earliest": "2026-10-28 08:54:20+09:00"
+      }
     },
     {
       "playlist_name": "九州・沖縄　街ネタ",
@@ -431,9 +528,21 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "config_key": "rchannel_kyushu_okinawa",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 114,
+        "source_title": "九州・沖縄　街ネタ"
+      },
+      "validated_at": "2026-10-28T00:10:25.185278+00:00",
+      "validation": {
+        "programmes": 54,
+        "current_or_future": 54,
+        "latest": "2026-10-30 14:36:08+09:00",
+        "earliest": "2026-10-28 08:58:54+09:00"
+      }
     },
     {
       "playlist_name": "エンタメ～テレDEEP",
@@ -443,7 +552,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "No matching channel row in R Channel’s dated public grid on 2026-10-28; no current timed schedule for this exact stream was established.",
+      "evidence": "https://channel.rakuten.co.jp/schedule (2026-10-28 grid)"
     },
     {
       "playlist_name": "NEW KPOP",
@@ -461,10 +571,22 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Rakuten QVC is a distinct feed. No current timed schedule tied to this exact feed was established; the CS161 guide is not assumed equivalent. The playlist-linked merged EPG ended in August 2026.",
-      "evidence": "https://channel.rakuten.co.jp/service/"
+      "config_key": "rchannel_qvc",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "evidence": "https://channel.rakuten.co.jp/service/",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 102,
+        "source_title": "QVC"
+      },
+      "validated_at": "2026-10-28T00:10:25.185287+00:00",
+      "validation": {
+        "programmes": 46,
+        "current_or_future": 46,
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
+      }
     },
     {
       "playlist_name": "QVC (CS)",
@@ -482,12 +604,12 @@
         "station_line": 1,
         "station_id": "161"
       },
-      "validated_at": "2026-10-27T05:46:29.768673+00:00",
+      "validated_at": "2026-10-28T00:10:25.185294+00:00",
       "validation": {
-        "programmes": 55,
-        "current_or_future": 55,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "programmes": 54,
+        "current_or_future": 54,
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {
@@ -496,10 +618,22 @@
       "group": "ラクテンTV",
       "phase": "fast",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "Rakuten GSTV is a distinct feed. Its own current timed programme guide was not established; the CS527 guide is not assumed equivalent. The playlist-linked merged EPG ended in August 2026.",
-      "evidence": "https://channel.rakuten.co.jp/service/"
+      "config_key": "rchannel_gstv",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "evidence": "https://channel.rakuten.co.jp/service/",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 112,
+        "source_title": "GSTV（宝石専門ch）"
+      },
+      "validated_at": "2026-10-28T00:10:25.185299+00:00",
+      "validation": {
+        "programmes": 28,
+        "current_or_future": 28,
+        "latest": "2026-10-30 16:00:00+09:00",
+        "earliest": "2026-10-28 08:00:00+09:00"
+      }
     },
     {
       "playlist_name": "GSTV (CS)",
@@ -513,12 +647,12 @@
       "evidence": "https://www.skyperfectv.co.jp/program/schedule/premium/channel%3A527/",
       "source": "skyperfectv",
       "source_options": {},
-      "validated_at": "2026-10-27T05:46:29.768676+00:00",
+      "validated_at": "2026-10-28T00:10:25.185304+00:00",
       "validation": {
         "programmes": 50,
         "current_or_future": 50,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {
@@ -529,7 +663,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "No matching channel row in R Channel’s dated public grid on 2026-10-28; no current timed schedule for this exact stream was established.",
+      "evidence": "https://channel.rakuten.co.jp/schedule (2026-10-28 grid)"
     },
     {
       "playlist_name": "刺激ストロング",
@@ -539,7 +674,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "No matching channel row in R Channel’s dated public grid on 2026-10-28; no current timed schedule for this exact stream was established.",
+      "evidence": "https://channel.rakuten.co.jp/schedule (2026-10-28 grid)"
     },
     {
       "playlist_name": "映画（年齢制限あり）",
@@ -549,7 +685,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Awaiting source research and current-listing validation."
+      "reason": "No matching channel row in R Channel’s dated public grid on 2026-10-28; no current timed schedule for this exact stream was established.",
+      "evidence": "https://channel.rakuten.co.jp/schedule (2026-10-28 grid)"
     },
     {
       "playlist_name": "ビジネス・プレミアム (FAST)",
@@ -745,12 +882,12 @@
         "area": "130",
         "service": "g1"
       },
-      "validated_at": "2026-10-27T05:46:29.768682+00:00",
+      "validated_at": "2026-10-28T00:10:25.185311+00:00",
       "validation": {
-        "programmes": 132,
-        "current_or_future": 132,
-        "latest": "2026-10-29 20:15:00+09:00",
-        "earliest": "2026-10-27 14:05:00+09:00"
+        "programmes": 141,
+        "current_or_future": 141,
+        "latest": "2026-10-30 14:50:00+09:00",
+        "earliest": "2026-10-28 08:15:00+09:00"
       }
     },
     {
@@ -1610,12 +1747,12 @@
       "evidence": "https://weathernews.jp/wnl/timetable.html",
       "source": "weathernews",
       "source_options": {},
-      "validated_at": "2026-10-27T05:46:29.768691+00:00",
+      "validated_at": "2026-10-28T00:10:25.185322+00:00",
       "validation": {
         "programmes": 9,
         "current_or_future": 9,
-        "latest": "2026-10-28 17:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "latest": "2026-10-29 11:00:00+09:00",
+        "earliest": "2026-10-28 08:00:00+09:00"
       }
     },
     {
@@ -1669,12 +1806,12 @@
       "reason": "Exact playlist identity and current source listings validated.",
       "source": "nhk_world",
       "source_options": {},
-      "validated_at": "2026-10-27T05:46:29.768694+00:00",
+      "validated_at": "2026-10-28T00:10:25.185326+00:00",
       "validation": {
-        "programmes": 308,
-        "current_or_future": 308,
-        "latest": "2026-10-29 19:53:00+09:00",
-        "earliest": "2026-10-27 14:30:00+09:00"
+        "programmes": 299,
+        "current_or_future": 299,
+        "latest": "2026-10-30 14:28:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {
@@ -2619,10 +2756,22 @@
       "group": "CS放送",
       "phase": "conventional",
       "present": true,
-      "config_key": null,
-      "status": "pending",
-      "reason": "This Rakuten Igo/Shogi Light service carries archived matches; the CS363 broadcaster guide describes a different service. No current timed guide for this exact feed was established, and the playlist-linked merged EPG ended in August 2026.",
-      "evidence": "https://channel.rakuten.co.jp/service/"
+      "config_key": "rchannel_igo_shogi_light",
+      "status": "enabled",
+      "reason": "Exact playlist identity and current source listings validated.",
+      "evidence": "https://channel.rakuten.co.jp/service/",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 100,
+        "source_title": "囲碁・将棋ライト"
+      },
+      "validated_at": "2026-10-28T00:10:25.185335+00:00",
+      "validation": {
+        "programmes": 26,
+        "current_or_future": 26,
+        "latest": "2026-10-30 15:45:04+09:00",
+        "earliest": "2026-10-28 08:07:43+09:00"
+      }
     },
     {
       "playlist_name": "Mnet",
@@ -2660,12 +2809,12 @@
         "station_line": 52,
         "station_id": "55"
       },
-      "validated_at": "2026-10-27T05:46:29.768705+00:00",
+      "validated_at": "2026-10-28T00:10:25.185340+00:00",
       "validation": {
-        "programmes": 57,
-        "current_or_future": 57,
-        "latest": "2026-10-29 20:00:00+09:00",
-        "earliest": "2026-10-27 14:00:00+09:00"
+        "programmes": 56,
+        "current_or_future": 56,
+        "latest": "2026-10-30 15:00:00+09:00",
+        "earliest": "2026-10-28 09:00:00+09:00"
       }
     },
     {

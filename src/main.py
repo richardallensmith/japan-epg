@@ -14,7 +14,7 @@ from .fetch.rchannel import RChannelSource
 from .models import XmltvChannel
 from .inventory import reconcile, mark_validated, save as save_inventory
 from .normalize import deduplicate
-from .playlist import find_channel, load_playlist
+from .playlist import find_configured_channel, load_playlist
 from .translate import TranslationEngine, load_json_yaml
 from .validate import validate_feed
 from .xmltv import build_xmltv, write_xmltv
@@ -37,12 +37,9 @@ def build(args: argparse.Namespace) -> dict:
     if not configs:
         raise RuntimeError("No enabled channels selected")
     playlist_channels = load_playlist(args.playlist)
-    active_playlist_names = {channel.name for channel in playlist_channels}
-    configs = {
-        key: value
-        for key, value in configs.items()
-        if value["playlist_name"] in active_playlist_names
-    }
+    active_playlist_ids = {channel.tvg_id for channel in playlist_channels}
+    configs = {key: value for key, value in configs.items()
+               if value["expected_tvg_id"] in active_playlist_ids}
     if not configs:
         raise RuntimeError("No enabled configured channels are present in the active playlist")
 
@@ -60,7 +57,10 @@ def build(args: argparse.Namespace) -> dict:
     playlist_ids: set[str] = set()
     source_names: set[str] = set()
     for key, config in configs.items():
-        playlist_channel = find_channel(playlist_channels, name=config["playlist_name"])
+        playlist_channel = find_configured_channel(
+            playlist_channels, name=config["playlist_name"],
+            expected_id=config["expected_tvg_id"],
+            aliases=tuple(config.get("live_playlist_aliases", ())))
         expected_id = config["expected_tvg_id"]
         if playlist_channel.tvg_id != expected_id:
             raise RuntimeError(

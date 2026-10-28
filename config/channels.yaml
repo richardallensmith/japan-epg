@@ -757,7 +757,10 @@
         "lineup": "cs",
         "station_line": 1,
         "station_id": "161"
-      }
+      },
+      "live_playlist_aliases": [
+        "QVC CS"
+      ]
     },
     "shop_channel": {
       "enabled": true,
@@ -798,7 +801,10 @@
       "display_name_en": "Jewelry GSTV (CS527)",
       "display_name_ja": "ジュエリー☆GSTV",
       "source": "skyperfectv",
-      "source_options": {}
+      "source_options": {},
+      "live_playlist_aliases": [
+        "Jewelry GSTV (CS527)"
+      ]
     },
     "rchannel_ntv_news": {
       "enabled": true,
@@ -945,6 +951,150 @@
       "source_options": {
         "source_channel_id": 73,
         "source_title": "手塚プロダクションTV"
+      }
+    },
+    "rchannel_thats_70s": {
+      "enabled": true,
+      "playlist_name": "that’s 70s",
+      "expected_tvg_id": "rch_104",
+      "display_name_en": "That’s 70s",
+      "display_name_ja": "that’s 70s",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 104,
+        "source_title": "that’s 70s"
+      }
+    },
+    "rchannel_thats_80s": {
+      "enabled": true,
+      "playlist_name": "that’s 80s",
+      "expected_tvg_id": "rch_105",
+      "display_name_en": "That’s 80s",
+      "display_name_ja": "that’s 80s",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 105,
+        "source_title": "that’s 80s"
+      }
+    },
+    "rchannel_thats_90s00s": {
+      "enabled": true,
+      "playlist_name": "that’s 90s00s",
+      "expected_tvg_id": "rch_106",
+      "display_name_en": "That’s 90s00s",
+      "display_name_ja": "that’s 90s00s",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 106,
+        "source_title": "that’s 90s00s"
+      }
+    },
+    "rchannel_thats_rock": {
+      "enabled": true,
+      "playlist_name": "that’s Rock",
+      "expected_tvg_id": "rch_107",
+      "display_name_en": "That’s Rock",
+      "display_name_ja": "that’s Rock",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 107,
+        "source_title": "that’s Rock"
+      }
+    },
+    "rchannel_mahjong": {
+      "enabled": true,
+      "playlist_name": "麻雀",
+      "expected_tvg_id": "rch_74",
+      "display_name_en": "Mahjong",
+      "display_name_ja": "麻雀",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 74,
+        "source_title": "麻雀"
+      }
+    },
+    "rchannel_pachinko": {
+      "enabled": true,
+      "playlist_name": "パチンコ・パチスロ",
+      "expected_tvg_id": "rch_35",
+      "display_name_en": "Pachinko and Pachislot",
+      "display_name_ja": "パチンコ・パチスロ",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 35,
+        "source_title": "パチンコ・パチスロ"
+      }
+    },
+    "rchannel_pureiba": {
+      "enabled": true,
+      "playlist_name": "ぷれいば！",
+      "expected_tvg_id": "rch_113",
+      "display_name_en": "Pureiba! Games",
+      "display_name_ja": "ぷれいば！",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 113,
+        "source_title": "ぷれいば！ ～ゲーム専門チャンネル～"
+      }
+    },
+    "rchannel_wannyann": {
+      "enabled": true,
+      "playlist_name": "ワンニャンチャンネル",
+      "expected_tvg_id": "rch_86",
+      "display_name_en": "Wan Nyan Channel",
+      "display_name_ja": "ワンニャンチャンネル",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 86,
+        "source_title": "ワンニャンチャンネル"
+      }
+    },
+    "rchannel_kyushu_okinawa": {
+      "enabled": true,
+      "playlist_name": "九州・沖縄　街ネタ",
+      "expected_tvg_id": "rch_114",
+      "display_name_en": "Kyushu and Okinawa Local",
+      "display_name_ja": "九州・沖縄　街ネタ",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 114,
+        "source_title": "九州・沖縄　街ネタ"
+      }
+    },
+    "rchannel_qvc": {
+      "enabled": true,
+      "playlist_name": "QVC",
+      "expected_tvg_id": "rch_102",
+      "display_name_en": "QVC (R Channel)",
+      "display_name_ja": "QVC",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 102,
+        "source_title": "QVC"
+      }
+    },
+    "rchannel_gstv": {
+      "enabled": true,
+      "playlist_name": "GSTV",
+      "expected_tvg_id": "rch_112",
+      "display_name_en": "GSTV (R Channel)",
+      "display_name_ja": "GSTV",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 112,
+        "source_title": "GSTV（宝石専門ch）"
+      }
+    },
+    "rchannel_igo_shogi_light": {
+      "enabled": true,
+      "playlist_name": "囲碁・将棋ライト (R)",
+      "expected_tvg_id": "rch_100",
+      "display_name_en": "Igo and Shogi Light (R Channel)",
+      "display_name_ja": "囲碁・将棋ライト",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 100,
+        "source_title": "囲碁・将棋ライト"
       }
     }
   }

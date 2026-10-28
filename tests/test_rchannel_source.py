@@ -8,7 +8,7 @@ from unittest.mock import patch
 
 from src.fetch.base import SourceError
 from src.fetch.rchannel import JST, RChannelSource
-from src.playlist import load_playlist
+from src.playlist import load_playlist, find_configured_channel
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -18,16 +18,17 @@ class RChannelTests(unittest.TestCase):
     def setUpClass(cls):
         cls.rows = json.loads((ROOT / "tests/fixtures/rchannel_rows.json").read_text())
         cls.configs = json.loads((ROOT / "config/channels.yaml").read_text())["channels"]
-        cls.playlist = {c.name: c for c in load_playlist(str(ROOT / "output/japan-live.m3u"))}
+        cls.playlist = load_playlist(str(ROOT / "output/japan-live.m3u"))
 
     def test_each_identity_has_current_source_programmes(self):
         now = datetime(2026, 10, 27, 0, 1, tzinfo=JST)
         with patch.object(RChannelSource, "_page", return_value=self.rows):
             for key, config in self.configs.items():
-                if config["source"] != "rchannel":
+                if config["source"] != "rchannel" or config["source_options"]["source_channel_id"] not in {row["id"] for row in self.rows}:
                     continue
                 with self.subTest(channel=key):
-                    playlist = self.playlist[config["playlist_name"]]
+                    playlist = find_configured_channel(self.playlist, name=config["playlist_name"],
+                                                       expected_id=config["expected_tvg_id"])
                     self.assertEqual(playlist.tvg_id, config["expected_tvg_id"])
                     source = RChannelSource(**config["source_options"], playlist_stream_url=playlist.url)
                     programmes = source.fetch(channel_id=playlist.tvg_id, now=now, days=1)
@@ -45,7 +46,9 @@ class RChannelTests(unittest.TestCase):
             source = RChannelSource(**config["source_options"], playlist_stream_url="https://wrong.example/stream")
             with self.assertRaisesRegex(SourceError, "identity or stream changed"):
                 source.fetch(channel_id="rch_47", now=now, days=1)
-            source = RChannelSource(**config["source_options"], playlist_stream_url=self.playlist["日テレNEWS"].url)
+            playlist = find_configured_channel(self.playlist, name=config["playlist_name"],
+                                               expected_id=config["expected_tvg_id"])
+            source = RChannelSource(**config["source_options"], playlist_stream_url=playlist.url)
             with self.assertRaisesRegex(SourceError, "differs from playlist ID"):
                 source.fetch(channel_id="rch_48", now=now, days=1)
 
@@ -54,10 +57,32 @@ class RChannelTests(unittest.TestCase):
         channel = next(row for row in rows if row["id"] == 47)
         channel["programs"][0]["end"] = "2026-10-27T01:00:02.000+09:00"
         config = self.configs["rchannel_ntv_news"]
-        source = RChannelSource(**config["source_options"], playlist_stream_url=self.playlist["日テレNEWS"].url)
+        playlist = find_configured_channel(self.playlist, name=config["playlist_name"],
+                                           expected_id=config["expected_tvg_id"])
+        source = RChannelSource(**config["source_options"], playlist_stream_url=playlist.url)
         with patch.object(RChannelSource, "_page", return_value=rows):
             with self.assertRaisesRegex(SourceError, "overlapping programmes"):
                 source.fetch(channel_id="rch_47", now=datetime(2026, 10, 27, 0, 1, tzinfo=JST), days=1)
+
+    def test_expansion_rows_pin_each_live_channel_and_stream(self):
+        rows = json.loads((ROOT / "tests/fixtures/rchannel_expansion_rows.json").read_text())
+        by_id = {row["id"]: row for row in rows}
+        now = datetime(2026, 10, 28, 0, 1, tzinfo=JST)
+        with patch.object(RChannelSource, "_page", return_value=rows):
+            for key, config in self.configs.items():
+                if config["source"] != "rchannel" or config["source_options"]["source_channel_id"] not in by_id:
+                    continue
+                with self.subTest(channel=key):
+                    playlist = find_configured_channel(self.playlist, name=config["playlist_name"],
+                                                       expected_id=config["expected_tvg_id"])
+                    source = RChannelSource(**config["source_options"], playlist_stream_url=playlist.url)
+                    programmes = source.fetch(channel_id=playlist.tvg_id, now=now, days=1)
+                    self.assertGreaterEqual(len(programmes), 3)
+                    self.assertEqual(by_id[config["source_options"]["source_channel_id"]]["programs"][0]["title"],
+                                     programmes[0].title_ja)
+                    with self.assertRaisesRegex(SourceError, "identity or stream changed"):
+                        RChannelSource(**config["source_options"], playlist_stream_url="https://wrong.example/").fetch(
+                            channel_id=playlist.tvg_id, now=now, days=1)
 
 
 if __name__ == "__main__":
