@@ -1086,7 +1086,7 @@
       }
     },
     "rchannel_igo_shogi_light": {
-      "enabled": true,
+      "enabled": false,
       "playlist_name": "囲碁・将棋ライト (R)",
       "expected_tvg_id": "rch_100",
       "display_name_en": "Igo and Shogi Light (R Channel)",
@@ -1095,7 +1095,10 @@
       "source_options": {
         "source_channel_id": 100,
         "source_title": "囲碁・将棋ライト"
-      }
+      },
+      "live_playlist_aliases": [
+        "Igo and Shogi Light (R Channel) (囲碁・将棋ライト (R))"
+      ]
     }
   }
 }

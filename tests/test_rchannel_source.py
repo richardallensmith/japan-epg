@@ -28,7 +28,8 @@ class RChannelTests(unittest.TestCase):
                     continue
                 with self.subTest(channel=key):
                     playlist = find_configured_channel(self.playlist, name=config["playlist_name"],
-                                                       expected_id=config["expected_tvg_id"])
+                                                       expected_id=config["expected_tvg_id"],
+                                                       aliases=tuple(config.get("live_playlist_aliases", ())))
                     self.assertEqual(playlist.tvg_id, config["expected_tvg_id"])
                     source = RChannelSource(**config["source_options"], playlist_stream_url=playlist.url)
                     programmes = source.fetch(channel_id=playlist.tvg_id, now=now, days=1)
@@ -74,7 +75,8 @@ class RChannelTests(unittest.TestCase):
                     continue
                 with self.subTest(channel=key):
                     playlist = find_configured_channel(self.playlist, name=config["playlist_name"],
-                                                       expected_id=config["expected_tvg_id"])
+                                                       expected_id=config["expected_tvg_id"],
+                                                       aliases=tuple(config.get("live_playlist_aliases", ())))
                     source = RChannelSource(**config["source_options"], playlist_stream_url=playlist.url)
                     programmes = source.fetch(channel_id=playlist.tvg_id, now=now, days=1)
                     self.assertGreaterEqual(len(programmes), 3)
