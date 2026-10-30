@@ -65,6 +65,21 @@ class RChannelTests(unittest.TestCase):
             with self.assertRaisesRegex(SourceError, "overlapping programmes"):
                 source.fetch(channel_id="rch_47", now=datetime(2026, 10, 27, 0, 1, tzinfo=JST), days=1)
 
+    def test_reuters_conflicting_pair_is_omitted_without_changing_times(self):
+        rows = deepcopy(self.rows)
+        channel = next(row for row in rows if row["id"] == 120)
+        channel["programs"][0]["end"] = "2026-10-27T03:00:00.000+09:00"
+        config = self.configs["rchannel_reuters_60"]
+        playlist = find_configured_channel(self.playlist, name=config["playlist_name"],
+                                           expected_id=config["expected_tvg_id"])
+        source = RChannelSource(**config["source_options"], playlist_stream_url=playlist.url)
+        with patch.object(RChannelSource, "_page", return_value=rows):
+            programmes = source.fetch(channel_id="rch_120", now=datetime(2026, 10, 27, 0, 1, tzinfo=JST), days=1)
+        self.assertNotIn(datetime(2026, 10, 27, 0, 0, tzinfo=JST), [p.start for p in programmes])
+        self.assertNotIn(datetime(2026, 10, 27, 2, 0, tzinfo=JST), [p.start for p in programmes])
+        self.assertIn(datetime(2026, 10, 27, 4, 0, tzinfo=JST), [p.start for p in programmes])
+        self.assertTrue(all(a.stop <= b.start for a, b in zip(programmes, programmes[1:])))
+
     def test_expansion_rows_pin_each_live_channel_and_stream(self):
         rows = json.loads((ROOT / "tests/fixtures/rchannel_expansion_rows.json").read_text())
         by_id = {row["id"]: row for row in rows}

@@ -90,6 +90,17 @@ class RChannelSource:
                     source_url=f"https://channel.rakuten.co.jp/schedule/{day}",
                 )
         result = sorted(programmes.values(), key=lambda p: (p.start, p.stop))
+        if self.source_channel_id == 120:
+            # Reuters occasionally publishes two conflicting slots. Neither
+            # interval can be trusted, so omit both rather than invent an end.
+            conflicted = set()
+            for index, (current, following) in enumerate(zip(result, result[1:])):
+                if current.stop - following.start > timedelta(seconds=1):
+                    conflicted.update((index, index + 1))
+            if conflicted:
+                if len(conflicted) != 2:
+                    raise SourceError("R Channel 120 has multiple conflicting programmes")
+                result = [p for index, p in enumerate(result) if index not in conflicted]
         if len(result) < 3 or result[-1].stop < now_jst + timedelta(hours=2):
             raise SourceError(f"R Channel {self.source_channel_id} has insufficient current/future coverage")
         for current, following in zip(result, result[1:]):
