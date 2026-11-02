@@ -879,6 +879,19 @@
         "source_language": "en"
       }
     },
+    "rchannel_bloomberg_tv_plus": {
+      "enabled": true,
+      "playlist_name": "Bloomberg TV+",
+      "expected_tvg_id": "rch_70",
+      "display_name_en": "Bloomberg TV+",
+      "display_name_ja": "ブルームバーグTV＋",
+      "source": "rchannel",
+      "source_options": {
+        "source_channel_id": 70,
+        "source_title": "[英語]ﾌﾞﾙｰﾑﾊﾞｰｸﾞTV＋",
+        "source_language": "en"
+      }
+    },
     "rchannel_oricon_news": {
       "enabled": true,
       "playlist_name": "オリコンニュース",

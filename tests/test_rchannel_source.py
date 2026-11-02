@@ -101,6 +101,24 @@ class RChannelTests(unittest.TestCase):
                         RChannelSource(**config["source_options"], playlist_stream_url="https://wrong.example/").fetch(
                             channel_id=playlist.tvg_id, now=now, days=1)
 
+    def test_bloomberg_tv_plus_uses_exact_english_feed(self):
+        row = json.loads((ROOT / "tests/fixtures/rchannel_bloomberg_2026-11-02.json").read_text())
+        config = self.configs["rchannel_bloomberg_tv_plus"]
+        playlist = find_configured_channel(self.playlist, name=config["playlist_name"],
+                                           expected_id=config["expected_tvg_id"])
+        self.assertEqual("rch_70", playlist.tvg_id)
+        self.assertEqual(playlist.url, row["manifestUrl"])
+        now = datetime(2026, 11, 2, 0, 1, tzinfo=JST)
+        with patch.object(RChannelSource, "_page", return_value=[row]):
+            source = RChannelSource(**config["source_options"], playlist_stream_url=playlist.url)
+            programmes = source.fetch(channel_id=playlist.tvg_id, now=now, days=0)
+            self.assertEqual(8, len(programmes))
+            self.assertEqual(row["programs"][0]["title"], programmes[0].title_en)
+            self.assertTrue(all(p.title_en and not p.title_ja for p in programmes))
+            with self.assertRaisesRegex(SourceError, "identity or stream changed"):
+                RChannelSource(**config["source_options"], playlist_stream_url="https://wrong.example/").fetch(
+                    channel_id=playlist.tvg_id, now=now, days=0)
+
 
 if __name__ == "__main__":
     unittest.main()

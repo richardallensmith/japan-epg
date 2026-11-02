@@ -1,0 +1,79 @@
+{
+  "id": 70,
+  "title": "[英語]ﾌﾞﾙｰﾑﾊﾞｰｸﾞTV＋",
+  "manifestUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01601-bloomberg-bloombergplus-hls-rakutenjp/playlist.m3u8",
+  "programs": [
+    {
+      "id": 12629927,
+      "channelId": 70,
+      "start": "2026-11-02T00:00:00.000+09:00",
+      "end": "2026-11-02T00:30:00.000+09:00",
+      "title": "Yotam Ottolenghi",
+      "description": "Mishal Husain brings her signature blend of curiosity and tenacity to weekly conversations.",
+      "genreName": "ニュース／報道"
+    },
+    {
+      "id": 12629928,
+      "channelId": 70,
+      "start": "2026-11-02T00:30:00.000+09:00",
+      "end": "2026-11-02T01:00:00.000+09:00",
+      "title": "Nir Bar Dea, Bridgewater Associates CEO",
+      "description": "Philanthropist and financier David Rubenstein talks with the most influential minds in business.",
+      "genreName": "ニュース／報道"
+    },
+    {
+      "id": 12629929,
+      "channelId": 70,
+      "start": "2026-11-02T01:00:00.000+09:00",
+      "end": "2026-11-02T01:30:00.000+09:00",
+      "title": "Businessweek Convenes: A Frank Conversation on AI & Hollywood",
+      "description": "Hollywood leaders examine AI's impact on entertainment jobs, economics and IP rights.",
+      "genreName": "ニュース／報道"
+    },
+    {
+      "id": 12629930,
+      "channelId": 70,
+      "start": "2026-11-02T01:30:00.000+09:00",
+      "end": "2026-11-02T02:00:00.000+09:00",
+      "title": "Kalshi",
+      "description": "Emily Chang hits the streets of New York with Tarek Mansour, co-creator of prediction market Kalshi.",
+      "genreName": "ニュース／報道"
+    },
+    {
+      "id": 12629931,
+      "channelId": 70,
+      "start": "2026-11-02T02:00:00.000+09:00",
+      "end": "2026-11-02T03:00:00.000+09:00",
+      "title": "Bloomberg Wall Street Week",
+      "description": "A weekly program telling the stories of capitalism from around the world, with David Westin.",
+      "genreName": "ニュース／報道"
+    },
+    {
+      "id": 12629932,
+      "channelId": 70,
+      "start": "2026-11-02T03:00:00.000+09:00",
+      "end": "2026-11-02T03:30:00.000+09:00",
+      "title": "Nir Bar Dea, Bridgewater Associates CEO",
+      "description": "Philanthropist and financier David Rubenstein talks with the most influential minds in business.",
+      "genreName": "ニュース／報道"
+    },
+    {
+      "id": 12629933,
+      "channelId": 70,
+      "start": "2026-11-02T03:30:00.000+09:00",
+      "end": "2026-11-02T04:00:00.000+09:00",
+      "title": "Bloomberg Screentime",
+      "description": "",
+      "genreName": "ニュース／報道"
+    },
+    {
+      "id": 12629934,
+      "channelId": 70,
+      "start": "2026-11-02T04:00:00.000+09:00",
+      "end": "2026-11-02T05:00:00.000+09:00",
+      "title": "Why the Future of Entertainment Belongs to Creators ----- Rich Greenfield",
+      "description": "",
+      "genreName": "ニュース／報道"
+    }
+  ]
+}
