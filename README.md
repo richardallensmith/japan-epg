@@ -1,6 +1,6 @@
 # Japan EPG
 
-An English-first XMLTV generator for Japanese IPTV players. It has 62 configured mappings for Tokyo, Kansai, BS, CS, and conventional specialty services; the active feed includes only channels in the confirmed-live playlist. Japanese-language sources retain their original metadata alongside translated English metadata; English-only sources retain their original English metadata.
+An English-first XMLTV generator for Japanese IPTV players. It has configured mappings for Tokyo, Kansai, BS, CS, conventional specialty, and FAST services; the active feed includes only channels in the confirmed-live playlist. Japanese-language sources retain their original metadata alongside translated English metadata; English-only sources retain their original English metadata.
 
 The playlist remains the authority for channel identity. The generator refuses to write a feed if any live playlist ID differs from its configured, reviewed value.
 
@@ -82,6 +82,18 @@ The playlist remains the authority for channel identity. The generator refuses t
 | NTV Pro Wrestling | `rch_97` | R Channel official dated grid, channel 97 |
 | ムビドラTV | `rch_34` | R Channel official dated grid, channel 34 |
 | 手塚プロダクションTV | `rch_73` | R Channel official dated grid, channel 73 |
+| ビジネス・プレミアム (FAST) | `fastch_v2_busns` | Fast TV public player guide, channel `busns` |
+| エンタメニュース (FAST) | `fastch_v2_entns` | Fast TV public player guide, channel `entns` |
+| GOLF LIFE (FAST) | `fastch_v2_bgolf` | Fast TV public player guide, channel `bgolf` |
+| 時代劇TV (FAST) | `fastch_v2_samri` | Fast TV public player guide, channel `samri` |
+| LeminoTV (FAST) | `fastch_v2_comdy` | Fast TV public player guide, channel `comdy` |
+| エンタメ・アジア (FAST) | `fastch_v2_asdrm` | Fast TV public player guide, channel `asdrm` |
+| アニマックス FREE (FAST) | `fastch_v2_kids` | Fast TV public player guide, channel `kids` |
+| ペットTV (FAST) | `fastch_v2_pett1` | Fast TV public player guide, channel `pett1` |
+| キャンプ・アウトドア (FAST) | `fastch_v2_camng` | Fast TV public player guide, channel `camng` |
+| 今日のごはんなに? (FAST) | `fastch_v2_travl` | Fast TV public player guide, channel `travl` |
+| 観るたび (FAST) | `fastch_v2_recip` | Fast TV public player guide, channel `recip` |
+| 丸ごと九州 (FAST) | `fastch_v2_news1` | Fast TV public player guide, channel `news1` |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
@@ -92,6 +104,8 @@ Weather News uses [Weathernews LiVE's own rolling timetable](https://weathernews
 The 2026-10-27 live batch adds 12 more R Channel services: that’s 70s, that’s 80s, that’s 90s00s, that’s Rock, 麻雀, パチンコ・パチスロ, ぷれいば！, ワンニャンチャンネル, 九州・沖縄　街ネタ, QVC, GSTV, and 囲碁・将棋ライト (R). Each uses its own dated grid channel ID, source title, and exact live stream URL. The R Channel QVC, GSTV, and Igo/Shogi Light feeds remain separate from their conventional CS or FAST counterparts. The confirmed-live playlist can show English display names while retaining the upstream `tvg-name`; generation accepts that pinned identity with the same `tvg-id`, and explicit aliases cover the two differently labeled CS shopping feeds. Historical upstream mappings remain enabled for recovered streams.
 
 The R Channel mappings use [R Channel's dated programme grid](https://channel.rakuten.co.jp/schedule). Its JSON rows include channel IDs, titles, stream URLs, and programme start/end times. The adapter checks the exact source channel ID and stream URL against each live playlist entry before using listings. English-only news services retain their source English text without a false Japanese language tag. The grid is a platform endpoint and may change; missing or changed data fails validation rather than substituting a different channel's guide.
+
+The 2026-11-05 live batch adds 12 FAST feeds using [Fast TV's public embedded player](https://fastv.jp/). Its player calls a programme guide API with timed entries and a channel list with stream URLs. Each mapping pins the source channel ID and name, then checks that its stream URL equals the exact live playlist URL. The source's empty-programme placeholders are excluded. The player API may change; identity or schedule failure stops feed generation.
 
 ## Generate and validate
 
@@ -198,7 +212,7 @@ The 2026-10-25 live batch adds QVC's distinct CS161 feed, Shop Channel's CS055 f
 
 `config/channel_status.json` accounts for every exact name/ID pair in the live playlist. Each build reconciles the entire playlist before fetching schedules, including newly added entries and identities removed since the previous build. Removed entries remain in the inventory with `present: false` and do not count toward live totals. Stream URLs are not stored.
 
-Statuses are `pending`, `enabled`, `grouped`, or `blocked`. Configuration alone never marks a channel enabled: only a successful current feed validation records its programme count, coverage, source options, and validation time. `grouped` and `blocked` require a documented reason and source evidence. Newly discovered or changed identities start pending. Rakuten and FAST services are deferred until conventional channels are addressed; QVC/GSTV CS services retain conventional priority. A previous validation timestamp describes that run, not a guarantee of source availability forever.
+Statuses are `pending`, `enabled`, `grouped`, or `blocked`. Configuration alone never marks a channel enabled: only a successful current feed validation records its programme count, coverage, source options, and validation time. `grouped` and `blocked` require a documented reason and source evidence. Newly discovered or changed identities start pending. Separate Rakuten and FAST feeds require their own current schedules and exact identity checks; conventional service guides are not reused for them. A previous validation timestamp describes that run, not a guarantee of source availability forever.
 
 The 2026-10-12 batch uses one shared BS lineup, including the BS-carried J SPORTS and Green Channel services whose playlist groups are CS. Every new service is guarded by both its station label/position and the actual source service ID. No parent/subchannel or FAST equivalence is inferred.
 

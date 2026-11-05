@@ -11,6 +11,7 @@ from .fetch.nhk_world import NHKWorldSource
 from .fetch.weathernews import WeathernewsSource
 from .fetch.skyperfectv import SkyPerfectVSource
 from .fetch.rchannel import RChannelSource
+from .fetch.fastv import FastVSource
 from .models import XmltvChannel
 from .inventory import reconcile, mark_validated, save as save_inventory
 from .normalize import deduplicate
@@ -69,10 +70,13 @@ def build(args: argparse.Namespace) -> dict:
             )
         source_factories = {"nhk": NHKTimetableSource, "bangumi": BangumiSource,
                             "nhk_world": NHKWorldSource, "weathernews": WeathernewsSource,
-                            "skyperfectv": SkyPerfectVSource, "rchannel": RChannelSource}
+                            "skyperfectv": SkyPerfectVSource, "rchannel": RChannelSource,
+                            "fastv": FastVSource}
         try:
             source_options = dict(config["source_options"])
             if config["source"] == "rchannel":
+                source_options["playlist_stream_url"] = playlist_channel.url
+            if config["source"] == "fastv":
                 source_options["playlist_stream_url"] = playlist_channel.url
             source = source_factories[config["source"]](**source_options)
         except KeyError as exc:

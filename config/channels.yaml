@@ -1112,6 +1112,150 @@
       "live_playlist_aliases": [
         "Igo and Shogi Light (R Channel) (囲碁・将棋ライト (R))"
       ]
+    },
+    "fastv_busns": {
+      "enabled": true,
+      "playlist_name": "ビジネス・プレミアム (FAST)",
+      "expected_tvg_id": "fastch_v2_busns",
+      "display_name_en": "Business Premium",
+      "display_name_ja": "ビジネス・プレミアム (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "busns",
+        "source_channel_name": "ビジネス"
+      }
+    },
+    "fastv_entns": {
+      "enabled": true,
+      "playlist_name": "エンタメニュース (FAST)",
+      "expected_tvg_id": "fastch_v2_entns",
+      "display_name_en": "Entertainment News",
+      "display_name_ja": "エンタメニュース (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "entns",
+        "source_channel_name": "ｴﾝﾀﾒﾆｭｰｽ"
+      }
+    },
+    "fastv_bgolf": {
+      "enabled": true,
+      "playlist_name": "GOLF LIFE (FAST)",
+      "expected_tvg_id": "fastch_v2_bgolf",
+      "display_name_en": "GOLF LIFE",
+      "display_name_ja": "GOLF LIFE (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "bgolf",
+        "source_channel_name": "ゴルフ"
+      }
+    },
+    "fastv_samri": {
+      "enabled": true,
+      "playlist_name": "時代劇TV (FAST)",
+      "expected_tvg_id": "fastch_v2_samri",
+      "display_name_en": "Jidaigeki TV",
+      "display_name_ja": "時代劇TV (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "samri",
+        "source_channel_name": "時代劇"
+      }
+    },
+    "fastv_comdy": {
+      "enabled": true,
+      "playlist_name": "LeminoTV (FAST)",
+      "expected_tvg_id": "fastch_v2_comdy",
+      "display_name_en": "LeminoTV",
+      "display_name_ja": "LeminoTV (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "comdy",
+        "source_channel_name": "バラエティ"
+      }
+    },
+    "fastv_asdrm": {
+      "enabled": true,
+      "playlist_name": "エンタメ・アジア (FAST)",
+      "expected_tvg_id": "fastch_v2_asdrm",
+      "display_name_en": "Entertainment Asia",
+      "display_name_ja": "エンタメ・アジア (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "asdrm",
+        "source_channel_name": "ｱｼﾞｱﾄﾞﾗﾏ"
+      }
+    },
+    "fastv_kids": {
+      "enabled": true,
+      "playlist_name": "アニマックス FREE (FAST)",
+      "expected_tvg_id": "fastch_v2_kids",
+      "display_name_en": "Animax FREE",
+      "display_name_ja": "アニマックス FREE (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "kids",
+        "source_channel_name": "アニメ"
+      }
+    },
+    "fastv_pett1": {
+      "enabled": true,
+      "playlist_name": "ペットTV (FAST)",
+      "expected_tvg_id": "fastch_v2_pett1",
+      "display_name_en": "Pet TV",
+      "display_name_ja": "ペットTV (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "pett1",
+        "source_channel_name": "ペット"
+      }
+    },
+    "fastv_camng": {
+      "enabled": true,
+      "playlist_name": "キャンプ・アウトドア (FAST)",
+      "expected_tvg_id": "fastch_v2_camng",
+      "display_name_en": "Camp and Outdoors",
+      "display_name_ja": "キャンプ・アウトドア (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "camng",
+        "source_channel_name": "キャンプ"
+      }
+    },
+    "fastv_travl": {
+      "enabled": true,
+      "playlist_name": "今日のごはんなに? (FAST)",
+      "expected_tvg_id": "fastch_v2_travl",
+      "display_name_en": "What’s for Dinner?",
+      "display_name_ja": "今日のごはんなに? (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "travl",
+        "source_channel_name": "料理"
+      }
+    },
+    "fastv_recip": {
+      "enabled": true,
+      "playlist_name": "観るたび (FAST)",
+      "expected_tvg_id": "fastch_v2_recip",
+      "display_name_en": "Mirutabi",
+      "display_name_ja": "観るたび (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "recip",
+        "source_channel_name": "旅行"
+      }
+    },
+    "fastv_news1": {
+      "enabled": true,
+      "playlist_name": "丸ごと九州 (FAST)",
+      "expected_tvg_id": "fastch_v2_news1",
+      "display_name_en": "Marugoto Kyushu",
+      "display_name_ja": "丸ごと九州 (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "news1",
+        "source_channel_name": "九州"
+      }
     }
   }
 }
