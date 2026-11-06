@@ -1256,6 +1256,78 @@
         "source_channel_id": "news1",
         "source_channel_name": "九州"
       }
+    },
+    "fastv_jpthp": {
+      "enabled": true,
+      "playlist_name": "ぴあ落語ざんまい (FAST)",
+      "expected_tvg_id": "fastch_v2_jpthp",
+      "display_name_en": "Pia Rakugo Zanmai",
+      "display_name_ja": "ぴあ落語ざんまい",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "jpthp",
+        "source_channel_name": "落語"
+      }
+    },
+    "fastv_snyon": {
+      "enabled": true,
+      "playlist_name": "FASHIONPLUS (FAST)",
+      "expected_tvg_id": "fastch_v2_snyon",
+      "display_name_en": "FASHIONPLUS",
+      "display_name_ja": "FASHIONPLUS",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "snyon",
+        "source_channel_name": "ﾌｧｯｼｮﾝ"
+      }
+    },
+    "fastv_goshogi": {
+      "enabled": true,
+      "playlist_name": "囲碁・将棋ライト (FAST)",
+      "expected_tvg_id": "fastch_v2_goshogi",
+      "display_name_en": "Igo and Shogi Light (Fast TV)",
+      "display_name_ja": "囲碁・将棋ライト (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "goshogi",
+        "source_channel_name": "囲碁・将棋"
+      }
+    },
+    "fastv_hokkaido": {
+      "enabled": true,
+      "playlist_name": "丸ごと北海道 (FAST)",
+      "expected_tvg_id": "fastch_v2_hokkaido",
+      "display_name_en": "Marugoto Hokkaido",
+      "display_name_ja": "丸ごと北海道 (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "hokkaido",
+        "source_channel_name": "北海道"
+      }
+    },
+    "fastv_tokai": {
+      "enabled": true,
+      "playlist_name": "東海ロキポ (FAST)",
+      "expected_tvg_id": "fastch_v2_tokai",
+      "display_name_en": "Tokai Locipo",
+      "display_name_ja": "東海ロキポ (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "tokai",
+        "source_channel_name": "東海"
+      }
+    },
+    "fastv_krdrm": {
+      "enabled": true,
+      "playlist_name": "韓流チャンネル (FAST)",
+      "expected_tvg_id": "fastch_v2_krdrm",
+      "display_name_en": "Korean Drama Channel",
+      "display_name_ja": "韓流チャンネル (FAST)",
+      "source": "fastv",
+      "source_options": {
+        "source_channel_id": "krdrm",
+        "source_channel_name": "韓流"
+      }
     }
   }
 }

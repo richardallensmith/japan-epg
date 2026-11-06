@@ -1,0 +1,308 @@
+[
+  {
+    "channel": {
+      "channel_id": "jpthp",
+      "channel_name": "落語",
+      "channel_url": "https://livetv.fastv.jp/channel_assembly/69608EE9725E0F73BF30/master.m3u8"
+    },
+    "epgs": [
+      {
+        "asset_id": "JPTHP_6AC344B1CB4CA",
+        "starttime": 1793959615,
+        "endtime": 1793960587,
+        "title": "金原亭馬の助「権兵衛狸 〜百面相〜」"
+      },
+      {
+        "asset_id": "JPTHP_6AC344E3938C8",
+        "starttime": 1793960587,
+        "endtime": 1793961703,
+        "title": "金原亭馬生「そば清」"
+      },
+      {
+        "asset_id": "JPTHP_6AC3451FEF49E",
+        "starttime": 1793961703,
+        "endtime": 1793962597,
+        "title": "三遊亭鬼丸「新岸柳島」"
+      },
+      {
+        "asset_id": "JPTHP_6AC3456A6F9AA",
+        "starttime": 1793962597,
+        "endtime": 1793963570,
+        "title": "入船亭扇好「転失気」"
+      },
+      {
+        "asset_id": "JPTHP_6AC345A6EAF8B",
+        "starttime": 1793963570,
+        "endtime": 1793964427,
+        "title": "桂文雀「写真の仇討」"
+      },
+      {
+        "asset_id": "JPTHP_6AC345D0916DF",
+        "starttime": 1793964427,
+        "endtime": 1793965495,
+        "title": "林家鉄平「花筏」"
+      },
+      {
+        "asset_id": "JPTHP_6AC34621DDAF4",
+        "starttime": 1793965495,
+        "endtime": 1793966470,
+        "title": "桂文生「前座修業」"
+      },
+      {
+        "asset_id": "JPTHP_6AC3465B8F8A9",
+        "starttime": 1793966470,
+        "endtime": 1793968688,
+        "title": "春風亭正朝「へっつい幽霊」"
+      },
+      {
+        "asset_id": "JPTHP_6AC341B3D6116",
+        "starttime": 1793968688,
+        "endtime": 1793969369,
+        "title": "三遊亭歌武蔵「支度部屋外伝」"
+      },
+      {
+        "asset_id": "JPTHP_6AC341F685CB9",
+        "starttime": 1793969369,
+        "endtime": 1793970486,
+        "title": "古今亭菊千代「ふぐ鍋」"
+      },
+      {
+        "asset_id": "JPTHP_6AC34232DB786",
+        "starttime": 1793970486,
+        "endtime": 1793971407,
+        "title": "柳亭左龍「のめる」"
+      }
+    ]
+  },
+  {
+    "channel": {
+      "channel_id": "snyon",
+      "channel_name": "ﾌｧｯｼｮﾝ",
+      "channel_url": "https://livetv.fastv.jp/channel_assembly/69609952725E0FA3B987/master.m3u8"
+    },
+    "epgs": [
+      {
+        "asset_id": "SNYON_6AD9C2B9E7EDF",
+        "starttime": 1793957744,
+        "endtime": 1793960521,
+        "title": "コモド島vlog【AYANA KOMODO✨🦎】"
+      },
+      {
+        "asset_id": "SNYON_6AD8CC587059B",
+        "starttime": 1793960521,
+        "endtime": 1793961024,
+        "title": "【adabat×櫻井貴史】理想のゴルフウェアを作ります｜本気の一着が形になるまで"
+      },
+      {
+        "asset_id": "SNYON_6AD9C5D6EA3E6",
+        "starttime": 1793961024,
+        "endtime": 1793961800,
+        "title": "COMOLI/コモリ縮絨ウールジップショートジャケット 購入着画紹介レビュー #COMOLI #コモリ #comoli縮絨"
+      },
+      {
+        "asset_id": "SNYON_6AD9C690E40ED",
+        "starttime": 1793961800,
+        "endtime": 1793963527,
+        "title": "【AUTUMN COLLECTION】世代別 秋コーデ10LOOK！"
+      },
+      {
+        "asset_id": "SNYON_6AD9C640F2551",
+        "starttime": 1793963527,
+        "endtime": 1793964193,
+        "title": "【古民家の食卓】万博フリマの戦利品たち。お迎えした器をさっそく使って、小さな幸せを得た| Traditional Japanese House | Japanese Countryside"
+      },
+      {
+        "asset_id": "SNYON_6AD9C1C8E16C5",
+        "starttime": 1793964193,
+        "endtime": 1793966377,
+        "title": "【世界一周22】豪華乗り継ぎ、タイ航空とシンガポール航空のビジネスクラスを徹底比較してみた！"
+      },
+      {
+        "asset_id": "SNYON_6AD8C3E77F310",
+        "starttime": 1793966377,
+        "endtime": 1793967763,
+        "title": "【令和の虎出演】韓国ファッションで日本と韓国を繋ぐ27歳経営者が熱すぎた"
+      },
+      {
+        "asset_id": "SNYON_6AD9C84959308",
+        "starttime": 1793967763,
+        "endtime": 1793968996,
+        "title": "【保存版】あのレザーシューズは今いくら？分からないから全部リスト化したぞ【前編】"
+      },
+      {
+        "asset_id": "SNYON_6AD9C89A75BC8",
+        "starttime": 1793968996,
+        "endtime": 1793970316,
+        "title": "【保存版】高級レザーシューズの現在の価格をまとめたぞ【後編】"
+      },
+      {
+        "asset_id": "SNYON_6AD9C317052F1",
+        "starttime": 1793970316,
+        "endtime": 1793971714,
+        "title": "韓国で買った冬服たち。ベストバイ10点を紹介するよ^_−"
+      }
+    ]
+  },
+  {
+    "channel": {
+      "channel_id": "goshogi",
+      "channel_name": "囲碁・将棋",
+      "channel_url": "https://livetv.fastv.jp/channel_assembly/69998C7B725E30DA4170/master.m3u8"
+    },
+    "epgs": [
+      {
+        "asset_id": "GOSHOGI_69BA497D20762",
+        "starttime": 1793958032,
+        "endtime": 1793964422,
+        "title": "第31期 銀河戦 決勝トーナメント 1回戦 第2局 永瀬拓矢王座 vs 野月浩貴八段"
+      },
+      {
+        "asset_id": "GOSHOGI_69BA4A28727FB",
+        "starttime": 1793964422,
+        "endtime": 1793970813,
+        "title": "第31期 銀河戦 決勝トーナメント 1回戦 第3局 森内俊之九段 vs 渡辺 明九段"
+      },
+      {
+        "asset_id": "GOSHOGI_69BA4B40E1D40",
+        "starttime": 1793970813,
+        "endtime": 1793977204,
+        "title": "第31期 銀河戦 決勝トーナメント 1回戦 第4局 山崎隆之八段 vs 渡辺和史六段"
+      }
+    ]
+  },
+  {
+    "channel": {
+      "channel_id": "hokkaido",
+      "channel_name": "北海道",
+      "channel_url": "https://livetv.fastv.jp/channel_assembly/69998D0964B83951E552/master.m3u8"
+    },
+    "epgs": [
+      {
+        "asset_id": "HOKKAIDO_6AB5C836B6527",
+        "starttime": 1793960096,
+        "endtime": 1793961656,
+        "title": "LOVE HOKKAIDO #480【公式】『海岸線ふれあいドライブ旅in石狩・厚田区』2023年6月10日放送"
+      },
+      {
+        "asset_id": "HOKKAIDO_6AB5C867B2DB9",
+        "starttime": 1793961656,
+        "endtime": 1793963216,
+        "title": "LOVE HOKKAIDO #481【公式】『海岸線ふれあいドライブ旅in厚岸・浜中町』2023年6月17日放送"
+      },
+      {
+        "asset_id": "HOKKAIDO_6AB5C8AA1F761",
+        "starttime": 1793963216,
+        "endtime": 1793964776,
+        "title": "LOVE HOKKAIDO #482【公式】『黄色のシャワーたっぷり！滝川 菜の花まつりへGO!』2023年6月24日放送"
+      },
+      {
+        "asset_id": "HOKKAIDO_6AB5C646CCB59",
+        "starttime": 1793964776,
+        "endtime": 1793966321,
+        "title": "LOVE HOKKAIDO #486【公式】『レースを見るだけじゃない門別競馬場』2023/8/12（土）放送"
+      },
+      {
+        "asset_id": "HOKKAIDO_6A8CFA95EC4E5",
+        "starttime": 1793966321,
+        "endtime": 1793967746,
+        "title": "旅コミ北海道 じゃらん de GO！「恵庭＆北広島 夏の旬グルメドライブ」【2026/8/8放送】"
+      },
+      {
+        "asset_id": "HOKKAIDO_6A8CFB38DDB10",
+        "starttime": 1793967746,
+        "endtime": 1793969212,
+        "title": "旅コミ北海道 じゃらん de GO！「夏満喫！お手軽ニセコ旅」【2026/8/15放送】"
+      },
+      {
+        "asset_id": "HOKKAIDO_6A8CFBE1C5FF7",
+        "starttime": 1793969212,
+        "endtime": 1793970710,
+        "title": "旅コミ北海道 じゃらん de GO！「500円以下！道の駅グルメ＆日帰り温泉」【2026/8/22放送】"
+      },
+      {
+        "asset_id": "HOKKAIDO_6A96A95F89ADE",
+        "starttime": 1793970710,
+        "endtime": 1793972180,
+        "title": "旅コミ北海道 じゃらん de GO！「札幌　注目の新店グルメドライブ」【2026/8/29放送】"
+      }
+    ]
+  },
+  {
+    "channel": {
+      "channel_id": "tokai",
+      "channel_name": "東海",
+      "channel_url": "https://livetv.fastv.jp/channel_assembly/69998DB5725E30535DA6/master.m3u8"
+    },
+    "epgs": [
+      {
+        "asset_id": "TOKAI_6A559C8667F33",
+        "starttime": 1793959636,
+        "endtime": 1793962756,
+        "title": "超町人！チョコレートサムネット#110「世界のYAZAWAが愛した鉄板茶色グルメが登場！濃厚つけ麺をかけて かなでが大暴走！？」"
+      },
+      {
+        "asset_id": "TOKAI_6AD056D24CEBD",
+        "starttime": 1793962756,
+        "endtime": 1793963954,
+        "title": "【虫に大ビビり】日本一小さなトンボを大捜索！／大賑わい！道の駅の「メロンパフェ」／絶品！“店主の気まぐれパスタ”とは"
+      },
+      {
+        "asset_id": "TOKAI_6AD05731BD564",
+        "starttime": 1793963954,
+        "endtime": 1793965181,
+        "title": "【特別編】代打中村アナがまさかの逆走で大暴れ！友廣アナの努力が水の泡に…。綺麗な海を前にしてご立腹！？ #cbcテレビ #友廣南実 #自転車旅"
+      },
+      {
+        "asset_id": "TOKAI_6AD0579A1AB05",
+        "starttime": 1793965181,
+        "endtime": 1793966585,
+        "title": "【ついに完走】125キロ過酷旅の最終回もハプニング連発！不運すぎる友廣アナを救った“神様”の正体とは！？ #cbcテレビ #友廣南実 #自転車旅"
+      },
+      {
+        "asset_id": "TOKAI_6AD05BF31FA7B",
+        "starttime": 1793966585,
+        "endtime": 1793967902,
+        "title": "【定休日クイーン】アジア大会特別企画！まさかの定休日を引き当てる凶運の友廣アナ！#cbcテレビ #友廣南実 #自転車旅"
+      },
+      {
+        "asset_id": "TOKAI_6AB627D58B423",
+        "starttime": 1793967902,
+        "endtime": 1793969527,
+        "title": "【千原ジュニアのヘベレケ】 2025年8月28日放送"
+      },
+      {
+        "asset_id": "TOKAI_69DC4423D2A6A",
+        "starttime": 1793969527,
+        "endtime": 1793971152,
+        "title": "【千原ジュニアのヘベレケ】 2025年2月6日放送"
+      }
+    ]
+  },
+  {
+    "channel": {
+      "channel_id": "krdrm",
+      "channel_name": "韓流",
+      "channel_url": "https://livetv.fastv.jp/channel_assembly/6960905473F5101B6A17/master.m3u8"
+    },
+    "epgs": [
+      {
+        "asset_id": "KRDRM_674D16D8C7D70",
+        "starttime": 1793960269,
+        "endtime": 1793964532,
+        "title": "メモリスト　第８話"
+      },
+      {
+        "asset_id": "KRDRM_674D16DCE0693",
+        "starttime": 1793964532,
+        "endtime": 1793968461,
+        "title": "メモリスト　第９話"
+      },
+      {
+        "asset_id": "KRDRM_674D16DFE225B",
+        "starttime": 1793968461,
+        "endtime": 1793972399,
+        "title": "メモリスト　第１０話"
+      }
+    ]
+  }
+]

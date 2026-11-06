@@ -94,6 +94,12 @@ The playlist remains the authority for channel identity. The generator refuses t
 | 今日のごはんなに? (FAST) | `fastch_v2_travl` | Fast TV public player guide, channel `travl` |
 | 観るたび (FAST) | `fastch_v2_recip` | Fast TV public player guide, channel `recip` |
 | 丸ごと九州 (FAST) | `fastch_v2_news1` | Fast TV public player guide, channel `news1` |
+| ぴあ落語ざんまい (FAST) | `fastch_v2_jpthp` | Fast TV public player guide, channel `jpthp` |
+| FASHIONPLUS (FAST) | `fastch_v2_snyon` | Fast TV public player guide, channel `snyon` |
+| 囲碁・将棋ライト (FAST) | `fastch_v2_goshogi` | Fast TV public player guide, channel `goshogi` |
+| 丸ごと北海道 (FAST) | `fastch_v2_hokkaido` | Fast TV public player guide, channel `hokkaido` |
+| 東海ロキポ (FAST) | `fastch_v2_tokai` | Fast TV public player guide, channel `tokai` |
+| 韓流チャンネル (FAST) | `fastch_v2_krdrm` | Fast TV public player guide, channel `krdrm` |
 
 Playlist: <https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u>
 
@@ -106,6 +112,8 @@ The 2026-10-27 live batch adds 12 more R Channel services: that’s 70s, that’
 The R Channel mappings use [R Channel's dated programme grid](https://channel.rakuten.co.jp/schedule). Its JSON rows include channel IDs, titles, stream URLs, and programme start/end times. The adapter checks the exact source channel ID and stream URL against each live playlist entry before using listings. English-only news services retain their source English text without a false Japanese language tag. The grid is a platform endpoint and may change; missing or changed data fails validation rather than substituting a different channel's guide.
 
 The 2026-11-05 live batch adds 12 FAST feeds using [Fast TV's public embedded player](https://fastv.jp/). Its player calls a programme guide API with timed entries and a channel list with stream URLs. Each mapping pins the source channel ID and name, then checks that its stream URL equals the exact live playlist URL. The source's empty-programme placeholders are excluded. The player API may change; identity or schedule failure stops feed generation.
+
+The 2026-11-06 live batch adds the six remaining Fast TV feeds after their public player guide began returning current timed entries. Each source channel ID, source name, and stream URL was checked independently against the confirmed-live playlist. Six other confirmed-live R Channel feeds remain pending because Rakuten's dated grid omitted their exact identities on November 6 and 7; the separate Rakuten Igo/Shogi Light feed is one of them.
 
 ## Generate and validate
 
