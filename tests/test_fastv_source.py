@@ -8,7 +8,7 @@ from urllib.parse import quote
 
 from src.fetch.base import SourceError
 from src.fetch.fastv import FastVSource
-from src.playlist import load_playlist
+from src.playlist import find_configured_channel, load_playlist
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -74,7 +74,13 @@ class FastVSourceTests(unittest.TestCase):
                 config = configs["fastv_" + source_id]
                 self.assertTrue(config["enabled"])
                 self.assertEqual(tvg_id, config["expected_tvg_id"])
-                self.assertEqual(playlist[tvg_id].name, config["playlist_name"])
+                self.assertEqual(playlist[tvg_id].tvg_name, config["playlist_name"])
+                self.assertEqual(
+                    playlist[tvg_id],
+                    find_configured_channel(
+                        list(playlist.values()), name=config["playlist_name"], expected_id=tvg_id,
+                    ),
+                )
                 self.assertEqual(playlist[tvg_id].url, channel["channel_url"])
                 self.assertEqual(source_id, config["source_options"]["source_channel_id"])
                 self.assertEqual(channel["channel_name"], config["source_options"]["source_channel_name"])
