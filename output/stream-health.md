@@ -1,19 +1,19 @@
 # Japan IPTV Stream Health
 
-- Updated: 2026-11-07T11:15:55.863908+00:00
-- Run status: ok
+- Updated: 2026-11-07T17:15:10.461908+00:00
+- Run status: suppressed_mass_failure
 - Upstream channels: 167
 - Checked: 167
-- Passed: 52
-- Failed: 115
+- Passed: 31
+- Failed: 136
 - Published: 52
 - Healthy: 52
 - Suspect: 0
 - Removed: 115
 - New/unverified: 0
 - Upstream removed: 0
-- Mass-failure suppression: no
-- Proven-good baseline failures: 0/52 (0.0%)
+- Mass-failure suppression: yes
+- Proven-good baseline failures: 21/52 (40.4%)
 
 ## Status changes
 
@@ -85,7 +85,7 @@
 - [removed] Music Japan TV (failures: 67) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b1c7c6dd568b4d2f98a0d558e0c78979#.m3u8: Server returned 404 Not Found
 - [removed] Music ON TV (failures: 67) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=14b01b86a90cedefc5c5dce1acf475c8b#.m3u8: Server returned 404 Not Found
 - [removed] Mystery Channel (failures: 67) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13f097360bcf2ca00dee21edacd5e8b84#.m3u8: Server returned 404 Not Found
-- [removed] NEW KPOP (failures: 67) - https://ads.its-newid.net/api/manifest.m3u8?tp=r_channel&channel_name=newkpop&channel_id=newid_165: Server returned 403 Forbidden (access denied)
+- [removed] NEW KPOP (failures: 67) - [tcp @ 0x5f39261a6f40] Connection to tcp://ads.its-newid.net:443 failed: Connection timed out https://ads.its-newid.net/api/manifest.m3u8?tp=r_channel&channel_name=newkpop&channel_id=newid_165: Connection timed out
 - [removed] NHK BS (failures: 67) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=149fb1419e970b164d7336bb3183b760a#.m3u8: Server returned 404 Not Found
 - [removed] NHK BS (Sub Ch.) (failures: 67) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=29599f4ee5496d07e2c5ea6a3e7772089#.m3u8: Server returned 404 Not Found
 - [removed] NHK BS4K (failures: 67) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2ee8ddd078206f0306c9170d3a1431ff8#.m3u8: Server returned 404 Not Found
@@ -134,5 +134,5 @@
 - [removed] しまじろうチャンネル (failures: 67) - https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rchannelbenessehlscmaf-rakutenjp/playlist.m3u8: Server returned 5XX Server Error reply
 - [removed] スカチャン1 (failures: 67) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=11852112b9a13a8b6d52dc51a66f2a8b9#.m3u8: Server returned 404 Not Found
 - [removed] ヌーヴェルパラダイス (failures: 67) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ff9a812a2bf0752a6daa6959e435b67d#.m3u8: Server returned 404 Not Found
-- [removed] 刺激ストロングSPORTS (failures: 67) - [tcp @ 0x55a1f82e0f40] Failed to resolve hostname amg01287-rakutentvjapan-shigekisports-rakutenjp-jnftc.amagi.tv: Name or service not known https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekisports-rakutenjp/playlist.m3u8: Input/output error
+- [removed] 刺激ストロングSPORTS (failures: 67) - https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekisports-rakutenjp/playlist.m3u8: Server returned 5XX Server Error reply
 - [removed] 映画（年齢制限あり） (failures: 7) - https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8: Invalid data found when processing input
