@@ -115,6 +115,8 @@ The 2026-11-05 live batch adds 12 FAST feeds using [Fast TV's public embedded pl
 
 The 2026-11-06 live batch adds the six remaining Fast TV feeds after their public player guide began returning current timed entries. Each source channel ID, source name, and stream URL was checked independently against the confirmed-live playlist. Six other confirmed-live R Channel feeds remain pending because Rakuten's dated grid omitted their exact identities on November 6 and 7; the separate Rakuten Igo/Shogi Light feed is one of them.
 
+On 2026-11-10, five live R Channel feeds remain pending: キッズ (`rch_65`), エンタメ～テレDEEP (`rch_37`), セクシーエンタメチャンネル (`rch_98`), 刺激ストロング (`rch_40`), and 囲碁・将棋ライト (R) (`rch_100`). Rakuten's dated grid for November 9–13 omitted those exact IDs; its same-name records had different IDs and stream URLs. No schedule was assigned by name alone. The 48-hour live build validated 47 mapped channels and 4,280 programmes. Fast TV's LeminoTV guide returned exact duplicate rows, so the adapter now removes identical copies while still rejecting conflicting overlaps.
+
 ## Generate and validate
 
 Python 3.11 or newer is required. There are no third-party runtime dependencies.

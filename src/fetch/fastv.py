@@ -62,6 +62,7 @@ class FastVSource:
             raise SourceError(f"Fast TV has no guide for {self.source_channel_id}")
         limit = now.astimezone(JST) + timedelta(days=days, hours=5)
         programmes = []
+        seen_rows = set()
         for row in rows:
             try:
                 start = datetime.fromtimestamp(row["starttime"], timezone.utc).astimezone(JST)
@@ -77,6 +78,10 @@ class FastVSource:
             if stop <= now or start >= limit:
                 continue
             description = " ".join((row.get("description") or "").split())
+            identity = (start, stop, title, asset_id, description)
+            if identity in seen_rows:
+                continue
+            seen_rows.add(identity)
             programmes.append(Programme(channel_id=channel_id, start=start, stop=stop,
                                          title_ja=title, description_ja=description,
                                          source_id=asset_id, source_url="https://fastv.jp/"))

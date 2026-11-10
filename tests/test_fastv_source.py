@@ -62,6 +62,23 @@ class FastVSourceTests(unittest.TestCase):
             result = self.source.fetch(channel_id="fastch_v2_busns", now=self.now, days=2)
         self.assertEqual(4, len(result))
 
+    def test_identical_duplicate_rows_are_ignored_but_conflicts_fail(self):
+        with patch.object(self.source, "_get", side_effect=[
+            {"error": 0, "channels": [self.channel]},
+            {"error": 0, "epgs": [*self.rows, self.rows[1].copy()]},
+        ]):
+            result = self.source.fetch(channel_id="fastch_v2_busns", now=self.now, days=2)
+        self.assertEqual(4, len(result))
+
+        FastVSource._channels = None
+        changed = dict(self.rows[1], title="Different programme")
+        with patch.object(self.source, "_get", side_effect=[
+            {"error": 0, "channels": [self.channel]},
+            {"error": 0, "epgs": [*self.rows, changed]},
+        ]):
+            with self.assertRaisesRegex(SourceError, "overlapping guide entries"):
+                self.source.fetch(channel_id="fastch_v2_busns", now=self.now, days=2)
+
     def test_expansion_feeds_pin_each_live_stream_and_current_guide(self):
         fixture = json.loads((ROOT / "tests/fixtures/fastv_expansion_2026-11-06.json").read_text())
         configs = json.loads((ROOT / "config/channels.yaml").read_text())["channels"]
