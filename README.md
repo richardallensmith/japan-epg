@@ -117,6 +117,8 @@ The 2026-11-06 live batch adds the six remaining Fast TV feeds after their publi
 
 On 2026-11-10, five live R Channel feeds remain pending: キッズ (`rch_65`), エンタメ～テレDEEP (`rch_37`), セクシーエンタメチャンネル (`rch_98`), 刺激ストロング (`rch_40`), and 囲碁・将棋ライト (R) (`rch_100`). Rakuten's dated grid for November 9–13 omitted those exact IDs; its same-name records had different IDs and stream URLs. No schedule was assigned by name alone. The 48-hour live build validated 47 mapped channels and 4,280 programmes. Fast TV's LeminoTV guide returned exact duplicate rows, so the adapter now removes identical copies while still rejecting conflicting overlaps.
 
+On 2026-11-15, all six live gaps were checked against Rakuten's official dated grid for November 14–19: キッズ (`rch_65`), エンタメ～テレDEEP (`rch_37`), セクシーエンタメチャンネル (`rch_98`), 刺激ストロング (`rch_40`), 映画（年齢制限あり） (`rch_42`), and 囲碁・将棋ライト (R) (`rch_100`). None of those exact IDs appeared. The guide listed similarly named services under IDs 128, 130, 125, 123, 122, and 133 respectively, but each has a different stream URL. No mapping was added without evidence that those schedules describe the confirmed-live streams. The existing `rch_100` configuration remains disabled until its exact schedule can be validated. The 48-hour live build validated 47 mapped channels and 4,403 programmes.
+
 ## Generate and validate
 
 Python 3.11 or newer is required. There are no third-party runtime dependencies.
