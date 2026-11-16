@@ -1,19 +1,19 @@
 # Japan IPTV Stream Health
 
-- Updated: 2026-11-15T23:14:01.603937+00:00
-- Run status: ok
+- Updated: 2026-11-16T05:19:46.866066+00:00
+- Run status: suppressed_mass_failure
 - Upstream channels: 167
 - Checked: 167
-- Passed: 52
-- Failed: 115
+- Passed: 15
+- Failed: 152
 - Published: 52
 - Healthy: 52
 - Suspect: 0
 - Removed: 115
 - New/unverified: 0
 - Upstream removed: 0
-- Mass-failure suppression: no
-- Proven-good baseline failures: 0/52 (0.0%)
+- Mass-failure suppression: yes
+- Proven-good baseline failures: 37/52 (71.2%)
 
 ## Status changes
 
@@ -102,7 +102,7 @@
 - [removed] Nittele G+ (failures: 100) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1b07a5a0c5cb309f5b3bdf904e56c5778#.m3u8: Server returned 404 Not Found
 - [removed] Nittele Plus (failures: 100) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=13b7a29438bb697b299207f39178bcced#.m3u8: Server returned 404 Not Found
 - [removed] Pigoo (failures: 100) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1827f6ab7906f013daeadef859acb0af8#.m3u8: Server returned 404 Not Found
-- [removed] STOCK VOICE (failures: 100) - https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-stockvoice-cmaf-rakutenjp/playlist.m3u8: Invalid data found when processing input
+- [removed] STOCK VOICE (failures: 100)
 - [removed] SUN (failures: 100) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=2dff119c3fb8755ce47b1eb377e9cb37d#.m3u8: Server returned 404 Not Found
 - [removed] Shogi Channel (failures: 100) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=172efdc0b11dcb99aa4825cfa5159ced6#.m3u8: Server returned 404 Not Found
 - [removed] Sky A (failures: 100) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1feebfcb80e43d2661a0444663cd05dd9#.m3u8: Server returned 404 Not Found
@@ -134,5 +134,5 @@
 - [removed] しまじろうチャンネル (failures: 100) - https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rchannelbenessehlscmaf-rakutenjp/playlist.m3u8: Server returned 5XX Server Error reply
 - [removed] スカチャン1 (failures: 100) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=11852112b9a13a8b6d52dc51a66f2a8b9#.m3u8: Server returned 404 Not Found
 - [removed] ヌーヴェルパラダイス (failures: 100) - https://ayaka-proxy.onrender.com/live/playlive.php?vhash=1ff9a812a2bf0752a6daa6959e435b67d#.m3u8: Server returned 404 Not Found
-- [removed] 刺激ストロングSPORTS (failures: 100) - [tcp @ 0x650d776f5d40] Failed to resolve hostname amg01287-rakutentvjapan-shigekisports-rakutenjp-jnftc.amagi.tv: Name or service not known https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekisports-rakutenjp/playlist.m3u8: Input/output error
-- [removed] 映画（年齢制限あり） (failures: 7) - https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8: Server returned 5XX Server Error reply
+- [removed] 刺激ストロングSPORTS (failures: 100) - [tcp @ 0x5b4059d66f40] Failed to resolve hostname amg01287-rakutentvjapan-shigekisports-rakutenjp-jnftc.amagi.tv: Name or service not known https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekisports-rakutenjp/playlist.m3u8: Input/output error
+- [removed] 映画（年齢制限あり） (failures: 7) - https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8: Invalid data found when processing input
