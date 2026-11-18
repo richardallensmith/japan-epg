@@ -1,7 +1,7 @@
 {
   "version": 1,
   "playlist_url": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
-  "reconciled_at": "2026-11-17T10:38:10.219926+00:00",
+  "reconciled_at": "2026-11-18T10:47:15.940090+00:00",
   "identity_sha256": "049ba9e6fd1790ef032f391c138e8ef3edb73e3dd6882d0bae7f6af59421fa7c",
   "totals": {
     "enabled": 104,
@@ -22,12 +22,12 @@
         "source_channel_id": 47,
         "source_title": "日テレNEWS"
       },
-      "validated_at": "2026-11-17T10:39:46.302838+00:00",
+      "validated_at": "2026-11-18T10:50:11.829471+00:00",
       "validation": {
         "programmes": 54,
         "current_or_future": 54,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -44,12 +44,12 @@
         "source_channel_id": 108,
         "source_title": "FNNプライムオンライン"
       },
-      "validated_at": "2026-11-17T10:39:46.302854+00:00",
+      "validated_at": "2026-11-18T10:50:11.829488+00:00",
       "validation": {
         "programmes": 54,
         "current_or_future": 54,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -66,12 +66,12 @@
         "source_channel_id": 115,
         "source_title": "MBSニュース"
       },
-      "validated_at": "2026-11-17T10:39:46.302858+00:00",
+      "validated_at": "2026-11-18T10:50:11.829493+00:00",
       "validation": {
         "programmes": 54,
         "current_or_future": 54,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -88,12 +88,12 @@
         "source_channel_id": 101,
         "source_title": "日テレNEWSセレクト グルメや生活情報、ニュース解説満載！"
       },
-      "validated_at": "2026-11-17T10:39:46.302861+00:00",
+      "validated_at": "2026-11-18T10:50:11.829496+00:00",
       "validation": {
         "programmes": 54,
         "current_or_future": 54,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -110,12 +110,12 @@
         "source_channel_id": 56,
         "source_title": "共同通信News"
       },
-      "validated_at": "2026-11-17T10:39:46.302864+00:00",
+      "validated_at": "2026-11-18T10:50:11.829499+00:00",
       "validation": {
         "programmes": 19,
         "current_or_future": 19,
-        "latest": "2026-11-20 02:00:00+09:00",
-        "earliest": "2026-11-17 17:00:00+09:00"
+        "latest": "2026-11-21 02:00:00+09:00",
+        "earliest": "2026-11-18 17:00:00+09:00"
       }
     },
     {
@@ -133,12 +133,12 @@
         "source_title": "NewsWorld",
         "source_language": "en"
       },
-      "validated_at": "2026-11-17T10:39:46.302867+00:00",
+      "validated_at": "2026-11-18T10:50:11.829502+00:00",
       "validation": {
         "programmes": 107,
         "current_or_future": 107,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:30:00+09:00"
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:30:00+09:00"
       }
     },
     {
@@ -155,12 +155,12 @@
         "source_channel_id": 54,
         "source_title": "オリコンニュース"
       },
-      "validated_at": "2026-11-17T10:39:46.302870+00:00",
+      "validated_at": "2026-11-18T10:50:11.829505+00:00",
       "validation": {
         "programmes": 19,
         "current_or_future": 19,
-        "latest": "2026-11-20 02:00:00+09:00",
-        "earliest": "2026-11-17 17:00:00+09:00"
+        "latest": "2026-11-21 02:00:00+09:00",
+        "earliest": "2026-11-18 17:00:00+09:00"
       }
     },
     {
@@ -211,12 +211,12 @@
         "source_title": "[英語]ユーロニュース",
         "source_language": "en"
       },
-      "validated_at": "2026-11-17T10:39:46.302873+00:00",
+      "validated_at": "2026-11-18T10:50:11.829509+00:00",
       "validation": {
-        "programmes": 209,
-        "current_or_future": 209,
-        "latest": "2026-11-20 00:42:00+09:00",
-        "earliest": "2026-11-17 19:30:00+09:00"
+        "programmes": 204,
+        "current_or_future": 204,
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:42:00+09:00"
       }
     },
     {
@@ -234,12 +234,12 @@
         "source_title": "[英語]Reuters 60",
         "source_language": "en"
       },
-      "validated_at": "2026-11-17T10:39:46.302876+00:00",
+      "validated_at": "2026-11-18T10:50:11.829512+00:00",
       "validation": {
         "programmes": 30,
         "current_or_future": 30,
-        "latest": "2026-11-20 02:00:00+09:00",
-        "earliest": "2026-11-17 18:00:00+09:00"
+        "latest": "2026-11-21 02:00:00+09:00",
+        "earliest": "2026-11-18 18:00:00+09:00"
       }
     },
     {
@@ -266,12 +266,12 @@
         "source_channel_id": 97,
         "source_title": "日ﾃﾚﾌﾟﾛﾚｽ ｱｰｶｲ部"
       },
-      "validated_at": "2026-11-17T10:39:46.302879+00:00",
+      "validated_at": "2026-11-18T10:50:11.829514+00:00",
       "validation": {
-        "programmes": 25,
-        "current_or_future": 25,
-        "latest": "2026-11-20 00:45:28+09:00",
-        "earliest": "2026-11-17 17:31:30+09:00"
+        "programmes": 27,
+        "current_or_future": 27,
+        "latest": "2026-11-21 00:52:13+09:00",
+        "earliest": "2026-11-18 18:24:24+09:00"
       }
     },
     {
@@ -308,12 +308,12 @@
         "source_channel_id": 34,
         "source_title": "ムビドラTV"
       },
-      "validated_at": "2026-11-17T10:39:46.302882+00:00",
+      "validated_at": "2026-11-18T10:50:11.829518+00:00",
       "validation": {
         "programmes": 31,
         "current_or_future": 31,
-        "latest": "2026-11-20 01:04:41+09:00",
-        "earliest": "2026-11-17 19:06:56+09:00"
+        "latest": "2026-11-21 02:08:39+09:00",
+        "earliest": "2026-11-18 18:44:40+09:00"
       }
     },
     {
@@ -330,12 +330,12 @@
         "source_channel_id": 73,
         "source_title": "手塚プロダクションTV"
       },
-      "validated_at": "2026-11-17T10:39:46.302884+00:00",
+      "validated_at": "2026-11-18T10:50:11.829520+00:00",
       "validation": {
         "programmes": 103,
         "current_or_future": 103,
-        "latest": "2026-11-20 01:00:08+09:00",
-        "earliest": "2026-11-17 19:30:33+09:00"
+        "latest": "2026-11-21 01:00:11+09:00",
+        "earliest": "2026-11-18 19:30:40+09:00"
       }
     },
     {
@@ -356,8 +356,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Rakuten official dated grid omitted exact rch_65 on 2026-11-16 through 2026-11-21. Same-title record 128 has a different ID and manifest URL; no current/future timed programmes could be validated for this live stream.",
-      "evidence": "https://backendapi.channel.rakuten.co.jp/platform/content/programs?date=2026-11-16&platform=WEB (also checked 2026-11-17 through 2026-11-19)"
+      "reason": "Rakuten official dated grid omitted exact rch_65 on 2026-11-18 through 2026-11-21. Related-title record 128 has a different ID and manifest URL; no current/future timed programmes could be validated for this live stream.",
+      "evidence": "https://backendapi.channel.rakuten.co.jp/platform/content/programs?date=2026-11-18&platform=WEB (also checked 2026-11-19 through 2026-11-21)"
     },
     {
       "playlist_name": "that’s 70s",
@@ -373,12 +373,12 @@
         "source_channel_id": 104,
         "source_title": "that’s 70s"
       },
-      "validated_at": "2026-11-17T10:39:46.302887+00:00",
+      "validated_at": "2026-11-18T10:50:11.829523+00:00",
       "validation": {
-        "programmes": 33,
-        "current_or_future": 33,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "programmes": 35,
+        "current_or_future": 35,
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -395,12 +395,12 @@
         "source_channel_id": 105,
         "source_title": "that’s 80s"
       },
-      "validated_at": "2026-11-17T10:39:46.302890+00:00",
+      "validated_at": "2026-11-18T10:50:11.829525+00:00",
       "validation": {
-        "programmes": 30,
-        "current_or_future": 30,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "programmes": 31,
+        "current_or_future": 31,
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -417,12 +417,12 @@
         "source_channel_id": 106,
         "source_title": "that’s 90s00s"
       },
-      "validated_at": "2026-11-17T10:39:46.302892+00:00",
+      "validated_at": "2026-11-18T10:50:11.829528+00:00",
       "validation": {
         "programmes": 32,
         "current_or_future": 32,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -439,12 +439,12 @@
         "source_channel_id": 107,
         "source_title": "that’s Rock"
       },
-      "validated_at": "2026-11-17T10:39:46.302894+00:00",
+      "validated_at": "2026-11-18T10:50:11.829531+00:00",
       "validation": {
-        "programmes": 33,
-        "current_or_future": 33,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "programmes": 35,
+        "current_or_future": 35,
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 18:00:00+09:00"
       }
     },
     {
@@ -461,12 +461,12 @@
         "source_channel_id": 74,
         "source_title": "麻雀"
       },
-      "validated_at": "2026-11-17T10:39:46.302897+00:00",
+      "validated_at": "2026-11-18T10:50:11.829533+00:00",
       "validation": {
         "programmes": 43,
         "current_or_future": 43,
-        "latest": "2026-11-20 01:42:41+09:00",
-        "earliest": "2026-11-17 18:32:51+09:00"
+        "latest": "2026-11-21 01:06:45+09:00",
+        "earliest": "2026-11-18 18:53:05+09:00"
       }
     },
     {
@@ -483,12 +483,12 @@
         "source_channel_id": 35,
         "source_title": "パチンコ・パチスロ"
       },
-      "validated_at": "2026-11-17T10:39:46.302899+00:00",
+      "validated_at": "2026-11-18T10:50:11.829536+00:00",
       "validation": {
-        "programmes": 57,
-        "current_or_future": 57,
-        "latest": "2026-11-20 00:57:24+09:00",
-        "earliest": "2026-11-17 19:07:22+09:00"
+        "programmes": 64,
+        "current_or_future": 64,
+        "latest": "2026-11-21 01:28:32+09:00",
+        "earliest": "2026-11-18 18:50:27+09:00"
       }
     },
     {
@@ -505,12 +505,12 @@
         "source_channel_id": 113,
         "source_title": "ぷれいば！ ～ゲーム専門チャンネル～"
       },
-      "validated_at": "2026-11-17T10:39:46.302902+00:00",
+      "validated_at": "2026-11-18T10:50:11.829538+00:00",
       "validation": {
-        "programmes": 49,
-        "current_or_future": 49,
-        "latest": "2026-11-20 03:33:40+09:00",
-        "earliest": "2026-11-17 18:53:06+09:00"
+        "programmes": 46,
+        "current_or_future": 46,
+        "latest": "2026-11-21 04:14:41+09:00",
+        "earliest": "2026-11-18 19:45:43+09:00"
       }
     },
     {
@@ -527,12 +527,12 @@
         "source_channel_id": 86,
         "source_title": "ワンニャンチャンネル"
       },
-      "validated_at": "2026-11-17T10:39:46.302904+00:00",
+      "validated_at": "2026-11-18T10:50:11.829541+00:00",
       "validation": {
-        "programmes": 168,
-        "current_or_future": 168,
-        "latest": "2026-11-20 00:59:25+09:00",
-        "earliest": "2026-11-17 19:35:58+09:00"
+        "programmes": 166,
+        "current_or_future": 166,
+        "latest": "2026-11-21 00:49:34+09:00",
+        "earliest": "2026-11-18 19:43:24+09:00"
       }
     },
     {
@@ -549,12 +549,12 @@
         "source_channel_id": 114,
         "source_title": "九州・沖縄　街ネタ"
       },
-      "validated_at": "2026-11-17T10:39:46.302907+00:00",
+      "validated_at": "2026-11-18T10:50:11.829544+00:00",
       "validation": {
-        "programmes": 56,
-        "current_or_future": 56,
-        "latest": "2026-11-20 00:39:27+09:00",
-        "earliest": "2026-11-17 18:59:16+09:00"
+        "programmes": 62,
+        "current_or_future": 62,
+        "latest": "2026-11-21 01:09:49+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -565,8 +565,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Rakuten official dated grid omitted exact rch_37 on 2026-11-16 through 2026-11-21. Same-title record 130 has a different ID and manifest URL; no current/future timed programmes could be validated for this live stream.",
-      "evidence": "https://backendapi.channel.rakuten.co.jp/platform/content/programs?date=2026-11-16&platform=WEB (also checked 2026-11-17 through 2026-11-19)"
+      "reason": "Rakuten official dated grid omitted exact rch_37 on 2026-11-18 through 2026-11-21. Related-title record 130 has a different ID and manifest URL; no current/future timed programmes could be validated for this live stream.",
+      "evidence": "https://backendapi.channel.rakuten.co.jp/platform/content/programs?date=2026-11-18&platform=WEB (also checked 2026-11-19 through 2026-11-21)"
     },
     {
       "playlist_name": "NEW KPOP",
@@ -593,12 +593,12 @@
         "source_channel_id": 102,
         "source_title": "QVC"
       },
-      "validated_at": "2026-11-17T10:39:46.302909+00:00",
+      "validated_at": "2026-11-18T10:50:11.829546+00:00",
       "validation": {
         "programmes": 47,
         "current_or_future": 47,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -617,12 +617,12 @@
         "station_line": 1,
         "station_id": "161"
       },
-      "validated_at": "2026-11-17T10:39:46.302913+00:00",
+      "validated_at": "2026-11-18T10:50:11.829550+00:00",
       "validation": {
         "programmes": 55,
         "current_or_future": 55,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -640,12 +640,12 @@
         "source_channel_id": 112,
         "source_title": "GSTV（宝石専門ch）"
       },
-      "validated_at": "2026-11-17T10:39:46.302916+00:00",
+      "validated_at": "2026-11-18T10:50:11.829552+00:00",
       "validation": {
         "programmes": 28,
         "current_or_future": 28,
-        "latest": "2026-11-20 02:00:00+09:00",
-        "earliest": "2026-11-17 18:00:00+09:00"
+        "latest": "2026-11-21 02:00:00+09:00",
+        "earliest": "2026-11-18 18:00:00+09:00"
       }
     },
     {
@@ -660,12 +660,12 @@
       "evidence": "https://www.skyperfectv.co.jp/program/schedule/premium/channel%3A527/",
       "source": "skyperfectv",
       "source_options": {},
-      "validated_at": "2026-11-17T10:39:46.302918+00:00",
+      "validated_at": "2026-11-18T10:50:11.829554+00:00",
       "validation": {
         "programmes": 50,
         "current_or_future": 50,
-        "latest": "2026-11-20 02:00:00+09:00",
-        "earliest": "2026-11-17 19:00:00+09:00"
+        "latest": "2026-11-21 02:00:00+09:00",
+        "earliest": "2026-11-18 19:00:00+09:00"
       }
     },
     {
@@ -698,8 +698,8 @@
       "present": true,
       "config_key": null,
       "status": "pending",
-      "reason": "Rakuten official dated grid omitted exact rch_42 on 2026-11-16 through 2026-11-21. Same-title record 122 has a different ID and manifest URL; no current/future timed programmes could be validated for this live stream.",
-      "evidence": "https://backendapi.channel.rakuten.co.jp/platform/content/programs?date=2026-11-15&platform=WEB (also checked 2026-11-14 and 2026-11-16 through 2026-11-19)"
+      "reason": "Rakuten official dated grid omitted exact rch_42 on 2026-11-18 through 2026-11-21. Related-title record 122 has a different ID and manifest URL; no current/future timed programmes could be validated for this live stream.",
+      "evidence": "https://backendapi.channel.rakuten.co.jp/platform/content/programs?date=2026-11-18&platform=WEB (also checked 2026-11-19 through 2026-11-21)"
     },
     {
       "playlist_name": "ビジネス・プレミアム (FAST)",
@@ -715,12 +715,12 @@
         "source_channel_id": "busns",
         "source_channel_name": "ビジネス"
       },
-      "validated_at": "2026-11-17T10:39:46.302921+00:00",
+      "validated_at": "2026-11-18T10:50:11.829557+00:00",
       "validation": {
-        "programmes": 103,
-        "current_or_future": 103,
-        "latest": "2026-11-20 00:43:15+09:00",
-        "earliest": "2026-11-17 19:31:54+09:00"
+        "programmes": 102,
+        "current_or_future": 102,
+        "latest": "2026-11-21 01:22:46+09:00",
+        "earliest": "2026-11-18 19:44:52+09:00"
       }
     },
     {
@@ -737,12 +737,12 @@
         "source_channel_id": "entns",
         "source_channel_name": "ｴﾝﾀﾒﾆｭｰｽ"
       },
-      "validated_at": "2026-11-17T10:39:46.302923+00:00",
+      "validated_at": "2026-11-18T10:50:11.829560+00:00",
       "validation": {
         "programmes": 136,
         "current_or_future": 136,
-        "latest": "2026-11-20 00:52:12+09:00",
-        "earliest": "2026-11-17 19:24:11+09:00"
+        "latest": "2026-11-21 00:52:12+09:00",
+        "earliest": "2026-11-18 19:09:30+09:00"
       }
     },
     {
@@ -759,12 +759,12 @@
         "source_channel_id": "bgolf",
         "source_channel_name": "ゴルフ"
       },
-      "validated_at": "2026-11-17T10:39:46.302926+00:00",
+      "validated_at": "2026-11-18T10:50:11.829562+00:00",
       "validation": {
-        "programmes": 141,
-        "current_or_future": 141,
-        "latest": "2026-11-20 00:59:59+09:00",
-        "earliest": "2026-11-17 19:19:32+09:00"
+        "programmes": 140,
+        "current_or_future": 140,
+        "latest": "2026-11-21 01:14:04+09:00",
+        "earliest": "2026-11-18 19:10:21+09:00"
       }
     },
     {
@@ -781,12 +781,12 @@
         "source_channel_id": "samri",
         "source_channel_name": "時代劇"
       },
-      "validated_at": "2026-11-17T10:39:46.302928+00:00",
+      "validated_at": "2026-11-18T10:50:11.829565+00:00",
       "validation": {
-        "programmes": 93,
-        "current_or_future": 93,
-        "latest": "2026-11-20 01:06:04+09:00",
-        "earliest": "2026-11-17 18:56:33+09:00"
+        "programmes": 94,
+        "current_or_future": 92,
+        "latest": "2026-11-21 01:12:51+09:00",
+        "earliest": "2026-11-18 19:46:23+09:00"
       }
     },
     {
@@ -803,12 +803,12 @@
         "source_channel_id": "comdy",
         "source_channel_name": "バラエティ"
       },
-      "validated_at": "2026-11-17T10:39:46.302931+00:00",
+      "validated_at": "2026-11-18T10:50:11.829567+00:00",
       "validation": {
         "programmes": 191,
         "current_or_future": 191,
-        "latest": "2026-11-20 00:46:21+09:00",
-        "earliest": "2026-11-17 19:37:49+09:00"
+        "latest": "2026-11-21 01:39:37+09:00",
+        "earliest": "2026-11-18 19:26:02+09:00"
       }
     },
     {
@@ -825,12 +825,12 @@
         "source_channel_id": "asdrm",
         "source_channel_name": "ｱｼﾞｱﾄﾞﾗﾏ"
       },
-      "validated_at": "2026-11-17T10:39:46.302933+00:00",
+      "validated_at": "2026-11-18T10:50:11.829570+00:00",
       "validation": {
-        "programmes": 100,
-        "current_or_future": 100,
-        "latest": "2026-11-20 01:14:14+09:00",
-        "earliest": "2026-11-17 19:12:58+09:00"
+        "programmes": 97,
+        "current_or_future": 97,
+        "latest": "2026-11-21 01:14:47+09:00",
+        "earliest": "2026-11-18 19:11:13+09:00"
       }
     },
     {
@@ -851,12 +851,12 @@
         "source_channel_id": "kids",
         "source_channel_name": "アニメ"
       },
-      "validated_at": "2026-11-17T10:39:46.302936+00:00",
+      "validated_at": "2026-11-18T10:50:11.829572+00:00",
       "validation": {
         "programmes": 123,
         "current_or_future": 123,
-        "latest": "2026-11-20 00:40:57+09:00",
-        "earliest": "2026-11-17 19:33:25+09:00"
+        "latest": "2026-11-21 01:11:33+09:00",
+        "earliest": "2026-11-18 19:38:05+09:00"
       }
     },
     {
@@ -877,12 +877,12 @@
         "source_channel_id": "pett1",
         "source_channel_name": "ペット"
       },
-      "validated_at": "2026-11-17T10:39:46.302938+00:00",
+      "validated_at": "2026-11-18T10:50:11.829574+00:00",
       "validation": {
-        "programmes": 302,
-        "current_or_future": 302,
-        "latest": "2026-11-20 00:59:00+09:00",
-        "earliest": "2026-11-17 19:29:13+09:00"
+        "programmes": 296,
+        "current_or_future": 296,
+        "latest": "2026-11-21 00:57:57+09:00",
+        "earliest": "2026-11-18 19:40:58+09:00"
       }
     },
     {
@@ -903,12 +903,12 @@
         "source_channel_id": "camng",
         "source_channel_name": "キャンプ"
       },
-      "validated_at": "2026-11-17T10:39:46.302941+00:00",
+      "validated_at": "2026-11-18T10:50:11.829577+00:00",
       "validation": {
-        "programmes": 125,
-        "current_or_future": 125,
-        "latest": "2026-11-20 00:39:00+09:00",
-        "earliest": "2026-11-17 19:16:22+09:00"
+        "programmes": 124,
+        "current_or_future": 124,
+        "latest": "2026-11-21 01:00:33+09:00",
+        "earliest": "2026-11-18 19:44:00+09:00"
       }
     },
     {
@@ -929,12 +929,12 @@
         "source_channel_id": "travl",
         "source_channel_name": "料理"
       },
-      "validated_at": "2026-11-17T10:39:46.302943+00:00",
+      "validated_at": "2026-11-18T10:50:11.829580+00:00",
       "validation": {
-        "programmes": 172,
-        "current_or_future": 172,
-        "latest": "2026-11-20 00:52:54+09:00",
-        "earliest": "2026-11-17 19:35:57+09:00"
+        "programmes": 156,
+        "current_or_future": 156,
+        "latest": "2026-11-21 01:12:10+09:00",
+        "earliest": "2026-11-18 19:45:24+09:00"
       }
     },
     {
@@ -955,12 +955,12 @@
         "source_channel_id": "recip",
         "source_channel_name": "旅行"
       },
-      "validated_at": "2026-11-17T10:39:46.302945+00:00",
+      "validated_at": "2026-11-18T10:50:11.829582+00:00",
       "validation": {
-        "programmes": 88,
-        "current_or_future": 88,
-        "latest": "2026-11-20 00:38:42+09:00",
-        "earliest": "2026-11-17 19:27:34+09:00"
+        "programmes": 100,
+        "current_or_future": 100,
+        "latest": "2026-11-21 00:52:02+09:00",
+        "earliest": "2026-11-18 19:30:42+09:00"
       }
     },
     {
@@ -981,12 +981,12 @@
         "source_channel_id": "news1",
         "source_channel_name": "九州"
       },
-      "validated_at": "2026-11-17T10:39:46.302948+00:00",
+      "validated_at": "2026-11-18T10:50:11.829584+00:00",
       "validation": {
-        "programmes": 146,
-        "current_or_future": 146,
-        "latest": "2026-11-20 01:33:42+09:00",
-        "earliest": "2026-11-17 19:33:16+09:00"
+        "programmes": 138,
+        "current_or_future": 137,
+        "latest": "2026-11-21 01:28:53+09:00",
+        "earliest": "2026-11-18 19:32:49+09:00"
       }
     },
     {
@@ -1007,12 +1007,12 @@
         "source_channel_id": "jpthp",
         "source_channel_name": "落語"
       },
-      "validated_at": "2026-11-17T10:39:46.302950+00:00",
+      "validated_at": "2026-11-18T10:50:11.829587+00:00",
       "validation": {
-        "programmes": 153,
-        "current_or_future": 152,
-        "latest": "2026-11-20 02:15:14+09:00",
-        "earliest": "2026-11-17 19:17:47+09:00"
+        "programmes": 150,
+        "current_or_future": 150,
+        "latest": "2026-11-21 02:06:51+09:00",
+        "earliest": "2026-11-18 19:47:10+09:00"
       }
     },
     {
@@ -1033,12 +1033,12 @@
         "source_channel_id": "snyon",
         "source_channel_name": "ﾌｧｯｼｮﾝ"
       },
-      "validated_at": "2026-11-17T10:39:46.302953+00:00",
+      "validated_at": "2026-11-18T10:50:11.829589+00:00",
       "validation": {
-        "programmes": 155,
-        "current_or_future": 155,
-        "latest": "2026-11-20 00:47:25+09:00",
-        "earliest": "2026-11-17 19:19:13+09:00"
+        "programmes": 159,
+        "current_or_future": 158,
+        "latest": "2026-11-21 00:54:17+09:00",
+        "earliest": "2026-11-18 19:13:15+09:00"
       }
     },
     {
@@ -1059,12 +1059,12 @@
         "source_channel_id": "goshogi",
         "source_channel_name": "囲碁・将棋"
       },
-      "validated_at": "2026-11-17T10:39:46.302955+00:00",
+      "validated_at": "2026-11-18T10:50:11.829592+00:00",
       "validation": {
-        "programmes": 73,
-        "current_or_future": 73,
-        "latest": "2026-11-20 01:09:37+09:00",
-        "earliest": "2026-11-17 19:38:03+09:00"
+        "programmes": 55,
+        "current_or_future": 55,
+        "latest": "2026-11-21 01:09:37+09:00",
+        "earliest": "2026-11-18 19:38:04+09:00"
       }
     },
     {
@@ -1085,12 +1085,12 @@
         "source_channel_id": "hokkaido",
         "source_channel_name": "北海道"
       },
-      "validated_at": "2026-11-17T10:39:46.302957+00:00",
+      "validated_at": "2026-11-18T10:50:11.829594+00:00",
       "validation": {
-        "programmes": 168,
-        "current_or_future": 168,
-        "latest": "2026-11-20 00:43:53+09:00",
-        "earliest": "2026-11-17 19:31:35+09:00"
+        "programmes": 173,
+        "current_or_future": 172,
+        "latest": "2026-11-21 00:53:29+09:00",
+        "earliest": "2026-11-18 19:37:33+09:00"
       }
     },
     {
@@ -1111,12 +1111,12 @@
         "source_channel_id": "tokai",
         "source_channel_name": "東海"
       },
-      "validated_at": "2026-11-17T10:39:46.302960+00:00",
+      "validated_at": "2026-11-18T10:50:11.829597+00:00",
       "validation": {
         "programmes": 116,
         "current_or_future": 116,
-        "latest": "2026-11-20 01:00:36+09:00",
-        "earliest": "2026-11-17 19:04:34+09:00"
+        "latest": "2026-11-21 01:00:36+09:00",
+        "earliest": "2026-11-18 19:04:34+09:00"
       }
     },
     {
@@ -1137,12 +1137,12 @@
         "source_channel_id": "krdrm",
         "source_channel_name": "韓流"
       },
-      "validated_at": "2026-11-17T10:39:46.302963+00:00",
+      "validated_at": "2026-11-18T10:50:11.829599+00:00",
       "validation": {
-        "programmes": 61,
-        "current_or_future": 61,
-        "latest": "2026-11-20 01:27:11+09:00",
-        "earliest": "2026-11-17 18:40:51+09:00"
+        "programmes": 62,
+        "current_or_future": 62,
+        "latest": "2026-11-21 01:21:29+09:00",
+        "earliest": "2026-11-18 18:44:45+09:00"
       }
     },
     {
@@ -1159,12 +1159,12 @@
         "area": "130",
         "service": "g1"
       },
-      "validated_at": "2026-11-17T10:39:46.302966+00:00",
+      "validated_at": "2026-11-18T10:50:11.829602+00:00",
       "validation": {
-        "programmes": 134,
-        "current_or_future": 134,
-        "latest": "2026-11-20 01:20:00+09:00",
-        "earliest": "2026-11-17 19:30:00+09:00"
+        "programmes": 132,
+        "current_or_future": 132,
+        "latest": "2026-11-21 01:17:00+09:00",
+        "earliest": "2026-11-18 19:30:00+09:00"
       }
     },
     {
@@ -2024,12 +2024,12 @@
       "evidence": "https://weathernews.jp/wnl/timetable.html",
       "source": "weathernews",
       "source_options": {},
-      "validated_at": "2026-11-17T10:39:46.302973+00:00",
+      "validated_at": "2026-11-18T10:50:11.829609+00:00",
       "validation": {
         "programmes": 9,
         "current_or_future": 9,
-        "latest": "2026-11-18 20:00:00+09:00",
-        "earliest": "2026-11-17 17:00:00+09:00"
+        "latest": "2026-11-19 20:00:00+09:00",
+        "earliest": "2026-11-18 17:00:00+09:00"
       }
     },
     {
@@ -2083,12 +2083,12 @@
       "reason": "Exact playlist identity and current source listings validated.",
       "source": "nhk_world",
       "source_options": {},
-      "validated_at": "2026-11-17T10:39:46.302975+00:00",
+      "validated_at": "2026-11-18T10:50:11.829612+00:00",
       "validation": {
-        "programmes": 312,
-        "current_or_future": 312,
-        "latest": "2026-11-20 00:56:45+09:00",
-        "earliest": "2026-11-17 19:30:00+09:00"
+        "programmes": 308,
+        "current_or_future": 308,
+        "latest": "2026-11-21 00:57:00+09:00",
+        "earliest": "2026-11-18 19:45:00+09:00"
       }
     },
     {
@@ -3035,8 +3035,8 @@
       "present": true,
       "config_key": "rchannel_igo_shogi_light",
       "status": "pending",
-      "reason": "Rakuten official dated grid omitted exact rch_100 on 2026-11-16 through 2026-11-21. Same-title record 133 has a different ID and manifest URL; no current/future timed programmes could be validated for this live stream. Historical exact-ID mapping remains disabled pending valid listings.",
-      "evidence": "https://backendapi.channel.rakuten.co.jp/platform/content/programs?date=2026-11-16&platform=WEB (also checked 2026-11-17 through 2026-11-19)",
+      "reason": "Rakuten official dated grid omitted exact rch_100 on 2026-11-18 through 2026-11-21. Related-title record 133 has a different ID and manifest URL; no current/future timed programmes could be validated for this live stream. Historical exact-ID mapping remains disabled pending valid listings.",
+      "evidence": "https://backendapi.channel.rakuten.co.jp/platform/content/programs?date=2026-11-18&platform=WEB (also checked 2026-11-19 through 2026-11-21)",
       "source": "rchannel",
       "source_options": {
         "source_channel_id": 100,
@@ -3079,12 +3079,12 @@
         "station_line": 52,
         "station_id": "55"
       },
-      "validated_at": "2026-11-17T10:39:46.302982+00:00",
+      "validated_at": "2026-11-18T10:50:11.829619+00:00",
       "validation": {
-        "programmes": 59,
-        "current_or_future": 59,
-        "latest": "2026-11-20 01:00:00+09:00",
-        "earliest": "2026-11-17 18:00:00+09:00"
+        "programmes": 56,
+        "current_or_future": 56,
+        "latest": "2026-11-21 01:00:00+09:00",
+        "earliest": "2026-11-18 19:29:00+09:00"
       }
     },
     {
