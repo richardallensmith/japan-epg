@@ -13,6 +13,10 @@ from .base import SourceError
 JST = ZoneInfo("Asia/Tokyo")
 
 
+class ChannelAbsentFromGrid(SourceError):
+    """The public grid has no row for this exact channel in the requested window."""
+
+
 class RChannelSource:
     name = "R Channel official programme grid"
     endpoint = "https://backendapi.channel.rakuten.co.jp/platform/content/programs"
@@ -52,10 +56,18 @@ class RChannelSource:
         limit = now_jst + timedelta(days=days, hours=5)
         first = now_jst.date() - timedelta(days=1)
         last = limit.date()
-        programmes: dict[tuple[datetime, datetime, str], Programme] = {}
+        pages = {}
         for offset in range((last - first).days + 1):
             day = (first + timedelta(days=offset)).isoformat()
-            matches = [row for row in self._page(day) if row.get("id") == self.source_channel_id]
+            pages[day] = self._page(day)
+        if all(not any(row.get("id") == self.source_channel_id for row in rows)
+               for rows in pages.values()):
+            raise ChannelAbsentFromGrid(
+                f"R Channel {self.source_channel_id} absent from every dated grid in {first} through {last}"
+            )
+        programmes: dict[tuple[datetime, datetime, str], Programme] = {}
+        for day, rows_for_day in pages.items():
+            matches = [row for row in rows_for_day if row.get("id") == self.source_channel_id]
             if len(matches) != 1:
                 raise SourceError(f"R Channel {self.source_channel_id} missing or duplicated on {day}")
             channel = matches[0]

@@ -10,7 +10,7 @@ from .fetch.nhk import NHKTimetableSource
 from .fetch.nhk_world import NHKWorldSource
 from .fetch.weathernews import WeathernewsSource
 from .fetch.skyperfectv import SkyPerfectVSource
-from .fetch.rchannel import RChannelSource
+from .fetch.rchannel import ChannelAbsentFromGrid, RChannelSource
 from .fetch.fastv import FastVSource
 from .models import XmltvChannel
 from .inventory import reconcile, mark_validated, save as save_inventory
@@ -57,6 +57,7 @@ def build(args: argparse.Namespace) -> dict:
     expected_ids: set[str] = set()
     playlist_ids: set[str] = set()
     source_names: set[str] = set()
+    unavailable_channels: dict[str, str] = {}
     for key, config in configs.items():
         playlist_channel = find_configured_channel(
             playlist_channels, name=config["playlist_name"],
@@ -81,8 +82,13 @@ def build(args: argparse.Namespace) -> dict:
             source = source_factories[config["source"]](**source_options)
         except KeyError as exc:
             raise RuntimeError(f"Unsupported source {config['source']!r} for {key}") from exc
+        try:
+            channel_programmes = source.fetch(channel_id=playlist_channel.tvg_id, now=now, days=args.days)
+        except ChannelAbsentFromGrid as exc:
+            unavailable_channels[expected_id] = str(exc)
+            continue
         source_names.add(source.name)
-        programmes.extend(source.fetch(channel_id=playlist_channel.tvg_id, now=now, days=args.days))
+        programmes.extend(channel_programmes)
         expected_ids.add(expected_id)
         playlist_ids.add(playlist_channel.tvg_id)
         xmltv_channels.append(
@@ -93,6 +99,8 @@ def build(args: argparse.Namespace) -> dict:
                 icon_url=playlist_channel.tvg_logo,
             )
         )
+    if not xmltv_channels:
+        raise RuntimeError("No selected channel has a current schedule")
     programmes = deduplicate(programmes)
     translator = TranslationEngine(
         title_overrides_path=ROOT / "config/title_overrides.yaml",
@@ -115,12 +123,22 @@ def build(args: argparse.Namespace) -> dict:
     )
     write_xmltv(tree, output_path)
     mark_validated(inventory, all_configs, result)
+    for record in inventory["channels"]:
+        if record["tvg_id"] in unavailable_channels:
+            record["status"] = "pending"
+            record["reason"] = unavailable_channels[record["tvg_id"]] + "; exact stream schedule awaits source restoration."
+            record.pop("validated_at", None)
+            record.pop("validation", None)
+    if unavailable_channels:
+        from collections import Counter
+        inventory["totals"] = dict(Counter(row["status"] for row in inventory["channels"] if row["present"]))
     save_inventory(inventory, inventory_path)
     result.update(
         {
             "channel_ids": sorted(expected_ids),
             "sources": sorted(source_names),
             "output": str(output_path),
+            "unavailable_channels": unavailable_channels,
         }
     )
     return result

@@ -119,6 +119,12 @@ On 2026-11-10, five live R Channel feeds remain pending: キッズ (`rch_65`), �
 
 On 2026-11-15, all six live gaps were checked against Rakuten's official dated grid for November 14–19: キッズ (`rch_65`), エンタメ～テレDEEP (`rch_37`), セクシーエンタメチャンネル (`rch_98`), 刺激ストロング (`rch_40`), 映画（年齢制限あり） (`rch_42`), and 囲碁・将棋ライト (R) (`rch_100`). None of those exact IDs appeared. The guide listed similarly named services under IDs 128, 130, 125, 123, 122, and 133 respectively, but each has a different stream URL. No mapping was added without evidence that those schedules describe the confirmed-live streams. The existing `rch_100` configuration remains disabled until its exact schedule can be validated. The 48-hour live build validated 47 mapped channels and 4,403 programmes.
 
+On 2026-11-19, the confirmed-live playlist has four uncovered channels: キッズ (`rch_65`), エンタメ～テレDEEP (`rch_37`), 映画（年齢制限あり） (`rch_42`), and 囲碁・将棋ライト (R) (`rch_100`). Rakuten's official dated grid for November 18–22 still omits all four exact IDs. It lists similarly named records under IDs 128, 130, 122, and 133, but each has a different manifest URL from the corresponding confirmed-live stream. These four remain pending until a current timed guide can be tied to each exact stream; the historical `rch_100` mapping remains disabled.
+
+The grid also stopped listing two previously mapped live feeds, パチンコ・パチスロ (`rch_35`) and ワンニャンチャンネル (`rch_86`), on every checked date. When an exact R Channel ID is absent throughout the requested grid window, generation marks it pending and omits it from that run's XMLTV. Its source mapping stays enabled so listings resume automatically if the exact ID returns. A partial date gap, changed title or stream URL, and malformed schedule remain fatal errors.
+
+The November 19 48-hour live build validated 45 channels and 4,120 programmes. Six confirmed-live feeds remain without current schedule coverage: the four longstanding gaps above plus `rch_35` and `rch_86`.
+
 ## Generate and validate
 
 Python 3.11 or newer is required. There are no third-party runtime dependencies.

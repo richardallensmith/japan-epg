@@ -7,7 +7,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from src.fetch.base import SourceError
-from src.fetch.rchannel import JST, RChannelSource
+from src.fetch.rchannel import ChannelAbsentFromGrid, JST, RChannelSource
 from src.playlist import load_playlist, find_configured_channel
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -52,6 +52,19 @@ class RChannelTests(unittest.TestCase):
             source = RChannelSource(**config["source_options"], playlist_stream_url=playlist.url)
             with self.assertRaisesRegex(SourceError, "differs from playlist ID"):
                 source.fetch(channel_id="rch_48", now=now, days=1)
+
+    def test_exact_id_absent_from_entire_grid_is_distinct_from_partial_gap(self):
+        source = RChannelSource(source_channel_id=35, source_title="パチンコ・パチスロ",
+                                playlist_stream_url="https://example.org/stream")
+        now = datetime(2026, 11, 19, 12, 0, tzinfo=JST)
+        with patch.object(RChannelSource, "_page", return_value=[]):
+            with self.assertRaises(ChannelAbsentFromGrid):
+                source.fetch(channel_id="rch_35", now=now, days=1)
+        row = {"id": 35, "title": "パチンコ・パチスロ",
+               "manifestUrl": "https://example.org/stream", "programs": [{}, {}, {}]}
+        with patch.object(RChannelSource, "_page", side_effect=[[], [row], [], []]):
+            with self.assertRaisesRegex(SourceError, "missing or duplicated"):
+                source.fetch(channel_id="rch_35", now=now, days=1)
 
     def test_material_source_overlap_is_rejected(self):
         rows = deepcopy(self.rows)
