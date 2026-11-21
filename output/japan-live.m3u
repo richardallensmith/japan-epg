@@ -81,9 +81,6 @@ https://rch01e-alive-hls.akamaized.net/15bcd044c531aa99/out/v1/339db39dc83c421f9
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="CH.527" tvg-name="GSTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/gstv.png",Jewelry GSTV (CS527)
 https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_42" tvg-name="映画（年齢制限あり）" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_42.png",映画（年齢制限あり）
-https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8
-
 #EXTINF:-1 group-title="FAST" tvg-id="fastch_v2_busns" tvg-name="ビジネス・プレミアム (FAST)" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/fastch_v2_busns.png",Business Premium (ビジネス・プレミアム (FAST))
 https://livetv.fastv.jp/channel_assembly/69607EBD725E0F65BEE4/master.m3u8
 
