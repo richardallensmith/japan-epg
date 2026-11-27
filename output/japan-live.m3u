@@ -36,9 +36,6 @@ https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-moviecmaf-rakuten
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_73" tvg-name="手塚プロダクションTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_73.png",Tezuka Productions TV (手塚プロダクションTV)
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-anime5-cmaf-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_65" tvg-name="キッズ" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_65.png",キッズ
-https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-kids-english-cmaf-rakutenjp/playlist.m3u8
-
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_104" tvg-name="that’s 70s" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/thats_70s.png",That’s 70s (that’s 70s)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-lightningnow70s-rakutenjp/playlist.m3u8
 
