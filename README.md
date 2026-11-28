@@ -125,6 +125,8 @@ The grid also stopped listing two previously mapped live feeds, パチンコ・�
 
 The November 19 48-hour live build validated 45 channels and 4,120 programmes. Six confirmed-live feeds remain without current schedule coverage: the four longstanding gaps above plus `rch_35` and `rch_86`.
 
+On 2026-11-28, the six confirmed-live gaps are ムビドラTV (`rch_34`), 麻雀 (`rch_74`), パチンコ・パチスロ (`rch_35`), ワンニャンチャンネル (`rch_86`), エンタメ～テレDEEP (`rch_37`), and 囲碁・将棋ライト (R) (`rch_100`). Rakuten's official dated grid for November 27–December 1 omits all six exact IDs. It lists same-title channels under IDs 138, 139, 134, 137, 130, and 133, respectively, but each uses a different stream URL from the confirmed-live playlist. The four enabled historical mappings remain enabled for automatic recovery; `rch_100` remains disabled, and `rch_37` remains unmapped. No replacement mapping was made by title alone. Fast TV's current `kids` guide also contains adjacent entries with one-second overlaps; the adapter trims only that shared second while rejecting larger conflicts. The 48-hour live build validated 43 channels and 4,043 programmes.
+
 ## Generate and validate
 
 Python 3.11 or newer is required. There are no third-party runtime dependencies.

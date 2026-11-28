@@ -89,6 +89,10 @@ class FastVSource:
         if len(programmes) < 3 or programmes[0].start > now + timedelta(hours=6) or programmes[-1].stop < now + timedelta(hours=2):
             raise SourceError(f"Fast TV has insufficient current/future guide for {self.source_channel_id}")
         for current, following in zip(programmes, programmes[1:]):
-            if current.stop > following.start:
+            overlap = current.stop - following.start
+            if overlap > timedelta(seconds=1):
                 raise SourceError(f"Fast TV has overlapping guide entries for {self.source_channel_id}")
+            if overlap > timedelta(0):
+                # The player sometimes gives adjacent programmes a shared second.
+                current.stop = following.start
         return programmes

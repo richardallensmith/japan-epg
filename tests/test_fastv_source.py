@@ -79,6 +79,17 @@ class FastVSourceTests(unittest.TestCase):
             with self.assertRaisesRegex(SourceError, "overlapping guide entries"):
                 self.source.fetch(channel_id="fastch_v2_busns", now=self.now, days=2)
 
+    def test_one_second_boundary_overlap_is_trimmed(self):
+        rows = [row.copy() for row in self.rows]
+        rows[1]["starttime"] = rows[0]["endtime"] - 1
+        with patch.object(self.source, "_get", side_effect=[
+            {"error": 0, "channels": [self.channel]},
+            {"error": 0, "epgs": rows},
+        ]):
+            result = self.source.fetch(channel_id="fastch_v2_busns", now=self.now, days=2)
+        self.assertEqual(result[0].stop, result[1].start)
+        self.assertEqual(int(result[0].stop.timestamp()), rows[1]["starttime"])
+
     def test_expansion_feeds_pin_each_live_stream_and_current_guide(self):
         fixture = json.loads((ROOT / "tests/fixtures/fastv_expansion_2026-11-06.json").read_text())
         configs = json.loads((ROOT / "config/channels.yaml").read_text())["channels"]
